@@ -10,7 +10,7 @@ hide:
 - Move the mouse over the panels to get the name of the panel.
 - Click on the panels to get a more detailed description of that panel (if available yet).
 
-![A320neo Flight Deck](../assets/a32nx-briefing/Cockpit_small.png "A320neo Flight Deck"){usemap="#cockpit_map" style="max-width:1188px;min-width:1188px;height=auto;"}
+![A320neo Flight Deck](../assets/a32nx-briefing/Cockpit-Overview-Map.png "A320neo Flight Deck"){usemap="#cockpit_map" style="max-width:1188px;min-width:1188px;height=auto;"}
 
 <map name="cockpit_map">
   <area title="Circuit Breaker Panel" shape="rect" coords="403,2,758,408" href="#">

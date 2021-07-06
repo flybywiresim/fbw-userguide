@@ -1,8 +1,13 @@
 # Hydraulics Control Panel
 
+---
+
+Back to [Flight Deck](../flight-deck.md)
+
+---
 
 
-![Hydraulic Control Panel](../../assets/a32nx-briefing/Hyd_panel.png "Hydraulic Control Panel")
+![Hydraulic Control Panel](../../assets/a32nx-briefing/overhead-panel/Hydraulic-Panel.png "Hydraulic Control Panel")
 
 ## Description
 

@@ -6,7 +6,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-![EFIS Control](../../assets/a32nx-briefing/EFIS_Control.png "EFIS Control")
+![EFIS Control](../../assets/a32nx-briefing/glareshield/EFIS-Control.png "EFIS Control")
 
 ## Description
 
