@@ -1,14 +1,19 @@
+---
+hide:
+    - navigation
+---
+
 # Lighting Pedestal Captain Side
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 ![Pedestal Lighting Knobs](../../assets/a32nx-briefing/pedestal/Pedestal-lighting.png "Pedestal Lighting Knobs")
 
-## Controls and Indications
+## Usage
 
 ### FLOOD LT MAIN PNL knob
 
@@ -20,4 +25,4 @@ Back to [Flight Deck](../flight-deck.md)
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

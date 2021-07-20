@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Flight Control Unit
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -40,7 +45,7 @@ The selector knobs can be rotated, pushed in, and pulled out.
 
 Note : In managed guidance (lateral, vertical guidance or managed speed), the corresponding window is dashed. Turning a selector knob without pulling it, displays a value that is the sum of the current target and the turn action value. The display remains 45 seconds on the HDG/TRK and VIS windows and 10 seconds on the Speed/Mach window before the dashes reappear. This rule does not apply to the ALT selector knob/window.
 
-## Controls and Indications
+## Usage
 
 ###  SPD/MACH selector knob
 
@@ -121,6 +126,6 @@ This pushbutton arms, disarms, engages, or disengages the approach modes:
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 

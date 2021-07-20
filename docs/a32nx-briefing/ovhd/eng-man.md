@@ -1,14 +1,19 @@
+---
+hide:
+    - navigation
+---
+
 # Engine Manual Start and N1 Mode Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 ![Engine Manual Start an N1 Mode](../../assets/a32nx-briefing/overhead-panel/eng-man-start.png "Engine Manual Start an N1 Mode")
 
-## Controls and Indications
+## Usage
 
 ### ENG MAN START
 
@@ -31,4 +36,4 @@ The thrust lever detents do not provide limit protections; over boost is possibl
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

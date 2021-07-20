@@ -1,14 +1,19 @@
+---
+hide:
+    - navigation
+---
+
 # 3rd Audio Control Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 ![3rd Audio Control Panel](../../assets/a32nx-briefing/overhead-panel/3rd-acp.png "3rd Audio Control Panel")
 
-## Controls and Indications
+## Usage
 
 ### Tansmission Keys
 
@@ -77,4 +82,4 @@ Note : The flight crew may use a cockpit handset to make PA announcements withou
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

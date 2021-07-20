@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Datalink Ctl and Display Unit
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -18,4 +23,4 @@ The DCDU is not implemented in the FlyByWire A32NX. For additional information p
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

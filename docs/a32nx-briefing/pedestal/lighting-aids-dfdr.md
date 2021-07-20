@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Lighting Pedestal, AIDS, DFDR First Officer Side
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -23,4 +28,4 @@ Pressing this button (briefly) sets an event mark on the Flight Data records.
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

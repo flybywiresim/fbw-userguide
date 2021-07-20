@@ -1,14 +1,19 @@
+---
+hide:
+    - navigation
+---
+
 # Auxiliary Power Unit
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 ![APU Panel](../../assets/a32nx-briefing/overhead-panel/Apu-Panel.png "APU Panel")
 
-## Controls and Indications
+## Usage
 
 ### MASTER SW
 
@@ -65,4 +70,4 @@ This switch controls the electric power supply for APU operation, and its protec
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

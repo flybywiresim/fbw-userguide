@@ -1,14 +1,19 @@
+---
+hide:
+    - navigation
+---
+
 # Cockpit Door Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 ![Cockpit Door Panel](../../assets/a32nx-briefing/pedestal/Cockpit-Door-Panel.png "Cockpit Door Panel")
 
-# Description
+## Description
 
 A forward-opening hinge door separates the cockpit from the passenger compartment. It has three electric locking strikes, controlled by the flight crew. In normal conditions, when the door is closed, they remain locked. When there is a request to enter the cockpit, the flight crew can authorize entry by unlocking the door, that remains closed until it is pushed open.
 
@@ -39,7 +44,7 @@ The cockpit door control unit is the system controller, in charge of:
 
 The buzzer sounds in the cockpit for 1 to 9s to indicate that a routine access request has been made, or sounds continuously if an emergency access procedure has been initiated.
 
-# Controls and Indications
+## Usage
 
 ### COCKPIT DOOR toggle switch
 
@@ -70,4 +75,4 @@ The buzzer sounds in the cockpit for 1 to 9s to indicate that a routine access r
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

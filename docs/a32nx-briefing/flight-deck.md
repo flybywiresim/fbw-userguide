@@ -1,14 +1,17 @@
 ---
 hide:
-    - navigation
     - toc
+    - navigation
 ---
 
 # Flight Deck Overview
 
-- Clickable overview of the A320neo flight deck.
-- Move the mouse over the panels to get the name of the panel.
-- Click on the panels to get a more detailed description of that panel.
+[Back to A32NX Briefing Overview](overview.md){ .md-button }
+
+!!! note "Clickable Cockpit"
+    - Clickable overview of the A320neo flight deck.
+    - Move the mouse over the panels to get the name of the panel.
+    - Click on the panels to get a more detailed description of that panel.
 
 <style>
 .imagemap {
@@ -103,8 +106,8 @@ hide:
     <a href="/a32nx-briefing/front/ilcp/"> <div class="imagemap" style="position: absolute; left: 84.5%; top: 51.5%; width: 7%; height: 3.5%;"><span class="imagemapname">Instrument Lighting Control Panel F.O.</span></div></a>
     <a href="/a32nx-briefing/front/isis/"> <div class="imagemap" style="position: absolute; left: 39.7%; top: 53.5%; width: 5.2%; height: 2.8%;"><span class="imagemapname">Integrated Standby Instrument System</span></div></a>
     <a href="/a32nx-briefing/front/dcdu/"> <div class="imagemap" style="position: absolute; left: 36.5%; top: 59.2%; width: 8%; height: 2.5%;"><span class="imagemapname">Datalink Ctl and Display Unit</span></div></a>
-    <a href="/a32nx-briefing/front/upper-ecam/"> <div class="imagemap" style="position: absolute; left: 45%; top: 51.5%; width: 11%; height: 5.1%;"><span class="imagemapname">Upper ECAM</span></div></a>
-    <a href="/a32nx-briefing/front/lower-ecam/"> <div class="imagemap" style="position: absolute; left: 45%; top: 56.6%; width: 11%; height: 5.2%;"><span class="imagemapname">Lower ECAM</span></div></a>
+    <a href="/a32nx-briefing/front/upper-ecam/"> <div class="imagemap" style="position: absolute; left: 45%; top: 51.5%; width: 11%; height: 5.1%;"><span class="imagemapname">Upper ECAM: Engine and Warning Display</span></div></a>
+    <a href="/a32nx-briefing/front/lower-ecam/"> <div class="imagemap" style="position: absolute; left: 45%; top: 56.6%; width: 11%; height: 5.2%;"><span class="imagemapname">Lower ECAM: System Display</span></div></a>
     <a href="/a32nx-briefing/front/autobrake-gear/"><div class="imagemap" style="position: absolute; left: 56%; top: 51.5%; width: 8%; height: 2.3%;"><span class="imagemapname">Autobrake and Gear</span></div></a>
     <a href="/a32nx-briefing/front/clock/"> <div class="imagemap" style="position: absolute; left: 56%; top: 53.8%; width: 5.2%; height: 2.5%;"><span class="imagemapname">Clock</span></div></a>
     <a href="/a32nx-briefing/front/nd/"> <div class="imagemap" style="position: absolute; left: 61.2%; top: 53.8%; width: 2.8%; height: 2.5%;"><span class="imagemapname">Terrain Switch for ND</span></div></a>

@@ -1,14 +1,19 @@
+---
+hide:
+    - navigation
+---
+
 # Ventilation Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 ![Ventilation Panel](../../assets/a32nx-briefing/overhead-panel/vent.png "Ventilation Panel")
 
-## Controls and Indications
+## Usage
 
 ### BLOWER and EXTRACT
 
@@ -43,4 +48,4 @@ the external horn sounds.
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

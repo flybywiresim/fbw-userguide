@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Air Condition Control Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -33,7 +38,7 @@ Then the cooled bleed air enters the compressor section of the air-cycle machine
 It is cooled again in the main heat exchanger and enters the turbine section, where it expands and in expanding generates power to drive the compressor and cooling air fan.
 The removal of energy during this process reduces the temperature of the air, resulting in very low air temperature at turbine discharge.
 
-## Controls and Indications
+## Usage
 
 ### COCKPIT, FWD CABIN, AFT CABIN
 
@@ -114,4 +119,4 @@ The removal of energy during this process reduces the temperature of the air, re
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

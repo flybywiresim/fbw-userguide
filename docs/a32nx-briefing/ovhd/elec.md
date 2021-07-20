@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Electrical System Control Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -19,12 +24,7 @@ When the overhead electrical panel has all switches on AUTO (no lights visible) 
 - The APU generator or external power can supply the entire network.
 - One engine generator can supply the entire network.
 
-!!!warning "Refer to Airbus FCOM Manuals for more details"
-    Please refer to the Airbus A320 Manuals for a more in-depth documentation of the electrical system. This overview does not cover all aspects and details.
-
-    The Electrical FCOM is provided here: [https://www.smartcockpit.com/aircraft-ressources/A320-Electrical.html]()
-
-## Controls and Indications
+## Usage
 
 ### BAT 1 + 2
 
@@ -137,4 +137,4 @@ The IDG switches are normally spring loaded out. Pressing this switch disconnect
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

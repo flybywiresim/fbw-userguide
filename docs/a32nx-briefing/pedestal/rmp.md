@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Radio Management and Audio Control Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -29,7 +34,7 @@ Identical RMPs (Radio Management Panels) :
 - RMPs are connected together so that each RMP is updated to the selections made on other RMPs.
 - Only RMP1 functions in EMER ELEC CONFIG.
 
-## Controls and Indications
+## Usage
 
 ### Frequency displays
 
@@ -154,4 +159,4 @@ Note : The flight crew may use a cockpit handset to make PA announcements withou
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

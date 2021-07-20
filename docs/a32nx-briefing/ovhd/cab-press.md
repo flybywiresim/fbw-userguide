@@ -1,9 +1,13 @@
+---
+hide:
+    - navigation
+---
 
 # Cabin Pressurization
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -56,7 +60,7 @@ Abort (AB)
 
 If the aircraft does not climb after takeoff, the abort mode prevents the cabin altitude from climbing. Cabin pressure is set back to the takeoff altitude + 0.1 PSI.
 
-## Controls and Indications
+## Usage
 
 ###  LOG ELEV sel
 
@@ -93,5 +97,5 @@ Note : The outflow valve operates slowly, so the pilot must hold the toggle swit
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 

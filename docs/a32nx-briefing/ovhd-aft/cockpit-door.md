@@ -1,13 +1,20 @@
+---
+hide:
+    - navigation
+---
+
 # Cockpit Door Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 
 ![Cockpit Door Panel](../../assets/a32nx-briefing/overhead-aft-panel/Cockpit-Door-Cont.png "Cockpit Door Panel")
+
+## Description
 
 ### Strikes' status lights
 
@@ -28,5 +35,5 @@ Note: These indicators enable the crew to identify the faulty item, when the Cen
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 

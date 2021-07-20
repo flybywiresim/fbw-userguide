@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Anti Ice Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -29,7 +34,7 @@ ELECTRICAL HEATING
 - sensors, pitot probes and static ports.
 - waste-water drain mast.
 
-## Controls and Indications
+## Usage
 
 ### WING ANTI ICE
 
@@ -62,4 +67,4 @@ This switch controls the wing anti ice system on the left and right sides simult
     - on the ground (except TAT probes) provided one engine is running.
 - ON: Probes and windows are heated permanently. Blue light comes on.
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

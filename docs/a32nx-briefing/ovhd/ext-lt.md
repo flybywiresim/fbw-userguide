@@ -1,14 +1,19 @@
+---
+hide:
+    - navigation
+---
+
 # Exterior Lighting
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 ![Exterior Lighting](../../assets/a32nx-briefing/overhead-panel/Exterior-Lighting-Panel.png "Exterior Lighting")
 
-## Controls and Indications
+## Usage
 
 ### STROBE
 
@@ -101,5 +106,5 @@ Note : These two lights, attached to the nose gear strut, go off automatically w
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 

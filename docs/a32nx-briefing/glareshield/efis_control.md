@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # EFIS Control Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -15,7 +20,7 @@ The EFIS control panels for:
 - Selection of desired ND modes (ROSE-ILS, -VOR, ARC, PLAN) and ranges,
 - Selection of baro setting.
 
-## Controls and Indications
+## Usage
 
 ### Barometer Reference Display Window
 
@@ -68,5 +73,5 @@ The green pushbutton light comes on.
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 

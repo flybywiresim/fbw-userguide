@@ -1,14 +1,20 @@
+---
+hide:
+    - navigation
+---
+
 # Maintenance Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 ![Maintenance Panel](../../assets/a32nx-briefing/overhead-aft-panel/Maintenance.png "Maintenance Panel")
 
 ---
+## Usage
 
 ### CVR Headset
 
@@ -65,4 +71,4 @@ The ON light is white.
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

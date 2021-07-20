@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Parking Brake Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -16,4 +21,4 @@ The message "PARK BRK" appears on the ECAM.
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

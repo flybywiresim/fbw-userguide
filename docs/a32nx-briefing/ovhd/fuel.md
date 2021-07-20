@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Fuel Control Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -28,7 +33,7 @@ Two electrical transfer valves are mounted in each wing to permit fuel transfer 
 
 A cross feed valve controlled by a double motor allows both engines to be fed from one side or one engine to be fed from both sides.
 
-## Control and Indications:
+## Usage
 
 ###  L + R TK PUMPS 1 + 2
 
@@ -60,5 +65,5 @@ pressure drops below threshold.
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 

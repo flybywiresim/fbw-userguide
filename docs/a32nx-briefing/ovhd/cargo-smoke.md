@@ -1,14 +1,19 @@
+---
+hide:
+    - navigation
+---
+
 # Cargo Smoke Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 ![Cargo Smoke Panel](../../assets/a32nx-briefing/overhead-panel/cargo-smoke.png "Cargo Smoke Panel")
 
-## Controls and Indications
+## Usage
 
 ### SMOKE light
 
@@ -35,4 +40,4 @@ Pressing this button for at least 3 seconds, and until it is released:
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

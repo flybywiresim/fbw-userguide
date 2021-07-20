@@ -1,12 +1,19 @@
+---
+hide:
+    - navigation
+---
+
 # FMS Load Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 ![FMS Load Panel](../../assets/a32nx-briefing/overhead-aft-panel/FMS-Load.png "FMS Load Panel")
+
+## Description
 
 This panel helps the aircraft maintenance team to review and update the aircraft's databases.
 
@@ -21,5 +28,5 @@ The A320neo has the following software & databases:
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 

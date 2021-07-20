@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Hydraulics Control Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -31,7 +36,7 @@ On ground:
 - Blue and Yellow systems can be pressurized by electric pumps. A handpump (operated from the ground on the yellow system) facilitates manoeuvring of the cargo doors.
 - Green/Yellow system can be pressurized by the PTU.
 
-## Controls and Indications
+## Usage
 
 ###  ENG 1 + 2 PUMP
 
@@ -93,5 +98,5 @@ Note: The RAT extends automatically if AC BUS 1 and AC BUS 2 are Jost.
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 

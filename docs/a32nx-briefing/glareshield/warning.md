@@ -1,14 +1,19 @@
+---
+hide:
+    - navigation
+---
+
 # Warning Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 ![Outer Glareshield Panel](../../assets/a32nx-briefing/glareshield/warning-panel.png "Outer Glareshield Panel")
 
-### Controls and Indications
+### Usage
 
 #### 1. SIDE STICK PRIORITY Lt
 
@@ -68,5 +73,5 @@ The aural warnings cease when:
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 

@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Fire Control Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -26,7 +31,7 @@ A fault in one loop (break or loss of electrical supply) does not affect the war
 
 If the system detects an APU fire while the aircraft is on the ground, it shuts down the APU automatically and discharges extinguishing agent.
 
-## Controls and Indications
+## Usage
 
 ### ENG 1 + 2 FIRE pushbutton
 
@@ -114,4 +119,4 @@ Note : The automatic shutdown of the APU on the ground will not occur while the 
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

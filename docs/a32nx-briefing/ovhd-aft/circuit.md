@@ -1,12 +1,19 @@
+---
+hide:
+    - navigation
+---
+
 # Circuit Breaker Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 ![Circuit Breaker Panel](../../assets/a32nx-briefing/overhead-aft-panel/Circuit-Breaker.png "Circuit Breaker Panel")
+
+## Description
 
 The Overhead Aft Panel contains the Emergency Circuit Breaker Panel.
 
@@ -30,4 +37,4 @@ There are further "Secondary Circuit Breakers" on the Rear Right Panel.
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

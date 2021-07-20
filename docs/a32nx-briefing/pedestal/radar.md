@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # WX Radar Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -89,5 +94,5 @@ This knob adjusts the antenna tilt when MULTISCAN sw is set to MAN. Zero indicat
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 

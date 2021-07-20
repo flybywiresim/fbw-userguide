@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Thrust Lever and Elevation Trim
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -79,4 +84,4 @@ Note: This function is inoperative, when the green or yellow hydraulic system is
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Speed Brake
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -19,5 +24,5 @@ The lever controls:
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 

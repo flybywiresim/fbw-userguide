@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # ATC TCAS Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -26,7 +31,7 @@ The XPDR is capable of elementary surveillance (ELS) and enhanced surveillance (
 ‐ The magnetic heading, the roll angle, the ground speed, the track angle, the track angle rate, and the inertial vertical speed, that are all supplied by the IRs
 ‐ The selected altitude and barometric reference settings supplied by the FCUs.
 
-## Controls and Indications
+## Usage
 
 ### XPDR Selector
 
@@ -72,4 +77,4 @@ This switch selects XPDR 1 or 2.
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

@@ -1,14 +1,19 @@
+---
+hide:
+    - navigation
+---
+
 # Fire Control Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 ![Cargo Ventilation](../../assets/a32nx-briefing/overhead-panel/cargp-vent.png "Cargo Ventilation")
 
-## Controls and Indications
+## Usage
 
 ### AFT ISOL VALVE
 
@@ -23,5 +28,5 @@ The switch controls the aft isolation valves and the extraction fan.
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 

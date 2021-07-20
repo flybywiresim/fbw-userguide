@@ -1,14 +1,19 @@
+---
+hide:
+    - navigation
+---
+
 # Internal Lights Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 ![Internal Lights Panel](../../assets/a32nx-briefing/overhead-panel/Int-lt-Panel.png "Internal Lights Panel")
 
-## Controls and Indications
+## Usage
 
 ### OVHD INTEG LT
 
@@ -39,5 +44,5 @@ allowed during the ANN LT test.
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 

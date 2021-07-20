@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Switching Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -12,7 +17,7 @@ Back to [Flight Deck](../flight-deck.md)
 
 To have maximal redundancy A320 pilots can switch backup computers or data sources to be used for either the Captain's or First Officer's displays.
 
-## Controls and Indications
+## Usage
 
 ### ATT HDG Selector
 
@@ -59,4 +64,4 @@ The switch on the right-hand side of the SWITCHING panel enables the flight crew
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

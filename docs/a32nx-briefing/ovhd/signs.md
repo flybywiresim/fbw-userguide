@@ -1,14 +1,19 @@
+---
+hide:
+    - navigation
+---
+
 # Signs Panel
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
 ![SIGNS Panel](../../assets/a32nx-briefing/overhead-panel/Signs-Panel.png "SIGNS Panel")
 
-## Controls and Indications
+## Usage
 
 ### EMER EXIT LT
 
@@ -53,4 +58,4 @@ Note : If the cabin altitude goes above 11300 feet (± 350 feet), the cabin illu
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }

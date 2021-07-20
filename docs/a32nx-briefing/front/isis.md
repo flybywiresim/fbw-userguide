@@ -1,8 +1,13 @@
+---
+hide:
+    - navigation
+---
+
 # Integrated Standby Instrument System
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
 ---
 
@@ -21,7 +26,7 @@ The ISIS system displays the following information:
 - LS function
 - Bugs
 
-## Controls and Indications
+## Usage
 
 ### ”+”/ “-” activation pushbuttons
 
@@ -61,5 +66,5 @@ The ISIS system displays the following information:
 
 ---
 
-Back to [Flight Deck](../flight-deck.md)
+[Back to Flight Deck](../flight-deck.md){ .md-button }
 
