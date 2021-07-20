@@ -1,3 +1,8 @@
+---
+title: Home Page
+description: The A32NX Project is a community-driven open source project to create a free Airbus A320neo in Microsoft Flight Simulator that is as close to reality as possible.
+---
+
 # A32NX Documentation
 
 ***
