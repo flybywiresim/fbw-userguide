@@ -1,6 +1,7 @@
 # Project Information
 site_name: FlyByWire Simulations Guides
 site_url: https://docs.flybywiresim.com/
+site_description: Documentation and guides for FlyByWire Simulations products and development.
 # repo allows for linking main repo to docs
 # Uncomment to use
 repo_url: https://github.com/flybywiresim/a32nx/
