@@ -1,0 +1,139 @@
+# ############################
+# GERMAN
+# ############################
+
+# Project Information
+site_name: FlyByWire Simulations Guides (Swedish)
+docs_dir: '../../docs/sv'                           # Where to find the English markdown files
+site_dir: '../../site/sv'                      # Where to put the English HTML files
+site_url: https://docs.flybywiresim.com/
+
+# repo allows for linking main repo to docs
+# Uncomment to use
+repo_url: https://github.com/flybywiresim/a32nx/
+repo_name: flybywiresim/a32nx
+edit_uri: "" #removes edit button and icon
+
+# Configuration
+theme:
+  name: material
+  custom_dir: ../../overrides             # This is where the customization of the theme lives
+  logo: assets/images/FBW-Tail.png        # The logo is shared by all languages
+  favicon: assets/images/FBW-Tail.png     # The favicon is shared by all languages
+  language: sv                            # The build's language
+  palette:
+    scheme: slate
+  features:
+    - navigation.tabs
+    - navigation.instant
+    - navigation.top
+
+# Styling Front-end
+extra_css:
+  - stylesheets/extra.css                 # CSS is shared by all languages
+
+# Plugins
+plugins:
+  - search:
+      lang: sv
+  - git-revision-date-localized:
+      type: date
+
+# Extra Functions / Customizations
+extra:
+  generator: false
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/flybywiresim
+      name: FlyByWire Simulations on Github
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/FlyByWireSim
+      name: FlyByWire Simulations on Twitter
+    - icon: fontawesome/brands/facebook
+      link: https://www.facebook.com/FlyByWireSimulations
+      name: FlyByWire Simulations on Facebook
+    - icon: fontawesome/brands/discord
+      link: https://discord.com/invite/flybywire
+      name: FlyByWire Simulations on Discord
+    - icon: fontawesome/brands/twitch
+      link: https://www.twitch.tv/flybywiresimulations
+      name: FlyByWire Simulations on Twitch
+    - icon: fontawesome/brands/youtube
+      link: https://youtube.com/flybywiresimulations
+      name: FlyByWire Simulations on Youtube
+  alternate:
+    # Switch to English
+    - name: English
+      link: /flybywire-docs/site/en/
+      lang: en
+    # Switch to German
+    - name: Deutsch
+      link: /flybywire-docs/site/de/
+      lang: de
+    # Switch to Swedish
+    - name: Svenska
+      link: /flybywire-docs/site/sv/
+      lang: sv
+#    # Switch to Japanese
+#    - name: 日本語
+#      link: /ja/
+#      lang: ja
+
+# Additional Markdown Extensions to use bundled icon sets
+markdown_extensions:
+  - meta # Add front matter to a document
+  - admonition # Makes things pretty
+  - pymdownx.superfences # Nestled code
+  - attr_list # Add HTML attributes and CSS classes to Markdown elements
+  - pymdownx.tabbed # Content tabs
+  - pymdownx.details # Additional features to admonition
+  - pymdownx.caret # Formatting Extension
+  - pymdownx.mark # Formatting Extension
+  - pymdownx.tilde # Formatting Extension
+  - pymdownx.keys # Visual keyboard keys extension
+  - pymdownx.snippets
+  - pymdownx.tasklist:
+      custom_checkbox: true
+  - pymdownx.emoji: # Allows emoji style inline embeds for icons
+      emoji_index: !!python/name:materialx.emoji.twemoji
+      emoji_generator: !!python/name:materialx.emoji.to_svg
+
+
+        # Navigation
+        # Section Containers are defined by `- Section Name:`
+        # These should have NO filename.md next to them
+      # Nestle all pages underneath sections as seen below:
+nav:
+  - Home: index.md
+  - Getting Started:
+      - Installation: start/installation.md
+      - Converting Liveries: start/convert-liveries.md
+      - Porting Custom Camera Views: start/porting-custom-cameras.md
+      - Reported Issues: start/reported-issues.md
+      - Performance Tips: start/performance-tips.md
+      - Common Questions: start/faq.md
+      - MCDU Keyboard Input: start/mcdu-keyboard.md
+      - Autopilot / Fly-By-Wire: start/autopilot-fbw.md
+  - Beginner Guide:
+      - Overview: beginner-guide/overview.md
+      - Starting the aircraft: beginner-guide/starting-the-aircraft.md
+      - Preparing the MCDU: beginner-guide/preparing-mcdu.md
+      - Engine Start and Taxi: beginner-guide/engine-start-taxi.md
+      - Takeoff, Climb and Cruise: beginner-guide/takeoff-climb-cruise.md
+      - Descent Planning and Descent: beginner-guide/descent.md
+      - Approach and ILS Landing: beginner-guide/landing.md
+      - After Landing and Taxi to Gate: beginner-guide/after-landing.md
+      - Powering Down: beginner-guide/powering-down.md
+      - Abbreviations: beginner-guide/abbreviations.md
+  - Airliner Flying Guide:
+      - Overview: airliner-flying-guide/overview.md
+      - Types of Approaches: airliner-flying-guide/approaches.md
+      - Navigation: airliner-flying-guide/navigation.md
+      - Understanding Altitude References: airliner-flying-guide/altitude-refs.md
+      - METARs/TAFs/ATIS: airliner-flying-guide/weather.md
+  - Development Projects:
+      - Overview: development-projects/overview.md
+      - Website: development-projects/website.md
+  - A32NX Development:
+      - Overview: a32nx-dev/overview.md
+  - Donate: donate.md
