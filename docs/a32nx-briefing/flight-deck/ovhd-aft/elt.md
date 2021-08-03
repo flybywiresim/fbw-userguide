@@ -7,7 +7,7 @@ hide:
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
 
 ---
 
@@ -21,4 +21,4 @@ Activation of the ELT triggers an audio alert, and 406-MHz ELTs transmit GPS pos
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }

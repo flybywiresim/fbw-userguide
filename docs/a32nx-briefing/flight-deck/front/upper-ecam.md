@@ -7,7 +7,7 @@ hide:
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
 
 ---
 
@@ -29,4 +29,4 @@ The Electronic Centralized Aircraft Monitor (ECAM) consists of two displays:
 !!! info "Future Update"
     A more in depth description of the ECAM is currently developed and will be available in the near future.
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }

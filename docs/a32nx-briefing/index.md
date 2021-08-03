@@ -14,13 +14,13 @@ but are omitted in this briefing.
 
 ---
 
-[Clickable Flight Deck](flight-deck/flight-deck.md){ .md-button }
+[Clickable Flight Deck](flight-deck/index.md){ .md-button }
 
 ---
 
 ## Chapters
 
-1. [ECAM](ecam/ecam.md)
+1. [ECAM](ecam/index.md)
 2. EFIS: PFD ([In development](tbd.md))
 3. EFIS: ND ([In development](tbd.md))
 4. MCDU ([In development](tbd.md))

@@ -7,7 +7,7 @@ hide:
 
 ---
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }
 
 ---
 
@@ -67,4 +67,4 @@ This switch controls the wing anti ice system on the left and right sides simult
     - on the ground (except TAT probes) provided one engine is running.
 - ON: Probes and windows are heated permanently. Blue light comes on.
 
-[Back to Flight Deck](../flight-deck.md){ .md-button }
+[Back to Flight Deck](../index.md){ .md-button }

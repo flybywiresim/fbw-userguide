@@ -6,7 +6,7 @@ hide:
 
 # Flight Deck Overview
 
-[Back to A32NX Briefing Overview](../overview.md){ .md-button }
+[Back to A32NX Briefing Overview](../index.md){ .md-button }
 
 !!! note "Clickable Cockpit"
     - Clickable overview of the A320neo flight deck.
