@@ -46,6 +46,9 @@ nav:
       - Website: development-projects/website.md
   - A32NX Development:
       - Overview: a32nx-dev/overview.md
+  - Operating Principles:
+      - Overview: governance/overview.md
+      - Governance Charter: governance/charter.md
   - Donate: donate.md
 
 # Configuration
