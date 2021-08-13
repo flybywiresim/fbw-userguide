@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![ELT Panel](../../../assets/a32nx-briefing/overhead-aft-panel/ELT.png "ELT Panel")
+![ELT Panel](../../../assets/a32nx-briefing/overhead-aft-panel/ELT.jpg "ELT Panel")
 
 ## Description
 

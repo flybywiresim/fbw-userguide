@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Reading Lights Jumb Seats](../../../assets/a32nx-briefing/overhead-aft-panel/Reading-Lights.png "Reading Lights Jump Seats")
+![Reading Lights Jumb Seats](../../../assets/a32nx-briefing/overhead-aft-panel/Reading-Lights.jpg "Reading Lights Jump Seats")
 
 ## Description
 

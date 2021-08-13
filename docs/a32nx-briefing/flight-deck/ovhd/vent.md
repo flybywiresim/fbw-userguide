@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Ventilation Panel](../../../assets/a32nx-briefing/overhead-panel/vent.png "Ventilation Panel")
+![Ventilation Panel](../../../assets/a32nx-briefing/overhead-panel/vent.jpg "Ventilation Panel")
 
 ## Usage
 

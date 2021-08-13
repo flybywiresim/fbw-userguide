@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Integrated Standby Instrument System](../../../assets/a32nx-briefing/overhead-panel/ISIS.png "Integrated Standby Instrument System"){width=50%}
+![Integrated Standby Instrument System](../../../assets/a32nx-briefing/front/ISIS.jpg "Integrated Standby Instrument System")
 
 ## Description
 

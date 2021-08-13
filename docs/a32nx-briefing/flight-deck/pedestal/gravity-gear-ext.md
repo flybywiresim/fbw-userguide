@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Gravtiy Gear Extension Panel](../../../assets/a32nx-briefing/pedestal/Gravity-Gear-Extn-Panel.png "Gravtiy Gear Extension Panel"){width=50%}
+![Gravtiy Gear Extension Panel](../../../assets/a32nx-briefing/pedestal/Gravity-Gear-Extn-Panel.jpg "Gravtiy Gear Extension Panel")
 
 ## Description
 

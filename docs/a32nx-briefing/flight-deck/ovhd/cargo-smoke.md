@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Cargo Smoke Panel](../../../assets/a32nx-briefing/overhead-panel/cargo-smoke.png "Cargo Smoke Panel")
+![Cargo Smoke Panel](../../../assets/a32nx-briefing/overhead-panel/cargo-smoke.jpg "Cargo Smoke Panel")
 
 ## Usage
 

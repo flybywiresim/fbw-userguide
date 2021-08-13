@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Printer Panel](../../../assets/a32nx-briefing/pedestal/Printer-Panel.png "Printer Panel"){width=50%}
+![Printer Panel](../../../assets/a32nx-briefing/pedestal/Printer-Panel.jpg "Printer Panel")
 
 ## Description
 

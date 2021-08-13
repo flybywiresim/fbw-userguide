@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Accumulator Pressure Indication](../../../assets/a32nx-briefing/front/accu.png "Accumulator Pressure Indication"){width=50%}
+![Accumulator Pressure Indication](../../../assets/a32nx-briefing/front/accu.jpg "Accumulator Pressure Indication")
 
 ## Description
 

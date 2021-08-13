@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Switching Panel](../../../assets/a32nx-briefing/pedestal/Switching-Panel.png "Switching Panel")
+![Switching Panel](../../../assets/a32nx-briefing/pedestal/Switching-Panel.jpg "Switching Panel")
 
 ## Description
 

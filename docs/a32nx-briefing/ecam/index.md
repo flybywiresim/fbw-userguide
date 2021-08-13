@@ -5,6 +5,6 @@
 
 ## Placeholder
 
-![Upper ECAM](../../assets/a32nx-briefing/front/Upper-ECAM.png "Upper ECAM")
+![Upper ECAM](../../assets/a32nx-briefing/front/Upper-ECAM.jpg "Upper ECAM")
 
-![Lower ECAM](../../assets/a32nx-briefing/front/Lower-ECAM.png "Lower ECAM")
+![Lower ECAM](../../assets/a32nx-briefing/front/Lower-ECAM.jpg "Lower ECAM")

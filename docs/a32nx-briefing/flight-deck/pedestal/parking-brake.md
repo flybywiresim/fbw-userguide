@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Parking Brake Panel](../../../assets/a32nx-briefing/pedestal/Parking-Brake-Panel.png "Parking Brake Panel"){width=50%}
+![Parking Brake Panel](../../../assets/a32nx-briefing/pedestal/Parking-Brake-Panel.jpg "Parking Brake Panel")
 
 ## Description
 

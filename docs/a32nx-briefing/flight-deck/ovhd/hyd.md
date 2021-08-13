@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Hydraulic Control Panel](../../../assets/a32nx-briefing/overhead-panel/Hydraulic-Panel.png "Hydraulic Control Panel")
+![Hydraulic Control Panel](../../../assets/a32nx-briefing/overhead-panel/Hydraulic-Panel.jpg "Hydraulic Control Panel")
 
 ## Description
 

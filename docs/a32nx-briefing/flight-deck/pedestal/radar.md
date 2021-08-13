@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![WX Radar Panel](../../../assets/a32nx-briefing/pedestal/WX-radar-Panel.png "WX Radar Panel")
+![WX Radar Panel](../../../assets/a32nx-briefing/pedestal/WX-radar-Panel.jpg "WX Radar Panel")
 
 ## Description
 

@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![ECAM Control Panel](../../../assets/a32nx-briefing/pedestal/ECAM-Control-Panel.png "ECAM Control Panel")
+![ECAM Control Panel](../../../assets/a32nx-briefing/pedestal/ECAM-Control-Panel.jpg "ECAM Control Panel")
 
 ## Description
 

@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Cargo Ventilation](../../../assets/a32nx-briefing/overhead-panel/cargp-vent.png "Cargo Ventilation")
+![Cargo Ventilation](../../../assets/a32nx-briefing/overhead-panel/cargp-vent.jpg "Cargo Ventilation")
 
 ## Usage
 

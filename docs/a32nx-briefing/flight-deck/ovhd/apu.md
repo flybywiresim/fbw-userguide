@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![APU Panel](../../../assets/a32nx-briefing/overhead-panel/Apu-Panel.png "APU Panel")
+![APU Panel](../../../assets/a32nx-briefing/overhead-panel/Apu-Panel.jpg "APU Panel")
 
 ## Usage
 

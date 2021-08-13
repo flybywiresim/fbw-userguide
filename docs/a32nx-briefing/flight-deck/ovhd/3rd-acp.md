@@ -11,13 +11,13 @@ hide:
 
 ---
 
-![3rd Audio Control Panel](../../../assets/a32nx-briefing/overhead-panel/3rd-acp.png "3rd Audio Control Panel")
+![3rd Audio Control Panel](../../../assets/a32nx-briefing/overhead-panel/3rd-acp.jpg "3rd Audio Control Panel")
 
 ## Usage
 
 ### Tansmission Keys
 
-![3rd-acp_1](../../../assets/a32nx-briefing/overhead-panel/3rd-acp-tkeys.png)
+![3rd-acp_1](../../../assets/a32nx-briefing/overhead-panel/3rd-acp-tkeys.jpg)
 
 - Pressed:
     - The associated channel is selected for transmission.
@@ -33,9 +33,7 @@ hide:
 
 ### Reception Knobs
 
-![Reception Knobs](../../../assets/a32nx-briefing/overhead-panel/3rd-acp-rknobs.png "Reception Knobs")
-
-![Reception Knobs](../../../assets/a32nx-briefing/overhead-panel/3rd-acp-rknobs2.png "Reception Knobs")
+![Reception Knobs](../../../assets/a32nx-briefing/overhead-panel/3rd-acp-rknobs.jpg "Reception Knobs")
 
 These knobs allow the flight crew to select reception channels and to adjust their volume.
 

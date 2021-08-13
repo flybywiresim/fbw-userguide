@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Instrument Lighting Control Panel](../../../assets/a32nx-briefing/front/ilcp.png "Instrument Lighting Control Panel"){width=50%}
+![Instrument Lighting Control Panel](../../../assets/a32nx-briefing/front/ilcp.jpg "Instrument Lighting Control Panel")
 
 ## Description
 

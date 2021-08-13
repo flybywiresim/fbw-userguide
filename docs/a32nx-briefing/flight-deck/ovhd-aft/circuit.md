@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Circuit Breaker Panel](../../../assets/a32nx-briefing/overhead-aft-panel/Circuit-Breaker.png "Circuit Breaker Panel")
+![Circuit Breaker Panel](../../../assets/a32nx-briefing/overhead-aft-panel/Circuit-Breaker.jpg "Circuit Breaker Panel")
 
 ## Description
 
@@ -33,7 +33,7 @@ Note : The C/B TRIPPED, caution may be cleared from the ECAM by pressing the CLR
 
 There are further "Secondary Circuit Breakers" on the Rear Right Panel.
 
-![Rear Right Back Panel](../../../assets/a32nx-briefing/overhead-aft-panel/Rear-Right-Back-Panel.png "Rear Right Back Panel"){width=320}
+![Rear Right Back Panel](../../../assets/a32nx-briefing/overhead-aft-panel/Rear-Right-Back-Panel.jpg "Rear Right Back Panel"){loading=lazy}
 
 ---
 

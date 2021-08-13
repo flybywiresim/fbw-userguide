@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Engine Manual Start an N1 Mode](../../../assets/a32nx-briefing/overhead-panel/eng-man-start.png "Engine Manual Start an N1 Mode")
+![Engine Manual Start an N1 Mode](../../../assets/a32nx-briefing/overhead-panel/eng-man-start.jpg "Engine Manual Start an N1 Mode")
 
 ## Usage
 

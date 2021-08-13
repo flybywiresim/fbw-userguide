@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Datalink Ctl and Display Unit](../../../assets/a32nx-briefing/overhead-panel/DCDU.png "Datalink Ctl and Display Unit"){width=50%}
+![Datalink Ctl and Display Unit](../../../assets/a32nx-briefing/front/DCDU.jpg "Datalink Ctl and Display Unit")
 
 ## Description
 

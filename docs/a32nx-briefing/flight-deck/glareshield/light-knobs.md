@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Lighting Knob](../../../assets/a32nx-briefing/glareshield/Lighting-Knob.png "Lighting Knob")
+![Lighting Knob](../../../assets/a32nx-briefing/glareshield/Lighting-Knob.jpg "Lighting Knob")
 
 ---
 

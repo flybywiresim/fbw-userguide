@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Pedestal Lighting, Aids and Dfdr Panel](../../../assets/a32nx-briefing/pedestal/Lighting-Aids-Dfdr-Panel.png "Pedestal Lighting, Aids and Dfdr Panel")
+![Pedestal Lighting, Aids and Dfdr Panel](../../../assets/a32nx-briefing/pedestal/Lighting-Aids-Dfdr-Panel.jpg "Pedestal Lighting, Aids and Dfdr Panel")
 
 
 ### FLOOD LT PED knob

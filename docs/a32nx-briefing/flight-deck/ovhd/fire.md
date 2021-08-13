@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Fire Control Panel]( ../../../assets/a32nx-briefing/overhead-panel/Fire-Control-Panel.png "Fire Control Panel")
+![Fire Control Panel](../../../assets/a32nx-briefing/overhead-panel/Fire-Control-Panel.jpg "Fire Control Panel")
 
 ## Description
 

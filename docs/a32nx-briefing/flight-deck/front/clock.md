@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Clock](../../../assets/a32nx-briefing/front/Clock.png "Clock"){width=50%}
+![Clock](../../../assets/a32nx-briefing/front/Clock.jpg "Clock")
 
 ## Description
 

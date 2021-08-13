@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Multipurpose Control and Display Unit](../../../assets/a32nx-briefing/pedestal/mcdu.png "Multipurpose Control and Display Unit"){width=50%}
+![Multipurpose Control and Display Unit](../../../assets/a32nx-briefing/pedestal/mcdu.jpg "Multipurpose Control and Display Unit")
 
 ## Description
 

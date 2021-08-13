@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Engine Panel](../../../assets/a32nx-briefing/pedestal/Engine-Panel.png "Engine Panel")
+![Engine Panel](../../../assets/a32nx-briefing/pedestal/Engine-Panel.jpg "Engine Panel")
 
 ## Description
 

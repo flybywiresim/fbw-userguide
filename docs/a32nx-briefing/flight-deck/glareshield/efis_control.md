@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![EFIS Control](../../../assets/a32nx-briefing/glareshield/EFIS-Control.png "EFIS Control")
+![EFIS Control](../../../assets/a32nx-briefing/glareshield/EFIS-Control.jpg "EFIS Control")
 
 ## Description
 

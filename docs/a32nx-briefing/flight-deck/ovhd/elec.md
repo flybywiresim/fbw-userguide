@@ -11,11 +11,11 @@ hide:
 
 ---
 
-![Overhead Electrical Panel](../../../assets/a32nx-briefing/overhead-panel/ELEC-Panel.png "Overhead Electrical Panel")
+![Overhead Electrical Panel](../../../assets/a32nx-briefing/overhead-panel/ELEC-Panel.jpg "Overhead Electrical Panel"){loading=lazy}
 
 ## Description
 
-The A320neo's electrical system is automatic for most normal operations. There is only very little crew interaction of input required.
+The A320neo's electrical system is automatic for most normal operations. There is only very little crew interaction or input required.
 
 When the overhead electrical panel has all switches on AUTO (no lights visible) the only required manual input is the "EXT PWR" button to connect ground power to the aircraft.
 
@@ -30,66 +30,67 @@ When the overhead electrical panel has all switches on AUTO (no lights visible) 
 
 The BAT 1+2 Indicators display the current voltage of the respective battery. Normal values are 25 to 31 Volts and these are displayed in green. Outside of these "normal" values the values will be displayed in amber.
 
-The BAT 1+2 pushbutton switches control the operation of the corresponding battery charge limiter.
+The BAT 1+2 pushbutton switches control the operation of the respective battery charge limiter.
 
-- AUTO: The battery charge limiter controls automatically the connection and the disconnection of the corresponding battery to the DC BAT BUS (3 PP) by closing and opening of the battery line contactor.
-    - The batteries are connected to the DC BAT BUS in the following cases :
-        - APU starting (MASTER SW at ON and N < 95%).
-        - Battery voltage below 26.5 V (battery charge).
-        - Loss of AC BUS 1 and 2 when below 100 knots (EMER GEN not supplying).
-    - If AC BUS 1 and 2 are not energized and emergency generator is not
-  supplying:
-        - battery 1 supplies the AC STAT INV BUS, and, if speed is greater than 50 kt, the AC ESS BUS.
-        - battery 2 supplies the DC ESS BUS.
-- OFF: The battery charge limiter is not operating : the battery line contactor is open. OFF comes on white if the DC BAT BUS is supplied. Hot buses remain supplied.
-- FAULT: Comes on amber, accompanied by an ECAM caution, when the charging current for the corresponding battery is outside limits. In this case the battery contactor opens.
+- AUTO:
+    - By closing and opening of the battery line contactor battery charge limiter controls automatically the connection to the DC BAT BUS.
+    - The batteries are connected to the DC BAT BUS when:
+          - APU is starting (MASTER SW at ON and N < 95%).
+          - Battery voltage is below 26.5 V (battery charge).
+          - When AC BUS 1 and 2 are not available (lost) and below 100 knots (EMER GEN not supplying power).
+    - If AC BUS 1 and 2 are not powered and emergency generator is not
+    providing power:
+          - battery 1 powers the AC STAT INV BUS, and the AC ESS BUS (only when speed is >50 kt).
+          - battery 2 powers the DC ESS BUS.
+- OFF:
+    - The battery charge limiter is off. The battery line contactor is open. White OFF light comes on when DC BAT BUS is supplied. Hot buses remain supplied.
+- FAULT:
+    - Amber light and ECAM caution, when the charging current for the battery is outside limits. Battery contactor opens in this case.
 
 ### EXT PWR
 
-AVAIL light comes on green if:
+AVAIL light comes on green if external power is plugged in, and external power parameters are normal.
 
-- external power is plugged in, and
-- external power parameters are normal.
+If AVAIL light is green a press will close the power line contactor and the white ON light comes on. The aircraft is now powered by external power.
 
-When pressed:
+If AVAIL light is ON then a press will open the power line contactor and the white ON light goes off. The aircraft is no longer powered by external power.
 
-- If the AVAIL light was on :
-    - The external power line contactor closes.
-    - The AVAIL light goes off.
-    - The ON light comes on blue.
-- If the ON light was on :
-    - The external power line contactor opens.
-    - The ON light goes off.
-    - The AVAIL light comes on.
-
-Note:
-
-1. External power has priority over the APU generator. The engine generators have priority over external power.
-2. The ON light stays on even when the engine generators supply the aircraft.
-
-### APU GEN
-
-- ON: The APU generator field is energized and the line contactor closes if parameters are normal and the EXT PWR line contactor is open. The bus tie contactor 1 (2) closes automatically if GEN 1 (2) is not operating.
-- OFF: The generator field is de-energized and the line contactor opens. The fault circuit is reset.
-- FAULT: Same as GEN 1 or 2 FAULT.<br/>
-    The APU GEN FAULT light is inhibited when APU speed is too low or if the APU GEN line contactor opens after EXT PWR or ENG GEN takes over.
+!!! info ""
+    1. External power has priority over the APU generator. The engine generators have priority over external power.
+    2. The ON light stays on even when the engine generators supply the aircraft.
 
 ### GEN 1 + 2
 
-- ON: The generator field is energized and the line contactor closes if electrical parameters are normal.
-- OFF: The generator field is de-energized and the line contactors opens. The fault circuit is reset.
-- FAULT: Lights up amber, and an ECAM caution comes on, if :
-    - The associated generator control unit (GCU) trips it.
-    - Opening of the line contactor (except if the GEN pushbutton switch is selected OFF)
+- ON:
+    - If electrical parameters are normal, the generator is powered and the line contactor closes.
+- OFF:
+    - The line contactors opens and the generator is unpowered. The fault circuit is reset.
+- FAULT:
+    - Amber light and ECAM caution appears, if :
+        - The associated generator control unit (GCU) trips it.
+        - Opening of the line contactor if GEN button is not OFF.
+
+### APU GEN
+
+- ON:
+    - The APU generator is powered and if parameters are normal  and the EXT PWR line contactor is open, the line contactor closes.  The bus tie contactor closes automatically if engine GENs are not operating.
+- OFF:
+    - The generator is unpowered and the line contactor opens. The fault circuit is reset.
+- FAULT:
+    - See GEN 1 or 2 FAULT.
+    - No APU GEN FAULT light is shown if APU speed is too low or if  EXT PWR or ENG GEN provide power.
 
 ### BUS TIE
 
-- AUTO: The bus tie contators (BTCs) open or close automatically in order to maintain power supply to both AC BUS 1 and AC BUS 2.
-    - One contactor is closed when :
-        - One engine generator supplies the associated AC BUS, and
-        - The APU generator or external power supplies the other side.
-    - Both contactors are closed during single-engine operation, or operation on the APU generator or external power supply.
-- OFF: Both bus tie contactors open. When set to OFF the AC buses are isolated from each other and only power from the engine generators are supplying the respective AC buses. (TODO: Is this correct?? BUS TIE off ==> no APU or Ext Pwr))
+- AUTO:
+    - The bus tie contactors (BTCs) open or close automatically in order to maintain power supply to both AC BUS 1 and AC BUS 2.
+        - One contactor is closed if:
+            - One engine generator powers the respective AC BUS
+            - The APU generator or external power supplies the other side.
+        - Both contactors are closed during single-engine operation, or operation on the APU generator or external power supply.
+- OFF:
+    - Both bus tie contactors open. When set to OFF the AC buses are isolated from each other and only power from the engine generators are supplying the respective AC buses.
+     (TODO: Is this correct?? BUS TIE off ==> no APU or Ext Pwr))
 
 ### AC ESS FEED
 
@@ -97,43 +98,52 @@ The AC ESS BUS (ESS = essential) is normally supplied from AC BUS 1.
 
 It may be supplied by AC BUS 2 through the AC ESS FEED pushbutton switch.
 
-- NORMAL: The AC ESS BUS is supplied from AC BUS 1.
-- ALTN: The AC ESS BUS is supplied from AC BUS 2.
-- FAULT : Comes on amber, and ECAM caution comes on, when the AC ESS BUS is not electrically supplied.
+- NORMAL:
+    - The AC ESS BUS is supplied from AC BUS 1.
+- ALTN:
+    - The AC ESS BUS is supplied from AC BUS 2.
+- FAULT:
+    - Amber light and ECAM caution, if the AC ESS BUS is not electrically supplied.
 
-Note : In case of total loss of main generators, the AC ESS BUS is automatically supplied by the emergency generator, or by the static inverter if the emergency generator is not available.
+!!! info ""
+    Note: In case of total loss of main generators, the AC ESS BUS is automatically supplied by the emergency generator if available , or by the static inverter.
 
-### IDG 1 + 2
+### IDG 1 + 2 (guarded)
 
-The IDG switches are normally spring loaded out. Pressing this switch disconnects the IDG from its driveshaft only maintenance personnel can reconnect it.
+The IDG switches are normally spring loaded out. Pressing these switches disconnects the IDGs from their driveshafts.
 
-- FAULT: Lights up amber, and ECAM caution comes on, if :
-    - IDG oil outlet overheats (above 185°C), or
-    - IDG oil pressure is low (inhibited at low engine speed : N2 below 14 %). It extinguishes when the IDG is disconnected.
+Only maintenance personnel can reconnect it.
 
+- FAULT:
+    - Amber light and ECAM caution, if :
+        - IDG oil outlet overheats (above 185°C)
+        - IDG oil pressure is low (inhibited at low engine speed: N2 below 14 %). It extinguishes when the IDG is disconnected.
 
 ### GALY & CAB
 
-- AUTO: Main galley, secondary galley and in-seat power supply are supplied. The main galley and in-seat power supply are shed automatically when:
-    - In flight: only one generator is operating.
-    - On the ground: only one engine generator is operating. (All galleys are available when the APU GEN or EXT PWR is supplying power.)
-- OFF: The main galley, secondary galley and in-seat power supply /41 are not supplied.
-- FAULT: Comes on amber, and ECAM caution comes on, when the load on any generator is more than 100 % of rated output.
+- AUTO:
+    - Cabin power is supplied (main galley, secondary galley, in-seat). Power supply is dropped (shed) wheno nly one generator is operating. All galleys are available when the APU GEN or EXT PWR is supplying power.
+- OFF:
+    - No power supply to the cabin.
+- FAULT:
+    - Amber light and ECAM if load is more than 100% of rated output on any generator.
 
 ### COMMERCIAL
 
-- ON: All aircraft commercial electrical loads are supplied :
-    - cabin and cargo lights
-    - water and toilet system
-    - drain mast ice protection
-    - galley
-    - passengers' entertainment
-    - semi-automatic cargo loading (if installed)
-- OFF: Switches off all aircraft commercial electrical loads.
+- ON:
+    - All aircraft commercial electrical loads are supplied :
+        - cabin and cargo lights
+        - water and toilet system
+        - drain mast ice protection
+        - galley
+        - passengers' entertainment
+        - semi-automatic cargo loading (if installed)
+- OFF:
+    - Switches off all aircraft commercial electrical loads.
 
 ## ECAM ELEC page
 
-![ECAM Elec page](../../../assets/a32nx-briefing/overhead-panel/ECAM-Elec-page.png "ECAM Elec page")
+![ECAM Elec page](../../../assets/a32nx-briefing/overhead-panel/ECAM-Elec-page.jpg "ECAM Elec page"){loading=lazy}
 
 ---
 

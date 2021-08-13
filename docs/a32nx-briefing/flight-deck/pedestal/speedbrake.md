@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Speed Brake Panel](../../../assets/a32nx-briefing/pedestal/Speed-brake-panel.png "Speed Brake Panel")
+![Speed Brake Panel](../../../assets/a32nx-briefing/pedestal/Speed-brake-panel.jpg "Speed Brake Panel")
 
 ## Controls
 

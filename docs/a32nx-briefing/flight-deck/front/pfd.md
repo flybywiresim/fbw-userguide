@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Primary Flight Display](../../../assets/a32nx-briefing/front/pdf.png "Primary Flight Display")
+![Primary Flight Display](../../../assets/a32nx-briefing/front/pdf.jpg "Primary Flight Display")
 
 ## Description
 

@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Cockpit Door Panel](../../../assets/a32nx-briefing/pedestal/Cockpit-Door-Panel.png "Cockpit Door Panel")
+![Cockpit Door Panel](../../../assets/a32nx-briefing/pedestal/Cockpit-Door-Panel.jpg "Cockpit Door Panel")
 
 ## Description
 

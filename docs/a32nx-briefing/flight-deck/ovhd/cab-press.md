@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Cabin Presurization Panel](../../../assets/a32nx-briefing/overhead-panel/Cabin-Press-Panel.png "Cabin Presurization Panel")
+![Cabin Presurization Panel](../../../assets/a32nx-briefing/overhead-panel/Cabin-Press-Panel.jpg "Cabin Presurization Panel")
 
 ## Description
 

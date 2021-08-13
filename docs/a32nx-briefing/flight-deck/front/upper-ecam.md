@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Upper ECAM](../../../assets/a32nx-briefing/front/Upper-ECAM.png "Upper ECAM")
+![Upper ECAM](../../../assets/a32nx-briefing/front/Upper-ECAM.jpg "Upper ECAM")
 
 ## Description
 

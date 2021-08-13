@@ -47,7 +47,7 @@ hide:
 </style>
 
 <div style="position: relative;">
-    <img src="/assets/a32nx-briefing/Cockpit-Overview-Map.png" style="width: 100%; height: auto;">
+    <img src="/assets/a32nx-briefing/Cockpit-Overview-Map.jpg" style="width: 100%; height: auto;">
     <!-- OVHD AFT -->
     <a href="/a32nx-briefing/flight-deck/ovhd-aft/elt/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 2.55%; width: 12.5%; height: 1.7%;"><span class="imagemapname">ELT Panel</span></div></a>
     <a href="/a32nx-briefing/flight-deck/ovhd-aft/cockpit-door/"><div class="imagemap" style="position: absolute; left: 22.5%; top: 4.25%; width: 12.5%; height: 2.1%;"><span class="imagemapname">Cockpit Door Panel</span></div></a>

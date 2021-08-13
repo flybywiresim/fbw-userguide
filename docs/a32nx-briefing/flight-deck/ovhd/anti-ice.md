@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Anti Ice Panel](../../../assets/a32nx-briefing/overhead-panel/Anti-Ice-Panel.png "Anti Ice Panel")
+![Anti Ice Panel](../../../assets/a32nx-briefing/overhead-panel/Anti-Ice-Panel.jpg "Anti Ice Panel")
 
 ---
 

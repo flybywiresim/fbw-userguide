@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![ATC-TCAS Panel](../../../assets/a32nx-briefing/pedestal/ATC-TCAS.png "ATC-TCAS Panel")
+![ATC-TCAS Panel](../../../assets/a32nx-briefing/pedestal/ATC-TCAS.jpg "ATC-TCAS Panel")
 
 ## Description
 

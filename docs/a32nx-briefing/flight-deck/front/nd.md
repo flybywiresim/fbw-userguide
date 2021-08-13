@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Navigation Display](../../../assets/a32nx-briefing/front/nd.png "Navigation Display")
+![Navigation Display](../../../assets/a32nx-briefing/front/nd.jpg "Navigation Display")
 
 ---
 

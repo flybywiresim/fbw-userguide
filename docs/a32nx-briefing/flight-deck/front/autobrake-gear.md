@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Autobrake and gear indicators, Brake Fan and A/SKID](../../../assets/a32nx-briefing/front/Autobrake-gear.png "Autobrake and gear indicators, Brake Fan and A/SKID")
+![Autobrake and gear indicators, Brake Fan and A/SKID](../../../assets/a32nx-briefing/front/Autobrake-gear.jpg "Autobrake and gear indicators, Brake Fan and A/SKID")
 
 ## Description
 

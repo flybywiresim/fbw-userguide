@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![SIGNS Panel](../../../assets/a32nx-briefing/overhead-panel/Signs-Panel.png "SIGNS Panel")
+![SIGNS Panel](../../../assets/a32nx-briefing/overhead-panel/Signs-Panel.jpg "SIGNS Panel")
 
 ## Usage
 

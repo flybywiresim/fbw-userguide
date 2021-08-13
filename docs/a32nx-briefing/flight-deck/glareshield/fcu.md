@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Flight Control Unit (FCU)](../../../assets/a32nx-briefing/glareshield/FCU.png "Flight Control Unit (FCU)")
+![Flight Control Unit (FCU)](../../../assets/a32nx-briefing/glareshield/FCU.jpg "Flight Control Unit (FCU)")
 
 ## Description
 

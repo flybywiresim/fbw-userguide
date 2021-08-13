@@ -11,12 +11,12 @@ hide:
 
 ---
 
-![Radio Management Panel](../../../assets/a32nx-briefing/pedestal/RMP.png "Radio Management Panel"){width=80%}
+![Radio Management Panel](../../../assets/a32nx-briefing/pedestal/RMP.jpg "Radio Management Panel"){loading=lazy}
 
 ## Description
 
 The A320 communications has the following subsystems:
-- VHF/HF tranceivers
+- VHF/HF transceivers
 - Radio tuning systems (Radio Management Panels - RMP).
 - Audio integrating system (Audio Management Unit - AMU, Audio Control Panels - ACP).
 
@@ -43,14 +43,14 @@ Identical RMPs (Radio Management Panels) :
 
 ###  Transfer key
 
-![RMP Transfer Key](../../../assets/a32nx-briefing/pedestal/RMP-transfer-key.png "RMP Transfer Key")
+![RMP Transfer Key](../../../assets/a32nx-briefing/pedestal/RMP-transfer-key.jpg "RMP Transfer Key"){loading=lazy}
 
 - Pressing this key moves the active frequency to the standby window and the standby frequency to the active window.
 - This tunes the selected receiver to the new active frequency.
 
 ### Radio com selection keys
 
-![RMP Selection Keys](../../../assets/a32nx-briefing/pedestal/RMP-selection-keys.png "RMP Selection Keys")
+![RMP Selection Keys](../../../assets/a32nx-briefing/pedestal/RMP-selection-keys.jpg "RMP Selection Keys"){loading=lazy}
 
 - When the pilot presses one of these keys :
     - The ACTIVE window displays the frequency set on that radio.
@@ -59,7 +59,7 @@ Identical RMPs (Radio Management Panels) :
 
 ### Frequency selector knobs
 
-![Frequency Knobs](../../../assets/a32nx-briefing/pedestal/RMP-frequency-knobs.png "Frequency Knobs")
+![Frequency Knobs](../../../assets/a32nx-briefing/pedestal/RMP-frequency-knobs.jpg "Frequency Knobs"){loading=lazy}
 
 The pilot uses these concentric knobs to select the STBY frequency or CRS. The outer knob controls whole numbers; the inner knob controls decimal fractions.
 
@@ -83,7 +83,7 @@ The pilot presses this key to be able to select navigation receivers and courses
 
 ### Radio navigation selection keys
 
-![ACP Radio Navigation Keys](../../../assets/a32nx-briefing/pedestal/ACP-radio-nav-keys.png "ACP Radio Navigation Keys")
+![ACP Radio Navigation Keys](../../../assets/a32nx-briefing/pedestal/ACP-radio-nav-keys.jpg "ACP Radio Navigation Keys"){loading=lazy}
 
 The pilot presses one of these keys to select a navigation radio to control through this RMP. This turns on the green monitor light in the key.
 
@@ -95,7 +95,7 @@ Note: RMP3 is able to control VHF and HF transceivers through RMP1 and RMP2 even
 
 ### Tansmission Keys
 
-![RMP Transmission Keys](../../../assets/a32nx-briefing/pedestal/RMP-transmission-keys.png)
+![RMP Transmission Keys](../../../assets/a32nx-briefing/pedestal/RMP-transmission-keys.jpg)
 
 - Pressed:
     - The associated channel is selected for transmission.
@@ -110,9 +110,9 @@ Note: RMP3 is able to control VHF and HF transceivers through RMP1 and RMP2 even
 
 ### Reception Knobs
 
-![Reception Knobs](../../../assets/a32nx-briefing/pedestal/RMP-reception-knobs-1.png "Reception Knobs")
+![Reception Knobs](../../../assets/a32nx-briefing/pedestal/RMP-receiption-knobs-1.jpg "Reception Knobs"){loading=lazy}
 
-![Reception Knobs](../../../assets/a32nx-briefing/pedestal/RMP-receiption-knobs-2.png "Reception Knobs")
+![Reception Knobs](../../../assets/a32nx-briefing/pedestal/RMP-receiption-knobs-2.jpg "Reception Knobs"){loading=lazy}
 
 These knobs allow the flight crew to select reception channels and to adjust their volume.
 

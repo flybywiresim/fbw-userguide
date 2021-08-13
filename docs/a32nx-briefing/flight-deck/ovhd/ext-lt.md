@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Exterior Lighting](../../../assets/a32nx-briefing/overhead-panel/Exterior-Lighting-Panel.png "Exterior Lighting")
+![Exterior Lighting](../../../assets/a32nx-briefing/overhead-panel/Exterior-Lighting-Panel.jpg "Exterior Lighting")
 
 ## Usage
 

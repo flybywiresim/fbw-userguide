@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Rudder Trim Panel](../../../assets/a32nx-briefing/pedestal/Rudder-trim-Panel.png "Rudder Trim Panel"){width=50%}
+![Rudder Trim Panel](../../../assets/a32nx-briefing/pedestal/Rudder-trim-Panel.jpg "Rudder Trim Panel")
 
 
 ## Controls

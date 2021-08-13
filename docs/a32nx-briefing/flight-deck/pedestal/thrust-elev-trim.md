@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Thrust Lever and Elevation Trim](../../../assets/a32nx-briefing/pedestal/Thrust-lever-elev-trim.png "Thrust Lever and Elevation Trim"){width=80%}
+![Thrust Lever and Elevation Trim](../../../assets/a32nx-briefing/pedestal/Thrust-lever-elev-trim.jpg "Thrust Lever and Elevation Trim")
 
 ## Description
 

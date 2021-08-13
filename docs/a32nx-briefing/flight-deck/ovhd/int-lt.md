@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Internal Lights Panel](../../../assets/a32nx-briefing/overhead-panel/Int-lt-Panel.png "Internal Lights Panel")
+![Internal Lights Panel](../../../assets/a32nx-briefing/overhead-panel/Int-lt-Panel.jpg "Internal Lights Panel")
 
 ## Usage
 

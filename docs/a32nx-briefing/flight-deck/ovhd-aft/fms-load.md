@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![FMS Load Panel](../../../assets/a32nx-briefing/overhead-aft-panel/FMS-Load.png "FMS Load Panel")
+![FMS Load Panel](../../../assets/a32nx-briefing/overhead-aft-panel/FMS-Load.jpg "FMS Load Panel")
 
 ## Description
 

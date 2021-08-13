@@ -11,7 +11,7 @@ hide:
 
 ---
 
-![Flaps Panel](../../../assets/a32nx-briefing/pedestal/Flaps-Panel.png "Flaps Panel"){width=50%}
+![Flaps Panel](../../../assets/a32nx-briefing/pedestal/Flaps-Panel.jpg "Flaps Panel")
 
 ## Controls
 

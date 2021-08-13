@@ -12,7 +12,7 @@ hide:
 ---
 
 
-![Pedestal Light and Audio 3 switch](../../../assets/a32nx-briefing/overhead-aft-panel/Pedestal-Light.png "Pedestal Light and Audio 3 switch")
+![Pedestal Light and Audio 3 switch](../../../assets/a32nx-briefing/overhead-aft-panel/Pedestal-Light.jpg "Pedestal Light and Audio 3 switch")
 
 ## Description
 
