@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Instrument Lighting Control Panel
 
 ---
@@ -10,70 +15,46 @@
 
 ## Description
 
-These additional EFIS Controls help manage and adjust the main displays of the pilots.
-
 ## Usage
 
 ### OFF/BRT knobs
 
-These knobs are used to turn the displays (PFD, ND) on and off, and also adjust their brightness.
-
-- PFD
-    - If the PFD is turned off (knob turned all the way counterclockwise) the PFD image is automatically displayed on the NDU, but the pilot may recover the ND by means of the PFD-ND XFR pushbutton.
-
-    !!! attention ""
-        Currently PFD/ND XFR is not available in the FBW A32NX for Microsoft Flight Simulator.
-
-- ND
-    - The outer knob adjusts the brightness of both the weather radar image and the EGPWS terrain display. The inner knob adjusts the  brightness of the ND symbols. The ND is turned off if this knob is turned all the way counterclockwise.
+- These knobs turn the PFD and ND display units on and off, and control their brightness.
+- The display brightness automatically adjusts for changing light conditions. It may also be adjusted manually.
+- PFD Brightness Control Knob
+    - Rotating this knob all the way counterclockwise switches off the PFD. In this case, the PFD image is automatically displayed on the NDU, but the pilot may recover the ND by means of the PFD-ND XFR pushbutton.
+- ND Brightness Control Knob
+    - The outer knob controls the brightness of both the weather radar image and the EGPWS terrain display. The inner knob controls the general brightness of the ND symbols. Rotating this knob all the way counterclockwise switches off the NDU.
 
 ### PFD/ND XFR Pushbutton
 
-Exchanges the PFD and the ND. If the PFDU fails, the PFD automatically transfers to the NDU.
+Pushing this button interchanges the PFD and the ND. If the PFDU fails, the PFD automatically transfers to the NDU.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
-
-### Loudspeaker Volume Knob
-
-Adjusts the volume of the loudspeaker for radio communication.
-
-- OFF:
-    - Radio signals are not broadcast on loudspeaker.
-- Clockwise rotation:
-    - Radio signals are broadcast on loudspeaker at the set volume.
-
-Note: Does not control the loudness of aural alert and voice messages.
-
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
-### Console/Floor Lt.
-
-Adjusts the lights of the side console and of the briefcase on each side of the cockpit. Also adjusts the lighting of the floor around each flight crew member's seat. The lights can be set to bright, dim, or off.
+<!-- TODO: - which one is build into the FBW??? -->
 
 ### GPWS – G/S pushbutton
 
-The Ground Proximity Warning System (GPWS) is warning the flight crew of potentially hazardous situations, such as a collision with terrain. It detects these and triggers aural and visual indications.
+- GPWS: This red light comes on when any mode from 1 to 4, or any TAD or TCF alert is activated. A specific voice alert accompanies it.
+- G/S: Comes on amber when Mode 5 is activated. It is accompanied by the aural “GLIDE SLOPE” warning.
+- Note:
+    - If the flight crew presses this button briefly when a glide slope warning is on, the G/S light goes out and the “GLIDE SLOPE” aural warning (soft or loud) stops.
+    - On ground, the GPWS can be tested by pressing this pushbutton. If the pushbutton is pressed briefly, some of the aural warnings sound and pushbutton captions, related to the GPWS, come on. If the pushbutton is pressed continuously, then all the aural warnings sound.
 
-Five basic GPWS modes active up to radio height of 2.500 ft:
+### PULL UP – GPWS pushbutton
+- PULL UP: Comes on when the second boundary of mode 1 is penetrated or when the mode 2 is activated. A “PULL UP” or “TERRAIN - TERRAIN PULL UP” voice warning accompanies it.
+- GPWS: Comes on in amber when any other mode is activated. It is accompanied by a corresponding aural alert.
+- Note:
+    - If the flight crew briefly presses this button, when mode 5 alert is heard, the GPWS light goes out and the aural alert stops.
+    - The GPWS can be tested by pressing this pushbutton (on ground only).
 
-- Excessive rate of descent (Mode 1)
-- Excessive terrain closure rate (Mode 2)
-- Altitude loss after takeoff or go-around (Mode 3)
-- Terrain clearance not sufficient (if not in landing config). (Mode 4)
-- Excessive descent below the glide slope (Mode 5).
+### Loudspeaker Volume Knob
 
-**Usage:**
+This knob adjusts the volume of the loudspeaker for radio communication.
 
-- GPWS Lt:
-    - This red light comes on when any mode from 1 to 4, or any TAD (Terrain Awareness and Display) or TCF (Terrain Clearance Floor) alert is activated. A specific voice alert accompanies it.
-- G/S Lt:
-    - Amber light when Mode 5 is activated. Accompanied by aural “GLIDE SLOPE” warning.
-    - Press to clear G/S light and “GLIDE SLOPE” aural warning (soft or loud).
-- Test:
-    - On ground, press this pushbutton briefly for some of the aural warnings sounds and pushbutton captions, related to the GPWS, come on. Pressed continuously, then all the aural warnings sound.
+- OFF: Loudspeaker does not respond to signals from the aircraft's radio
+equipment.
+- Clockwise rotation: Loudspeaker broadcasts signals from the aircraft's radio equipment at increasing volume.
+- Note: This knob does not control the loudness of aural alert and voice messages. In the case of acoustic feedback (i.e. Larsen effect) from the cockpit loudspeaker, the flight crew should reduce the volume of the cockpit loudspeaker. However, the flight crew should ensure that the volume of the cockpit loudspeaker is sufficient to hear radio communication.
 
 ---
 

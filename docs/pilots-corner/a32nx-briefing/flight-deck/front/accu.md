@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Accumulator Pressure Indication
 
 ---
@@ -11,9 +16,9 @@
 ## Description
 
 - ACCU PRESS:
-    - Pressure in the yellow hydraulic system brake accumulators.
+    - Indicates the pressure in the yellow brake accumulators.
 - BRAKES:
-    - Yellow hydraulic system pressure delivered to the brakes. Measured upstream of the alternate servo valves.
+    - Indicates the yellow pressure delivered to the left and right brakes, as measured upstream of the alternate servo valves.
 
 ---
 

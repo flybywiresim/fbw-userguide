@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Cockpit Door Panel
 
 ---
@@ -9,9 +14,6 @@
 ![Cockpit Door Panel](../../../assets/a32nx-briefing/overhead-aft-panel/Cockpit-Door-Cont.jpg "Cockpit Door Panel")
 
 ## Description
-
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### Strikes' status lights
 

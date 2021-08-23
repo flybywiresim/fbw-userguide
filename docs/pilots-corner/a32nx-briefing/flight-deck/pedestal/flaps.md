@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Flaps
 
 ---
@@ -16,13 +21,13 @@ The FLAPS lever controls the operation of the slats and flaps.
 
 The five lever positions correspond to the following surface positions :
 
-| Position | Slats ° | Flaps ° | ECAM  | Max Speed | Phase                 |
-|:--------:|:-------:|:-------:|:-----:|:---------:|:----------------------|
-|    0     |    0    |    0    |       |           | CRUISE                |
-|    1     |   18    |  0/10   | 1/1+F |  230 kts  | HOLD / TAKE OFF       |
-|    2     |   22    |   15    |   2   |  215 kts  | TAKE OFF / APPR       |
-|    3     |   22    |   20    |   3   |  185 kts  | TAKE OFF / LDG / APPR |
-|   FULL   |   27    |   40    | FULL  |  177 kts  | LDG                   |
+| Position | Slats | Flaps | ECAM  | Max Speed | Phase                 |
+|:--------:|:-----:|:-----:|:-----:|:---------:|:----------------------|
+|    0     |   0   |   0   |       |           | CRUISE                |
+|    1     |  18   | 0/10  | 1/1+F |    230    | HOLD / TAKE OFF       |
+|    2     |  22   |  15   |   2   |    215    | TAKE OFF / APPR       |
+|    3     |  22   |  20   |   3   |    185    | TAKE OFF / LDG / APPR |
+|   FULL   |  27   |  40   | FULL  |    177    | LDG                   |
 
 Before selecting any position, the pilot must pull the lever out of the detent. Stops at positions 1 and 3 prevent the pilot from calling for excessive flap/slat travel with a single action.
 
@@ -43,7 +48,7 @@ CONFIG O to CONFIG 1 in flight:
 - CONFIG 1 ( 18°/0°) is selected.
 
 !!! info ""
-    Note: After flap retraction, CONFIG 1 + F is no longer available until the airspeed is 100 knots or less, unless CONFIG 2, 3, or FULL has been selected previously.
+    Note : After flap retraction, CONFIG 1 + F is no longer available until the airspeed is 100 knots or less, unless CONFIG 2, 3, or FULL has been selected previously.
 
 ---
 

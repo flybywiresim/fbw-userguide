@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Electrical System Control Panel
 
 ---
@@ -23,12 +28,12 @@ When the overhead electrical panel has all switches on AUTO (no lights visible) 
 
 ### BAT 1 + 2
 
-The BAT 1+2 Indicators display the current voltage of the respective battery. Normal values are 25 to 31 Volts.
+The BAT 1+2 Indicators display the current voltage of the respective battery. Normal values are 25 to 31 Volts and these are displayed in green. Outside of these "normal" values the values will be displayed in amber.
 
-The BAT 1+2 buttons control the operation of the respective battery charge limiter.
+The BAT 1+2 pushbutton switches control the operation of the respective battery charge limiter.
 
 - AUTO:
-    - The battery charge limiter controls automatically the connection to the DC BAT BUS.
+    - By closing and opening of the battery line contactor battery charge limiter controls automatically the connection to the DC BAT BUS.
     - The batteries are connected to the DC BAT BUS when:
           - APU is starting (MASTER SW at ON and N < 95%).
           - Battery voltage is below 26.5 V (battery charge).
@@ -68,12 +73,12 @@ If AVAIL light is ON then a press will open the power line contactor and the whi
 ### APU GEN
 
 - ON:
-    - The APU generator is powered if parameters are normal and the EXT PWR line contactor is open, the line contactor closes. The bus tie contactor closes automatically if engine GENs are not operating.
+    - The APU generator is powered and if parameters are normal  and the EXT PWR line contactor is open, the line contactor closes.  The bus tie contactor closes automatically if engine GENs are not operating.
 - OFF:
     - The generator is unpowered and the line contactor opens. The fault circuit is reset.
 - FAULT:
     - See GEN 1 or 2 FAULT.
-    - No APU GEN FAULT light is shown if APU speed is too low or if EXT PWR or ENG GEN provide power.
+    - No APU GEN FAULT light is shown if APU speed is too low or if  EXT PWR or ENG GEN provide power.
 
 ### BUS TIE
 
@@ -85,6 +90,7 @@ If AVAIL light is ON then a press will open the power line contactor and the whi
         - Both contactors are closed during single-engine operation, or operation on the APU generator or external power supply.
 - OFF:
     - Both bus tie contactors open. When set to OFF the AC buses are isolated from each other and only power from the engine generators are supplying the respective AC buses.
+     (TODO: Is this correct?? BUS TIE off ==> no APU or Ext Pwr))
 
 ### AC ESS FEED
 
@@ -100,24 +106,23 @@ It may be supplied by AC BUS 2 through the AC ESS FEED pushbutton switch.
     - Amber light and ECAM caution, if the AC ESS BUS is not electrically supplied.
 
 !!! info ""
-    Note: In case of total loss of main generators, the AC ESS BUS is automatically supplied by the emergency generator if available, or by the static inverter.
+    Note: In case of total loss of main generators, the AC ESS BUS is automatically supplied by the emergency generator if available , or by the static inverter.
 
 ### IDG 1 + 2 (guarded)
 
-The IDG switches are normally spring-loaded out. Pressing these switches disconnects the IDGs from their driveshafts.
+The IDG switches are normally spring loaded out. Pressing these switches disconnects the IDGs from their driveshafts.
 
-!!! note ""
-    Only maintenance personnel can reconnect it.
+Only maintenance personnel can reconnect it.
 
 - FAULT:
-    - Amber light and ECAM caution, if:
-        - IDG oil outlet overheats (above 185°C).
+    - Amber light and ECAM caution, if :
+        - IDG oil outlet overheats (above 185°C)
         - IDG oil pressure is low (inhibited at low engine speed: N2 below 14 %). It extinguishes when the IDG is disconnected.
 
 ### GALY & CAB
 
 - AUTO:
-    - Cabin power is supplied (main galley, secondary galley, in-seat). Power supply is dropped (shed) when only one generator is operating. All galleys are available when the APU GEN or EXT PWR is supplying power.
+    - Cabin power is supplied (main galley, secondary galley, in-seat). Power supply is dropped (shed) wheno nly one generator is operating. All galleys are available when the APU GEN or EXT PWR is supplying power.
 - OFF:
     - No power supply to the cabin.
 - FAULT:
@@ -126,7 +131,7 @@ The IDG switches are normally spring-loaded out. Pressing these switches disconn
 ### COMMERCIAL
 
 - ON:
-    - All aircraft commercial electrical loads are supplied:
+    - All aircraft commercial electrical loads are supplied :
         - cabin and cargo lights
         - water and toilet system
         - drain mast ice protection

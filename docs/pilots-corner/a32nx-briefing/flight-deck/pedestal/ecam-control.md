@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # ECAM Control Panel
 
 ---
@@ -6,7 +11,7 @@
 
 ---
 
-![ECAM Control Panel](../../../assets/a32nx-briefing/pedestal/ECAM-Control-Panel.jpg "ECAM Control Panel")
+![ECAM Control Panel](../../../assets/a32nx-briefing/pedestal/ECAM-Control-Panel.jpg "ECAM Control Panel"){ width=60% }
 
 ## Description
 
@@ -22,10 +27,7 @@ These knobs control the brightness of the ECAM displays and also allow to turn t
 
 Displays the respective page on the SD.
 
-Available pages are: ENG, BLEED, PRESS, ELEC, HYD, FUEL, APU, COND, DOOR, WHEEL, F CTL, STS, CRUISE.
-
-!!! info "Future Update"
-    A more in depth description of the ECAM Pages is currently being developed and will be available in the near future.
+[Detailed ECAM Pages Documentation](../../ecam){ .md-button }
 
 ### CLR and RCL
 
@@ -47,9 +49,12 @@ Silences warnings and cancels cautions for the rest of the flight but continues 
 
 The RCL button can be pressed for 3 seconds to recall the caution messages.
 
-### T.O. CONFIG
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
-To test the takeoff configuration this button simulates the use of takeoff power. It triggers a warning, if the aircraft is not in takeoff configuration.
+### T.O. CONFIG pb
+
+To test the take off configuration this button simulates the use of takeoff power. It triggers a warning, if the aircraft is not in takeoff configuration.
 
 The E/WD displays the "TO CONFIG NORMAL" message when the configuration is correct.
 

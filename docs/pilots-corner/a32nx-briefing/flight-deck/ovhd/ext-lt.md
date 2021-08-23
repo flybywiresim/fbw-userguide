@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Exterior Lighting
 
 ---
@@ -7,18 +12,6 @@
 ---
 
 ![Exterior Lighting](../../../assets/a32nx-briefing/overhead-panel/Exterior-Lighting-Panel.jpg "Exterior Lighting")
-
-## Description
-
-The Exterior Lighting of an Airbus A320neo includes these lights:
-
-- The navigation lights
-- The landing lights
-- The runway turn off lights
-- The TO and TAXI lights
-- The logo lights
-- The anticollision lights
-- The wing and engine scan lights.
 
 ## Usage
 
@@ -33,7 +26,7 @@ Turns on and off the three synchronized strobe lights, one on each wing tip and 
 - OFF:
     - Strobe light are off.
 
-Strobes are turned on at the latest when airborne. Usually shortly before the take of roll.
+Strobes are turned on latest when airborne usually shortly before the take of roll.
 
 ![STROBE and NAV](../../../assets/a32nx-briefing/overhead-panel/lights/strobe-right.jpg "STROBE and NAV"){loading=lazy}
 
@@ -43,7 +36,7 @@ Strobes are turned on at the latest when airborne. Usually shortly before the ta
 
 This switch turns on and off the two flashing red lights, one on top and one on the bottom of the fuselage.
 
-This signals the ground crew that the engines are about to start or still running.
+Signals the ground crew that the engines are about to start or running.
 
 ![Beacon](../../../assets/a32nx-briefing/overhead-panel/lights/beacon.jpg "Beacon"){loading=lazy}
 
@@ -71,9 +64,6 @@ Logo lights are installed in the upper surface of each horizontal stabilizer to 
 NAV & LOGO are turned on when the aircraft is powered up (EXT PWR or APU or ENG).
 
 ![NAV & LOGO and STROBE](../../../assets/a32nx-briefing/overhead-panel/lights/tail-lights.jpg "NAV & LOGO and STROBE"){loading=lazy}
-
-!!! attention ""
-    Currently the FlyByWire A32NX only has two settings for NAV & LOGO lights (2 or OFF / 1 is not available).
 
 ### RWY TURN OFF
 

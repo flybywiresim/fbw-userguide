@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Navigation Display (ND)
 
 ---
@@ -12,7 +17,7 @@
 
 ## Description
 
-The Navigation Display (ND) is one of the main instruments for the pilots for situational awareness and navigation in flight.
+The Navigation Display (ND) is one the main instruments for the pilots for situational awareness and navigation in flight.
 
 It plots configurable information for speed, heading, flight plan, terrain, weather, distances etc. in 5 different basic view modes:
 
@@ -27,24 +32,22 @@ The weather radar image can be displayed in all modes except PLAN.
 
 <!-- TODO: UPDATE -->
 !!! info "Future Update"
-    A more in depth description of the Navigation Display is currently being developed and will be available in the near future.
+    A more in depth description of the Navigation Display is currently developed and will be available in the near future.
 
 
 ## Usage
 
 ### TERR ON ND pushbutton
 
-These pushbuttons are located on either side of the ECAM. Each pushbutton controls the onside terrain display.
+These pushbutton are located on either side of the ECAM. Each pushbutton controls the onside terrain display.
 
 - ON:
     - The terrain is displayed on the ND if the:
         - TERR pb-sw is selected ON, and
-        - TERR FAULT light is not on.
-        - TERR STBY ECAM memo is not displayed.
-        - The FMGS navigation accuracy is high.
-
-    The ON light comes on.
-
+        ‐ TERR FAULT light is not on.
+        ‐ TERR STBY ECAM memo is not displayed.
+        ‐ The FMGS navigation accuracy is high.
+      The ON light comes on.
 - OFF:
     - The terrain data is not displayed on the ND.
     - Note:

@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Signs Panel
 
 ---
@@ -13,12 +18,12 @@
 ### EMER EXIT LT
 
 - ON:
-    - Turn on Overhead Emergency Lights, EXIT signs and proximity marking system (floor light band).
+    - Turn on Overhead Emergency Lights, EXIT signs and proximity marking system (floor light band) come on.
 - OFF:
     - Turn off Overhead Emergency Lights, EXIT signs and proximity marking (floor light band) system.
 - ARM:
     - Emergency lighting and proximity marking turn on, when normal aircraft electrical power system fails or DC SHED ESS BUS fails or AC BUS 1 fails.
-    - Exit signs turn on when normal aircraft electrical power system fails or DC SHED ESS BUS fails.
+    - Exit signs turn on, , when normal aircraft electrical power system fails or DC SHED ESS BUS fails
 
 ### EMER EXIT LT
 
@@ -32,8 +37,7 @@
 - OFF:
     - Turn signs off and chime sounds.
 
-!!! note ""
-    Chime is barely audible in the cockpit with the cockpit door closed.
+Note: Chime is barely audible in the cockpit with the cockpit door closed.
 
 ### NO SMOKING
 
@@ -43,8 +47,7 @@
     - NO SMOKING and EXIT signs come on when landing gear is extended and go off when landing gear is retracted. Low tone chime sounds when the lights go on or off.
 - OFF:
 
-!!! note ""
-    Chime is barely audible in the cockpit with the cockpit door closed.
+Note: Chime is barely audible in the cockpit with the cockpit door closed.
 
 ---
 

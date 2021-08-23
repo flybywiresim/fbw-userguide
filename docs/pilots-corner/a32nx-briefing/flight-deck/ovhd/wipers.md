@@ -1,5 +1,10 @@
+---
+hide:
+- navigation
+---
 
-# Wiper Panels
+
+# Wipers Panel - Left
 
 ---
 
@@ -13,24 +18,16 @@
 
 Each windshield is provided with two-speed electric wipers that are controlled by individual WIPER selectors. A rain repellent system is installed, but is deactivated by some airlines.
 
-## Usage
+## Function
 
-### WIPER SELECTOR:
+- WIPER SELECTOR:
+    - OFF - Wiper is stowed out of view at the base of the window.
+    - SLOW - Wiper operates at low speed.
+    - FAST - Wiper operates at high speed.
 
-- OFF:
-    - Wiper is stowed out of view at the base of the window.
-- SLOW:
-    - Wiper operates at low speed.
-- FAST:
-    - Wiper operates at high speed.
-
-### RAIN RPLNT
-
-- When the button is pushed, the timer applies a measured quantity of rain repellent to the applicable windshield. To repeat the cycle, the push button must be pushed again.
-- This function is inhibited when the aircraft is on the ground and the engines are not running.
-
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+- RAIN RPLNT
+    - When the button is pushed, the timer applies a measured quantity of rain repellent to the applicable windshield. To repeat the cycle, the push button must be pushed again.
+    - This function is inhibited when the aircraft is on the ground and the engines are not running.
 
 ---
 

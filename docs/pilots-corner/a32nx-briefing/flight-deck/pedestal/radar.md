@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # WX Radar Panel
 
 ---
@@ -6,32 +11,31 @@
 
 ---
 
-![WX Radar Panel](../../../assets/a32nx-briefing/pedestal/WX-radar-Panel.jpg "WX Radar Panel")
+![WX Radar Panel](../../../assets/a32nx-briefing/pedestal/WX-radar-Panel.jpg "WX Radar Panel"){ width=60% }
 
 ## Description
 
 The A320 is fitted with a weather radar system which includes a Predictive Windshear System (PWS) and a weather hazard prediction function.
 
-The weather radar data can be displayed on the NDs in ARC or ROSE mode.
+The weather radar data can by display on the NDs in ARC or ROSE mode.
 
-!!! attention ""
-    In Microsoft Flight Simulator the system is limited by what the simulator provides which currently is only precipitation.
+In Microsoft Flight Simulator the system is limited by what the simulator provides which currently is only precipitation.
 
-## Usage
+## Controls
 
 ### Radar
 
 - ON:
-    - Set the switch to position 1 or 2 to turn on system 1 or 2.
+    - set the switch to position 1
 - OFF:
-    - Set the switch to position OFF (middle) to turn off the system.
+    - set the switch to position OFF (middle)
 
 ### GAIN
 
 - This knob adjusts the sensitivity of the radar.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### MODE - Display mode selector
 
@@ -46,25 +50,25 @@ The weather radar data can be displayed on the NDs in ARC or ROSE mode.
 - MAP:
     - Map mode: No weather display but ground information: Black for water, green for ground, and amber for cities and mountains.
 
-!!! attention ""
-    Currently only precipitation is available in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Currently only precipitation is available in the FBW A32NX for for Microsoft Flight Simulator.
 
 ###  TILT
 
 This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horizon reference from the IRS.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### MULTISCAN
 
 - AUTO:
-    - Controls radar antenna tilt automatically combining two scans from different angles to optimize weather detection and minimize ground clutter.
+    - Controls radar antenna tilt automatically combineing two scans from different angles to optimize weather detection and minimize ground clutter.
 - MAN:
     - Manually adjust radar antenna tilt using the TILT knob.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### GCS (Ground Clutter Suppression)
 
@@ -74,8 +78,8 @@ This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horiz
 - OFF:
     - Ground clutter is visible.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### PWS
 
@@ -84,8 +88,8 @@ This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horiz
 - OFF:
     - The Predictive WindShear function is off.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
 
