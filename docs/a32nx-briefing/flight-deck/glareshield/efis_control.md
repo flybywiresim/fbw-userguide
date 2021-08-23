@@ -15,61 +15,60 @@ hide:
 
 ## Description
 
-The EFIS control panels for:
+This panel controls:
 
-- Selection of desired ND modes (ROSE-ILS, -VOR, ARC, PLAN) and ranges,
-- Selection of baro setting.
+- Desired ND modes (ROSE-ILS, -VOR, ARC, PLAN) and ranges.
+- Baro setting.
 
 ## Usage
 
 ### Barometer Reference Display Window
 
-- Range : 745 hPa to 1100 hPa.
+- Barometer Range: 745 hPa to 1100 hPa.
 
 ### Barometer Reference Selector
 
-- Outer ring: For selection of the units for the barometer reference-either hectoPascals or inches of mercury.
+- Outer ring selector: Allows switching of the barometer reference to either hectoPascals or inches of mercury.
 
-    Note : The unit selected does not appear on the PFD.
+    Note: Unit selection does not appear on the PFD.
 
-- Inner knob : For selection of the reference value displayed in the barometer reference display window and on the PFD below the altitude scale. At FCU initialization, the window displays 1013 or 29.92, depending on the unit selected.
+- Inner knob selector: Allows manipulation of the value displayed in the barometer reference window and on the PFD (visible below the altitude scale). When the FCU is initialized, it will display 1013 or 29.92 based on the outer ring selection.
 
-    - Pulling the knob selects the standard baro reference setting. The PFD then displays "STD." (Rotating the knob has no effect.)
-    - Pushing the knob from the STD position makes the last selected OFE or ONH baro setting available.
-    - Pushing the knob again changes from ONH to OFE or vice versa. The window displays "QNH" or "QFE'' according to the pilot selection.
+    - Pulling the knob selects the standard baro reference setting. The display window and PFD both will show "STD." (In this mode rotating the knob has no effect.)
+    - When in STD position pushing the knob makes the last selected QFE or QNH setting available.
+    - When pushing the knob after switching from STD position, it will change between ONH to OFE based on current selection. The display window will note QFE or QNH.
 
-- Note : QFE option is a pin program installed on the FMGC and the GPWS computers. These computers will work using the selected pin program (QNH or QFE), independently of the baro reference setting selected on the EFIS CTL panel.
+- Note: The QFE selection is a program installed on both the FMGC and GPWS computers. It allows for each computer to use the selected program independently from the barometer reference selected through the EFIS control panel.
 
 ###  FD Pushbutton
 
-- Pushing this button removes the FD bars from the associated PFD (or removes the flight path director symbol if the TRK FPA reference is selected).
-- The pushbutton light goes out.
-- Pushing it again restores the FD bars (or the FPO symbol) and the green pushbutton light comes on.
+- Pushing the FD Pb either enables or removes the flight director bars from the respective PFD. If in TRK FPA it will enables or remove the flight path directory symbol.
+- When `ON` the Pb light is green and when `OFF` there is no illumination.
 
 ###  LS Pushbutton
 
-- Pushing this button displays the localizer and glide slope scales on the PFD.
-- Deviation symbols appear if there is a valid ILS signal.
-
-The green pushbutton light comes on.
+- Selecting this LS Pb will display the glide slope scales on the PFD and localizer information.
+- The diamond deviation symbols will appear only if the localizer is within range.
+- When `ON` the Pb light is green and when `OFF` there is no illumination.
 
 ### Mode Select Switch
 
-- This switch selects a navigation display for the onside ND.
+- Changes the mode displayed on the respective ND.
 
 ### Range Select Switch
 
-- This switch selects a range scale for the onside ND.
+- Changes range displayed on the respective ND.
 
-- Note : If the mode or the range data fails, the default selection is the ROSE NA V mode and 80 NM range.
+- Note : If there are any failures, the display defaults to ROSE NA V mode and 80NM range
 
 ### ADF-VOR Select Switches
 
-- These switches select ADF or VOR bearing pointers and DME distance on the onside ND, as well as the corresponding navaid data characteristics in any mode except PLAN mode.
+- Selects between ADF or VOR pointers and DME distance on the respective ND. Provides the corresponding navaid information on the ND (except in PLAN mode).
 
 ### Optional Data Display Pushbutton (CSTR, VOR D, WPT, NDB, ARPT)
 
-- Pushing this button displays optional data in addition to the data permanently displayed in PLAN, ARC, or ROSE NAV modes. The green pushbutton light comes on. Only one option can be activated at a time.
+- This button shows any optional information alongside the data that is permanently shown in PLAN, ARC, or ROSE NAV modes. Only one selection can be active at a time.
+- When `ON` the Pb light is green and when `OFF` there is no illumination.
 
 ---
 

@@ -17,22 +17,22 @@ hide:
 
 ### MASTER SW
 
-This switch controls the electric power supply for APU operation, and its protective features. It also controls the starting and shutdown sequences.
+Controls the APU operation and its start- and shutdown sequence.
 
 - ON:
-    - The blue ON light comes on.<br/>
-    - Electric power goes to the APU system ; the ECB performs a power-up test.
-    - The APU air intake flap opens.
-    - The APU fuel isolation valve opens.
-    - If no fuel tank pump is running, the APU fuel pump operates.
-    - If the aircraft has ground power or main generator power, th page appears on the ECAM display.<br/>
+    - Blue ON light comes.
+    - APU system is powered and performs a power-up test is done.
+    - APU Air intake flap opens.
+    - Fuel valve opens.
+    - APU fuel pump operates if fuel pumps are not in operation.
+    - ECAM shows APU page
 - OFF:
     - Manual shutdown sequence.
-    - The ON light on the MASTER SW pushbutton, and the AVAIL light on the START pushbutton, go off.
-    - If the aircraft was using APU bleed air, the APU keeps running for a cooling period of 60 seconds.
-    - At 7 %, the air inlet flap closes.
+    - ON light and the AVAIL light on the START pushbutton, go off.
+    - The APU keeps running for a cooling period of 60 seconds, if the aircraft was using APU bleed air.
+    - Air inlet flap closes at 7 %
 - FAULT Lt:
-    - This amber light comes on, and a caution appears on the ECAM, when an automatic APU shutdown occurs, which happens in case of:
+    - Amber light and ECAM warning message, if an automatic APU shutdown occurs. Possible causes:
         - Fire (on ground only)
         - Reverse flow
         - Air inlet flap not open
@@ -42,31 +42,27 @@ This switch controls the electric power supply for APU operation, and its protec
         - No acceleration
         - No speed
         - DC power loss. (BAT OFF when aircraft on batteries only)
-        - EGT overtemperature
+        - EGT over-temperature
         - ECB failure
         - No flame
         - Loss of overspeed protection
-        - Underspeed
+        - Under-speed
         - Oil system shutdown
         - Inlet overheat
         - Clogged oil filter
         - Loss of EGT thermocouples
 
-
 ### START
 
 - ON:
-    - Blue ON light comes on.
-    - When the flap is completely open, the starter is energized.
-    - 1.5 second after the starter is energized, the ignition turns on.
+    - Blue ON light.
+    - Starter is energized when the flap is completely open.
+    - Ignition activates 1.5 second after the starter is energized.
     - When N = 60 %. The APU starter is de-energized. The ignition is turned off.
-    - 2 seconds after N reached 95 %, or when N is above 99.5 % :
-    The ON light on the START pushbutton goes out.
-    The APU may now supply bleed air and electrical power to the aircraft
-    systems.
-    - 10 seconds later, the APU page disappears from the ECAM display.
+    - 2 seconds after N reached 95%, or when N is above 99.5% the the ON light on START button goes out. The APU can now supply bleed air and electrical power to the aircraft.
+    - APU page disappears from the ECAM display after >10sec.
 - AVAIL Lt:
-    - This green light comes on when N is above 99.5 % or 2 seconds after N reaches 95 %.
+    - Green light comes on when N is above 99.5 % or 2 seconds after N reaches 95%.
 
 ---
 

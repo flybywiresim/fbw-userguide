@@ -25,7 +25,7 @@ Headphone output to monitor the Cockpit Voice Recorder, e.g., for testing.
 The maintenance crew uses this pushbutton to reset the control circuit, after the system has operated.
 
 - ON: The PASSENGER SYS ON light goes off.
-- FAULT: This light comes on in white, when the door latch solenoids are energized for more than 30s.
+- FAULT: when the door latch solenoids are energized for more than 30s this light comes on in white.
 
 ### SVCE INT OVRD pushbutton switch
 

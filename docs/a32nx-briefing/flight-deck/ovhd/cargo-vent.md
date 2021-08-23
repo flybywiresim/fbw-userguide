@@ -20,11 +20,11 @@ hide:
 The switch controls the aft isolation valves and the extraction fan.
 
 - Auto:
-    - The inlet and outlet isolation valves open and the extraction fan runs if there is no smoke detected in the aft cargo bay.
+    - Inlet and outlet isolation valves open. Extraction fan runs if there is no smoke detected in the aft cargo bay.
 - OFF:
-    - The inlet and outlet isolation valves and the trim air valve close, the extraction fan stops.
+    - Inlet and outlet isolation valves and the trim air valve close. Extraction fan stops.
 - FAULT Lt:
-    - The light comes on amber associated with ECAM caution when either inlet or outlet valve is not in the selected position.
+    Amber light and ECAM caution when inlet or outlet valve is not in the selected position.
 
 ---
 

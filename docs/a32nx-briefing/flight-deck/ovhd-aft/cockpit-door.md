@@ -17,20 +17,19 @@ hide:
 
 ### Strikes' status lights
 
-- Off : The corresponding (upper, mid, or lower) locking latch is operative.
-- On : The corresponding (upper, mid, or lower) locking latch is faulty.
+- OFF: locking latch is operative.
+- ON: locking latch is faulty.
 
 ###  Pressure sensor
 
-Two redundant differential pressure sensors enable rapid pressure variation in the cockpit to be detected, in order to command simultaneous opening of all latches when a defined pressure
-drop is detected.
+Rapid pressure variation in the cockpit is detected by two redundant differential pressure sensors. This allows simultaneous opening of all latches when a certain pressure drop is detected.
 
 ### Pressure sensor status lights
 
-- Off : The corresponding (1 or 2) pressure sensor is operative.
-- On : The corresponding (1 or 2) pressure sensor is faulty.
+- OFF: Pressure sensor 1 or 2 is operative.
+- ON: Pressure sensor 1 or 2 is faulty.
 
-Note: These indicators enable the crew to identify the faulty item, when the Central Pedestal Fault indicator light is ON.
+Note: When the Central Pedestal Fault indicator light is ON, these indicators enable the crew to identify the faulty item.
 
 ---
 

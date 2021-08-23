@@ -13,28 +13,31 @@ hide:
 
 ![Cargo Smoke Panel](../../../assets/a32nx-briefing/overhead-panel/cargo-smoke.jpg "Cargo Smoke Panel")
 
+!!! note "Incorrect Label"
+    The right side and button label is incorrect. It should say AFT.
+
 ## Usage
 
 ### SMOKE light
 
-This red light, and the associated ECAM warning, come on when the system detects smoke in the indicated compartment. This light comes on, if:
+When the system detects smoke in the compartment, a red light and an ECAM warning come on.
 
-- Both channels detect smoke, or
-- One channel detects smoke and the SDCU finds that the other channel is faulty.
+Both channels need to detect smoke, or one channel detects smoke and the SDCU finds that the other channel is faulty.
 
-### DISCH pushbutton
+### DISCH
 
-This button ignites the squib to discharge the extinguishing agent in the corresponding compartment (FWD or AFT).
+Ignites the squib to discharge the extinguishing agent in the corresponding compartment (FWD or AFT).
 
 ### DISCH light
-R Within 60 seconds after pressing the discharge pushbutton, this amber light comes on,thereby indicating that the agent bottle has fully discharged.
 
-### TEST pushbutton
+Amber light comes on, indicating that the agent bottle has fully discharged.
 
-Pressing this button for at least 3 seconds, and until it is released:
+### TEST
 
-- Tests the smoke detectors in sequence,
-- Turns on the red smoke lights twice, and displays the ECAM warning,
+To test the system press this button and hold it:
+
+- Tests the smoke detectors
+- Turns on the red smoke lights and displays an ECAM warning
 - Closes the ventilation system's isolation valves.
 - Turns on the amber DISCH lights.
 

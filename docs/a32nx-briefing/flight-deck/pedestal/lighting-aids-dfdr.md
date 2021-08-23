@@ -16,15 +16,15 @@ hide:
 
 ### FLOOD LT PED knob
 
-This knob adjusts the brightness of the flood lighting for the pedestal, and turns it on and off.
+Sets brightness of the flood lighting for the pedestal.
 
 ### AIDS PRINT pushbutton
-Pushing this pushbutton causes the immediate printing of a specific report, depending on the flight phase. The crew may then use the MCDU to select another report for immediate printing.
 
-### DFDR EVENT pushbutton
+To print a specific flight phase dependent report, the crew can push this button and then use the MCDU to select another report for printing.
 
-Pressing this button (briefly) sets an event mark on the Flight Data records.
+### DFDR EVENT
 
+This button sets an event mark on the Flight Data records if pressed (briefly).
 
 ---
 

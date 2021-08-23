@@ -11,76 +11,58 @@ hide:
 
 ---
 
-![Thrust Lever and Elevation Trim](../../../assets/a32nx-briefing/pedestal/Thrust-lever-elev-trim.jpg "Thrust Lever and Elevation Trim")
+![Thrust Lever and Elevation Trim](../../../assets/a32nx-briefing/pedestal/Thrust-lever-elev-trim.jpg "Thrust Lever and Elevation Trim"){width=60%}
 
 ## Description
 
-A FADEC dedicated to each engine controls thrust.
+The A320 has so called FADACs which stands for Full Authority Digital Engine Control and is responsible to ensure the engine to perform at maximum efficiency for the given condition.
 
-The pilot uses the thrust levers to set the thrust in manual mode, and the FMGS sets the thrust in automatic mode.
+As one FADAC dedicated to each engine controls the engines operation the pilots or the FMGS can set the thrust. The pilot uses the thrust levers when in manual mode and the FMGS sets the thrust in automatic mode (A/THR aka Autothrust).
 
-The FADEC prevents the thrust from exceeding the limit for the thrust lever position in both manual and automatic modes.
+The thrust levers in the A320 can only be moved manually and are not moved by an autothrottle system as for example in Boeings.
 
-The thrust levers can only be moved manually.
+The FADEC controls and limits thrust to not exceed the limit set via the  thrust lever position in both manual and automatic modes.
 
-They move over a sector that is divided into four operating segments.
 
-The sector has five positions defined by detents or stops.
+The FADEC receives the current thurst lever position and computes thrust rating limit and the N1 for that Thrust Lever Angle (TLA).
 
-Thrust lever position is transmitted to the FADEC, which computes and displays the thrust rating limit and the N1 for that Thrust Lever Angle (TLA).
-
-Note: There is no reverse idle detent. When the pilot moves the lever out of the idle stop by pulling up the reverse lever on the front of the thrust lever, he selects reverse idle.
-
-The FADEC computes the thrust rating limit for each thrust lever position.
-
-If the thrust lever is set in a detent, the FADEC selects the rating limit corresponding to this detent.
-
-If the thrust lever is set between two detents, the FADEC selects the rating limit corresponding to the higher detent.
+If the thrust lever is between two detents, the FADEC will select the rating limit of the higher detent.
 
 ### Manual Thrust Control
 
-The engines are in the manual mode provided the A/THR function is:
+When the auto-thrust (A/THR) mode is not armed or not active (levers in wring position) the engines are in manual mode.
 
-- not armed or
-- armed and not active (thrust lever not in the A/THR operating range and no alpha floor).
+The thrust lever position controls thrust for the corresponding engine in this case.
 
-In these conditions, each engine is controlled by the position of its thrust lever.
+By moving the thrust lever the pilot can set the thrust level which corresponds to a N1 between the IDLE and TOGA positions.
 
-The pilot controls thrust by moving the thrust lever between the IDLE and TOGA positions.
+FLX/MCT detent:
 
-Each position of the thrust lever within these limits corresponds to an N1.
+- On the ground the engine will produce the Maximum Continuous Thrust (MCT) if the crew did not set a valid FLEX take off temperature. It needs to be higher to the the current Total Air Temperature (TAT) to have any effect.
 
-When the thrust lever is in a detent, the corresponding N1 is equal to the N1 rating limit computed by the FADEC for that engine.
+- After takeoff with FLEX thrust the pilot can, by moving the thrust lever to TOGA or CL, chose MCT thrust. It is not possible to go back to FLEX thrust.
+    !!! info ""
+        Note: Setting the thrust lever out of FLX/MCT detent without reaching TOGA or CL detent has no effect.
 
-When the thrust lever is in the FLX/MCT detent:
-
-- On the ground
-    - The engine runs at the flex takeoff thrust rating if the crew has selected a flex takeoff temperature on the MCDU that is higher than the current Total Air Temperature (TAT). Otherwise the engine produces Maximum Continuous Thrust (MCT).
-    - Note: A change in FLEX TEMP during the takeoff has no effect on the thrust.
-- After takeoff
-    - The pilot can change from FLX to MCT by moving the thrust lever to TOGA or CL, then back to MCT. After that, he cannot use the FLX rating.
-    - Note: Setting the thrust lever out of FLX/MCT detent without reaching TOGA or CL detent has no effect.
-
-The pilot can always get MAX TO thrust by pushing the thrust lever all the way forward.
+MAX TO thrust can always achieved by pushing the thrust lever all the way forward.
 
 ### Automatic Thrust Control
 
-In the autothrust mode (A/THR function active), the FMGC computes the thrust which is limited to the value corresponding to the thrust lever position (unless the alpha-floor mode is activated).
+In autothrust mode (A/THR function active), the FMGC computes the thrust. Thrust is limited the thrust lever position (except when in alpha-floor mode).
 
 ### PITCH TRIM wheel
 
-Both pitch trim wheels provide mechanical control of the Trimmable Horizontal Stabilizer (THS) and have priority over electrical control. A pilot action on the pitch trim wheel disconnects the autopilot.
+The A320 has a feature called "Autotrim", which makes it unnecessary to hold the sidestick or use the trim wheel for holding the current pitch.
 
-Note: Crew action on the pitch trim wheel does not disconnect the ELACs (micro-switches, actuated by the override mechanism, ensure that the computers remain synchronized with the manually-selected position).
+The "Autotrim" is using a load-factor demand mode which means in level flight the system maintains 1g and no input is needed from the pilots to correct for speed, turns or configuration.
 
-The THS is manually-controlled on ground for the THS setting, before takeoff and in flight, when in direct law.
+This system is always active, even when the Autopilot is off (in Normal Law which means under normal circumstances with a fully functional aircraft).
 
-- Before takeoff, the pilot sets the THS to the angular value, determined as a function of the aircraft CG, using the CG scale on the wheel. The relationship between the aircraft CG and the THS setting shown on the trim wheel is only applicable for takeoff. The limits of the THS normal setting range for takeoff are indicated by a green band on the pitch trim wheel.
-- In flight, when in direct law, the pilot uses the THS conventionally to fly in trim. In flight, the aircraft pitch trim setting depends on aircraft CG, weight, altitude and speed. Consequently, the relation between the aircraft CG, and the THS setting displayed on the pitch trim wheel, does not apply in flight.
+Nevertheless the pitch trim wheels in the cockpit provide mechanical control of the Trimmable Horizontal Stabilizer (THS) and have priority over electrical control. The Autopilot is disconnected when a pilot uses the trim wheel during flight.
 
-Following nosewheel touchdown, as the pitch attitude becomes less than 2.5° for more than 5 seconds, pitch trim is automatically reset to zero.
+!!! info ""
+    Note: Pilot's use of the pitch trim wheel does not disconnect the ELACs to make sure that the computers remain synchronized with the manually-selected position.
 
-Note: This function is inoperative, when the green or yellow hydraulic system is not pressurized.
 
 ---
 

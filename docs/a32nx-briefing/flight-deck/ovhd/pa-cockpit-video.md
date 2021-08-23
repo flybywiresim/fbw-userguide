@@ -9,8 +9,16 @@
 
 ![PA and Cockpit Video Panel](../../../assets/a32nx-briefing/overhead-panel/pa-cockpit-video.jpg "PA and Cockpit Video Panel")
 
-<!-- TODO -->
+## Usage
 
+### PA in use Light
+
+Illuminates when the PA is activated from the cockpit or the cabin (cabin attendant ot prerecorded announcement).
+
+### Cockpit Door Video
+
+- OFF:
+    - Manually turns off the power for the Cockpit Door Surveillance System.
 
 ---
 

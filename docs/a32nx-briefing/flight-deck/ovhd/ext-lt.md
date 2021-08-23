@@ -17,17 +17,20 @@ hide:
 
 ### STROBE
 
-This switch turns on and off the three synchronized strobe lights, one on each wing tip and one below the tail cone.
+Turns on and off the three synchronized strobe lights, one on each wing tip and one below the tail cone.
 
-- ON: The strobe lights flash white.
-- AUTO: The strobe lights come on automatically when the main gear strut is not compressed.
-- OFF: The strobe light are off.
+- ON:
+    - Strobe lights or on.
+- AUTO:
+    - Automatically turns on strobe lights when the main gear strut is not compressed.
+- OFF:
+    - Strobe light are off.
 
 Strobes are turned on latest when airborne usually shortly before the take of roll.
 
-![STROBE and NAV](../../../assets/a32nx-briefing/overhead-panel/lights/strobe-right.png "STROBE and NAV"){width=360}
+![STROBE and NAV](../../../assets/a32nx-briefing/overhead-panel/lights/strobe-right.jpg "STROBE and NAV"){loading=lazy}
 
-![STROBE and NAV](../../../assets/a32nx-briefing/overhead-panel/lights/strobe-left.png "STROBE and NAV"){width=360}
+![STROBE and NAV](../../../assets/a32nx-briefing/overhead-panel/lights/strobe-left.jpg "STROBE and NAV"){loading=lazy}
 
 ### BEACON
 
@@ -35,73 +38,83 @@ This switch turns on and off the two flashing red lights, one on top and one on 
 
 Signals the ground crew that the engines are about to start or running.
 
-![Beacon](../../../assets/a32nx-briefing/overhead-panel/lights/beacon.png "Beacon")
+![Beacon](../../../assets/a32nx-briefing/overhead-panel/lights/beacon.jpg "Beacon"){loading=lazy}
 
 ### WING
 
-This switch turns on and off two beam lights on each side of the fuselage. These lights illuminate the leading edge of the wing and the engine air intake to show if ice is accumulating there.
+Illuminate the leading edge of the wing and the engine air intake to show if ice is accumulating there.
 
-![WING Lt](../../../assets/a32nx-briefing/overhead-panel/lights/wing.png "WING Lt")
+![WING Lt](../../../assets/a32nx-briefing/overhead-panel/lights/wing.jpg "WING Lt"){loading=lazy}
 
 ### NAV & LOGO
 
-This switch turns the navigation lights on and off.<br/>
-There are dual navigation lights on each wing tip and in the APU tail cone.<br/>
+This switch turns the navigation lights on and off.
+
+There are dual navigation lights on each wing tip and in the APU tail cone.
+
 Logo lights are installed in the upper surface of each horizontal stabilizer to illuminate the company logo on the vertical stabilizer provided the main gear struts are compressed or the slats are extended.
 
-- 1: Turns on the logo lights and the first set of navigation lights.
-- 2: Turns on the logo lights and the second set of navigation lights.
-- OFF: All lights are off.
+- 1:
+    - Turns on the logo lights and the first set of navigation lights.
+- 2:
+    - Turns on the logo lights and the second set of navigation lights.
+- OFF:
+    - All lights are off.
 
 NAV & LOGO are turned on when the aircraft is powered up (EXT PWR or APU or ENG).
 
-![NAV & LOGO and STROBE](../../../assets/a32nx-briefing/overhead-panel/lights/tail-lights.png "NAV & LOGO and STROBE")
+![NAV & LOGO and STROBE](../../../assets/a32nx-briefing/overhead-panel/lights/tail-lights.jpg "NAV & LOGO and STROBE"){loading=lazy}
 
 ### RWY TURN OFF
 
 This switch turns the runway turn-off lights on and off.
 
-Note : These lights go off automatically when landing gear is retracted.
+These lights go off automatically when landing gear is retracted.
 
-![RWY TURN OFF Lt](../../../assets/a32nx-briefing/overhead-panel/lights/rwy-turn-off-lights.png "RWY TURN OFF Lt")
+![RWY TURN OFF Lt](../../../assets/a32nx-briefing/overhead-panel/lights/rwy-turn-off-lights.jpg "RWY TURN OFF Lt"){loading=lazy}
 
-![RWY TURN OFF Lt](../../../assets/a32nx-briefing/overhead-panel/lights/rwy-turn-off-above.png "RWY TURN OFF Lt")
+![RWY TURN OFF Lt](../../../assets/a32nx-briefing/overhead-panel/lights/rwy-turn-off-above.jpg "RWY TURN OFF Lt"){loading=lazy}
 
 
 ### LAND L + R
 
-These selectors control the landing light.
+Landing light switches for left and right under wing landing light.
 
-- ON: Extends the (left or right) landing light which comes on automatically when fully extended.
-- OFF: Shut off the landing light but leaves it extended.
-- RETRACT: Retracts the landing light and shuts it off.
+- ON:
+    - Extends and turns on the landing light after the lights have been fully extended.
+- OFF:
+    - Landing lights shut off but stay extended.
+- RETRACT:
+    - Landing lights are shut off and retracted.
 
-![LAND Lt](../../../assets/a32nx-briefing/overhead-panel/lights/land-lights.png "LAND Lt")
+![LAND Lt](../../../assets/a32nx-briefing/overhead-panel/lights/land-lights.jpg "LAND Lt"){loading=lazy}
 
-![LAND Lt](../../../assets/a32nx-briefing/overhead-panel/lights/land-lights-above.png "LAND Lt")
+![LAND Lt](../../../assets/a32nx-briefing/overhead-panel/lights/land-lights-above.jpg "LAND Lt"){loading=lazy}
 
 ### NOSE
 
-This switch turns the taxi and takeoff lights on and off.
+Turns the taxi and nose takeoff lights on and off.
 
-- T.O.: Turns on both taxi and takeoff lights.
-- TAXI: Turns on only taxi light.
-- OFF: Taxi and takeoff lights off.
+- T.O.:
+    - Turns on both taxi and takeoff lights.
+- TAXI:
+    - Turns on only taxi light.
+- OFF:
+    - Taxi and takeoff lights off.
 
-Note : These two lights, attached to the nose gear strut, go off automatically when landing gear is retracted.
-
+Note: These two lights, attached to the nose gear strut, go off automatically when landing gear is retracted.
 
 #### TAXI
 
-![NOSE TAXI](../../../assets/a32nx-briefing/overhead-panel/lights/taxi-light.png "NOSE TAXI")
+![NOSE TAXI](../../../assets/a32nx-briefing/overhead-panel/lights/taxi-light.jpg "NOSE TAXI"){loading=lazy}
 
-![NOSE TAXI](../../../assets/a32nx-briefing/overhead-panel/lights/taxi-light-above.png "NOSE TAXI")
+![NOSE TAXI](../../../assets/a32nx-briefing/overhead-panel/lights/taxi-light-above.jpg "NOSE TAXI"){loading=lazy}
 
 #### T.O.
 
-![NOSE T.O.](../../../assets/a32nx-briefing/overhead-panel/lights/to-lights.png "NOSE T.O.")
+![NOSE T.O.](../../../assets/a32nx-briefing/overhead-panel/lights/to-lights.jpg "NOSE T.O."){loading=lazy}
 
-![NOSE T.O.](../../../assets/a32nx-briefing/overhead-panel/lights/to-lights-above.png "NOSE T.O.")
+![NOSE T.O.](../../../assets/a32nx-briefing/overhead-panel/lights/to-lights-above.jpg "NOSE T.O."){loading=lazy}
 
 
 ---

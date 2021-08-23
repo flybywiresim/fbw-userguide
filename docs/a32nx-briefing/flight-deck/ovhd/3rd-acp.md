@@ -13,63 +13,79 @@ hide:
 
 ![3rd Audio Control Panel](../../../assets/a32nx-briefing/overhead-panel/3rd-acp.jpg "3rd Audio Control Panel")
 
+## Description
+
+!!! note ""
+    3rd Audio Control Panel is currently not available / inop in the FBW A32NX for Microsoft Flight Simulator.
+
 ## Usage
 
 ### Tansmission Keys
 
-![3rd-acp_1](../../../assets/a32nx-briefing/overhead-panel/3rd-acp-tkeys.jpg)
+![RMP Transmission Keys](../../../assets/a32nx-briefing/pedestal/RMP-transmission-keys.png)
+
+!!! note ""
+    Currently only the VHF1-3 channels are available in the FBW A32NX for Microsoft Flight Simulator.
 
 - Pressed:
-    - The associated channel is selected for transmission.
-    - The three green lines come on.
-    - The pilot deselects the channel by pressing the pushbutton again, or by selecting another channel.
+    - Channel selected for transmission.
+    - Green lines come on.
+    - Deselecting by pressing the pushbutton again, through selecting another channel.
 - CALL:
-    - The legend flashes amber (and buzzer sounds) when the SELCAL system detects a call.
+    -  When the SELCAL system detects a call the legend flashes amber (and buzzer sounds).
 - MECH:
-    - The legend flashes amber (and buzzer sounds) for a call from the nose gear bay. The MECH light goes off after 60 seconds, if it is not reset.
+    - When called from the nose gear bay the legend flashes amber (and buzzer sounds). If it is not reset, the MECH light goes off after 60 seconds.
 - ATT:
-    - The legend flashes amber (and buzzer sounds) for a call from a cabin attendant. The ATT light goes off after 60 seconds, if it is not reset.
-
+    - When called from a cabin attendant, the legend flashes amber (and buzzer sounds). If it is not reset, the ATT light goes off after 60 seconds.
 
 ### Reception Knobs
 
-![Reception Knobs](../../../assets/a32nx-briefing/overhead-panel/3rd-acp-rknobs.jpg "Reception Knobs")
+![Reception Knobs](../../../assets/a32nx-briefing/pedestal/RMP-reception-knobs-1.png "Reception Knobs")
 
-These knobs allow the flight crew to select reception channels and to adjust their volume.
+![Reception Knobs](../../../assets/a32nx-briefing/pedestal/RMP-receiption-knobs-2.png "Reception Knobs")
 
-- Pressing and releasing the knob (knob out) selects the associated audio reception channel. The integral white light comes on. Rotating the knob adjusts the volume.
-- Pressing the knob (knob stays in) disconnects the associated audio reception channel.
+!!! note ""
+    Currently only the VHF2-3 channels are available for selection in the FBW A32NX for Microsoft Flight Simulator. VHF1 is always selected although not lit.
 
-Note : For reception of DME audio navigation signals associated to an ILS or MLS station, the ILS (or LS) pushbutton on the FCU must also be selected.
+These knobs are used to allow the flight crew to activate a channel for reception and to adjust volume.
+
+- Pushing the knob to "knob out" selects the channel for reception. The integral white light comes on. Rotating the knob adjusts the volume.
+- Pushing the knob (knob stays in) deselects the channel for reception.
 
 ### RESET
 
-Pressing this key extinguishes CALL, MECH, and ATT lights.
+Extinguishes CALL, MECH, and ATT lights.
+
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### VOICE
 
-This key allows the flight crew to inhibit the audio navigation signals (VOR, ADF). Pressing this key filters out ident signals and turns on the green ON light.
+Inhibit the audio navigation signals (VOR, ADF) and filters out ident signals and turns on the green ON light.
+
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### INT/RAD
 
-This switch operates as a press-to-talk switch for boom mike or oxygen mask mike.
+Press-to-talk switch for boom mike or oxygen mask mike.
 
-- INT:
-    - Boom and mask mikes transmit on interphone regardless of which transmission key is selected. For reception on interphone, the crew member must have INT selected (INT reception knob out).
-- Neutral:
-    - Reception is normal. Boom and mask mikes do not transmit.
-- RAD (press and hold):
-    - Boom and mask mikes transmit on the radio selected on the audio control panel.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### PA (Passenger Address)
 
-The passenger address allows flight personnel to make announcements to passengers in the cabin through loudspeakers. It can be operated from the cockpit (with ACP or handset) or from the cabin (attendant stations).
+Passenger Address is used by the flight personnel to make passenger announcements through loudspeakers in the cabin.
+
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 #### PA transmission key
 
-Pressed and held: The flight crew may use a boom, mask, or hand mike to make an announcement. Three green lines come on.
+Pressed and held: To make an announcement a boom, mask or hand mike is used
 
-Note : The flight crew may use a cockpit handset to make PA announcements without action on the ACPs.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 #### PA reception knob
 
@@ -77,6 +93,10 @@ Note : The flight crew may use a cockpit handset to make PA announcements withou
     - The message goes to the loudspeakers and the integral white light comes on. The flight crew can rotate the knob to adjust the volume.
 - Pressed (knob in):
     - The PA system is disconnected. The white light goes out.
+
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+
 
 ---
 

@@ -11,86 +11,85 @@ hide:
 
 ---
 
-![WX Radar Panel](../../../assets/a32nx-briefing/pedestal/WX-radar-Panel.jpg "WX Radar Panel")
+![WX Radar Panel](../../../assets/a32nx-briefing/pedestal/WX-radar-Panel.jpg "WX Radar Panel"){ width=60% }
 
 ## Description
 
-The aircraft is fitted with a Multiscan weather radar systems with a Predictive WindShear (PWS) function and a weather hazard prediction function.
+The A320 is fitted with a weather radar system which includes a Predictive Windshear System (PWS) and a weather hazard prediction function.
 
-The flight crew can display weather data on the CAPT and/or F/O NDs in either ARC or ROSE mode.
+The weather radar data can by display on the NDs in ARC or ROSE mode.
 
-The flight crew can adjust the brightness of the weather image on the ND thanks the outer knob of the ND Brightness Control knob.
-
-The weather radar has a Predictive WindShear system (PWS) that operates when the PWS switch is in the AUTO position , and the aircraft radio height is below 2 300 ft, and
-
-- Weather radar is ON (Radar sw on position 1 or 2), or
-- Weather radar is OFF, and
- At least one engine is running, and
-- Aircraft ground speed is greater than 30 kt, or
-- Aircraft longitudinal acceleration is above a given threshold during at least 0.5 s.
-
-The system scans the airspace for windshear within a range of 5 NM ahead of the aircraft. When the system detects windshear, a windshear symbol appears on the ND.
+In Microsoft Flight Simulator the system is limited by what the simulator provides which currently is only precipitation.
 
 ## Controls
 
-### Radar sw
+### Radar
 
-- This switch sets one radar to ON or turns both radars to OFF.
+- ON:
+    - set the switch to position 1
+- OFF:
+    - set the switch to position OFF (middle)
 
-- Note: If only one radar is installed on the aircraft, no weather image is displayed on the Navigation Display (ND) when the "1/OFF/2" SYS sw is set to "2".
-
-### GAIN knob
+### GAIN
 
 - This knob adjusts the sensitivity of the radar.
 
-- CAL is the normal position of the knob:
-    - When in Multiscan Automatic mode and gain set to CAL, the radar automatically adjusts the gain according to various parameters (aircraft altitude, geographical area, season, time of the day) to obtain the best weather display
-    - When in Manual mode and gain set to CAL, the radar adjusts the gain to a calibrated setting.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### MODE - Display mode selector
 
 - WX:
-    - Weather mode:<br/>
-        Colors indicate the intensity of precipitation (black for the lowest intensity, green, amber and red indicate progressively higher intensity).
+    - Weather mode: Intensity of precipitation (black for the lowest intensity, green, amber and red indicate progressively higher intensity).
 - WX+T:
-    - Weather and Turbulence mode :<br/>
-    The ND indicates precipitation and turbulence areas. Turbulence areas are displayed in magenta (within 40 NM).
+    - Weather and Turbulence mode: WX plus turbulence areas are displayed in magenta.
 - TURB:
-    - Turbulence mode:<br/>
-    The ND only displays turbulence areas in magenta (within 40 NM).
+    - Turbulence mode: Only turbulence areas.
 - WX+T+HZD:
-    - Weather, Turbulence and Hazard mode (recommended position):<br/>
-    The ND indicates precipitation, turbulence areas in magenta (within 40 NM) and hazard prediction risk areas (Refer to DSC-34-SURV-30-30 Weather Hazard Prediction Function Indication on ND).
-    Hazard prediction function is only available when the MULTISCAN sw is set to AUTO.
-    - Note: When MULTISCAN sw is set to MAN, WX+T+HZD mode is equivalent to WX+T mode.
+    - Weather, Turbulence and Hazard mode (recommended position): WX+T and hazard prediction risk areas
 - MAP:
-    - Map mode:<br/>
-      The radar operates in ground mapping mode: black indicates water, green indicates the ground, and amber indicates cities and mountains.
+    - Map mode: No weather display but ground information: Black for water, green for ground, and amber for cities and mountains.
 
-###  TILT knob
+!!! note ""
+    Currently only precipitation is available in the FBW A32NX for for Microsoft Flight Simulator.
 
-This knob adjusts the antenna tilt when MULTISCAN sw is set to MAN. Zero indicates the horizon reference provided by the IRS.
+###  TILT
 
-### MULTISCAN sw
+This allows tilting the radar antenna when MULTISCAN is MAN. Zero uses the horizon reference from the IRS.
+
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
+
+### MULTISCAN
 
 - AUTO:
-    - Activates Multiscan mode. Multiscan controls the tilt automatically and combines two scans done at different tilt angles to optimize weather detection and minimize ground clutter.
+    - Controls radar antenna tilt automatically combineing two scans from different angles to optimize weather detection and minimize ground clutter.
 - MAN:
-    - When set to MAN, the crew can manually adjust the tilt by using the TILT knob.
+    - Manually adjust radar antenna tilt using the TILT knob.
 
-### GCS sw
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
-- The Ground Clutter Suppression (GCS) switch is spring-loaded to the AUTO position.
+### GCS (Ground Clutter Suppression)
 
 - AUTO:
-    - If MULTISCAN sw is set to AUTO, the radar is in normal use. Ground clutter is not displayed on the screen
-    - If MUTLISCAN sw is set to MAN, the GCS sw has no utility. Ground clutter is displayed on the screen.
-- OFF: Ground clutter is displayed on the screen.
+    - Normal radar use if MULTISCAN is on AUTO. Ground Clutter is not displayed.
+    - GCS has no utility if MUTLISCAN is on MAN. Ground clutter is visible.
+- OFF:
+    - Ground clutter is visible.
 
-### PWS sw
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
-- AUTO : Activates the Predictive WindShear function in accordance with activation  conditions (Refer to DSC-34-SURV-30-20 Windshear Alerts Above 50 feet).
-- OFF : The Predictive WindShear function is off.
+### PWS
+
+- AUTO:
+    - Predictive WindShear is on when condition are met.
+- OFF:
+    - The Predictive WindShear function is off.
+
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
 

@@ -15,20 +15,15 @@ hide:
 
 ## Description
 
-Two MCDUs are installed on the pedestal for flight crew loading and display of data.
+The MCDU is the main interface for the flight crew to the FMGC (Flight Management Guidance Computer). There are two MCDUs installed in the A320.
 
-The use of the MCDU allows the flight crew to interface with the FMGC by selection of a flight plan for lateral and vertical trajectories and speed profiles.
+Typical usage is the definition and selection of a flight plan for lateral and vertical navigation during various flight phases.
 
-The crew may also modify selected navigation or performance data and specific functions of Flight Management (revised flight plan, engine-out, secondary flight plan, etc.).
-
-Additional data from peripherals (Centralized Fault Display System (CFDS), ARINC Communications, Reporting System (ACARS) can also
-be displayed.
-
-Data that is entered into the MCDU that is illogical or beyond the aircraft capabilities will either be disregarded or will generate an advisory message.
+After entry or selection of the flight plan and other required performance data into the MCDU, the FMGS generates the climb and descent profiles for departure and arrival, provides automatic airplane guidance, and computes current and predicted progress along the flight plan.
 
 <!-- TODO: UPDATE -->
 !!! info "Future Update"
-    A more in depth description of the MCDU is currently developed and will be available in the near future.
+    A more in depth briefing section of the MCDU is currently developed and will be available in the near future.
 
 ---
 

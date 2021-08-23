@@ -17,30 +17,26 @@ hide:
 
 ### OVHD INTEG LT
 
-This knob turns the integral lighting for the overhead panel on and off and adjusts its brightness.
+Brightness for the integral lightning of the overhead panel.
 
 ### ICE IND & STBY COMPASS
 
-This switch turns the integral lighting for the standby compass and the visual indicator on and off.
+Integral lighting for the standby compass and the visual indicator.
 
 ### DOME
 
-This switch controls both dome lights.
-
-- BRT: Both dome lights on bright.
-- DIM: Both dome lights on dim.
-- OFF: Both dome lights off.
+Switch for dome lights, OFF, DIM (dimmed) and BRT (bright)
 
 ### ANN LT
-This switch sets the brightness of all the cockpit annunciator lights at either "bright" or "dim", and also tests them.
 
-- TEST: Illuminates all flight deck annunciator lights. Puts 8's up in all liquid crystal displays (LCDs).
-- DIM: Reduces voltage to all annunciator lights.
-- BRT: Allows annunciators to function normally.
+Brightness of cockpit annunciator lights. Either "bright" or "dim", or test.
 
-Note : Transfer of data between ECAM and the ND and switching between the
-electronic instrument system and the display management computer are not
-allowed during the ANN LT test.
+- TEST:
+    - Turns on all annunciator lights in the cockpit and LCDs in the FCU for the test.
+- DIM:
+    - Dims all annunciator lights.
+- BRT:
+    - Normal brightness for all annunciator lights.
 
 ---
 
