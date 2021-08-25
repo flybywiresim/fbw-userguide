@@ -89,7 +89,7 @@ Displayed with green text. Displays when APP NAV and Final modes are engaged dur
 
 ---
 
-[Back to Flight Mode Annunciators](..\PFD\FMA.md){ .md-button }
+[Back to Flight Mode Annunciators](..\FMA.md){ .md-button }
 
 
 

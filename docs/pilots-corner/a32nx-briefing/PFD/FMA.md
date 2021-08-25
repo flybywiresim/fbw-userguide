@@ -22,14 +22,14 @@ Note: all flight mode annunciator page return buttons should link back to this p
 
 ## Chapters
 
-- [First Column (Autothrust Mode Annunciators)](..\PFD\firstColumn.md)
-- [Second Column (Vertical Mode Annunciators)](..\PFD\secondColumn.md)
-- [Third Column (Lateral Mode Annunciators)](..\PFD\thirdColumn.md)
-- [Fourth Column (Approach Annunciators)](..\PFD\fourthColumn.md)
-- [Fifth Column (Autopilot Status Annunciators)](..\PFD\fifthColumn.md)
-- [Special Message and Common Mode Annunciators](..\PFD\specialMessageAnnunciators)
+- [First Column (Autothrust Mode Annunciators)](..\firstColumn.md)
+- [Second Column (Vertical Mode Annunciators)](..\secondColumn.md)
+- [Third Column (Lateral Mode Annunciators)](..\thirdColumn.md)
+- [Fourth Column (Approach Annunciators)](..\fourthColumn.md)
+- [Fifth Column (Autopilot Status Annunciators)](..\fifthColumn.md)
+- [Special Message and Common Mode Annunciators](..\specialMessageAnnunciators)
 
 ---
 
-[Back to Interactive PFD](..\PFD\index.md){ .md-button }
+[Back to Interactive PFD](..\index.md){ .md-button }
 
