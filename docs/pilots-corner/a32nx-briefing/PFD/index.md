@@ -22,8 +22,8 @@ Note: pages such as SpeedTape.md should have a button that links back to here.
 
 ## Chapters
 
-- [Flight Mode Annunciators](FMA)
-- [Actual Airspeed Reference Line and Scale](SpeedTape)
+- [Flight Mode Annunciators](FMA.md)
+- [Actual Airspeed Reference Line and Scale](SpeedTape.md)
 <!--
 - [Bank Angle Indicator]()
 - [Altitude Indicator]()
