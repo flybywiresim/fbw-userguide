@@ -1,3 +1,5 @@
 Title: Primary Flight Display (PFD)
 nav: 
  - Overview: index.md
+ - Flight Mode Annunciations: FMA.md
+ - Actual Airspeed Reference Line and Scale: SpeedTape.md

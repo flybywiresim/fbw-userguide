@@ -48,7 +48,7 @@ MAX TO thrust can always achieved by pushing the thrust lever all the way forwar
 
 ### Automatic Thrust Control
 
-In autothrust mode (A/THR function active), the FMGC computes the thrust. Thrust is limited the thrust lever position (except when in alpha-floor mode).
+In autothrust mode (A/THR function active), the FMGC computes the thrust. Thrust is limited to the thrust lever position (except when in alpha-floor mode).
 
 ### PITCH TRIM wheel
 
