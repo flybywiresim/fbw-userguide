@@ -126,7 +126,7 @@ Sometimes the sim will "*miss*" the trigger point being reached for outer tank f
 !!! tip ""
     *Affected versions: Stable, Development*
 
-Can't interact with EFB when to popped-out (++"ralt"+"Left Click"++) and switching to external view the EFB.
+Can't interact with EFB when popped-out (++ralt+"Left Click"++) and switching to the external camera.
 
 - Workaround: Make sure to click on the actual EFB screen (not the popped out window) before switching to external camera.  
 
