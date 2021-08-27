@@ -38,20 +38,6 @@ FBW Installer - [Download Here](https://api.flybywiresim.com/installer){target=n
     - [**Typical Issues + Solutions**](../feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
     - [**Known Issues**](../feature-guides/autopilot-fbw.md#known-issues)
 
-#### Using the *"Pounds (lbs)"* on the EFB
-
-!!! tip ""
-    *Affected versions: Stable, Development*
-
-The lbs weight setting on the EFB may cause the following issues.
-
-- Simbrief integration - fuel and payload showing 0 after OFP request in AOC.
-- EFB unit conversions cause weights on ECAM and MCDU to show 0 when **lbs** is selected by the efb.
-- FOB displays 0 on ECAM.
-
-- **Workaround:** Set lbs through the MCDU only and reload the aircraft.
-- **Fix in Progress [PR #5344](https://github.com/flybywiresim/a32nx/pull/5344){target=new}**
-
 #### Fuel Consumption
 
 !!! tip ""
@@ -134,6 +120,15 @@ Sometimes the sim will "*miss*" the trigger point being reached for outer tank f
     <sub> You may install Stable v0.6.3 for compatibility. We recommend staying on development.
 
     This information is stated on [Installation Guide](../installation.md).
+
+#### EFB Issues in External View
+
+!!! tip ""
+    *Affected versions: Stable, Development*
+
+Can't interact with EFB when to popped-out (++"ralt"+"Left Click"++) and switching to external view the EFB.
+
+- Workaround: Make sure to click on the actual EFB screen (not the popped out window) before switching to external camera.  
 
 #### Printing METAR Reports May Cause a CTD
 
@@ -395,6 +390,12 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 ---
 
 ## Fixed Issues
+
+!!! tip ""
+    Unless stated otherwise, all fixed issues are first released on our development version.
+
+- Using the *"Pounds (lbs)"* on the EFB. *[Fixed PR #5344](https://github.com/flybywiresim/a32nx/pull/5344){target=new}*
+    - Closed Issues: [#5316](https://github.com/flybywiresim/a32nx/issues/5316), [#5321](https://github.com/flybywiresim/a32nx/issues/5321)
 
 - Installer v1.2.0 issues resolved in v2.0.
 
