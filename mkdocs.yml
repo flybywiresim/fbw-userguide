@@ -40,6 +40,7 @@ plugins:
         # Folder: /start/
         'start/fbw-versions.md': 'fbw-a32nx/fbw-versions.md'
         'start/installation.md': 'fbw-a32nx/installation.md'
+        'start/support.md': 'fbw-a32nx/support/index.md'
         'start/convert-liveries.md': 'fbw-a32nx/liveries.md'
         'start/reported-issues.md': 'fbw-a32nx/support/reported-issues.md'
         'start/performance-tips.md': 'fbw-a32nx/support/performance-tips.md'
