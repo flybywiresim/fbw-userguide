@@ -12,14 +12,14 @@
 
     Every addition to the development version is code-reviewed and tested by several people, our QA Team and also interested users. In general it tends to be very stable and robust.
 
-    Latest additions to this version can be seen either in the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md) or the commits to the master branch of the project: : [Github Commits to Master](https://github.com/flybywiresim/a32nx/commits/master){target=new}
+    Latest additions to this version can be seen either in the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md) or the commits to the master branch of the project: [Github Commits to Master](https://github.com/flybywiresim/a32nx/commits/master){target=new}
 
 === "Stable Version"
 
     !!! info ""
         **Current Stable Version - v0.6.3**
 
-    Stable is our version which has features that are the most mature and most tested so that it should be a reliable version for the more conservative user preferring stability over newest features.
+    Stable is our version which has features that are the most mature and most tested. This should be a reliable version for those users preferring stability over newest features.
 
     This version will not always be up to date but we work hard at ensuring its compatibility with the current version from Microsoft Flight Simulator.
 
