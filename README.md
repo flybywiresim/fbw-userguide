@@ -22,3 +22,8 @@ Note: Please be aware that sub-directories are present in the parent directories
 
 [https://flybywiresim.com/](https://flybywiresim.com/)
 
+---
+
+[![Powered by Vercel](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=[flybywiresim]&utm_campaign=oss "Powered by Vercel")
+
+
