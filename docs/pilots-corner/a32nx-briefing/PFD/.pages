@@ -1,5 +1,13 @@
 Title: Primary Flight Display (PFD)
 nav: 
  - Overview: index.md
- - Flight Mode Annunciations: FMA.md
- - Actual Airspeed Reference Line and Scale: SpeedTape.md
+ - Flight Mode Annunciations: fma.md
+ - Actual Airspeed Reference Line and Scale: speedtape.md
+ - Altitude Indicator: altitude-indicator.md
+ - Attitude and Guidance: artificial-horizon.md
+ - Barometric Reference: baro-ref.md
+ - Localiser and Glideslope Deviation Scale And Index: ils-indicator.md
+ - Vertical Speed Indicator: vertical-speed.md
+ - Flags and Messages: flags-messages.md
+ - Heading Reference Line and Scale: heading-ref.md
+ 
