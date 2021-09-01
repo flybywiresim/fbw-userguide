@@ -36,7 +36,7 @@
     Please read [Experimental Version Support Page](support/exp.md) before using this version.
 
     !!! danger "No Support for Experimental - use at own risk"
-        Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "Bugs and Issues".
+        Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "[CFMS LNAV ONLY Bugs + Issues](https://discord.com/channels/738864299392630914/876140343735771147/882442909918584862){ target=new }".
 
 === "Marketplace Version"
 

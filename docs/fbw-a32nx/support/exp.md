@@ -1,7 +1,7 @@
 # Experimental Version
 
 !!! danger "No Support for Experimental - use at own risk"
-    Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "Bugs and Issues".
+    Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "[CFMS LNAV ONLY Bugs + Issues](https://discord.com/channels/738864299392630914/876140343735771147/882442909918584862){ target=new }".
 
 ---
 
@@ -43,10 +43,10 @@
 
 ### How to Report Issues
 
-At this time please only report issues via our Discord channel "#ata-22-fms" in the thread "Bugs and Issues".
+At this time please only report issues via our Discord channel "#ata-22-fms" in the thread "[CFMS LNAV ONLY Bugs + Issues](https://discord.com/channels/738864299392630914/876140343735771147/882442909918584862){ target=new }".
 
 !!! warning
-    Please read the above Known Issues list and also use the search of  Discord to see if you issue has already been reported.
+    Please read the above Known Issues list and also use the search of  Discord to see if your issue has already been reported.
 
 **Do not open any issues on Github for the Experimental Version!**
 
@@ -57,4 +57,4 @@ At this time please only report issues via our Discord channel "#ata-22-fms" in 
 ---
 
 !!! danger "No Support for Experimental - use at own risk"
-    Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "Bugs and Issues".
+    Please do not seek support for the Experimental Version on Discord and only report issues if you have read this page and the reported and known issues. You can report issues in the Discord channel "#ata-22-fms" in the thread "[CFMS LNAV ONLY Bugs + Issues](https://discord.com/channels/738864299392630914/876140343735771147/882442909918584862){ target=new }".
