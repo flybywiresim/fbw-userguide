@@ -304,7 +304,7 @@ The FMA now shows AP1 in white in the upper right corner.
 !!!info "FCU Autopilot Controls"
     The FCU (Flight Control Unit) shows three important values:
 
-    - SPD "---" : means the __Autopilot__ is in Managed Speed mode (e.g. 250knots <1000ft, 290kts above). If we pull the SPD knob we can select a speed which the __Autopilot__ will then apply.
+    - SPD "---" : means the __Autopilot__ is in Managed Speed mode (e.g. 250knots <10.000ft, 290kts above). If we pull the SPD knob we can select a speed which the __Autopilot__ will then apply.
     - HDG "---" : means the lateral navigation is in Managed HDG Mode and the __Autopilot__ follows the planned route. Dialing the HDG knob will let us select a heading and by pulling the knob we tell the __Autopilot__ to fly this heading (Selected Heading Mode).<br/>
     - ALT "5000" : means the selected altitude is 5000ft<br/>
 
