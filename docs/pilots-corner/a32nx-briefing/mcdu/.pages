@@ -1,4 +1,16 @@
 title: MCDU
 nav:
   - Overview: index.md
-  - ...
+  - interface.md
+  - DIR TO: dir.md
+  - PROG: prog.md
+  - PERF: perf.md
+  - INIT: init.md
+  - DATA: data.md
+  - F-PLN: f-pln.md
+  - RAD NAV: rad-nav.md
+  - FUEL PRED: fuel-pred.md
+  - SEC F-PLN: sec-f-plan.md
+  - ATC COMM: atc-comm.md
+  - MCDU MENU: mcdu-menu.md
+  - AIRPORT: airport.md

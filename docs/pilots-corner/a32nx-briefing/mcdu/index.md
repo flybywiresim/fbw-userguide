@@ -15,17 +15,18 @@ This section describes the MCDU in detail, covering each page and also the stand
 ## Chapters
 
 - [MCDU Interface](interface.md)
-- [MCDU Setup Procedure]()
 - Pages:
-    - [DIR TO]()
-    - [PROG]()
-    - [PERF]()
-    - [INIT]()
-    - [DATA]()
-    - [F-PLN]()
-    - [RAD NAV]()
-    - [FUEL PRED]()
-    - [SEC F-PLN]()
-    - [ATC COMM]()
-    - [MCDU MENU]()
-    - [AIR PORT]()
+    - [DIR TO](dir.md)
+    - [PROG](prog.md)
+    - [PERF](perf.md)
+    - [INIT](init.md)
+    - [DATA](data.md)
+    - [F-PLN](f-pln.md)
+    - [RAD NAV](rad-nav.md)
+    - [FUEL PRED](fuel-pred.md)
+    - [SEC F-PLN](sec-f-plan.md)
+    - [ATC COMM](atc-comm.md)
+    - [MCDU MENU](mcdu-menu.md)
+    - [AIRPORT](airport.md)
+
+See the [MCDU Setup Procedure](../../beginner-guide/preparing-mcdu.md) in our [Beginner Guide](../../beginner-guide/overview.md) .
