@@ -281,61 +281,61 @@ You can grab the required files with the links below.
 
 #### Default Events
 
-| Event | Function |
-| ---: | --- |
-| AP_MASTER | Toggles AP 1 master
-| AUTOPILOT_OFF | Disconnect AP (like red button on sidestick)
-| AUTOPILOT_DISENGAGE_TOGGLE | Same as AP_MASTER
-| AP_SPD_VAR_INC | Clockwise dial Speed knob on FCU
-| AP_SPD_VAR_DEC | Anti-clockwise dial Speed knob on FCU
-| HEADING_BUG_INC | Clockwise dial Heading knob on FCU
-| HEADING_BUG_DEC | Anti-clockwise dial Heading knob on FCU
-| AP_ALT_VAR_INC | Clockwise dial ALT knob on FCU
-| AP_ALT_VAR_DEC | Anti-clockwise dial ALT knob on FCU
-| AP_VS_VAR_INC | Clockwise dial V/S knob on FCU
-| AP_VS_VAR_DEC | Anti-clockwise dial V/S knob on FCU
-| AP_APR_HOLD | Push APPR button on FCU
-| AP_LOC_HOLD | Push LOC button on FCU
-| AUTO_THROTTLE_ARM | Push A/THR button on FCU
-| AUTO_THROTTLE_DISCONNECT | Disconnect A/THR (like red button on throttle levers)
-| AUTO_THROTTLE_TO_GA | Apply TOGA thrust
+| Event                      | Function                                              |
+| ---:                       | ---                                                   |
+| AP_MASTER                  | Toggles AP 1 master                                   |
+| AUTOPILOT_OFF              | Disconnect AP (like red button on sidestick)          |
+| AUTOPILOT_DISENGAGE_TOGGLE | Same as AP_MASTER                                     |
+| AP_SPD_VAR_INC             | Clockwise dial Speed knob on FCU                      |
+| AP_SPD_VAR_DEC             | Anti-clockwise dial Speed knob on FCU                 |
+| HEADING_BUG_INC            | Clockwise dial Heading knob on FCU                    |
+| HEADING_BUG_DEC            | Anti-clockwise dial Heading knob on FCU               |
+| AP_ALT_VAR_INC             | Clockwise dial ALT knob on FCU                        |
+| AP_ALT_VAR_DEC             | Anti-clockwise dial ALT knob on FCU                   |
+| AP_VS_VAR_INC              | Clockwise dial V/S knob on FCU                        |
+| AP_VS_VAR_DEC              | Anti-clockwise dial V/S knob on FCU                   |
+| AP_APR_HOLD                | Push APPR button on FCU                               |
+| AP_LOC_HOLD                | Push LOC button on FCU                                |
+| AUTO_THROTTLE_ARM          | Push A/THR button on FCU                              |
+| AUTO_THROTTLE_DISCONNECT   | Disconnect A/THR (like red button on throttle levers) |
+| AUTO_THROTTLE_TO_GA        | Apply TOGA thrust                                     |
 
 #### Custom Events
 
-| Event | Function |
-| ---: | --- |
-| A32NX.FCU_AP_1_PUSH | Push AP1 on FCU
-| A32NX.FCU_AP_2_PUSH | Push AP2 on FCU
-| A32NX.FCU_AP_DISCONNECT_PUSH | Disconnect AP (like red button on sidestick)
-| A32NX.FCU_ATHR_PUSH | Push A/THR on FCU
-| A32NX.FCU_ATHR_DISCONNECT_PUSH | Disconnect A/THR (like red button on throttle levers)
-| A32NX.FCU_SPD_INC | Clockwise dial Speed knob on FCU
-| A32NX.FCU_SPD_DEC | Anti-clockwise dial Speed knob on FCU
-| A32NX.FCU_SPD_SET | Set Speed value on FCU (when in MACH mode 78 == M0.78)
-| A32NX.FCU_SPD_PUSH | Push Speed knob on FCU
-| A32NX.FCU_SPD_PULL | Pull Speed knob on FCU
-| A32NX.FCU_SPD_MACH_TOGGLE_PUSH | Push SPD/MACH toggle on FCU
-| A32NX.FCU_HDG_INC | Clockwise dial Heading knob on FCU
-| A32NX.FCU_HDG_DEC | Anti-clockwise dial Heading knob on FCU
-| A32NX.FCU_HDG_SET | Set Heading value on FCU
-| A32NX.FCU_HDG_PUSH | Push Heading knob on FCU
-| A32NX.FCU_HDG_PULL | Pull Heading knob on FCU
-| A32NX.FCU_TRK_FPA_TOGGLE_PUSH | Push TRK/FPA toggle on FCU
-| A32NX.FCU_ALT_INC | Clockwise dial Altitude knob on FCU (parameter 0 = use FCU increment, 100 = 100, 1000 = 1000)
-| A32NX.FCU_ALT_DEC | Anti-clockwise dial Altitude knob on FCU (parameter 0 = use FCU increment, 100 = 100, 1000 = 1000)
-| A32NX.FCU_ALT_INCREMENT_TOGGLE | Toggle Altitude increment on FCU
-| A32NX.FCU_ALT_INCREMENT_SET | Set Altitude increment on FCU (parameter 100 or 1000)
-| A32NX.FCU_ALT_SET | Set Altitude value on FCU
-| A32NX.FCU_ALT_PUSH | Push Altitude knob on FCU
-| A32NX.FCU_ALT_PULL | Pull Altitude knob on FCU
-| A32NX.FCU_VS_INC | Clockwise dial V/S knob on FCU
-| A32NX.FCU_VS_DEC | Anti-clockwise dial V/S knob on FCU
-| A32NX.FCU_VS_SET | Set Speed value on FCU (when in TRK/FPA mode 10 == 1.0°)
-| A32NX.FCU_VS_PUSH | Push V/S knob on FCU
-| A32NX.FCU_VS_PULL | Pull V/S knob on FCU
-| A32NX.FCU_LOC_PUSH | Push LOC button on FCU
-| A32NX.FCU_APPR_PUSH | Push APPR button on FCU
-| A32NX.FCU_EXPED_PUSH | Push EXPED button on FCU
+| Event                          | Function                                                                                           |
+| ---:                           | ---                                                                                                |
+| A32NX.FCU_AP_1_PUSH            | Push AP1 on FCU                                                                                    |
+| A32NX.FCU_AP_2_PUSH            | Push AP2 on FCU                                                                                    |
+| A32NX.FCU_AP_DISCONNECT_PUSH   | Disconnect AP (like red button on sidestick)                                                       |
+| A32NX.FCU_ATHR_PUSH            | Push A/THR on FCU                                                                                  |
+| A32NX.FCU_ATHR_DISCONNECT_PUSH | Disconnect A/THR (like red button on throttle levers)                                              |
+| A32NX.FCU_SPD_INC              | Clockwise dial Speed knob on FCU                                                                   |
+| A32NX.FCU_SPD_DEC              | Anti-clockwise dial Speed knob on FCU                                                              |
+| A32NX.FCU_SPD_SET              | Set Speed value on FCU (when in MACH mode 78 == M0.78)                                             |
+| A32NX.FCU_SPD_PUSH             | Push Speed knob on FCU                                                                             |
+| A32NX.FCU_SPD_PULL             | Pull Speed knob on FCU                                                                             |
+| A32NX.FCU_SPD_MACH_TOGGLE_PUSH | Push SPD/MACH toggle on FCU                                                                        |
+| A32NX.FCU_HDG_INC              | Clockwise dial Heading knob on FCU                                                                 |
+| A32NX.FCU_HDG_DEC              | Anti-clockwise dial Heading knob on FCU                                                            |
+| A32NX.FCU_HDG_SET              | Set Heading value on FCU                                                                           |
+| A32NX.FCU_HDG_PUSH             | Push Heading knob on FCU                                                                           |
+| A32NX.FCU_HDG_PULL             | Pull Heading knob on FCU                                                                           |
+| A32NX.FCU_TRK_FPA_TOGGLE_PUSH  | Push TRK/FPA toggle on FCU                                                                         |
+| A32NX.FCU_ALT_INC              | Clockwise dial Altitude knob on FCU (parameter 0 = use FCU increment, 100 = 100, 1000 = 1000)      |
+| A32NX.FCU_ALT_DEC              | Anti-clockwise dial Altitude knob on FCU (parameter 0 = use FCU increment, 100 = 100, 1000 = 1000) |
+| A32NX.FCU_ALT_INCREMENT_TOGGLE | Toggle Altitude increment on FCU                                                                   |
+| A32NX.FCU_ALT_INCREMENT_SET    | Set Altitude increment on FCU (parameter 100 or 1000)                                              |
+| A32NX.FCU_ALT_SET              | Set Altitude value on FCU                                                                          |
+| A32NX.FCU_ALT_PUSH             | Push Altitude knob on FCU                                                                          |
+| A32NX.FCU_ALT_PULL             | Pull Altitude knob on FCU                                                                          |
+| A32NX.FCU_VS_INC               | Clockwise dial V/S knob on FCU                                                                     |
+| A32NX.FCU_VS_DEC               | Anti-clockwise dial V/S knob on FCU                                                                |
+| A32NX.FCU_VS_SET               | Set Speed value on FCU (when in TRK/FPA mode 10 == 1.0°)                                           |
+| A32NX.FCU_VS_PUSH              | Push V/S knob on FCU                                                                               |
+| A32NX.FCU_VS_PULL              | Pull V/S knob on FCU                                                                               |
+| A32NX.FCU_LOC_PUSH             | Push LOC button on FCU                                                                             |
+| A32NX.FCU_APPR_PUSH            | Push APPR button on FCU                                                                            |
+| A32NX.FCU_EXPED_PUSH           | Push EXPED button on FCU                                                                           |
 
 #### FCU Variables
 
@@ -345,39 +345,39 @@ The following gives an overview of the used variables in relation to the FCU. Fo
 
 ##### Common
 
-| Variable | Function |
-| ---: | --- |
-| L:A32NX_AUTOPILOT_1_ACTIVE | Indicates if Autopilot 1 is enaged
-| L:A32NX_AUTOPILOT_2_ACTIVE | Indicates if Autopilot 2 is enaged
-| L:A32NX_AUTOTHRUST_STATUS | Indicates the current status of the ATHR system
-| L:A32NX_FCU_LOC_MODE_ACTIVE | Indicates if LOC button on the FCU is illuminated
-| L:A32NX_FCU_APPR_MODE_ACTIVE | Indicates if APPR button on the FCU is illuminated
-| L:A32NX_TRK_FPA_MODE_ACTIVE | Indicates if TRK/FPA mode is active
+| Variable                     | Function                                           |
+| ---:                         | ---                                                |
+| L:A32NX_AUTOPILOT_1_ACTIVE   | Indicates if Autopilot 1 is engaged                |
+| L:A32NX_AUTOPILOT_2_ACTIVE   | Indicates if Autopilot 2 is engaged                |
+| L:A32NX_AUTOTHRUST_STATUS    | Indicates the current status of the ATHR system    |
+| L:A32NX_FCU_LOC_MODE_ACTIVE  | Indicates if LOC button on the FCU is illuminated  |
+| L:A32NX_FCU_APPR_MODE_ACTIVE | Indicates if APPR button on the FCU is illuminated |
+| L:A32NX_TRK_FPA_MODE_ACTIVE  | Indicates if TRK/FPA mode is active                |
 
 ##### Speed
 
-| Variable | Function |
-| ---: | --- |
-| L:A32NX_AUTOPILOT_SPEED_SELECTED | Selected Speed in FCU (can be knots or mach)
-| AUTOPILOT AIRSPEED HOLD VAR | Current Airspeed target (can be selected or managed)
-| L:A32NX_FCU_SPD_MANAGED_DASHES | Indicates if managed speed/mach mode is active and a numerical value is not displayed
-| L:A32NX_FCU_SPD_MANAGED_DOT | Indicates if managed speed/mach mode is active
+| Variable                         | Function                                                                              |
+| ---:                             | ---                                                                                   |
+| L:A32NX_AUTOPILOT_SPEED_SELECTED | Selected Speed in FCU (can be knots or mach)                                          |
+| AUTOPILOT AIRSPEED HOLD VAR      | Current Airspeed target (can be selected or managed)                                  |
+| L:A32NX_FCU_SPD_MANAGED_DASHES   | Indicates if managed speed/mach mode is active and a numerical value is not displayed |
+| L:A32NX_FCU_SPD_MANAGED_DOT      | Indicates if managed speed/mach mode is active                                        |
 
 ##### Heading
 
-| Variable | Function |
-| ---: | --- |
-| L:A32NX_AUTOPILOT_HEADING_SELECTED | Selected Heading in FCU
-| L:A32NX_FCU_HDG_MANAGED_DASHES | Indicates if managed heading mode is active and a numerical value is not displayed
-| L:A32NX_FCU_HDG_MANAGED_DOT | Indicates if managed heading mode is active or armed
+| Variable                           | Function                                                                           |
+| ---:                               | ---                                                                                |
+| L:A32NX_AUTOPILOT_HEADING_SELECTED | Selected Heading in FCU                                                            |
+| L:A32NX_FCU_HDG_MANAGED_DASHES     | Indicates if managed heading mode is active and a numerical value is not displayed |
+| L:A32NX_FCU_HDG_MANAGED_DOT        | Indicates if managed heading mode is active or armed                               |
 
 ##### Altitude + V/S
 
-| Variable | Function |
-| ---: | --- |
-| AUTOPILOT ALTITUDE LOCK VAR:3 | Selected Altitude in FCU
-| L:A32NX_FCU_ALT_MANAGED | Indicates if managed altitude mode is active (dot)
-| L:A32NX_AUTOPILOT_FPA_SELECTED | Selected FPA in FCU
-| L:A32NX_AUTOPILOT_VS_SELECTED | Selected V/S in FCU
-| L:A32NX_FCU_VS_MANAGED | Indicates if managed VS/FPA mode is active
-| L:A32NX_FMA_EXPEDITE_MODE | Indicates if expedite mode is engaged
+| Variable                       | Function                                           |
+| ---:                           | ---                                                |
+| AUTOPILOT ALTITUDE LOCK VAR:3  | Selected Altitude in FCU                           |
+| L:A32NX_FCU_ALT_MANAGED        | Indicates if managed altitude mode is active (dot) |
+| L:A32NX_AUTOPILOT_FPA_SELECTED | Selected FPA in FCU                                |
+| L:A32NX_AUTOPILOT_VS_SELECTED  | Selected V/S in FCU                                |
+| L:A32NX_FCU_VS_MANAGED         | Indicates if managed VS/FPA mode is active         |
+| L:A32NX_FMA_EXPEDITE_MODE      | Indicates if expedite mode is engaged              |

@@ -111,7 +111,7 @@ Start the chronometer above the ND to help monitor the start up time of the engi
     2. Second Push - Stops the timer on the ND
     3. Third Push - Removes the timer from the ND
 
-    Time is represented as *minutes*' *seconds*" i.e. 04'41" equates to 4 minutes and 44 seconds.
+    Time is represented as *minutes*' *seconds*" i.e. 04'41" equates to 4 minutes and 41 seconds.
 
     **Use Cases**
 
