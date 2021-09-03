@@ -31,7 +31,7 @@ During a take-Off Abort (AB) the system prevents the cabin altitude from climbin
 
 ## Usage
 
-###  LOG ELEV sel
+###  LDG ELEV sel
 
 - AUTO:
     - FMGS data is used to construct an optimized pressure schedule.
