@@ -72,6 +72,9 @@ NAV & LOGO are turned on when the aircraft is powered up (EXT PWR or APU or ENG)
 
 ![NAV & LOGO and STROBE](../../../assets/a32nx-briefing/overhead-panel/lights/tail-lights.jpg "NAV & LOGO and STROBE"){loading=lazy}
 
+!!! attention ""
+    Currently the FlyByWire A32NX only has two settings for NAV & LOGO lights (2 or OFF / 1 is not available).
+
 ### RWY TURN OFF
 
 This switch turns the runway turn-off lights on and off.
