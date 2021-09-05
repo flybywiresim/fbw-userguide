@@ -8,6 +8,8 @@
 
 ![Oxygen Panel](../../../assets/a32nx-briefing/overhead-panel/Oxygen.jpg "Oxygen Panel")
 
+## Usage
+
 ### MASK MAN ON:
 
 - AUTO:

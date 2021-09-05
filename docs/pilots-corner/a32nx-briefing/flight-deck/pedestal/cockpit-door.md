@@ -14,6 +14,8 @@ A forward-opening, bulletproof and decompression safe door to the cockpit protec
 
 In normal circumstance this door is always closed and the cockpit crew controls access.
 
+## Usage
+
 ### COCKPIT DOOR toggle switch
 
 - UNLOCK position:

@@ -21,6 +21,8 @@ There are two systems controlled by this panel.
 
 - EGPWS - This uses an onboard world-wide terrain database, FMGC 1 position, and airplane altitude and flight path to display the proximity of surrounding terrain on the ND. The information is provided in a color scheme which references the terrain to airplane altitude. Caution and warning alerts, both aural and visual, are given if the airplane approaches threatening terrain. (This system does not currently account for man-made obstructions.) The terrain alerting functions of the EGPWS are independent of the current GPWS functions. Failure of the additional terrain features does not affect operation of the basic functions of the GPWS.
 
+## Usage
+
 ### Terrain:
 
 - Terrain Awareness Display (TAD) and Terrain Clearance Floor (TCF) is inhibited. (This does not affect basic GPWS modes 1 to 5). ECAM caution NAV GPWS TERR DET FAULT is displayed.

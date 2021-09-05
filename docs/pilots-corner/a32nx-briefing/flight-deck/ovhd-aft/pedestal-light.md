@@ -9,6 +9,8 @@
 
 ![Pedestal Light and Audio 3 switch](../../../assets/a32nx-briefing/overhead-aft-panel/Pedestal-Light.jpg "Pedestal Light and Audio 3 switch")
 
+## Description
+
 ### Pedestal Light
 
 Light for the pedestal. Controlled by the potentiometer on the right side of the pedestal itself.

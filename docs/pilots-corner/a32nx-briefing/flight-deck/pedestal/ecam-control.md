@@ -12,6 +12,8 @@
 
 The ECAM Control Panel is used to change what is displayed on the Warning Display and System Display (Lower ECAM) and also has knobs to regulate brightness of the both ECAM displays.
 
+## Usage
+
 ###  OFF / BRT knobs
 
 These knobs control the brightness of the ECAM displays and also allow to turn the ECAM displays off.

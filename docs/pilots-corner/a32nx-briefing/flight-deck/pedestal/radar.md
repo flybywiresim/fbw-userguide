@@ -17,6 +17,8 @@ The weather radar data can be displayed on the NDs in ARC or ROSE mode.
 !!! attention ""
     In Microsoft Flight Simulator the system is limited by what the simulator provides which currently is only precipitation.
 
+## Usage
+
 ### Radar
 
 - ON:

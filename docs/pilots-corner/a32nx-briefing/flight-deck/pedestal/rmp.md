@@ -29,6 +29,8 @@ Identical RMPs (Radio Management Panels):
 - Each RMP is updated when a change or selection in the other RMPs is done.
 - In EMER ELEC CONFIG only RMP1 functions.
 
+## Usage
+
 ### Frequency displays
 
 - ACTIVE display: The active frequency of the currently selected radio. The currently selected radio is identified by a green light on the selection key.

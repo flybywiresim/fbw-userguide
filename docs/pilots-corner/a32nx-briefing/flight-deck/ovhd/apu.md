@@ -12,6 +12,8 @@
 
 The Auxiliary Power Unit (APU) is a small jet engine in the back of the A320neo which supplies the aircraft with pneumatic and electrical power.
 
+## Usage
+
 ### MASTER SW
 
 Controls the APU operation and its start- and shutdown sequence.

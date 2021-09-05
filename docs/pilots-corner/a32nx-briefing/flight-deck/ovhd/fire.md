@@ -16,6 +16,8 @@ The A320's fire and smoke detection system consists of:
 - smoke detection is installed in the cargo compartment, the lavatories and the avionics bay.
 - fire extinguishing for the engines, the APU and the cargo compartment.
 
+## Usage
+
 ### ENG 1 + 2 FIRE
 
 This button's default position is pushed in and guarded.
