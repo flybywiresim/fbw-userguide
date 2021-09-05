@@ -8,6 +8,8 @@
 
 ![Rudder Trim Panel](../../../assets/a32nx-briefing/pedestal/Rudder-trim-Panel.jpg "Rudder Trim Panel")
 
+## Usage
+
 ###  RUD TRIM Rotary Switch
 
 - Pilots can (in manual flight) use the RUD TRIM to apply rudder.

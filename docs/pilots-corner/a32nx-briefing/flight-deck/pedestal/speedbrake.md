@@ -8,6 +8,8 @@
 
 ![Speed Brake Panel](../../../assets/a32nx-briefing/pedestal/Speed-brake-panel.jpg "Speed Brake Panel")
 
+## Usage
+
 ### SPEED BRAKE
 
 - The speed brake surfaces can be controlled with the SPEED BRAKE lever.

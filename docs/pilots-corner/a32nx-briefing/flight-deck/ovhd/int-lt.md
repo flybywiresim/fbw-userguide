@@ -8,6 +8,8 @@
 
 ![Internal Lights Panel](../../../assets/a32nx-briefing/overhead-panel/Int-lt-Panel.jpg "Internal Lights Panel")
 
+## Usage
+
 ### OVHD INTEG LT
 
 Brightness for the integral lightning of the overhead panel.

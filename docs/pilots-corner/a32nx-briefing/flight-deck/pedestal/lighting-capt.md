@@ -8,6 +8,8 @@
 
 ![Pedestal Lighting Knobs](../../../assets/a32nx-briefing/pedestal/Pedestal-lighting.jpg "Pedestal Lighting Knobs")
 
+## Usage
+
 ### FLOOD LT MAIN PNL knob
 
 - Brightness of the floodlighting for the center instrument panel.

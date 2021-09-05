@@ -8,6 +8,8 @@
 
 ![Outer Glareshield Panel](../../../assets/a32nx-briefing/glareshield/warning-panel.png "Outer Glareshield Panel")
 
+## Usage
+
 ### 1. SIDE STICK PRIORITY
 
 - Red arrow light:

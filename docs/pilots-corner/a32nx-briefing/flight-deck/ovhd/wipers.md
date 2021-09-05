@@ -13,6 +13,8 @@
 
 Each windshield is provided with two-speed electric wipers that are controlled by individual WIPER selectors. A rain repellent system is installed, but is deactivated by some airlines.
 
+## Usage
+
 ### WIPER SELECTOR:
 
 - OFF:
