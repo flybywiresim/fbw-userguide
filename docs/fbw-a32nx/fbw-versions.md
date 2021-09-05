@@ -52,7 +52,7 @@ will be updated at least once a month.
 
 For all changes refer to the official [CHANGELOG](https://github.com/flybywiresim/a32nx/blob/master/.github/CHANGELOG.md){target=new} or commits on the [:fontawesome-brands-github:{: .github } - **GitHub A32NX Repository Master Branch**](https://github.com/flybywiresim/a32nx/commits/master){target=new}.
 
-| Feature                                                                                                                        |   Stable 0.6.3   | Development<br/>(Aug 21th 2021) |
+| Feature                                                                                                                        |   Stable 0.6.3   | Development<br/>(Sept 5th 2021) |
 |:-------------------------------------------------------------------------------------------------------------------------------|:----------------:|:-------------------------------:|
 | Standalone Aircraft                                                                                                            | :material-check: |        :material-check:         |
 | EFB                                                                                                                            | :material-check: |        :material-check:         |
@@ -61,7 +61,10 @@ For all changes refer to the official [CHANGELOG](https://github.com/flybywiresi
 | Printer                                                                                                                        | :material-check: |        :material-check:         |
 | Custom Electrical System                                                                                                       | :material-check: |        :material-check:         |
 | Custom APU Simulation                                                                                                          | :material-check: |        :material-check:         |
-| Improved Flight Model Accuracy                                                                                                 | :material-check: |        :material-check:         |
+| Improved (default) Flight Model Accuracy                                                                                       | :material-check: |                                 |
+| Improved (default) Engine Model                                                                                                | :material-check: |                                 |
+| Custom Flight Model                                                                                                            |                  |        :material-check:         |
+| Custom Engine Model                                                                                                            |                  |        :material-check:         |
 | Split RMP1 and RMP2 Radios                                                                                                     | :material-check: |        :material-check:         |
 | Custom Camera Views                                                                                                            | :material-check: |        :material-check:         |
 | Support for CONF 3 (flaps 3) Landings                                                                                          | :material-check: |        :material-check:         |
@@ -71,14 +74,14 @@ For all changes refer to the official [CHANGELOG](https://github.com/flybywiresi
 | MCDU/FMC Improvements                                                                                                          | :material-check: |        :material-check:         |
 | Forced Usage of Modern Flight Model                                                                                            | :material-check: |        :material-check:         |
 | Sim Update 5 (SU5) Fixes (Aug 9th)                                                                                             | :material-check: |        :material-check:         |
+| Custom Fly-by-wire System                                                                                                      |                  |        :material-check:         |
+| Custom Autopilot (with Autoland feature)                                                                                       |                  |        :material-check:         |
+| Custom Autothrust                                                                                                              |                  |        :material-check:         |
 | Custom Hydraulic System (initial implementation)                                                                               |                  |        :material-check:         |
 | Connection between Electrical Power and Hydraulics                                                                             |                  |        :material-check:         |
 | VOR/ADF Needles on ND                                                                                                          |                  |        :material-check:         |
 | New PFD (in react)                                                                                                             |                  |        :material-check:         |
 | BRG/DIST Feature on ECAM PROG Page                                                                                             |                  |        :material-check:         |
-| Custom Fly-by-wire System                                                                                                      |                  |        :material-check:         |
-| Custom Autopilot (with Autoland feature)                                                                                       |                  |        :material-check:         |
-| Custom Autothrust                                                                                                              |                  |        :material-check:         |
 | EFB Throttle Calibration                                                                                                       |                  |        :material-check:         |
 | Improved AP, ROLL OUT and Ground Spoiler Logic                                                                                 |                  |        :material-check:         |
 | Descent Initiation via FCU V/S Knob                                                                                            |                  |        :material-check:         |
@@ -126,3 +129,7 @@ For all changes refer to the official [CHANGELOG](https://github.com/flybywiresi
 | Cockpit door lock sounds                                                                                                       |                  |        :material-check:         |
 | Realistic reduction of loudness of chimes in cockpit when door locked                                                          |                  |        :material-check:         |
 | Notification Popup when changes to settings need reload ([#5261](https://github.com/flybywiresim/a32nx/pull/5261){target=new}) |                  |        :material-check:         |
+| Added language translations ( [#5599](https://github.com/flybywiresim/a32nx/pull/5599){target=new} )                           |                  |        :material-check:         |
+| Improved pitch/C* and ALT* laws ( [#5711](https://github.com/flybywiresim/a32nx/pull/5711){target=new} )                       |                  |        :material-check:         |
+| EFB: Physical power button ( [#5697](https://github.com/flybywiresim/a32nx/pull/5697){target=new} )                            |                  |        :material-check:         |
+| MCDU Keyboard settings moved to EFB ( [#5754](https://github.com/flybywiresim/a32nx/pull/5754){target=new} )                   |                  |        :material-check:         |
