@@ -28,15 +28,9 @@ What this feature allows:
 
 ### Enable MCDU keyboard
 
-To begin using your keyboard with the MCDU you must first enable the function within `MCDU Options`. Follow the guide below:
+To begin using your keyboard with the MCDU you must first enable the function within in the EFB settings:
 
-- Select `MCDU Options`
-- Select `Options`
-- Select `Realism`
-- Select `Keyboard Input`
-- Select `ALLOW INPUT`
-
-You will have to reload the flight for this change to take effect. (Similar to switching units from kg/lbs)
+![EFB Settings for MCDU Keyboard](../assets/mcdu-kb/efb-settings-simoptions-mcdukb.jpg "EFB Settings for MCDU Keyboard"){loading=lazy}
 
 Once you have completed the above steps simply click on the MCDU screen to put it into focus. The MCDU will display a visual indicator when input is ready to be accepted. The scratchpad should be highlighted, and the title will be highlighted in cyan as well.
 
@@ -78,13 +72,13 @@ We have added new methods to assist in clearing content in the MCDU scratchpad.
 
 The timeout feature will "automatically unfocus" the MCDU screen should you be unable to use any of the actions above to manually unfocus.
 
-Return to the realism settings in `MCDU Options`. You should see `INPUT TIMEOUT`. You can specify how long the the timeout feature will wait before unfocusing the MCDU.
+Return to the EFB settings page and adjust the `MCDU Focus Timeout` setting.
 
 - Valid range is `5 - 120 seconds`
 
 Sample Image:
 
-![timeout screen](https://cdn.discordapp.com/attachments/717548046522777604/857051435471732736/unknown.png)
+![EFB Settings for MCDU Keyboard](../assets/mcdu-kb/efb-settings-simoptions-mcdukb.jpg "EFB Settings for MCDU Keyboard"){loading=lazy}
 
 ---
 
