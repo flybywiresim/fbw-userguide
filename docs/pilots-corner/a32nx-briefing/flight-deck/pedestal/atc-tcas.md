@@ -38,8 +38,6 @@ The XPDR is capable of elementary surveillance (ELS) and enhanced surveillance (
     - The inertial vertical speed
 - The selected altitude and barometric reference settings supplied by the FCUs.
 
-## Usage
-
 ###  Mode Selector
 
 - STBY:

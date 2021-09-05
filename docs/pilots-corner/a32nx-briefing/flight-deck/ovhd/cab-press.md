@@ -10,7 +10,6 @@
 
 ## Description
 
-
 The cabin pressurization system controls the pressurization of the cabin to allow crew and passengers to fly comfortably without the usage of oxygen masks and negative impact of too low pressure at high altitude.
 
 The flight crew can set the system to operate automatically, semi-automatically, or manually.
@@ -28,8 +27,6 @@ In Cruise (CR), the system maintains cabin altitude at the level-off value, or a
 While in Descent (DE), the systems controls the pressure rate of descent, such that cabin pressure equals the landing field pressure, just before landing. The maximum descent rate is 750 feet/minute.
 
 During a take-Off Abort (AB) the system prevents the cabin altitude from climbing. Cabin pressure is set back to the takeoff altitude + 0.1 PSI.
-
-## Usage
 
 ###  LDG ELEV sel
 

@@ -12,8 +12,6 @@
 
 To have maximal redundancy A320 pilots can switch backup computers or data sources to be used for either the Captain's or First Officer's displays.
 
-## Usage
-
 ### ATT HDG Selector
 
 - NORM:

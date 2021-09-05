@@ -8,8 +8,6 @@
 
 ![SIGNS Panel](../../../assets/a32nx-briefing/overhead-panel/Signs-Panel.jpg "SIGNS Panel")
 
-## Usage
-
 ### EMER EXIT LT
 
 - ON:

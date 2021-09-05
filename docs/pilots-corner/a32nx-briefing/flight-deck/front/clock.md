@@ -19,8 +19,6 @@ Functions :
 - Chronometer (CHR), which measures a time interval (from the pushing of the CHRONO button) in minutes and seconds.
 - Date display.
 
-## Usage
-
 ### UTC (GMT) counter
 
 24-hour format clock.

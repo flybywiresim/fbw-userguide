@@ -20,8 +20,6 @@ The Exterior Lighting of an Airbus A320neo includes these lights:
 - The anticollision lights
 - The wing and engine scan lights.
 
-## Usage
-
 ### STROBE
 
 Turns on and off the three synchronized strobe lights, one on each wing tip and one below the tail cone.

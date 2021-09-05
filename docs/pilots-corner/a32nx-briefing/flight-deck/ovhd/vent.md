@@ -8,8 +8,6 @@
 
 ![Ventilation Panel](../../../assets/a32nx-briefing/overhead-panel/vent.jpg "Ventilation Panel")
 
-## Usage
-
 ### BLOWER and EXTRACT
 
 - AUTO:

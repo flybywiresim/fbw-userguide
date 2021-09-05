@@ -12,8 +12,6 @@
 
 These additional EFIS Controls help manage and adjust the main displays of the pilots.
 
-## Usage
-
 ### OFF/BRT knobs
 
 These knobs are used to turn the displays (PFD, ND) on and off, and also adjust their brightness.

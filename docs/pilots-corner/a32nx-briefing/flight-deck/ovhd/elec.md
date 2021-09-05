@@ -19,8 +19,6 @@ When the overhead electrical panel has all switches on AUTO (no lights visible) 
 - The APU generator or external power can supply the entire network.
 - One engine generator can supply the entire network.
 
-## Usage
-
 ### BAT 1 + 2
 
 The BAT 1+2 Indicators display the current voltage of the respective battery. Normal values are 25 to 31 Volts.

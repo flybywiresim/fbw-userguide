@@ -9,7 +9,6 @@
 ![Maintenance Panel](../../../assets/a32nx-briefing/overhead-aft-panel/Maintenance.jpg "Maintenance Panel")
 
 ---
-## Usage
 
 ### CVR Headset
 

@@ -13,8 +13,6 @@
 !!! attention ""
     Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
-## Usage
-
 ### Tansmission Keys
 
 ![RMP Transmission Keys](../../../assets/a32nx-briefing/pedestal/RMP-transmission-keys.png)
