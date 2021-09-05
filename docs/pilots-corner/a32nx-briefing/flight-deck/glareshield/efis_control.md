@@ -15,8 +15,6 @@ This panel controls:
 - Desired ND modes (ROSE-ILS, -VOR, ARC, PLAN) and ranges.
 - Baro setting.
 
-## Usage
-
 ### Barometer Reference Display Window
 
 - Barometer Range: 745 hPa to 1100 hPa.

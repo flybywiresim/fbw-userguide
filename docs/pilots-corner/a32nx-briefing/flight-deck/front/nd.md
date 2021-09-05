@@ -29,9 +29,6 @@ The weather radar image can be displayed in all modes except PLAN.
 !!! info "Future Update"
     A more in depth description of the Navigation Display is currently being developed and will be available in the near future.
 
-
-## Usage
-
 ### TERR ON ND pushbutton
 
 These pushbuttons are located on either side of the ECAM. Each pushbutton controls the onside terrain display.

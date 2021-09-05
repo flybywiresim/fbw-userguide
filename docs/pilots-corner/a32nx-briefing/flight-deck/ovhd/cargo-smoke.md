@@ -15,8 +15,6 @@
 
 The forward and aft cargo compartments are equipped with smoke detection systems which alert the crew and close isolation valves to the cargo compartment.
 
-## Usage
-
 ### SMOKE light
 
 When the system detects smoke in the compartment, a red light and an ECAM warning come on. Both channels need to detect smoke, or one channel detects smoke and the SDCU finds that the other channel is faulty.

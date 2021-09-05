@@ -12,8 +12,6 @@
 
 An extraction fan draws air from forward cargo  or aft cargo, and exhausts it overboard. Air from the cabin replaces the exhausted air, thus ventilating the cargo compartments.
 
-## Usage
-
 ### AFT ISOL VALVE
 
 The switch controls the aft isolation valves and the extraction fan.

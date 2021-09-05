@@ -40,8 +40,6 @@ The four knobs used in the FCU, SPD-MACH, HDG-TRK, ALT, V/S-FPA basically  all h
 
 Note: In managed mode (lateral, vertical guidance or managed speed), the corresponding display is dashed. By changing the value without pulling the knob, the flight crew can pre-select a value before activating the selected mode. The display remains 45 seconds on the HDG/TRK and V/S windows and 10 seconds on the Speed/Mach window before the dashes reappear. This does not apply to the ALT selector knob/window.
 
-## Usage
-
 ###  SPD/MACH knob
 
 The range of this value is from 100 to 399 knots and between 0.1 and 0.99 for Mach.

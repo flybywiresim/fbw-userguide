@@ -31,8 +31,6 @@ On ground:
 - Blue and Yellow systems can be pressurized by electric pumps. A hand pump (operated from the ground on the yellow system) facilitates manoeuvring of the cargo doors.
 - Green/Yellow system can be pressurized by the PTU.
 
-## Usage
-
 ###  ENG 1 + 2 PUMP
 
 - ON:

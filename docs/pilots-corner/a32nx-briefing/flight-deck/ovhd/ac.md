@@ -14,8 +14,6 @@ The air conditioning system operation is fully automatic and refreshes air const
 
 The two air conditioning packs (PACK 1+2) operate automatically and independently of each other.
 
-## Usage
-
 ### COCKPIT, FWD CABIN, AFT CABIN
 
 - 12 o'clock position : 24°C (76°F).

@@ -20,8 +20,6 @@ Hot air is used for the three outboard leading-edge slats of each wing and for t
 
 Electrical heating is used for the flight compartment windows, the sensors, pitot probes and static ports and for the waste-water drain mast.
 
-## Usage
-
 ### WING anti-ice
 
 - ON:
