@@ -30,7 +30,9 @@
 ### ENG N1 MODE
 
 !!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    These buttons do not exist in an A320neo with LEAP or PW1100 engines. They are exclusively for the CEO IAE V2500 engines. As these buttons are part of Asobo's Default A320 3D model they are still visible and can't be removed at this time.
+
+    They are INOP in the FlyByWire A32NX. 
 
 If aircraft is equipped with IAE engines there are two additional guarded N1 MODE indicator switches. N1 mode is used for changing the thrust control between EPR and N1 (abnormal situation).
 
