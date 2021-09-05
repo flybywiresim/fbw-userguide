@@ -2,9 +2,9 @@
 
 **For Simulation Use Only**
 
-This A320 Pilot Briefing shall give a good overview of most A320neo
+This A320neo Pilot Briefing shall give a good overview of most A320neo
 systems for personal flight simulation with focus on Microsoft Flight
-Simulator and the FlyByWire A320neo aircraft mod.
+Simulator and the FlyByWire A32NX aircraft add-on.
 
 Other variations of the A320 (A318, A319, A321) have a lot of overlap
 but are omitted in this briefing.
