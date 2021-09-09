@@ -27,6 +27,5 @@ This section describes the MCDU in detail, covering each page and also the stand
     - [SEC F-PLN](sec-f-plan.md)
     - [ATC COMM](atc-comm.md)
     - [MCDU MENU](mcdu-menu.md)
-    - [AIRPORT](airport.md)
 
 See the [MCDU Setup Procedure](../../beginner-guide/preparing-mcdu.md) in our [Beginner Guide](../../beginner-guide/overview.md) .
