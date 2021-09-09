@@ -132,3 +132,28 @@ h4 {
   padding: .2375em 1.25em;
   vertical-align: top;
 }
+
+/* for aligning image left or right with control over which text flows around */
+ .md-typeset .admonition.block,
+ .md-typeset details.block {
+     border-color: var(--md-default-bg-color);
+     background-color: var(--md-default-bg-color);
+     box-shadow: none;
+     font-size: .8rem;
+     margin: 0.5em 0;
+     padding: 0 .3rem;
+ }
+.md-typeset .block > .admonition-title,
+.md-typeset .admonition-title .block, .md-typeset summary {
+    background-color: var(--md-default-bg-color);
+    border-color: var(--md-default-bg-color);
+    border-left: .2rem solid #448aff;
+    font-weight: 700;
+    margin: 0 -.6rem 0 -.8rem;
+    padding: 0 0 0 0.4rem;
+    position: relative;
+}
+.md-typeset .block > .admonition-title::before,
+.md-typeset .block > summary::before {
+    height: 0rem;
+}

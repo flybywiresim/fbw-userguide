@@ -17,7 +17,7 @@ Our recommendation is to download the dedicated FlyByWire liveries and also to k
 
 ### Automatic Conversion
 
-FlyByWire Installer v1.2.0 now handles livery conversions automatically for you. This method is supported by FlyByWire Simulations.
+FlyByWire Installer v2.0.0 now handles livery conversions automatically for you. This method is supported by FlyByWire Simulations.
 
 To start please ensure your installer is updated to version 1.2.0 or above. Make sure that all liveries you wish to convert for the A32NX are inside your community directory.
 

@@ -1,0 +1,19 @@
+collapse_single_pages: true
+title: ECAM SD
+nav:
+  - Overview: index.md
+  - ENG: eng.md
+  - BLEED: bleed.md
+  - PRESS: press.md
+  - ELEC: elec.md
+  - HYD: hyd.md
+  - FUEL: fuel.md
+  - APU: apu.md
+  - COND: cond.md
+  - DOOR: door.md
+  - WHEEL: wheel.md
+  - F-CTL: f-ctl.md
+  - STS: sts.md
+  - CRUISE: cruise.md
+
+

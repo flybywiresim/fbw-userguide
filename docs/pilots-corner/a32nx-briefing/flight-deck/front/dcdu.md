@@ -15,7 +15,7 @@ The Datalink Ctl and Display Unit (DCDU) is used by the pilots to communicate wi
 In addition to the DCDU, the MCDU is used to prepare a request.
 
 !!! attention ""
-    The DCDU is not implemented in the FlyByWire A32NX.
+    The DCDU is not implemented yet in the FlyByWire A32NX.
 
 ---
 

@@ -49,7 +49,7 @@ The following commands can be used:
 
 You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} for support if you encounter issues with the installer. Please follow the steps below:
 
-  * Open the debug tool ++ctrl+f12++. 
+  * Open the debug tool ++ctrl+f12++.
 
   * Find and select ++"Console"++ in the top menu.
 
@@ -143,9 +143,17 @@ It is located in:
 
 If the above methods do not work:
 
-- You can find your community folder by going into Microsoft Flight Simulator general options and enabling developer mode. You will see a menu appear on top.
-    - Go to tools and virtual file system.
-    - Click on watch bases and your community folder will be listed in one of the folders.
+![How to find the correct Community folder](assets/find-community-folder.png "How to find the correct Community folder")
+
+To find the Community folder that MSFS is actually using please follow these steps:
+
+1. Go to your General Settings in MSFS and activate Developer Mode. 
+2. Go to the menu and open the Virtual Filesystem. 
+3. Click on Packages Folder --> "Open Community Folder".
+
+This opens the Community folder in a Windows Explorer.
+
+---
 
 If your issue is not related to installation visit - [**Reported Issues**](support/reported-issues.md)
 

@@ -14,3 +14,4 @@ This section is aimed at sim pilots of all levels and covers topics regarding fl
 - [Beginner Guide](beginner-guide/overview.md)
 - [Airliner Flying Guide](airliner-flying-guide/overview.md)
 - [A320neo Pilot Briefing](a32nx-briefing/)
+- [Standard Operating Procedures](SOP.md)

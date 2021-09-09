@@ -1,10 +1,18 @@
-# Electronic Centralized Aircraft Monitoring (ECAM)
+# ECAM Overview
 
-!!! info "Coming soon"
-    This chapter is currently in development.
+## Description
 
-## Placeholder
+The Electronic Centralized Aircraft Monitoring (ECAM) consists of two displays:
 
-![Upper ECAM](../../assets/a32nx-briefing/front/Upper-ECAM.jpg "Upper ECAM")
+- the Engine and Warning Display (E/WD) aka Upper ECAM
+    - Primary engine indications, fuel quantity, flap and slat position
+    - Warning and caution alerts, or memos
+- the Systems Display (SD) aka Lower ECAM
+    - Synoptic diagrams of aircraft systems, and status messages
+    - Permanent flight data
 
-![Lower ECAM](../../assets/a32nx-briefing/front/Lower-ECAM.jpg "Lower ECAM")
+
+##  Topics
+
+- [ECAM Engine and Warning Display](ecam-e-wd.md)
+- [ECAM Systems Display](sd/index.md)
