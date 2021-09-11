@@ -92,41 +92,52 @@ Prompts on each PERF page:
     - Green when active, white when inactive.
 
 - ACT MODE (1L):
-    - Displays the preselected or active speed mode: SELECTED or MANAGED. The pilot cannot modify it from this field.
+    - Displays the preselected or active speed mode: SELECTED or MANAGED. Can't be modified from this field.
 
 - CI (2L):
-    - This field displays the cost index, as initialized on the INIT A or defaulted from the database, or inserted in this field by the pilot. EO LRC automatically replaces the cost index value in case of engine-out.
+    - Cost index, as initialized either on the INIT A page, defaulted from the database, or inserted in this field by the pilot.
 
 - MANAGED (3L):
-    - This field displays the FMGS computed ECON speed/Mach. Before CLIMB phase is active, if the preselected speed mode is SELECTED, a star is displayed next to the MANAGED speed. Pressing the 3L key in this    case preselects MANAGED speed, and 4L reverts to brackets.
+    - This field displays the FMGS computed ECON speed/Mach.
+    - Before CLIMB phase is active, a star is displayed next to the MANAGED speed, if the preselected speed mode is SELECTED. Pressing the 3L key in this case preselects MANAGED speed, and 4L reverts to brackets.
+
+    !!! attention ""
+        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 - PRESEL or SELECTED (4L):
-    - If the climb phase is not active:
-        - This field displays PRESEL as long as the climb phase is not active.
-        - The pilot can enter a preselected speed only.
-    - If the climb phase is active:
-        - The title of this field becomes SELECTED.
-        - This field displays the selected (or preselected) SPD or MACH target.
-        - The pilot cannot modify it directly in this field, but can adjust it with the SPD/MACH selection knob on the FCU.
-        - If the pilot pushes in the FCU SPD/MACH selection knob to revert to managed speed, the system selects (or reselects) ECON SPD/MACH and (4L) is blank.
+    - Climb phase is not active:
+        - As long as the climb phase is not active this field displays PRESEL. A preselected speed can be entered.
+    - Climb phase is active:
+        - Title becomes SELECTED.
+        - Displays selected (or preselected) SPD or MACH target.
+        - Cannot be modifed directly in this field, but with the SPD/MACH selection knob on the FCU.
+        - If the FCU SPD/MACH selection knob if pushed it reverts to managed speed and the system selects/reselects ECON SPD/MACH and (4L) is blank.
 
-- Blank or EXPEDITE (5L):
-    - This field is blank as long as the aircraft is in preflight. This field displays this legend when the takeoff or climb phase is active. The flight crew cannot engage EXPEDITE from this field. It indicates the time and distance required to reach the altitude displayed in the 2R field, in case of climb at green dot.
+<!--- Blank or EXPEDITE (5L):-->
+<!--    - Blank as long as the aircraft is in preflight.-->
+<!--    - Displays this legend when the takeoff or climb phase is active.-->
+<!--    - The flight crew cannot engage EXPEDITE from this field. It indicates the time and distance required to reach the altitude displayed in the 2R field, in case of climb at green dot.-->
 
-- PREV PHASE (6L):
-    - This field displays this legend if climb phase is not active. The pilot presses this key to call up the takeoff page.
+<!--    !!! attention ""-->
+<!--        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.-->
 
-- EO CLR (1R):
-    - The system displays the EO CLR prompt in case of engine out in climb.
+<!--- EO CLR (1R):-->
+<!--    - The system displays the EO CLR prompt in case of engine out in climb.-->
 
-- PRED TO... (2R):
-    - This field displays the target altitude for the predictions shown in 3R, 4R, or 5L. It defaults to FCU altitude, but the pilot can modify it to any altitude below   CRZ FL.
+<!--    !!! attention ""-->
+<!--        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.-->
 
-- (3R) (4R) (5R):
-    - These fields show time and distance predictions for the target altitude selected in (2R), computed for the current vertical mode and speed mode (MANAGED, SELECTED). These fields are displayed only while the takeoff, or climb phase is active.
+<!--- PRED TO... (2R):-->
+<!--    - This field displays the target altitude for the predictions shown in 3R, 4R, or 5L. It defaults to FCU altitude, but the pilot can modify it to any altitude below   CRZ FL.-->
 
-- NEXT PHASE (6R):
-    - The flight crew presses this key to call up the PERF CRZ page.
+<!--    !!! attention ""-->
+<!--        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.-->
+
+<!--- (3R) (4R) (5R):-->
+<!--    - These fields show time and distance predictions for the target altitude selected in (2R), computed for the current vertical mode and speed mode (MANAGED, SELECTED). These fields are displayed only while the takeoff, or climb phase is active.-->
+
+<!--    !!! attention ""-->
+<!--        Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.-->
 
 ## CRUISE
 
