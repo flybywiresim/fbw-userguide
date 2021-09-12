@@ -36,11 +36,17 @@ These are displayed right underneath the glideslope deviation scale.
 - MM is displayed in amber when the aircraft flies over the middle marker. 
 - AWY is displayed in white when the aircraft flies over an airways marker beacon or the ILS inner marker. 
 
+Different beeps are played as the aircraft passes over each marker. 
+
 ### ILS Message
+
+!!! attention "Currently not available for the FBW A32NX for Microsoft Flight Simulator"
 
 This appears to the right of the localiser deviation scale, and flashes amber when the approach mode is armed and the ILS display is not selected. 
 
 ## Non Precision Approaches
+
+!!! attention "Currently not available for the FBW A32NX for Microsoft Flight Simulator"
 
 There is no localiser deviation scale. 
 

@@ -31,6 +31,6 @@ The Primary Flight Display (PFD) is the main aviation instrument for the pilots.
 - Various scales and limits (bank limits, max sidestick deflection, pitch, etc.)
 
 ---
-[In Depth PFD Guide](../../../a32nx-briefing/PFD/index.md){ .md-button }
+[In Depth PFD Guide](../../../a32nx-briefing/pfd/index.md){ .md-button }
 
 [Back to Flight Deck](../index.md){ .md-button }

@@ -11,7 +11,9 @@ If the flight director push-button switch is off, a second heading or track symb
 
 ### Actual Track Symbol
 
-This is a small green diamond that displays the aircraft's actual track. It is underneath the selected heading or track index. 
+This is a small green diamond that displays the aircraft's actual track. It is underneath the selected heading or track index. This takes into account any crosswinds that is changing the aircraft's track. 
+
+The track of the aircraft is not the same as the heading. Heading is referring to the direction the aircraft is pointed at whereas track is referring to the actual direction of the aircraft travelling across the ground. This can be affected by things such as crosswinds. 
 
 ---
 [Back to Interactive PFD](index.md){ .md-button }

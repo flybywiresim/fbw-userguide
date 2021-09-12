@@ -1,7 +1,3 @@
----
-hide:
-    - navigation
----
 # Autopilot Status Annunciators
 
 ## Description

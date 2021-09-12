@@ -8,6 +8,8 @@ If an MDA has been entered into the MCDU perf page, the altitude numbers will ch
 
 ### Vertical Deviation
 
+!!! attention "Currently not available for the FBW A32NX for Microsoft Flight Simulator"
+
 This is a magenta dot displayed on the left side of the altitude indicator. It appears next to the altitude corresponding to the theoretical vertical profile and is displayed starting from the top of descent to the final intercept altitude. 
 
 The pilots can read the VDEV directly from the scale. The range is ± 500 feet and if the VDEV exceeds this limit, the symbol will stay within the limit and the exact value can be found in the PROG page of the MCDU
@@ -28,7 +30,7 @@ This is shown under the barometric reference and is displayed in green numbers. 
 
 ### Radio Height
 
-This appears at the bottom of the artificial horizon and the aircraft is less than 2500 feet (radio)
+This appears at the bottom of the artificial horizon and the aircraft is 2500 feet or lower (radio altitude)
 
 If a decision height has been entered in the PERF page of the MCDU, then:
 
@@ -46,7 +48,7 @@ The radio altitude changes every 10 feet down to 50 feet, then every 5 feet down
 
 ### Landing Elevation 
 
-This is a horizontal bar on the scale that shows the landing elevation at the destination. It is displayed during flight phases 7 and 8 and if the QNH barometric reference mode is selected. 
+This is a horizontal bar on the scale that shows the landing elevation at the destination. It is displayed during flight phases 7 and 8 (800 feet radio altitude and touchdown) and if the QNH barometric reference mode is selected. 
 
 ### Ground Reference 
 

@@ -2,37 +2,39 @@
 
 ## Description
 
-These are flags and messages displayed on the PFD. 
+These are flags and messages displayed on the PFD. The numbers correspond to their location on the PFD in the photo below.
 
-### ATT FLAG 
+![Flags and Messages](../../assets/a32nx-briefing/front/pfdflags.jpg "Flags and Messages")
+
+### ATT FLAG (1)
 
 This is displayed in red. If the PFD loses all attitude data, the entire artificial horizon is displayed to clear the ATT flag. 
 
-### CHECK ATT 
+### CHECK ATT (2)
 
 CHECK ATT will be displayed in amber when there is a disagreement of at least 5 degrees in the attitude information displayed by the two PFDs. This will be shown on both PFDs and a caution will be shown on the ECAM. 
 
-### SI Flag
+### SI Flag (3)
 
 This is displayed in red. If sideslip information is lost, the index disappears and the SI flag is displayed. 
 
-### FPV Flag
+### FPV Flag (4)
 
 This is displayed in red. It appears in the TRK FPA mode, when the drift angle or flight path angle is not valid. 
 
-### FD Flag
+### FD Flag (5)
 
 This is displayed in red. It appears if both of the FMGCs fail, or if both flight directors are disengaged and the FD pushbutton is on and the attitude is valid. 
 
-### SPD Flag
+### SPD Flag (6)
 
 This is displayed in red. If the speed information fails, this flag will replace the airspeed indicator.
 
-### SPD SEL Flag
+### SPD SEL Flag (7)
 
 This is displayed in red. If the selected speed information fails, this flag will appear.
 
-### SPD LIM Flag
+### SPD LIM Flag (8)
 
 This is displayed in red. It appears when both FACs are inoperative, or in case of dual flap/slat channel failure. In this case, the following information is lost:
 
@@ -45,69 +47,75 @@ This is displayed in red. It appears when both FACs are inoperative, or in case 
 - VFE next
 - VSW
 
-### V1 INOP Flag
+### V1 INOP Flag (9)
 
 This is displayed in red. When the V1 signal is not valid, this flag will replace the digital value. 
 
-### ALT Flag
+### ALT Flag (10) 
 
 This is displayed in red. If the altitude information fails, this flag will replace the altitude scale. 
 
-### CHECK ALT Flag
+### CHECK ALT Flag (11)
 
 This is displayed in amber. This appears both as a flag on the PFD and on the ECAM as a caution if the difference between the two PFD altitude indicators is greater than 250 feet when the QNH Barometric Reference is selected, or 500 feet when STD is selected. 
 
 This flag disappears when the pilot's and first officer's barometer or references are different. 
 
-### ALT SEL Flag
+### ALT SEL Flag (12)
 
 This is displayed in red. It appears if the selected altitude information fails. 
 
-### V/S Flag
+### V/S Flag (13)
 
 This is displayed in red. It appears if the vertical speed information fails and replaces the vertical speed scale. 
 
-### LOC and G/S Flags
+### LOC and G/S Flags (14)
 
 This is displayed in red and appears if the localiser or glideslope receiver fails. 
 
-### V/DEV Flag
+### V/DEV Flag (15)
+
+!!! attention "Currently not available for the FBW A32NX for Microsoft Flight Simulator"
 
 This is displayed in red. It appears if the vertical deviation information fails, and the LS pushbutton has not been pressed. This flag replaces the V/DEV scale. 
 
-### RA Flag
+### RA Flag (16)
 
 This is displayed in red. If both radio alitmeters fail, this flag appears instead of the radio height indication. 
 
-### DH Flag
+### DH Flag (17)
 
 This is displayed in amber and is shown when the aircraft has reached the decision height. 
 
-### HDG Flag
+### HDG Flag (18)
 
 This is displayed in red and is shown if the heading information has failed. It replaces the heading scale. 
 
-### CHECK HDG Flag
+### CHECK HDG Flag (19)
 
 This is displayed in amber and is also shown on the ECAM as a caution. It is shown if there is a 5 degree difference in heading between the Captain's PFD and the First Officer's PFD
 
-### MACH Flag
+### MACH Flag (20)
 
 This flag is displayed in red and appears if the mach data fails. 
 
-### V/DEV Flag (amber)
+### V/DEV Flag (amber) (21)
+
+!!! attention "Currently not available for the FBW A32nx for Microsoft Flight Simulator"
 
 This is displayed in amber. It flashes on the top of the glide scale when the aircraft is in the approach phase and when either the final mode is armed/engaged or a non ILS approach has been selected, and the LS pushbutton has been selected. 
 
-### DME X Flag
+### DME X Flag (22)
 
 This is displayed in red. When the DME distance is not available, a DME 1 (on PFD 1) or a DME 2 (on PFD 2) flag replaces the DME distance indication. 
 
-### ILS X Flag
+### ILS X Flag (23)
 
 If an ILS frequency is not available, or if the localiser or glideslope signals fail, an ILS 1 (on PFD 1) or an ILS 2 (on PFD 2) flag replaces the ILS frequency indication. 
 
-### WINDSHEAR
+### WINDSHEAR (24)
+
+!!! attention "Currently not available for the FBW A32nx for Microsoft Flight Simulator"
 
 This is displayed in red and is shown when the aircraft has encountered a windshear. 
 
@@ -118,7 +126,9 @@ This function is implemented into the FAC and is available when the slats/flaps 
 
 It remains displayed at least 15 seconds after windshear detection and is associated with an aural windshear warning. 
 
-### W/S AHEAD 
+### W/S AHEAD (25)
+
+!!! attention "Currently not available for the FBW A32nx for Microsoft Flight Simulator"
 
 This is displayed in either amber or red depending on the alert level. 
 

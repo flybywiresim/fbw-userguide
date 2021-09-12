@@ -1,7 +1,3 @@
----
-hide:
-    - navigation
----
 # Autothrust Mode Annunciators
 
 ## Description
@@ -20,7 +16,7 @@ It is displayed with white text surrounded by a white box. The numbers are blue.
 
 ### MAN MCT 
 
-It is displayed with white text surrounded by a white box. It is displayed when at least one thrust lever is in the MCT/FLX detent and the other is at or below this detent. 
+It is displayed with white text surrounded by a white box. It is displayed when at least one thrust lever is in the MCT/FLX detent and the other is at or below this detent. MCT is maximum continuous thrust and is the maximum thrust the engine can be set to for an extended period of time. 
 
 ### MAN THR
 
@@ -71,6 +67,8 @@ It is displayed in amber text. It is displayed when one thrust lever is in the c
 It is displayed in amber text. Displayed after Autothrottle disconnection (either pilot action on FCU or failure) resulting in thrust being frozen. Both thrust levers being in climb detent or one in MCT/FLX with one engine out. 
 
 ### Note:
+
+!!! attention "Currently not available for the FBW A32NX for Microsoft Flight Simulator"
 
 The caution light flashes and a single chime will sound every five seconds, if the pilot takes no action in the following circumstances:
 

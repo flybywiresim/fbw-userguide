@@ -40,6 +40,8 @@ Displayed with white text. Displays when the speed target is selected but a pres
 
 ### SET GREEN DOT SPD
 
+!!! attention "Currently not available for the FBW A32NX for Microsoft Flight Simulator"
+
 Displayed with white text. Displays when the aircraft is in engine out mode and the speed target is selected. This message will be displayed if the FCU selected speed is:
 
 - Less than or equal to the green dot speed minus 10kts or
@@ -47,13 +49,19 @@ Displayed with white text. Displays when the aircraft is in engine out mode and 
 
 ### SET HOLD SPD
 
+!!! attention "Currently not available for the FBW A32NX for Microsoft Flight Simulator"
+
 Displayed with white text. Displays when the aircraft is in selected speed control, a holding pattern has been inserted into the MCDU flight plan and the aircraft is 30 seconds out from the deceleration point to the the computed hold speed. 
 
 ### DECELERATE
 
+!!! attention "Currently not available for the FBW A32NX for Microsoft Flight Simulator"
+
 Displayed with white text. Displays if the thrust is not reduced when the aircraft is passing the top of descent point, and the aircraft is above the descent profile. 
 
 ### MORE DRAG
+
+!!! attention "Currently not available for the FBW A32NX for Microsoft Flight Simulator"
 
 Displayed with white text. Displays when descent mode is engaged, idle is selected, and:
 
@@ -61,6 +69,8 @@ Displayed with white text. Displays when descent mode is engaged, idle is select
 - In auto speed control and the aircraft enters a speedbrake decelerating segment. 
 
 ### VERT DISCON AHEAD
+
+!!! attention "Currently not available for the FBW A32NX for Microsoft Flight Simulator"
 
 Displayed in amber text. Displays when descent mode is engaged and:
 
@@ -84,6 +94,8 @@ Displayed with green text. Displays when flare mode is engaged.
 Displayed with green text. Displays when roll out mode is engaged. 
 
 ### FINAL APP
+
+!!! attention "Currently not available for the FBW A32NX for Microsoft Flight Simulator"
 
 Displayed with green text. Displays when APP NAV and Final modes are engaged during a non ILS approach. 
 

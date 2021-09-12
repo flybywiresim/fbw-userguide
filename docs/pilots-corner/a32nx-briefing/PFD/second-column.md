@@ -1,7 +1,3 @@
----
-hide:
-    - navigation
----
 # Vertical Mode Annunciators
 
 ## Description
@@ -10,7 +6,7 @@ These annunciators tell the pilots what vertical mode the Autopilot and Flight D
 
 ### SRS 
 
-Displayed with green text. Displayed when takeoff or go around mode is engaged. 
+Displayed with green text. Displayed when takeoff or go around mode is engaged. SRS is the speed reference system and it controls pitch to steer the aircraft along a path in the vertical plan at a speed defined by the SRS guidance law. 
 
 ### CLB
 
@@ -40,11 +36,11 @@ Displayed with green text. Displayed when ALT mode is engaged and the Cruise Fli
 
 ### DES
 
-Displayed with green text. Displayed when Descent mode is engaged and the FMGS target altitude is lower than the current altitude. Altitude Constraints are taken into account.
+Displayed with green text. Displayed when Descent mode (managed) is engaged and the FMGS target altitude is lower than the current altitude. Altitude Constraints are taken into account.
 
 ### OP DES
 
-Displayed with green text. Displayed when open descent mode is engaged and the FCU selected altitude is lower than the current altitude. Altitude Constraints are not taken into account. 
+Displayed with green text. Displayed when open descent (selected) mode is engaged and the FCU selected altitude is lower than the current altitude. Altitude Constraints are not taken into account. 
 
 ### G/S\*
 

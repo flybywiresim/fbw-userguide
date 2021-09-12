@@ -46,14 +46,14 @@ There are also some annunciators that take up two columns. These can either be S
 }
 </style>
 <div style="position: relative;">
-    <img src="../../../assets/a32nx-briefing/front/pdf.jpg" style="width: 100%; height: auto;">
+    <img src="../../../assets/a32nx-briefing/front/primaryfd.jpg" style="width: 100%; height: auto;">
     <!-- OVHD AFT -->
-    <a href="/pilots-corner/a32nx-briefing/PFD/first-column"><div class="imagemap" style="position: absolute; left: 7%; top: 6.5%; width: 18%; height: 11.9%;"><span class="imagemapname">First Column FMA</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/PFD/second-column"><div class="imagemap" style="position: absolute; left: 25.3%; top: 6.5%; width: 17.6%; height: 5.95%;"><span class="imagemapname">Second Column FMA</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/PFD/third-column"><div class="imagemap" style="position: absolute; left: 43.2%; top: 6.5%; width: 19.2%; height: 5.95%;"><span class="imagemapname">Third Column FMA</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/PFD/fourth-column"><div class="imagemap" style="position: absolute; left: 62.8%; top: 6.5%; width: 16.3%; height: 11.9%;"><span class="imagemapname">Fourth Column FMA</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/PFD/fifth-column"><div class="imagemap" style="position: absolute; left: 79.3%; top: 6.5%; width: 13.7%; height: 11.9%;"><span class="imagemapname">Fifth Column FMA</span></div></a>
-    <a href="/pilots-corner/a32nx-briefing/PFD/special-message-annunciators"><div class="imagemap" style="position: absolute; left: 25.3%; top: 12.5%; width: 37.1%; height: 5.93%;"><span class="imagemapname">Special Message and Common Mode Annunciators</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/pfd/first-column"><div class="imagemap" style="position: absolute; left: 0%; top: 0%; width: 20.77%; height: 13.6%;"><span class="imagemapname">First Column FMA</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/pfd/second-column"><div class="imagemap" style="position: absolute; left: 21.22%; top: 0%; width: 20.35%; height: 6.8%;"><span class="imagemapname">Second Column FMA</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/pfd/third-column"><div class="imagemap" style="position: absolute; left: 41.4%; top: 0%; width: 22.9%; height: 6.8%;"><span class="imagemapname">Third Column FMA</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/pfd/fourth-column"><div class="imagemap" style="position: absolute; left: 64.5%; top: 0%; width: 19.7%; height: 13.6%;"><span class="imagemapname">Fourth Column FMA</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/pfd/fifth-column"><div class="imagemap" style="position: absolute; left: 84.25%; top: 0%; width: 15.8%; height: 13.6%;"><span class="imagemapname">Fifth Column FMA</span></div></a>
+    <a href="/pilots-corner/a32nx-briefing/pfd/special-message-annunciators"><div class="imagemap" style="position: absolute; left: 21.22%; top: 6.52%; width: 43.08%; height: 6.95%;"><span class="imagemapname">Special Message and Common Mode Annunciators</span></div></a>
 </div>
 ---
 

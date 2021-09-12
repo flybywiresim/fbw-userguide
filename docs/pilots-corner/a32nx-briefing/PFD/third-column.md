@@ -1,7 +1,3 @@
----
-hide:
-    - navigation
----
 # Lateral Mode Annunciators
 
 ## Description
@@ -12,7 +8,7 @@ These annunciators tell the pilots what lateral mode the Autopilot and the Fligh
 
 ### RWY
 
-Displayed with green text. Displays when runway mode is engaged. 
+Displayed with green text. Displays when runway mode is engaged. This is only displayed if there is an active localiser signal. This mode provides lateral guidance during the takeoff roll up to 30 feet (radio). 
 
 ### RWY TRK
 
@@ -20,17 +16,17 @@ Displayed with green text. Displays when runway mode is engaged once airborne or
 
 ### HDG
 
-Displayed with green text. Displays when heading mode is engaged. 
+Displayed with green text. Displays when heading mode is engaged. Heading mode is when the aircraft follows the FCU selected altitude (selected mode). 
 
 ### TRACK
 
-Displayed with green text. Displays when track mode is engaged.
+Displayed with green text. Displays when track mode is engaged. Track mode is when the aircraft follows the FCU selected track (selected mode). 
 
 ### NAV
 
 Green text: 
 
-- Displays when NAV mode is engaged to guide the aircraft along the lateral flight plan. 
+- Displays when NAV mode is engaged to guide the aircraft along the lateral flight plan (managed mode).
 
 Blue text:
 

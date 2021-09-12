@@ -1,6 +1,6 @@
 # Attitude and Guidance 
 
-This is made up of several different parts that all come together to provide flight guidance to the pilots. It is an oval split in half with brown at the bottom and blue at the top. The black line where they meet in the middle is the 0 degree attitude marker. 
+This is made up of several different parts that all come together to provide flight guidance to the pilots. It is an oval split in half with brown at the bottom and blue at the top. Blue indicates the sky and brown indicates the ground. The black line where they meet in the middle is the 0 degree attitude marker. 
 
 On top of the background are several markers and symbols that tell the pilot different things. 
 
@@ -51,7 +51,7 @@ This is displayed in yellow underneath the roll index. It is a trapezoidal shape
 
 On the ground it will display the lateral acceleration of the aircraft. 
 
-In flight it will display sideslip. One centimeter of displacement indicates 0.2g. The sideslip index will stop at 0.3g. 
+In flight it will display sideslip. One centimeter of displacement on the display indicates 0.2g. The sideslip index will stop at 0.3g. 
 
 If there is an engine failure at takeoff or go around, the sideslip index will change from yellow to blue. 
 

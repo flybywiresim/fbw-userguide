@@ -30,6 +30,8 @@ This speed is VMO (maximum operating speed) + 6 knots or MMO (maximum mach speed
 
 ### ECON Speed Range
 
+!!! attention "Currently not available for the FBW A32NX for Microsoft Flight Simulator"
+
 This appears in descent mode with ECON/AUTO SPD mode active. Two half triangles will represent the upper and lower limits calculated by the FMGC. This replaces the target speed symbol. 
 
 The upper speed is equal to the target speed + 20 knots, limited to Vmax, VMO - 3 knots or MMO - 0.006, whichever is the lowest. 
@@ -78,6 +80,14 @@ This is displayed with a green letter S. It appears when the flap selector is in
 ### VFE NEXT
 
 It is displayed with an amber double bar (=) and shows the VFE corresponding to the next flap lever position. It appears when the aircraft altitude is below 15,000 feet or 20,000 feet depending upon the FAC standard. 
+
+### Vr (Rotation Velocity)
+
+This is a blue dot on the right side of the speedtape. It displays the speed at which the aircraft can rotate. 
+
+### V2 
+
+This is a magenta triangle on the right side of the speedtape. It displays the V2 speed which has been inserted into the TAKE OFF PERF page of the MCDU. This is the speed the aircraft needs to maintain up to the acceleration altitude. 
 
 ---
 
