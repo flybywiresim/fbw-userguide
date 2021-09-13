@@ -249,66 +249,99 @@ These fields display time and distance predictions down to the target altitude s
     - Green when active, white when inactive.
 
 - QNH (1L)
-    - This field displays brackets, when the aircraft is more than 180 NM from the destination. Inside 180 NM, a mandatory amber box appears. The flight crew must enter the QNH in hPa or in inches of mercury.
+    - \>180 NM from the destination:
+        - Blue brackets are displayed
+    - <180 NM:
+        - Amber box is displayed to signify a mandatory input required.
+        - Pilot must enter the QNH in hPa or in inches of mercury.
 
-    - For hPa, enter three or four digits
-    - For inches of mercury:
-        - Enter two digits, or
-        - Enter two digits followed by a decimal point and two additional digits.
+        - For hPa 3 or 4 digits
+        - For inches of mercury:
+            - 2 digits, or 2 digits followed by a decimal point and 2 additional digits.
 
-    - The system interprets:
-        - 1003 as 1003 hPa;
-        - 29 as 29.00 in.
-        - 29.92 as 29.92 in.
-
-    !!! note ""
-        An erroneous entry of an OAT in QNH field, for example 22 °C, or a higher value, is accepted by the system.
-
-    - The flight crew can modify this entry at any time.
-    - The Cabin Pressure Controller [CPC) uses the QNH to compute the cabin repressurization segment. Therefore, an erroneous QNH entry may result in a cabin pressurization that is not appropriate.
-
-- TEMP (2L):
-     - This field displays the temperature at destination. The field displays brackets until the pilot enters the temperature. The pilot can modify this figure.
-     - The system uses this temperature to refine its computation of the descent profile [ISA model).
-
-- MAG WIND (3L)
-    - The flight crew enters the magnetic wind in knots at the destination in this field. The system transmits any entry made in this field to the vertical revision and flight plan B pages [which display wind direction as true, not magnetic).
-
-- TRANS ALT (4L)
-    - This field displays the transition altitude taken from the data base [small font) or entered by the flight crew [large font).
-    - The flight crew can modify it at any time.
-
-- VAPP (5L)
-    - The FMGC computes this approach speed, using the formula:
-        - VAPP = VLS + 1/3 of the headwind components [limited to VLS + 5 as a minimum and VLS + 15 as a maximum).
-        - The flight crew can modify VAPP. A clear action reverts VAPP to the computed value.
+        -Examples of how the system interprets input:
+            - 1003 as 1003 hPa;
+            - 29 as 29.00 in.
+            - 29.92 as 29.92 in.
 
         !!! note ""
-            VLS = 1.23 VS1G of the selected landing configuration [full or 3).
+            An erroneous entry of an OAT in QNH field, e.g. 22°C,  is accepted by the system as a QNH.
+
+        - Pilots can modify this entry at any time.
+        - The Cabin Pressure Controller [CPC) uses QNH to compute the cabin pressurization. Therefore, a wrong QNH entry may result in an inappropriate cabin pressurization.
+
+- TEMP (2L):
+     - Shows temperature at destination.
+    - \>180 NM from the destination:
+        - Blue brackets are displayed
+    - <180 NM:
+        - Amber box is displayed to signify a mandatory input required.
+     - Used by the FMGS to refine computation of the descent profile [ISA model).
+
+- MAG WIND (3L)
+    - Magnetic wind in knots at destination to be entered.
+    - Transmitted to the vertical revision and flight plan B pages [which display wind direction as true, not magnetic).
+
+- TRANS ALT (4L)
+    - Shows transition altitude taken from the navigational data base [small font) or entered by the flight crew [large font).
+    - Pilots can modify it at any time.
+
+- VAPP (5L)
+    - Computed by FMGC, using the formula:
+        - VAPP = VLS + 1/3 of the headwind components [limited to VLS + 5 as a minimum and VLS + 15 as a maximum).
+        - The flight crew can modify VAPP.
+        - A clear action reverts VAPP to the computed value.
+
+        !!! note ""
+            VLS = 1.23 VS1G (Stall Speed) of the selected landing configuration [full or 3).
 
 - FINAL (1R)
-    - This field displays the approach specified in the flight plan.
-    - The flight crew cannot modify it through this field.
+    - Approach specified in the flight plan.
+    - Can't be modified here.
 
-- MDA/MDH or BARO (2R):
-    - This field displays:
-      - The Minimum Descent Altitude with associated brackets, or
-      - The Minimum Descent Height with associated brackets, if:
+- BARO (2R):
+    - Shows:
+      - The Minimum Descent Altitude (MDA) with associated brackets, or
+      - The Minimum Descent Height (MDH) with associated brackets, if:
           - The QFE pin program is activated, or
-          - The FCU setting is QFE, on aircraft equipped with the BARO 
-        option.
-      - The flight crew inserts the value, which it can modify at any time. If the flight crew makes an entry in (3R) or changes the approach, it clears this figure.
+          - The FCU setting is QFE
+      - Pilots can modify this at any time.
+      - If an entry in (3R) is made or changes the approach, this is cleared.
 
-- DH or RADIO (3R):
-    - If the flight plan includes an ILS approach, this field displays “DH" or "RADIO" and empty brackets. The flight crew inserts the decision height. The system will accept an entry of “NO", "NODH" or "NO DH". If the flight crew inserts an MDA or an MDH [or a BARO  value) in FIELD (2R), this erases the decision height, and this field reverts to brackets. The DH or RADIO range is 0 to 700 ft.
+- RADIO (3R):
+    - If an ILS approach is selected in the flight plan, this field shows "RADIO" and empty brackets.
+    - Pilots enter decision height.
+    - The system will accept an entry of “NO", "NODH" or "NO DH".
+    - If a BARO value is entered in (2R), this field is cleared.
+    - The RADIO range is 0 to 700 ft.
 
 - LDG CONF CONF3 (4R):
-    - The flight crew can select configuration 3 by pressing the 4R key.
-    - This moves the * down to the (5R) field, which is displaying “FULL"?.
-
-- FULL (5R):
-    - The flight crew can use this key to select configuration FULL when necessary configuration FULL is the default landing configuration.
+    - Pressed to configure a flaps 3 approach.
+    - The active mode is displayed in blue large font.
 
 ## GO-AROUND
 
 ![PERF GO AROUND Page](../../assets/a32nx-briefing/mcdu/perf-goaround-page.png "PERF GO AROUND Page"){loading=lazy}
+
+- TITLE GO AROUND:
+    - Green when active, white when inactive.
+
+- THR RED ACC (5L):
+    - Thrust reduction altitude and the acceleration altitude.
+    - Thrust reduction altitude:
+        - Altitude at which thrust must be reduced from takeoff/go-around thrust to maximum climb thrust.
+        - “CLB” or “LVR CLB” flashing on flight mode annunciator
+        - Defaults to 1.500 ft above destination runway elevation, or to the altitude set by the airline.
+        - Can be modified by the pilots
+        - Minimum 400 ft above destination runway elevation.
+    - Acceleration altitude:
+        - Altitude at which target speed jumps to green-dot speed (see the note below)
+        - Defaults to 1.500 ft above destination runway elevation, or to the altitude set by the airline.
+        - Can be modified by the pilots
+        - Always equal to (or higher than) the thrust reduction altitude.
+
+- ENG OUT ACC (5R)
+    - Engine-out acceleration altitude, as defined in the database, or manually entered by the flight crew. This is for display only, as a reminder. It cannot be cleared. The above ACC altitude rules of (5L) apply to this field.
+
+!!! note ""
+    When go-around is active, or if ALTN is enabled, or if a new destination is entered in the active flight plan and a new cruise flight level on the progress page, the go-around phase shifts automatically to the climb phase (target speed jumps from green dot speed to initial climb speed).
