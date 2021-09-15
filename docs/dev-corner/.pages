@@ -9,4 +9,6 @@ nav:
     - Development Guide: development-guide.md
     - Development Practices: development-practices.md
     - Texture Changes: texture-changes.md
+    - flyPadOS Development: flypad-dev.md
+    - Javascript Development: javascript.md
     - ...
