@@ -62,14 +62,11 @@ plugins:
         # additional redirects:
         'fbw-a32nx/feature-guides/throttle-calibration.md': 'fbw-a32nx/feature-guides/flyPad/throttle-calibration.md'
 
-
-        # 'old.md': 'file.md'
-        # 'some_file.md': 'http://external.url.com/foobar'
-
 # Styling Front-end
 extra_css:
   - stylesheets/extra.css
   - stylesheets/EFB-interactive.css
+  - stylesheets/pfd-interactive.css
 
 # Extra Functions / Customizations
 extra:
