@@ -1,0 +1,6 @@
+title: Advanced Cockpit Emulator
+nav:
+    - index.md
+    - hot-reload.md
+    - simvars.md
+    - cockpit-editor.md

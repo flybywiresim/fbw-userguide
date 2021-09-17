@@ -24,3 +24,10 @@ Current Projects:
 
      A Rusty way to interact with Microsoft Flight Simulator 2020
 
+- [Advanced Cockpit Emulator](advanced-cockpit-emulator/index.md)
+
+     A program for emulating cockpit displays out of sim
+
+- [MSFS-Navdata](msfs-navdata/index.md)
+
+     A npm package for handling different navdata formats for Microsoft Flight Simulator 2020
