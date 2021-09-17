@@ -5,6 +5,7 @@
 - why flight planning for IFR
 - why simBrief
 - why integration
+- note for expected future changes
 
 ## Flight Planning with SimBrief
 
@@ -14,12 +15,11 @@
 
 - airframe
 - simBrief login Setup
--
 
 ## Importing the simBrief OFP to the FMS (MCDU)
 
 - Initialize
-- Fuel and Payload
+- Fuel and Payload (this is in flux right now - EFB page to come)
 - Loading into flight plan (INIT A)
 - Selecting SID, STAR, APPR
 
