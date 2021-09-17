@@ -21,7 +21,9 @@ The CVR and DFDR are energized automatically during the following conditions:
 
 The cockpit voice recorder is located in the aft section of the airplane, equipped with an underwater locating beacon. It records direct conversations between crew members through a cockpit area microphone and boom microphones, aural cockpit warnings, intercommunication and radio transmissions.
 
-The passenger address system is also recorded if the PA reception knob is selected on. Only the last 30 minutes of recording is retained.
+The passenger address system is also recorded if the PA reception knob is selected on.
+
+Aircraft built after 2003 have a 120 min recording time requirement. Airbus installs CVRs capable of 25h of recording since the end of 2020.
 
 ## Usage
 
@@ -29,7 +31,7 @@ The passenger address system is also recorded if the PA reception knob is select
     - The ON function energizes the CVR and DFDR. This is used to test the CVR and DFDR.
 
 - CVR ERASE:
-    - When the ERASE button is pushed for two seconds, it erases the CVR tape, provided the airplane is on the ground and the parking brake is on.
+    - When the ERASE button is pushed for two seconds, it erases the CVR tape, provided the airplane is on the ground, the parking brake is on and the GND CTRL button is on.
 
 - CVR TEST:
     - When pushed and held, the CVR test is activated provided the CVR is energized and the parking brake is on. During the test, a low frequency tone is heard through the cockpit loudspeakers.

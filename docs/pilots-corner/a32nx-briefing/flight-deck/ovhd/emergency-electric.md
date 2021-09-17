@@ -44,7 +44,10 @@
 
 - OFF:
     - GEN 1 line contactor opens.
-    - The AC BUS 1 channel is supplied from GEN 2 through bus tie contactors. This is used for smoked drill.
+    - GEN 1 keeps operating and supplies one fuel pump per wing directly.
+    - The AC BUS 1 channel is supplied from GEN 2 through bus tie contactors.
+    !!! note ""
+        This pushbutton is part of the smoke drill procedure. In order to isolate the cause of electrical smoke, the flight crew manually extends the RAT and enters Electrical Emergency configuration by turning the main generators off. This deactivates all non-essential electrical equipment.
 - SMOKE Light
     - Amber light when smoke is detected in the avionics ventilation duct.
 

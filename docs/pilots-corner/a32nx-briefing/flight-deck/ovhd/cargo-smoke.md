@@ -19,7 +19,7 @@ The forward and aft cargo compartments are equipped with smoke detection systems
 
 ### SMOKE light
 
-When the system detects smoke in the compartment, a red light and an ECAM warning come on. Both channels need to detect smoke, or one channel detects smoke and the SDCU finds that the other channel is faulty.
+When the system detects smoke in the compartment, a red light and an ECAM warning come on.
 
 ### DISCH
 
@@ -30,7 +30,7 @@ Ignites the squib to discharge the extinguishing agent in the corresponding comp
 
 ### DISCH light
 
-Amber light comes on, indicating that the agent bottle has fully discharged.
+Amber light comes on, indicating that the agent bottle has discharged.
 
 ### TEST
 

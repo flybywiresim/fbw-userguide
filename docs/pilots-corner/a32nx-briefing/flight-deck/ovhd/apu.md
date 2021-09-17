@@ -23,13 +23,14 @@ Controls the APU operation and its start- and shutdown sequence.
     - APU system is powered (performs a power-up test after set to ON).
     - APU Air intake flap opens.
     - Fuel valve opens.
-    - APU fuel pump operates if fuel pumps are not in operation.
+    - The APU uses fuel from the left wing tank only.
+    - If both main fuel pumps in the left wing tank are off the APU Fuel Pump will be automatically activated.
     - ECAM shows APU page
 - OFF:
     - Manual shutdown sequence.
     - ON light and the AVAIL light on the START pushbutton, go off.
     - The APU keeps running for a cooling period of 60 seconds, if the aircraft was using APU bleed air.
-    - Air inlet flap closes at 7%
+    - Air inlet flap closes at N = 7%
 - FAULT Lt:
     - Amber light and ECAM warning message, if an automatic APU shutdown occurs. Possible causes:
         - Air inlet flap closed
@@ -61,7 +62,7 @@ Controls the APU operation and its start- and shutdown sequence.
     - Blue ON light.
     - Starter is energized when the flap is completely open.
     - Ignition activates 1.5 second after the starter is energized.
-    - When N = 60%. The APU starter is de-energized. The ignition is turned off.
+    - When N = 55%. The APU starter is de-energized. The ignition is turned off.
     - 2 seconds after N reached 95%, or when N is above 99.5% the ON light on START button goes out. The APU can now supply bleed air and electrical power to the aircraft.
     - APU page disappears from the ECAM display after >10sec.
 - AVAIL Lt:

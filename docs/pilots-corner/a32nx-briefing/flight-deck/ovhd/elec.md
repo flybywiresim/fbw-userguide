@@ -94,6 +94,9 @@ It may be supplied by AC BUS 2 through the AC ESS FEED pushbutton switch.
 
 - NORMAL:
     - The AC ESS BUS is supplied from AC BUS 1.
+
+    !!! note ""
+        In case of normal AC ESS Feed failure, the AC ESS Bus is automatically fed from AC BUS 2 after 5 seconds, regardless of the pushbutton position.
 - ALTN:
     - The AC ESS BUS is supplied from AC BUS 2.
 - FAULT:

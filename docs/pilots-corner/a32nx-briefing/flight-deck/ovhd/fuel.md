@@ -22,7 +22,7 @@ The tanks empty in the following sequence :
 2. Inner tanks (down to 750 kg in each inner tank)
 3. Outer tanks (fuel transferred into the inner tanks)
 
-Each engine is fed by their corresponding centre and wing tanks. The pumps stay turned on during the flight.
+Each engine is fed by their corresponding center and wing tanks. The pumps stay turned on during the flight.
 
 Both engines can be fed from one side or both sides can feed only one engine.
 
@@ -60,6 +60,9 @@ Both engines can be fed from one side or both sides can feed only one engine.
     - Pump is off and OFF button lights up white.
 - FAULT:
     - Amber light and ECAM caution appear, when delivery pressure drops while pump operates.
+
+!!! note ""
+     The A320neo doesn't have center tank pumps anymore. These have been replaced by transfer valves. The current aircraft model used by the FlyByWire A32NX has incorrect labels.
 
 ### X FEED
 

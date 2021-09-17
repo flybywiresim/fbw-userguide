@@ -12,7 +12,7 @@
 
 This panel controls:
 
-- Desired ND modes (ROSE-ILS, -VOR, ARC, PLAN) and ranges.
+- Desired ND modes (ROSE-ILS, -VOR, NAV, ARC, PLAN) and ranges.
 - Baro setting.
 
 ## Usage

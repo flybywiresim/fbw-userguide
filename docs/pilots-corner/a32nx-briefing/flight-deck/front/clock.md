@@ -10,7 +10,7 @@
 
 ## Description
 
-The A320neo has a build-in independent clock which sends time data to several systems. It has redundant electrical supply and is also directly connected to the aircraft's battery hot bus.
+The A320neo has a build-in independent clock which sends time data to several systems. It has redundant electrical supply and is also directly connected to the aircraft's Hot Battery Bus.
 
 Functions :
 

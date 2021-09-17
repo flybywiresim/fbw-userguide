@@ -60,7 +60,7 @@ to the APU to:
 - shut down the APU.
 - stop aural fire warning.
 - arm the fire extinguisher squibs.
-- close low-pressure fuel valve and APU fuel pump.
+- close low-pressure fuel valve and turn off APU fuel pump.
 - close the APU bleed valve and the x-bleed valve.
 - shut off the APU generator.
 
@@ -69,7 +69,7 @@ The button's red light turns on, independent of the pushbutton's position, as so
 ### APU AGENT
 
 - "SQUIB":
-    - This button activates and lights up in white after the crew has pushed the APU FIRE button. Pushing it will discharges the respective fire bottle.
+    - This button activates and lights up in white after the crew has pushed the APU FIRE button. Pushing it will discharge the respective fire bottle.
 - "DISCH":
     - lights up amber when its fire extinguisher bottle was used and has lost pressure.
 
@@ -77,7 +77,7 @@ The button's red light turns on, independent of the pushbutton's position, as so
 
 Used to test the operation of the fire detection and extinguishing system.
 
-When presses there is a continuous repetitive chime sound, the MASTER WARN lights flash and the APU FIRE warning appears on ECAM.
+When pressed there is a continuous repetitive chime sound, the MASTER WARN lights flash and the APU FIRE warning appears on ECAM.
 
 On the APU FIRE panel the APU FIRE pushbutton lights up red, and the SQUIB lights come on white if discharge supplies are available. The DISCH lights come on amber.
 

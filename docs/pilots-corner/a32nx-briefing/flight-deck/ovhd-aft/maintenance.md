@@ -13,7 +13,7 @@
 
 ### CVR Headset
 
-Headphone output to monitor the Cockpit Voice Recorder, e.g., for testing.
+Headphone output to monitor the Cockpit Voice Recorder for testing.
 
 ### OXYGEN TMR RESET
 
@@ -43,8 +43,8 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 
 ### BLUE PUMP OVRD (guarded)
 
-- ON: The blue electric pump is on if the ELEC PUMP pushbutton switch on the HYD panel is at AUTO.
-- OFF: The blue electric pump is off.
+- ON: The blue electric pump is on if the ELEC PUMP pushbutton switch on the HYD panel is on AUTO.
+- OFF: The blue electric pump is controlled by the the automatic logic.
 
 ### HYD LEAK MEASUREMENT VALVES (guarded)
 

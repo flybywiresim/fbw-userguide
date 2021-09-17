@@ -48,7 +48,7 @@ During a take-Off Abort (AB) the system prevents the cabin altitude from climbin
 - MAN:
     - Appears in white, and FAULT does not come on. Manual control of pressurization is done using the MAN V/S CTL switch.
 - FAULT:
-    - Appears in amber and the ECAM caution light, when both automatic systems are faulty.
+    - Appears in amber and the ECAM caution light comes on, when both automatic systems are faulty.
 
 ### MAN V/S CTL
 

@@ -73,9 +73,23 @@ If pushed it:
 
 The flight crew uses these buttons to engage or disengage the autopilots. Lights up in green when the autopilot is engaged.
 
+!!! note ""
+    Typically in normal procedures the autopilot is not disengaged by pressing the AP buttons on the FCU but by pressing the takeover pushbutton on the sidestick.
+
+    Disengaging the AP triggers a warning illuminating the Master Warning light, displaying a message on the ECAM, and sounding an audio warning (called Cavalry Charge):
+
+    - If disengaged with the takeover pushbutton on the sidestick, the warnings are temporary (&#8924;3s Master Warning, &#8924;9s ECAM message "AP OFF" (red), &#8924;1.5s Cavalry Charge audio).
+    - If disengaged by a failure, or by pushing the pushbutton on the FCU, or from a force on the sidestick, the visual and audio warnings are continual (ECAM message "AUTO FLT AP OFF" in red).
+
+    !!! attention ""
+        Currently no continual warnings are implemented and also no ECAM message is displayed in the FBW A32NX for Microsoft Flight Simulator when the AP is disengaged.
+
 ### A/THR pushbutton
 
 The flight crew uses this button to arm, activate, or disconnect the autothrust (A/THR). Lights up in green if the A/THR is armed or active.
+
+!!! note ""
+    Typically in normal procedures the autothrust is not disengaged by pressing the A/THR button on the FCU but by pressing the disconnect pushbutton on the throttle levers or by setting both thrust levers to idle.
 
 ### Altitude selector knob (inner and outer)
 

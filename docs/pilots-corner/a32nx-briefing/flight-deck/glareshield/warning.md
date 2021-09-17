@@ -20,8 +20,8 @@
             - Used the TAKEOVER pb to cancel a set priority situation.<br/>
          **Sidestick priority audio**: The audio voice message "PRIORITY LEFT" or "PRIORITY RIGHT" is played each time priority is taken.
 
-- Green CAPT and F/O lights :
-    - Both lights flash will flash if the pilots are attempting to move both sidesticks at the same time and neither pilot takes priority.
+- Green CAPT and F/O lights:
+    - Both lights will flash if the pilots are attempting to move both sidesticks at the same time and neither pilot takes priority.
     - If a pilot who has taken priority by using the TAKEOVER pb and the other pilot's sidestick is in motion or not neutral, the light of the pilot who has taken priority illuminates. It will extinguish when the opposing sidestick returns to the neutral position.
 
 !!! attention ""
@@ -36,7 +36,7 @@
 ### 3. MASTER WARN
 
 - Illuminates and flashes red for a level 3 warning.
-- Provides an audible warning (repetitive charms, sounds, or a synthetic voice).
+- Provides an audible warning (repetitive chimes, sounds, or a synthetic voice).
 
 ### 4. MASTER CAUTION
 
@@ -61,8 +61,8 @@ The aural warnings terminate when:
 - The events below trigger a flashing AUTOLAND red warning accompanied by a triple click audio warning when the aircraft is below 200ft RA and aircraft is in LAND mode:
 
     - AP1 and AP2 OFF below 200ft RA.
-    - LDC deviation (1/4 dot above 15ft RA) or GLIDE deviation (1 dot above 100ft RA). Both LDC and GLIDE scales will flash on the PFD.
-    - LDC signal lost above 15ft or loss of GLIDE signal when above 100ft. The flight director bars flash on the PFD and LAND mode remains engaged.
+    - LOC deviation (1/4 dot above 15ft RA) or GLIDE deviation (1 dot above 100ft RA). Both LOC and GLIDE scales will flash on the PFD.
+    - LOC signal lost above 15ft or loss of GLIDE signal when above 100ft. The flight director bars flash on the PFD and LAND mode remains engaged.
     - Difference of radio altimeter indications is more than 15ft.
 
 !!! attention ""

@@ -34,7 +34,7 @@ An anti-skid and autobrake system is also provided.
 
 - UP:
     - Selects landing gear retraction.
-    - The brake system brakes the wheels of the main gear and a brake band in the nose gear well brakes the nose gear wheels.
+    - The brake system brakes the wheels of the main gear.
 - DOWN:
     - Selects landing gear extension.
     - The gear cannot be retracted while the aircraft is on the ground.
@@ -55,8 +55,8 @@ The anti-skid is deactivated when ground speed is less than 20 knots.
 - ON:
     - Available green hydraulic system pressure, then Anti-skid and Nose Wheel Steering is available.
     - Lost green hydraulic pressure:
-        - then the Yellow hydraulic system pressure takes over automatically to supply the brakes:
-        - Anti-skid remains available, while Nose wheel steering is lost.
+        - Yellow hydraulic system pressure takes over automatically to supply the brakes:
+        - Anti-skid remains available.
         - The triple indicator shows yellow system brake pressure.
 - OFF:
     - Yellow hydraulic system supplies brake pressure.
@@ -73,12 +73,13 @@ It has 4 settings: OFF, LO, MED and MAX.
 
 - MAX (takeoff):
     - If the flight crew aborts the takeoff, maximum pressure goes to the brakes when the ground spoilers are being deployed.
-- LO
-    - Usually selected for landing on a normal-length, dry and uncontaminated runway.
-    - Sends progressive pressure to the brakes 4 seconds after the ground spoilers deploy. Decelerates the aircraft at 1.7 meters/second^2^ (5.6 feet/second^2^ ).
+    - Can only be activated for takeoff and not while airborne.
 - MED
     - Usually selected for landing on a shorter, wet or contaminated runway.
     - Sends progressive pressure to the brakes 2 seconds after the ground spoilers deploy in order to decelerate the aircraft at 3 meters/second^2^ (9.8 feet/second^2^).
+- LO
+    - Usually selected for landing on a normal-length, dry and uncontaminated runway.
+    - Sends progressive pressure to the brakes 2 seconds after the ground spoilers deploy. Decelerates the aircraft at 2 meters/second^2^ (6.6 feet/second^2^ ).
 - Lights
     - Blue ON light indicates positive arming.
     - Green DECEL light indicates deceleration is 80% of the selected rate.

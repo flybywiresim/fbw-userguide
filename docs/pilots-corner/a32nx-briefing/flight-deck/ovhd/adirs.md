@@ -26,7 +26,7 @@ Normal operation:
 
 - The IR mode selector should be turned to NAV in the order of 1, 2, then 3.
 
-- ON BATT will then flash as a self-test at the start of alignment. If one or more of the ADIRU's are running on battery power, ON BATT will display constantly.
+- ON BATT will then illuminate as a self-test at the start of alignment for a few seconds. If one or more of the ADIRU's are running on battery power, ON BATT will display constantly.
 
 - IR 1, 2 and 3, as well as ADR, 1, 2 and 3 can be turned off using the corresponding push button.
 
