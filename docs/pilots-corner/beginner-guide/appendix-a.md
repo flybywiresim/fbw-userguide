@@ -29,9 +29,6 @@ An acceptable range of ZFWCG in the A32NX is between 16-40%. Ideally, anything l
 
     These demerits coincidentally describe the counter benefits of having an AFT favored load.
 
-For a single-aisle aircraft like the A32NX there is virtually no effect of CG position on fuel consumption. 
-
-!!! tip ""
-    Having an AFT favored load does provide better takeoff / landing performance.  
+For a single-aisle aircraft like the A32NX there is virtually no effect of CG position on fuel consumption. ==Having an AFT favored load does provide better takeoff / landing performance.==  
 
     
