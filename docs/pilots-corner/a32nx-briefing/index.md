@@ -21,7 +21,7 @@ but are omitted in this briefing.
 - [ECAM](ecam/index.md)
 <!--- [PFD](pfd/index.md)-->
 <!--- [ND](nd/index.md)-->
-<!--- [MCDU](mcdu/index.md)-->
+- [MCDU](mcdu/index.md)
 
 ---
 
