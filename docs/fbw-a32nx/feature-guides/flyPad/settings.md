@@ -113,16 +113,11 @@ Settings for integrations with various data and information sources.
 Before you can use the A32NX simBrief Integration you need to provide your simBrief account details.
 
 - Simbrief Username/Pilot ID:
-    - Enter your simBrief username or user ID.
+    - Enter your simBrief username or Pilot ID.
 
         ![simBrief Account field](../../assets/flypad/simbrief-account-field.png "simBrief Account field")
-  -
-        !!! attention ""
-            If you username has spaces in it omit these as otherwise the authentication will fail.
-            
-            Example: "My Username" ==> enter "MyUsername".
 
-    - If you entered a wrong account name or ID a red error message will be displayed.
+    - If you entered a wrong username or Pilot ID a red error message will be displayed.
 
         ![simBrief Account Field Error](../../assets/flypad/simbrief-account-field-error.png "simBrief Account Field Error")
 
