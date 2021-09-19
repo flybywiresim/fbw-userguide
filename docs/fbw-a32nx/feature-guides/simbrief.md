@@ -78,30 +78,6 @@ Enter your simBrief username. Upon entering your username the MCDU will convert 
 
 This will prepare the MCDU to input the flight plan.
 
-#### ^^Load Fuel and Payload^^
-
-Go back to the AOC menu.
-
-* Click on `PERF/W&B`
-
-![mcdu3](../../pilots-corner/assets/beginner-guide/mcdu/mcdu3.png){loading=lazy}
-
-Here you can automatically load your fuel + passenger / cargo weights. You are presented with the `Fuel Page` first then the `Weights and Balance` page.
-
-* Press LSK5L to instantly load your planned simBrief fuel. (The load button will flash momentarily).
-* You can verify fuel has loaded by looking at your upper ECAM FOB.
-
-Using the horizontal slew keys you can switch to the weights and balance page.
-
-* Again press LSK5L to instantly load your planned payload and pax.
-* You can verify the weight has changed by looking at the lower ECAM towards the lower right-hand side.
-
-!!! info "Customizing Fuel and Weights"
-
-    You can adjust the amount of fuel or payload weight manually on these pages. Type in your desired amounts and press the relevant LSK to input it into that field. 
-
-    When you are happy with your changes press `LOAD` using LSK5L to load your custom fuel and weight.
-
 #### ^^Initialize Flight Plan^^
 
 Head over to the `INIT A` page.
@@ -113,3 +89,62 @@ This will load your flight plan from simBrief directly into the MCDU
 ![mcdu1b](../../pilots-corner/assets/beginner-guide/mcdu/mcdu1b.png){loading=lazy}
 
 To learn how to set up the MCDU you can read the [**^^F^^**LIGHT PLAN](../../pilots-corner/beginner-guide/preparing-mcdu.md#flight-plan) section in our beginner's guide.
+
+### Loading Fuel and Weight
+
+!!! info "Customizing Fuel and Weights"
+
+    You can adjust the amount of fuel or payload weight manually on these pages. Type in your desired amounts and press the relevant LSK to input it into that field. 
+
+    When you are happy with your changes press `LOAD` using LSK5L to load your custom fuel and weight.
+
+    **NOTE:** There may be slight differences when using our Stable version vs. Development verson.
+
+As described in the previous section return to the AOC menu in MCDU menu.
+
+* Click on `MCDU MENU`
+* Click on `ATSU`
+* Click on `AOC MENU`
+* Click on `PERF/W&B`
+
+#### ^^Fuel^^
+
+!!! info "flyPad Fuel Loading"
+    You may also perform fuel loading via our EFB which has a great UI to see the status of fuel tanks and other options. [Guide Here](flyPad/dispatch.md#fuel-page)
+
+![mcdu3](../../pilots-corner/assets/beginner-guide/mcdu/mcdu3.png){loading=lazy}
+
+You are presented with the `Fuel Page` first then the `Weights and Balance` page. On the first page you can automatically load your fuel. 
+
+* Press LSK5L to instantly load your planned simBrief fuel. (The load button will flash momentarily).
+* You can verify fuel has loaded by looking at your upper ECAM FOB.
+
+Using the horizontal slew keys you can switch to the weights and balance page.
+
+#### ^^Weights and Balance^^
+
+In our development version we have introduced a new flight model paired with a new weight and balance payload method that incorporates rows and the correct center of gravity. Please use the correct instructions for your corresponding installed version.
+
+??? info "Development"
+    Once on `W&B` page (2/2) you should see the following image even if you have pressed OFP REQUEST in a previous section.
+
+    ![W&B 2](../assets/feature-guides/wb2.png){width=50% loading=lazy}
+
+    You will have to request OFP again for this specific page and your `W&B` page will show total passengers and passengers per row awaiting boarding.
+
+    ![W&B 3](../assets/feature-guides/wb3.png){width=50% loading=lazy}
+
+    You can now start boarding by selecting LSK6L (the indication will change from `START` to `STOP` in yellow) and watch as the passengers board the aircraft. You do not need to remain on this page as boarding continues.
+
+    ![W&B 4](../assets/feature-guides/wb4.png){width=40%} ![W&B 5](../assets/feature-guides/wb5.png){width=40% loading=lazy}
+
+    Once boarding has completed all rows and total pax should turn green and the boarding indication returns to `START`. Verify your ZFW on this screen and check your lower ECAM that GW has been updated. 
+
+    ![W&B 6](../assets/feature-guides/wb6.png){width=90% loading=lazy}
+
+??? info "Stable"
+    Once on the `W&B` page (2/2) you can adjust payload here or accept the numbers provided to you via your simBrief OFP.
+    
+    - Press LSK5L to instantly load your planned payload and pax.
+    - You can verify the weight has changed by looking at the lower ECAM towards the lower right-hand side.
+
