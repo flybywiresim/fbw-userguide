@@ -2,7 +2,7 @@
 
 ## Why Flight Planning
 
-Flying IFR (Instrument FLight Rules) even in a simulation like Microsoft Flight Simulator always requires some level of flight planning.
+Flying IFR (Instrument Flight Rules) even in a simulation like Microsoft Flight Simulator always requires some level of flight planning.
 
 In addition to the obvious route planning there are several other aspects which are critical to any good flight plan:
 
