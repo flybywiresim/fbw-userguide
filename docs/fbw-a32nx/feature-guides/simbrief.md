@@ -100,6 +100,9 @@ To learn how to set up the MCDU you can read the [**^^F^^**LIGHT PLAN](../../pil
 
     **NOTE:** There may be slight differences when using our Stable version vs. Development verson.
 
+    !!! danger ""
+        Please do not use the MSFS Fuel and Weights page as it is inaccurate against our changes for now. We will overwrite it at a later stage.
+
 As described in the previous section return to the AOC menu in MCDU menu.
 
 * Click on `MCDU MENU`
