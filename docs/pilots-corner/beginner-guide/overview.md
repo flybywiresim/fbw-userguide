@@ -31,8 +31,6 @@ Topics:
 
 [Abbreviations](abbreviations.md)
 
-[Appendix A - Fuel and Weight](appendix-a.md)
-
 ---
 
 If you have any issues or feedback with this guide, please file an issue here:
