@@ -37,7 +37,7 @@ diff rgba(27,36,52,1)
   height: -webkit-fill-available;
 }
 
-/*Announcement Bar Temporarily Removed
+/*Announcement Bar Temporarily Removed*/
 .md-announce {
     background-color: var(--md-footer-bg-color--dark);
     overflow: auto;
@@ -52,7 +52,7 @@ diff rgba(27,36,52,1)
     height: auto;
     max-width: 100%;
     vertical-align: text-bottom;
-}*/
+}
 
 /*Header Modifications*/
 .md-typeset h1 {

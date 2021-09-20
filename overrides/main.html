@@ -1,6 +1,16 @@
 {% extends "base.html" %}
 
 <!-- Announcement Bar Implementation -->
+{% block announce %}
+    Join our community on
+        <a href="https://discord.com/invite/flybywire">
+            <span class="twemoji discord">
+                {% include ".icons/fontawesome/brands/discord.svg" %}
+            </span>
+            <strong>Discord</strong>
+        </a>
+    - Updates, Collaboration, Previews, and Support
+{% endblock %}
 <!-- Latest Versions -
     <a href="/fbw-a32nx/installation/#downloads">
         <img src="https://img.shields.io/github/v/release/flybywiresim/a32nx.svg?color=2F4E5B&style=flat" />
