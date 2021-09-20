@@ -74,7 +74,7 @@ Enter your simBrief username. Upon entering your username the MCDU will convert 
 * Click on `INIT/PRESS`
 * Click on `INIT DATA REQ`
 
-![mcdu2](../../pilots-corner/assets/beginner-guide/mcdu/mcdu2.png){loading=lazy}
+![MCDU ATSU AOC INIT REQ](../../fbw-a32nx/assets/feature-guides/simbrief/mcdu2.png "MCDU ATSU AOC INIT REQ"){loading=lazy}
 
 This will prepare the MCDU to input the flight plan.
 
@@ -86,7 +86,7 @@ Head over to the `INIT A` page.
 
 This will load your flight plan from simBrief directly into the MCDU
 
-![mcdu1b](../../pilots-corner/assets/beginner-guide/mcdu/mcdu1b.png){loading=lazy}
+![MCDU INIT A](../../fbw-a32nx/assets/feature-guides/simbrief/mcdu1b.png "MCDU INIT A"){loading=lazy}
 
 To learn how to set up the MCDU you can read the [**^^F^^**LIGHT PLAN](../../pilots-corner/beginner-guide/preparing-mcdu.md#flight-plan) section in our beginner's guide.
 
@@ -115,9 +115,9 @@ As described in the previous section return to the AOC menu in MCDU menu.
 !!! info "flyPad Fuel Loading"
     You may also perform fuel loading via our EFB which has a great UI to see the status of fuel tanks and other options. [Guide Here](flyPad/dispatch.md#fuel-page)
 
-![mcdu3](../../pilots-corner/assets/beginner-guide/mcdu/mcdu3.png){loading=lazy}
+![MCDU ATSU AOC PERF/W&B](../../fbw-a32nx/assets/feature-guides/simbrief/mcdu3.png "MCDU ATSU AOC PERF/W&B"){loading=lazy}
 
-You are presented with the `Fuel Page` first then the `Weights and Balance` page. On the first page you can automatically load your fuel. 
+You are presented with the `Fuel Page` first then the `Weights and Balance` page. On the first page you can automatically load your fuel.
 
 * Press LSK5L to instantly load your planned simBrief fuel. (The load button will flash momentarily).
 * You can verify fuel has loaded by looking at your upper ECAM FOB.
@@ -131,23 +131,23 @@ In our development version we have introduced a new flight model paired with a n
 ??? info "Development"
     Once on `W&B` page (2/2) you should see the following image even if you have pressed OFP REQUEST in a previous section.
 
-    ![W&B 2](../assets/feature-guides/wb2.png){width=50% loading=lazy}
+    ![W&B 2](../assets/feature-guides/simbrief/wb2.png){width=50% loading=lazy}
 
     You will have to request OFP again for this specific page and your `W&B` page will show total passengers and passengers per row awaiting boarding.
 
-    ![W&B 3](../assets/feature-guides/wb3.png){width=50% loading=lazy}
+    ![W&B 3](../assets/feature-guides/simbrief/wb3.png){width=50% loading=lazy}
 
     You can now start boarding by selecting LSK6L (the indication will change from `START` to `STOP` in yellow) and watch as the passengers board the aircraft. You do not need to remain on this page as boarding continues.
 
-    ![W&B 4](../assets/feature-guides/wb4.png){width=40%} ![W&B 5](../assets/feature-guides/wb5.png){width=40% loading=lazy}
+    ![W&B 4](../assets/feature-guides/simbrief/wb4.png){width=40%} ![W&B 5](../assets/feature-guides/simbrief/wb5.png){width=40% loading=lazy}
 
     Once boarding has completed all rows and total pax should turn green and the boarding indication returns to `START`. Verify your ZFW on this screen and check your lower ECAM that GW has been updated. 
 
-    ![W&B 6](../assets/feature-guides/wb6.png){width=90% loading=lazy}
+    ![W&B 6](../assets/feature-guides/simbrief/wb6.png){width=90% loading=lazy}
 
 ??? info "Stable"
     Once on the `W&B` page (2/2) you can adjust payload here or accept the numbers provided to you via your simBrief OFP.
-    
+
     - Press LSK5L to instantly load your planned payload and pax.
     - You can verify the weight has changed by looking at the lower ECAM towards the lower right-hand side.
 
