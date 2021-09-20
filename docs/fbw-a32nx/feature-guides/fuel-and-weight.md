@@ -1,4 +1,4 @@
-# Appendix A - Fuel and Weight
+# Fuel and Weight
 
 ## Overview
 
@@ -6,7 +6,7 @@ This short appendix describes appropriate loading of fuel and weights for the A3
 
 ## Zero Fuel Weight - CG
 
-The A32NX simBrief integration's auto-loading feature allows for automated CG configuration. The auto population of ZFW and ZFWCG on the INIT B page will accurately reflect what simBrief has configured when you have generated an OFP. You can read about INIT B configuration [here](preparing-mcdu.md#init-b).
+The A32NX simBrief integration's auto-loading feature allows for automated CG configuration. The auto population of ZFW and ZFWCG on the INIT B page will accurately reflect what simBrief has configured when you have generated an OFP. You can read about INIT B configuration [here](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-b).
 
 While trimming the aircraft can be optional, we recommend pilots continue to trim their aircraft based on the reported CG value on INIT B or on your simBrief OFP prior to takeoff. Doing this can prevent any sort of early nose-up action during takeoff roll.
 
