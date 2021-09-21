@@ -31,7 +31,7 @@ This is why FlyByWire has implemented our simBrief integration and will continue
 
 ### Flight Planning with SimBrief
 
-This is best explained by simBrief itself: [simBrief User Guide](https://www.simbrief.com/system/guide.php){target=new}
+This is best explained by simBrief itself - [simBrief User Guide](https://www.simbrief.com/system/guide.php){target=new}
 
 ---
 
@@ -92,16 +92,15 @@ To learn how to set up the MCDU you can read the [**^^F^^**LIGHT PLAN](../../pil
 
 ### Loading Fuel and Weight
 
-!!! info "Customizing Fuel and Weights"
+!!! info "Customizing Fuel and Weight"
 
-    You can adjust the amount of fuel or payload weight manually on these pages. Type in your desired amounts and press the relevant LSK to input it into that field. 
+    **NOTE:** There may be slight differences when using our Stable version vs. Development verson. Additionally these settings may be moved to our EFB in the future.    
+
+    You can adjust the amount of fuel and weight manually on these pages. Type in your desired amounts and press the relevant LSK to input it into that field. 
 
     When you are happy with your changes press `LOAD` using LSK5L to load your custom fuel and weight.
 
-    **NOTE:** There may be slight differences when using our Stable version vs. Development verson.
-
-    !!! danger ""
-        Please do not use the MSFS Fuel and Weights page as it is inaccurate against our changes for now. We will overwrite it at a later stage.
+    !!! danger "Please do not touch values in MSFS Fuel & Weights window in the toolbar."
 
 As described in the previous section return to the AOC menu in MCDU menu.
 
