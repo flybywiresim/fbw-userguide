@@ -17,7 +17,6 @@ Settings for various default values of the aircraft.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-
 ### Usage
 
 - Thrust Reduction Height (ft):
@@ -43,7 +42,6 @@ Settings for A32NX aircraft configuration.
     <a href="../settings/">    <div class="imagemap" style="position: absolute; left: 1.3%; top: 84.1%; width: 5.8%; height: 7.6%;"><span class="imagemapname">Settings</span></div></a>
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
-
 
 ### Usage:
 
@@ -98,7 +96,6 @@ Settings for integrations with various data and information sources.
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-
 ### Usage
 
 - ATIS/ATC Source:
@@ -108,9 +105,26 @@ Settings for integrations with various data and information sources.
     - MeteoBlue is the weather service the sim uses as well.
 - TAF Source:
     - Choose which Terminal Area Forecast (TAF) service should be used.
-- Simbrief Username:
-    - Enter your simBrief username. If you username has spaces omit them as otherwise the authentication will fail.
-    - Example: "My Username" ==> enter "MyUsername".
+- Simbrief Username/Pilot ID
+    - see next chapter
+
+### simBrief Integration
+
+Before you can use the A32NX simBrief Integration you need to provide your simBrief account details.
+
+- Simbrief Username/Pilot ID:
+    - Enter your simBrief username or Pilot ID.
+
+        ![simBrief Account field](../../assets/flypad/simbrief-account-field.png "simBrief Account field")
+
+    - If you entered a wrong username or Pilot ID a red error message will be displayed.
+
+        ![simBrief Account Field Error](../../assets/flypad/simbrief-account-field-error.png "simBrief Account Field Error")
+
+To get your simBrief username or Pilot ID you can go to your simBrief Account settings and open "Simbrief Data".
+
+![simBrief Account Data](../../assets/flypad/simbrief-account-data.png "simBrief Account Data")
+
 
 ## Audio
 

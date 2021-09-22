@@ -9,5 +9,5 @@ Topics:
 - [Throttle Calibration](flyPad/throttle-calibration.md)
 - [Autopilot and fly-by-wire](autopilot-fbw.md)
 - [MCDU Keyboard Support](mcdu-keyboard.md)
-
-
+- [SimBrief Integration](simbrief.md)
+- [flyPad EFB](flyPad/index.md)

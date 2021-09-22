@@ -301,6 +301,8 @@ On this page, we can input our zero fuel weight (ZFW) and zero fuel weight cente
 !!! warning "Important Info"
     Fuel and payload have to be set in the simulator before ZFW/CG for the end result to be correct. (Unless you want to use the default fuel and weight).
 
+    **NOTE:** It is advisable to **not** use the MSFS Fuel Panel to load fuel or weights. 
+
     To learn how see [Load Fuel and Payload](#load-fuel-and-payload) in the simBrief integration below.
 
 The A32NX can auto populate this information.
@@ -397,65 +399,8 @@ The performance page should now look like this:
 
 ## A32NX simBrief Integration
 
-We've included a quick method to have your simBrief OFP automatically loaded into the MCDU. Please do not select an arrival airport on the MSFS world menu otherwise the integration will not work.
+This section has been moved to our dedicated [simBrief Integration](../../fbw-a32nx/feature-guides/simbrief.md#importing-the-simbrief-ofp-to-the-fms-mcdu) feature guide.
 
-This portion of the guide assumes that you understand how to generate a simBrief OFP.
-
-### ^^SimBrief MCDU Setup^^
-
-Enter your simBrief username. Upon entering your username the MCDU will convert it into an ID number. Please ensure you have no special characters in your username OR use the ID number found before generating your OFP.
-
-* Click on `MCDU MENU`
-* Click on `OPTIONS`
-* Click on `AOC`
-* Click on `SIMBRIEF`
-
-### ^^Request Data from simBrief^^
-
-* Return to `MCDU MENU`
-* Click on `ATSU`
-* Click on `AOC MENU`
-* Click on `INIT/PRESS`
-* Click on `INIT DATA REQ`
-
-![mcdu2](../assets/beginner-guide/mcdu/mcdu2.png){loading=lazy}
-
-This will prepare the MCDU to input the flight plan.
-
-### ^^Load Fuel and Payload^^
-
-Go back to the AOC menu.
-
-* Click on `PERF/W&B`
-
-![mcdu3](../assets/beginner-guide/mcdu/mcdu3.png){loading=lazy}
-
-Here you can automatically load your fuel + passenger / cargo weights. You are presented with the `Fuel Page` first then the `Weights and Balance` page.
-
-* Press LSK5L to instantly load your planned simBrief fuel. (The load button will flash momentarily).
-* You can verify fuel has loaded by looking at your upper ECAM FOB.
-
-Using the horizontal slew keys you can switch to the weights and balance page.
-
-* Again press LSK5L to instantly load your planned payload and pax.
-* You can verify the weight has changed by looking at the lower ECAM towards the lower right hand side.
-
-!!! info "Customizing Fuel and Weights"
-
-    You can adjust the amount of fuel or payload weight manually on these pages. Type in your desired amounts and press the relevant LSK to input it into that field. 
-
-    When you are happy with your changes press `LOAD` using LSK5L to load your custom fuel and weight.
-
-### ^^Initialize Flight Plan^^
-
-Head over to the `INIT A` page.
-
-* Select `INIT REQUEST` by pressing LSK2R
-
-This will load your flight plan from simBrief directly into the MCDU
-
-![mcdu1b](../assets/beginner-guide/mcdu/mcdu1b.png){loading=lazy}
-
-Now continue setting up the MCDU as described in the [**^^F^^**LIGHT PLAN](#flight-plan) section above.
+---
 
 After setting up the MCDU continue with [Engine Start and Taxi](engine-start-taxi.md)
