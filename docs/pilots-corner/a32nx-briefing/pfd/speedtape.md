@@ -45,7 +45,7 @@ This is displayed in green and is shown if the Mach number reaches above 0.5. It
 
 This is displayed in green and shows the speed at which overspeed protections become active.
 
-This speed is V~MO~~ (maximum operating speed) + 6 knots or MMO (maximum mach speed) + 0.01
+This speed is V~MO~~ (maximum operating speed) + 6 knots or MMO (maximum Mach speed) + 0.01
 
 ### ECON Speed Range
 
