@@ -301,7 +301,7 @@ On this page, we can input our zero fuel weight (ZFW) and zero fuel weight cente
 !!! warning "Important Info"
     Fuel and payload have to be set in the simulator before ZFW/CG for the end result to be correct. (Unless you want to use the default fuel and weight).
 
-    **NOTE:** It is advisable to **not** use the MSFS Fuel Panel to load fuel or weights until we have overridden it. 
+    **NOTE:** It is advisable to **not** use the MSFS Fuel Panel to load fuel or weights. 
 
     To learn how see [Load Fuel and Payload](#load-fuel-and-payload) in the simBrief integration below.
 

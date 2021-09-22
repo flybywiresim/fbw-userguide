@@ -17,7 +17,7 @@ In addition to the obvious route planning there are several other aspects which 
 
 See [Flight Planning](https://en.wikipedia.org/wiki/Flight_planning){target=new} on Wikipedia for more information.
 
-Microsoft Flight Simulator tries to offer a simple way to do route planning (World Map before starting a flight) this is falls short, especially for users wanting a more realistic experience for airliner flying.
+Microsoft Flight Simulator tries to offer a simple way to do route planning (World Map before starting a flight) however this falls short, especially for users wanting a more realistic experience for airliner flying.
 
 In real life airlines and pilots use dedicated software alongside various sources and services for creating their flight plans.
 
@@ -125,7 +125,7 @@ Using the horizontal slew keys you can switch to the weights and balance page.
 
 #### ^^Weights and Balance^^
 
-In our development version we have introduced a new flight model paired with a new weight and balance payload method that incorporates rows and the correct center of gravity. Please use the correct instructions for your corresponding installed version.
+In our development version we have introduced a new flight model paired with a new weight and balance payload method that incorporates seat rows and the correct center of gravity. Please use the correct instructions for your corresponding installed version.
 
 ??? info "Development"
     Once on `W&B` page (2/2) you should see the following image even if you have pressed OFP REQUEST in a previous section.
