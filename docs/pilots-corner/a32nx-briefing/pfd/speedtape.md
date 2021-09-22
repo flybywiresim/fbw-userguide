@@ -39,7 +39,7 @@ If the target speed is off the scale, the value is displayed as a number above o
 
 ### Mach Number
 
-This is displayed in green and is shown if the mach number reaches above 0.5. It is displayed underneath the scale.
+This is displayed in green and is shown if the Mach number reaches above 0.5. It is displayed underneath the scale.
 
 ### Speed Protection
 
