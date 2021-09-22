@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Lighting Pedestal Captain Side
 
 ---
@@ -6,13 +11,13 @@
 
 ---
 
-![Pedestal Lighting Knobs](../../../assets/a32nx-briefing/pedestal/Pedestal-lighting.jpg "Pedestal Lighting Knobs")
+![Pedestal Lighting Knobs](../../../assets/a32nx-briefing/pedestal/Pedestal-lighting.jpg "Pedestal Lighting Knobs"){ width=60% }
 
 ## Usage
 
 ### FLOOD LT MAIN PNL knob
 
-- Brightness of the floodlighting for the center instrument panel.
+- Brightness of the flood lighting for the center instrument panel.
 
 ### INTEG LT MAIN PNL and PED knob
 

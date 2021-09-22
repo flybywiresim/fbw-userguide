@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Maintenance Panel
 
 ---
@@ -15,51 +20,40 @@
 
 Headphone output to monitor the Cockpit Voice Recorder, e.g., for testing.
 
-### OXYGEN TMR RESET
+### OXYGEN TMR RESET pushbutton
 
-The maintenance crew uses this pushbutton to reset the control circuit, after the system is already in operation.
+The maintenance crew uses this pushbutton to reset the control circuit, after the system has operated.
 
 - ON: The PASSENGER SYS ON light goes off.
 - FAULT: when the door latch solenoids are energized for more than 30s this light comes on in white.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
-### SVCE INT OVRD
+### SVCE INT OVRD pushbutton switch
 
 - Auto: Ground personnel can communicate with the flight crew by means of the service interphone jacks 10s after the aircraft has landed. The landing gear must be compressed.
-- ON: Communication is possible when the landing gear is not compressed. The ON light is white.
+- ON: Communication is possible when the landing gear is not compressed.
+The ON light is white.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+### AVIONICS COMP LT pushbutton switch
 
-### AVIONICS COMP LT
+- AUTO: avionic compartment lighting is automatically controlled by door opening
+- ON: avionic compartment lighting is on
 
-- AUTO: avionic compartment lighting is automatically controlled by door opening.
-- ON: avionic compartment lighting is on.
-
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
-### BLUE PUMP OVRD (guarded)
+### BLUE PUMP OVRD pushbutton switch (guarded).
 
 - ON: The blue electric pump is on if the ELEC PUMP pushbutton switch on the HYD panel is at AUTO.
 - OFF: The blue electric pump is off.
 
-### HYD LEAK MEASUREMENT VALVES (guarded)
+### HYD LEAK MEASUREMENT VALVES pushbutton switch (guarded).
 
 - OFF: The corresponding electrohydraulic valve closes and shuts off hydraulic supply to the primary flight controls.
 - ON: The corresponding electrohydraulic valve opens to go back to normal hydraulic supply.
-
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ### APU
 
 - TEST PB-SW: When pressed, tests the following APU circuits:
     - Fire warning
     - Auto extinguishing
-    - Shutdown
+    - Shutdown.
 
     During the test sequence, the APU MASTER sw must be ON.
     If all circuits are operating correctly, the OK light comes on.
@@ -68,18 +62,12 @@ The maintenance crew uses this pushbutton to reset the control circuit, after th
 
 - RESET PB: When pressed, resets the test circuit.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
-### ENG FADEC GND PWR
+### ENG FADEC GND PWR pushbutton switches
 
 - OFF: The electrical network of the aircraft or the FADEC alternator automatically supplies the FADEC.
 - ON: On ground, when pressed the electrical network of the aircraft supplies the FADEC when:
     - The ENG FIRE pb-sw is not pressed,
     - The FADEC alternator does not supply the FADEC.
-
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
 

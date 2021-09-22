@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Radio Management and Audio Control Panel
 
 ---
@@ -6,27 +11,26 @@
 
 ---
 
-![Radio Management Panel](../../../assets/a32nx-briefing/pedestal/RMP.jpg "Radio Management Panel")
+![Radio Management Panel](../../../assets/a32nx-briefing/pedestal/RMP.jpg "Radio Management Panel"){ width=60% }
 
 ## Description
 
 Communication in the A320 is done via these subsystems:
-
-- VHF/HF transceivers.
+- VHF/HF transceivers
 - Radio tuning systems (Radio Management Panels - RMP).
 - Audio integrating system (Audio Management Unit - AMU, Audio Control Panels - ACP).
 
-To tune the transceivers any of the Radio Management Panels (RMPs) can be used.
+To tune the transceivers any of of the Radio Management Panels (RMPs) can be used.
 
 The interface to the RMPs is the Audio Control Panel (ACP) where the pilot select the VHF or HF system to transmit.
 
-Identical RMPs (Radio Management Panels):
+Identical RMPs (Radio Management Panels) :
 
-- Control of all VHF radio communication systems.
-- FMGC's backup for controlling radio navigation systems.
+- Control of all VHF radio communication systems
+- FMGC's backup for controlling radio navigation systems
 - Three RMPs - two on the pedestal and one on the overhead panel.
-- Each VHF transceiver can be tuned by any RMP. RMP1 and RMP2 are tuning the transceivers directly. RMP3 is connecting via RMP1 or 2.
-- Each RMP is updated when a change or selection in the other RMPs is done.
+- Each VHF transceiver can by tune by any RMP. RMP1 and RMP2 are are tuning the transceivers directly. RMP3 is connecting via RMP1 or 2.
+- Each RMP is updated when a change or selection in the other RMPs
 - In EMER ELEC CONFIG only RMP1 functions.
 
 ## Usage
@@ -34,7 +38,7 @@ Identical RMPs (Radio Management Panels):
 ### Frequency displays
 
 - ACTIVE display: The active frequency of the currently selected radio. The currently selected radio is identified by a green light on the selection key.
-- STBY/CRS (standby/course) display: Standby frequency which can be changed by the frequency change knobs and transferred to the active window by pressing the Transfer Key.
+- STBY/CRS (standby/course) display: Standby frequency which can be changed by the frequency change knobs and transferred to the active window by pressing the Transfer Key. .
 
 ###  Transfer key
 
@@ -61,8 +65,8 @@ Turning these knobs selects the STBY frequency or CRS.
 
 Used to select AM mode if the aircraft has a VH transceiver.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### SEL indicator
 
@@ -76,8 +80,8 @@ The SEL indicator glows white on both RMPs when a transceiver normally associate
 
 This is used as a backup to select navigation aids and coursed via the RMP.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### Radio navigation selection keys
 
@@ -96,7 +100,7 @@ Power supply to the RMP.
 
 ![RMP Transmission Keys](../../../assets/a32nx-briefing/pedestal/RMP-transmission-keys.png)
 
-!!! attention ""
+!!! note ""
     Currently only the VHF1-3 channels are available in the FBW A32NX for Microsoft Flight Simulator.
 
 - Pressed:
@@ -116,7 +120,7 @@ Power supply to the RMP.
 
 ![Reception Knobs](../../../assets/a32nx-briefing/pedestal/RMP-receiption-knobs-2.png "Reception Knobs")
 
-!!! attention ""
+!!! note ""
     Currently only the VHF2-3 channels are available for selection in the FBW A32NX for Microsoft Flight Simulator. VHF1 is always selected although not lit.
 
 These knobs are used to allow the flight crew to activate a channel for reception and to adjust volume.
@@ -128,36 +132,36 @@ These knobs are used to allow the flight crew to activate a channel for receptio
 
 Extinguishes CALL, MECH, and ATT lights.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### VOICE
 
 Inhibit the audio navigation signals (VOR, ADF) and filters out ident signals and turns on the green ON light.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### INT/RAD
 
 Press-to-talk switch for boom mike or oxygen mask mike.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ### PA (Passenger Address)
 
 Passenger Address is used by the flight personnel to make passenger announcements through loudspeakers in the cabin.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 #### PA transmission key
 
 Pressed and held: To make an announcement a boom, mask or hand mike is used
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 #### PA reception knob
 
@@ -166,8 +170,8 @@ Pressed and held: To make an announcement a boom, mask or hand mike is used
 - Pressed (knob in):
     - The PA system is disconnected. The white light goes out.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Currently not available in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
 

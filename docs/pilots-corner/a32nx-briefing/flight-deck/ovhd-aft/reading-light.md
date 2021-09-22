@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Reading Lights Jump Seats
 
 ---

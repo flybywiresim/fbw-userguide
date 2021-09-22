@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Emergency Locator Transmitters Panel
 
 ---
@@ -10,12 +15,9 @@
 
 ## Description
 
-Emergency Locator Transmitters are mounted in the back of the aircraft, and are designed to be triggered upon impact or may be manually activated using the remote switch and control panel indicator in the cockpit.
+Emergency Locator Transmitters are mounted in the back  of the aircraft, and are designed to be triggered upon impact or may be manually activated using the remote switch and control panel indicator in the cockpit.
 
 An audio alert starts and a distress signal is transmitted for search and rescue upon activation.
-
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
 

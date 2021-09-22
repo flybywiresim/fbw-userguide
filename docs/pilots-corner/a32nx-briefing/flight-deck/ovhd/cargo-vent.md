@@ -1,4 +1,9 @@
-# Cargo Vent Panel
+---
+hide:
+    - navigation
+---
+
+# Fire Control Panel
 
 ---
 
@@ -7,10 +12,6 @@
 ---
 
 ![Cargo Ventilation](../../../assets/a32nx-briefing/overhead-panel/cargp-vent.jpg "Cargo Ventilation")
-
-## Description
-
-An extraction fan draws air from forward cargo  or aft cargo, and exhausts it overboard. Air from the cabin replaces the exhausted air, thus ventilating the cargo compartments.
 
 ## Usage
 
@@ -23,10 +24,7 @@ The switch controls the aft isolation valves and the extraction fan.
 - OFF:
     - Inlet and outlet isolation valves and the trim air valve close. Extraction fan stops.
 - FAULT Lt:
-    - Amber light and ECAM caution when inlet or outlet valve is not in the selected position.
-
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+    Amber light and ECAM caution when inlet or outlet valve is not in the selected position.
 
 ---
 

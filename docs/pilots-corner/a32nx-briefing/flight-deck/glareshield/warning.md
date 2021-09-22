@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Warning Panel
 
 ---
@@ -24,8 +29,8 @@
     - Both lights flash will flash if the pilots are attempting to move both sidesticks at the same time and neither pilot takes priority.
     - If a pilot who has taken priority by using the TAKEOVER pb and the other pilot's sidestick is in motion or not neutral, the light of the pilot who has taken priority illuminates. It will extinguish when the opposing sidestick returns to the neutral position.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
 
 ### 2. CHRONO
 
@@ -60,20 +65,20 @@ The aural warnings terminate when:
 
 - The events below trigger a flashing AUTOLAND red warning accompanied by a triple click audio warning when the aircraft is below 200ft RA and aircraft is in LAND mode:
 
-    - AP1 and AP2 OFF below 200ft RA.
+    - AP1 and AP2 OFF below 200ft RA
     - LDC deviation (1/4 dot above 15ft RA) or GLIDE deviation (1 dot above 100ft RA). Both LDC and GLIDE scales will flash on the PFD.
     - LDC signal lost above 15ft or loss of GLIDE signal when above 100ft. The flight director bars flash on the PFD and LAND mode remains engaged.
     - Difference of radio altimeter indications is more than 15ft.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
 
 ### 6. ATC MSG
 
-- Will flash when an ATC message is received via the CPDLC (Controller-Pilot Data Link Communication), accompanied by an alarm. This notification can be cancelled by pressing the "ATC MSG" pb.
+- Will flash when an ATC message is received via the CPDLC (Controller-Pilot Data Link Communication), accompanied by an alarm. This notification can be cancelled by pressing the "ATC MSG" pb
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
+!!! note ""
+    Note: Currently not available in the FBW A32NX for Microsoft Flight Simulator
 
 ---
 

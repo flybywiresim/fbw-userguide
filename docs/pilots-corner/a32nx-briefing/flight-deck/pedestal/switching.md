@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Switching Panel
 
 ---
@@ -6,7 +11,7 @@
 
 ---
 
-![Switching Panel](../../../assets/a32nx-briefing/pedestal/Switching-Panel.jpg "Switching Panel")
+![Switching Panel](../../../assets/a32nx-briefing/pedestal/Switching-Panel.jpg "Switching Panel"){ width=60% }
 
 ## Description
 
@@ -47,9 +52,6 @@ To have maximal redundancy A320 pilots can switch backup computers or data sourc
 !!! info ""
     Note: If a DMC fails, each of its associated DUs displays an “INVALID DATA” message.
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
 ### ECAM/ND XFR Selector
 
 - NORM:
@@ -58,9 +60,6 @@ To have maximal redundancy A320 pilots can switch backup computers or data sourc
     - Transfers the System Display to Captain's ND.
 - F/O:
     - Transfers the System Display to First Officer's ND.
-
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
 

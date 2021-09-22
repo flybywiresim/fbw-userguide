@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Multipurpose Control and Display Unit
 
 ---
@@ -18,7 +23,7 @@ After entry or selection of the flight plan and other required performance data 
 
 <!-- TODO: UPDATE -->
 !!! info "Future Update"
-    A more in depth briefing section of the MCDU is currently being developed and will be available in the near future.
+    A more in depth briefing section of the MCDU is currently developed and will be available in the near future.
 
 ---
 

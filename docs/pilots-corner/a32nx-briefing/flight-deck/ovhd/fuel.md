@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Fuel Control Panel
 
 ---
@@ -18,11 +23,11 @@ Total Fuel Capacity:
 
 The tanks empty in the following sequence :
 
-1. Center tank
-2. Inner tanks (down to 750 kg in each inner tank)
-3. Outer tanks (fuel transferred into the inner tanks)
+1. center tank
+2. inner tanks (down to 750 kg in each inner tank)
+3. outer tanks (fuel transferred into the inner tanks)
 
-Each engine is fed by their corresponding centre and wing tanks. The pumps stay turned on during the flight.
+Each engine is fed by their corresponding centre and wing tanks. The pumps stay turned on during the flight
 
 Both engines can be fed from one side or both sides can feed only one engine.
 
@@ -49,15 +54,12 @@ Both engines can be fed from one side or both sides can feed only one engine.
 - FAULT:
     - Amber light and ECAM caution appear, when the left or right wing tank has less than 5000 kg (11000 lb) and center tank has more than 250 kg (550 lb).
 
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
-
 ### CTR TK PUMP 1 + 2
 
 - ON:
     - Pump runs if MAN mode is selected on MODE SEL pushbutton switch. Pump is automatically controlled when AUTO mode is selected.
 - OFF:
-    - Pump is off and OFF button lights up white.
+    - Pump is OFF and OFF button lights up white.
 - FAULT:
     - Amber light and ECAM caution appear, when delivery pressure drops while pump operates.
 

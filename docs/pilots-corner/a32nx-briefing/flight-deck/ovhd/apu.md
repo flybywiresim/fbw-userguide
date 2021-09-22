@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Auxiliary Power Unit
 
 ---
@@ -8,10 +13,6 @@
 
 ![APU Panel](../../../assets/a32nx-briefing/overhead-panel/Apu-Panel.jpg "APU Panel")
 
-## Description
-
-The Auxiliary Power Unit (APU) is a small jet engine in the back of the A320neo which supplies the aircraft with pneumatic and electrical power.
-
 ## Usage
 
 ### MASTER SW
@@ -19,8 +20,8 @@ The Auxiliary Power Unit (APU) is a small jet engine in the back of the A320neo 
 Controls the APU operation and its start- and shutdown sequence.
 
 - ON:
-    - Blue ON light.
-    - APU system is powered (performs a power-up test after set to ON).
+    - Blue ON light comes.
+    - APU system is powered and performs a power-up test is done.
     - APU Air intake flap opens.
     - Fuel valve opens.
     - APU fuel pump operates if fuel pumps are not in operation.
@@ -29,31 +30,27 @@ Controls the APU operation and its start- and shutdown sequence.
     - Manual shutdown sequence.
     - ON light and the AVAIL light on the START pushbutton, go off.
     - The APU keeps running for a cooling period of 60 seconds, if the aircraft was using APU bleed air.
-    - Air inlet flap closes at 7%
+    - Air inlet flap closes at 7 %
 - FAULT Lt:
     - Amber light and ECAM warning message, if an automatic APU shutdown occurs. Possible causes:
-        - Air inlet flap closed
-        - Clogged oil filter
-        - DC power lost (BAT OFF when aircraft on batteries only)
-        - ECB failure
-        - EGT overtemperature
         - Fire (on ground only)
-        - High oil temperature
-        - IGV failure
-        - Inlet overheat
-        - Loss of EGT thermocouples
-        - Loss of overspeed protection
-        - Low oil pressure
-        - No acceleration
-        - No flame
-        - No speed
-        - Oil system shutdown
-        - Overcurrent
-        - Overspeed
         - Reverse flow
-        - Sensor failure
-        - Slow start
-        - Underspeed
+        - Air inlet flap not open
+        - Low oil pressure
+        - Overspeed
+        - High oil temperature
+        - No acceleration
+        - No speed
+        - DC power loss. (BAT OFF when aircraft on batteries only)
+        - EGT over-temperature
+        - ECB failure
+        - No flame
+        - Loss of overspeed protection
+        - Under-speed
+        - Oil system shutdown
+        - Inlet overheat
+        - Clogged oil filter
+        - Loss of EGT thermocouples
 
 ### START
 
@@ -61,8 +58,8 @@ Controls the APU operation and its start- and shutdown sequence.
     - Blue ON light.
     - Starter is energized when the flap is completely open.
     - Ignition activates 1.5 second after the starter is energized.
-    - When N = 60%. The APU starter is de-energized. The ignition is turned off.
-    - 2 seconds after N reached 95%, or when N is above 99.5% the ON light on START button goes out. The APU can now supply bleed air and electrical power to the aircraft.
+    - When N = 60 %. The APU starter is de-energized. The ignition is turned off.
+    - 2 seconds after N reached 95%, or when N is above 99.5% the the ON light on START button goes out. The APU can now supply bleed air and electrical power to the aircraft.
     - APU page disappears from the ECAM display after >10sec.
 - AVAIL Lt:
     - Green light comes on when N is above 99.5 % or 2 seconds after N reaches 95%.

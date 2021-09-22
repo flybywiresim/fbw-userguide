@@ -1,0 +1,12 @@
+title: PFD
+nav:
+ - Overview: index.md
+ - Flight Mode Annunciations: fma.md
+ - Airspeed: speedtape.md
+ - Attitude and Guidance: artificial-horizon.md
+ - ILS Indications: ils-indicator.md
+ - Altitude Indicator: altitude-indicator.md
+ - Vertical Speed Indicator: vertical-speed.md
+ - Barometric Reference: baro-ref.md
+ - Heading/Track: heading-ref.md
+ - Flags and Messages: flags-messages.md

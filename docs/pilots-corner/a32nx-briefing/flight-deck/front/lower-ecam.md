@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # System Display (Lower ECAM)
 
 ---
@@ -10,7 +15,7 @@
 
 ## Description
 
-The Electronic Centralized Aircraft Monitoring (ECAM) consists of two displays:
+The Electronic Centralized Aircraft Monitor (ECAM) consists of two displays:
 
 - the Engine and Warning Display (E/WD) aka Upper ECAM
     - Primary engine indications, fuel quantity, flap and slat position
@@ -21,7 +26,7 @@ The Electronic Centralized Aircraft Monitoring (ECAM) consists of two displays:
 
 <!-- TODO: UPDATE -->
 !!! info "Future Update"
-    A more in depth description of the ECAM is currently being developed and will be available in the near future.
+    A more in depth description of the ECAM is currently developed and will be available in the near future.
 
 ---
 

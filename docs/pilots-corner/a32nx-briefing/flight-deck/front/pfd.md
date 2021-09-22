@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Primary Flight Display (PFD)
 
 ---
@@ -25,10 +30,7 @@ The Primary Flight Display (PFD) is the main aviation instrument for the pilots.
 - Radio navigation (ILS, DME, etc.)
 - Various scales and limits (bank limits, max sidestick deflection, pitch, etc.)
 
-<!-- TODO: UPDATE -->
-!!! info "Future Update"
-    A more in depth description of the Primary Flight Display is currently being developed and will be available in the near future.
-
 ---
+[In Depth PFD Guide](../../../a32nx-briefing/pfd/index.md){ .md-button }
 
 [Back to Flight Deck](../index.md){ .md-button }

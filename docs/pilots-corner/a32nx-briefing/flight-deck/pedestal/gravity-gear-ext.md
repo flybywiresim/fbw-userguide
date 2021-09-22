@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Emergency Gravity Gear Extension
 
 ---
@@ -12,7 +17,7 @@
 
 If the normal system fails to extend the gear hydraulically, the flight crew can use a crank to extend it mechanically.
 
-When a crew member turns the crank clockwise 3 turns, it:
+When a crew member turns the crank clockwise 3 turns, it :
 
 - isolates the landing gear hydraulics from the green hydraulic system,
 - unlocks the landing gear doors and the main and nose main gear,
@@ -22,9 +27,6 @@ Locking springs help the crew to crank the main gear into the locked condition, 
 
 The gear doors remain open.
 The flight crew can reset the emergency extension system in flight after using it for training (if green hydraulic pressure is available).
-
-!!! attention ""
-    Currently not available or INOP in the FBW A32NX for Microsoft Flight Simulator.
 
 ---
 

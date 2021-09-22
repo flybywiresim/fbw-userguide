@@ -1,3 +1,8 @@
+---
+hide:
+    - navigation
+---
+
 # Clock
 
 ---
@@ -10,58 +15,56 @@
 
 ## Description
 
-The A320neo has a build-in independent clock which sends time data to several systems. It has redundant electrical supply and is also directly connected to the aircraft's battery hot bus.
+A fully independent clock is on the right side of the control panel.
+It sends time to the centralized fault data interface unit, the flight data interface unit, and the flight management and guidance computer.
 
-Functions :
+The clock has two electrical supplies, one of which is a direct connection to the aircraft battery hot bus.
 
-- "UTC" (GMT) time in hours, minutes and seconds on the center counter.
-- Elapsed time (ET) (from engine startup) in hours and minutes on the lower counter.
-- Chronometer (CHR), which measures a time interval (from the pushing of the CHRONO button) in minutes and seconds.
-- Date display.
+The clock performs four functions :
+
+- It displays "UTC" (GMT) time in hours, minutes and seconds on the center counter.
+- It displays elapsed time (ET) (from engine startup) in hours and minutes on the lower counter.
+- It drives the chronometer (CHR), which measures a time interval (from the pushing of the CHRONO button) in minutes and seconds.
+- It can replace the UTC with the date.
 
 ## Usage
 
 ### UTC (GMT) counter
 
-24-hour format clock.
+This counter displays the present time in 24-hour format from O to 23 hours 59 minutes 59 seconds.
 
 ### Elapsed Time (ET) counter
 
-Tracks flight time
+This counter registers the aircraft's flight time from O to 99 hours 59 minutes.
 
 ### Chrono (CHR) counter
 
-Tracks elapsed time. Controlled by the CHR pushbutton.
+This counter registers elapsed time from O to 99 minutes 59 seconds. It is controlled by the CHR pushbutton.
 
-First push starts the CHR counter and the second push stops the CHR counter but keeps the display at its last indication.
+###  CHR pushbuttonFirst push starts the CHR counter
 
-### Reset (RST)
+Second push : stops the CHR counter, keeps the display at its last indication.
 
-Resets the chrono counter when counter is running.
+### Reset (RST) pushbutton
+
+When pressed, the CHR counter restarts from O if the chrono is running.
 
 ### ET selector
 
-- RUN:
-    - ET counter starts
-- STP:
-    - ET counter stops
-- RST:
-    - ET counter is blanked. Selector returns to its STP position when the selector is released.
+- RUN: the ET counter starts
+- STP: the ET counter stops counting
+- RST: spring loaded - the ET counter is blanked. The selector returns to its STP position when the selector is released.
 
-Note: When alternating between "RUN" and "STP" a cumulative elapsed time can be measured.
+Note : A cumulative elapsed time can be realized by alternatively setting this switch in "RUN" and "STP" position.
 
 ### DATE/SET button
 
-- First push:
-    - Date mode. The UTC time display is replaced by the date (day month year).
+First push sets the clock to date mode. The UTC time display is replaced by the date (day month year).
 
-- Second push:
-    - Time mode. The date display disappears.
+Second push sets the clock to time mode. The date display disappears.
 
-Note: In order to select the date mode, the UTC selector must be set on "GPS" or "INT" position.
+Note : in order to select the date mode, the UTC selector must be set on "GPS" or "INT" position.
 
-!!! attention ""
-    In the FlyByWire A32NX the Date Set button must be held to show date. It switches back to time when released.
 
 ---
 
