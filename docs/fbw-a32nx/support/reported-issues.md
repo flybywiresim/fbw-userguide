@@ -43,7 +43,6 @@
 
 ---
 
-
 ## Latest Issues
 
 #### Installation Version Conflicts
@@ -101,7 +100,7 @@ May cause unwanted behavior and prevent use of nose wheel steering.
 #### Custom Autopilot Unwanted Disconnection
 
 !!! tip ""
-    *Affected versions: Development*
+    *Affected versions: Stable, Development*
 
 - Excessive speed decay during level off from open descent can lead to unwanted autothrust disconnection or even alpha floor in certain high drag/low speed situations. *Currently under investigation.*
 
@@ -340,14 +339,6 @@ Using **New** Cockpit Interaction System
 
 - You have to set your keybinding to rudder axis right and left
 
-#### Wing Dips on Landing
-
-!!! tip ""
-    *Affected versions: Stable*
-
-- Caused by bad transition to direct law in flare, same with the default A320
-- Workaround: use minimal aileron input on landing
-
 #### Black Screens / Unable to Start
 
 !!! tip ""
@@ -355,13 +346,6 @@ Using **New** Cockpit Interaction System
 
 - Conflict with another mod/livery or incorrect installation of the A32NX add-on
 - Use our [installer](https://api.flybywiresim.com/installer){target=new}
-
-#### Upper ECAM Displays Wrong THR Levers Position / N1 Rating
-
-!!! tip ""
-    *Affected versions: Stable*
-
-- Solved in Development version after calibrating the throttle.
 
 #### Incompatibilities
 
@@ -422,6 +406,10 @@ Crash to desktop (CTD) can either be a sim issue or a conflict with the A32NX. T
 
 !!! tip ""
     Unless stated otherwise, all fixed issues are first released on our development version.
+
+- Wing Dips on Landing
+
+- Upper ECAM Displays Wrong THR Levers Position / N1 Rating
 
 - Using the *"Pounds (lbs)"* on the EFB. *[Fixed PR #5344](https://github.com/flybywiresim/a32nx/pull/5344){target=new}*
     - Closed Issues: [#5316](https://github.com/flybywiresim/a32nx/issues/5316), [#5321](https://github.com/flybywiresim/a32nx/issues/5321)
