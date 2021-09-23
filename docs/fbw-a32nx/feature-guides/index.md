@@ -6,8 +6,9 @@ It is not a complete collection of all features but a growing list which is exte
 
 Topics:
 
-- [Throttle Calibration](flyPad/throttle-calibration.md)
+- [Alpha Floor Protection](afloor.md)
 - [Autopilot and fly-by-wire](autopilot-fbw.md)
 - [MCDU Keyboard Support](mcdu-keyboard.md)
 - [SimBrief Integration](simbrief.md)
+- [Throttle Calibration](flyPad/throttle-calibration.md)
 - [flyPad EFB](flyPad/index.md)
