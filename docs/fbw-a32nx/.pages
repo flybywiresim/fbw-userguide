@@ -11,4 +11,4 @@ nav:
     - liveries.md
     - support
     - Feature Guides: feature-guides
-    - A32NX Variables and Events: a32nx-lvar-events
+    - API and Hardware: a32nx-api

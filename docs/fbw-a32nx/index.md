@@ -28,7 +28,7 @@ FWC Std.   H2F9C
 - [Livery Guide](liveries.md)
 - [Support](support/index.md)
 - [Feature Guides](feature-guides/)
-- [A32NX Variables and Events](a32nx-lvar-events/)
+- [A32NX Variables and Events](a32nx-api)
 
 
 
