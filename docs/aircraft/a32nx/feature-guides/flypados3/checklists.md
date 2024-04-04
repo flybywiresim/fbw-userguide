@@ -26,7 +26,7 @@ description: Discover how to configure and how to use the interactive checklists
 
 The flyPad's interactive checklists help you ensure not to forget important steps in your procedure. 
 
-The flyPad checklists are modelled after the official Airbus checklist. You can also download this checklist here: [Checklist and SOP](../../../../pilots-corner/a32nx/SOP.md).
+The flyPad checklists are modelled after the official Airbus checklist. You can also download this checklist here: [Checklist and SOP](../../../../pilots-corner/a32nx/a32nx-sop).
 
 !!! note "A Checklist is Not a Procedure List"
     Checklists are meant to ensure that the most critical aspects of a procedure are not forgotten and double-checked. 

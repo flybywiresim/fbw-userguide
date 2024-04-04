@@ -1,0 +1,17 @@
+# Edit this page to get:
+# - Title for the whole directory
+# - Titles for specific pages or subdirectories
+# - Order of pages (otherwise alphabetical order)
+
+title: Beginner Guide
+nav:
+    - Overview: overview.md
+    - preflight.md
+    - starting-the-aircraft.md
+    - preparing-mcdu.md
+    - engine-start-taxi.md
+    - takeoff-climb-cruise.md
+    - descent.md
+    - landing.md
+    - after-landing.md
+    - powering-down.md
