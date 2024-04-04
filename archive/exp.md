@@ -21,7 +21,7 @@ We are testing the new FWS (Flight Warning System) which replaces the previous p
 See technical details in the respective 
 [GitHub Pull Request #4872](https://github.com/flybywiresim/aircraft/pull/4872){target=new}.
 
-![fws-init-ecam](../docs/pilots-corner/assets/beginner-guide/starting-aircraft/fws-init-ecam.png){loading=lazy width=50%}
+![fws-init-ecam](../docs/pilots-corner/a32nx/assets/beginner-guide/starting-aircraft/fws-init-ecam.png){loading=lazy width=50%}
 
 Summary:
 
@@ -34,15 +34,15 @@ powered by the FWS truly won't work when both FWCs are unpowered or have failed.
 
 The following are features in testing that require the use of SimBridge:
 
-- [Terrain Display](../docs/simbridge/simbridge-feature-guides/terrain.md) - **Now Available on the Development Version**
+- [Terrain Display](../docs/tools/simbridge/simbridge-feature-guides/terrain.md) - **Now Available on the Development Version**
 - Remote MCDU (Web MCDU) - **Now Available on the Development Version**
-    - [Setup and Configuration Guide](../docs/simbridge/simbridge-feature-guides/remote-displays/remote-mcdu.md)
-    - [Usage Guide](../docs/simbridge/simbridge-feature-guides/remote-displays/remote-mcdu.md)
-- [Company Routes](../docs/simbridge/simbridge-feature-guides/coroute.md) - **Now Available on the Development Version**
+    - [Setup and Configuration Guide](../docs/tools/simbridge/simbridge-feature-guides/remote-displays/remote-mcdu.md)
+    - [Usage Guide](../docs/tools/simbridge/simbridge-feature-guides/remote-displays/remote-mcdu.md)
+- [Company Routes](../docs/tools/simbridge/simbridge-feature-guides/coroute.md) - **Now Available on the Development Version**
 
 !!! tip "SimBridge Information"
-    - Learn about SimBridge and further status of various features, please - [Read Here](../docs/simbridge/index.md).
-    - [SimBridge setup and configuration guide](../docs/simbridge/install-configure/configuration.md).
+    - Learn about SimBridge and further status of various features, please - [Read Here](../docs/tools/simbridge/index.md).
+    - [SimBridge setup and configuration guide](../docs/tools/simbridge/install-configure/configuration.md).
 
 ### Pause at Top of Descent (TOD)
 
@@ -137,4 +137,4 @@ the C* law, this is incorrect and will result in issues if no ADR is available.
 
 ### Download and Install
 
-See [Installation Guide](../docs/fbw-a32nx/installation.md#downloads).
+See [Installation Guide](../docs/aircraft/install/installation.md#downloads).

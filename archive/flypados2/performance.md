@@ -6,7 +6,7 @@
 
 This calculator helps the pilot to calculate when to start descending (aka the Top of Descent) based on various variables so that different scenarios can be calculated (e.g. descending with 3° descent rate, descending with a given vertical speed, etc.).
 
-For more information about descent and approach planning see our guide: [Descent and Approach Planning](../../docs/pilots-corner/beginner-guide/descent.md#1-descent-and-approach-planning)
+For more information about descent and approach planning see our guide: [Descent and Approach Planning](../../docs/pilots-corner/a32nx/a32nx-beginner-guide/descent.md#1-descent-and-approach-planning)
 
 <div style="position: relative;">
     <img src="/fbw-a32nx/assets/flypados2/flypad-performance-tod.png" style="width: 100%; height: auto;" loading="lazy">

@@ -1,0 +1,8 @@
+title: FlyByWire Aircraft
+nav:
+    - Overview: index.md
+    - FAQ: faq.md
+    - Installation: install
+    - A32NX: a32nx
+    - A380X: a380x
+    - Common: common

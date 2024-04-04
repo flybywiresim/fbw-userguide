@@ -36,4 +36,4 @@ Go back to the ATC page and see the list of the currently available ATC stations
 
 ### Using Hoppie ACARS
 
-See documentation for [Hoppie ACARS](../../docs/fbw-a32nx/feature-guides/hoppie.md)
+See documentation for [Hoppie ACARS](../../docs/aircraft/a32nx/feature-guides/hoppie.md)

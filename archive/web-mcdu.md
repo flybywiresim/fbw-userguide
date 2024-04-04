@@ -20,7 +20,7 @@ The MCDU Web Interface allows you to display and control the MCDU on a browser i
 See list of compatible and tested browsers: [Compatible Browsers](#compatible-browsers)
 
 !!! note "MCDU Web Interface"
-    ![Web MCDU Interface](../docs/fbw-a32nx/assets/mcdu-server/web-mcdu-ipad.webp "Web MCDU Interface"){loading=lazy}
+    ![Web MCDU Interface](../docs/aircraft/a32nx/assets/mcdu-server/web-mcdu-ipad.webp "Web MCDU Interface"){loading=lazy}
 
 It also allows you to use your real printer as a cockpit printer for the MCDU.
 
@@ -32,9 +32,9 @@ To be able to use the MCDU Web Interface you need to start the web server which 
 
 To do this locate the `flybywire-aircraft-a320-neo` folder in your MSFS Community folder. Within this folder you will find a folder called `MCDU SERVER`. Open this folder.
 
-![MCDU Server Folder](../docs/fbw-a32nx/assets/mcdu-server/mcdu-server-folder.png "MCDU Server Folder"){loading=lazy}
+![MCDU Server Folder](../docs/aircraft/a32nx/assets/mcdu-server/mcdu-server-folder.png "MCDU Server Folder"){loading=lazy}
 
-![MCDU Server Executable](../docs/fbw-a32nx/assets/mcdu-server/mcdr-server.exe.png "MCDU Server Executable"){loading=lazy}
+![MCDU Server Executable](../docs/aircraft/a32nx/assets/mcdu-server/mcdr-server.exe.png "MCDU Server Executable"){loading=lazy}
 
 Double-click on the `server.exe` file to start the MCDU Server.
 
@@ -51,7 +51,7 @@ After this the MCDU Server will start and will provide you with links for your l
 
 **You will need to keep this window open and the MCDU Server running to use the MCDU Web Interface**.
 
-![MCDU Server Command Window](../docs/fbw-a32nx/assets/mcdu-server/mcdu-server-cmd-window.png "MCDU Server Command Window"){loading=lazy}
+![MCDU Server Command Window](../docs/aircraft/a32nx/assets/mcdu-server/mcdu-server-cmd-window.png "MCDU Server Command Window"){loading=lazy}
 
 ### MCDU Server Connection Attempts Timeout
 
@@ -61,7 +61,7 @@ Therefore, a timeout mechanism has been built into the MCDU limiting the number 
 
 A setting in the fylPad EFB Sim Options page has been introduced to allow users to restart the connection attempts or to turn off the attempts to connect to the MCDU Server completely.
 
-![flyPad EFB Settings Sim Options](../docs/fbw-a32nx/assets/mcdu-server/efb-setting-simoptions.png)
+![flyPad EFB Settings Sim Options](../docs/aircraft/a32nx/assets/mcdu-server/efb-setting-simoptions.png)
 
 The three settings are:
 
@@ -248,11 +248,11 @@ Options:
 
 To use advanced startup options you can use a Windows Powershell or Windows Command Prompt.
 
-![Windows Command Prompt](../docs/fbw-a32nx/assets/mcdu-server/windows-command-prompt.png "Windows Command Prompt"){loading=lazy}
+![Windows Command Prompt](../docs/aircraft/a32nx/assets/mcdu-server/windows-command-prompt.png "Windows Command Prompt"){loading=lazy}
 
 Alternatively you can create a Windows Shortcut for the server.exe file and add the parameters to the target field.
 
-![Windows Shortcut Dialog](../docs/fbw-a32nx/assets/mcdu-server/windows-shortcut-dialog.png "Windows Shortcut Dialog"){loading=lazy}
+![Windows Shortcut Dialog](../docs/aircraft/a32nx/assets/mcdu-server/windows-shortcut-dialog.png "Windows Shortcut Dialog"){loading=lazy}
 
 
 ### Network Configuration
@@ -263,7 +263,7 @@ This is typically the case if both, the PC and the device use the same Internet 
 
 To check this you can look at the IP address the MCDU server has listed in its command window.
 
-![MCDU Server Command Window](../docs/fbw-a32nx/assets/mcdu-server/mcdu-server-cmd-window.png "MCDU Server Command Window"){loading=lazy}
+![MCDU Server Command Window](../docs/aircraft/a32nx/assets/mcdu-server/mcdu-server-cmd-window.png "MCDU Server Command Window"){loading=lazy}
 
 In the example above the IP address is `192.168.1.19`.
 
@@ -377,7 +377,7 @@ Of course now the firewall might need to be opened for this new port.
 
 #### Websocket Port is Occupied
 
-If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](../docs/fbw-a32nx/feature-guides/flypados3/settings.md#sim-options).
+If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](../docs/aircraft/a32nx/feature-guides/flypados3/settings.md#sim-options).
 
 You can then start the MCDU server using the new websocket port with this option:
 
@@ -440,7 +440,7 @@ Now every time Microsoft Flight Simulator starts it will also start the MCDU Ser
 
 ## MCDU Server Architecture
 
-![MCDU Server Architecture](../docs/fbw-a32nx/assets/mcdu-server/mcdu-server-architecture.png "MCDU Server Architecture"){loading=lazy}
+![MCDU Server Architecture](../docs/aircraft/a32nx/assets/mcdu-server/mcdu-server-architecture.png "MCDU Server Architecture"){loading=lazy}
 
 The MCDU Server uses a web application running in the browser to send and receive data via the Web Socket protocol from the MCDU.
 

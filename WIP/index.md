@@ -7,7 +7,7 @@ automatically download it into the proper folder. The installer will always chec
 
 Our installer also features SimBridge - our custom-built application to utilize remote tools. Check out the dedicated page for upcoming features and their status:
 
-[SimBridge](../docs/simbridge/index.md){ .md-button }
+[SimBridge](../docs/tools/simbridge/index.md){ .md-button }
 
 ---
 

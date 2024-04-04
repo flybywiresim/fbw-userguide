@@ -54,7 +54,7 @@ We have applied a helpful coloring scheme a large European airline uses to point
 
 ![From simBrief](../assets/flypados2/load-from-simbrief.png)
 
-If you have [configured](settings.md) your simBrief account correctly, you can click the above button to load your last simBrief flight plan into the flyPad. This does not load the flight plan into the MCDU - you need to load it there separately (see [MCDU simBrief Integration](../../docs/pilots-corner/beginner-guide/preparing-mcdu.md#a32nx-simbrief-integration)) .
+If you have [configured](settings.md) your simBrief account correctly, you can click the above button to load your last simBrief flight plan into the flyPad. This does not load the flight plan into the MCDU - you need to load it there separately (see [MCDU simBrief Integration](../../docs/pilots-corner/a32nx/a32nx-beginner-guide/preparing-mcdu.md#a32nx-simbrief-integration)) .
 
 ### Map Zoom and Tools
 
