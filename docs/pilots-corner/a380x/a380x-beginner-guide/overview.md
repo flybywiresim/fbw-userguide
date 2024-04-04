@@ -35,7 +35,7 @@ The [Preflight](preflight.md) page contains guides on how to set up relevant dat
 | [Approach and ILS Landing](landing.md)               |
 | [After Landing and Taxi to Gate](after-landing.md)   |
 | [Powering Down](powering-down.md)                    |
-| [Abbreviations](../../common/abbreviations.md)                 |
+| [Abbreviations](../../airliner/abbreviations.md)                 |
 
 ---
 

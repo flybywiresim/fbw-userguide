@@ -44,9 +44,9 @@ This guide will cover these phases:
 
     Often a STAR contains a clearance point which mustn't be passed without explicit clearance by ATC. If clearance is not given, then a holding must be flown as described in the charts.
 
-    Please also have a look at our airliner guide's SIDs and STAR section [SIDs and STARS](../../common/airliner-flying-guide/navigation.md#sids-and-stars)
+    Please also have a look at our airliner guide's SIDs and STAR section [SIDs and STARS](../../airliner/airliner-flying-guide/navigation.md#sids-and-stars)
 
-    Find a good overview over charts in our airliner guide: [Reading a Chart](../../common/airliner-flying-guide/navigation.md#reading-a-chart)
+    Find a good overview over charts in our airliner guide: [Reading a Chart](../../airliner/airliner-flying-guide/navigation.md#reading-a-chart)
 
 - __Approach__<br/>
   The Instrument Approach (IAP or APPR) has similar objectives as a SID or STAR - safely bring an aircraft into a position to land while ensuring separation between multiple aircraft, avoiding terrain, support with noise abatement, etc.
@@ -55,14 +55,14 @@ This guide will cover these phases:
 
     When flying with Online ATC (VATSIM, IVAO, PilotEdge, ...) expect being vectored to the FAF quite often.
 
-    Understand important ILS approach chart features here: [Approach Chart](../../common/airliner-flying-guide/navigation.md#chart-sample-1)
+    Understand important ILS approach chart features here: [Approach Chart](../../airliner/airliner-flying-guide/navigation.md#chart-sample-1)
 
 - __ILS__<br/>
   The Instrument Landing System (ILS) is one of several modern forms of helping an aircraft during its final approach to land even in non-optimal weather situations. ILS uses a localizer for lateral guidance and a glideslope for vertical guidance from the Final Approach Fix down to a minimum at which the pilot needs to perform the final landing sequence visually.
 
     Modern airlines like the A320 are even able to use the ILS to land fully automatically as long as the runway's ILS supports it.
 
-    Understand important ILS approach chart features here: [Approach Chart](../../common/airliner-flying-guide/navigation.md#chart-sample-1)
+    Understand important ILS approach chart features here: [Approach Chart](../../airliner/airliner-flying-guide/navigation.md#chart-sample-1)
 
 !!! info "Microsoft Flight Simulator and navigation charts"
     Although Microsoft Flight Simulator allows some flight planning through the user interface, it is highly recommended to use navigational charts when flying airliners. MSFS' flight planning does not provide sufficient information to correctly fly a STAR or an approach.
@@ -199,7 +199,7 @@ From the chart, we get `Trans level` and `BARO` (=DA or MDA) or `RADIO` (=RA or 
 - CAT II/III ILS use RA or DH, which is put in the `RADIO` field.
 - `BARO` is based on barometric altitude whereas `RADIO` is based on radio altitude (distance to ground).
 
-For more information on the different types of minimums, see the [Minimums and MDA/DH](../../common/airliner-flying-guide/approaches.md#minimums-and-mdadh) section on the [Approaches](../../common/airliner-flying-guide/approaches.md) page in the airliner flying guide.
+For more information on the different types of minimums, see the [Minimums and MDA/DH](../../airliner/airliner-flying-guide/approaches.md#minimums-and-mdadh) section on the [Approaches](../../airliner/airliner-flying-guide/approaches.md) page in the airliner flying guide.
 
 !!! tip "Trans level: By ATC"
     In the particular example below, the `Trans level` field states `By ATC`. If you are not flying on a network such as VATSIM or IVAO, you can try the following things:

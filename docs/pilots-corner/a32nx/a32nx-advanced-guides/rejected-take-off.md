@@ -2,10 +2,10 @@
 
 The term rejected takeoff (also known as RTO) refers to incidents in which an aircraft's pilots elect to abort their departure before reaching a critical speed. 
 
-This critical speed is known as '[V~1~](../../common/abbreviations.md)', and this refers to the maximum speed an aircraft can reach on its takeoff roll and then be brought to a stop whilst remaining within the accelerate-stop distance (the distance the airplane actually needs to accelerate and stop in accordance with regulations). 
+This critical speed is known as '[V~1~](../../airliner/abbreviations.md)', and this refers to the maximum speed an aircraft can reach on its takeoff roll and then be brought to a stop whilst remaining within the accelerate-stop distance (the distance the airplane actually needs to accelerate and stop in accordance with regulations). 
 If the aircraft reaches this speed and the Pilot Flying has not yet acted to stop the plane, the takeoff must be continued unless the airplane is unsafe to fly.
 
-[V-Speeds Information](../../common/abbreviations.md){.md-button target=new}
+[V-Speeds Information](../../airliner/abbreviations.md){.md-button target=new}
 
 ??? tip "Extra Knowledge - ASDA (Click to Expand)"
     To be able to take off, the takeoff weight and V~1~ speed must result in an accelerate-stop distance that is no longer than the accelerate-stop

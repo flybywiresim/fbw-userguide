@@ -298,11 +298,11 @@ Weather data can be automatically filled by entering an airport ICAO and pressin
 - Rwy Condition:
     - This information can be obtained from the METAR or ATIS and from NOTAMs on the OFP (Operational Flight Plan).
     - SimBrief provides field condition reports (FICONs) which helps populate appropriate data for this field.
-        - For detailed information see the [RWY Conditions](../../../../pilots-corner/common/airliner-flying-guide/runway-conditions.md#rwy-conditions)
+        - For detailed information see the [RWY Conditions](../../../../pilots-corner/airliner/airliner-flying-guide/runway-conditions.md#rwy-conditions)
           section on the landing calculator additional info page.
 
 - Rwy Slope:
-    - This information can be obtained from the airport chart (see example in [Landing Calculator Additional Info](../../../../pilots-corner/common/airliner-flying-guide/runway-conditions.md#example-chart){target=new}) but requires a little calculation.
+    - This information can be obtained from the airport chart (see example in [Landing Calculator Additional Info](../../../../pilots-corner/airliner/airliner-flying-guide/runway-conditions.md#example-chart){target=new}) but requires a little calculation.
     - Formula: (((Runway elevation on touchdown side) - (Runway elevation on far side)) / Runway length) * 100.
     - E.g., EDDM 26R: 1449 ft - 1467 ft = - 18 ft.
     - Then - 18 ft / 13 123 ft = - 0.001 37.

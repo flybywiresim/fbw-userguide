@@ -343,7 +343,7 @@ Prompts on each PERF page:
     - Can't be modified here.
 
 - O, S, F, V~LS~ Speeds (2M, 3M, 4M)
-    - See [Speeds](../../../common/abbreviations.md#additional-speeds) and [V-Speeds](../../../common/abbreviations.md#v-speeds) for more information.
+    - See [Speeds](../../../airliner/abbreviations.md#additional-speeds) and [V-Speeds](../../../airliner/abbreviations.md#v-speeds) for more information.
 
 - BARO (2R):
     - The Minimum Descent/Decision Altitude (MDA) with associated brackets, or
