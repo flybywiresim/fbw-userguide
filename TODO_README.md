@@ -36,13 +36,51 @@
 - [ ] Support Guide - cleanup, split section if required, etc.
 - [ ] A32NX
   - [x] Overview 
-  - [ ] Feature Guides -  split into a32nx/a380x specific features and common features
+  - [ ] Feature Guides - split into a32nx/a380x specific features and common features
   - [x] API
 - [ ] A380X
   - [ ] Overview
   - [ ] Feature Guides
   - [ ] API
-- Common Features
+- [ ] Common Features
   - [ ] EFB
   - [ ] Tiller
   - [ ] ...
+- [ ] Pilot's Corner
+  - [x] Overview 
+  - [x] A32NX Corner
+    - [x] Beginner Guide
+    - [x] Advanced Guide
+      - [x] ... / split into a32nx/a380x specific features and common features
+    - [x] A320X Pilot Briefing
+      - [x] Flight-Deck
+      - [x] MFD
+      - [x] PFD
+      - [ ] ND
+      - [x] EWD
+      - [x] SD
+      - [ ] FCU
+  - [ ] A380X Corner
+    - [ ] Beginner Guide
+    - [ ] Advanced Guide
+      - [ ] ... / split into a32nx/a380x specific features and common features
+    - [ ] A320X Pilot Briefing
+      - [ ] Flight-Deck
+      - [ ] MFD
+      - [ ] PFD
+      - [ ] ND
+      - [ ] EWD
+      - [ ] SD
+      - [ ] FCU
+  - [x] Airliner Corner
+    - [x] Airliner Flying Guide
+    - [x] Terms and Abbreviations 
+  - [ ] Development Corner
+    - check what changes are required in this section
+  - FlyByWire Tools
+    - [x] SimBridge
+    - [ ] Installer
+  - [ ] Release Notes
+    - [ ] Overview 
+    - [x] A32NX
+    - [ ] A380X

@@ -10,7 +10,7 @@ description: The Pilot’s Corner contains guides for both novice and advanced u
 Welcome to the Pilot's Corner of the FlyByWire Documentation site.
 
 This section is aimed at sim pilots of all levels and covers topics regarding flying airliners
-in Microsoft Flight Simulator especially the Airbus A320neo and A380.
+in Microsoft Flight Simulator, especially the Airbus A320neo and A380.
 
 <p style="color:coral; font-size:24px;">This is for simulation purposes only.</p>
 
