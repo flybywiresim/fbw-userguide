@@ -5,13 +5,14 @@
 This guide will assist you with starting your aircraft. It includes images to assist you with understanding the locations of all buttons and switches.
 
 !!! warning "Disclaimer"
-    The level of detail in this guide is meant to teach a FlyByWire A320neo beginner to start the aircraft correctly.
+    The level of detail in this guide is meant to teach an Airbus A380 beginner to start the aircraft correctly.
 
-    A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
+    A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation 
+    terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
 
-    You will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
-    Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
-
+    This guide simplifies the process of starting the aircraft to accomodate beginners and the fact that this is a 
+    simulation. More advanced sim pilots can use the [A380X SOP](../a380x-sop.md) directly. 
+    
 ---
 
 ## Chapters / Phases
