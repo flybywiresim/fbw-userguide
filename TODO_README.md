@@ -21,3 +21,28 @@
       - (e.g. homepage, Overview pages, FAQ, Support Guide, release notes, common questions, Install Guide, etc.)
    3. Common Features (depending on structure) - e.g. EFB, Tiller, and such...)
    4. ...
+
+## List of pages/section that need to be migrated from the A32NX docs or completed in general
+
+- [ ] Homepage
+- [ ] FlyByWire Aircraft Overview
+- [ ] FAQ
+- [ ] Installation Guide - cleanup, split section if required, etc.
+  - [ ] Overview
+  - [ ] Versions
+  - [ ] Installation
+  - [ ] Settings
+  - [ ] Liveries
+- [ ] Support Guide - cleanup, split section if required, etc.
+- [ ] A32NX
+  - [x] Overview 
+  - [ ] Feature Guides -  split into a32nx/a380x specific features and common features
+  - [x] API
+- [ ] A380X
+  - [ ] Overview
+  - [ ] Feature Guides
+  - [ ] API
+- Common Features
+  - [ ] EFB
+  - [ ] Tiller
+  - [ ] ...

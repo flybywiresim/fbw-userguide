@@ -14,7 +14,6 @@ in Microsoft Flight Simulator especially the Airbus A320neo and A380.
 
 <p style="color:coral; font-size:24px;">This is for simulation purposes only.</p>
 
-
 <div class="grid cards" markdown>
 
 - <p style="font-size:24px;">[A32NX Corner](./a32nx)</p>

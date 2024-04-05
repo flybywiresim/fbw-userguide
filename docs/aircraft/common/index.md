@@ -5,4 +5,4 @@ description: Documentation and resources for common features of the FlyByWire ai
 
 <link rel="stylesheet" href="../../stylesheets/toc-tables.css">
 
-# Common Aircraft Documentation
+# Common Features Documentation
