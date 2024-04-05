@@ -29,8 +29,8 @@ The [Preflight](01_preflight) page contains guides on how to set up relevant dat
 | Chapter | Topics                                                |
 |:-------:|:------------------------------------------------------|
 |   1.    | [Preflight](01_preflight)                             |
-|   2.    | [Starting the Aircraft](02_cockpit-preparation)     |
-|   3.    | [Preparing the MCDU](03_preparing-fms)               |
+|   2.    | [Cockpit Preparation](02_cockpit-preparation)         |
+|   3.    | [Preparing the MCDU](03_preparing-fms)                |
 |   4.    | [Engine Start and Taxi](04_engine-start-taxi)         |
 |   5.    | [Takeoff, Climb, and Cruise](05_takeoff-climb-cruise) |
 |   6.    | [Descent Planning and Descent](06_descent)            |
