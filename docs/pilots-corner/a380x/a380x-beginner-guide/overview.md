@@ -26,17 +26,17 @@ The [Preflight](01_preflight) page contains guides on how to set up relevant dat
 
 ---
 
-| Chapter | Topics                                                |
-|:-------:|:------------------------------------------------------|
-|   1.    | [Preflight](01_preflight)                             |
-|   2.    | [Cockpit Preparation](02_cockpit-preparation)         |
-|   3.    | [Preparing the MCDU](03_preparing-fms)                |
-|   4.    | [Engine Start and Taxi](04_engine-start-taxi)         |
-|   5.    | [Takeoff, Climb, and Cruise](05_takeoff-climb-cruise) |
-|   6.    | [Descent Planning and Descent](06_descent)            |
-|   7.    | [Approach and ILS Landing](07_landing)                |
-|   8.    | [After Landing and Taxi to Gate](08_after-landing)    |
-|   9.    | [Powering Down](09_powering-down)                     |
+| Chapter | Topics                                                   |
+|:-------:|:---------------------------------------------------------|
+|   1.    | [Preflight](01_preflight.md)                             |
+|   2.    | [Cockpit Preparation](02_cockpit-preparation.md)         |
+|   3.    | [Preparing the MCDU](03_preparing-fms.md)                |
+|   4.    | [Engine Start and Taxi](04_engine-start-taxi.md)         |
+|   5.    | [Takeoff, Climb, and Cruise](05_takeoff-climb-cruise.md) |
+|   6.    | [Descent Planning and Descent](06_descent.md)            |
+|   7.    | [Approach and ILS Landing](07_landing.md)                |
+|   8.    | [After Landing and Taxi to Gate](08_after-landing.md)    |
+|   9.    | [Powering Down](09_powering-down.md)                     |
 
 | Related Topics                                                            |
 |:--------------------------------------------------------------------------|

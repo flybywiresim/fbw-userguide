@@ -35,15 +35,15 @@ The aircraft is in a cold and dark state at a gate.
 
     (Of course, this is not an issue in the sim, but in real life it is crucial to check this!)
 
-`ENGINE MASTER SWITCHES (1, 2, 3, 4) .................................. OFF`
-`PARKING BRAKE (OR CHOCKS).............................................. ON`
-`SPEED BRAKE LEVER .............................................. RETRACTED`
-`FLAPS LEVER .................................................... RETRACTED`
-`WEATHER RADAR ........................................................ OFF`
-`ENGINE MODE SELECTOR ................................................ NORM`
-`THRUST LEVERS ....................................................... IDLE`
-`GEAR LEVER .......................................................... DOWN`
-`WIPERS (BOTH) ........................................................ OFF`
+`ENGINE MASTER SWITCHES (1, 2, 3, 4) .................................. OFF`<br/>
+`PARKING BRAKE (OR CHOCKS).............................................. ON`<br/>
+`SPEED BRAKE LEVER .............................................. RETRACTED`<br/>
+`FLAPS LEVER .................................................... RETRACTED`<br/>
+`WEATHER RADAR ........................................................ OFF`<br/>
+`ENGINE MODE SELECTOR ................................................ NORM`<br/>
+`THRUST LEVERS ....................................................... IDLE`<br/>
+`GEAR LEVER .......................................................... DOWN`<br/>
+`WIPERS (BOTH) ........................................................ OFF`<br/>
 
 ??? tip "How and where"
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
@@ -90,10 +90,10 @@ After these Pre-checks, we can start the aircraft starting with the initial powe
     aircraft systems when the engines are not running.
 
 
-`ENGINES MASTER SWITCHES (1, 2, 3, 4) ................................. OFF`
-`BATTERIES (BAT 1, BAT 2) .............................................. ON`
-`EXTERNAL POWER (2, 3, 1, 4) ........................................... ON`
-`COCKPIT LIGHTING ............................................. AS REQUIRED`
+`ENGINES MASTER SWITCHES (1, 2, 3, 4) ................................. OFF`<br/>
+`BATTERIES (BAT 1, BAT 2) .............................................. ON`<br/>
+`EXTERNAL POWER (2, 3, 1, 4) ........................................... ON`<br/>
+`COCKPIT LIGHTING ............................................. AS REQUIRED`<br/>
 
 ??? tip "How and Where?"
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
@@ -119,15 +119,15 @@ After these Pre-checks, we can start the aircraft starting with the initial powe
 
     Turning on and setting up the radios at this point is also important in case ofg any emergencies.
 
-`RMP 1 and 2 ........................................................... ON`
-`STANDBY RADIO NAVIGATION ............................................. OFF`
-`COMMUNICATION FREQUENCIES ........................................... TUNE`
-`INTERPHONE RECEPTION ...................................... RELEASE/ADJUST`
-`APU FIRE ............................................ CHECK IN and GUARDED`
-`APU AGENT ............................................................ OFF`
-`ENGINE 1/2/3/4 FIRE.................................. CHECK IN and GUARDED`
-`ENGINE 1/2/3/4 AGENT 1 and 2 ......................................... OFF`
-`FIRE TEST .......................................................... PRESS`
+`RMP 1 and 2 ........................................................... ON`<br/>
+`STANDBY RADIO NAVIGATION ............................................. OFF`<br/>
+`COMMUNICATION FREQUENCIES ........................................... TUNE`<br/>
+`INTERPHONE RECEPTION ...................................... RELEASE/ADJUST`<br/>
+`APU FIRE ............................................ CHECK IN and GUARDED`<br/>
+`APU AGENT ............................................................ OFF`<br/>
+`ENGINE 1/2/3/4 FIRE.................................. CHECK IN and GUARDED`<br/>
+`ENGINE 1/2/3/4 AGENT 1 and 2 ......................................... OFF`<br/>
+`FIRE TEST .......................................................... PRESS`<br/>
 ??? note "Fire Test Result"
     Verify that the fire detection systems and extinguishing systems are functional by checking the following items: 
     a constant repetitive chime sound, the master warning light flashes on the glareshield, the ECAM displays the engine 
@@ -135,9 +135,9 @@ After these Pre-checks, we can start the aircraft starting with the initial powe
     unit fire pushbutton displays in red, the squib light of the engine and apu agent pushbuttons are illuminated, the disch 
     light of the engine and auxiliary power unit agent pushbuttom illuminates and all fire lights on the engine master panel 
     illuminates.
-`APU MASTER SWITCH ..................................................... ON`
-`APU START ............................................................. ON`
-`EXTERNAL POWER .................................................... AS REQ`
+`APU MASTER SWITCH ..................................................... ON`<br/>
+`APU START ............................................................. ON`<br/>
+`EXTERNAL POWER .................................................... AS REQ`<br/>
 ??? note "External Power"
     It is recommended to keep the external power units to ON to reduce the APU load in hot weather conditions.
 
@@ -195,17 +195,17 @@ to the glareshield. At last the lateral consoles are checked and set up.
     We scan the overhead panel from left to right and bottom to top to ensure that all switches are in the correct position.
 
 ### Overhead Panel Left (bottom to top)
-`ALL WHITE LIGHTS ..................................................... OFF`
-`RECORDER GROUND CTL ................................................... ON`
-`EVAC CAPT/CAPT & PURS ............................................... CAPT`
-`PROBE & WINDOW HEAT ................................................. AUTO`
-`ADIRS ALL IR MODE .................................................... NAV`
+`ALL WHITE LIGHTS ..................................................... OFF`<br/>
+`RECORDER GROUND CTL ................................................... ON`<br/>
+`EVAC CAPT/CAPT & PURS ............................................... CAPT`<br/>
+`PROBE & WINDOW HEAT ................................................. AUTO`<br/>
+`ADIRS ALL IR MODE .................................................... NAV`<br/>
 ??? note "ADIRS Alignment"
     It is recommended to align the inertial references as soon as possible. The initialization may take some time. 
     It is also recommended to complete a full alignment if this is the first flight of the day, the flight crew has 
     changed, the GPS is not available to all segment in the flights, or that the pilot expects long segments with low 
     NAVAID coverage. It is recommended to perform a fast alignment for all other flight conditions.
-`EMERGENCY LOCATOR TRANSMITTER (ELT) ................................ ARMED`
+`EMERGENCY LOCATOR TRANSMITTER (ELT) ................................ ARMED`<br/>
 
 ??? tip "How and Where?"
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
@@ -230,29 +230,29 @@ to the glareshield. At last the lateral consoles are checked and set up.
     <p style="color:yellow; font-size:18px;">TODO: insert image of emergency locator transmitter or link to interactive flight deck</p>
 
 ### Overhead Panel Center (bottom to top)
-`STROBE .............................................................. AUTO`
-`BEACON ............................................................... OFF`
-`NAV ....... ........................................................... ON`
-`REMAINING EXTERIOR LIGHTS .....................................AS REQUIRED`
-`SEAT BELTS ............................................................ ON`
-`NO SMOKING .......................................................... AUTO`
-`EMERGENCY EXIT LIGHTS ................................................ ARM`
-`ENGINE STARTER ...................................................... NORM`
-`APU BLEED ............................................................. ON`
+`STROBE .............................................................. AUTO`<br/>
+`BEACON ............................................................... OFF`<br/>
+`NAV ....... ........................................................... ON`<br/>
+`REMAINING EXTERIOR LIGHTS .....................................AS REQUIRED`<br/>
+`SEAT BELTS ............................................................ ON`<br/>
+`NO SMOKING .......................................................... AUTO`<br/>
+`EMERGENCY EXIT LIGHTS ................................................ ARM`<br/>
+`ENGINE STARTER ...................................................... NORM`<br/>
+`APU BLEED ............................................................. ON`<br/>
 ??? note "APU BLEED"
     It is not recommended to use the auxiliary power unit bleed system if a high pressure ground air unit is connected to 
     the aircraft. This can be checked on the bleed page of the system display. If there is pressure in the bleed air 
     system, the high-pressure ground air unit is connected.
-`XBLEED .............................................................. AUTO`
-`AIR FLOW ............................................................ NORM`
+`XBLEED .............................................................. AUTO`<br/>
+`AIR FLOW ............................................................ NORM`<br/>
 ??? note "AIR FLOW"
     The bleed system works with the flight management system.  If there is no number of passengers entered into the 
     flight-management-system, the airflow will be automatically set the air flow like when the value entered is the maximum 
     number of passengers. If the number of passengers is entered, the airflow will automatically adjust to that number.
-`CKPT ......................................................... AS REQUIRED`
-`CABIN ........................................................... PURS SEL`
-`TRIM TK FEED ........................................................ AUTO`
-`MAINTENANCE PANEL ALL LIGHTS.......................................... OFF`
+`CKPT ......................................................... AS REQUIRED`<br/>
+`CABIN ........................................................... PURS SEL`<br/>
+`TRIM TK FEED ........................................................ AUTO`<br/>
+`MAINTENANCE PANEL ALL LIGHTS.......................................... OFF`<br/>
 
 ??? tip "How and Where?"
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
@@ -304,10 +304,10 @@ to the glareshield. At last the lateral consoles are checked and set up.
     <p style="color:yellow; font-size:18px;">TODO: insert image of maintenance panel all lights or link to interactive flight deck</p>
 
 ### Overhead Panel Right (bottom to top)
-`CARGO AIR COND ............................................... AS REQUIRED`
-`RADIO MANAGEMENT PANEL 3 .............................................. ON`
-`STBY RAD NAV ......................................................... OFF`
-`CVR TEST ........................................................... PRESS`
+`CARGO AIR COND ............................................... AS REQUIRED`<br/>
+`RADIO MANAGEMENT PANEL 3 .............................................. ON`<br/>
+`STBY RAD NAV ......................................................... OFF`<br/>
+`CVR TEST ........................................................... PRESS`<br/>
 
 ??? tip "How and Where?"
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
@@ -326,11 +326,11 @@ to the glareshield. At last the lateral consoles are checked and set up.
     <p style="color:yellow; font-size:18px;">TODO: insert image of CVR Test or link to interactive flight deck</p>
 
 ### Main Instrument Panel
-`SWITCHING PANEL ..................................................... NORM`
-`INTEGRATED STANDBY INSTRUMENT SYSTEM ............................... CHECK`
-`LANDING GEAR GRAVITY SYSTEM .......................................... OFF`
-`CLOCK ...........................................CHECK and SET AS REQUIRED`
-`ANTI AKID (A-SKID) ................................................... ON`
+`SWITCHING PANEL ..................................................... NORM`<br/>
+`INTEGRATED STANDBY INSTRUMENT SYSTEM ............................... CHECK`<br/>
+`LANDING GEAR GRAVITY SYSTEM .......................................... OFF`<br/>
+`CLOCK ...........................................CHECK and SET AS REQUIRED`<br/>
+`ANTI AKID (A-SKID) ................................................... ON`<br/>
 
 ??? tip "How and Where?"
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
@@ -352,18 +352,18 @@ to the glareshield. At last the lateral consoles are checked and set up.
     <p style="color:yellow; font-size:18px;">TODO: insert image of anti akid (a-skid) or link to interactive flight deck</p>
 
 ### Pedestal
-`PARKING BRAKE ........................................................ ON`
-`BODY ACCUMULATOR PRESSURE ............................... CHECK/REINFLATE`
-`THRUST LEVERS ...................................................... IDLE`
-`THRUST REVERSE LEVERS ............................................ STOWED`
-`ENGINE MASTER SWITCHES (1, 2, 3, 4) ................................. OFF`
-`COCKPIT DOOR SWITCH ................................................ NORM`
-`ATC CLEARANCE .....................................................OBTAIN`
+`PARKING BRAKE ........................................................ ON`<br/>
+`BODY ACCUMULATOR PRESSURE ............................... CHECK/REINFLATE`<br/>
+`THRUST LEVERS ...................................................... IDLE`<br/>
+`THRUST REVERSE LEVERS ............................................ STOWED`<br/>
+`ENGINE MASTER SWITCHES (1, 2, 3, 4) ................................. OFF`<br/>
+`COCKPIT DOOR SWITCH ................................................ NORM`<br/>
+`ATC CLEARANCE .....................................................OBTAIN`<br/>
 ??? note "ATC Clearance"
     <p style="color:yellow; font-size:24px;">TODO: Improve.</p>
     It is recommended to obtain the ATC clearance before starting the engines.
-`NAVIGATION CHARTS ............................................... PREPARE`
-`MFD SURVEILLANCE DEFAULT SETTINGS................................. SELECT`
+`NAVIGATION CHARTS ............................................... PREPARE`<br/>
+`MFD SURVEILLANCE DEFAULT SETTINGS................................. SELECT`<br/>
 ??? note "MFD Default Settings"
     Verify on the multi function display surveillance control page that the transponder is set to AUTO, the squawk code 
     is the same, the TCAS is set to TA/RA and Norm, all TAWS modes are ON, and the weather radar is set to AUTO, the 
@@ -404,19 +404,19 @@ At this point, the Flight Management System (FMS) should be initialized.
 See [Preparing the MFD](03_preparing-fms) for more information.
 
 ### Glareshield
-`INTEGRAL LIGHTS ............................................. AS REQUIRED`
-`BAROMETRIC REFERENCE ................................................ SET`
-`NAVIGATION DISPLAY (ND) MODE AND RANGE ........................... AS REQ`
-`WEATHER RADAR ............................................... AS REQUIRED`
-`OTHER EFIS OPTIONS .......................................... AS REQUIRED`
-`FLIGHT DIRECTOR ...................................................... ON`
-`NORTH REF ........................................................... MAG`
+`INTEGRAL LIGHTS ............................................. AS REQUIRED`<br/>
+`BAROMETRIC REFERENCE ................................................ SET`<br/>
+`NAVIGATION DISPLAY (ND) MODE AND RANGE ........................... AS REQ`<br/>
+`WEATHER RADAR ............................................... AS REQUIRED`<br/>
+`OTHER EFIS OPTIONS .......................................... AS REQUIRED`<br/>
+`FLIGHT DIRECTOR ...................................................... ON`<br/>
+`NORTH REF ........................................................... MAG`<br/>
 ??? note "North Reference"
     It is recommended to ensure that the “TRUE” message does not appear on the primary flight display or on the HDG/TRK 
     display.
-`SPD/MACH, HDG / TRK, V/S / FPA display ........................... DASHED`
-`ALTITUDE display .................... INITIAL EXPECTED CLEARANCE ALTITUDE`
-`AUTO FLIGHT SYSTEM CONTROL PANEL ............................. CROSSCHECK`
+`SPD/MACH, HDG / TRK, V/S / FPA display ........................... DASHED`<br/>
+`ALTITUDE display .................... INITIAL EXPECTED CLEARANCE ALTITUDE`<br/>
+`AUTO FLIGHT SYSTEM CONTROL PANEL ............................. CROSSCHECK`<br/>
 
 ??? tip "How and Where?"
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
@@ -453,9 +453,9 @@ See [Preparing the MFD](03_preparing-fms) for more information.
     <p style="color:yellow; font-size:18px;">TODO: insert image of auto flight system control panel or link to interactive flight deck</p>
 
 ### Lateral Consoles
-`OXYGEN MASKS TEST ............................................... PERFORM`
-`DOOR SD PAGE REGUL PR LO indication ................. CHECK NOT DISPLAYED`
-`SLIDING WINDOWS LOCKED .................................... CLOSED/LOCKED`
+`OXYGEN MASKS TEST ............................................... PERFORM`<br/>
+`DOOR SD PAGE REGUL PR LO indication ................. CHECK NOT DISPLAYED`<br/>
+`SLIDING WINDOWS LOCKED .................................... CLOSED/LOCKED`<br/>
 
 ??? tip "How and Where?"
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
@@ -473,7 +473,7 @@ See [Preparing the MFD](03_preparing-fms) for more information.
 ### Pilot Briefing
 As the last step the pilots would conduct the takeoff briefing:
 
-`TAKE OFF BRIEFING ............................................... PERFORM`
+`TAKE OFF BRIEFING ............................................... PERFORM`<br/>
 
 ??? tip "How and Where?"
     Take Off Briefing
