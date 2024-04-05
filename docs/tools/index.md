@@ -1,5 +1,9 @@
 # FlyByWire Tools Documentation
 
+Welcome to the FlyByWire Tools section of the FlyByWire Documentation site.
+
+This section covers additional projects and tools developed by FlyByWire to enhance the 
+Microsoft Flight Simulator experience when using FlyByWire aircraft add-ons.
 
 <div class="grid cards" markdown>
 
