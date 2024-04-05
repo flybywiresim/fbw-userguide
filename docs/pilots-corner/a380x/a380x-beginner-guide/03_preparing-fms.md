@@ -1,4 +1,6 @@
-# Preparing the MCDU
+<link rel="stylesheet" href="/stylesheets/bg.css">
+
+# Preparing the Flight Management System
 
 This guide will help you prepare the Flight Management System in the A380X for your departure. 
 It includes a simple route that you can use to follow along easily and replicate in the simulator.

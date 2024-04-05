@@ -1,3 +1,5 @@
+<link rel="stylesheet" href="/stylesheets/bg.css">
+
 # Engine Start and Taxi
 
 This guide will explain the correct procedures to accomplish a pushback with engine start and perform a safe taxi to the departure runway.
@@ -39,7 +41,60 @@ This guide will cover these chapters:
 
 ---
 
-## Pushback
+## Before Pushback and Start
+
+Once all passengers have boarded and secured, we are ready to begin pushback.
+
+??? tip "What and Why"
+    Before pushback the flight crew need to ensure the external power is not used any more so the ground crew can
+    safely disconnect the aircraft from the ground power. The same goes for the low-pressure ground carts as keeping 
+    them connected during engine start could cause faulty triggers. 
+
+`EXTERNAL POWER (1, 2, 3, 4).....................DISCONNECT and CHECK AVAIL`<br/>
+`EXTERNAL POWER DISCONNECTION (GROUND CREW) ....................... REQUEST`<br/>
+`LOW PRESSURE GROUND CARTS ............................. CHECK DISCONNECTED`<br/>
+
+??? tip "How and Where"
+    These actions are performed on the overhead panel. The external power is disconnected by pressing the respective 
+    button on the overhead panel. The external power connections and low-pressure ground carts are disconnected by the 
+    ground crew.
+
+    <p style="color:yellow; font-size:18px;">TODO: add images or links to the flight deck</p>
+
+`BEFORE START CHECKLIST - DOWN TO THE LINE ....................... COMPLETE`<br/>
+
+### Pushback Clearance and Preparation
+
+??? tip "What and Why"
+
+    Contact ground ATC and inform them you are ready to push and start. If you are on a network such as VATSIM, a typical
+    response from ground would give you clearance for your request and a direction to face (or any direction). 
+
+`PUSHBACK/START UP CLEARANCE ....................................... OBTAIN`<br/>
+`WINDOWS AND DOORS ............................................CHECK CLOSED`<br/>
+`SLIDES ............................................................. ARMED`<br/>
+`BEACON ................................................................ ON`<br/>
+`THRUST LEVERS ....................................................... IDLE`<br/>
+`PARKING BRAKE ........................................................ OFF`<br/>
+`N/W STEERING DISC MEMO ................................... CHECK DISPLAYED`<br/>
+
+??? tip "How and Where"
+    <p style="color:yellow; font-size:18px;">TODO: add images or links to the flight deck</p>
+    
+    At EDDM on gate 208 ans runway 08L you could expect the following push and start clearance from ground:
+
+    "** Your Aircraft Callsign**, ground. You are clear to push and start onto Whiskey 3 facing north."
+
+    At this point, we may begin pushback away from the terminal onto the taxiway Alpha 3.
+
+    <p style="color:yellow; font-size:18px;">TODO: optimze image</p>
+    ![parking stands](../assets/beginner-guide/taxi/parking-stands-guidelines.png){loading=lazy}
+    <sub>Copyright © 2021 Navigraph / Jeppesen<br>
+    "Navigraph Charts are intended for flight simulation use only, not for navigational use."
+
+`BEFORE START CHECKLIST - BELOW TO THE LINE ...................... COMPLETE`<br/>
+
+### Pushback
 
 There are several options available to you in MSFS to achieve a successful pushback.
 
@@ -47,108 +102,62 @@ There are several options available to you in MSFS to achieve a successful pushb
 - MSFS built in ATC pushback controls
 - Third-party pushback add-ons
 
-### Before Pushback
+This guide assumes that the flyPad's pushback functionality is used. 
 
-Once all passengers have boarded and secured, we are ready to begin pushback.
+Click below to learn more about the flyPad and how to use it for pushback.
 
-Ensure:
+??? tip "How to Pushback" 
+    ### How-to Pushback
 
-- All doors to the aircraft are armed and secure.
-- EXT power has been disconnected.
-- APU BLEED - `Set to ON`
-
-### Pushback Clearance
-
-For this guide, we will assume you are parked at gate 10 at EGFF (Cardiff).
-
-Contact ground ATC and inform them you are ready to push and start. If you are on a network such as VATSIM, a typical response from ground would give you clearance for your request and a direction to face (or any direction). At EGFF you could expect the following push and start clearance from ground:
-
-"** Your Aircraft Callsign**, ground. You are clear to push and start onto Alpha 3 facing east."
-
-At this point, we may begin pushback away from the terminal onto the taxiway Alpha 3.
-
-![parking stands](../assets/beginner-guide/taxi/parking-stands-guidelines.png){loading=lazy}
-<sub>Copyright © 2021 Navigraph / Jeppesen<br>
-"Navigraph Charts are intended for flight simulation use only, not for navigational use."
-
----
-
-### How to Pushback
-
-The FlyByWire A32NX has a ground operations page on its built-in flyPad EFB (Electronic Flight Bag). This page allows controlling the pushback of the aircraft and other useful ground operations such as calling the Jetway, baggage or catering, etc.
-
-Although Microsoft Flight Simulator also has some pushback functionality built into the default ATC service, this guide will only cover the A32NX pushback functionality.
-
-![flyPad Pushback](../../../aircraft/a32nx/assets/flypados3/flypad-ground-pushback.png "flyPad Pushback"){loading=lazy}
-
-!!! block ""
-    ![Call Tug](../../../aircraft/a32nx/assets/flypados3/flypad-pushback-tugcall.png "Call Tug"){loading=lazy align=left width=30%}
+    The FlyByWire A32NX has a ground operations page on its built-in flyPad EFB (Electronic Flight Bag). This page allows 
+    controlling the pushback of the aircraft and other useful ground operations such as calling the Jetway, baggage or 
+    catering, etc.
     
-    After we received clearance to pushback, we will call the pushback tug by pressing the `Call Tug` button on the flyPad.
-
-    If a pushback tug is available at this gate or stand, it will then start attaching itself to the nose wheel.
-
-    !!! warning ""
-        Some airports / gates / stands do not show a tug. This functionality still works, and you can push back as if a tug is attached. It looks like an invisible tug is pushing the aircraft.
-
-After the tug is attached to the nose wheel, we can start pushing back by using the control buttons or the rudder and elevator controls.
-
-See the flyPad documentation for more details: [flyPad Pushback](../../../aircraft/a32nx/feature-guides/flypados3/ground.md#pushback)
+    Although Microsoft Flight Simulator also has some pushback functionality built into the default ATC service, this guide 
+    will only cover the A32NX pushback functionality.
+    
+    ![flyPad Pushback](../../../aircraft/a32nx/assets/flypados3/flypad-ground-pushback.png "flyPad Pushback"){loading=lazy}
+    
+    !!! block ""
+        ![Call Tug](../../../aircraft/a32nx/assets/flypados3/flypad-pushback-tugcall.png "Call Tug"){loading=lazy align=left width=30%}
+        
+        After we received clearance to pushback, we will call the pushback tug by pressing the `Call Tug` button on the flyPad.
+    
+        If a pushback tug is available at this gate or stand, it will then start attaching itself to the nose wheel.
+    
+        !!! warning ""
+            Some airports / gates / stands do not show a tug. This functionality still works, and you can push back as if a 
+            tug is attached. It looks like an invisible tug is pushing the aircraft.
+    
+    After the tug is attached to the nose wheel, we can start pushing back by using the control buttons or the rudder and elevator controls.
+    
+    See the flyPad documentation for more details: [flyPad Pushback](../../../aircraft/a32nx/feature-guides/flypados3/ground.md#pushback)
 
 ---
 
 ## Engine Start
 
-Once we are clear of the terminal and/or the ground crew has notified the flight crew it is clear to start engines, we can proceed with the following steps.
+Once we are clear of the terminal and/or the ground crew has notified the flight crew it is clear to start engines, we 
+can proceed with the following steps.
 
-Start the chronometer above the ND to help monitor the start-up time of the engines.
+??? tip "What and Why"
+    The engines 
 
-![CHRONO Button](../assets/beginner-guide/taxi/chrono.png "CHRONO Button"){loading=lazy}
-
-!!! info "Using the Chronometer"
-    The chrono button has three states depending on how many times you have pushed the button:
-
-    1. First Push - Starts the timer on the ND
-    2. Second Push - Stops the timer on the ND
-    3. Third Push - Removes the timer from the ND
-
-    Time is represented as *minutes*' *seconds*", i.e., 04'41" equates to 4 minutes and 41 seconds.
-
-    **Use Cases**
-
-    There are a few different reasons pilots use the chronometer on the ND:
-
-    - Engine startup times.
-    - Duration of flight.
-    - Certain procedures such as a visual pattern or circling approach.
-
-    Location on the ND:
-
-    ![ND Chrono](../assets/beginner-guide/taxi/nd.png "ND Chrono")
-
-For this guide, we will begin by starting engine 2.
-
-!!! info ""
-    **Differing airline SOP may have a different engine start order**
-
-!!! note "Note: Bleed Air"
-    The A320neo needs pressurized air to start the engines. This pressurized air is usually generated by the APU for the start of the engines. This is called bleed air, as it is a byproduct of a running jet engine where pressurized air is taken from the engine to be used on other systems.
-
-    **To start the engines, you need to have the APU available and the APU Bleed ON.**
-
-    In real life, you can start the second engine with bleed air (X-Bleed) from the first engine. This is not yet implemented in the A32NX. It would usually not be used at the gate as the APU would be running anyway, but it is used during single engine taxi when the second engine is started while rolling to the runway.
-
-    Also, in very rare cases the gate or a mobile ground unit has pressurized air to be connected to the aircraft so the first engine can be started without APU. This is usually done when the APU is INOP. Microsoft Flight Simulator does not provide this option.
-
-=== "Start Engine 2"
-    1. Set the `ENG` mode selector to `IGN/START`
-        - Flight crew should hear the packs turn off.
-        - The lower ECAM should automatically display the engine parameters screen.
-    2. Set `ENG 2` Master to the ON position.
-        - Pay attention to the ECAMs and note engine parameters as ENG 2 starts up.
-        - The engine should take roughly 1 minute to complete its start up sequence - use the chronometer started earlier to time this.
-
-    Engine 2 will have successfully started when the following applies (at ISA sea level):
+`ENGINE START selector .......................................... IGN START`<br/>
+??? Note "ENGINE START Selector"
+    The engine page on the system display should appear. It's recommended to wait 10 seconds before setting the engine 
+    masters lever to the ON position. This waiting time ensures a series of tests conducted to the engines in order to 
+    detect a fault.
+`START ENGINES 1 and 2 ........................................... ANNOUNCE`<br/>
+`ENGINE MASTER 1 then 2................................................. ON`<br/>
+??? Note "ENGINE START"
+    Any engines can be started first, at the pilots discretion.
+`WHEN AVAIL: ENGINE IDLE PARAMETERS .......................... CHECK NORMAL`<br/>
+??? note "ENGNIE IDLE PARAMETERS"
+    The engine idle parameters are displayed on the engine page on the system display. The engine idle parameters should 
+    be checked to ensure the engines are starting normally.
+    
+    <p style="color:yellow; font-size:18px;">TODO: use correct A380 values</p>
 
     - N1 is at roughly 19 %
     - N1 reported `AVAIL`  
@@ -156,108 +165,96 @@ For this guide, we will begin by starting engine 2.
     - EGT settles at about 520 °C
     - FF is at roughly 290 kg/h
 
-=== "Start Engine 1"
-    1. Set `ENG 1` Master to the ON position.
-        - Pay attention to the ECAMs and note engine parameters as ENG 1 starts up.
-        - The engine should take roughly 1 minute to complete its start up sequence - use the chronometer we started earlier to time this.
+`START ENGINES 3 and 4 ........................................... ANNOUNCE`<br/>
+`ENGINE MASTER 3 then 4................................................. ON`<br/>
+`WHEN AVAIL: ENGINE IDLE PARAMETERS .......................... CHECK NORMAL`<br/>
 
-    Engine 1 will have successfully started when the following applies (at ISA sea level):
+??? tip "How and Where"
+    <p style="color:yellow; font-size:18px;">TODO: add additional info, images or links to the flight deck</p>
 
-    - N1 is at roughly 19 %
-    - N1 reported `AVAIL`  
-    - N2 is at roughly 68 %
-    - EGT settles at about 520 °C
-    - FF is at roughly 290 kg/h
+
+??? note "Note: Bleed Air"
+    The A380 needs pressurized air to start the engines. This pressurized air is usually generated by the APU for the 
+    start of the engines. This is called bleed air, as it is a byproduct of a running jet engine where pressurized air 
+    is taken from the engine to be used on other systems.
+
+    **To start the engines, you need to have the APU available and the APU Bleed ON - see [Cockpit Preparation](./02_cockpit-preparation.md#overhead-panel-center-bottom-to-top).**
+
+    You can also use a so called Ground Air Starter Unit (ASU) to start the engines which you can connect to the aircraft
+    using the Ground Services page of the flyPad. <p style="color:yellow; font-size:18px;">TODO: link or image</p>
+
+    You can start the second engine with bleed air (X-Bleed) from the first engine. It would usually not be used at the 
+    gate as the APU would be running anyway, but it is used during single engine taxi when the second engine is started 
+    while rolling to the runway. <p style="color:yellow; font-size:18px;">TODO: link to separate x-start guide</p>
 
 ---
 
 ## After Engine Start
 
-Complete the after start flow:
+??? tip "What and Why"
+    After the engines have been started, the flight crew need to ensure that all systems are functioning correctly and 
+    that the aircraft is ready for taxi.
 
-- Set the `ENG` mode selector to `NORM`
-- FLAPS - `Set`
-    - As defined in the MCDU Preparation guide.
-    - Note: If taxiing in icing conditions with rain, slush, or snow:
-        - Maintain the flaps retracted until the aircraft reaches the holding point of the takeoff run. This action prevents contamination of the slats/flaps mechanism.
-- GROUND SPOILERS - `Arm`
-- APU BLEED - `Set to OFF`
-- APU MASTER SW - `Set to OFF`
-- ANTI ICE - `As required`
-    - Consider when temperatures are less than 10C and visible moisture.
-- PITCH TRIM - `Check`
-- RUDDER TRIM - `Zero`
+`ENGINE START selector ............................................... NORM`<br/>
+`APU BLEED ............................................................ OFF`<br/>
+`ENGINE ANTI_ICE .............................................. AS REQUIRED`<br/>
+??? note "ENGINE ANTI_ICE"
+    It is recommended to set the engine anti-ice to ON when icing conditions are expected, standing water/slush/ice/snow 
+    is on the taxiway or on the runway when the outside air temperature is less than 10°C.
+`APU MASTER SW ........................................................ OFF`<br/>
+`GROUND SPOILERS ...................................................... ARM`<br/>
+`RUDDER TRIM ......................................................... ZERO`<br/>
+`FLAPS T.O POSITION.................................................... SET`<br/>
+`PITCH TRIM ......................................................... CHECK`<br/>
+`ECAM STATUS ........................................................ CHECK`<br/>
+`CLEAR TO DISCONNECT AND HAND SIGNALS ............................ ANNOUNCE`<br/>
+`N/W STEERING DISC MEMO ............................... CHECK NOT DISPLAYED`<br/>
+`FLIGHT CONTROLS .................................................... CHECK`<br/>
+??? note "FLIGHT CONTROLS"
+    It is recommended to perform the flight control verification when the flaps are set to the takeoff configuration. 
+    To perform the test, the captain remain silent, while the first officer announces call-outs. It is recommended to 
+    start with the pitch, then roll, then yaw. The captain must ensure to maintain the sidestick to the position to give
+    enough time to the control to reach the full position. The first officer monitors the flight control page of the 
+    system display and announces “FULL UP”, “FULL DOWN”, “NEUTRAL”, “FULL LEFT”, “FULL RIGHT”, “NEUTRAL”. For the 
+    rudder, the captain must press the PEDAL DISC pushbutton to disconnect the nosewheel steering, then apply the left 
+    and right position of the rudder.
 
+??? tip "How and Where"
+    <p style="color:yellow; font-size:18px;">TODO: add additional info, images or links to the flight deck</p>
+
+`AFTER START CHECKLIST ........................................... COMPLETE`<br/>
+
+<p style="color:yellow; font-size:18px;">TODO: update checklist image</p>
 ![after start checklist](../assets/beginner-guide/taxi/afterstart.png){loading=lazy}
 
 Perform the AFTER START checklist.
-
-!!! info "Setting Pitch Trim Advice"
-    While setting the pitch trim is standard operating procedure, a precisely set trim value on the trim wheel is not critical. As long as your center of gravity (CG) is within CG limits, any trim setting within the green band will provide for a safe takeoff in the A320neo. Appropriate trim settings can be found at the bottom of our [checklist](../assets/sop/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf).
-
-    There is a rotation law in the NEO that gives you a consistent rotation rate for any given stick input, regardless of other conditions. Upon liftoff, the autotrim becomes active.
-
-    ---
-
-    !!! block ""
-        ![Throttle quad](../assets/beginner-guide/mcdu/Thrust-lever-elev-trim.png){loading=lazy width=50% align=left}
-
-        For this flight, take a look at your throttle quadrant and look for the trim markings closest to the throttle levers. Based on the [Preparing the MCDU](preparing-mcdu.md) section, we have a general estimate of 30.5 for our CG.
-
-        The FlyByWire checklist's trim section at the bottom indicates we would need to set a nose up trim of about 0.2.
-
----
-
-## Flight Controls Check
-
-Airlines may perform the flight controls check at different points depending on their SOP. Most notably, the common instances are:
-
-- After completing the AFTER START checklist and before taxi.
-- During taxi out.
-
-### Performing a Flight Controls Check
-
-Using the ECAM control panel, press the `F/CTL` button to switch the lower ECAM to the flight controls. Ensure all flight controls are displayed in green.
-
-The `F/CTL` ECAM page displays a white scale and green index for the following positions:
-
-- Left and right ailerons position
-- Left and right elevator position
-
-Fully deflect the sidestick in all directions and observe that the full range of motion is reflected on the ECAM page. Note the upward arrows in the `SPD BRK` area when moving the ailerons, and ensure those are displayed when deflecting the side stick.
-
-Move the rudders and pay attention to the rudder symbol to ensure it moves all the way to the left or right.
-
-**Sidestick right full deflection:**
-
-![fctl](../assets/beginner-guide/taxi/f-ctl.png){loading=lazy}
 
 ---
 
 ## Taxi
 
-!!! info "Taxi Speed + Engine Thrust"
-    The A32NX is perfectly capable of taxiing with idle thrust and even gradually accelerating. In certain situations, it may be required to provide some thrust to begin rolling.
+Having charts or diagrams of the airport you are currently in will help you navigate efficiently and safely.
+There are many resources and applications available online that are either free or paid which you can use.
 
-    Standard behavior is to allow the aircraft to reach 30kts and apply brakes to 10kts. Repeat as necessary.
-
-Having charts or diagrams of the airport you are currently in will help you navigate efficiently and safely. There are many resources and applications available online that are either free or paid which you can utilize.
-
-For additional information on signs and markings on the ground, please see [General Resources](#general-resources) below.
+For additional information on signs and markings on the ground, please see [General Resources](#general-resources).
 
 ### Taxi Clearance
 
-After having successfully started the engines, we can contact ATC to request taxi clearance. As per our routing in the [Preparing MCDU Guide](03_preparing-fms), we should be expecting a takeoff from runway 30. As such, a sample taxi clearance may be as follows:
+After having successfully started the engines, we can contact ATC to request taxi clearance. As per our routing in the
+[Preparing FMS Guide](03_preparing-fms.md), we should be expecting a takeoff from runway 08L. As such, a sample taxi 
+clearance may be as follows:
 
-"**Your Aircraft Callsign**, ground. Runway 30, taxi via Alpha, hold short of 30 on Alpha 2."
+"**Your Aircraft Callsign**, ground. Runway 08L, taxi via Whiskey 2, hold short of November 3, continue via November 
+to Alpha 3, hold short Alpha 3."
 
-Referencing the airport chart below, the aircraft should be sitting on the Alpha taxiway near the Alpha 3 holding point. Luckily, today our clearance is quite simple, and we only have to taxi straight ahead and hold at Alpha 2.
-
-![airport chart](../assets/beginner-guide/taxi/airport-chart-guidelines.png){loading=lazy}
+Referencing the airport chart below, the aircraft should be sitting near the A3 holding point.
+<p style="color:yellow; font-size:18px;">TODO: optimize image</p>
+![Taxi Chart](../assets/beginner-guide/taxi/airport-chart-guidelines.png){loading=lazy}
 <sub>Copyright © 2021 Navigraph / Jeppesen<br>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."
 
-Make sure to pay attention to any warnings or notices on the respective taxi chart beforehand, so you are aware of any important information while performing your taxi.
+Make sure to pay attention to any warnings or notices on the respective taxi chart beforehand, so you are aware of any 
+important information while performing your taxi.
 
 Once we have the routing from ATC and have read back the taxi clearance, we are now free to taxi to the runway.
 
@@ -394,7 +391,9 @@ When approved to cross a runway (active or not) perform the following actions:
 
 ---
 
+
 ## General Resources
+<p style="color:yellow; font-size:18px;">TODO: maybe move this to a separate page (also for the A32NX bg to avoid duplication </p>
 
 This section provides you with information on understanding the different signs and markings you may see while taxiing at the airport.
 
@@ -446,15 +445,15 @@ There are typically three very important holding position signs / markings that 
 
         ![holding position](https://upload.wikimedia.org/wikipedia/commons/thumb/c/cd/Holding_position_runway.svg/320px-Holding_position_runway.svg.png){loading=lazy}
 
-        <sub> "Holding position markings pattern A ahead of a crossing runway" by Claudius Henrichs [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)
-
+        <sub>"Holding position markings pattern A ahead of a crossing runway" by Claudius Henrichs [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)</sub>
+    
 2. Taxiway Holding Position
     - Single dashed yellow line. If this is present along your taxi route, it will indicate a position that ground control may request you stop and hold short before another taxiway.
 
         ![taxiway hold](../assets/beginner-guide/taxi/taxiway-hold.png){ loading=lazy style="width:320px;height:79px" }
 
 3. ILS Critical Area
-    - Solid yellow lines that look like a railroad or ladder. These are another form of hold short point but indicate a critical area where your aircraft would violate the ILS approach airspace while on the ground.
+    - Solid yellow lines that look like a railroad or ladder. These are another form of hold short point but indicate a critical area Where your aircraft would violate the ILS approach airspace while on the ground.
 
         ![ils critical](../assets/beginner-guide/taxi/ils-critical.png){loading=lazy}
 

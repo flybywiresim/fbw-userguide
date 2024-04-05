@@ -34,7 +34,7 @@ The aircraft is in a cold and dark state at a gate.
 
 ## Pre checks  
 
-??? tip "What and why"
+??? tip "What and Why"
     Before starting the aircraft, we need to ensure that all switches are in the correct position. 
     This is to prevent any damage to the aircraft systems and to ensure that the aircraft is ready for flight.
 
@@ -50,7 +50,7 @@ The aircraft is in a cold and dark state at a gate.
 `GEAR LEVER .......................................................... DOWN`<br/>
 `WIPERS (BOTH) ........................................................ OFF`<br/>
 
-??? tip "How and where"
+??? tip "How and Where"
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
     clickable cockpit that will show you where each item is located.
     
@@ -245,7 +245,7 @@ to the glareshield. At last the lateral consoles are checked and set up.
 `ENGINE STARTER ...................................................... NORM`<br/>
 `APU BLEED ............................................................. ON`<br/>
 ??? note "APU BLEED"
-    It is not recommended to use the auxiliary power unit bleed system if a high pressure ground air unit is connected to 
+    It is not recommended to use the auxiliary power unit bleed system if a high-pressure ground air unit is connected to 
     the aircraft. This can be checked on the bleed page of the system display. If there is pressure in the bleed air 
     system, the high-pressure ground air unit is connected.
 `XBLEED .............................................................. AUTO`<br/>
