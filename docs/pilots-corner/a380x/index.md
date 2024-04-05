@@ -16,7 +16,7 @@ in Microsoft Flight Simulator.
 
 ## Quick Links
 
-[Beginner Guide](a32nx/beginner-guide/overview.md){ .md-button }
+[Beginner Guide](a380x-beginner-guide/overview.md){ .md-button }
 
 [//]: # (TODO)
 <!--
@@ -26,14 +26,14 @@ in Microsoft Flight Simulator.
 
 ##  Topics
 
-| Featured List                                                     |
-|:------------------------------------------------------------------|
-| [Beginner Guide](a32nx/beginner-guide/overview.md)                |
+| Featured List                                        |
+|:-----------------------------------------------------|
+| [Beginner Guide](./a380x-beginner-guide/overview.md) |
+| [Standard Operating Procedures](./a380x-sop.md)      |
 
 [//]: # (TODO)
 <!--
 | [Advanced Guides](a32nx/advanced-guides/overview.md)              |
 | [A320neo Pilot Briefing](a32nx/a32nx-briefing/index.md)           |
-| [Standard Operating Procedures](a32nx/SOP.md)                     |
 | [Airliner Flying Guide](common/airliner-flying-guide/overview.md) |
 -->

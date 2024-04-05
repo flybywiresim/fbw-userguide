@@ -1,0 +1,14 @@
+.md-typeset code {
+    color: #000000;
+    background-color: #ffffff;
+    border-radius: .1rem;
+    -webkit-box-decoration-break: clone;
+    box-decoration-break: clone;
+    font-size: .95em;
+    padding: 0 .2941176471em;
+    word-break: break-word;
+    direction: ltr;
+    font-variant-ligatures: none;
+    font-feature-settings: "kern";
+    font-family: var(--md-code-font-family);
+}

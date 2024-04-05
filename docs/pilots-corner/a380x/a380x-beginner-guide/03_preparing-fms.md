@@ -23,7 +23,7 @@ The simBrief route used in this guide:
 
 Below are a few Prerequisites before programming the MCDU.
 
-Visit [Starting the Aircraft](starting-the-aircraft.md) to learn more.
+Visit [Starting the Aircraft](02_cockpit-preparation) to learn more.
 
 * Make sure the aircraft is powered up.
     * External Power OR APU
@@ -356,7 +356,7 @@ Our departure runway is EDDM/08L (runway 08 left), which has a frequency of `109
 
 ^^Arrival ILS^^
 
-With an ILS or LOC approach selected, the arrival ILS frequency should be automatically tuned correctly whenever the aircraft is at climb phase or greater and within 250 NM of the destination. **Ensure** that we verify the ILS frequency when we reach the arrival phase of the flight - see [Approach and Landing (ILS)](landing.md).
+With an ILS or LOC approach selected, the arrival ILS frequency should be automatically tuned correctly whenever the aircraft is at climb phase or greater and within 250 NM of the destination. **Ensure** that we verify the ILS frequency when we reach the arrival phase of the flight - see [Approach and Landing (ILS)](07_landing).
 
 Remember, our arrival airport/rwy is `EDDF/07L` with ILS07L having a frequency of `110.30`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. There is no need to fill these fields. You could also enter the identifier `IFEL` and it would automatically fill in the frequency. You cannot enter both at the same time, as this would result in a `FORMAT ERROR`. 
 
@@ -552,4 +552,4 @@ This section has been moved to our dedicated [simBrief Integration](../../../air
 
 ---
 
-After setting up the MCDU, continue with [Engine Start and Taxi](engine-start-taxi.md)
+After setting up the MCDU, continue with [Engine Start and Taxi](04_engine-start-taxi)

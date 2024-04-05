@@ -91,7 +91,7 @@
     text-decoration: none;
 }
 .md-typeset code {
-    background-color: hsl(232,7%,28%);
+    background-color: #fff;
     border-radius: .1rem;
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;

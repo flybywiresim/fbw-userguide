@@ -1,5 +1,7 @@
 # Preflight
 
+<p style="color:yellow; font-size:24px;">TODO: Check content</p>
+
 Before you start your flight in earnest, we have included various features in the A32NX that assist in configuring the aircraft and in-flight support. Some of these features require the aircraft to be powered on. Additionally, these guides will be linked in the appropriate locations throughout the beginner guide. 
 
 ---
@@ -34,13 +36,13 @@ If you wish to expedite the process of inputting your flight plan on the MCDU, w
 
 ### Manual Flight Planning
 
-The [Flight Plan Section](preparing-mcdu.md#flight-plan) in the "Preparing the MCDU" guide contains a sample routing to showcase how to input your waypoints, departure SID, and arrival STAR / procedure.
+The [Flight Plan Section](03_preparing-fms#flight-plan) in the "Preparing the MCDU" guide contains a sample routing to showcase how to input your waypoints, departure SID, and arrival STAR / procedure.
 
 ### Flight Plan Discontinuities
 
 When inputting your flight plan into the MCDU, discontinuities appearing is an intended feature. The page below describes how to handle these when encountered during your preflight preparations.
 
-[Flight Plan Discontinuities](preparing-mcdu.md#discontinuity){.md-button}
+[Flight Plan Discontinuities](03_preparing-fms#discontinuity){.md-button}
 
 ## Payload Management
 
@@ -56,4 +58,4 @@ To help with navigation during your flight, our flyPad EFB can connect to your N
 
 This concludes the *Preflight* guide.
 
-Continue with [Starting the Aircraft](starting-the-aircraft.md).
+Continue with [Starting the Aircraft](02_cockpit-preparation).

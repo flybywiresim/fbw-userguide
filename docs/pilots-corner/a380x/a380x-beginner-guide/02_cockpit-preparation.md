@@ -1,0 +1,499 @@
+<link rel="stylesheet" href="/stylesheets/bg.css">
+
+# Starting the Aircraft
+
+This guide will assist you with starting your aircraft. It includes images to assist you with understanding the locations of all buttons and switches.
+
+!!! warning "Disclaimer"
+    The level of detail in this guide is meant to teach a FlyByWire A320neo beginner to start the aircraft correctly.
+
+    A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
+
+    You will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
+    Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
+
+---
+
+## Chapters / Phases
+
+This guide will cover these chapters in order:
+
+1. [Overhead Panel](#overhead-panel)
+2. [Main Panel](#main-panel)
+
+## Prerequisites
+
+The aircraft is in a cold and dark state at a gate.
+
+[Download FlyByWire Checklist](../assets/sop/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf){ .md-button }
+
+## Pre checks  
+
+??? tip "What and why"
+    Before starting the aircraft, we need to ensure that all switches are in the correct position. 
+    This is to prevent any damage to the aircraft systems and to ensure that the aircraft is ready for flight.
+
+    (Of course, this is not an issue in the sim, but in real life it is crucial to check this!)
+
+`ENGINE MASTER SWITCHES (1, 2, 3, 4) .................................. OFF`
+`PARKING BRAKE (OR CHOCKS).............................................. ON`
+`SPEED BRAKE LEVER .............................................. RETRACTED`
+`FLAPS LEVER .................................................... RETRACTED`
+`WEATHER RADAR ........................................................ OFF`
+`ENGINE MODE SELECTOR ................................................ NORM`
+`THRUST LEVERS ....................................................... IDLE`
+`GEAR LEVER .......................................................... DOWN`
+`WIPERS (BOTH) ........................................................ OFF`
+
+??? tip "How and where"
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
+    clickable cockpit that will show you where each item is located.
+    
+    Engine Master
+    <p style="color:yellow; font-size:18px;">TODO: insert image of engine master switches or link to interactive flight deck</p>
+    
+    Parking Brake
+    <p style="color:yellow; font-size:18px;">TODO: insert image of parking brake or link to interactive flight deck</p>
+    
+    Speed Brake Lever
+    <p style="color:yellow; font-size:18px;">TODO: insert image of speed brake lever or link to interactive flight deck</p>
+    
+    Flaps Lever
+    <p style="color:yellow; font-size:18px;">TODO: insert image of flaps lever or link to interactive flight deck</p>
+    
+    Weather Radar
+    <p style="color:yellow; font-size:18px;">TODO: insert image of weather radar or link to interactive flight deck</p>
+    
+    Engine Mode Selector
+    <p style="color:yellow; font-size:18px;">TODO: insert image of engine mode selector or link to interactive flight deck</p>
+    
+    Thrust Levers
+    <p style="color:yellow; font-size:18px;">TODO: insert image of thrust levers or link to interactive flight deck</p>
+    
+    Gear Lever
+    <p style="color:yellow; font-size:18px;">TODO: insert image of gear lever or link to interactive flight deck</p>
+    
+    Wipers
+    <p style="color:yellow; font-size:18px;">TODO: insert image of wipers or link to interactive flight deck</p>
+
+After these Pre-checks, we can start the aircraft starting with the Overhead Panel.
+
+---
+
+## Inital Power Up
+
+??? tip "What and Why?"
+    The initial power up is the first step in starting the aircraft. This is where we turn on the batteries and external 
+    power to provide power to the aircraft systems.
+
+    The batteries are the primary source of power for the aircraft. The external power is used to provide power to the
+    aircraft systems when the engines are not running.
+
+
+`ENGINES MASTER SWITCHES (1, 2, 3, 4) ................................. OFF`
+`BATTERIES (BAT 1, BAT 2) .............................................. ON`
+`EXTERNAL POWER (2, 3, 1, 4) ........................................... ON`
+`COCKPIT LIGHTING ............................................. AS REQUIRED`
+
+??? tip "How and Where?"
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
+    clickable cockpit that will show you where each item is located.
+    
+    Engine Master
+    <p style="color:yellow; font-size:18px;">TODO: insert image of engine master switches or link to interactive flight deck</p>
+    
+    Batteries
+    <p style="color:yellow; font-size:18px;">TODO: insert image of batteries or link to interactive flight deck</p>
+    
+    External Power
+    <p style="color:yellow; font-size:18px;">TODO: insert image of external power or link to interactive flight deck</p>
+    
+    Cockpit Lighting
+    <p style="color:yellow; font-size:18px;">TODO: insert image of cockpit lighting or link to interactive flight deck</p>
+
+## Fire Tests and APU Startup
+
+??? tip "What and Why?"
+    The fire tests are done to ensure that the fire detection system is working correctly. The APU startup is done to provide
+    power and bleed air to the aircraft systems when the engines are not running.
+
+    Turning on and setting up the radios at this point is also important in case ofg any emergencies.
+
+`RMP 1 and 2 ........................................................... ON`
+`STANDBY RADIO NAVIGATION ............................................. OFF`
+`COMMUNICATION FREQUENCIES ........................................... TUNE`
+`INTERPHONE RECEPTION ...................................... RELEASE/ADJUST`
+`APU FIRE ............................................ CHECK IN and GUARDED`
+`APU AGENT ............................................................ OFF`
+`ENGINE 1/2/3/4 FIRE.................................. CHECK IN and GUARDED`
+`ENGINE 1/2/3/4 AGENT 1 and 2 ......................................... OFF`
+`FIRE TEST .......................................................... PRESS`
+??? note "Fire Test Result"
+    Verify that the fire detection systems and extinguishing systems are functional by checking the following items: 
+    a constant repetitive chime sound, the master warning light flashes on the glareshield, the ECAM displays the engine 
+    fire alert messages (ENG 1(2)(3)(4) FIRE, APU FIRE, MLG BAY FIRE), All engine fire pushbutton and the auxiliary power 
+    unit fire pushbutton displays in red, the squib light of the engine and apu agent pushbuttons are illuminated, the disch 
+    light of the engine and auxiliary power unit agent pushbuttom illuminates and all fire lights on the engine master panel 
+    illuminates.
+`APU MASTER SWITCH ..................................................... ON`
+`APU START ............................................................. ON`
+`EXTERNAL POWER .................................................... AS REQ`
+??? note "External Power"
+    It is recommended to keep the external power units to ON to reduce the APU load in hot weather conditions.
+
+??? tip "How and Where?"
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
+    clickable cockpit that will show you where each item is located.
+    
+    RMP 1 and 2
+    <p style="color:yellow; font-size:18px;">TODO: insert image of RMP 1 and 2 or link to interactive flight deck</p>
+    
+    Standby Radio Navigation
+    <p style="color:yellow; font-size:18px;">TODO: insert image of Standby Radio Navigation or link to interactive flight deck</p>
+    
+    Communication Frequencies
+    <p style="color:yellow; font-size:18px;">TODO: insert image of Communication Frequencies or link to interactive flight deck</p>
+    
+    Interphone Reception
+    <p style="color:yellow; font-size:18px;">TODO: insert image of Interphone Reception or link to interactive flight deck</p>
+    
+    APU Fire
+    <p style="color:yellow; font-size:18px;">TODO: insert image of APU Fire or link to interactive flight deck</p>
+    
+    APU Agent
+    <p style="color:yellow; font-size:18px;">TODO: insert image of APU Agent or link to interactive flight deck</p>
+    
+    Engine 1/2/3/4 Fire
+    <p style="color:yellow; font-size:18px;">TODO: insert image of Engine 1/2/3/4 Fire or link to interactive flight deck</p>
+    
+    Engine 1/2/3/4 Agent 1 and 2
+    <p style="color:yellow; font-size:18px;">TODO: insert image of Engine 1/2/3/4 Agent 1 and 2 or link to interactive flight deck</p>
+    
+    Fire Test
+    <p style="color:yellow; font-size:18px;">TODO: insert image of Fire Test or link to interactive flight deck</p>
+    
+    APU Master Switch
+    <p style="color:yellow; font-size:18px;">TODO: insert image of APU Master Switch or link to interactive flight deck</p>
+    
+    APU Start
+    <p style="color:yellow; font-size:18px;">TODO: insert image of APU Start or link to interactive flight deck</p>
+
+## Cockpit Preparation Flow
+
+<p style="color:yellow; font-size:18px;">TODO: Improve description and check with pilots</p>
+
+The cockpit preparation flow is an easy way to remember the steps to startup and setup the aircraft correctly.
+It follows a flow starting on the overhead panel on the left buttom moving up and then to the right.
+Then it continues the flow on the main panel starting and moving to the pedestal, setting up the FMS to then continue
+to the glareshield. At last the lateral consoles are checked and set up.
+
+<p style="color:yellow; font-size:18px;">TODO: insert image showing the setup flow.</p>
+
+## Overhead Panel
+
+??? tip "What and Why?"
+    We scan the overhead panel from left to right and bottom to top to ensure that all switches are in the correct position.
+
+### Overhead Panel Left (bottom to top)
+`ALL WHITE LIGHTS ..................................................... OFF`
+`RECORDER GROUND CTL ................................................... ON`
+`EVAC CAPT/CAPT & PURS ............................................... CAPT`
+`PROBE & WINDOW HEAT ................................................. AUTO`
+`ADIRS ALL IR MODE .................................................... NAV`
+??? note "ADIRS Alignment"
+    It is recommended to align the inertial references as soon as possible. The initialization may take some time. 
+    It is also recommended to complete a full alignment if this is the first flight of the day, the flight crew has 
+    changed, the GPS is not available to all segment in the flights, or that the pilot expects long segments with low 
+    NAVAID coverage. It is recommended to perform a fast alignment for all other flight conditions.
+`EMERGENCY LOCATOR TRANSMITTER (ELT) ................................ ARMED`
+
+??? tip "How and Where?"
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
+    clickable cockpit that will show you where each item is located.
+    
+    All White Lights
+    <p style="color:yellow; font-size:18px;">TODO: insert image of all white lights or link to interactive flight deck</p>
+    
+    Recorder Ground Control
+    <p style="color:yellow; font-size:18px;">TODO: insert image of recorder ground control or link to interactive flight deck</p>
+    
+    Evac Capt/Capt & Purs
+    <p style="color:yellow; font-size:18px;">TODO: insert image of evac capt/capt & purs or link to interactive flight deck</p>
+    
+    Probe & Window Heat
+    <p style="color:yellow; font-size:18px;">TODO: insert image of probe & window heat or link to interactive flight deck</p>
+    
+    ADIRS All IR Mode
+    <p style="color:yellow; font-size:18px;">TODO: insert image of ADIRS all IR mode or link to interactive flight deck</p>
+    
+    Emergency Locator Transmitter
+    <p style="color:yellow; font-size:18px;">TODO: insert image of emergency locator transmitter or link to interactive flight deck</p>
+
+### Overhead Panel Center (bottom to top)
+`STROBE .............................................................. AUTO`
+`BEACON ............................................................... OFF`
+`NAV ....... ........................................................... ON`
+`REMAINING EXTERIOR LIGHTS .....................................AS REQUIRED`
+`SEAT BELTS ............................................................ ON`
+`NO SMOKING .......................................................... AUTO`
+`EMERGENCY EXIT LIGHTS ................................................ ARM`
+`ENGINE STARTER ...................................................... NORM`
+`APU BLEED ............................................................. ON`
+??? note "APU BLEED"
+    It is not recommended to use the auxiliary power unit bleed system if a high pressure ground air unit is connected to 
+    the aircraft. This can be checked on the bleed page of the system display. If there is pressure in the bleed air 
+    system, the high-pressure ground air unit is connected.
+`XBLEED .............................................................. AUTO`
+`AIR FLOW ............................................................ NORM`
+??? note "AIR FLOW"
+    The bleed system works with the flight management system.  If there is no number of passengers entered into the 
+    flight-management-system, the airflow will be automatically set the air flow like when the value entered is the maximum 
+    number of passengers. If the number of passengers is entered, the airflow will automatically adjust to that number.
+`CKPT ......................................................... AS REQUIRED`
+`CABIN ........................................................... PURS SEL`
+`TRIM TK FEED ........................................................ AUTO`
+`MAINTENANCE PANEL ALL LIGHTS.......................................... OFF`
+
+??? tip "How and Where?"
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
+    clickable cockpit that will show you where each item is located.
+    
+    Strobe
+    <p style="color:yellow; font-size:18px;">TODO: insert image of strobe or link to interactive flight deck</p>
+    
+    Beacon
+    <p style="color:yellow; font-size:18px;">TODO: insert image of beacon or link to interactive flight deck</p>
+    
+    Nav
+    <p style="color:yellow; font-size:18px;">TODO: insert image of nav or link to interactive flight deck</p>
+    
+    Remaining Exterior Lights
+    <p style="color:yellow; font-size:18px;">TODO: insert image of remaining exterior lights or link to interactive flight deck</p>
+    
+    Seat Belts
+    <p style="color:yellow; font-size:18px;">TODO: insert image of seat belts or link to interactive flight deck</p>
+    
+    No Smoking
+    <p style="color:yellow; font-size:18px;">TODO: insert image of no smoking or link to interactive flight deck</p>
+    
+    Emergency Exit Lights
+    <p style="color:yellow; font-size:18px;">TODO: insert image of emergency exit lights or link to interactive flight deck</p>
+    
+    Engine Starter
+    <p style="color:yellow; font-size:18px;">TODO: insert image of engine starter or link to interactive flight deck</p>
+    
+    APU Bleed
+    <p style="color:yellow; font-size:18px;">TODO: insert image of APU Bleed or link to interactive flight deck</p>
+    
+    Xbleed
+    <p style="color:yellow; font-size:18px;">TODO: insert image of xbleed or link to interactive flight deck</p>
+    
+    Air Flow
+    <p style="color:yellow; font-size:18px;">TODO: insert image of air flow or link to interactive flight deck</p>
+    
+    CKPT
+    <p style="color:yellow; font-size:18px;">TODO: insert image of ckpt or link to interactive flight deck</p>
+    
+    Cabin
+    <p style="color:yellow; font-size:18px;">TODO: insert image of cabin or link
+
+    Trim TK Feed
+    <p style="color:yellow; font-size:18px;">TODO: insert image of trim tk feed or link to interactive flight deck</p>
+
+    Maintenance Panel All Lights
+    <p style="color:yellow; font-size:18px;">TODO: insert image of maintenance panel all lights or link to interactive flight deck</p>
+
+### Overhead Panel Right (bottom to top)
+`CARGO AIR COND ............................................... AS REQUIRED`
+`RADIO MANAGEMENT PANEL 3 .............................................. ON`
+`STBY RAD NAV ......................................................... OFF`
+`CVR TEST ........................................................... PRESS`
+
+??? tip "How and Where?"
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
+    clickable cockpit that will show you where each item is located.
+    
+    Cargo Air Cond
+    <p style="color:yellow; font-size:18px;">TODO: insert image of cargo air cond or link to interactive flight deck</p>
+    
+    Radio Management Panel 3
+    <p style="color:yellow; font-size:18px;">TODO: insert image of radio management panel 3 or link to interactive flight deck</p>
+    
+    Standby Radio Navigation
+    <p style="color:yellow; font-size:18px;">TODO: insert image of standby radio navigation or link to interactive flight deck</p>
+    
+    CVR Test
+    <p style="color:yellow; font-size:18px;">TODO: insert image of CVR Test or link to interactive flight deck</p>
+
+### Main Instrument Panel
+`SWITCHING PANEL ..................................................... NORM`
+`INTEGRATED STANDBY INSTRUMENT SYSTEM ............................... CHECK`
+`LANDING GEAR GRAVITY SYSTEM .......................................... OFF`
+`CLOCK ...........................................CHECK and SET AS REQUIRED`
+`ANTI AKID (A-SKID) ................................................... ON`
+
+??? tip "How and Where?"
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
+    clickable cockpit that will show you where each item is located.
+    
+    Switching Panel
+    <p style="color:yellow; font-size:18px;">TODO: insert image of switching panel or link to interactive flight deck</p>
+    
+    Integrated Standby Instrument System
+    <p style="color:yellow; font-size:18px;">TODO: insert image of integrated standby instrument system or link to interactive flight deck</p>
+    
+    Landing Gear Gravity System
+    <p style="color:yellow; font-size:18px;">TODO: insert image of landing gear gravity system or link to interactive flight deck</p>
+    
+    Clock
+    <p style="color:yellow; font-size:18px;">TODO: insert image of clock or link to interactive flight deck</p>
+    
+    Anti Akid (A-Skid)
+    <p style="color:yellow; font-size:18px;">TODO: insert image of anti akid (a-skid) or link to interactive flight deck</p>
+
+### Pedestal
+`PARKING BRAKE ........................................................ ON`
+`BODY ACCUMULATOR PRESSURE ............................... CHECK/REINFLATE`
+`THRUST LEVERS ...................................................... IDLE`
+`THRUST REVERSE LEVERS ............................................ STOWED`
+`ENGINE MASTER SWITCHES (1, 2, 3, 4) ................................. OFF`
+`COCKPIT DOOR SWITCH ................................................ NORM`
+`ATC CLEARANCE .....................................................OBTAIN`
+??? note "ATC Clearance"
+    <p style="color:yellow; font-size:24px;">TODO: Improve.</p>
+    It is recommended to obtain the ATC clearance before starting the engines.
+`NAVIGATION CHARTS ............................................... PREPARE`
+`MFD SURVEILLANCE DEFAULT SETTINGS................................. SELECT`
+??? note "MFD Default Settings"
+    Verify on the multi function display surveillance control page that the transponder is set to AUTO, the squawk code 
+    is the same, the TCAS is set to TA/RA and Norm, all TAWS modes are ON, and the weather radar is set to AUTO, the 
+    elevation/tilt to AUTO, Mode set to WX, TURB set to AUTO, GAIN set to AUTO, WX ON VD set to ON and PRED W/S to AUTO)
+
+??? tip "How and Where?"
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
+    clickable cockpit that will show you where each item is located.
+    
+    Parking Brake
+    <p style="color:yellow; font-size:18px;">TODO: insert image of parking brake or link to interactive flight deck</p>
+    
+    Body Accumulator Pressure
+    <p style="color:yellow; font-size:18px;">TODO: insert image of body accumulator pressure or link to interactive flight deck</p>
+    
+    Thrust Levers
+    <p style="color:yellow; font-size:18px;">TODO: insert image of thrust levers or link to interactive flight deck</p>
+    
+    Thrust Reverse Levers
+    <p style="color:yellow; font-size:18px;">TODO: insert image of thrust reverse levers or link to interactive flight deck</p>
+    
+    Engine Master Switches
+    <p style="color:yellow; font-size:18px;">TODO: insert image of engine master switches or link to interactive flight deck</p>
+    
+    Cockpit Door Switch
+    <p style="color:yellow; font-size:18px;">TODO: insert image of cockpit door switch or link to interactive flight deck</p>
+    
+    ATC Clearance
+    <p style="color:yellow; font-size:18px;">TODO: insert image of ATC clearance or link to interactive flight deck</p>
+    
+    Navigation Charts
+    <p style="color:yellow; font-size:18px;">TODO: insert image of navigation charts or link to interactive flight deck</p>
+    
+    MFD Surveillance Default Settings
+    <p style="color:yellow; font-size:18px;">TODO: insert image of MFD surveillance default settings or link to interactive flight deck</p>
+
+At this point, the Flight Management System (FMS) should be initialized. 
+See [Preparing the MFD](03_preparing-fms) for more information.
+
+### Glareshield
+`INTEGRAL LIGHTS ............................................. AS REQUIRED`
+`BAROMETRIC REFERENCE ................................................ SET`
+`NAVIGATION DISPLAY (ND) MODE AND RANGE ........................... AS REQ`
+`WEATHER RADAR ............................................... AS REQUIRED`
+`OTHER EFIS OPTIONS .......................................... AS REQUIRED`
+`FLIGHT DIRECTOR ...................................................... ON`
+`NORTH REF ........................................................... MAG`
+??? note "North Reference"
+    It is recommended to ensure that the “TRUE” message does not appear on the primary flight display or on the HDG/TRK 
+    display.
+`SPD/MACH, HDG / TRK, V/S / FPA display ........................... DASHED`
+`ALTITUDE display .................... INITIAL EXPECTED CLEARANCE ALTITUDE`
+`AUTO FLIGHT SYSTEM CONTROL PANEL ............................. CROSSCHECK`
+
+??? tip "How and Where?"
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
+    clickable cockpit that will show you where each item is located.
+    
+    Integral Lights
+    <p style="color:yellow; font-size:18px;">TODO: insert image of integral lights or link to interactive flight deck</p>
+    
+    Barometric Reference
+    <p style="color:yellow; font-size:18px;">TODO: insert image of barometric reference or link to interactive flight deck</p>
+    
+    Navigation Display (ND) Mode and Range
+    <p style="color:yellow; font-size:18px;">TODO: insert image of navigation display (ND) mode and range or link to interactive flight deck</p>
+    
+    Weather Radar
+    <p style="color:yellow; font-size:18px;">TODO: insert image of weather radar or link to interactive flight deck</p>
+    
+    Other EFIS Options
+    <p style="color:yellow; font-size:18px;">TODO: insert image of other EFIS options or link to interactive flight deck</p>
+    
+    Flight Director
+    <p style="color:yellow; font-size:18px;">TODO: insert image of flight director or link to interactive flight deck</p>
+    
+    North Reference
+    <p style="color:yellow; font-size:18px;">TODO: insert image of north reference or link to interactive flight deck</p>
+    
+    SPD/MACH, HDG / TRK, V/S / FPA display
+    <p style="color:yellow; font-size:18px;">TODO: insert image of SPD/MACH, HDG / TRK, V/S / FPA display or link to interactive flight deck</p>
+    
+    Altitude Display
+    <p style="color:yellow; font-size:18px;">TODO: insert image of altitude display or link to interactive flight deck</p>
+    
+    Auto Flight System Control Panel
+    <p style="color:yellow; font-size:18px;">TODO: insert image of auto flight system control panel or link to interactive flight deck</p>
+
+### Lateral Consoles
+`OXYGEN MASKS TEST ............................................... PERFORM`
+`DOOR SD PAGE REGUL PR LO indication ................. CHECK NOT DISPLAYED`
+`SLIDING WINDOWS LOCKED .................................... CLOSED/LOCKED`
+
+??? tip "How and Where?"
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a 
+    clickable cockpit that will show you where each item is located.
+    
+    Oxygen Masks Test
+    <p style="color:yellow; font-size:18px;">TODO: insert image of oxygen masks test or link to interactive flight deck</p>
+    
+    Door SD Page Regul PR LO Indication
+    <p style="color:yellow; font-size:18px;">TODO: insert image of door SD page regul PR LO indication or link to interactive flight deck</p>
+    
+    Sliding Windows Locked
+    <p style="color:yellow; font-size:18px;">TODO: insert image of sliding windows locked or link to interactive flight deck</p>
+
+### Pilot Briefing
+As the last step the pilots would conduct the takeoff briefing:
+
+`TAKE OFF BRIEFING ............................................... PERFORM`
+
+??? tip "How and Where?"
+    Take Off Briefing
+    <p style="color:yellow; font-size:18px;">TODO: describe briefing</p>
+
+---
+
+This concludes the *Starting the Aircraft* guide.
+
+Continue with [Preparing the FMS](03_preparing-fms).
+
+
+
+
+
+
+
+
+
+
+
+
+

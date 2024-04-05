@@ -107,7 +107,7 @@ This concludes *After Landing*
 
 **Taxiing**
 
-Make sure to also read the Taxi section of the [Engine Start and Taxi](engine-start-taxi.md#taxi) chapter.
+Make sure to also read the Taxi section of the [Engine Start and Taxi](04_engine-start-taxi#taxi) chapter.
 
 Use your charts to follow the ATC taxi instructions to the designated gate.
 
@@ -131,4 +131,4 @@ When approved to cross a runway (active or not) perform the following actions:
 
 This concludes *Taxi to Gate*
 
-Continue with [Powering Down](powering-down.md)
+Continue with [Powering Down](09_powering-down)

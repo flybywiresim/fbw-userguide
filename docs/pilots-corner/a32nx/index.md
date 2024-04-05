@@ -22,10 +22,10 @@ especially the Airbus A320neo.
 
 ##  Topics
 
-| Featured List                                              |
-|:-----------------------------------------------------------|
-| [Beginner Guide](a32nx/beginner-guide/overview.md)               |
-| [Advanced Guides](a32nx/advanced-guides/overview.md)             |
-| [A320neo Pilot Briefing](a32nx/a32nx-briefing/index.md)          |
-| [Standard Operating Procedures](a32nx/SOP.md)                    |
+| Featured List                                                     |
+|:------------------------------------------------------------------|
+| [Beginner Guide](a32nx/beginner-guide/overview.md)                |
+| [Advanced Guides](a32nx/advanced-guides/overview.md)              |
+| [A320neo Pilot Briefing](a32nx/a32nx-briefing/index.md)           |
+| [Standard Operating Procedures](a32nx/a32nx-sop.md)               |
 | [Airliner Flying Guide](common/airliner-flying-guide/overview.md) |

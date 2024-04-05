@@ -67,7 +67,7 @@ The A320's __Autopilot__ system works a bit differently from other manufacturer'
         ![Pulling a knob in MSFS](../assets/beginner-guide/takeoff-climb-cruise/Pulling-knob.png "Pulling a knob in MSFS"){loading=lazy}
 
 - __Flight phases__<br/>
-The A320 uses flight phases to manage different parts of a flight. These are preflight, takeoff, climb, cruise, descent, approach, go around, done. They match the PERF pages in the MCDU (see [Preparing the MCDU](preparing-mcdu.md)).
+The A320 uses flight phases to manage different parts of a flight. These are preflight, takeoff, climb, cruise, descent, approach, go around, done. They match the PERF pages in the MCDU (see [Preparing the MCDU](03_preparing-fms)).
 
 - __Protections__<br/>
 The A320 includes many protections for the pilot, which make it nearly impossible to stall or overspeed the aircraft. It's beyond this beginner-guide to go into details (Normal law, Alternate Law, ...)
@@ -430,4 +430,4 @@ Descent, Approach, and Landing will be covered in later chapters of this beginne
 
 This concludes the *Cruise*.
 
-Continue with [Descent Planning and Descent](descent.md)
+Continue with [Descent Planning and Descent](06_descent)

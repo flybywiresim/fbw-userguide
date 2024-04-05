@@ -5,6 +5,8 @@ description: The A32NX Beginner Guide teaches users how to operate and fly the F
 
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
 
+<p style="color:yellow; font-size:24px;">TODO: Re-write the bg for A380X</p>
+
 # Overview
 
 Welcome to the A32NX Beginner's Guide. Although this guide is tailored towards beginners, each topic below may even serve as reminders of proper procedure at different stages of flight for veteran sim pilots.
@@ -13,29 +15,33 @@ Each page was reviewed by an A320 type rated pilot and provides accurate informa
 
 {--
 
-The [Preflight](preflight.md) page contains guides on how to set up relevant data and configurations before starting your flight. We recommend starting there.
+The [Preflight](01_preflight) page contains guides on how to set up relevant data and configurations before starting your flight. We recommend starting there.
 
 --}
 
 !!! info "Airline SOP"
     Please be aware that different airlines may have slightly different procedures at different stages of flight.
 
-**For Simulation Use Only**
+<p style="color:coral; font-size:24px;">This is for simulation purposes only.</p>
 
 ---
 
-| Topics                                               |
-|:-----------------------------------------------------|
-| [Preflight](preflight.md)                            |
-| [Starting the Aircraft](starting-the-aircraft.md)    |
-| [Preparing the MCDU](preparing-mcdu.md)              |
-| [Engine Start and Taxi](engine-start-taxi.md)        |
-| [Takeoff, Climb, and Cruise](takeoff-climb-cruise.md) |
-| [Descent Planning and Descent](descent.md)           |
-| [Approach and ILS Landing](landing.md)               |
-| [After Landing and Taxi to Gate](after-landing.md)   |
-| [Powering Down](powering-down.md)                    |
-| [Abbreviations](../../airliner/abbreviations.md)                 |
+| Chapter | Topics                                                |
+|:-------:|:------------------------------------------------------|
+|   1.    | [Preflight](01_preflight)                             |
+|   2.    | [Starting the Aircraft](02_cockpit-preparation)     |
+|   3.    | [Preparing the MCDU](03_preparing-fms)               |
+|   4.    | [Engine Start and Taxi](04_engine-start-taxi)         |
+|   5.    | [Takeoff, Climb, and Cruise](05_takeoff-climb-cruise) |
+|   6.    | [Descent Planning and Descent](06_descent)            |
+|   7.    | [Approach and ILS Landing](07_landing)                |
+|   8.    | [After Landing and Taxi to Gate](08_after-landing)    |
+|   9.    | [Powering Down](09_powering-down)                     |
+
+| Related Topics                                                            |
+|:--------------------------------------------------------------------------|
+| [Airliner Flying Guide](../../airliner/airliner-flying-guide/overview.md) |                                             |
+| [Abbreviations](../../airliner/abbreviations.md)                          |
 
 ---
 

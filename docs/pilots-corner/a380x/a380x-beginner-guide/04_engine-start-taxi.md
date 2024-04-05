@@ -247,7 +247,7 @@ For additional information on signs and markings on the ground, please see [Gene
 
 ### Taxi Clearance
 
-After having successfully started the engines, we can contact ATC to request taxi clearance. As per our routing in the [Preparing MCDU Guide](preparing-mcdu.md), we should be expecting a takeoff from runway 30. As such, a sample taxi clearance may be as follows:
+After having successfully started the engines, we can contact ATC to request taxi clearance. As per our routing in the [Preparing MCDU Guide](03_preparing-fms), we should be expecting a takeoff from runway 30. As such, a sample taxi clearance may be as follows:
 
 "**Your Aircraft Callsign**, ground. Runway 30, taxi via Alpha, hold short of 30 on Alpha 2."
 
@@ -321,7 +321,7 @@ Perform the following:
 - HDG ON FCU - `If Required, Preset`
     - If ATC requires a specific heading after takeoff, preset the heading on the FCU. NAV mode will be disarmed and RWY TRK mode will keep the aircraft on the runway track.
 
-This is the FCU (more details are provided in the [Take off, Climb, and Cruise Guide](takeoff-climb-cruise.md)):
+This is the FCU (more details are provided in the [Take off, Climb, and Cruise Guide](05_takeoff-climb-cruise)):
 ![FCU](../assets/beginner-guide/taxi/FCU.png "FCU"){loading=lazy}
 
 - BOTH FD (*flight directors*) - `Check on`
@@ -346,7 +346,7 @@ The weather panel is located on the bottom left of the lower pedestal and looks 
 ![Auto Brake](../assets/beginner-guide/taxi/auto-brk.png "Auto Brake"){loading=lazy}
 
 !!! info "Getting Ready for Take off"
-    At this point in the guide, you should have performed many of the essential flow items before you line up at the runway. The next guide [Take off, Climb, and Cruise](takeoff-climb-cruise.md) will instruct you on performing your final checks and before take off checklist.
+    At this point in the guide, you should have performed many of the essential flow items before you line up at the runway. The next guide [Take off, Climb, and Cruise](05_takeoff-climb-cruise) will instruct you on performing your final checks and before take off checklist.
 
 **For additional information:** See the sections below for extended taxi information, and visit the [General Resources Section](#general-resources) on this page to help you understand the different signs and elements found on the ground at an airport.
 
@@ -475,5 +475,5 @@ There are usually two types of lighting on taxiways - centerline and edge. Depen
 
 This concludes the *Taxi*.
 
-Continue with [Takeoff, climb and cruise](takeoff-climb-cruise.md)
+Continue with [Takeoff, climb and cruise](05_takeoff-climb-cruise)
 
