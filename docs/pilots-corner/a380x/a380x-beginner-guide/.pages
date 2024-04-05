@@ -8,7 +8,7 @@ nav:
     - Overview: overview.md
     - Preflight: 01_preflight.md
     - Cockpit Preparation: 02_cockpit-preparation.md
-    #- 03_preparing-mcdu.md
+    - Preparing FMS: 03_preparing-fms.md
     #- 04_engine-start-taxi.md
     #- 05_takeoff-climb-cruise.md
     #- 06_descent.md

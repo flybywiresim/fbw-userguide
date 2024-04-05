@@ -2,7 +2,8 @@
 
 # Starting the Aircraft
 
-This guide will assist you with starting your aircraft. It includes images to assist you with understanding the locations of all buttons and switches.
+This guide will help you with starting your aircraft. 
+It includes images to help you understand the locations of all buttons and switches.
 
 !!! warning "Disclaimer"
     The level of detail in this guide is meant to teach an Airbus A380 beginner to start the aircraft correctly.
@@ -12,6 +13,9 @@ This guide will assist you with starting your aircraft. It includes images to as
 
     This guide simplifies the process of starting the aircraft to accomodate beginners and the fact that this is a 
     simulation. More advanced sim pilots can use the [A380X SOP](../a380x-sop.md) directly. 
+
+    When this guide refers to ATC it is referring to any Online ATC network but **NOT** the built-in ATC in the 
+    simulator as this is very unrealistic and unreliable.
     
 ---
 

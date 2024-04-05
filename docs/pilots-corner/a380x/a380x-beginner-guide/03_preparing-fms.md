@@ -1,27 +1,34 @@
 # Preparing the MCDU
 
-This guide will help you prepare the MCDU in the A32NX for your departure. It includes a simple route that you can use to follow along easily and replicate in the simulator.
+This guide will help you prepare the Flight Management System in the A380X for your departure. 
+It includes a simple route that you can use to follow along easily and replicate in the simulator.
 
 !!! warning "Disclaimer"
-    The level of detail in this guide is meant to provide a FlyByWire A320neo beginner the ability to adequately program the MCDU to conduct and complete a flight.
+    The level of detail in this guide is meant to teach an Airbus A380 beginner to start the aircraft correctly.
 
-    A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
+    A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation 
+    terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
 
-    You will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
-    Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists){target=new}
+    This guide simplifies the process of starting the aircraft to accomodate beginners and the fact that this is a 
+    simulation. More advanced sim pilots can use the [A380X SOP](../a380x-sop.md) directly. 
+
+    When this guide refers to ATC it is referring to any Online ATC network but **NOT** the built-in ATC in the 
+    simulator as this is very unrealistic and unreliable.
 
 The simBrief route used in this guide:
 
-!!! tip "AIRAC Updates"
-    Please note, we may update this OFP and guide from occasionally to ensure it is current with the latest AIRAC provided by the simulator or external navdata.
-
+<p style="color:yellow; font-size:18px;">TODO: update/insert downloadable OFP</p>
 [Download simBrief OFP](../assets/beginner-guide/mcdu/sample-ofp.pdf){ .md-button }
+
+!!! tip "AIRAC Updates"
+    Please note, we may update this OFP and guide from occasionally to ensure it is current with the latest AIRAC 
+    provided by the simulator or external nav-data.
 
 ---
 
 ## Prerequisites
 
-Below are a few Prerequisites before programming the MCDU.
+Below are a few Prerequisites before starting programming the FMS.
 
 Visit [Starting the Aircraft](02_cockpit-preparation) to learn more.
 
@@ -31,8 +38,9 @@ Visit [Starting the Aircraft](02_cockpit-preparation) to learn more.
 * Have a valid flight plan.
 * Ensure IFR clearance has been obtained.
 
-!!! info "Requesting IFR Clearance"
-    Before departing for the flight, we must obtain an IFR clearance from ATC. The clearance may be obtained from clearance delivery or another specific frequency, depending on the airport and available services.
+!!! info "Requesting IFR Clearance when using an Online ATC Network"
+    Before departing for the flight, we must obtain an IFR clearance from ATC. The clearance may be obtained from 
+    clearance delivery or another specific frequency, depending on the airport and available services.
 
     If you are not flying on a network and are using the built-in ATC menu, simply find the appropriate selection in the menu and request for IFR clearance.
 
@@ -45,15 +53,19 @@ Visit [Starting the Aircraft](02_cockpit-preparation) to learn more.
     - [Transponder/squawk code](#entering-squawk-code).
     - Departure frequency.
 
-    Additional reading material: [The CRAFT mnemonic](https://en.wikipedia.org/wiki/CRAFT_(aviation))
+    Additional reading material: [The CRAFT mnemonic](https://en.wikipedia.org/wiki/CRAFT_(aviation)){target=new}
 
 ---
 
-## Chapters / Phases
+## FMS-Setup - Chapters
+
+<p style="color:yellow; font-size:18px;">TODO: describe the MFD, FMS and the process for setting it up.</p>
+
+<!--
 
 This guide will cover the following topics:
 
-1. [Understanding the MCDU](#understanding-the-mcdu)
+1. [Understanding the FMS](#understanding-the-FMS)
 2. [MCDU Programming](#mcdu-programming)
     - [**^^D^^**ATA](#data)
     - [**^^I^^**NIT A](#init-a)
@@ -67,7 +79,7 @@ This guide will cover the following topics:
 
 ---
 
-## Understanding the MCDU
+## Understanding the FMS
 
 During this guide we will be referring to a few key terms which are defined below.
 
@@ -326,7 +338,6 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
 !!! info "Viewing Flight Plan on ND"
     We can also verify the route looks correct by selecting `Plan` on the EFIS control panel and watching the ND as we scroll through.
 
-<!-- TODO: Update when Secondary F-PLAN is available -->
 ### **^^S^^**ECONDARY FLIGHT PLAN
 
 This page allows us to input a secondary flight plan. This page is currently inoperable in the A32NX. We will update this portion of the guide when it is usable.
@@ -544,9 +555,13 @@ To enter your assigned code find the ATC/TCAS Panel on the bottom right portion 
 - To clear the current code, **double press** the `CLR` button.
 - Enter your assigned code using the keypad.
 
+-->
+
 ---
 
-## A32NX simBrief Integration
+## A380X simBrief Integration
+
+<p style="color:yellow; font-size:18px;">TODO: update/complete this</p>
 
 This section has been moved to our dedicated [simBrief Integration](../../../aircraft/a32nx/feature-guides/simbrief.md#importing-the-simbrief-ofp-to-the-fms-mcdu) feature guide.
 
