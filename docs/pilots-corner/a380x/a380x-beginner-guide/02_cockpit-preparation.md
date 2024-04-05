@@ -76,7 +76,7 @@ The aircraft is in a cold and dark state at a gate.
     Wipers
     <p style="color:yellow; font-size:18px;">TODO: insert image of wipers or link to interactive flight deck</p>
 
-After these Pre-checks, we can start the aircraft starting with the Overhead Panel.
+After these Pre-checks, we can start the aircraft starting with the initial power up.
 
 ---
 

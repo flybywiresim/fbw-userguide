@@ -7,7 +7,7 @@ title: Beginner Guide
 nav:
     - Overview: overview.md
     - Preflight: 01_preflight.md
-    - Cockpit Preparation: 02_starting-the-aircraft.md
+    - Cockpit Preparation: 02_cockpit-preparation.md
     #- 03_preparing-mcdu.md
     #- 04_engine-start-taxi.md
     #- 05_takeoff-climb-cruise.md
