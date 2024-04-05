@@ -30,23 +30,23 @@ The aircraft is in a cold and dark state at a gate.
 To start off, we will begin by doing a few pre-checks in all areas of the cockpit to ensure the aircraft is in a 
 normal position before turning on the batteries.
 
-We begin by looking down at the [**bottom pedestal**](../a32nx-briefing/flight-deck/index.md).
+We begin by looking down at the [**bottom pedestal**](../a380x-briefing/flight-deck/index.md).
 
-- Place the [Parking Brake](../a32nx-briefing/flight-deck/pedestal/parking-brake.md) handle in the `ON` position
-- Ensure the [Speed Brakes](../a32nx-briefing/flight-deck/pedestal/speedbrake.md) have been disarmed/retracted
-- [Flaps](../a32nx-briefing/flight-deck/pedestal/flaps.md) are retracted
-- [Weather Radar](../a32nx-briefing/flight-deck/pedestal/radar.md) is switched off
-- [Engine Masters 1 and 2](../a32nx-briefing/flight-deck/pedestal/engine.md) are in the `OFF` position
-- [Engine Mode](../a32nx-briefing/flight-deck/pedestal/engine.md) selector is set to `NORM`
-- [Thrust Levers](../a32nx-briefing/flight-deck/pedestal/thrust-pitch-trim.md) are idle
+- Place the [Parking Brake](../a380x-briefing/flight-deck/pedestal/parking-brake.md) handle in the `ON` position
+- Ensure the [Speed Brakes](../a380x-briefing/flight-deck/pedestal/speedbrake.md) have been disarmed/retracted
+- [Flaps](../a380x-briefing/flight-deck/pedestal/flaps.md) are retracted
+- [Weather Radar](../a380x-briefing/flight-deck/pedestal/radar.md) is switched off
+- [Engine Masters 1 and 2](../a380x-briefing/flight-deck/pedestal/engine.md) are in the `OFF` position
+- [Engine Mode](../a380x-briefing/flight-deck/pedestal/engine.md) selector is set to `NORM`
+- [Thrust Levers](../a380x-briefing/flight-deck/pedestal/thrust-pitch-trim.md) are idle
 
 We then direct our attention to the **main panel** and make sure the following is set:
 
-- [Gear Lever](../a32nx-briefing/flight-deck/front/autobrake-gear.md) is down
+- [Gear Lever](../a380x-briefing/flight-deck/front/autobrake-gear.md) is down
 
 Then we look up at the **overhead panel**. Make sure the following are in the set position before moving on to starting the aircraft:
 
-- [Wiper](../a32nx-briefing/flight-deck/ovhd/wipers.md) selectors are in the `OFF` position
+- [Wiper](../a380x-briefing/flight-deck/ovhd/wipers.md) selectors are in the `OFF` position
 
 ---
 
@@ -154,7 +154,7 @@ Following this, we set the `STROBE` light to the `AUTO` position.
 ![Exterior Lights](../assets/beginner-guide/starting-aircraft/exterior-lighting.png "Exterior Lights"){loading=lazy}
 
 !!! tip
-    Overview of [External Lighting configurations](../a32nx-briefing/flight-deck/ovhd/ext-lt.md#external-lighting-configuration)
+    Overview of [External Lighting configurations](../a380x-briefing/flight-deck/ovhd/ext-lt.md#external-lighting-configuration)
 
 ### Interior Lighting
 

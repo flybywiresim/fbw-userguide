@@ -256,7 +256,7 @@ For descending, we set the new flight level or altitude in the `FCU` with the `a
 !!! warning "DES mode"
     Managed Descent (DES) Mode will follow a calculated vertical profile, this may lead to unexpected occurrences of very high and very low V/S. Users not familiar with Airbus Managed Descent should use OP DES instead as it provides a linear descent most users would expect. See the [Vertical Guidance Guide](../a32nx-advanced-guides/flight-guidance/vertical-guidance/overview.md) for more information on using managed vertical modes.
 
-When either of these altitude modes are engaged, the relevant mode will appear in the Second Column of the `FMA`, and will be displayed in green. (See [Vertical Mode Annunciations](../a32nx-briefing/pfd/second-column.md)).
+When either of these altitude modes are engaged, the relevant mode will appear in the Second Column of the `FMA`, and will be displayed in green. (See [Vertical Mode Annunciations](../a380x-briefing/pfd/second-column.md)).
 
 !!! warning "Using V/S"
     It is not recommended to use V/S for climbing or descending in the A320 (at least not for beginners) as the V/S guidance has priority over the speed guidance, and speed needs to be watched very closely when using V/S.

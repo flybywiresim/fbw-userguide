@@ -7,14 +7,14 @@ description: The A320neo Pilot Briefing provides Flight Crew Operations Manuals 
 
 # A320neo Pilot Briefing
 
-**For Simulation Use Only**
-
 This A320neo Pilot Briefing shall give a good overview of most A320neo
 systems for personal flight simulation with focus on Microsoft Flight
 Simulator and the FlyByWire A32NX aircraft add-on.
 
 Other variations of the A320 (A318, A319, A321) have a lot of overlap
 but are omitted in this briefing.
+
+<p style="color:coral; font-size:24px;">This is for simulation purposes only.</p>
 
 ---
 

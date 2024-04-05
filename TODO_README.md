@@ -64,7 +64,8 @@
     - [ ] Beginner Guide
     - [ ] Advanced Guide
       - [ ] ... / split into a32nx/a380x specific features and common features
-    - [ ] A320X Pilot Briefing
+    - [ ] A380X Pilot Briefing
+      - [ ] Limitations 
       - [ ] Flight-Deck
       - [ ] MFD
       - [ ] PFD
@@ -84,3 +85,5 @@
     - [ ] Overview 
     - [x] A32NX
     - [ ] A380X
+
+- [ ] Update and add redirects for pages that have been moved or renamed

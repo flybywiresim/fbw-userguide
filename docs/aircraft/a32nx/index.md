@@ -70,13 +70,13 @@ ACSC        S1803A0001
 
 ##  Topics
 
-| Featured List                                |
-|:---------------------------------------------|
+| Featured List                                           |
+|:--------------------------------------------------------|
 | [Installation Guide](../install/installation.md)        |
 | [Version and Feature Guide](../install/fbw-versions.md) |
 | [Livery Guide](../install/liveries.md)                  |
-| [Support](../support/index.md)                  |
-| [API and Hardware](a32nx-api/index.md)       |
+| [Support](../support/index.md)                          |
+| [API and Hardware](a32nx-api/index.md)                  |
 
 
 
