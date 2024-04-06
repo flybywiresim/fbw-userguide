@@ -224,6 +224,7 @@ can proceed with the following steps.
 
 `AFTER START CHECKLIST ........................................... COMPLETE`<br/>
 
+[//]: # (TODO)
 <p style="color:yellow; font-size:18px;">TODO: update checklist image</p>
 ![after start checklist](../assets/beginner-guide/taxi/afterstart.png){loading=lazy}
 
@@ -233,32 +234,40 @@ Perform the AFTER START checklist.
 
 ## Taxi
 
-Having charts or diagrams of the airport you are currently in will help you navigate efficiently and safely.
-There are many resources and applications available online that are either free or paid which you can use.
+Make sure to have charts or diagrams of the airport you are currently in will as it help you navigate efficiently and 
+safely. There are many resources and applications available online that are either free or paid which you can use.
 
 For additional information on signs and markings on the ground, please see [General Resources](#general-resources).
 
-### Taxi Clearance
+`TAXI CLEARANCE .................................................... OBTAIN`<br/>
 
-After having successfully started the engines, we can contact ATC to request taxi clearance. As per our routing in the
-[Preparing FMS Guide](03_preparing-fms.md), we should be expecting a takeoff from runway 08L. As such, a sample taxi 
-clearance may be as follows:
+??? note "TAXI CLEARANCE"
+    After having successfully started the engines, we can contact ATC to request taxi clearance. As per our routing in the
+    [Preparing FMS Guide](03_preparing-fms.md), we should be expecting a takeoff from runway 08L. As such, a sample taxi 
+    clearance may be as follows:
+    
+    "**Your Aircraft Callsign**, ground. Runway 08L, taxi via Whiskey 2, hold short of November 3, continue via November 
+    to Alpha 3, hold short Alpha 3."
+    
+    Referencing the airport chart below, the aircraft should be sitting near the A3 holding point.
+    
+    [//]: # (TODO)
+    <p style="color:yellow; font-size:18px;">TODO: optimize image</p>
+    ![Taxi Chart](../assets/beginner-guide/taxi/airport-chart-guidelines.png){loading=lazy}
+    <sub>Copyright © 2021 Navigraph / Jeppesen<br>
+    "Navigraph Charts are intended for flight simulation use only, not for navigational use."
+    
+    Make sure to pay attention to any warnings or notices on the respective taxi chart beforehand, so you are aware of any 
+    important information while performing your taxi.
+    
+    Once we have the routing from ATC and have read back the taxi clearance, we are now free to taxi to the runway.
 
-"**Your Aircraft Callsign**, ground. Runway 08L, taxi via Whiskey 2, hold short of November 3, continue via November 
-to Alpha 3, hold short Alpha 3."
+`NAVIGATION DISPLAY RANGE selector .................... ZOOM AS APPROPRIATE`<br/>
+??? note "NAVIGATION DISPLAY RANGE - OANS"
+    At the pilot’s discretion, zoom as necessary to activate the onbard airport navigation system (OANS). Then, at the 
+    pilot’s discretion, select either ARC, ROSE, or PLAN mode. 
+`NOSE LIGHTS ......................................................... TAXI`<br/>
 
-Referencing the airport chart below, the aircraft should be sitting near the A3 holding point.
-<p style="color:yellow; font-size:18px;">TODO: optimize image</p>
-![Taxi Chart](../assets/beginner-guide/taxi/airport-chart-guidelines.png){loading=lazy}
-<sub>Copyright © 2021 Navigraph / Jeppesen<br>
-"Navigraph Charts are intended for flight simulation use only, not for navigational use."
-
-Make sure to pay attention to any warnings or notices on the respective taxi chart beforehand, so you are aware of any 
-important information while performing your taxi.
-
-Once we have the routing from ATC and have read back the taxi clearance, we are now free to taxi to the runway.
-
-<p style="color:yellow; font-size:18px;">TODO: UPDATE EVERYTHING BELOW</p>
 
 ### Moving the Aircraft
 
