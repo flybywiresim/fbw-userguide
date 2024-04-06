@@ -5,10 +5,21 @@
     -webkit-box-decoration-break: clone;
     box-decoration-break: clone;
     font-size: .95em;
-    padding: 0 .2941176471em;
+    padding: 0.1em 0.325em 0.1em 0.325em;
+    margin: 0.1em 0.1em;
     word-break: break-word;
     direction: ltr;
     font-variant-ligatures: none;
     font-feature-settings: "kern";
     font-family: var(--md-code-font-family);
+}
+
+.md-typeset :is(.note)>:is(.admonition-title,summary) {
+    font-size: 0.9em;
+}
+
+.md-typeset :is(.admonition,details):is(.note) {
+    margin: -1.0em 0 -.4em 0;
+    font-size: 0.9em;
+    border-color: #00E0FE;
 }
