@@ -3,12 +3,12 @@ title: flyPadOS 3 EFB - Dispatch
 description: Information about the Dispatch menu provided by flyPadOS 3 in the FlyByWire A32NX.
 ---
 
-<link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
+<link rel="stylesheet" href="/stylesheets/efb-interactive.css">
 
 # flyPad Dispatch
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-dispatch-overview.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/flypad-dispatch-overview.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -31,7 +31,7 @@ This page provides information about the aircraft. It offers no further function
 The OFP (Operational Flight Plan) will be displayed on this page after importing it with the [button](dashboard.md#load-from-simbrief) on the [Dashboard](dashboard.md) page.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-dispatch-ofp.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/flypad-dispatch-ofp.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>

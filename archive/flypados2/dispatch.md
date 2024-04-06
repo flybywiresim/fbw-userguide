@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
+<link rel="stylesheet" href="/stylesheets/efb-interactive.css">
 
 # flyPad Dispatch
 

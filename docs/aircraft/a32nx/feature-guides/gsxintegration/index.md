@@ -3,7 +3,7 @@ title: GSX Integration - Overview
 description: A guide to the GSX Integration provided in the A32NX.
 ---
 
-<link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
+<link rel="stylesheet" href="/stylesheets/efb-interactive.css">
 <link rel="stylesheet" href="../../../../stylesheets/toc-tables.css">
 
 # GSX Integration

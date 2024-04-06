@@ -63,6 +63,10 @@ Visit [Starting the Aircraft](02_cockpit-preparation) to learn more.
 
 <p style="color:yellow; font-size:18px;">TODO: describe the MFD, FMS and the process for setting it up.</p>
 
+### Flight-Plan
+
+### Discontinuity
+
 <!--
 
 This guide will cover the following topics:

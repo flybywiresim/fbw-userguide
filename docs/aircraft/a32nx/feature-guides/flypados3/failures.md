@@ -3,7 +3,7 @@ title: flyPadOS 3 EFB - Failures
 description: Discover how to simulate various system failures with flyPadOS 3 for the FlyByWire A32NX.
 ---
 
-<link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
+<link rel="stylesheet" href="/stylesheets/efb-interactive.css">
 
 # flyPad Failures
 
@@ -18,7 +18,7 @@ There are further extensions planned for the failures feature, incl. more system
 ## Comfort view
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-failures.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/flypad-failures.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -35,7 +35,7 @@ There are further extensions planned for the failures feature, incl. more system
 ## Compact view
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-failures-compact-view.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/flypad-failures-compact-view.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -52,7 +52,7 @@ There are further extensions planned for the failures feature, incl. more system
 ## System View
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-failures-system-view.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/flypad-failures-system-view.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -71,7 +71,7 @@ There are further extensions planned for the failures feature, incl. more system
 When a failure is actively simulated, the system will be highlighted with a red color. 
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-failures-active1-view.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/flypad-failures-active1-view.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -86,7 +86,7 @@ When a failure is actively simulated, the system will be highlighted with a red 
 </div>
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-failures-active2-view.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/flypad-failures-active2-view.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -105,7 +105,7 @@ When a failure is actively simulated, the system will be highlighted with a red 
 Enter a search term to filter for specific systems. 
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-failures-search-view.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/flypad-failures-search-view.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>

@@ -3,7 +3,7 @@ title: flyPadOS 3 EFB - Navigation & Charts
 description: Learn how to access and utilize charts on flyPadOS 3 with a Navigraph account or local files.
 ---
 
-<link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
+<link rel="stylesheet" href="/stylesheets/efb-interactive.css">
 
 # flyPad Navigation & Charts
 
@@ -12,7 +12,7 @@ description: Learn how to access and utilize charts on flyPadOS 3 with a Navigra
 With a valid Navigraph subscription, the FlyByWire flyPad allows access to all Navigraph charts from within the flyPad.
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-navigation.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/flypad-navigation.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -36,7 +36,7 @@ For more information see [SimBrief and Navigraph Integration](../simbrief.md#set
 
 [//]: # (<div style="position: relative;">)
 
-[//]: # (    <img src="/fbw-a32nx/assets/flypados3/charts-navigraph-login.png" style="width: 100%; height: auto;" loading="lazy">)
+[//]: # (    <img src="/aircraft/a32nx/assets/flypados3/charts-navigraph-login.png" style="width: 100%; height: auto;" loading="lazy">)
 
 [//]: # (    <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>)
 
@@ -100,7 +100,7 @@ After authenticating, you will have access to the Navigraph page where you can l
 ## Local Files
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/local-files-img-example.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/local-files-img-example.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -121,7 +121,7 @@ For accessing local files from the PC, the FlyByWire SimBridge is required. This
 See our documentation on how to install and configure the [SimBridge](../../../../tools/simbridge/index.md).
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/local-files-establish-connection.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/local-files-establish-connection.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -142,7 +142,7 @@ Local files (images, PDF) stored in a specific folder (see below) on the PC will
 The controls are similar to the Navigraph chart view (see above) although there will not be a light and dark mode. 
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/local-files-example.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/local-files-example.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -175,7 +175,7 @@ The feature does not support any subfolders (yet).
 Available charts can be pinned by clicking on the pin symbol. The pinned charts are then available in this tab and also in the charts-widget on the Dashboard. 
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/pinned-charts.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/pinned-charts.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>

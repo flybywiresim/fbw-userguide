@@ -3,12 +3,12 @@ title: flyPadOS 3 EFB - Checklists
 description: Discover how to configure and how to use the interactive checklists provided with flyPadOS 3 for the FlyByWire A32NX.
 ---
 
-<link rel="stylesheet" href="../../../../stylesheets/efb-interactive.css">
+<link rel="stylesheet" href="/stylesheets/efb-interactive.css">
 
 # Interactive Checklists
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-checklist-page.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/flypad-checklist-page.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -39,7 +39,7 @@ The flyPad checklists are modelled after the official Airbus checklist. You can 
 In this mode, you will check the items by either clicking on the checkbox or the green button on the bottom saying "Mark item as complete". 
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-checklist-page-partly-filled.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/flypad-checklist-page-partly-filled.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -56,7 +56,7 @@ In this mode, you will check the items by either clicking on the checkbox or the
 If a checklist has all items checked, you can click on the bottom on the bottom saying "Mark checklist as complete" to mark the whole checklist as done. 
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-checklist-page-section-filled.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/flypad-checklist-page-section-filled.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -79,7 +79,7 @@ It will not autofill all possible steps automatically intentional as the flight 
 For the autofill option to work properly, you need to go through the lists one by one, as the system only autofills the lists corresponding to the current flight phase. 
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-checklist-automated.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/flypad-checklist-automated.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>

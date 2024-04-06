@@ -1,6 +1,7 @@
 *[AP]: AutoPilot
 *[APU]: Auxiliary Power Unit
 *[ECAM]: Electronic Centralized Aircraft Monitoring
+*[EFB]: Electronic Flight Bag
 *[F-PLN]: Flight PLan
 *[F/O]: First Officer
 *[FBW]: Fly-By-Wire
