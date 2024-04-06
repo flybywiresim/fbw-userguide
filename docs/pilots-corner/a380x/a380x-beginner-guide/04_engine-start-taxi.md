@@ -258,6 +258,8 @@ important information while performing your taxi.
 
 Once we have the routing from ATC and have read back the taxi clearance, we are now free to taxi to the runway.
 
+<p style="color:yellow; font-size:18px;">TODO: UPDATE EVERYTHING BELOW</p>
+
 ### Moving the Aircraft
 
 Exterior Lights:
