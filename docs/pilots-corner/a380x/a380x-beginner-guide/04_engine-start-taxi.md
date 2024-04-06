@@ -262,38 +262,49 @@ For additional information on signs and markings on the ground, please see [Gene
     
     Once we have the routing from ATC and have read back the taxi clearance, we are now free to taxi to the runway.
 
+`TAXI (ETACS) ..................................................AS REQUIRED`<br/>
+??? note "TAXI (ETACS)"
+    The External and Taxiing Aid Camera System (ETACS) helps the flight crew to navigate the aircraft on the ground by 
+    showing outside video feeds on the lower ECAM display. 
+
+    <span style="color:orange">*This is currently not available or possible to implement in the simulator.*</span>
 `NAVIGATION DISPLAY RANGE selector .................... ZOOM AS APPROPRIATE`<br/>
 ??? note "NAVIGATION DISPLAY RANGE - OANS"
     At the pilot’s discretion, zoom as necessary to activate the onbard airport navigation system (OANS). Then, at the 
-    pilot’s discretion, select either ARC, ROSE, or PLAN mode. 
+    pilot’s discretion, select either ARC, ROSE, or PLAN mode.
+
+[//]: # (TODO)
+    <p style="color:yellow; font-size:18px;">TODO: link to separate OANS documentation if available</p> 
 `NOSE LIGHTS ......................................................... TAXI`<br/>
+`RWY TURN OFF & CAMERA ........................................ AS REQUIRED`<br/>
+??? note "RWY TURN OFF & CAMERA"
+    The RWY TURN OFF lights are used to illuminate the taxiway and runway during taxi. The camera is used to help the 
+    flight crew navigate the aircraft on the ground by showing outside video feeds on the lower ECAM display.
 
+    <span style="color:orange">*The camera is currently not available or possible to implement in the simulator.*</span>
+`PARKING BRAKE ........................................................ OFF`<br/>
+`THRUST LEVERS ............................................. .. AS REQUIRED`<br/>
+??? note "THRUST LEVERS"
+    The aircraft doesn't need too much power to move. Not more than 10% of the engine thrust is needed at heavy weight 
+    in an uphill taxi slope. Excessive thrust can damage airport signalisation. If need of higher thrust, it is 
+    recommended to add the thrust on the outer engines to prevent ingestion of foreign object debris. Please note that 
+    when the engine anti-ice is on, the ground idle thrust is higher. 
+`BRAKES ............................................................. CHECK`<br/>
+`NOSEWHEEL STEERING ........................................... AS REQUIRED`<br/>
+`ATC CLEARANCE .................................................... CONFIRM`<br/>
 
-### Moving the Aircraft
+??? tip "How and Where"
+    <p style="color:yellow; font-size:18px;">TODO: add additional info, images or links to the flight deck</p>
 
-Exterior Lights:
+At this point, the aircraft may start rolling. Depending on the weight of the aircraft, we may need to add a little
+power to the engines to get going.
 
-- RWY TURN OFF - `Set to ON`
-- NOSE - `Set to Taxi`
+It is recommended to verify the brakes by pressing smoothly the brake pedals and release. It is recommended to have a 
+taxi speed between 10 and 20 knots in a straight line. If the speed is exceeded, brake until it reaches 10 knots, then 
+let the aircraft accelerate again. It is recommended to be between 8 and 10 knots in a sharp turn.
 
-![exterior lights](../assets/beginner-guide/taxi/taxi-lights.png){loading=lazy}
-
-Before Moving Safety Check:
-
-- Verify the ground crew is safely away.
-- Look to the left and right to ensure clearance from other aircraft or vehicles.
-- Release the parking brake.
-- Brakes pressure - `Check at Zero`
-
-![brakes pressure](../assets/beginner-guide/taxi/brakes.png)
-
-At this point, the aircraft may start rolling. Depending on the weight of the aircraft, we may need to add a little power to the engines to get going. Increase power to roughly ~25-30% N1. Be mindful that we are not blasting N1 towards or around the terminal.
-
-- Leave a bit of thrust on and perform a quick brake check to ensure the hydraulics and brakes are fully functioning.
-    - We don't need to come to a complete stop, but merely check the brake pressure status when performing the brake check.
-- If an arc is shown above the brake temperature on the WHEEL SD page on the lower ECAM, turn the brake fans on.
-
-If it is required to perform a sharp turn immediately, we may need more than ~ 25 - 30 % N1 and should set the thrust accordingly. Try not to perform the brake check while in a turn, as we don't want to come to a complete stop while turning.
+If it is required to perform a sharp turn immediately, we may need a bit more thrust. Try not to perform the brake 
+check while in a turn, as we don't want to come to a complete stop while turning.
 
 ### During Taxi
 
@@ -301,80 +312,42 @@ While underway to the runway, perform the following as part of the taxi flow:
 
 - Use the tiller or rudder pedals to steer the aircraft.
     - See [Nose Wheel and Tiller Operation](../../../aircraft/a32nx/feature-guides/nw-tiller.md)
-- Perform a [flight controls check](#flight-controls-check) (if you haven't already).
-- Verify the ATC clearance for departure.
 
-It is important to verify and confirm the information in the MCDU as we taxi. This is increasingly important if the ATC clearance changes en route to the runway.
+#### **FMS Data Check**
 
-#### **Takeoff Data/Conditions**
+??? tip "What and Why"
+    It is important to verify and confirm the information in the FMS as we taxi. This is increasingly important if the ATC
+    clearance changes en route to the runway.
 
-*In case of a runway or takeoff data change, perform the following:*
+`SELECTED RUNWAY AND INPUT DATA ..................................... CHECK`<br/>
+`F-PLN (SID, TRANS) ....................................... REVISE OR CHECK`<br/>
+`INITIAL CLIMB SPEED AND SPEED LIMIT ...................... MODIFY OR CHECK`<br/>
+`CLEARED ALTITUDE ON FCU .............................................. SET`<br/>
+`HDG ON FCU ........................................... IF REQUIRED, PRESET`<br/>
+`FLIGHT DIRECTOR ........................................ CHECK SELECTED ON`<br/>
+`PFD/ND ............................................................. CHECK`<br/>
+`MULTIFUNCTION DISPLAY (MFD) ........................................ CHECK`<br/>
 
-- FINAL TAKEOFF DATA - `Confirm or Recompute`
-- FMS TAKEOFF DATA - `Check/Revise as RQRD`
-- REVISED FMS TAKEOFF DATA - `Crosscheck`
-- F-PLN (RUNWAY) - `Revise`
-- FLAPS lever - `As Appropriate` *Select takeoff position*
-- V1, VR, V2 - `Reinsert`
-- FLX TO temperature - `Reinsert`
+`TAKEOFF BRIEFING ................................................. CONFIRM`<br/>
 
-#### **AFS/Flight Instruments**
+`AUTOBRAKE RTO ........................................................ ARM`<br/>
+`ATC CODE ..................................................... CONFIRM/SET`<br/>
+`T.O CONFIG .......................................................... TEST`<br/>
+`T.O MEMO .................................................... NO BLUE LINE`<br/>
+`CABIN .............................................................. READY`<br/>
+??? note "CABIN READY"
+    The cabin crew should have completed their checks and are ready for takeoff. The cabin should be secure and all 
+    passengers seated with their seatbelts fastened.In real life, the cabin crew would have informed the flight crew
+    by sending the CABIN READY signal which would show up on the ECAM. 
 
-Perform the following:
+    In the A380X we simulate this by pressing the CALL button on the overhead panel. 
 
-- F-PLN (SID, TRANS) - `Revise or Check`
-    - Check to ensure that the ATC clearance agrees with the flight plan if we are departing using NAV mode.
-- INITIAL CLIMB SPEED AND SPEED LIMIT - `Modify or Check`
-- CLEARED ALTITUDE ON FCU - `Set`
-- HDG ON FCU - `If Required, Preset`
-    - If ATC requires a specific heading after takeoff, preset the heading on the FCU. NAV mode will be disarmed and RWY TRK mode will keep the aircraft on the runway track.
+??? tip "How and Where"
 
-This is the FCU (more details are provided in the [Take off, Climb, and Cruise Guide](05_takeoff-climb-cruise)):
-![FCU](../assets/beginner-guide/taxi/FCU.png "FCU"){loading=lazy}
+[//]: # (TODO)
+    <p style="color:yellow; font-size:18px;">TODO: add additional info, images or links to the flight deck</p>
 
-- BOTH FD (*flight directors*) - `Check on`
-- PFD/ND - `Check`
-- TAKEOFF BRIEFING - `Confirm`
-- RADAR (if required) - `On`
-
-    The current implementation of the weather radar in MSFS will show precipitation along the route. Additional functions are unavailable at this time. However, we should set the Radar to Sys 1 if required for departure.
-
-- PREDICTIVE WINDSHEAR SYSTEM - `Auto`
-
-    Currently, this only clears the warning on the ECAM and does not provide a function in the sim. We should perform this action regardless.
-
-The weather panel is located on the bottom left of the lower pedestal and looks like the following:
-
-![WX Radar Panel](../assets/beginner-guide/taxi/wx-radar-panel.png "WX Radar Panel"){loading=lazy}
-
-- ATC code/mode - `Confirm/Set for Takeoff`
-- TERR ON ND - `As RQRD`
-- AUTO BRK MAX pb-sw - `On`
-
-![Auto Brake](../assets/beginner-guide/taxi/auto-brk.png "Auto Brake"){loading=lazy}
-
-!!! info "Getting Ready for Take off"
-    At this point in the guide, you should have performed many of the essential flow items before you line up at the runway. The next guide [Take off, Climb, and Cruise](05_takeoff-climb-cruise) will instruct you on performing your final checks and before take off checklist.
-
-**For additional information:** See the sections below for extended taxi information, and visit the [General Resources Section](#general-resources) on this page to help you understand the different signs and elements found on the ground at an airport.
-
----
-
-#### Speed While Taxiing
-
-Pay attention to the ground speed (visible on the ND) while taxiing.
-
-- **Straight Line**
-
-    Anything up to 30 kt is reasonable, but some airports may carry their own local restrictions that should be noted. This is not an absolute rule and is usually typical SOP for airlines in a straight line.
-
-- **90° (Sharp) Turns**
-
-    A good speed would be around 10kts. This provides safety for the flight crew as they perform their safety demonstration/checks.
-
-- **Regular Turns**
-
-    Around 15kts is an acceptable speed, with a similar concept to providing safety as described above.
+`BEFORE TAKEOFF CHECKLIST (down to the line)...................... COMPLETE`<br/>
 
 #### Handy Tips While Taxiing
 
@@ -384,7 +357,8 @@ Pay attention to the ground speed (visible on the ND) while taxiing.
 
 - **Turning**
 
-    Using the same bar mentioned above, try to "over steer" (keep the nose wheel slightly ahead of the line while we turn). This helps keep the aircraft centered while performing a turn.
+    Using the same bar mentioned above, try to "over steer" (keep the nose wheel slightly ahead of the line while we 
+    turn). This helps keep the aircraft centered while performing a turn.
 
     Slow down while turning!
 
@@ -392,16 +366,23 @@ Pay attention to the ground speed (visible on the ND) while taxiing.
 
 When approved to cross a runway (active or not) perform the following actions:
 
+`LANDING LIGHTS ........................................................ ON`<br/>
+`STROBE LIGHTS ......................................................... ON`<br/>    
+
 - Look out the windows and visually ensure that there are no visible aircraft to the left and right.
-- Turn on extra lights to ensure the aircraft is visible when crossing:
-    - Strobe lights - `Set to ON`
 - Inform ATC we have vacated the runway if required.
 
 !!! warning
-    Never cross a runway without express permission from ATC and providing a read back of said instructions. Always ensure maximum safety when crossing.
+    Never cross a runway without express permission from ATC and providing a read back of said instructions. 
+    Always ensure maximum safety when crossing.
 
 ---
 
+This concludes the *Taxi*.
+
+Continue with [Takeoff, climb and cruise](05_takeoff-climb-cruise)
+
+---
 
 ## General Resources
 <p style="color:yellow; font-size:18px;">TODO: maybe move this to a separate page (also for the A32NX bg to avoid duplication </p>
@@ -482,8 +463,4 @@ There are usually two types of lighting on taxiways - centerline and edge. Depen
 ![taxiway lights](https://upload.wikimedia.org/wikipedia/commons/thumb/0/03/ATL_TWY_B_-_RWY_Crossing_%2813534655025%29.jpg/640px-ATL_TWY_B_-_RWY_Crossing_%2813534655025%29.jpg){loading=lazy}
 
 <sub>John Murphy, [CC BY-SA 2.0](https://creativecommons.org/licenses/by-sa/2.0)</sub>
-
-This concludes the *Taxi*.
-
-Continue with [Takeoff, climb and cruise](05_takeoff-climb-cruise)
 
