@@ -11,38 +11,7 @@ description: The A380 Flight Deck Overhead Panel is providing an interactive gra
 
 [Back to A380 Flight Deck Overview](../index.md){ .md-button }
 
-<style>
-.imagemap {
-    position: relative;
-    display: inline-block;
-     /*background-color: rgba(255, 0, 0, .4); */
-     /*border: 1px solid yellow; */
-}
-.imagemap .imagemapname {
-  visibility: hidden;
-
-  background-color: rgba(29, 30, 38,.8);
-  color: rgba(212, 212, 213, 1);
-  text-align: center;
-  padding: 5px 0;
-  border-radius: 6px;
-
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  z-index: 1;
-  width: 160px;
-  top: 5%;
-  left: 50%;
-  margin-left: -80px; /* Use half of the width (120/2 = 60), to center the tooltip */
-}
-.imagemap:hover .imagemapname {
-    visibility: visible;
-}
-.imagemap:hover {
-    background-color: rgba(10, 144, 153, 0.30);
-    border: 1px solid black;
-}
-</style>
+<link href="/stylesheets/a380x-flight-deck-1.css" rel="stylesheet">
 
 <div style="position: relative;">
     <img src="/pilots-corner/a380x/assets/a380x-briefing/flight-deck/overhead.png" class="skip-lightbox" style="width: 100%; height: auto;">

@@ -1,13 +1,12 @@
 # How
 
-- avoid screenshots for now - use placeholders instead   
+- avoid screenshots for now - use placeholders instead (exception is flight-deck overview)   
   - text, dummy-image or similar A32NX images
 - do not add notes to features if available or not. These will still change a lot and we will do it 
   shortly before release
 - otherwise use the A32NX docs as a guide for the content - if you think you can improve on the pages 
   in the A32NX docs, feel free to do so for the A380X docs. But we recommend to not make your life 
   unnecessarily difficult
- 
 
 # TODO
 

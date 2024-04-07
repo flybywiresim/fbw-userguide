@@ -1,0 +1,31 @@
+/* This is the css for the full cockpit overview page of the A380X Flight-Deck */
+
+.imagemap {
+    position: relative;
+    display: inline-block;
+    /* this is for arranging the boxes - enable if required */
+    /*background-color: rgba(255, 0, 0, .4); */
+    /*border: 1px solid yellow; */
+    background-color: rgba(10, 144, 153, 0.30);
+    border: 1px solid black;
+}
+.imagemap .imagemapname {
+    font-size: 1.5em;
+    background-color: rgba(29, 30, 38,.8);
+    color: rgba(212, 212, 213, 1);
+    text-align: center;
+    padding: 5px 5px;
+    border-radius: 6px;
+
+    /* Position the tooltip text - see examples below! */
+    position: absolute;
+    z-index: 1;
+    width: 8em;
+    top: 30%;
+    left: 50%;
+    margin-left: -4em; /* Use half of the width (120/2 = 60), to center the tooltip */
+}
+.imagemap:hover {
+    background-color: rgba(10, 144, 153, 0.40);
+    border: 3px solid black;
+}

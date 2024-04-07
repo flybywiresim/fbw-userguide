@@ -15,41 +15,7 @@ description: The A380 Flight Deck Overview is providing an interactive graphical
 - Move the mouse over the panels to get the name of the panel.
 - Click on the panels to get a more detailed description of that panel.
 
-<style>
-.imagemap {
-    position: relative;
-    display: inline-block;
-    /*background-color: rgba(255, 0, 0, .4); */
-    /*border: 1px solid yellow; */
-    background-color: rgba(10, 144, 153, 0.30);
-    border: 1px solid black;
-}
-.imagemap .imagemapname {
-  /*visibility: hidden;*/
-
-  font-size: 1.5em;
-  background-color: rgba(29, 30, 38,.8);
-  color: rgba(212, 212, 213, 1);
-  text-align: center;
-  padding: 5px 5px;
-  border-radius: 6px;
-
-  /* Position the tooltip text - see examples below! */
-  position: absolute;
-  z-index: 1;
-  width: 8em;
-  top: 30%;
-  left: 50%;
-  margin-left: -4em; /* Use half of the width (120/2 = 60), to center the tooltip */
-}
-.imagemap:hover .imagemapname {
-    visibility: visible;
-}
-.imagemap:hover {
-    background-color: rgba(10, 144, 153, 0.40);
-    border: 3px solid black;
-}
-</style>
+<link href="/stylesheets/a380x-flight-deck-1.css" rel="stylesheet">
 
 <div style="position: relative;">
     <img src="/pilots-corner/a380x/assets/a380x-briefing/flight-deck/cockpit_full.png" class="skip-lightbox" style="width: 100%; height: auto;">
