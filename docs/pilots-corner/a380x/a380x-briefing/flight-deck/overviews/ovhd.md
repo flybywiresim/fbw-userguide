@@ -11,7 +11,7 @@ description: The A380 Flight Deck Overhead Panel is providing an interactive gra
 
 [Back to A380 Flight Deck Overview](../index.md){ .md-button }
 
-<link href="/stylesheets/a380x-flight-deck-1.css" rel="stylesheet">
+<link href="/stylesheets/a380x-flight-deck-2.css" rel="stylesheet">
 
 <div style="position: relative;">
     <img src="/pilots-corner/a380x/assets/a380x-briefing/flight-deck/overhead.png" class="skip-lightbox" style="width: 100%; height: auto;">
