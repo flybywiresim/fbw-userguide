@@ -50,6 +50,7 @@
   - [x] Overview 
   - [x] A32NX Corner
     - [x] Beginner Guide
+      - [ ] Add Flow Patterns
     - [x] Advanced Guide
       - [x] ... / split into a32nx/a380x specific features and common features
     - [x] A320X Pilot Briefing
