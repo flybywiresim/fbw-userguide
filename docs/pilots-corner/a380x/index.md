@@ -29,11 +29,11 @@ in Microsoft Flight Simulator.
 | Featured List                                        |
 |:-----------------------------------------------------|
 | [Beginner Guide](./a380x-beginner-guide/overview.md) |
+| [A380 Pilot Briefing](./a380x-briefing/index.md)     |
 | [Standard Operating Procedures](./a380x-sop.md)      |
 
 [//]: # (TODO)
 <!--
 | [Advanced Guides](a32nx/advanced-guides/overview.md)              |
-| [A320neo Pilot Briefing](a32nx/a32nx-briefing/index.md)           |
 | [Airliner Flying Guide](common/airliner-flying-guide/overview.md) |
 -->

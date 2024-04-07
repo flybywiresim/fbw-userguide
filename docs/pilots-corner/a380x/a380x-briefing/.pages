@@ -1,6 +1,7 @@
-title: A320neo Pilot Briefing
+title: A380X Pilot Briefing
 nav:
   - Overview: index.md
+  - Flight Deck: flight-deck
   - ...
 
 

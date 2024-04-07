@@ -21,15 +21,10 @@ Simulator and the FlyByWire A380X aircraft add-on.
 
 ##  Topics
 
-| Quick Links |
-|:------------|
-| <!--        | [Flight-Deck](flight-deck/index.md)                                                | --> 
-| <!---       | [Flight-Deck A32NX API](../../../aircraft/a32nx/a32nx-api/a32nx-flightdeck-api.md) | -->
-| <!---       | [ECAM](ecam/index.md)                                                              | -->
-| <!---       | [PFD](pfd/index.md)                                                                | -->
-| <!---       | [MCDU](mcdu/index.md)                                                              | -->
-<!--- [ND](nd/index.md)-->
-<!--- [ND](nd/index.md)-->
+| Quick Links                         |
+|:------------------------------------|
+| [Flight-Deck](flight-deck/index.md) |  
+
 
 ---
 

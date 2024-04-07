@@ -1,0 +1,9 @@
+title: Flight-Deck
+nav:
+  - Overview: index.md
+  - Overhead Aft: ovhd-aft
+  - Overhead Fwd: ovhd
+  - Glareshield: glareshield
+  - Instrument Panel: front
+  - Pedestal: pedestal
+  - ...
