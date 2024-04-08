@@ -133,6 +133,6 @@ description: The A380 Flight Deck Overhead Panel is providing an interactive gra
 
 ---
 
-[Back to A320neo Pilot Briefing Overview](../index.md){ .md-button }
+[Back to A380 Pilot Briefing Overview](../index.md){ .md-button }
 
 

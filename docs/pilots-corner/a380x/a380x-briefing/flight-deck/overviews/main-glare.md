@@ -81,6 +81,7 @@ description: The A380 Flight Deck Main Instrument Panel and Glareshield page is 
 
 ---
 
-[Back to A320neo Pilot Briefing Overview](../index.md){ .md-button }
+[Back to A380 Pilot Briefing Overview](../index.md){ .md-button }
+
 
 

@@ -67,6 +67,7 @@ description: The A380 Flight Deck Pedesatl page is providing an interactive grap
 
 ---
 
-[Back to A320neo Pilot Briefing Overview](../index.md){ .md-button }
+[Back to A380 Pilot Briefing Overview](../index.md){ .md-button }
+
 
 
