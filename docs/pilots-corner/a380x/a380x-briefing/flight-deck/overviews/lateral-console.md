@@ -4,8 +4,6 @@ description: The A380 Flight Deck Lateral Console page is providing an interacti
   overview of the A380 flight deck lateral console and its systems.
 ---
 
-<script src="/javascripts/gif-play.js"></script>
-
 # Lateral Consoles
 
 [Back to A380 Flight Deck Overview](../index.md){ .md-button }
