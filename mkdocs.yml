@@ -111,11 +111,15 @@ plugins:
     auto_caption: false
     caption_position: bottom
 
+extra_javascript:
+  - javascripts/gif-play.js
+
 # Styling Front-end
 extra_css:
   - stylesheets/extra.css
   - stylesheets/admonitions.css
   - stylesheets/navigation.css
+  - stylesheets/gif-anim-style.css
 
 # Javascript
 extra_javascript:

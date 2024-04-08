@@ -11,18 +11,42 @@ description: The A380 Flight Deck Seats page is providing an interactive graphic
 The seats in the A380X are fully animated and can be moved forward and backward as well as sideways to allow for easy 
 access to the cockpit. 
 
-Also, the arm rests are moveable as can be seen in the animation below. 
+Also, the arm rests are moveable as can be seen in the animation below.
 
 ## Seat Movement
 
-![seat-movement-animation.gif](../../../assets/a380x-briefing/flight-deck/seat-animation.gif)
+<img
+class="gif-placeholder skip-lightbox"
+src="/pilots-corner/a380x/assets/a380x-briefing/flight-deck/seat-animation-ph.png"
+data-gif="/pilots-corner/a380x/assets/a380x-briefing/flight-deck/seat-animation.gif"
+alt="Seat Animation"
+style="cursor:pointer;
+width: 413px;
+height: auto;">
+Click image to play animation.
 
 ## Outer Arm Rest
 
-![left-arm-rest-animation.gif](../../../assets/a380x-briefing/flight-deck/outer-arm-rest-animation.gif)
+<img
+class="gif-placeholder skip-lightbox"
+src="/pilots-corner/a380x/assets/a380x-briefing/flight-deck/outer-arm-rest-animation-ph.png"
+data-gif="/pilots-corner/a380x/assets/a380x-briefing/flight-deck/outer-arm-rest-animation.gif"
+alt="Seat Animation"
+style="cursor:pointer;
+width: 413px;
+height: auto;">
+Click image to play animation.
 
 ## Inner Arm Rest
 
-![inner-arm-rest-animation.gif](../../../assets/a380x-briefing/flight-deck/inner-arm-rest-animation.gif)
+<img
+class="gif-placeholder skip-lightbox"
+src="/pilots-corner/a380x/assets/a380x-briefing/flight-deck/inner-arm-rest-animation-ph.png"
+data-gif="/pilots-corner/a380x/assets/a380x-briefing/flight-deck/inner-arm-rest-animation.gif"
+alt="Seat Animation"
+style="cursor:pointer;
+width: 413px;
+height: auto;">
+Click image to play animation.
 
 [Back to A380 Pilot Briefing Overview](../index.md){ .md-button }
