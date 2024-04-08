@@ -1,15 +1,17 @@
 ---
 title: A380 Flight Deck - Seats
-description: The A380 Flight Deck Seats page is providing an interactive graphical overview of the A380 flight deck 
-             seats and its features. 
+description: The A380 Flight Deck Seats page is providing an interactive graphical overview of the A380 flight deck
+  seats and its features. 
 ---
+
+<script src="/javascripts/gif-play.js"></script>
 
 # Seats
 
 [Back to A380 Flight Deck Overview](../index.md){ .md-button }
 
-The seats in the A380X are fully animated and can be moved forward and backward as well as sideways to allow for easy 
-access to the cockpit. 
+The seats in the A380X are fully animated and can be moved forward and backward as well as sideways to allow for easy
+access to the cockpit.
 
 Also, the arm rests are moveable as can be seen in the animation below.
 
