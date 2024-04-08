@@ -23,7 +23,7 @@ alt="Seat Animation"
 style="cursor:pointer;
 width: 413px;
 height: auto;">
-Click image to play animation.
+_Click image to play animation._
 
 ## Outer Arm Rest
 
@@ -35,7 +35,7 @@ alt="Seat Animation"
 style="cursor:pointer;
 width: 413px;
 height: auto;">
-Click image to play animation.
+_Click image to play animation._
 
 ## Inner Arm Rest
 
@@ -47,6 +47,6 @@ alt="Seat Animation"
 style="cursor:pointer;
 width: 413px;
 height: auto;">
-Click image to play animation.
+_Click image to play animation._
 
 [Back to A380 Pilot Briefing Overview](../index.md){ .md-button }
