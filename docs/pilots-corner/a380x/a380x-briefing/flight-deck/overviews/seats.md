@@ -11,10 +11,11 @@ description: The A380 Flight Deck Seats page is providing an interactive graphic
 The seats in the A380X are fully animated and can be moved forward and backward as well as sideways to allow for easy 
 access to the cockpit. 
 
-Also, the arm rests can be moved forward and backward.
+Also, the arm rests are moveable as can be seen in the animation below. 
 
-[//]: # (TODO)
-<p style="color:yellow; font-size:18px;">TODO: insert seat screenshot showing controls</p> 
+## Seat Movement
+
+![seat-movement-animation.gif](../../../assets/a380x-briefing/flight-deck/seat-animation.gif)
 
 ## Outer Arm Rest
 
