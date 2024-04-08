@@ -72,7 +72,7 @@ Settings for A32NX aircraft configuration.
          See also: [8.33 kHz Voice Channel Spacing communications](https://833radio.com/news/show/7){target=new}
 
 - FMGC Lat/Lon Waypoint Format
-    - Configures the name format for the [Stored Waypoints](../../../../pilots-corner/a32nx/a32nx-advanced-guides/data-management.md#stored-waypoints) to be used when NAT routes are imported via SimBrief.  
+    - Configures the name format for the [Stored Waypoints](../../../pilots-corner/a32nx/a32nx-advanced-guides/data-management.md#stored-waypoints) to be used when NAT routes are imported via SimBrief.  
 - Weight Unit:
     - The weight unit of the aircraft used for aircraft weight, fuel and simBrief imports.
 - Satcom:
@@ -84,7 +84,7 @@ Settings for A32NX aircraft configuration.
         - one of "five hundred" or "four hundred" is mandatory,
         - only one of "two thousand five hundred" and "twenty five hundred" can be selected.
   
-    ![flypad-settings-callouts.png](../../assets/flypados3/flypad-settings-callouts.png){loading=lazy}
+    ![flypad-settings-callouts.png](../../a32nx/assets/flypados3/flypad-settings-callouts.png){loading=lazy}
   
 ## Sim Options
 
@@ -137,7 +137,7 @@ Settings for simulation aspects of the A32NX aircraft.
           seconds, and then click on `Auto` again.
     - Off:
         - The aircraft will not make any attempts to connect to the SimBridge.
-    - Also see our [SimBridge Guide](../../../../tools/simbridge/index.md) on which features require the SimBridge and how to set up and configure it. 
+    - Also see our [SimBridge Guide](../../../tools/simbridge/index.md) on which features require the SimBridge and how to set up and configure it. 
  
 - External SimBridge Port
     - User can change the port for the SimBridge in case the default port is already occupied on the user's system.
@@ -151,10 +151,10 @@ Settings for simulation aspects of the A32NX aircraft.
     - In some rare cases this can cause a faulty G/S signal. In this case this setting can be disabled with immediate effect.
 - Wheel Chocks
     - Enable wheel chocks visible in the external view
-    - Only visible if ground crew has not removed them - see [Wheel Chocks and GSE Safety Cones](../wheel-chocks-cones.md) for more information. 
+    - Only visible if ground crew has not removed them - see [Wheel Chocks and GSE Safety Cones](../../a32nx/feature-guides/wheel-chocks-cones.md) for more information. 
 - Safety Cones
     - Enable safety cones visible in the external view
-    - Only visible if ground crew has not removed them - see [Wheel Chocks and GSE Safety Cones](../wheel-chocks-cones.md) for more information.
+    - Only visible if ground crew has not removed them - see [Wheel Chocks and GSE Safety Cones](../../a32nx/feature-guides/wheel-chocks-cones.md) for more information.
 - Throttle Detents
     - Please see the [Throttle Configuration Guide](throttle-calibration.md).
 
@@ -194,9 +194,9 @@ Settings for realism aspects of the A32NX aircraft.
     - User can choose to use how the nose wheel shall be controlled:
         - Legacy mode (Disabled): Rudder controls also move the nose wheel. No separation.
         - Realistic mode (Enabled): Nose Wheel steering with tiller handwheel is separate from the rudder.
-            - See our guide: [Nose Wheel and Tiller Operation](../nw-tiller.md)
+            - See our guide: [Nose Wheel and Tiller Operation](../../a32nx/feature-guides/nw-tiller.md)
 - MCDU Keyboard Input (unrealistic)
-    - Enables the MCDU Keyboard input feature (see [MCDU Keyboard](../mcdu-keyboard.md)).
+    - Enables the MCDU Keyboard input feature (see [MCDU Keyboard](../../a32nx/feature-guides/mcdu-keyboard.md)).
 - MCDU Focus Timeout (s)
     - The timeout feature will automatically deactivate the focus of the MCDU screen after the given amount of seconds.
     - Valid range is 5 - 120 seconds.
@@ -217,8 +217,8 @@ Settings for realism aspects of the A32NX aircraft.
     - If the TOD point shifts before your present position, or AP mode reverts to CRZ, it will pause the simulation.
 
     !!! block ""
-        ![img_3.png](../../assets/flypados3/flypad-settings-realism-avatars.png){loading=lazy align=center width=49%}
-        ![img_2.png](../../assets/flypados3/flypad-settings-realism-avatars2.png){loading=lazy align=center width=49%}
+        ![img_3.png](../../a32nx/assets/flypados3/flypad-settings-realism-avatars.png){loading=lazy align=center width=49%}
+        ![img_2.png](../../a32nx/assets/flypados3/flypad-settings-realism-avatars2.png){loading=lazy align=center width=49%}
   
 
 ## 3rd Party Options
@@ -252,10 +252,10 @@ Settings for integrations with various 3rd party applications
 These options are separate to provide you with the flexibility to choose what to sync with GSX and what not to sync. 
 
 !!! warning ""
-    Enabling any of these options will retroactively disable the [chocks and cones](../wheel-chocks-cones.md). You cannot re-enable as long as any of these options are enabled. This is due to how GSX detects the parking brake.
+    Enabling any of these options will retroactively disable the [chocks and cones](../../a32nx/feature-guides/wheel-chocks-cones.md). You cannot re-enable as long as any of these options are enabled. This is due to how GSX detects the parking brake.
 
 !!! warning "Profile provided"
-    The aircraft comes with a GSX profile, please read [here](../gsxintegration/profile.md) for more information.
+    The aircraft comes with a GSX profile, please read [here](../../a32nx/feature-guides/gsxintegration/profile.md) for more information.
 
 - GSX Payload Sync:
     - Enables the option to synchronize GSX and the aircraft's own payload management system.
@@ -304,11 +304,11 @@ Settings for integration with various data and information sources.
 
     - If enabled, a message will be displayed to confirm sharing of the free text and position data to the public.
 
-        ![flypad-settings-atsu-aoc-telex-warning](../../assets/flypados3/flypad-settings-atsu-aoc-telex-warning.png)
+        ![flypad-settings-atsu-aoc-telex-warning](../../a32nx/assets/flypados3/flypad-settings-atsu-aoc-telex-warning.png)
 
 - Hoppie User ID:
     - Unique logon code that is used to identify the user for the Hoppie ACARS communication.
-    - See [Create a logon code](../hoppie.md#create-a-logon-code) in our documentation for Hoppie ACARS.
+    - See [Create a logon code](../../a32nx/feature-guides/hoppie.md#create-a-logon-code) in our documentation for Hoppie ACARS.
 
 ## Audio
 
@@ -343,7 +343,7 @@ Settings for various audio sources and sounds.
 
 For detailed information on these settings, please visit:
 
-[Audio Configuration Page](../audio.md){.md-button}
+[Audio Configuration Page](../../a32nx/feature-guides/audio.md){.md-button}
 
 ## flyPad Settings
 

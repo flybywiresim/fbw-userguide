@@ -1,14 +1,14 @@
 ---
-title: flyPadOS 3 EFB - Online ATC
-description: Discover how to use online ATC services such as VATSIM or IVAO with flyPadOS 3 for the FlyByWire A32NX.
+title: flyPadOS 3 EFB - Dispatch
+description: Information about the Dispatch menu provided by flyPadOS 3 in the FlyByWire A32NX.
 ---
 
 <link rel="stylesheet" href="/stylesheets/efb-interactive.css">
 
-# flyPad Online ATC
+# flyPad Dispatch
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-online-atc-vatsim.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/flypad-dispatch-overview.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -22,21 +22,16 @@ description: Discover how to use online ATC services such as VATSIM or IVAO with
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-## Description
+## Overview Page
 
-The FlyByWire flyPad helps pilots manage the communication frequencies when using Online ATC services like VATSIM or IVAO.
+This page provides information about the aircraft. It offers no further functionality at this time.
 
-It lists all currently available ATC stations, which can then be activated in the RMP 1 by a single click.
+## OFP Page
 
-Go to the flyPad [ATSU/AOC settings page](settings.md#atsuaoc) and select your Online ATC service.
-
-!!! warning ""
-    Only VATSIM or IVAO can be used for this feature at this time.
-
-## Usage
+The OFP (Operational Flight Plan) will be displayed on this page after importing it with the [button](dashboard.md#load-from-simbrief) on the [Dashboard](dashboard.md) page.
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-online-atc-frequency.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/a32nx/assets/flypados3/flypad-dispatch-ofp.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -50,21 +45,11 @@ Go to the flyPad [ATSU/AOC settings page](settings.md#atsuaoc) and select your O
     <span class="imagesub">Click on the menu icons in this image to see other flyPad pages.</span>
 </div>
 
-### Getting ATIS
 
-To get the ATIS information of the channel, hover over the station and click on the `i` symbol. 
+!!! block "Zoom"
+    ![flyPad OFP Page Zoom](../../a32nx/assets/flypados3/ofp-zoom.png "flyPad OFP Page Zoom"){align=left}
+    The OFP can be zoomed in and out with these buttons.
 
-### Changing Frequencies
-
-To change a frequency, hover over the station and click either `Set Active` or `Set Standby` depending on if you want to immediately set the frequency as the active frequency or just as the standby frequency for later use. 
-
-### Filter the Station List
-
-![flypad-online-atc-filter](../../assets/flypados3/flypad-online-atc-filter.png){loading=lazy}
-
-Use the search and predefined filters to find the station you are looking for. 
-
-You can type any string in the search field to filter the list for stations with names containing that string. The `x` button clears the search field. 
-
-To filter for a specific type of station, just click on the appropriate filter button.
-
+!!! block "Scroll"
+    ![flyPad OFP Scrollbar](../../a32nx/assets/flypados3/ofp-scroll.png "flyPad OFP Scrollbar"){align=left}
+    You can scroll through the OFP by using the scrollbar on the right. 

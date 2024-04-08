@@ -38,7 +38,7 @@ This documentation takes you through all pages and functions of GSX Integration.
 
 GSX Integration is currently limited to payload and fuel synchronization. Please refer to the quick links below or in the sidebar for more information on these features.
 
-Enabling GSX Integration is split into the various features that GSX offers that are useful to the A32NX. They are split to provide the user with the freedom on what they want to enable. Please refer to the [Third-Party Settings](../flypados3/settings.md#3rd-party-options) page on how to enable GSX Integration.
+Enabling GSX Integration is split into the various features that GSX offers that are useful to the A32NX. They are split to provide the user with the freedom on what they want to enable. Please refer to the [Third-Party Settings](../../../common/flypados3/settings.md#3rd-party-options) page on how to enable GSX Integration.
 
 The add-on comes with a developer-configured GSX profile. Please refer to [here](profile.md) for more information.
 

@@ -101,4 +101,4 @@ LVAR:A32NX_EFB_CHECKLIST_COMPLETE_ITEM
 
 Set this variable to 1 to advance a step. It will be reset to 0 automatically. 
 
-For this to work, you need a solution which is able to map controller functions to events and variables. See our [API Documentation](../../a32nx-api/index.md).
+For this to work, you need a solution which is able to map controller functions to events and variables. See our [API Documentation](../../a32nx/a32nx-api/index.md).

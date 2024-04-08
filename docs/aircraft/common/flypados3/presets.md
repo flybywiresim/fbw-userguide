@@ -37,7 +37,7 @@ Lighting presets can be loaded [manually](#manual) or [automatically](#automatic
 
 To change a preset's name, click on the current name of the preset and change the name to any string up to 16 characters. When you leave the input field, a confirmation dialog will ask you to confirm the name change. Press `Confirm` to save the new name.   
 
-![img_11.png](../../assets/flypados3/flypad-presets-name-change.png)
+![img_11.png](../../a32nx/assets/flypados3/flypad-presets-name-change.png)
 
 #### Load a Preset
 
@@ -45,7 +45,7 @@ To change a preset's name, click on the current name of the preset and change th
 
 To load a preset, please click on the "Load Preset" button. The aircraft must be powered for the buttons to be enabled. 
 
-![img_1.png](../../assets/flypados3/flypad-presets-load-button.png)
+![img_1.png](../../a32nx/assets/flypados3/flypad-presets-load-button.png)
 
 ---
 
@@ -58,17 +58,17 @@ You can also configure the aircraft to set your lighting preset automatically de
 
 Select a preset from the dropdown menu and ensure that you enable the feature using the toggle.
 
-![lighting presets](../../assets/flypados3/lighting-presets.png)
+![lighting presets](../../a32nx/assets/flypados3/lighting-presets.png)
 
 #### Save a Preset
 
 To save a preset, please click on the "Save Preset" button. The aircraft must be powered for the buttons to be enabled.
 
-![img_2.png](../../assets/flypados3/flypad-presets-save-preset-button.png)
+![img_2.png](../../a32nx/assets/flypados3/flypad-presets-save-preset-button.png)
 
 A confirmation dialog will appear to prevent you from accidentally overwriting existing presets. 
 
-![img_10.png](../../assets/flypados3/flypad-presets-save-preset-confirm.png)
+![img_10.png](../../a32nx/assets/flypados3/flypad-presets-save-preset-confirm.png)
 
 ## Aircraft Presets
 

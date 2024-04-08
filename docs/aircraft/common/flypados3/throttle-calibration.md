@@ -166,21 +166,21 @@ If the tests are successful, please move to the next chapter. Otherwise, go thro
 ??? note "Where Is the Throttle Configuration?"
     Open the flyPad (maybe pop it out to a separate window next to the throttle with ++ralt+left-button++) and go to **Sim Options (Tab)** -> **Calibrate**.
     <p/>
-    ![flyPad-Settings](../../assets/flypados3/throttle-calibration/flyPad-Settings.png "flyPad-Settings"){loading=lazy}
+    ![flyPad-Settings](../../a32nx/assets/flypados3/throttle-calibration/flyPad-Settings.png "flyPad-Settings"){loading=lazy}
     <p/>
-    ![Sim Options](../../assets/flypados3/throttle-calibration/flypad-simoptions-highlighted.png){loading=lazy}
-    ![EFB-Calibrate](../../assets/flypados3/throttle-calibration/flypad-calibrate.png){loading=lazy}
+    ![Sim Options](../../a32nx/assets/flypados3/throttle-calibration/flypad-simoptions-highlighted.png){loading=lazy}
+    ![EFB-Calibrate](../../a32nx/assets/flypados3/throttle-calibration/flypad-calibrate.png){loading=lazy}
     <p/>
     Throttle Calibration Page:
     <p/>
-    ![EFB-Calibration-Page](../../assets/flypados3/throttle-calibration/efb-calibration-page1.png "EFB-Calibration-Page"){loading=lazy}
+    ![EFB-Calibration-Page](../../a32nx/assets/flypados3/throttle-calibration/efb-calibration-page1.png "EFB-Calibration-Page"){loading=lazy}
 
 ### 2. Set Up Your Controller Characteristics
 
 Configure the basic characteristics of your controller at the top of the calibration page.
 
 ??? note "How to Set Up the Controller Basics"
-    ![Calibration Base Settings](../../assets/flypados3/throttle-calibration/base-settings.png "Calibration Base Settings"){loading=lazy}
+    ![Calibration Base Settings](../../a32nx/assets/flypados3/throttle-calibration/base-settings.png "Calibration Base Settings"){loading=lazy}
 
     Set `Reverser on Axis` to ON if your throttle has a range for the reverser thrust (lowest setting is full reverse).
 
@@ -209,7 +209,7 @@ Usually, there is no need to change the deadbands for the detents, as the defaul
 ==}
 
 ??? note "How to Check and Change the Deadbands"
-    ![Deadband around a detent setting](../../assets/flypados3/throttle-calibration/deadband-setting.png "Deadband around a detent setting"){loading=lazy}
+    ![Deadband around a detent setting](../../a32nx/assets/flypados3/throttle-calibration/deadband-setting.png "Deadband around a detent setting"){loading=lazy}
 
     The image above shows the controller in the `IDLE` position with a
     control value of - 0.50.
@@ -230,7 +230,7 @@ We start the detent calibration with the lowest throttle setting.
     For controllers with Reverser, the lowest setting is `Full Reverse`.
     Pull your controller levers all the way back into the `Full Reverse` position.
     <p/>
-    ![Full Reverse Position](../../assets/flypados3/throttle-calibration/full-reverse.png "Full Reverse Position"){loading=lazy}
+    ![Full Reverse Position](../../a32nx/assets/flypados3/throttle-calibration/full-reverse.png "Full Reverse Position"){loading=lazy}
     <p/>
     The "Current Value" should be close to - 1.0.
     <p/>
@@ -240,7 +240,7 @@ We start the detent calibration with the lowest throttle setting.
     For controllers without Reverser, the lowest setting is `IDLE`.
     Pull your controller levers all the way back into the `IDLE` position.
     <p/>
-    ![Idle Position](../../assets/flypados3/throttle-calibration/idle.png "Idle Position"){loading=lazy}
+    ![Idle Position](../../a32nx/assets/flypados3/throttle-calibration/idle.png "Idle Position"){loading=lazy}
     <p/>
     The "Current Value" should be close to - 1.0.
     <p/>
@@ -268,14 +268,14 @@ repeat the process from [Step 4.](#4-start-with-full-reverser-or-idle) for each 
 Click on "Save & Apply".
 
 ??? note "Save & Apply"
-    ![EFB-SaveApply](../../assets/flypados3/throttle-calibration/EFB-SaveApply.png "EFB-SaveApply"){loading=lazy}
+    ![EFB-SaveApply](../../a32nx/assets/flypados3/throttle-calibration/EFB-SaveApply.png "EFB-SaveApply"){loading=lazy}
 
 ### 7. Test
 
 ??? tip "How to Test Calibration"
     Test each setting with a view like this. Make sure the mouse is outside the pop-out window, otherwise the aircraft's throttles won't move.
     <p/>
-    ![Test-view](../../assets/flypados3/throttle-calibration/Test-view.png "Test-view"){loading=lazy}
+    ![Test-view](../../a32nx/assets/flypados3/throttle-calibration/Test-view.png "Test-view"){loading=lazy}
     <p/>
     Do a short test flight to confirm that all detents work as expected and also that reversers work as expected.
 
@@ -628,7 +628,7 @@ Click on "Save & Apply".
 
 If you have done a previous calibration or if you have trouble with the calibration, you can reset the calibration to its default values by pressing the reset button.
 
-![EFB-Calibration-Page](../../assets/flypados3/throttle-calibration/efb-calibration-page-reset.png "EFB-Calibration-Page"){loading=lazy}
+![EFB-Calibration-Page](../../a32nx/assets/flypados3/throttle-calibration/efb-calibration-page-reset.png "EFB-Calibration-Page"){loading=lazy}
 
 After clicking the Reset button, you can also click the Apply button, so the default settings are sent to the aircraft.
 
@@ -638,7 +638,7 @@ One of the most common issues is overlapping detents. Especially when coming fro
 
 **You can't Save and/or Apply** while this error message is shown!
 
-![EFB-Overlapping-Detents](../../assets/flypados3/throttle-calibration/EFB-Overlapping-Detents.png "EFB-Overlapping-Detents"){loading=lazy}
+![EFB-Overlapping-Detents](../../a32nx/assets/flypados3/throttle-calibration/EFB-Overlapping-Detents.png "EFB-Overlapping-Detents"){loading=lazy}
 
 This can easily be fixed by carefully following the steps [above](#4-start-with-full-reverser-or-idle), which will remove the error message, which then in turn allows to `SAVE & APPLY`.
 

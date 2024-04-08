@@ -4,7 +4,7 @@ description: A guide to the flyPadOS 3 EFB used in the A32NX.
 ---
 
 <link rel="stylesheet" href="/stylesheets/efb-interactive.css">
-<link rel="stylesheet" href="../../../../stylesheets/toc-tables.css">
+<link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
 
 # flyPadOS 3 EFB
 
@@ -26,7 +26,7 @@ description: A guide to the flyPadOS 3 EFB used in the A32NX.
 ## Description
 
 !!! warning "Please Note"
-    This guide covers the flyPad version and features available in the latest FlyByWire [Development Version](../../../install/fbw-versions.md#version-overview).
+    This guide covers the flyPad version and features available in the latest FlyByWire [Development Version](../../install/fbw-versions.md#version-overview).
 
     If you use the FlyByWire Stable version, you might not have all features available. This will be appropriately flagged throughout our documentation.
 
@@ -42,13 +42,13 @@ The FlyByWire team is in the process of moving all aircraft settings to the EFB 
 
 This documentation takes you through all pages and functions of the flyPad EFB.
 
-![FlyByWire flyPad](../../assets/flypados3/flypad-hero.png "FlyByWire flyPad")
+![FlyByWire flyPad](../../a32nx/assets/flypados3/flypad-hero.png "FlyByWire flyPad")
 
 ## General Usage
 
 ### Status Bar Icons
 
-![img.png](../../assets/flypados3/flypad-status-bar-icons.png)
+![img.png](../../a32nx/assets/flypados3/flypad-status-bar-icons.png)
 
 From left to right:
 
@@ -65,7 +65,7 @@ From left to right:
     - See [Battery Life](#battery-life) below
 
 ### Quick Controls
-![img_1.png](../../assets/flypados3/flypad-quick-controls.png){width=80% loading=lazy}
+![img_1.png](../../a32nx/assets/flypados3/flypad-quick-controls.png){width=80% loading=lazy}
 
 Quick Controls are used to quickly access selected functionality or settings of the flyPad. The Quick Controls panel can be opened by clicking on the cog wheel button in the Status Bar.
 
@@ -155,7 +155,7 @@ Fourth Row - left to right:
 
 The flyPad has a hardware button on the top-right side. This button can be used to put the flyPad into Sleep Mode.
 
-![img_6.png](../../assets/flypados3/flypad-hardware-button.png){width=50% loading=lazy}
+![img_6.png](../../a32nx/assets/flypados3/flypad-hardware-button.png){width=50% loading=lazy}
 
 ## Battery Life
 

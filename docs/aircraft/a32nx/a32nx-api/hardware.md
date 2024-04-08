@@ -34,7 +34,7 @@ To build your own profile, you can use our Flight-Deck API Documentation: [Fligh
 ![thrustmaster-tca-quadrant.png](../assets/api-guide/thrustmaster-tca-quadrant.png){loading=lazy}
 
 !!! tip ""
-    Remember to calibrate your throttle detents for this throttle: [TCA Throttle Calibration](../feature-guides/flypados3/throttle-calibration.md#thrustmaster-tca-throttle)
+    Remember to calibrate your throttle detents for this throttle: [TCA Throttle Calibration](../../common/flypados3/throttle-calibration.md#thrustmaster-tca-throttle)
 
 !!! warning ""
     To avoid unexpected problems during a flight, some default keybindings should be removed when using the TCA Throttle. 
@@ -81,7 +81,7 @@ The rest of the buttons can be mapped as you require it.
 ![Thrustmaster TWCS Throttle](../assets/api-guide/thrustmaster-twcs-throttle.png "Thrustmaster TWCS Throttle"){loading=lazy}
 
 !!! tip ""
-    Remember to calibrate your throttle detents for this throttle: [TWCS Throttle Calibration](../feature-guides/flypados3/throttle-calibration.md#thrustmaster-twcs-throttle)
+    Remember to calibrate your throttle detents for this throttle: [TWCS Throttle Calibration](../../common/flypados3/throttle-calibration.md#thrustmaster-twcs-throttle)
 
 The rest of the buttons can be mapped as you require it.
 

@@ -18,7 +18,7 @@ If you are the author of an affected livery, please reference the following:
 
 ## Registration Decal
 
-The A32NX has a [toggle option in the EFB to disable the dynamic registration number decal,](../aircraft/a32nx/feature-guides/flypados3/settings.md#sim-options) normally located near the rear of the aircraft. The intention of this option is to remove the need for livery designers to include a `panel.cfg` file in their livery packages.
+The A32NX has a [toggle option in the EFB to disable the dynamic registration number decal,](../aircraft/common/flypados3/settings.md#sim-options) normally located near the rear of the aircraft. The intention of this option is to remove the need for livery designers to include a `panel.cfg` file in their livery packages.
 
 !!! warning "Avoid Using panel.cfg"
     Overriding `panel.cfg` creates future conflicts with A32NX development.

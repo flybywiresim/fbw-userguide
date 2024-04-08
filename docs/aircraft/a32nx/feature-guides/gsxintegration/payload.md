@@ -1,7 +1,7 @@
 # Payload Synchronization
 
 !!! warning ""
-    You must enable [Payload Sync](../flypados3/settings.md#3rd-party-options) on the 3rd Party Options settings page on the EFB for this to function.
+    You must enable [Payload Sync](../../../common/flypados3/settings.md#3rd-party-options) on the 3rd Party Options settings page on the EFB for this to function.
 
 This page goes over how to use payload synchronization as-well as any caveats you should be aware of when using it.
 

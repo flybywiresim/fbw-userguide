@@ -377,7 +377,7 @@ Of course now the firewall might need to be opened for this new port.
 
 #### Websocket Port is Occupied
 
-If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](../docs/aircraft/a32nx/feature-guides/flypados3/settings.md#sim-options).
+If the port for the MCDU Websocket Server is occupied you need to first change this port in the [flyPad EFB Sim options page](../docs/aircraft/common/flypados3/settings.md#sim-options).
 
 You can then start the MCDU server using the new websocket port with this option:
 

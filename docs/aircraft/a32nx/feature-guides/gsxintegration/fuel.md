@@ -1,7 +1,7 @@
 # Fuel Synchronization
 
 !!! warning ""
-    You must enable [Fuel Sync](../flypados3/settings.md#3rd-party-options) on the 3rd Party Options settings page on the EFB for this to function.
+    You must enable [Fuel Sync](../../../common/flypados3/settings.md#3rd-party-options) on the 3rd Party Options settings page on the EFB for this to function.
 
 This page explains, how to use the fueling "synchronization" as-well as any caveats you should be made aware of when using it.
 

@@ -3,6 +3,9 @@ title: Nose Wheel and Tiller Operation
 description: A guide to using the FlyByWire A32NX's tiller independently of the rudder for a more realistic taxi experience.
 ---
 
+[//]: # (TODO)
+<p style="color:yellow; font-size:18px;">TODO: adapt this to also work for the A380X </p> 
+
 # Nose Wheel and Tiller Operation
 
 We have introduced a feature for using the tiller to steer the nose wheel independently of the rudder. As Microsoft Flight Simulator does not natively support this feature yet, we had to become creative to build a solution for this.

@@ -199,7 +199,7 @@ Change the default weights as required, and make sure you select Save Aircraft a
 
 ### Fuel
 
-Fuel loading is now exclusively done via our EFB, which has a great UI to see the status of fuel tanks and other options. [Guide Here](flypados3/ground.md#fuel-page).
+Fuel loading is now exclusively done via our EFB, which has a great UI to see the status of fuel tanks and other options. [Guide Here](../../common/flypados3/ground.md#fuel-page).
 
 ### Weights and Balance
 

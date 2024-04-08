@@ -88,7 +88,7 @@ The rest of these two pages is for reviewing the imported data. The second page 
 ![ATSU AOC WX](../../assets/a32nx-briefing/mcdu/mcdu-atsu-aoc-wx.png)
 
 This page is used to request weather data from the 
-[configured data source](../../../../aircraft/a32nx/feature-guides/flypados3/settings.md#atsuaoc).
+[configured data source](../../../../aircraft/common/flypados3/settings.md#atsuaoc).
 
 - WX TYPE (1L) 
     - Change the requested data between METAR and TAF.
@@ -103,7 +103,7 @@ This page is used to request weather data from the
 ![ATSU AOC ATIS](../../assets/a32nx-briefing/mcdu/mcdu-atsu-aoc-atis.png)
 
 This page is used to request ATIS data from the
-[configured data source](../../../../aircraft/a32nx/feature-guides/flypados3/settings.md#atsuaoc).
+[configured data source](../../../../aircraft/common/flypados3/settings.md#atsuaoc).
 
 - AIRPORT ICAO (1L)
     - Enter the ICAO code of the airport for which the ATIS is requested.

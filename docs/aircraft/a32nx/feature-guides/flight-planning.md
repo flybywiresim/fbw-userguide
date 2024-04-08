@@ -58,7 +58,7 @@ Depending on how you want to use the A32NX in combination with the MSFS' World M
     - [Using MSFS World Map and MSFS ATC](#using-the-msfs-world-map-flight-planner-and-msfs-atc)
     - [Using a SimBrief Flight Plan and MSFS ATC](#importing-a-simbrief-flight-plan-and-using-msfs-atc)
 
-See [Setting `Sync MSFS Flight Plan`](flypados3/settings.md#sim-options) for more information.
+See [Setting `Sync MSFS Flight Plan`](../../common/flypados3/settings.md#sim-options) for more information.
 
 ### Not Using MSFS World Map, MSFS ATC or MSFS VFR Map
 

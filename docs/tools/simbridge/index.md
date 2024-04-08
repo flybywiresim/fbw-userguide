@@ -27,7 +27,7 @@ SimBridge is our custom-built solution to connect our aircraft to various extern
 |               [Terrain Display](simbridge-feature-guides/terrain.md)                |  Available in [All Versions](../../aircraft/install/fbw-versions.md)  |
 |   [MCDU Remote Display](simbridge-feature-guides/remote-displays/remote-mcdu.md)    |  Available in [All Versions](../../aircraft/install/fbw-versions.md)  |
 |            [Company Routes Support](simbridge-feature-guides/coroute.md)            |  Available in [All Versions](../../aircraft/install/fbw-versions.md)  |
-| [flyPad Local Charts](../../aircraft/a32nx/feature-guides/flypados3/charts.md#local-files)  |  Available in [All Versions](../../aircraft/install/fbw-versions.md)  |
+| [flyPad Local Charts](../../aircraft/common/flypados3/charts.md#local-files)  |  Available in [All Versions](../../aircraft/install/fbw-versions.md)  |
 |                                   Remote Displays                                   |                      Work in Progress                       |
 
 !!! warning "Important Notes"

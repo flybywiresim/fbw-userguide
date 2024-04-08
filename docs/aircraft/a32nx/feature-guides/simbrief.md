@@ -77,15 +77,15 @@ If successful, you should see your account name followed by your Navigraph accou
 
     ![flypad-ng-override.png](../assets/flypados3/navigraph/flypad-ng-override.png){loading=lazy}
 
-If you are still unsure of where the Settings page on the EFB is, please see [flyPad Settings](flypados3/settings.md).
+If you are still unsure of where the Settings page on the EFB is, please see [flyPad Settings](../../common/flypados3/settings.md).
 
 ## Using the flyPad SimBrief Integration
 
 ### Importing the SimBrief OFP to the flyPad
 
-See [flyPad Guide - Load from SimBrief](flypados3/dashboard.md#load-from-simbrief)
+See [flyPad Guide - Load from SimBrief](../../common/flypados3/dashboard.md#load-from-simbrief)
 
-See [flyPad Guide - OFP](flypados3/dispatch.md#ofp-page) on how to view the SimBrief Operational Flight Plan.
+See [flyPad Guide - OFP](../../common/flypados3/dispatch.md#ofp-page) on how to view the SimBrief Operational Flight Plan.
 
 See [Fuel and Weight](loading-fuel-weight.md) on how to load fuel and payload.
 

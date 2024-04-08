@@ -64,7 +64,7 @@ ACSC        S1803A0001
         
     Calibrate your throttle to work with the FlyByWire A32NX.
         
-    [:octicons-arrow-right-24: View Guide](feature-guides/flypados3/throttle-calibration.md)
+    [:octicons-arrow-right-24: View Guide](../common/flypados3/throttle-calibration.md)
 
 </div>
 

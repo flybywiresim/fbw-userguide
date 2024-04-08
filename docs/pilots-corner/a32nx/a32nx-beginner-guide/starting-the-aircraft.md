@@ -256,7 +256,7 @@ Verify on the Upper ECAM that your aircraft has enough fuel for the flight.
 
 ![ECAM Fuel On Board](../assets/beginner-guide/starting-aircraft/ecam-fuel.png "ECAM Fuel On Board")
 
-If we do not have enough fuel for the flight, we can refuel via the [flyPad EFB Fuel Page](../../../aircraft/a32nx/feature-guides/flypados3/ground.md#fuel-page) .
+If we do not have enough fuel for the flight, we can refuel via the [flyPad EFB Fuel Page](../../../aircraft/common/flypados3/ground.md#fuel-page) .
 
 ---
 

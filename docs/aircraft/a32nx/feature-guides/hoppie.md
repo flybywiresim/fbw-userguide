@@ -78,7 +78,7 @@ It is required to configure the A32NX to use the Hoppie system. All configuratio
 
 ### ATSU/AOC
 
-The Hoppie logon code needs to be set in the [EFB Settings ATSU/AOC](flypados3/settings.md#atsuaoc) page.
+The Hoppie logon code needs to be set in the [EFB Settings ATSU/AOC](../../common/flypados3/settings.md#atsuaoc) page.
 
 ![ATSU/AOC](../assets/feature-guides/hoppie/efb-settings-atsu-aoc-page.png "ATSU/AOC page"){loading=lazy}
 
@@ -96,7 +96,7 @@ Once the above toggle is set appropriately, the Hoppie ACARS system will log you
 - Logon code is entered.
 - A flight number is set.
 - The weather source is set to VATSIM or IVAO.
-    - See [EFB Settings ATSU/AOC](flypados3/settings.md#atsuaoc).
+    - See [EFB Settings ATSU/AOC](../../common/flypados3/settings.md#atsuaoc).
 
 ## Example flight
 
@@ -240,7 +240,7 @@ Fifteen (15) minutes after passing the entry point, you need to set your squawk 
 
 To receive ATIS information and setup auto-update of specific ATIS go to the ATC COMM menu and click on `ATIS`.
 
-The source for your ATIS information can be configured in the EFB Settings page: [EFB ATSU-AOC Options](flypados3/settings.md#atsuaoc)
+The source for your ATIS information can be configured in the EFB Settings page: [EFB ATSU-AOC Options](../../common/flypados3/settings.md#atsuaoc)
 
 !!! note "MCDU ATC COMM Menu"
     !!! block ""

@@ -32,7 +32,7 @@ Before you can use the Navigraph integration, the flyPad will ask you to authent
 
 You will be redirected to (*Settings Page -> 3rd Party Options*) where you can link your account.
 
-For more information see [SimBrief and Navigraph Integration](../simbrief.md#setup-a32nx-simbrief-integration).
+For more information see [SimBrief and Navigraph Integration](../../a32nx/feature-guides/simbrief.md#setup-a32nx-simbrief-integration).
 
 [//]: # (<div style="position: relative;">)
 
@@ -67,23 +67,23 @@ For more information see [SimBrief and Navigraph Integration](../simbrief.md#set
 After authenticating, you will have access to the Navigraph page where you can list available charts for airports, view and pin them, etc. See the list of controls below. 
 
 !!! block ""
-    ![](../../assets/flypados3/airport-selection.png){loading=lazy width=50% align=left}
+    ![](../../a32nx/assets/flypados3/airport-selection.png){loading=lazy width=50% align=left}
     Enter any airport ICAO or click on the buttons to choose either the origin, destination or alternate airport. 
 
 !!! block ""
-    ![](../../assets/flypados3/chart-group-selection.png){loading=lazy width=50% align=left}
+    ![](../../a32nx/assets/flypados3/chart-group-selection.png){loading=lazy width=50% align=left}
     Select the chart group to see the corresponding charts in the list.
 
 !!! block ""
-    ![](../../assets/flypados3/chart-selector.png){loading=lazy width=50% align=left}
+    ![](../../a32nx/assets/flypados3/chart-selector.png){loading=lazy width=50% align=left}
     Click on a chart to open it. Click the pin if you want this specific chart to be available in the pins. 
 
 !!! block ""
-    ![](../../assets/flypados3/rotate-control.png){loading=lazy width=10% align=left}
+    ![](../../a32nx/assets/flypados3/rotate-control.png){loading=lazy width=10% align=left}
     Rotate the chart to be 45°, either anti-clockwise or clockwise. 
 
 !!! block ""
-    ![](../../assets/flypados3/zoom-control.png){loading=lazy width=10% align=left}
+    ![](../../a32nx/assets/flypados3/zoom-control.png){loading=lazy width=10% align=left}
      
     - fit the chart vertically into the display
     - fit the chart horizontally into the display
@@ -92,7 +92,7 @@ After authenticating, you will have access to the Navigraph page where you can l
     - decrease the zoom
 
 !!! block ""
-    ![](../../assets/flypados3/fullscreen-control.png){loading=lazy width=10% align=left}
+    ![](../../a32nx/assets/flypados3/fullscreen-control.png){loading=lazy width=10% align=left}
 
     - show the chart in full-screen
     - light and dark mode switching
@@ -118,7 +118,7 @@ After authenticating, you will have access to the Navigraph page where you can l
 
 For accessing local files from the PC, the FlyByWire SimBridge is required. This server is necessary as the sim itself does not allow access to arbitrary files on the PC. 
 
-See our documentation on how to install and configure the [SimBridge](../../../../tools/simbridge/index.md).
+See our documentation on how to install and configure the [SimBridge](../../../tools/simbridge/index.md).
 
 <div style="position: relative;">
     <img src="/aircraft/a32nx/assets/flypados3/local-files-establish-connection.png" style="width: 100%; height: auto;" loading="lazy">
@@ -190,14 +190,14 @@ Available charts can be pinned by clicking on the pin symbol. The pinned charts 
 </div>
 
 !!! block ""
-    ![](../../assets/flypados3/pinned-charts-delete.png){loading=lazy width=70% align=left}
+    ![](../../a32nx/assets/flypados3/pinned-charts-delete.png){loading=lazy width=70% align=left}
     Click on edit to unpin charts. Of course, this can also be done by unchecking the pin symbol in the chart lists. 
 
 You can also remove all pinned charts at once by clicking the `Remove All` button (trash can) above the charts.
 
 !!! block ""
-    ![](../../assets/flypados3/pinned-charts-sort.png){loading=lazy width=30% align=left}
+    ![](../../a32nx/assets/flypados3/pinned-charts-sort.png){loading=lazy width=30% align=left}
     Pinned charts can be sorted by selecting one of the sort options. 
 
 !!! block ""
-    ![img.png](../../assets/flypados3/pinned-charts-search.png){loading=lazy width=50% align=left} Pinned charts can be searched by typing the search term into the search field. Select where to search in the dropdown.  
+    ![img.png](../../a32nx/assets/flypados3/pinned-charts-search.png){loading=lazy width=50% align=left} Pinned charts can be searched by typing the search term into the search field. Select where to search in the dropdown.  

@@ -43,7 +43,7 @@ The provided widgets are:
 - Maintenance:
     - Shows active failures from the [Failures page](failures.md) 
 
-![Widgets Rearrange](../../assets/flypados3/widgets-rearrange.png)
+![Widgets Rearrange](../../a32nx/assets/flypados3/widgets-rearrange.png)
 
 By clicking on the edit symbol (pen) the widgets can be rearranged as required by the user. 
 
@@ -57,7 +57,7 @@ You can switch between the weather summary which shows the most important METAR 
 
 Selected METAR information is updated every 5 minutes.
 
-![ICAO Input to Weather Widget](../../assets/flypados3/weather-widget-input.png "ICAO Input to Weather Widget"){loading=lazy}
+![ICAO Input to Weather Widget](../../a32nx/assets/flypados3/weather-widget-input.png "ICAO Input to Weather Widget"){loading=lazy}
 
 We have applied a helpful coloring scheme a large European airline uses to point out significant parts of the raw METAR information to the pilots. This coloring uses the following colors:
 
@@ -69,23 +69,23 @@ We have applied a helpful coloring scheme a large European airline uses to point
 
 ### Pinned Charts Widget
 
-![img_4.png](../../assets/flypados3/pinned-charts-widget.png)
+![img_4.png](../../a32nx/assets/flypados3/pinned-charts-widget.png)
 
 Any pinned charts from the [Navigation page](charts.md#pinned-charts) will be shown here. 
 Clicking on a chart card brings up the corresponding chart. 
 
 ### Checklist and Maintenance Widget
 
-![img_5.png](../../assets/flypados3/checklist-maintenance-widget.png)
+![img_5.png](../../a32nx/assets/flypados3/checklist-maintenance-widget.png)
 
 This shows relevant checklists in relation to the current flight phase.
 Clicking on a checklist card brings up the corresponding checklist.
 
 ### Load From simBrief
 
-![From simBrief](../../assets/flypados3/load-from-simbrief.png)
+![From simBrief](../../a32nx/assets/flypados3/load-from-simbrief.png)
 
-If you have [configured](settings.md) your simBrief account correctly, you can click the above button to load your last simBrief flight plan into the flyPad. This does not load the flight plan into the MCDU - you need to load it there separately (see [MCDU simBrief Integration](../../../../pilots-corner/a32nx/a32nx-beginner-guide/preparing-mcdu.md#a32nx-simbrief-integration)).
+If you have [configured](settings.md) your simBrief account correctly, you can click the above button to load your last simBrief flight plan into the flyPad. This does not load the flight plan into the MCDU - you need to load it there separately (see [MCDU simBrief Integration](../../../pilots-corner/a32nx/a32nx-beginner-guide/preparing-mcdu.md#a32nx-simbrief-integration)).
 
 It is also possible to configure the flyPad to automatically load the latest SimBrief data.<br/>
 See [ATSU / AOC Settings](settings.md#atsuaoc)

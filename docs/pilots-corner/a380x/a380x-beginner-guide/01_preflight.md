@@ -77,7 +77,7 @@ following page and note any advisories.
 To help with navigation during your flight, our flyPad EFB can connect to your Navigraph account to provide access to
 all the en route charts for your flight!
 
-[EFB Navigraph](../../../aircraft/a32nx/feature-guides/flypados3/charts.md){.md-button}
+[EFB Navigraph](../../../aircraft/common/flypados3/charts.md){.md-button}
 
 This concludes the *Preflight* guide.
 

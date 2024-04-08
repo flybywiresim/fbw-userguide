@@ -18,7 +18,7 @@ This tab is dedicated to settings regarding the SimBridge server itself.
     - You can modify SimBridge's hosted port.
     - Default: `8380`
     !!! warning "Notice"
-        If this is changed, make sure to reflect the same port in the [EFB](../../../aircraft/a32nx/feature-guides/flypados3/settings.md#sim-options).
+        If this is changed, make sure to reflect the same port in the [EFB](../../../aircraft/common/flypados3/settings.md#sim-options).
 
 ## Printer Settings
 This tab is for modifying settings regarding printing data from the MCDU to your physical printer.

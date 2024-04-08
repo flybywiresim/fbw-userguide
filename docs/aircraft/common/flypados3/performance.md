@@ -173,7 +173,7 @@ be off for takeoff. Turning the air conditioning packs off allows the engines to
 
 This calculator helps the pilot to calculate when to start descending (aka the Top of Descent) based on various variables so that different scenarios can be calculated (e.g., descending with 3° descent rate, descending with a given vertical speed, etc.).
 
-For more information about descent and approach planning, see our guide: [Descent and Approach Planning](../../../../pilots-corner/a32nx/a32nx-beginner-guide/descent.md#1-descent-and-approach-planning)
+For more information about descent and approach planning, see our guide: [Descent and Approach Planning](../../../pilots-corner/a32nx/a32nx-beginner-guide/descent.md#1-descent-and-approach-planning)
 
 ### Usage
 
@@ -202,7 +202,7 @@ Example:
 - Descent angle: 3°
 - Ground Speed: has no impact on the calculation because of the fixed angle.
 
-![flyPad Performance TOD Calculator](../../assets/flypados3/performance-tod-angle.png "flyPad Performance TOD Calculator"){loading=lazy}
+![flyPad Performance TOD Calculator](../../a32nx/assets/flypados3/performance-tod-angle.png "flyPad Performance TOD Calculator"){loading=lazy}
 
 **Result: We need to start our descent ^^88 NM^^ before the target fix, at which we want to reach 11 000 ft.**
 
@@ -217,7 +217,7 @@ Example:
 - Distance to fix: 90 NM
 - Ground Speed: 450 kt (constant)
 
-![flyPad Performance TOD Calculator](../../assets/flypados3/performance-tod-distance.png "flyPad Performance TOD Calculator"){loading=lazy}
+![flyPad Performance TOD Calculator](../../a32nx/assets/flypados3/performance-tod-distance.png "flyPad Performance TOD Calculator"){loading=lazy}
 
 **Result: We need to start our descent 90 NM before the target fix with either an average ^^vertical speed of - 2333 ft/min^^ or an average ^^descent angle of - 3.0°^^** during the descent distance.
 
@@ -235,7 +235,7 @@ Example:
 - Vertical Speed: - 2000 ft/min
 - Ground Speed: 450 kt (constant)
 
-![flyPad Performance TOD Calculator](../../assets/flypados3/performance-tod-vs.png "flyPad Performance TOD Calculator"){loading=lazy}
+![flyPad Performance TOD Calculator](../../a32nx/assets/flypados3/performance-tod-vs.png "flyPad Performance TOD Calculator"){loading=lazy}
 
 **Result: We need to start our descent ^^105 NM^^ before the target fix with a vertical speed of - 2000 ft/min**
 
@@ -250,7 +250,7 @@ Example:
 - Vertical Speed: - 2 000 ft/min
 - Ground Speed: 420 kt at or above 10 000 ft, 250 kt below 10 000 ft
 
-![flyPad Performance TOD Calculator](../../assets/flypados3/performance-tod-gs.png "flyPad Performance TOD Calculator"){loading=lazy}
+![flyPad Performance TOD Calculator](../../a32nx/assets/flypados3/performance-tod-gs.png "flyPad Performance TOD Calculator"){loading=lazy}
 
 **Result: We need to start our descent ^^98 NM^^ before the target fix with a vertical speed of -2 000 ft/min**
 
@@ -298,11 +298,11 @@ Weather data can be automatically filled by entering an airport ICAO and pressin
 - Rwy Condition:
     - This information can be obtained from the METAR or ATIS and from NOTAMs on the OFP (Operational Flight Plan).
     - SimBrief provides field condition reports (FICONs) which helps populate appropriate data for this field.
-        - For detailed information see the [RWY Conditions](../../../../pilots-corner/airliner/airliner-flying-guide/runway-conditions.md#rwy-conditions)
+        - For detailed information see the [RWY Conditions](../../../pilots-corner/airliner/airliner-flying-guide/runway-conditions.md#rwy-conditions)
           section on the landing calculator additional info page.
 
 - Rwy Slope:
-    - This information can be obtained from the airport chart (see example in [Landing Calculator Additional Info](../../../../pilots-corner/airliner/airliner-flying-guide/runway-conditions.md#example-chart){target=new}) but requires a little calculation.
+    - This information can be obtained from the airport chart (see example in [Landing Calculator Additional Info](../../../pilots-corner/airliner/airliner-flying-guide/runway-conditions.md#example-chart){target=new}) but requires a little calculation.
     - Formula: (((Runway elevation on touchdown side) - (Runway elevation on far side)) / Runway length) * 100.
     - E.g., EDDM 26R: 1449 ft - 1467 ft = - 18 ft.
     - Then - 18 ft / 13 123 ft = - 0.001 37.
@@ -314,12 +314,12 @@ Weather data can be automatically filled by entering an airport ICAO and pressin
 - Approach Speed: MCDU PERF APPR
     - This is part of the MCDU PERF APPR page and can be taken from there (V~APP~).
 
-    ![MCDU PERF APPR page](../../assets/flypados3/performance-landing-mcdu-perf.png "MCDU PERF APPR page"){loading=lazy}
+    ![MCDU PERF APPR page](../../a32nx/assets/flypados3/performance-landing-mcdu-perf.png "MCDU PERF APPR page"){loading=lazy}
 
 - Weight:
     - This information can be obtained from the ECAM SD bottom-right corner (GW 59 600 kg in the example below).
 
-    ![ECAM SD](../../assets/flypados3/performance-landing-ecam-sd.png "ECAM SD"){loading=lazy}
+    ![ECAM SD](../../a32nx/assets/flypados3/performance-landing-ecam-sd.png "ECAM SD"){loading=lazy}
 
 - Flaps:
     - Planned landing flap setting (CONF FULL or CONF 3).
@@ -333,7 +333,7 @@ Weather data can be automatically filled by entering an airport ICAO and pressin
     - Use of reverse thrust on a wet or contaminated runway would be considered necessary for safety reasons.
     - May be subject to airport requirements. If there are airport requirements regarding the use of reverse thrust, these can be found on the airport chart (see example below).
 
-    ![Airport Chart Information](../../assets/flypados3/performance-landing-charts-reverser.png "Airport Chart Information"){loading=lazy}
+    ![Airport Chart Information](../../a32nx/assets/flypados3/performance-landing-charts-reverser.png "Airport Chart Information"){loading=lazy}
 
 - Autoland:
     - If an Autoland is planned, then set this to Yes.
