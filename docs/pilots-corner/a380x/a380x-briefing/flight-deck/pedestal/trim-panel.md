@@ -13,15 +13,14 @@ description: The A380 Flight Deck Trim Panel page description.
 
 ![Trim Panel](../../../assets/a380x-briefing/flight-deck/pedestal/trim-panel.png)
 
-The image showcases the trim controls of the Airbus A380, which are used to fine-tune the aircraft's flight attitude and
-balance:
-
 ## Pitch Trim
 
 This control is used to adjust the aircraft's nose attitude up or down. It changes the angle of the
-horizontal stabilizer on the tail to reduce control forces on the stick or yoke for the pilot. It is particularly
-useful for maintaining a steady altitude during level flight or during a climb or descent. The actual adjustment is
+horizontal stabilizer on the tail to reduce control forces on the stick or yoke for the pilot. The actual adjustment is
 made by moving the switch up to trim the nose down or down to trim the nose up.
+
+On ground, or in direct law, the THS is directly controlled via the pitch trim switch.
+In flight, in normal and alternate law, the THS is controlled by the flight control computers.
 
 ## Rudder Trim
 

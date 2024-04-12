@@ -1,7 +1,6 @@
 ---
-title: A380 Flight Deck - Seats
 description: The A380 Flight Deck Seats page is providing an interactive graphical overview of the A380 flight deck
-  seats and its features. 
+             seats and its features. 
 ---
 
 <script src="/javascripts/gif-play.js"></script>

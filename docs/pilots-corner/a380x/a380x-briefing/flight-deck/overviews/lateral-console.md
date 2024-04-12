@@ -1,7 +1,6 @@
 ---
-title: A380 Flight Deck - Lateral Consolea
 description: The A380 Flight Deck Lateral Console page is providing an interactive graphical
-  overview of the A380 flight deck lateral console and its systems.
+            overview of the A380 flight deck lateral console and its systems.
 ---
 
 # Lateral Consoles

@@ -2,7 +2,6 @@
 hide:
 - toc
 - navigation
-title: A380 Flight Deck Pedastal
 description: The A380 Flight Deck Pedesatl page is providing an interactive graphical overview of the A380 flight deck 
              pedestal and its systems. 
              

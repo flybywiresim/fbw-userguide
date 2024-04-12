@@ -128,7 +128,7 @@ to the glareshield. At last the lateral consoles are checked and set up.
 ## Overhead Panel
 
 ??? tip "What and Why?"
-We scan the overhead panel from left to right and bottom to top to ensure that all switches are in the correct position.
+    We scan the overhead panel from left to right and bottom to top to ensure that all switches are in the correct position.
 
 ### Overhead Panel Left (bottom to top)
 
@@ -138,15 +138,15 @@ We scan the overhead panel from left to right and bottom to top to ensure that a
 `PROBE & WINDOW HEAT ................................................. AUTO`<br/>
 `ADIRS ALL IR MODE .................................................... NAV`<br/>
 ??? note "ADIRS Alignment"
-It is recommended to align the inertial references as soon as possible. The initialization may take some time.
-It is also recommended to complete a full alignment if this is the first flight of the day, the flight crew has
-changed, the GPS is not available to all segment in the flights, or that the pilot expects long segments with low
-NAVAID coverage. It is recommended to perform a fast alignment for all other flight conditions.
+    It is recommended to align the inertial references as soon as possible. The initialization may take some time.
+    It is also recommended to complete a full alignment if this is the first flight of the day, the flight crew has
+    changed, the GPS is not available to all segment in the flights, or that the pilot expects long segments with low
+    NAVAID coverage. It is recommended to perform a fast alignment for all other flight conditions.
 `EMERGENCY LOCATOR TRANSMITTER (ELT) ................................ ARMED`<br/>
 
 ??? tip "How and Where?"
-Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
-clickable cockpit that will show you where each item is located.
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
+    clickable cockpit that will show you where each item is located.
 
     All White Lights
     <p style="color:yellow; font-size:18px;">TODO: insert image of all white lights or link to interactive flight deck</p>
@@ -178,23 +178,23 @@ clickable cockpit that will show you where each item is located.
 `ENGINE STARTER ...................................................... NORM`<br/>
 `APU BLEED ............................................................. ON`<br/>
 ??? note "APU BLEED"
-It is not recommended to use the auxiliary power unit bleed system if a high-pressure ground air unit is connected to
-the aircraft. This can be checked on the bleed page of the system display. If there is pressure in the bleed air
-system, the high-pressure ground air unit is connected.
+    It is not recommended to use the auxiliary power unit bleed system if a high-pressure ground air unit is connected to
+    the aircraft. This can be checked on the bleed page of the system display. If there is pressure in the bleed air
+    system, the high-pressure ground air unit is connected.
 `XBLEED .............................................................. AUTO`<br/>
 `AIR FLOW ............................................................ NORM`<br/>
 ??? note "AIR FLOW"
-The bleed system works with the flight management system. If there is no number of passengers entered into the
-flight-management-system, the airflow will be automatically set the air flow like when the value entered is the maximum
-number of passengers. If the number of passengers is entered, the airflow will automatically adjust to that number.
+    The bleed system works with the flight management system. If there is no number of passengers entered into the
+    flight-management-system, the airflow will be automatically set the air flow like when the value entered is the maximum
+    number of passengers. If the number of passengers is entered, the airflow will automatically adjust to that number.
 `CKPT ......................................................... AS REQUIRED`<br/>
 `CABIN ........................................................... PURS SEL`<br/>
 `TRIM TK FEED ........................................................ AUTO`<br/>
 `MAINTENANCE PANEL ALL LIGHTS.......................................... OFF`<br/>
 
 ??? tip "How and Where?"
-Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
-clickable cockpit that will show you where each item is located.
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
+    clickable cockpit that will show you where each item is located.
 
     Strobe
     <p style="color:yellow; font-size:18px;">TODO: insert image of strobe or link to interactive flight deck</p>
@@ -249,8 +249,8 @@ clickable cockpit that will show you where each item is located.
 `CVR TEST ........................................................... PRESS`<br/>
 
 ??? tip "How and Where?"
-Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
-clickable cockpit that will show you where each item is located.
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
+    clickable cockpit that will show you where each item is located.
 
     Cargo Air Cond
     <p style="color:yellow; font-size:18px;">TODO: insert image of cargo air cond or link to interactive flight deck</p>
@@ -273,8 +273,8 @@ clickable cockpit that will show you where each item is located.
 `ANTI AKID (A-SKID) ................................................... ON`<br/>
 
 ??? tip "How and Where?"
-Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
-clickable cockpit that will show you where each item is located.
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
+    clickable cockpit that will show you where each item is located.
 
     Switching Panel
     <p style="color:yellow; font-size:18px;">TODO: insert image of switching panel or link to interactive flight deck</p>
@@ -301,18 +301,18 @@ clickable cockpit that will show you where each item is located.
 `COCKPIT DOOR SWITCH ................................................ NORM`<br/>
 `ATC CLEARANCE .....................................................OBTAIN`<br/>
 ??? note "ATC Clearance"
-<p style="color:yellow; font-size:24px;">TODO: Improve.</p>
-It is recommended to obtain the ATC clearance before starting the engines.
+    <p style="color:yellow; font-size:24px;">TODO: Improve.</p>
+    It is recommended to obtain the ATC clearance before starting the engines.
 `NAVIGATION CHARTS ............................................... PREPARE`<br/>
 `MFD SURVEILLANCE DEFAULT SETTINGS................................. SELECT`<br/>
 ??? note "MFD Default Settings"
-Verify on the multi function display surveillance control page that the transponder is set to AUTO, the squawk code
-is the same, the TCAS is set to TA/RA and Norm, all TAWS modes are ON, and the weather radar is set to AUTO, the
-elevation/tilt to AUTO, Mode set to WX, TURB set to AUTO, GAIN set to AUTO, WX ON VD set to ON and PRED W/S to AUTO)
+    Verify on the multi function display surveillance control page that the transponder is set to AUTO, the squawk code
+    is the same, the TCAS is set to TA/RA and Norm, all TAWS modes are ON, and the weather radar is set to AUTO, the
+    elevation/tilt to AUTO, Mode set to WX, TURB set to AUTO, GAIN set to AUTO, WX ON VD set to ON and PRED W/S to AUTO)
 
 ??? tip "How and Where?"
-Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
-clickable cockpit that will show you where each item is located.
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
+    clickable cockpit that will show you where each item is located.
 
     Parking Brake
     <p style="color:yellow; font-size:18px;">TODO: insert image of parking brake or link to interactive flight deck</p>
@@ -354,15 +354,15 @@ See [Preparing the MFD](03_preparing-fms) for more information.
 `FLIGHT DIRECTOR ...................................................... ON`<br/>
 `NORTH REF ........................................................... MAG`<br/>
 ??? note "North Reference"
-It is recommended to ensure that the “TRUE” message does not appear on the primary flight display or on the HDG/TRK
-display.
+    It is recommended to ensure that the “TRUE” message does not appear on the primary flight display or on the HDG/TRK
+    display.
 `SPD/MACH, HDG / TRK, V/S / FPA display ........................... DASHED`<br/>
 `ALTITUDE display .................... INITIAL EXPECTED CLEARANCE ALTITUDE`<br/>
 `AUTO FLIGHT SYSTEM CONTROL PANEL ............................. CROSSCHECK`<br/>
 
 ??? tip "How and Where?"
-Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
-clickable cockpit that will show you where each item is located.
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
+    clickable cockpit that will show you where each item is located.
 
     Integral Lights
     <p style="color:yellow; font-size:18px;">TODO: insert image of integral lights or link to interactive flight deck</p>
@@ -401,8 +401,8 @@ clickable cockpit that will show you where each item is located.
 `SLIDING WINDOWS LOCKED .................................... CLOSED/LOCKED`<br/>
 
 ??? tip "How and Where?"
-Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
-clickable cockpit that will show you where each item is located.
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
+    clickable cockpit that will show you where each item is located.
 
     Oxygen Masks Test
     <p style="color:yellow; font-size:18px;">TODO: insert image of oxygen masks test or link to interactive flight deck</p>
@@ -420,8 +420,8 @@ As the last step the pilots would conduct the takeoff briefing:
 `TAKE OFF BRIEFING ............................................... PERFORM`<br/>
 
 ??? tip "How and Where?"
-Take Off Briefing
-<p style="color:yellow; font-size:18px;">TODO: describe briefing</p>
+    Take Off Briefing
+    <p style="color:yellow; font-size:18px;">TODO: describe briefing</p>
 
 ---
 

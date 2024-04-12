@@ -2,7 +2,6 @@
 hide:
 - toc
 - navigation
-title: A380 Flight Deck Main Instrument Panel and Glareshield
 description: The A380 Flight Deck Main Instrument Panel and Glareshield page is providing an interactive graphical 
              overview of the A380 flight deck main instrument panel and glareshield and its systems.
 ---
