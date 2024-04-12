@@ -6,7 +6,7 @@ This guide will help you with preparing and powering up the Airbus A380.
 It includes images to help you understand the locations of all buttons and switches.
 
 !!! warning "Disclaimer"
-The level of detail in this guide is meant to teach an Airbus A380 beginner to start the aircraft correctly.
+    The level of detail in this guide is meant to teach an Airbus A380 beginner to start the aircraft correctly.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation 
     terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
