@@ -10,7 +10,7 @@ nav:
     - Cockpit Preparation: 02_cockpit-preparation.md
     - Preparing FMS: 03_preparing-fms.md
     - Engine Start and Taxi: 04_engine-start-taxi.md
-    #- 05_takeoff-climb-cruise.md
+    - Takeoff, Climb & Cruise: 05_takeoff-climb-cruise.md
     #- 06_descent.md
     #- 07_landing.md
     #- 08_after-landing.md

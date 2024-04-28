@@ -366,8 +366,18 @@ While underway to the runway, perform the following as part of the taxi flow:
     <p style="color:yellow; font-size:18px;">TODO: add additional info, images or links to the flight deck</p>
 
 `BEFORE TAKEOFF CHECKLIST (down to the line)...................... COMPLETE`<br/>
+??? note "BEFORE TAKEOFF CHECKLIST - Down to the Line"
+    `FLIGHT INSTRUMENTS ...................................................... CHECK`<br/>
+    `TAKEOFF BRIEFING ...................................................... CONFIRM`<br/>
+    `V1/VR/V2/FLEX TEMP ........................................................ SET`<br/>
+    `SIGNS ...................................................................... ON`<br/>
+    `SPLRS ..................................................................... ARM`<br/>
+    `FLAPS ..................................................................... T.O`<br/>
+    `AUTOBRAKE ................................................................. RTO`<br/>
+    `T.O CONFIG ............................................................. NORMAL`<br/>
 
-#### Handy Tips While Taxiing
+
+### Handy Tips While Taxiing
 
 - **Maintaining Center Line**
 
@@ -380,7 +390,7 @@ While underway to the runway, perform the following as part of the taxi flow:
 
     Slow down while turning!
 
-#### Crossing a Runway
+### Crossing a Runway
 
 When approved to cross a runway (active or not) perform the following actions:
 
