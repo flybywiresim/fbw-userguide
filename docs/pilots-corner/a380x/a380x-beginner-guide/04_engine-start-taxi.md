@@ -5,12 +5,9 @@
 This guide will explain the correct procedures to accomplish a pushback with engine start and perform a safe taxi to the departure runway.
 
 !!! warning "Disclaimer"
-    The level of detail in this guide is meant to get a FlyByWire A320neo beginner safely from the terminal to the runway hold short point.
+    The level of detail in this guide is meant to get an Airbus A380 beginner safely from the terminal to the runway hold short point.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
-
-    You will find many great videos on YouTube on how to fly the FlyByWire A32NX.<br/>
-    Check out the FlyByWire YouTube Channel as well: [FlyByWire on YouTube](https://www.youtube.com/c/FlyByWireSimulations/playlists)
 
 ---
 
@@ -151,7 +148,7 @@ can proceed with the following steps.
 `START ENGINES 1 and 2 ........................................... ANNOUNCE`<br/>
 `ENGINE MASTER 1 then 2................................................. ON`<br/>
 ??? Note "ENGINE START"
-    Any engines can be started first, at the pilots discretion.
+    Any engine can be started first, at the pilots discretion.
 `WHEN AVAIL: ENGINE IDLE PARAMETERS .......................... CHECK NORMAL`<br/>
 ??? note "ENGNIE IDLE PARAMETERS"
     The engine idle parameters are displayed on the engine page on the system display. The engine idle parameters should 
@@ -305,6 +302,27 @@ let the aircraft accelerate again. It is recommended to be between 8 and 10 knot
 
 If it is required to perform a sharp turn immediately, we may need a bit more thrust. Try not to perform the brake 
 check while in a turn, as we don't want to come to a complete stop while turning.
+
+### Taxi Limitations
+
+It is generally recommended that pilots only taxi on taxiways large enough to support the aircraft. Because of how wide the wingspan of the A380 is, we need large taxiways available to use. Appropriate taxiways are commonly found at large, international airports, such as EGLL, EDDM, KJFK, CYYV, etc.
+
+<p style="color:yellow; font-size:18px;">WIP</p>
+
+??? tip "2 engine taxi"
+    There are several scenarios where taxiing can be limited. If, for example, the pilot opts for a 2-engine taxi, the engines must be symmetrical. Symmetrical engines are engines on either wing symmetrical to another engine on the opposite wing. For example, if we were to 2-engine taxi to the runway, we would use either `ENG 2+3` OR `ENG 1+4.` In situations where tight turns are involved, it's recommended to use `ENG 1+4.` <p style="color:yellow; font-size:18px;">TODO: insert image showing engine symmetry</p>
+
+For taxi on outer engines only:
+
+`ENGINE 1 AND 4 ..................................................... START`<br/>
+`AFTER START SOP .................................................. PERFORM`<br/>
+
+For taxi on inner engines only:
+
+`ENGINE 2 AND 3 ..................................................... START`<br/>
+`AFTER START SOP .................................................. PERFORM`<br/>
+
+In such a case that 2 engine taxi is performed, delay the `AFTER START CL` until all 4 engines are running.
 
 ### During Taxi
 

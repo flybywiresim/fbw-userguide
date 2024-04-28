@@ -64,8 +64,10 @@ Visit [Starting the Aircraft](02_cockpit-preparation) to learn more.
 <p style="color:yellow; font-size:18px;">TODO: describe the MFD, FMS and the process for setting it up.</p>
 
 ### Flight-Plan
+<p style="color:yellow; font-size:18px;">TODO: update docs for importing flight plan manually, and the process for setting it up.</p>
 
 ### Discontinuity
+<p style="color:yellow; font-size:18px;">TODO: update this section with DISCO procedures, identify changes from 32NX.</p>
 
 <!--
 
@@ -81,7 +83,7 @@ This guide will cover the following topics:
     - [**^^I^^**NIT FUEL PRED](#init-fuel-pred)
     - [**^^P^^**ERF](#perf)
 3. [Entering Squawk Code](#entering-squawk-code)
-4. [A32NX simBrief Integration](#a32nx-simbrief-integration)
+4. [A32NX simBrief Integration](#a32nx-simbrief-integration) <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 ---
 
@@ -96,13 +98,13 @@ During this guide we will be referring to a few key terms which are defined belo
 * Left-hand keys are referenced (in descending order) as `LSK1L - LSK6L`.
 * Right-hand keys are referenced (in descending order) as `LSK1R - LSK6R`.
 
-![mcdu1](../assets/beginner-guide/mcdu/mcdu1.png){loading=lazy}
+![mcdu1](../assets/beginner-guide/mcdu/mcdu1.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 ### Slew Keys
 
 These keys are referenced below.
 
-![mcdu1a](../assets/beginner-guide/mcdu/mcdu1a.png){loading=lazy}
+![mcdu1a](../assets/beginner-guide/mcdu/mcdu1a.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 !!! info
 
@@ -158,7 +160,7 @@ DATA includes the pages below:
 
     For more information and a guide to our simBrief A32NX features, visit the page below:
 
-    [FMS (MCDU) and simBrief Integration](../../fbw-a32nx/feature-guides/simbrief.md#using-the-fms-mcdu-and-simbrief-integration){ .md-button }
+    [FMS (MCDU) and simBrief Integration](../../fbw-a32nx/feature-guides/simbrief.md#using-the-fms-mcdu-and-simbrief-integration){ .md-button } <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 ^^FROM/TO Field^^
 
@@ -166,7 +168,7 @@ DATA includes the pages below:
   * Once this is in the scratch pad, press LSK1R.
   * This following screen would show "company routes". Since there are none stored, select `Return` using LSK6L.
 
-![mcdu5](../assets/beginner-guide/mcdu/mcdu5.png){loading=lazy}
+![mcdu5](../assets/beginner-guide/mcdu/mcdu5.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 ^^FLT NBR^^
 
@@ -175,7 +177,7 @@ DATA includes the pages below:
 
 ^^COST INDEX^^
 
-![ofp1](../assets/beginner-guide/mcdu/ofp1.jpg){loading=lazy}
+![ofp1](../assets/beginner-guide/mcdu/ofp1.jpg){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 The cost index can be found in the image above.
 
@@ -185,7 +187,7 @@ The cost index can be found in the image above.
 !!! tip "Wind Requests"
     Pilots can choose to import your wind data at this stage through the `WIND/TEMP` option by pressing LSK 4R. For more information on using this feature, please see the guide below.
 
-    [Wind Request Guide](../../fbw-a32nx/feature-guides/simbrief.md#wind-request){.md-button}
+    [Wind Request Guide](../../fbw-a32nx/feature-guides/simbrief.md#wind-request){.md-button} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
     !!! warning ""
         Please also note the following:
@@ -196,7 +198,7 @@ The cost index can be found in the image above.
 
 ^^CRZ FL/TEMP^^
 
-![ofp2](../assets/beginner-guide/mcdu/ofp2.jpg){loading=lazy}
+![ofp2](../assets/beginner-guide/mcdu/ofp2.jpg){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 Input the desired cruise flight level in this field. On our OFP, this is listed as `0240` or `FL240`.
 
@@ -215,7 +217,7 @@ Our route for this flight can be found on the 2nd page of the OFP
 !!! info "Routing Disclaimer"
     Note that waypoints, STARs, and SIDs may be called differently due to different nav-databases or different AIRAC cycles between simBrief and the simulator.
 
-![ofp3](../assets/beginner-guide/mcdu/ofp3.jpg){loading=lazy}
+![ofp3](../assets/beginner-guide/mcdu/ofp3.jpg){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 `EDDM/08L GIVMI6Q GIVMI Y101 ERNAS T161 DEBHI DEBHI1C EDDF/07L`
 
@@ -237,7 +239,7 @@ To program the Standard Instrument Departure (SID):
 
 The MCDU should now show at the top of the screen in yellow what is selected for our departure from EDDM.
 
-![mcdu8](../assets/beginner-guide/mcdu/mcdu8.png){loading=lazy}
+![mcdu8](../assets/beginner-guide/mcdu/mcdu8.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 * Press `INSERT*` using LSK6R to program this into the flight plan.
 
@@ -256,7 +258,7 @@ and this is where we can begin to fill out the rest of the flight plan.
     * Remember: Airways are on the left and waypoints are on the right.
 * Continue inputting the airway `T161` and following waypoint `DEBHI`.
 
-![mcdu10](../assets/beginner-guide/mcdu/mcdu10.png){loading=lazy}
+![mcdu10](../assets/beginner-guide/mcdu/mcdu10.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 * Press `INSERT*` using LSK6R to program this into the flight plan.
 
@@ -289,7 +291,7 @@ and this is where we can begin to fill out the rest of the flight plan.
     - Use the relevant LSK to select it. 
     - You will then be on the following page:
 
-        ![lat-rev-fpln.png](../assets/beginner-guide/mcdu/mcdu-latrev.png){loading=lazy width=50%}
+        ![lat-rev-fpln.png](../assets/beginner-guide/mcdu/mcdu-latrev.png){loading=lazy width=50%} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
     - Type in `ERNAS` so it's visible in the scratchpad.
     - Use `LSK3R` to enter `ERNAS` as the next waypoint on your flight plan.
@@ -317,7 +319,7 @@ Find `EDDF` in green in the flight plan OR select `EDDF` in white under `DEST` u
 * For the approach VIA, select `DF454`, using the appropriate LSK. On the following page, we can choose transitions, if available, but for this flight, we don't.
 * Press `INSERT*` using LSK6R to program this into the flight plan.
 
-![mcdu12](../assets/beginner-guide/mcdu/mcdu12.png){loading=lazy}
+![mcdu12](../assets/beginner-guide/mcdu/mcdu12.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 Verify the flight plan by using the vertical slew keys to scroll through it.
 
@@ -334,7 +336,7 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
     
     In this flight plan we have a discontinuity between the STAR and approach procedure as shown below.
 
-    ![mcdu-discontinuity.png](../assets/beginner-guide/mcdu/mcdu-discontinuity.png){loading=lazy}
+    ![mcdu-discontinuity.png](../assets/beginner-guide/mcdu/mcdu-discontinuity.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
     See our detailed documentation for [Discontinuities](../advanced-guides/flight-planning/disco.md){target=new} to understand how to appropriately handle these when encountered on your F-PLN page. 
     
@@ -358,14 +360,14 @@ If we would like to have additional navaids for the departure, we can input the 
 
 ^^VOR^^
 
-The A32NX supports VOR autotuning when in range of a VOR before departure. You can verify this by checking the RADNAV page and seeing if the VOR frequency is already populated. You should verify the relevance of this VOR to your departure procedure and flight plan before takeoff.
+The A380X supports VOR autotuning when in range of a VOR before departure. You can verify this by checking the RADNAV page and seeing if the VOR frequency is already populated. You should verify the relevance of this VOR to your departure procedure and flight plan before takeoff.
 
 On this departure SID, we have routing instructions that rely on the Munich VOR `DMN` with a frequency of `116.0`.
 
 
 ^^Departure ILS^^
 
-When selecting the SID earlier in the flight plan section, the A32NX should have autopopulated the ILS/LOC frequency. If it hasn't, we can manually insert it for centerline guidance on take off.
+When selecting the SID earlier in the flight plan section, the A380X should have autopopulated the ILS/LOC frequency. If it hasn't, we can manually insert it for centerline guidance on take off.
 
 Our departure runway is EDDM/08L (runway 08 left), which has a frequency of `109.50`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. You could also enter the identifier `IMNE` and it would automatically fill in the frequency. You cannot enter both at the same time, as this would result in a `FORMAT ERROR`. 
 
@@ -379,7 +381,7 @@ Remember, our arrival airport/rwy is `EDDF/07L` with ILS07L having a frequency o
 
 * Using the keypad, type in `110.30` and press LSK3L to input it.
 
-![mcdu15](../assets/beginner-guide/mcdu/mcdu15.png){loading=lazy}
+![mcdu15](../assets/beginner-guide/mcdu/mcdu15.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 ^^ADF^^
 
@@ -402,7 +404,7 @@ On this page, we can input our zero fuel weight (ZFW) and zero fuel weight cente
 
     Please see our [Fuel and Weights Guide](../../fbw-a32nx/feature-guides/loading-fuel-weight.md) for more detailed information.
 
-The A32NX can autopopulate this information.
+The A380X can autopopulate this information.
 
 * Press LSK1R to load in the calculated ZFW/ZFWCG into the scratch pad at the bottom of the MCDU (after boarding has been started in the flyPad).
 * Press LSK1R a second time to input the above calculation into the MCDU. (The empty orange boxes should now be filled in by the scratch pad entry).
@@ -447,7 +449,7 @@ We can use the planned block fuel stated on the OFP, which in this case is `4631
 * Using the keypad, type in `4.7` and press LSK2R
 * We should load this amount of fuel via the EFB option.
 
-![mcdu16](../assets/beginner-guide/mcdu/mcdu16.png){loading=lazy}
+![mcdu16](../assets/beginner-guide/mcdu/mcdu16.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 ### **^^P^^**ERF
 
@@ -486,7 +488,7 @@ For this flight, we will be taking off with a `1+F` flaps configuration.
     GW CG Values can be found: 
 
     - On the [Payload Tab on the Grounds Services Page](../../fbw-a32nx/feature-guides/loading-fuel-weight.md#finding-the-payload-screen) in the flyPad EFB.
-    - On the [Fuel Prediction](../a32nx-briefing/mcdu/fuel-pred.md) page in the MCDU.
+    - On the [Fuel Prediction](../a32nx-briefing/mcdu/fuel-pred.md) page in the MCDU. <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
     CG to THS calculation:
     
@@ -515,7 +517,7 @@ Read the following tip for more information on FLEX temp.
 !!! tip "What is Flex Temp?"
     Flex temp is entered into the MCDU, enabling the computer to use the pilot-specified air temperature to allow for take-off thrust that is less than TOGA but not less than CLB. This is a method of creating cost savings by increasing engine life, resulting in reduced overhaul and fuel costs. This value is normally calculated via a pilot's company EFB or other tools.
 
-    Unfortunately, A320neo performance data for FLEX temp performance calculators alongside other various tools are not publicly available and are guarded by Airbus. For the purposes of simulation, it's important to note the following:
+    Unfortunately, A380 performance data for FLEX temp performance calculators alongside other various tools are not publicly available and are guarded by Airbus. For the purposes of simulation, it's important to note the following:
 
     {==
 
@@ -538,7 +540,7 @@ clicking the LSK next to the V-Speed you want to calculate.
 
 * Press LSK1L to have the calculated V1 speed appear in the scratchpad.
 
-![mcdu19](../assets/beginner-guide/mcdu/mcdu19.png){loading=lazy}
+![mcdu19](../assets/beginner-guide/mcdu/mcdu19.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 * Press LSK1L again to have the value inputted into the V1 speed. The value you get can be different 
   from the one in the image as it depends on the weight of the aircraft.
@@ -546,7 +548,7 @@ clicking the LSK next to the V-Speed you want to calculate.
 
 The performance page should now look similar to this:
 
-![mcdu20](../assets/beginner-guide/mcdu/mcdu20.png){loading=lazy}
+![mcdu20](../assets/beginner-guide/mcdu/mcdu20.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 ## Entering Squawk Code
 
@@ -555,7 +557,7 @@ for your flight. This allows ATC to identify your aircraft on their radar.
 
 To enter your assigned code find the ATC/TCAS Panel on the bottom right portion of the lower pedestal. It will look like this:
 
-![ATC-TCAS.png](../assets/beginner-guide/takeoff-climb-cruise/ATC-TCAS.png){loading=lazy}
+![ATC-TCAS.png](../assets/beginner-guide/takeoff-climb-cruise/ATC-TCAS.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
 
 - Ensure that the `XPDR` switch is on STDBY for now (will be set to `AUTO` or `ON` shortly before take-off)
 - To clear the current code, **double press** the `CLR` button.
