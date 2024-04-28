@@ -5,7 +5,7 @@
 This guide will explain the correct procedures to accomplish takeoff, climb and establish cruise altitude.
 
 !!! warning "Disclaimer"
-    The level of detail in this guide is meant to get a FlyByWire A380X beginner safely up in the air and to cruise level
+    The level of detail in this guide is meant to get an Airbus A380 beginner safely up in the air and to cruise level
     under normal conditions, while simplifying details which are not (yet) important for a beginner.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
@@ -443,6 +443,10 @@ the seatbelt signs. The aircraft will now accelerate to CLB speed (defined in `M
 
 `BAROMETRIC REFERENCE ........................................ SET STANDARD`<br/>
 ??? note "At the transition altitude"
+    When the aircraft reaches the transition altitude, the barometric setting will automatically flash on the primary 
+    flight display. It is recommended to set STD on the electronic flight instrument system control panel and on the 
+    integrated standby instrument system.
+    
     *NOTE:* this will vary depending on where you are in the world. For example, in the U.S. the transition altitude is
     18,000 feet. In the Netherlands it is 3000. Check with your local aviation authority for more details. Upon passing the
     set transition altitude, you will set your barometer to `STD`, as notated in the Check Baro Setting item in the previous
