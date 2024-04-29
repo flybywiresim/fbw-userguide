@@ -468,9 +468,21 @@ This concludes the *Climb*.
 - Aircraft has leveled off at planned cruise level.
 - Speed is cruise speed as per ECAM PERF CRZ page.
 
+`ALT CRZ on flight mode annunciator ................................. CHECK`<br/>
+??? note "Cruise Phase"
+    The FMA now shows `ALT CRZ` in white in the second column of the FMA (Vertical Guidance). This means the aircraft is
+    in cruise mode and will maintain the selected altitude.
+
+    Verify that the aircraft is cruising on the cruise flight level inserted on the CRZ panel of the flight management 
+    system of the active performance page. This will ensure that the aircraft flies at the targeted cruise speed so fuel 
+    consumptions is optimized. This will also benefit to a soft autothrottle mode, as well have more accurate predictions.
 
 This is usually the quietest time of the flight. It allows time to double-check the systems by going through all ECAM
 pages, etc.
+
+`ECAM MEMO ......................................................... REVIEW`<br/>
+`SD PAGES .......................................................... REVIEW`<br/>
+`FLIGHT PROGRESS .................................................. MONITOR`<br/>
 
 Regular ATC frequency changes with altitude and position check-ins are common.
 

@@ -11,7 +11,7 @@ nav:
     - Preparing FMS: 03_preparing-fms.md
     - Engine Start and Taxi: 04_engine-start-taxi.md
     - Takeoff, Climb & Cruise: 05_takeoff-climb-cruise.md
-    #- 06_descent.md
+    - Descent Planning and Descent: 06_descent.md
     #- 07_landing.md
     #- 08_after-landing.md
     #- 09_powering-down.md
