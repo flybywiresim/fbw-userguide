@@ -53,7 +53,7 @@
     - [ ] Beginner Guide
       - [ ] Add Flow Patterns
     - [x] Advanced Guide
-      - [x] ... / split into a32nx/a380x specific features and common features
+      - [ ] ... / split into a32nx/a380x specific features and common features
     - [x] A320X Pilot Briefing
       - [x] Flight-Deck
       - [x] MFD
@@ -64,11 +64,13 @@
       - [ ] FCU
   - [ ] A380X Corner
     - [ ] Beginner Guide
-    - [ ] Advanced Guide
-      - [ ] ... / split into a32nx/a380x specific features and common features
+    - [ ] Advanced Guides
+      - [ ] Add Go-Around
+      - [ ] Add OANS
+      - [ ] A380X specific features
     - [ ] A380X Pilot Briefing
-      - [ ] Limitations 
       - [ ] Flight-Deck
+      - [ ] Limitations 
       - [ ] MFD
       - [ ] PFD
       - [ ] ND
