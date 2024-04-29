@@ -360,7 +360,7 @@ If we would like to have additional navaids for the departure, we can input the 
 
 ^^VOR^^
 
-The A380X supports VOR autotuning when in range of a VOR before departure. You can verify this by checking the RADNAV page and seeing if the VOR frequency is already populated. You should verify the relevance of this VOR to your departure procedure and flight plan before takeoff.
+The A380X supports VOR autotuning when in range of a VOR before departure. You can verify this by checking the POSITION / NAVAIDS page accessed via the MFD or on the RMP, and seeing if the VOR frequency is already populated. You should verify the relevance of this VOR to your departure procedure and flight plan before takeoff.
 
 On this departure SID, we have routing instructions that rely on the Munich VOR `DMN` with a frequency of `116.0`.
 
