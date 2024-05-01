@@ -1,8 +1,8 @@
 # Preflight
 
-Before you start your flight in earnest, we have included various features in the A32NX that assist in configuring the
+Before you start your flight in earnest, we have included various features in the A380X that assist in configuring the
 aircraft and in-flight support. Some of these features require the aircraft to be powered on. Additionally, these guides
-will be linked in the appropriate locations throughout the beginner guide.
+will be linked to the appropriate locations throughout the beginner guide.
 
 ---
 
@@ -51,11 +51,13 @@ Also, the EFB can import and use your SimBrief flight plan to display the OFP, i
     planner. Doing this "initializes" the `FROM/TO` field when loading into your flight, removing the `INIT REQ.` option
     from the `INIT A` page.
 
-[SimBrief A32NX Features](../../../aircraft/a32nx/feature-guides/simbrief.md){.md-button}
+[SimBrief A380X Features](../../../aircraft/a32nx/feature-guides/simbrief.md){.md-button}
+<p style="color:yellow; font-size:18px;">TODO: simbrief guide needs separation and update</p> 
+
 
 ### Manual Flight Planning
 
-The [Flight Plan Section](03_preparing-fms.md#flight-plan) in the "Preparing the MCDU" guide contains a sample routing to
+The [Flight Plan Section](03_preparing-fms.md#flight-plan) in the "Preparing the FMS" guide contains a sample routing to
 showcase how to input your waypoints, departure SID, and arrival STAR / procedure.
 
 ### Flight Plan Discontinuities
@@ -64,6 +66,7 @@ When inputting your flight plan into the MCDU, discontinuities appearing is an i
 describes how to handle these when encountered during your preflight preparations.
 
 [Flight Plan Discontinuities](03_preparing-fms.md#discontinuity){.md-button}
+<p style="color:yellow; font-size:18px;">TODO: guide needs separation and update</p> 
 
 ## Payload Management
 
@@ -71,6 +74,7 @@ To configure your aircraft, we have provided options onboard the aircraft to loa
 following page and note any advisories.
 
 [Fuel and Weights](../../../aircraft/a32nx/feature-guides/loading-fuel-weight.md){.md-button}
+<p style="color:yellow; font-size:18px;">TODO: guide needs separation and update</p> 
 
 ## EFB Navigraph Charts
 

@@ -470,12 +470,12 @@ There are typically three very important holding position signs / markings that 
 2. Taxiway Holding Position
     - Single dashed yellow line. If this is present along your taxi route, it will indicate a position that ground control may request you stop and hold short before another taxiway.
 
-        ![taxiway hold](../assets/beginner-guide/taxi/taxiway-hold.png){ loading=lazy style="width:320px;height:79px" }
+        ![taxiway hold](../assets/beginner-guide/04_engine-start-taxi/taxiway-hold.png){ loading=lazy style="width:320px;height:79px" }
 
 3. ILS Critical Area
     - Solid yellow lines that look like a railroad or ladder. These are another form of hold short point but indicate a critical area Where your aircraft would violate the ILS approach airspace while on the ground.
 
-        ![ils critical](../assets/beginner-guide/taxi/ils-critical.png){loading=lazy}
+        ![ils critical](../assets/beginner-guide/04_engine-start-taxi/ils-critical.png){loading=lazy}
 
 ---
 

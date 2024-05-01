@@ -116,14 +116,28 @@ After these pre-checks, we can start the aircraft starting with the initial powe
 
 ## Cockpit Preparation Flow
 
-<p style="color:yellow; font-size:18px;">TODO: Improve description and check with pilots</p>
-
 The cockpit preparation flow is an easy way to remember the steps to startup and setup the aircraft correctly.
 It follows a flow starting on the overhead panel on the left buttom moving up and then to the right.
 Then it continues the flow on the main panel starting and moving to the pedestal, setting up the FMS to then continue
 to the glareshield. At last the lateral consoles are checked and set up.
 
-<p style="color:yellow; font-size:18px;">TODO: insert image showing the setup flow.</p>
+Normally, the flow is done by the two pilots in the cockpit. The First Officer (FO) does the overhead panel, main panel, 
+pedestal, and his side of the cockpit for the glareshield, lateral consoles and his MFD. 
+
+The Captain does his side of the cockpit for the glareshield and lateral consoles and his MFD.
+
+In the simulator, we are usually alone, so we will do the flow on our own.
+
+![img.png](../assets/beginner-guide/02_cockpit-preparation/flow-pattern.png)
+
+1. Overhead Panel from left to right and bottom to top - prepare
+2. Main Instrument Panel - prepare
+3. Pedestal - prepare
+4. MFD (see [Preparing the FMS](03_preparing-fms.md))
+5. Glareshield - set and crosscheck 
+6. Lateral Consoles - Oxygen Mask Test
+7. Windows - check closed/locked
+8. PFD/ND - check
 
 ## Overhead Panel
 

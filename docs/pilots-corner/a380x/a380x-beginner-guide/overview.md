@@ -14,15 +14,29 @@ serve as reminders of proper procedure at different stages of flight for veteran
 
 Each page was reviewed by an A320 type rated pilot and provides accurate information to aircraft operation.
 
+!!! warning "Disclaimer"
+    The level of detail in this guide is meant to teach an Airbus A380 beginner to conduct a full flight from gate to 
+    gate. 
+
+    A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation 
+    terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
+
+    This guide simplifies some procedures to accomodate beginners and the fact that this is a simulation. More advanced 
+    sim pilots can use the [A380X SOP](../a380x-sop.md) directly for more in depth procedures. 
+
+    When this guide refers to ATC it is referring to any Online ATC network but **NOT** the built-in ATC in the 
+    simulator as this is very unrealistic and unreliable. Also using ATC is completely optional and also not recommended
+    for beginners. The guide references ATC just to give additional context to the procedures.
+
+!!! info "Airline SOP"
+    Please be aware that different airlines may have slightly different procedures at different stages of flight.
+
 {--
 
 The [Preflight](01_preflight.md) page contains guides on how to set up relevant data and configurations before starting
 your flight. We recommend starting there.
 
 --}
-
-!!! info "Airline SOP"
-    Please be aware that different airlines may have slightly different procedures at different stages of flight.
 
 <p style="color:coral; font-size:24px;">This is for simulation purposes only.</p>
 
