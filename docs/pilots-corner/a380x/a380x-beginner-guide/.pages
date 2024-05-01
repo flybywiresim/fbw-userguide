@@ -14,4 +14,4 @@ nav:
     - Descent Planning and Descent: 06_descent.md
     - Landing: 07_landing.md
     - After Landing: 08_after-landing.md
-    #- 09_powering-down.md
+    - Powering Down: 09_powering-down.md
