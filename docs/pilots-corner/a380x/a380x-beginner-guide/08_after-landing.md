@@ -126,13 +126,12 @@ This guide will cover these phases:
 
 `AFTER LANDING CHECKLIST ......................................... COMPLETE`<br/>
 ??? note "After Landing Checklist"
-    The After Landing Checklist is a list of items that need to be checked after landing to ensure the aircraft is 
-    ready for taxiing to the gate. The checklist is usually done by the pilot flying the aircraft, and the pilot not 
-    flying reads the checklist items and the pilot flying confirms the items are set correctly.
-
-    ![After Landing Checklist](../../a32nx/assets/beginner-guide/after-landing/After-landing-checklist.png "After Landing Checklist"){loading=lazy width=50%}
-    <p style="color:yellow; font-size:18px;">TODO: update/screenshot</p>
-
+    `A/THR MODE ........................................................ AS REQUIRED`<br/>
+    `EXTERIOR LIGHTS ........................................................... SET`<br/>
+    `SPLRS .................................................................. DISARM`<br/>
+    `FLAPS ....................................................................... 0`<br/>
+    `APU ..................................................................... START`<br/>
+    
 This concludes *After Landing*
 
 ## 2. Taxi to Gate
