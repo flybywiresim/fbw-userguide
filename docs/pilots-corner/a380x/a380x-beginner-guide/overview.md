@@ -9,13 +9,15 @@ description: The A32NX Beginner Guide teaches users how to operate and fly the F
 
 # Overview
 
-Welcome to the A32NX Beginner's Guide. Although this guide is tailored towards beginners, each topic below may even serve as reminders of proper procedure at different stages of flight for veteran sim pilots.
+Welcome to the A32NX Beginner's Guide. Although this guide is tailored towards beginners, each topic below may even
+serve as reminders of proper procedure at different stages of flight for veteran sim pilots.
 
 Each page was reviewed by an A320 type rated pilot and provides accurate information to aircraft operation.
 
 {--
 
-The [Preflight](01_preflight) page contains guides on how to set up relevant data and configurations before starting your flight. We recommend starting there.
+The [Preflight](01_preflight.md) page contains guides on how to set up relevant data and configurations before starting
+your flight. We recommend starting there.
 
 --}
 
@@ -30,7 +32,7 @@ The [Preflight](01_preflight) page contains guides on how to set up relevant dat
 |:-------:|:---------------------------------------------------------|
 |   1.    | [Preflight](01_preflight.md)                             |
 |   2.    | [Cockpit Preparation](02_cockpit-preparation.md)         |
-|   3.    | [Preparing the MCDU](03_preparing-fms.md)                |
+|   3.    | [Preparing the FMS](03_preparing-fms.md)                 |
 |   4.    | [Engine Start and Taxi](04_engine-start-taxi.md)         |
 |   5.    | [Takeoff, Climb, and Cruise](05_takeoff-climb-cruise.md) |
 |   6.    | [Descent Planning and Descent](06_descent.md)            |
