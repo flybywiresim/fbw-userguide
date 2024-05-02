@@ -15,7 +15,7 @@ There can be up to 99 waypoints stored. To see the stored waypoints, you need t
 These waypoints can be used in the flight plan (MCDU F-PLN page) in the same way as any other fix by entering the fix ident.
 
 !!! info ""
-    These stored waypoints are not persisted and not stored on your PC. This is similar to the configuration of most real-world aircraft, where the waypoints will also be erased after the flight (when in the [DONE](flight-phases.md#done-phase) phase).
+    These stored waypoints are not persisted and not stored on your PC. This is similar to the configuration of most real-world aircraft, where the waypoints will also be erased after the flight (when in the [DONE](../../airliner/flight-phases.md#done-phase) phase).
 
 The following chapters will explain how to create, use and delete these stored waypoints.
 

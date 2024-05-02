@@ -1,7 +1,8 @@
 title: Airliner Corner
 nav:
     - Overview: index.md
-    - Airliner Flying Guide: airliner-flying-guide
-    - Terms and Abbreviations: abbreviations.md
+    - flight-phases.md
+    - airliner-flying-guide
+    - abbreviations.md
     - ...
 

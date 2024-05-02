@@ -32,7 +32,7 @@ Each page was reviewed by an A320 type rated pilot and provides accurate informa
 
 | Quick Links                                    |
 |:-----------------------------------------------|
-| [Flight Phases](flight-phases.md)              |
+| [Flight Phases](../../airliner/flight-phases.md)              |
 | [Flight Planning](flight-planning/fixinfo.md)  |
 | [Flight Guidance](flight-guidance/overview.md) |
 | [Protections](protections/overview.md)         |
