@@ -1,6 +1,6 @@
 ---
 title: Recommended Settings
-description: Find the recommended settings to ensure a smooth flight with the FlyByWire A32NX add-on for Microsoft Flight Simulator 2020.
+description: Find the recommended settings to ensure a smooth flight with the FlyByWire A32NX and A380X for Microsoft Flight Simulator 2020.
 ---
 
 # Recommended Settings
@@ -11,9 +11,12 @@ description: Find the recommended settings to ensure a smooth flight with the Fl
     }
 </style>
 
-This page aims to list a few recommended settings for the Microsoft Flight Simulator, Windows and the A32NX itself before and while using the FlyByWire A32NX.
+This page aims to list a few recommended settings for the Microsoft Flight Simulator, Windows and the FlyByWire aircraft. These settings are applicable before loading into the simulator and while in flight.
 
-If you are new to the FlyByWire A32NX, please also make sure to read the [A32NX Beginner Guide](../../pilots-corner/a32nx/a32nx-beginner-guide/overview.md), especially [Preflight](../../pilots-corner/a32nx/a32nx-beginner-guide/preflight.md).
+If you are new to flying our aircraft please make sure to read our beginner guides: 
+
+- [A32NX Beginner Guide](../../pilots-corner/a32nx/a32nx-beginner-guide/overview.md), especially [Preflight](../../pilots-corner/a32nx/a32nx-beginner-guide/preflight.md).
+- [A380X Beignner Guide](#)
 
 ## Microsoft Flight Simulator Settings
 
@@ -63,7 +66,7 @@ We recommend the legacy (previous) method of the Cockpit Interaction System (Men
 
 ### Failure And Damage Detection
 
-We recommend disabling the Failure and Damage detection (Menu > Assistence Options > Failure and Damage) to avoid frustration.
+We recommend disabling the Failure and Damage detection (Menu > Assistance Options > Failure and Damage) to avoid frustration.
 This feature does not work reliably and our systems are not compatible with the simulator's crash detection.
 You may be returned to the menu or have to restart your flight due to some the following reasons:
 
@@ -131,7 +134,7 @@ key will trigger `Pause` in input fields of the EFB or the MCDU when using the k
 
 ### UTF-8 Support
 
-Some users experience problems with various systems in the A32NX. These are caused by an issue within MSFS which requires to use the UTF-8 Region setting on Windows.
+Some users experience problems with various systems in our aircraft. These are caused by an issue within MSFS which requires to use the UTF-8 Region setting on Windows.
 
 - Open Windows Control Panel -> Region.
 - Go to the Administrative tab and click Change system locale
@@ -144,7 +147,7 @@ Some users experience problems with various systems in the A32NX. These are caus
 
 See [Performance Tips](../support/performance-tips.md)
 
-## Important A32NX Settings
+## A32NX - Important Settings
 
 ### Installation With FBW Installer
 
@@ -179,3 +182,7 @@ The first time you start the aircraft after this feature has been included and a
 flyPad EFB Settings for Error Reporting:
 
 ![flyPad EFB Setting Error Reporting](../a32nx/assets/settings/efb-settings-atsuaoc-error-reporting.png "flyPad EFB Setting Error Reporting")
+
+## A380X - Important Settings
+
+<p style="color:yellow; font-size:18px;">TODO: Add A380X settings</p>
