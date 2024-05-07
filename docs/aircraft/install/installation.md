@@ -1,13 +1,13 @@
 ---
 title: Installation Guide
-description: Learn how to install the FlyByWire A32NX add-on for Microsoft Flight Simulator 2020 with step-by-step guides.
+description: Learn how to install the FlyByWire Aircraft for Microsoft Flight Simulator 2020 with step-by-step guides.
 ---
 
 # Installation Guide
 
-Please follow the information on this page to install the FlyByWire Simulations A32NX add-on for Microsoft Flight Simulator 2020
+Please follow the information on this page to install FlyByWire Simulations products for Microsoft Flight Simulator 2020.
 
-!!! warning "Important Notice"
+!!! warning "Important Notice for the A32NX"
 
     All FlyByWire Simulations A32NX versions are now independent of the default A320neo.
 
@@ -56,7 +56,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
 ### Manual Installation
 
-!!! info "Download"
+??? info "Download A32NX"
 
     === "Latest Stable Version"
 
@@ -78,6 +78,10 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
          [Download Development](https://github.com/flybywiresim/aircraft/releases/download/assets/master/A32NX-master.7z){.md-button target=new}
          
          [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](feature-guides/autopilot-fbw.md)
+
+??? info "Download A380X"
+
+    Pending futher information
 
 [//]: # (    === "Experimental Version")
 
@@ -104,19 +108,17 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
 **Please follow ALL steps in this section if you encounter any issues with installation before seeking support.**
 
-Open the zip that you downloaded from one of the links above, and drag the `flybywire-aircraft-a320-neo` folder inside the zip into your Community folder.
+Open the zip that you downloaded from one of the links above, and drag the `flybywire-aircraft-a320-neo` or `insert A380 folder` folder inside the zip into your Community folder.
 
 See below for the location of your Community folder.
 
-## Recommended Settings for A32NX, MSFS and Windows
-
-See [Recommended Settings](settings.md).
+<p style="color:yellow; font-size:18px;">TODO: Add A380X installation steps and folder name</p>
 
 ## Community Folder
 
 ### Microsoft Store and/or Game Pass Edition
 
-- Copy the `flybywire-aircraft-a320-neo` folder into your community package folder.
+- Copy the `flybywire-aircraft-a320-neo` or `a380 folder` folder into your community package folder.
 
 It is located in:
 
@@ -126,7 +128,7 @@ It is located in:
 
 ### Steam Edition
 
-- Copy the `flybywire-aircraft-a320-neo` folder into your community package folder.
+- Copy the `flybywire-aircraft-a320-neo` or `a380 folder` folder into your community package folder.
 
 It is located in:
 
@@ -136,7 +138,7 @@ It is located in:
 
 ### Boxed Edition
 
-- Copy the `flybywire-aircraft-a320-neo` folder into your community package folder.
+- Copy the `flybywire-aircraft-a320-neo` or `a380 folder` folder into your community package folder.
 
 It is located in:
 
@@ -183,7 +185,7 @@ FBW Installer version 3.0.0 introduced the `Uninstall` feature. To perform an au
 ### Manual Clean Install
 
 If you would like to manually perform a clean install you first have to delete the 
-`flybywire-aircraft-a320-neo` folder from your community folder.
+`flybywire-aircraft-a320-neo` or `a380 folder` folder from your community folder.
 
 We also store additional information related to the aircraft in a separate directory, which is built when you load the aircraft in the simulator. You also need to delete the contents of this folder, but not the folder itself. 
 
@@ -239,6 +241,10 @@ To quickly locate `%appdata%`:
     This is not your community directory
 
 ***
+
+## Recommended Settings for A32NX, MSFS and Windows
+
+See [Recommended Settings](settings.md).
 
 ## Contributing
 
