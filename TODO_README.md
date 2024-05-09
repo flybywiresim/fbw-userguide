@@ -27,13 +27,13 @@
 
 - [ ] Homepage
 - [ ] FlyByWire Aircraft Overview
-- [ ] FAQ
+- [ ] FAQ - Further Pending (Val)
 - [ ] Installation Guide - cleanup, split section if required, etc.
   - [ ] Overview
   - [ ] Versions
-  - [ ] Installation
-  - [ ] Settings
-  - [ ] Liveries
+  - [ ] Installation (TODO: Part 2)
+  - [x] Settings
+  - [ ] Liveries (TODO)
 - [ ] Support Guide - cleanup, split section if required, etc.
 - [ ] A32NX
   - [x] Overview 
