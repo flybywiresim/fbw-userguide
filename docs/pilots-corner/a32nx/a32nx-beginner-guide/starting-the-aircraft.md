@@ -3,6 +3,7 @@
 This guide will assist you with starting your aircraft. It includes images to assist you with understanding the locations of all buttons and switches.
 
 !!! warning "Disclaimer"
+    <p style="color:coral;">This is for simulation purposes only.</p>
     The level of detail in this guide is meant to teach a FlyByWire A320neo beginner to start the aircraft correctly.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.

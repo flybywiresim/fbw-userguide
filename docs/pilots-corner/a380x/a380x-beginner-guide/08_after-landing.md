@@ -4,6 +4,7 @@
 This guide will explain the correct procedures after we have landed and vacated the runway, and will also cover taxiing to the designated gate.
 
 !!! warning "Disclaimer"
+    <p style="color:coral;">This is for simulation purposes only.</p>
     The level of detail in this guide is meant to get a Airbus A380 beginner from the runway to the designated destination gate.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.

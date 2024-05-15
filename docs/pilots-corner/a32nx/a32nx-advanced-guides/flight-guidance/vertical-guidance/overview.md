@@ -12,10 +12,10 @@ title: Vertical Guidance - Overview
 
 ## Chapters
 
-| Quick Links                                    |
-|:-----------------------------------------------|
-| [Vertical Modes](#vertical-modes-overview)     |
-| [VNAV - Version 1](#vnav-version-1)            |
+| Quick Links                                  |
+|:---------------------------------------------|
+| [Vertical Modes](#vertical-modes-overview)   |
+| [VNAV - Version 1](#vnav-version-1)          |
 | [Selected Vertical Modes](selected-modes.md) |
 | [Managed Vertical Modes](managed-modes.md)   |
 | [Speed/Mach Control](speed-control.md)       |

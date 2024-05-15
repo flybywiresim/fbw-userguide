@@ -4,6 +4,7 @@ This guide will explain the correct procedures to fly a final approach and condu
 
 
 !!! warning "Disclaimer"
+    <p style="color:coral;">This is for simulation purposes only.</p>
     The level of detail in this guide is meant to get a FlyByWire A320neo beginner currently on approach to intercept the ILS and land the aircraft safely on the runway.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.

@@ -15,6 +15,7 @@ serve as reminders of proper procedure at different stages of flight for veteran
 Each page was reviewed by an A320 type rated pilot and provides accurate information to aircraft operation.
 
 !!! warning "Disclaimer"
+    <p style="color:coral;">This is for simulation purposes only.</p>
     The level of detail in this guide is meant to teach an Airbus A380 beginner to conduct a full flight from gate to 
     gate. 
 

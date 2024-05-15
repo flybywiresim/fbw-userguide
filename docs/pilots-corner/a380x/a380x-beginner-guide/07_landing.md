@@ -6,6 +6,7 @@ This guide will explain the correct procedures to fly a final approach and condu
 
 
 !!! warning "Disclaimer"
+    <p style="color:coral;">This is for simulation purposes only.</p>
     The level of detail in this guide is meant to get an Airbus A380 beginner currently on approach to intercept the 
     ILS and land the aircraft safely on the runway.
 

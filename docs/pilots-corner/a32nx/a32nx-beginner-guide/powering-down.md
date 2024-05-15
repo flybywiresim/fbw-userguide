@@ -5,6 +5,7 @@ This guide will explain the correct procedures to power down the aircraft when a
 Obviously, this is not strictly required in a simulator, but for interested sim pilots this might be an interesting process for a more realistic experience.
 
 !!! warning "Disclaimer"
+    <p style="color:coral;">This is for simulation purposes only.</p>
     The level of detail in this guide is meant to help a FlyByWire A320neo beginner to correctly shut down the aircraft.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.

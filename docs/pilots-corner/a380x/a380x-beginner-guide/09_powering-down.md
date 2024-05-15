@@ -6,6 +6,7 @@ This guide will explain the correct procedures to power down the aircraft when a
 destination and taxiing to the designated gate.
 
 !!! warning "Disclaimer"
+    <p style="color:coral;">This is for simulation purposes only.</p>
     The level of detail in this guide is meant to help a Airbus A380 beginner correctly shut down the aircraft.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation 

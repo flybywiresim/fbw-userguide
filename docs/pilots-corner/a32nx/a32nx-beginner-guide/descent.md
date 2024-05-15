@@ -6,6 +6,7 @@ from cruise altitude through STAR and Instrument Approach up to the final approa
 The actual final approach (ILS approach) will be covered by a separate chapter.
 
 !!! warning "Disclaimer"
+    <p style="color:coral;">This is for simulation purposes only.</p>
     The level of detail in this guide is meant to get a FlyByWire A320neo beginner safely from cruise level down to the ILS glideslope.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner even, in Microsoft Flight Simulator.

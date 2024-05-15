@@ -6,6 +6,7 @@ This guide will help you prepare the Flight Management System in the A380X for y
 It includes a simple route that you can use to follow along easily and replicate in the simulator.
 
 !!! warning "Disclaimer"
+    <p style="color:coral;">This is for simulation purposes only.</p>
     The level of detail in this guide is meant to teach an Airbus A380 beginner to start the aircraft correctly.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation 
