@@ -1,6 +1,8 @@
 ---
 title: FlyByWire Aircraft - Overview 
 description: Documentation and resources for the FlyByWire aircraft add-ons for Microsoft Flight Simulator 2020.
+hide:
+  - toc
 ---
 
 <link rel="stylesheet" href="../../stylesheets/toc-tables.css">
