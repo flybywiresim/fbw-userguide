@@ -79,6 +79,8 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
          
          [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](feature-guides/autopilot-fbw.md)
 
+<p style="color:yellow; font-size:18px;">TODO: Add A380X download links</p>
+
 ??? info "Download A380X"
 
     Pending futher information
@@ -184,6 +186,8 @@ FBW Installer version 3.0.0 introduced the `Uninstall` feature. To perform an au
 
 ### Manual Clean Install
 
+<p style="color:yellow; font-size:18px;">TODO: Add A380X folder name + clean install steps</p>
+
 If you would like to manually perform a clean install you first have to delete the 
 `flybywire-aircraft-a320-neo` or `a380 folder` folder from your community folder.
 
@@ -197,6 +201,8 @@ These locations are found below:
 If the above folders are hidden to you, follow the directions on [Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5).
 
 Once in the correct directory, delete the files show here:
+
+<p style="color:yellow; font-size:18px;">TODO: get proper photo for localstate and not temp</p>
 
 ![localstate folder](https://cdn.discordapp.com/attachments/838062729398976522/869736690695172156/unknown.png){ width=70% }
 
