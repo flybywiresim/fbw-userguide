@@ -344,7 +344,7 @@ Below you can find an example of runway details and how to identify it to input 
 
 #### Example Chart:
 
-![Airport Chart](../..dos3/performance-landing-chart.png "Airport Chart"){loading=lazy}
+![Airport Chart](../../a32nx/assets/flypados3/performance-landing-chart.png "Airport Chart"){loading=lazy}
 
 <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*</sub>
@@ -353,20 +353,20 @@ Below you can find an example of runway details and how to identify it to input 
 
 This runway can be used for landing in the given circumstances and full flaps in all braking configurations (low, medium, max manual).
 
-![flyPad Performance Calculator Landing](../..dos3/performance-landing-ok.png "flyPad Performance Calculator Landing"){loading=lazy}
+![flyPad Performance Calculator Landing](../../a32nx/assets/flypados3/performance-landing-ok.png "flyPad Performance Calculator Landing"){loading=lazy}
 
 #### Example 2
 
 This runway's landing distance available is long enough to be used for landing with full flaps only and with max manual braking.
 Be aware that there might be other restrictions that prohibit landing of an A320neo on this airport/runway.
 
-![flyPad Performance Calculator Landing](../..dos3/performance-landing-maxok.png "flyPad Performance Calculator Landing"){loading=lazy}
+![flyPad Performance Calculator Landing](../../a32nx/assets/flypados3/performance-landing-maxok.png "flyPad Performance Calculator Landing"){loading=lazy}
 
 #### Example 3
 
 This runway can't be used for landing in the given circumstances. It is similar to Example 2 but has a higher weight and therefore higher approach speed.
 
-![flyPad Performance Calculator Landing](../..dos3/performance-landing-notok.png "flyPad Performance Calculator Landing"){loading=lazy}
+![flyPad Performance Calculator Landing](../../a32nx/assets/flypados3/performance-landing-notok.png "flyPad Performance Calculator Landing"){loading=lazy}
 
 *[TORA]: Take-Off Run Available
 *[QNH]: sea level atmospheric pressure
