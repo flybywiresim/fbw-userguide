@@ -24,6 +24,109 @@
 
 
 ## List of pages/section that need to be migrated from the A32NX docs or completed in general
+Changes have been made to this list to better reflect meeting alignment with core team and A380 team. The lists below are "MUST HAVES" before we move forward with a release pipeline (at least on the docs side of things). It will be structured as follows:
+
+- P1 - High Priority (for RC and general public)
+  - Requires assistance from dev, pilot insight, and general collaboration to get out the door.
+- P2 - Ongoing work
+  - As aircraft develops this can be done in tandem or shortly after RC and general release.
+- Docs Team - Manadatory for docs team to complete before RC and general release.
+  - Clean up and docs structure that will be handled by Docs Maintainers. Contributors can focus on content.
+
+Let's try and avoid duplication where possible.
+
+### P1
+
+- [ ] Homepage
+- [ ] FlyByWire Aircraft Overview
+- [ ] FAQ - Further Pending (Val)
+- [ ] Installation Guide - cleanup, split section if required, etc.
+  - [ ] Overview
+  - [ ] Versions
+  - [ ] Installation (TODO: Part 2)
+  - [x] Settings
+  - [ ] Liveries (TODO)
+- [ ] A32NX
+  - [x] Overview
+  - [ ] Feature Guides - split into a32nx/a380x specific features and common features
+  - [x] API
+- [ ] A380X
+  - [ ] Overview
+  - [ ] Feature Guides
+  - [ ] Hardware Guides (Limited/Initial)
+- [ ] Pilot's Corner
+  - [x] Overview
+  - [x] A32NX Corner
+    - [ ] Beginner Guide
+      - [ ] Add Flow Patterns
+    - [x] A320X Pilot Briefing
+      - [x] Flight-Deck
+      - [x] MFD
+      - [x] PFD
+      - [ ] ND
+      - [x] EWD
+      - [x] SD
+      - [ ] FCU
+  - [ ] A380X Corner
+    - [ ] Beginner Guide - **Important** 
+    - [ ] Minor Advanced Guides? - **SEE P2**
+    - [ ] A380X Pilot Briefing - **Initial Progress Only / Coming Soon Sections Valid**
+      - [ ] Flight-Deck - Basic with all links
+      - [ ] Limitations - **IMPORTANT**
+      - [ ] MFD - Coming soon OK
+      - [ ] PFD - Coming soon OK
+      - [ ] ND - Coming Soon OK
+      - [ ] EWD - Coming soon OK
+      - [ ] SD - Coming soon OK
+      - [ ] FCU - Coming soon OK
+  - [x] Airliner Corner
+    - [x] Airliner Flying Guide
+    - [x] Terms and Abbreviations
+
+### P2
+
+- [ ] Pilot's Corner
+    - [x] Advanced Guide
+      - [ ] ... / split into a32nx/a380x specific features and common features
+  - [ ] A380X Corner
+    - [ ] Advanced Guides
+      - [ ] Add Go-Around
+      - [ ] Add OANS
+      - [ ] A380X specific features
+    - [ ] A380X Pilot Briefing - **Continue P1 Work**
+      - [ ] Flight-Deck
+      - [ ] Limitations
+      - [ ] MFD
+      - [ ] PFD
+      - [ ] ND
+      - [ ] EWD
+      - [ ] SD
+      - [ ] FCU
+- [ ] A380X
+  - [ ] API
+  - [ ] Hardware Guides (FULL)
+
+### Docs Team All Phases
+
+- [ ] Update and add redirects for pages that have been moved or renamed
+- [ ] Fix broken links and images
+- [ ] Support Guide - cleanup, split section if required, etc.
+- [ ] Common Features - Check structure and move if necessary
+  - [ ] EFB
+  - [ ] Tiller
+  - [ ] ...
+- [ ] Release Notes
+  - [ ] Overview
+  - [x] A32NX
+  - [ ] A380X
+- FlyByWire Tools
+  - [x] SimBridge
+  - [ ] Installer
+- [ ] Development Corner
+  - check what changes are required in this section
+    - Push that back up to P1/P2
+
+## Master List
 
 - [ ] Homepage
 - [ ] FlyByWire Aircraft Overview
@@ -36,7 +139,7 @@
   - [ ] Liveries (TODO)
 - [ ] Support Guide - cleanup, split section if required, etc.
 - [ ] A32NX
-  - [x] Overview 
+  - [x] Overview
   - [ ] Feature Guides - split into a32nx/a380x specific features and common features
   - [x] API
 - [ ] A380X
@@ -48,7 +151,7 @@
   - [ ] Tiller
   - [ ] ...
 - [ ] Pilot's Corner
-  - [x] Overview 
+  - [x] Overview
   - [x] A32NX Corner
     - [ ] Beginner Guide
       - [ ] Add Flow Patterns
@@ -70,7 +173,7 @@
       - [ ] A380X specific features
     - [ ] A380X Pilot Briefing
       - [ ] Flight-Deck
-      - [ ] Limitations 
+      - [ ] Limitations
       - [ ] MFD
       - [ ] PFD
       - [ ] ND
@@ -79,15 +182,16 @@
       - [ ] FCU
   - [x] Airliner Corner
     - [x] Airliner Flying Guide
-    - [x] Terms and Abbreviations 
+    - [x] Terms and Abbreviations
   - [ ] Development Corner
     - check what changes are required in this section
   - FlyByWire Tools
     - [x] SimBridge
     - [ ] Installer
   - [ ] Release Notes
-    - [ ] Overview 
+    - [ ] Overview
     - [x] A32NX
     - [ ] A380X
 
 - [ ] Update and add redirects for pages that have been moved or renamed
+
