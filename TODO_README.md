@@ -37,14 +37,16 @@ Let's try and avoid duplication where possible.
 
 ### P1
 
-- [ ] Homepage
-- [ ] FlyByWire Aircraft Overview
+- [x] Homepage (serviceable)
+- [x] FlyByWire Aircraft Overview
 - [ ] FAQ - Further Pending (Val)
 - [ ] Installation Guide - cleanup, split section if required, etc.
   - [ ] Overview
   - [ ] Versions
+    - Add simple versioning table
   - [ ] Installation (TODO: Part 2)
-  - [x] Settings
+    - Add A380X specific installation links / steps 
+  - [x] Settings (minor changes possibly required)
   - [ ] Liveries (TODO)
 - [ ] A32NX
   - [x] Overview
@@ -52,7 +54,7 @@ Let's try and avoid duplication where possible.
   - [x] API
 - [ ] A380X
   - [ ] Overview
-  - [ ] Feature Guides
+  - [ ] Feature Guides (need a list of available features for early documentation)
   - [ ] Hardware Guides (Limited/Initial)
 - [ ] Pilot's Corner
   - [x] Overview
@@ -111,14 +113,14 @@ Let's try and avoid duplication where possible.
 - [ ] Update and add redirects for pages that have been moved or renamed
 - [ ] Fix broken links and images
 - [ ] Support Guide - cleanup, split section if required, etc.
-- [ ] Common Features - Check structure and move if necessary
+- [ ] Common Features - Check structure and move if necessary. Also change into card format.
   - [ ] EFB
   - [ ] Tiller
   - [ ] ...
-- [ ] Release Notes
-  - [ ] Overview
+- [x] Release Notes
+  - [x] Overview
   - [x] A32NX
-  - [ ] A380X
+  - [x] A380X - No Stable yet Page is ready but hidden
 - FlyByWire Tools
   - [x] SimBridge
   - [ ] Installer
