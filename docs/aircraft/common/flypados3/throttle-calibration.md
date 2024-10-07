@@ -67,7 +67,7 @@ Before you change anything in the controller profile, make sure to create a dedi
 ??? note "How to Create a New Controller Profile"
     Microsoft Flight Simulator allows you to create separate profiles for different controllers. To make that change to the `DEFAULT` profile of your controller and create a copy of it (`DUPLICATE`).
 
-    ![MSFS Duplicate Controller Profile](../../assets/flypados3/throttle-calibration/duplicate-controller-profile.png "MSFS Duplicate Controller Profile"){loading=lazy}
+    ![MSFS Duplicate Controller Profile](../../a32nx/assets/flypados3/throttle-calibration/duplicate-controller-profile.png "MSFS Duplicate Controller Profile"){loading=lazy}
 
 ### 2. Set Sensitivity to Linear
 
@@ -76,7 +76,7 @@ Set all sensitivity settings to 0 %. This includes Sensitivity + and -, Dead Zo
 ??? note "How to Set Sensitivity to Linear"
     Set your Sensitivity settings exactly like this:
 
-    ![Linear Sensitivity Settings](../../assets/flypados3/throttle-calibration/sensitivity-settings.png "Linear Sensitivity Settings"){loading=lazy}
+    ![Linear Sensitivity Settings](../../a32nx/assets/flypados3/throttle-calibration/sensitivity-settings.png "Linear Sensitivity Settings"){loading=lazy}
 
 ### 3. Axis Mapping
 
@@ -91,13 +91,13 @@ Check that the axis mappings are correct.
     You can use ^^either^^ of these MSFS inputs:
 
     - `THROTTLE 1 AXIS (0 TO 100 %)` and `THROTTLE 2 AXIS (0 TO 100 %)`<br/>(for a throttle with two levers)
-        ![Throttle Axis Mapping](../../assets/flypados3/throttle-calibration/throttle-axis-mapping.png "Throttle Axis Mapping"){loading=lazy}
+        ![Throttle Axis Mapping](../../a32nx/assets/flypados3/throttle-calibration/throttle-axis-mapping.png "Throttle Axis Mapping"){loading=lazy}
 
     - `THROTTLE 1 AXIS` and `THROTTLE 2 AXIS`<br/>(for a throttle with two levers)
-        ![Throttle Axis Mapping](../../assets/flypados3/throttle-calibration/throttle-axis-mapping-3.png "Throttle Axis Mapping"){loading=lazy}
+        ![Throttle Axis Mapping](../../a32nx/assets/flypados3/throttle-calibration/throttle-axis-mapping-3.png "Throttle Axis Mapping"){loading=lazy}
 
     - `THROTTLE AXIS`<br/>(for a throttle with one lever)
-        ![Throttle Axis Mapping](../../assets/flypados3/throttle-calibration/throttle-axis-mapping-2.png "Throttle Axis Mapping"){loading=lazy}
+        ![Throttle Axis Mapping](../../a32nx/assets/flypados3/throttle-calibration/throttle-axis-mapping-2.png "Throttle Axis Mapping"){loading=lazy}
 
     Make sure if you move the throttle all the way from the lowest setting to the highest setting that the white bar underneath the mapping line also moves all the way in both directions.
 
@@ -105,12 +105,12 @@ Check that the axis mappings are correct.
 
     Make sure to set the filter to show all options like this:
 
-    ![msfs-controller-options-filter](../../assets/flypados3/throttle-calibration/msfs-controller-options-filter.png)
+    ![msfs-controller-options-filter](../../a32nx/assets/flypados3/throttle-calibration/msfs-controller-options-filter.png)
 
 ??? tip "Test the Movement of the Throttle in the Cockpit Now!"
     The throttle in the cockpit should now move in the correct direction. If not, check the `Reverse Axis` box here:
 
-    ![Reverse Axis Box](../../assets/flypados3/throttle-calibration/reverse-axis-box.png "Reverse Axis Box"){loading=lazy}
+    ![Reverse Axis Box](../../a32nx/assets/flypados3/throttle-calibration/reverse-axis-box.png "Reverse Axis Box"){loading=lazy}
 
     !!! warning "Don't worry whether the throttle does move all the way or moves too far into reverse now. Only the movement direction is important at this point. "
 
@@ -121,13 +121,13 @@ If your throttle does not have a range for the reverser, there are two ways to a
 ??? note "How to Set Up Reverser: Controller With a Separate Button or Key"
     Microsoft Flight Simulator allows the mapping of a key or button to use the normal throttle axis as the reverser axis. To configure this, choose a key or button on your controller and map it like this:
 
-     ![Reverser Button Configuration](../../assets/flypados3/throttle-calibration/reverser-hold.png "Reverser Button Configuration"){loading=lazy}
+     ![Reverser Button Configuration](../../a32nx/assets/flypados3/throttle-calibration/reverser-hold.png "Reverser Button Configuration"){loading=lazy}
 
     To activate the reverser, hold the configured button while applying thrust with your thrust lever. Instead of forward thrust, this will apply reverse thrust. The cockpit levers will move backwards into the reverser range.
 
     Alternatively, you can use `TOGGLE THROTTLE REVERSE THRUST` to use a button or key to activate reverse thrust. While this is active, you can push the throttle forward to increase reverse thrust. To deactivate reverse thrust, you need to press the mapped key/button again.
 
-    ![Reverser Toggle](../../assets/flypados3/throttle-calibration/reverser-toggle-hold.png "Reverser Toggle")
+    ![Reverser Toggle](../../a32nx/assets/flypados3/throttle-calibration/reverser-toggle-hold.png "Reverser Toggle")
 
 ??? note "How to Set Up Reverser: Controllers With Buttons Built Into the Throttle"
     Some controllers have built in buttons that activate when the throttle is moved into the reverse position. With these controllers, you can't use the above method, as you would have to move the throttles forward to increase reverse thrust. But this would release the reverse button and apply normal forward thrust.
@@ -137,7 +137,7 @@ If your throttle does not have a range for the reverser, there are two ways to a
     ??? note "Example: Honeycomb Bravo Throttle Quadrant"
         The mapping required for the Bravo is shown in this screenshot:
 
-        ![Bravo-MSFS-Mapping](../../assets/flypados3/throttle-calibration/bravo-msfs-mapping1.png "Bravo-MSFS-Mapping"){loading=lazy}
+        ![Bravo-MSFS-Mapping](../../a32nx/assets/flypados3/throttle-calibration/bravo-msfs-mapping1.png "Bravo-MSFS-Mapping"){loading=lazy}
 
         The `THROTTLE 1/2 DECREASE` mapping to `Buttons 10, 26` and `Buttons 11, 27` simulates the reverser when the Bravo's reverser lever is lifted (buttons 10 and 11) and the thrust lever is pulled back (buttons 26 and 27). This activates the buttons configured in the image above, and in turn decreases throttle power to negative values for the reverser.
 
@@ -293,13 +293,13 @@ Click on "Save & Apply".
 
     - Make sure that your TCA throttles are all the way back to Full Reverse (pull the **Reverse Levers** up to do so).
 
-        ![TCA-Full-Reverse](../../assets/flypados3/throttle-calibration/TCA-Full-Reverse.png "TCA-Full-Reverse"){loading=lazy}
+        ![TCA-Full-Reverse](../../a32nx/assets/flypados3/throttle-calibration/TCA-Full-Reverse.png "TCA-Full-Reverse"){loading=lazy}
 
     - Open the flyPad (maybe pop it out to a separate window next to the throttle with ++ralt+left-button++) and go to **Settings** -> **Calibrate**.
 
         Throttle Calibration Page:
 
-        ![EFB-Calibration-Page](../../assets/flypados3/throttle-calibration/flypad-calibration-page.png "EFB-Calibration-Page"){loading=lazy}
+        ![EFB-Calibration-Page](../../a32nx/assets/flypados3/throttle-calibration/flypad-calibration-page.png "EFB-Calibration-Page"){loading=lazy}
 
     - Set **`Reverser on Axis`**  to ON (see **1** in image).
 
@@ -320,12 +320,12 @@ Click on "Save & Apply".
         !!! info ""
             To get the current throttle values, it might be necessary to move the mouse outside the EFB window if you popped out the window with ++ralt+left-button++
 
-        ![TCA-Reverse-Idle](../../assets/flypados3/throttle-calibration/TCA-Reverse-Idle.png "TCA-Reverse-Idle"){loading=lazy}
+        ![TCA-Reverse-Idle](../../a32nx/assets/flypados3/throttle-calibration/TCA-Reverse-Idle.png "TCA-Reverse-Idle"){loading=lazy}
 
     - Click on **Reverse Idle** in the middle **(3)**
     - Click on **Set From Throttle** for Axis 1 **(6)** and Axis 2 **(7)**.
 
-        ![EFB-Reverse-Idle](../../assets/flypados3/throttle-calibration/efb-reverse-idle.png "EFB-Reverse-Idle"){loading=lazy}
+        ![EFB-Reverse-Idle](../../a32nx/assets/flypados3/throttle-calibration/efb-reverse-idle.png "EFB-Reverse-Idle"){loading=lazy}
 
         !!! info ""
             Notice how the blue bar (current throttle position) is between two green lines. These green lines are your deadband range for the detent. As long as the blue bar is between them, the throttle reads this as the corresponding detent (in this case, **Reverse Idle**). If you move the throttle outside these green bars, they become gray as you now no longer are in the corresponding detent.
@@ -340,7 +340,7 @@ Click on "Save & Apply".
     - Click on **Idle** in the middle **(3)**.
     - Click on **Set From Throttle** for Axis 1 **(6)** and Axis 2 **(7)**.
 
-        ![EFB-Idle](../../assets/flypados3/throttle-calibration/efb-idle.png "EFB-Idle"){loading=lazy}
+        ![EFB-Idle](../../a32nx/assets/flypados3/throttle-calibration/efb-idle.png "EFB-Idle"){loading=lazy}
 
     #### CLB
 
@@ -348,7 +348,7 @@ Click on "Save & Apply".
     - Click on **CLB** in the middle **(3)**.
     - Click on **Set From Throttle** for Axis 1 **(6)** and Axis 2 **(7)**.
 
-        ![EFB-climb](../../assets/flypados3/throttle-calibration/efb-climb.png "EFB-climb"){loading=lazy}
+        ![EFB-climb](../../a32nx/assets/flypados3/throttle-calibration/efb-climb.png "EFB-climb"){loading=lazy}
 
     #### FLX/MCT
 
@@ -356,7 +356,7 @@ Click on "Save & Apply".
     - Click on **FLX** in the middle **(3)**.
     - Click on **Set From Throttle** for Axis 1 **(6)** and Axis 2 **(7)**.
 
-        ![EFB-flex](../../assets/flypados3/throttle-calibration/efb-flex.png "EFB-flex"){loading=lazy}
+        ![EFB-flex](../../a32nx/assets/flypados3/throttle-calibration/efb-flex.png "EFB-flex"){loading=lazy}
 
     #### TOGA
 
@@ -364,15 +364,15 @@ Click on "Save & Apply".
     - Click on **TOGA** in the middle **(3)**
     - Click on **Set From Throttle** for Axis 1 **(6)** and Axis 2 **(7)**.
 
-        ![EFB-toga](../../assets/flypados3/throttle-calibration/efb-toga.png "EFB-toga"){loading=lazy}
+        ![EFB-toga](../../a32nx/assets/flypados3/throttle-calibration/efb-toga.png "EFB-toga"){loading=lazy}
 
     - Click on "SAVE AND APPLY" **(8)**
 
-        ![EFB-SaveApply](../../assets/flypados3/throttle-calibration/EFB-SaveApply.png "EFB-SaveApply"){loading=lazy}
+        ![EFB-SaveApply](../../a32nx/assets/flypados3/throttle-calibration/EFB-SaveApply.png "EFB-SaveApply"){loading=lazy}
 
     - Test each setting with a view like this. Make sure the mouse is outside the pop-out window, otherwise the aircraft's throttles won't move.
 
-        ![Test-view](../../assets/flypados3/throttle-calibration/Test-view.png "Test-view"){loading=lazy}
+        ![Test-view](../../a32nx/assets/flypados3/throttle-calibration/Test-view.png "Test-view"){loading=lazy}
 
     **Congratulations! You have successfully calibrated your TCA Throttle!**
 
@@ -382,15 +382,15 @@ Click on "Save & Apply".
 
     This describes the calibration of a single axis throttle with no Reverser on Axis and also no detents.
 
-    ![Thrustmaster TWCS Throttle](../../assets/flypados3/throttle-calibration/Thrustmaster-TWCS-Throttle.png "Thrustmaster TWCS Throttle"){loading=lazy}
+    ![Thrustmaster TWCS Throttle](../../a32nx/assets/flypados3/throttle-calibration/Thrustmaster-TWCS-Throttle.png "Thrustmaster TWCS Throttle"){loading=lazy}
 
     #### Throttle Mapping
 
-    ![MSFS Throttle Axis (0 TO 100 %)](../../assets/flypados3/throttle-calibration/MSFS-ThrottleAxis-0to100.jpg "MSFS Throttle Axis (0 TO 100 %)"){loading=lazy}
+    ![MSFS Throttle Axis (0 TO 100 %)](../../a32nx/assets/flypados3/throttle-calibration/MSFS-ThrottleAxis-0to100.jpg "MSFS Throttle Axis (0 TO 100 %)"){loading=lazy}
 
     This throttle does not have reversers on its axis, so we need to map the reverser activation onto a button on the throttle or key on the keyboard (see **2** below). In the example below, we used the button "3" for this.
 
-    ![TWCS-Reverser-Button](../../assets/flypados3/throttle-calibration/TWCS-Reverser-Button.jpg "TWCS-Reverser-Button"){loading=lazy}
+    ![TWCS-Reverser-Button](../../a32nx/assets/flypados3/throttle-calibration/TWCS-Reverser-Button.jpg "TWCS-Reverser-Button"){loading=lazy}
 
     Hold this button and push the throttle forward to increase reverse thrust.
 
@@ -398,7 +398,7 @@ Click on "Save & Apply".
 
     - Go to the flyPad Throttle Calibration page
 
-        ![EFB-Throttle-Calibration-Page](../../assets/flypados3/throttle-calibration/flypad-calibration-page2.png "EFB-Throttle-Calibration-Page"){loading=lazy}
+        ![EFB-Throttle-Calibration-Page](../../a32nx/assets/flypados3/throttle-calibration/flypad-calibration-page2.png "EFB-Throttle-Calibration-Page"){loading=lazy}
 
     - As this throttle has no reverse and only one real axis, set the `Reverser on Axis` to OFF **(1)** and also the `Independent Axis` to OFF **(2)**
 
@@ -406,11 +406,11 @@ Click on "Save & Apply".
 
     - As described above, we go through all detents and set the values accordingly with `Set From Throttle`. The easiest way to do that is by having the flyPad in a separate window next to the throttle, as in the screenshot below.
 
-        ![Flypad-next-to-Throttle](../../assets/flypados3/throttle-calibration/flypad-next-to-throttle.png "Flypad-next-to-Throttle"){loading=lazy}
+        ![Flypad-next-to-Throttle](../../a32nx/assets/flypados3/throttle-calibration/flypad-next-to-throttle.png "Flypad-next-to-Throttle"){loading=lazy}
 
     - For the detents CL, FLX and TO GA you can increase the dead zone to make it easier to move your throttle into the detents.
 
-        ![EFB-CLB-Detent](../../assets/flypados3/throttle-calibration/flypad-clb-detent.png "EFB-CLB-Detent"){loading=lazy}
+        ![EFB-CLB-Detent](../../a32nx/assets/flypados3/throttle-calibration/flypad-clb-detent.png "EFB-CLB-Detent"){loading=lazy}
 
         In this example, we have set the dead zone to 0.25 on either side of the actual setting. For FLX and TO GA, you can use 0.10 or 0.15.
 
@@ -418,14 +418,14 @@ Click on "Save & Apply".
 
     - Click on "SAVE AND APPLY" **(8)** and test everything
 
-        ![EFB-SaveApply](../../assets/flypados3/throttle-calibration/EFB-SaveApply.png "EFB-SaveApply"){loading=lazy}
+        ![EFB-SaveApply](../../a32nx/assets/flypados3/throttle-calibration/EFB-SaveApply.png "EFB-SaveApply"){loading=lazy}
 
     **Congratulations! You have successfully calibrated your throttle!**
 
 ??? note "Honeycomb Bravo Throttle Quadrant"
     ### Honeycomb Bravo Throttle Quadrant
 
-    ![Honeycomb-Bravo](../../assets/flypados3/throttle-calibration/Honeycomb-Bravo.png "Honeycomb-Bravo")
+    ![Honeycomb-Bravo](../../a32nx/assets/flypados3/throttle-calibration/Honeycomb-Bravo.png "Honeycomb-Bravo")
 
     The Honeycomb Bravo Throttle Quadrant does not have a real reverser on axis but emulates this by using a button when pulled back into the reverser position.
 
@@ -439,7 +439,7 @@ Click on "Save & Apply".
 
     The mapping required for the Bravo is shown in this screenshot:
 
-    ![Bravo-MSFS-Mapping](../../assets/flypados3/throttle-calibration/bravo-msfs-mapping1.png "Bravo-MSFS-Mapping"){loading=lazy}
+    ![Bravo-MSFS-Mapping](../../a32nx/assets/flypados3/throttle-calibration/bravo-msfs-mapping1.png "Bravo-MSFS-Mapping"){loading=lazy}
 
     You might need to use `THROTTLE 1/2 AXIS` and not `THROTTLE 1/2 AXIS (0 TO 100 %)`.
 
@@ -495,7 +495,7 @@ Click on "Save & Apply".
 
     - As this throttle has no reverser on the axis, set the `Reverser on Axis` to OFF but set `Independent Axis` to ON.
 
-        ![EFB-Throttle-Calibration-Page](../../assets/flypados3/throttle-calibration/flypad-calibration-page3.png "EFB-Throttle-Calibration-Page"){loading=lazy}
+        ![EFB-Throttle-Calibration-Page](../../a32nx/assets/flypados3/throttle-calibration/flypad-calibration-page3.png "EFB-Throttle-Calibration-Page"){loading=lazy}
 
     - Move the throttle all the way back to idle.
 
@@ -503,20 +503,20 @@ Click on "Save & Apply".
 
     - For the detents CL, FLX and TO GA, you can increase the dead zone to make it easier to move your throttle into the detents.
 
-        ![EFB-CLB-Detent](../../assets/flypados3/throttle-calibration/flypad-clb-detent.png "EFB-CLB-Detent"){loading=lazy}
+        ![EFB-CLB-Detent](../../a32nx/assets/flypados3/throttle-calibration/flypad-clb-detent.png "EFB-CLB-Detent"){loading=lazy}
 
         In this example, we have set the dead zone to 0.25 on either side of the actual setting. For FLX and TO GA, you can use 0.10 or 0.15.
 
     - Click on "SAVE AND APPLY" **(8)** and test everything
 
-        ![EFB-SaveApply](../../assets/flypados3/throttle-calibration/EFB-SaveApply.png "EFB-SaveApply"){loading=lazy}
+        ![EFB-SaveApply](../../a32nx/assets/flypados3/throttle-calibration/EFB-SaveApply.png "EFB-SaveApply"){loading=lazy}
 
     **Congratulations! You have successfully calibrated your throttle!**
 
 ??? note "Keyboard"
     ### Keyboard
 
-    ![Keyboard F1-F4](../../assets/flypados3/throttle-calibration/keyboard-f1-f4.png){loading=lazy}
+    ![Keyboard F1-F4](../../a32nx/assets/flypados3/throttle-calibration/keyboard-f1-f4.png){loading=lazy}
 
     ==No calibration required for keyboard - read below!==
 
@@ -565,7 +565,7 @@ Click on "Save & Apply".
 
     Create the following key mapping:
 
-    ![Keyboard Throttle Mapping](../../assets/flypados3/throttle-calibration/keyboard-throttle-keymapping.png "Keyboard Throttle Mapping"){loading=lazy}
+    ![Keyboard Throttle Mapping](../../a32nx/assets/flypados3/throttle-calibration/keyboard-throttle-keymapping.png "Keyboard Throttle Mapping"){loading=lazy}
 
     Of course, instead of ++shift+1++ to ++shift+4++ you can use any key or controller buttons you like.
 
@@ -574,29 +574,29 @@ Click on "Save & Apply".
     This should look similar to this, although the exact number may vary a bit.
 
     - Press IDLE = ++shift+1++ and check that the throttle is at IDLE
-        ![keyboard-mapping-idle](../../assets/flypados3/throttle-calibration/keyboard-mapping-idle.png){loading=lazy}
+        ![keyboard-mapping-idle](../../a32nx/assets/flypados3/throttle-calibration/keyboard-mapping-idle.png){loading=lazy}
 
     - CLB = ++shift+2++
-        ![keyboard-mapping-clb](../../assets/flypados3/throttle-calibration/keyboard-mapping-clb.png){loading=lazy}
+        ![keyboard-mapping-clb](../../a32nx/assets/flypados3/throttle-calibration/keyboard-mapping-clb.png){loading=lazy}
 
     - FLX/MCT = ++shift+3++
-        ![keyboard-mapping-flx](../../assets/flypados3/throttle-calibration/keyboard-mapping-flx.png){loading=lazy}
+        ![keyboard-mapping-flx](../../a32nx/assets/flypados3/throttle-calibration/keyboard-mapping-flx.png){loading=lazy}
 
     - TOGA = ++shift+4++
-       ![keyboard-mapping-toga](../../assets/flypados3/throttle-calibration/keyboard-mapping-toga.png){loading=lazy}
+       ![keyboard-mapping-toga](../../a32nx/assets/flypados3/throttle-calibration/keyboard-mapping-toga.png){loading=lazy}
 
     - REV IDLE = from IDLE position press 3 times ++F2++
-        ![keyboard-mapping-revidle](../../assets/flypados3/throttle-calibration/keyboard-mapping-revidle.png){loading=lazy}
+        ![keyboard-mapping-revidle](../../a32nx/assets/flypados3/throttle-calibration/keyboard-mapping-revidle.png){loading=lazy}
 
     - REV FULL = from IDLE position keep ++F2++ pressed
-        ![keyboard-mapping-revfull](../../assets/flypados3/throttle-calibration/keyboard-mapping-revfull.png){loading=lazy}
+        ![keyboard-mapping-revfull](../../a32nx/assets/flypados3/throttle-calibration/keyboard-mapping-revfull.png){loading=lazy}
 
     **Congratulations! You can use the keyboard for throttle control!**
 
 ??? note "Xbox Controller"
     ### Xbox Controller
 
-    ![Xbox-Controller](../../assets/flypados3/throttle-calibration/xbox-controller.png "Xbox-Controller"){loading=lazy}
+    ![Xbox-Controller](../../a32nx/assets/flypados3/throttle-calibration/xbox-controller.png "Xbox-Controller"){loading=lazy}
 
     ==No calibration required for the Xbox controller - read below!==
 
@@ -614,7 +614,7 @@ Click on "Save & Apply".
     Of course, you can map different buttons in MSFS. Also, other controllers might have different default buttons for the throttle.
 
     !!! block ""
-        ![msfs-throttle cut](../../assets/flypados3/throttle-calibration/msfs-throttle%20cut.png){loading=lazy align=right}
+        ![msfs-throttle cut](../../a32nx/assets/flypados3/throttle-calibration/msfs-throttle%20cut.png){loading=lazy align=right}
 
         We recommend to also map a button to set the throttles to `IDLE` during landing. This can be done by mapping the `THROTTLE CUT` function to a controller button.
 
