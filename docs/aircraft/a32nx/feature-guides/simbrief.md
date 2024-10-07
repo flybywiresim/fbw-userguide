@@ -119,7 +119,7 @@ Otherwise, read the [SimBrief User Guide](https://www.simbrief.com/system/guide.
 - Click on `INIT/PRESS`
 - Click on `INIT DATA REQ`
 
-![MCDU ATSU AOC INIT REQ](..re-guides/simbrief/mcdu2.png "MCDU ATSU AOC INIT REQ"){loading=lazy}
+![MCDU ATSU AOC INIT REQ](../assets/feature-guides/simbrief/mcdu2.png "MCDU ATSU AOC INIT REQ"){loading=lazy}
 
 This will prepare the MCDU to input the flight plan.
 
@@ -134,7 +134,7 @@ Head over to the `INIT A` page.
 
 This will load your flight plan from SimBrief directly into the MCDU
 
-![MCDU INIT A](..re-guides/simbrief/mcdu1b.png "MCDU INIT A"){loading=lazy}
+![MCDU INIT A](../assets/feature-guides/simbrief/mcdu1b.png "MCDU INIT A"){loading=lazy}
 
 !!! note
     #### RWY, SID, STAR, and APPR

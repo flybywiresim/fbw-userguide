@@ -56,13 +56,15 @@ This section provides information on the A32NX weight configuration and insight 
     !!! warning "This is not your Center of Gravity for trimming."
     
     - See our [Weights and Balance](loading-fuel-weight.md#weights-and-balance) section in the simBrief integration feature guide.
-    - You can read about INIT B configuration [here](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-b).
+    - You can read about INIT B configuration [here](../../../pilots-corner/a32nx/a32nx-beginner-guide/preparing-mcdu.md#init-b).
     
     ### Center of Gravity
     
     An acceptable range for takeoff CG in the A32NX is between 16-40%. The CG is balanced during the passenger loading process.
 
-    Trimming the aircraft for takeoff is usually optional and technically not required. Please reference our the [FBW Checklist](../../pilots-corner/SOP.md) to set the appropriate trim should you wish to.
+    Trimming the aircraft for takeoff is usually optional and technically not required. Please reference our the [FBW Checklist](../../../pilots-corner/a32nx/a32nx-sop.md) to 
+set 
+    the appropriate trim should you wish to.
     
     Anything less than 25 % CG is considered FWD load, and anything more than 25 % is considered an AFT load. While opting to choose between either CG configuration (aft/fwd), please consider the information below.
     
@@ -96,7 +98,7 @@ Make sure you have our latest [simBrief Profile](../../install/installation.md#s
 
     --}
 
-    - Fuel: Now done via the [EFB](flypados3/dispatch.md#fuel-page).
+    - Fuel: Now done via the [EFB](../../common/flypados3/dispatch.md#fuel-page).
     - Payload: Done through the Payload tab on the EFB. See [Weights and Balance](#weights-and-balance)
 
 ### Weights
@@ -194,7 +196,7 @@ Change the default weights as required, and make sure you select Save Aircraft a
 
     --}
 
-    - Fuel: Now done via the [EFB](flypados3/dispatch.md#fuel-page).
+    - Fuel: Now done via the [EFB](../../common/flypados3/dispatch.md#fuel-page).
     - Payload: Done through the Payload tab on the EFB. See [Weights and Balance](#weights-and-balance)
 
 ### Fuel
@@ -215,19 +217,23 @@ Get our [simBrief Profile](../../install/installation.md#simbrief-airframe).
     
     When starting the aircraft from a **Cold and Dark** state, please be aware of the following important information:
     
-    - **INIT FUEL PRED** must be completed before departure. (This is detailed in our [beginner guide](../../pilots-corner/beginner-guide/preparing-mcdu.md#init-fuel-pred). Please ensure that you complete this step when preparing the MCDU.)
+    - **INIT FUEL PRED** must be completed before departure. (This is detailed in our [beginner guide](../../../pilots-corner/a32nx/a32nx-beginner-guide/preparing-mcdu.
+    md#init-fuel-pred). 
+    Please ensure that you complete this step when preparing the MCDU).
     - Failure to complete the `INIT FUEL PRED` page before starting an engine will display `INITIALIZE WEIGHT/CG` in amber on the MCDU Scratchpad.    
     - When there is a GW mismatch of more than 7 tonnes between the values calculated aerodynamically and the value calculated using the inputted ZFW and fuel flow `CHECK 
     WEIGHT` will be displayed in amber on the MCDU Scratchpad.
     
-    See [flyPadOS 3 - Development Version](flypados3/settings.md#aircraft-options--pin-programs) settings page if you wish to change the weight unit used by the aircraft systems.
+    See [flyPadOS 3 - Development Version](../../common/flypados3/settings.md#aircraft-options--pin-programs) settings page if you wish to change the weight unit used by the 
+    aircraft systems.
 
 #### Loading Guide
 
 !!! warning "Fuel, Weights, and Balance When Not Starting Cold & Dark"
     The process described in this section is for starting the flight at a gate/ramp in a cold and dark state.
 
-    If you start your flight on the runway or in the air, the loading process will only work if the Boarding Time [settings](flypados3/settings.md#sim-options) in the flyPad EFB are set to `Instant`. This is deliberate, as simulating the entire fueling or boarding process when starting from the runway does not make sense.
+    If you start your flight on the runway or in the air, the loading process will only work if the Boarding Time [settings](../../common/flypados3/settings.md#sim-options) in the 
+    flyPad EFB are set to `Instant`. This is deliberate, as simulating the entire fueling or boarding process when starting from the runway does not make sense.
 
 ##### Finding the Payload Screen
 

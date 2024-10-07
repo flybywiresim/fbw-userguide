@@ -61,11 +61,12 @@ description: Frequently Asked Questions about the FlyByWire Aircraft, detailing 
 
     **Stable**
 
-    The Stable version is a 'snapshot' of the development which we regard as stable with the current version of the simulator. See [Downloads](installation.md#downloads).
+    The Stable version is a 'snapshot' of the development which we regard as stable with the current version of the simulator. See [Downloads](install/installation.md#downloads).
 
     **Development**
 
-    The Development build is updated daily and is a constant work in progress and although we test each update thoroughly, minor issues may occur from time to time. See [Downloads](installation.md#downloads).
+    The Development build is updated daily and is a constant work in progress and although we test each update thoroughly, minor issues may occur from time to time. See 
+    [Downloads](install/installation.md#downloads).
 
 [//]: # (??? info "Q: What is the Experimental Version?")
 

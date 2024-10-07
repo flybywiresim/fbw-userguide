@@ -7,7 +7,7 @@ description: Documentation and resources for common features of the FlyByWire ai
 
 # Common Features Documentation
 
-| Quick Links                                                            |
-|:-----------------------------------------------------------------------|
-| [flyPadOS 3 EFB](../../common/flypados3/index.md)                      |
-| [Throttle Calibration](../../common/flypados3/throttle-calibration.md) |
+| Quick Links                                               |
+|:----------------------------------------------------------|
+| [flyPadOS 3 EFB](flypados3/index.md)                      |
+| [Throttle Calibration](flypados3/throttle-calibration.md) |

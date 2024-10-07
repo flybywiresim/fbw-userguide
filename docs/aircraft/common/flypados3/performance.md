@@ -33,7 +33,7 @@ This calculator lets the pilots:
 !!! tip "Takeoff Performance Examples and Guide"
     To learn more about how to plan and identify the required information to input into the flyPad takeoff performance calculator, see our guide:
 
-    [Advanced Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md){ .md-button }
+    [Advanced Takeoff Calculator Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md){ .md-button }
 
 The calculator considers the following potentially limiting conditions:
 
@@ -60,7 +60,7 @@ data from**.
 
 **Airport**
 
-- Enter the ICAO code for the airport. See the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md).
+- Enter the ICAO code for the airport. See the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md).
 
 **Runway**
 
@@ -73,7 +73,7 @@ data from**.
 **TORA**
 
 - This is the length of the portion of the runway available for takeoff. It will be filled automatically after entering the runway number. Be aware that this information comes 
-from the MSFS 2020 runway length data and may not always be accurate. We recommend checking the TORA distance with the airport 10-9 (or 10-9A) chart as shown in the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md), especially if you plan an intersection departure. You should also reduce the TORA if you start on the runway, as MSFS 2020 typically places the airplane well forward of the beginning of the TORA.
+from the MSFS 2020 runway length data and may not always be accurate. We recommend checking the TORA distance with the airport 10-9 (or 10-9A) chart as shown in the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md), especially if you plan an intersection departure. You should also reduce the TORA if you start on the runway, as MSFS 2020 typically places the airplane well forward of the beginning of the TORA.
 - If you enter a TORA that is less than the MSFS 2020 runway length, the difference will be shown as a TO Shift (takeoff shift) value in the replica of the MCDU performance 
   page on the right side of the calculator. 
 
@@ -83,17 +83,17 @@ from the MSFS 2020 runway length data and may not always be accurate. We recomme
 **Entry Angle** 
 
 - This is the angle of the taxiway to the runway. An input is needed to allow the calculator to reduce the TORA distance by the distance used to align the airplane on 
-the runway for takeoff (since the runway behind the airplane should not be used to calculate takeoff performance). The entry angle can be determined from the airport 10-9 (or 10-9A) chart as shown in the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md).
+the runway for takeoff (since the runway behind the airplane should not be used to calculate takeoff performance). The entry angle can be determined from the airport 10-9 (or 10-9A) chart as shown in the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md).
 
 **Runway Elevation** 
 
 - This is the elevation of the runway at the beginning of the TORA. It will be automatically filled after entering the runway number. It can also be determined or checked from
-  the airport 10-9 chart, as shown in the following examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md).
+  the airport 10-9 chart, as shown in the following examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md).
 
 **Runway Slope** 
 
 - This is the gradient of the runway in the direction of takeoff. It will be automatically entered after entering the runway number. It can also be determined or checked from 
-the airport 10-9 chart, but requires a little calculation from the data present on Jeppesen charts, as shown in the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md). A negative slope is downhill, while a positive slope is uphill.
+the airport 10-9 chart, but requires a little calculation from the data present on Jeppesen charts, as shown in the examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md). A negative slope is downhill, while a positive slope is uphill.
 
 **Runway Condition** 
 
@@ -105,7 +105,7 @@ for other runway conditions, be aware that MSFS 2020 currently does not simulate
 - The wind can be input simply as the headwind component (a single positive number) or tailwind component (a single negative number), or it can be input in the form degrees/kts. 
 It can be automatically entered from either the OFP or the METAR as described above. If you enter the wind yourself, be sure you are entering the wind in terms of a magnetic 
   direction rather than the true direction. ATIS winds will be provided in terms of a magnetic direction, but METAR winds are in terms of true direction. If you enter the winds 
-  from METAR, consult the airport 10-9 (or 10-9A) chart to determine the magnetic variation and convert the direction to magnetic, as shown in the following examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/advanced-guides/flight-planning/takeoff-perf-calc.md). If you choose to enter the winds automatically from the 
+  from METAR, consult the airport 10-9 (or 10-9A) chart to determine the magnetic variation and convert the direction to magnetic, as shown in the following examples in [Advanced Takeoff Calculator Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md). If you choose to enter the winds automatically from the 
   METAR, this conversion will be done automatically.
 
 - If the wind direction is given as variable, enter the wind direction into the takeoff performance calculator as a tailwind. If the wind direction varies between 2 values, 

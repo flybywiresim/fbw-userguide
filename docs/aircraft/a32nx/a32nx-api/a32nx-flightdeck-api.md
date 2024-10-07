@@ -7,8 +7,8 @@ hide:
 
 # A32NX Flight Deck API
 
-[A320neo Pilot Briefing](../../../pilots-corner/a32nx-briefing/index.md){ .md-button }
-[Clickable Flight Deck](../../../pilots-corner/a32nx-briefing/flight-deck/index.md){ .md-button }
+[A320neo Pilot Briefing](../../../pilots-corner/a32nx/a32nx-briefing/index.md){ .md-button }
+[Clickable Flight Deck](../../../pilots-corner/a32nx/a32nx-briefing/flight-deck/index.md){ .md-button }
 
 !!! note ""
     The below table might lag behind the current developments of the A32NX. It is based on the A32NX Development version, and we try to keep it updated as best as possible.
