@@ -12,7 +12,7 @@ description: Explore reported issues and known bugs for the FlyByWire A32NX add-
 
     *Most reported issues are caused by conflicts with other mods and liveries. If this does not resolve your issue, please continue below.*
 
-    **Throttle Calibration is Required** - [Guide Here](../feature-guides/flypados3/throttle-calibration.md)
+    **Throttle Calibration is Required** - [Guide Here](../common/flypados3/throttle-calibration.md)
 
     ---
 
@@ -33,23 +33,23 @@ description: Explore reported issues and known bugs for the FlyByWire A32NX add-
 
         Due to the complex nature of our custom autopilot, please visit the dedicated ^^Custom Autopilot / Fly-By-Wire^^ page for more information:
     
-        - [**Main Page**](../feature-guides/autopilot-fbw.md)
-        - [**Typical Issues + Solutions**](../feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
-        - [**Known Issues**](../feature-guides/autopilot-fbw.md#known-issues)
+        - [**Main Page**](../a32nx/feature-guides/autopilot-fbw.md)
+        - [**Typical Issues + Solutions**](../a32nx/feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
+        - [**Known Issues**](../a32nx/feature-guides/autopilot-fbw.md#known-issues)
 
     === "Custom FMS"
 
         Please visit the ^^Dedicated Custom Flight Management System^^ page for more information on our latest implementation:
     
-        - [**Features + Issues**](../feature-guides/cFMS.md)
-        - [**Special Notes**](../feature-guides/cFMS.md#special-notes)
-        - [**Known Issues**](../feature-guides/cFMS.md#known-issues)
+        - [**Features + Issues**](../a32nx/feature-guides/cFMS.md)
+        - [**Special Notes**](../a32nx/feature-guides/cFMS.md#special-notes)
+        - [**Known Issues**](../a32nx/feature-guides/cFMS.md#known-issues)
 
     === "SimBridge"
 
         If you're having issues with ^^SimBridge^^, please follow our dedicated guide for it:
         
-        - [**SimBridge Troubleshooting Guide**](../../simbridge/troubleshooting.md)
+        - [**SimBridge Troubleshooting Guide**](../../tools/simbridge/troubleshooting.md)
 
     ---
 
@@ -257,7 +257,7 @@ The following list of issues are commonly reported on our Discord support channe
 
     - Remove the conflicting mapping (e.g. "Auto Start Engine" or similar)
     - Follow the correct fueling procedure for the A32NX: 
-      [Fuel and Weight](../feature-guides/loading-fuel-weight.md#loading-fuel-and-weight)
+      [Fuel and Weight](../a32nx/feature-guides/loading-fuel-weight.md#loading-fuel-and-weight)
 
 ??? bug "Crash To Desktop (CTD)"
     ### Crash To Desktop (CTD)
@@ -291,7 +291,7 @@ The following list of issues are commonly reported on our Discord support channe
     1. Remove everything from the Community folder - **really everything**!<br />[Test With Only the A32NX Add-on in 
     Community](#test-with-only-the-a32nx-add-on-in-community)
     1. [Enable Windows UTF-8 Support](#enable-windows-utf-8-support)
-    1. Perform a [Clean Install](../installation.md#clean-install-steps)
+    1. Perform a [Clean Install](../install/installation.md#clean-install-steps)
     1. Stop any third-party application which connect to MSFS<br/>
        FSUIPC, YourControls, Fs2Crew, GSX, SPAD.next, ...
     1. Run without live weather and/or live traffic.
@@ -371,7 +371,7 @@ The following list of issues are commonly reported on our Discord support channe
 
     ^^Additional Information^^
 
-    Also see [UTF-8 Support](../settings.md#utf-8-support) 
+    Also see [UTF-8 Support](../install/settings.md#utf-8-support) 
 
 ??? bug "MSFS Performance Degradation In-Flight"
     ### MSFS Performance Degradation In-Flight
@@ -480,7 +480,7 @@ The following list of issues are commonly reported on our Discord support channe
 
     Another common cause is the A320 protections for High Speed, High Angle of Attack incl. Alpha Floor. 
     See our dedicated documentation for the A320 protections:
-    [A320 Protection Documentation](../../pilots-corner/advanced-guides/protections/overview.md)
+    [A320 Protection Documentation](../../pilots-corner/a32nx/a32nx-advanced-guides/protections/overview.md)
 
 ??? warning "ADIRS Not Aligned When Starting at Runway or in the Air"
     ### ADIRS Not Aligned When Starting at Runway or in the Air
@@ -520,7 +520,7 @@ The following list of issues are commonly reported on our Discord support channe
     Add enough fuel to get past the trigger point of 239 gallons before departing.
 
     Use the flyPad fuel page to add fuel to the aircraft: 
-    [Fuel Page](../feature-guides/loading-fuel-weight.md#loading-fuel-and-weight)
+    [Fuel Page](../a32nx/feature-guides/loading-fuel-weight.md#loading-fuel-and-weight)
 
 ??? warning "Flypad Can’t Be Used in External View" 
     ### Flypad Can’t Be Used in External View
@@ -546,7 +546,7 @@ The following list of issues are commonly reported on our Discord support channe
     
     ^^Possible Solution or Workaround^^
     
-    Please do a hard reset on the flyPad by either using the hardware power button or pressing and holding the software button. See [flyPad General Usage](../../fbw-a32nx/feature-guides/flypados3/index.md#general-usage) for more information.
+    Please do a hard reset on the flyPad by either using the hardware power button or pressing and holding the software button. See [flyPad General Usage](../common/flypados3/index.md#general-usage) for more information.
 
 ??? warning "Controls Freeze up While Looking Around"
     ### Controls Freeze up While Looking Around
@@ -613,7 +613,7 @@ The following list of issues are commonly reported on our Discord support channe
     - KEEP or SET:
         - “Set Engine 2 Fuel Valve” - Set to Joystick Button 4
         - “Set Engine 1 Fuel Valve” - Set to Joystick Button 3
-        ![tca-engine-switch-mapping](../assets/tca-engine-switch-mapping.png)
+        ![tca-engine-switch-mapping](../a32nx/assets/tca-engine-switch-mapping.png)
 
     2) 
 
@@ -627,7 +627,7 @@ The following list of issues are commonly reported on our Discord support channe
 
     ^^Additional Information^^
 
-    Also see our [Throttle Calibration Guide](../feature-guides/flypados3/throttle-calibration.md)
+    Also see our [Throttle Calibration Guide](../common/flypados3/throttle-calibration.md)
 
 ??? warning "Liveries Converted from the Default Asobo A320 Cause Issues" 
     ### Liveries Converted from the Default Asobo A320 Cause Issues
@@ -647,7 +647,7 @@ The following list of issues are commonly reported on our Discord support channe
 
     Use current liveries intended for the FlyByWire A32NX from flightsim.to.
 
-    See [Liveries Guide](../liveries.md)
+    See [Liveries Guide](../install/liveries.md)
 
 ??? warning "Ice Building Up on Cockpit Windows"
     ### Ice Building Up on Cockpit Windows
@@ -683,13 +683,13 @@ The following list of issues are commonly reported on our Discord support channe
 
     ^^Description^^
 
-    You may find the 'play' button (that is used to initialise the refueling process) or the 'boarding' button (used to initiate boarding of passengers) is missing or disabled on the 'Fuel' or 'Payload' page of the EFB (flyPad). This occurs when [GSX Synchronization](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/flypados3/settings/#3rd-party-options) is enabled. 
+    You may find the 'play' button (that is used to initialise the refueling process) or the 'boarding' button (used to initiate boarding of passengers) is missing or disabled on the 'Fuel' or 'Payload' page of the EFB (flyPad). This occurs when [GSX Synchronization](../common/flypados3/settings.md#3rd-party-options) is enabled. 
 
     GSX is a third-party software developed and sold by FSDreamteam, which you can purchase and install to enhance ground operations at airports.
 
     ^^Possible Solution or Workaround^^
     
-    - If you are **not** using GSX, then you will need to disable both options on the [GSX Synchronization](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/flypados3/settings/#3rd-party-options) page on the EFB, under Settings -> 3rd Party Options.
+    - If you are **not** using GSX, then you will need to disable both options on the [GSX Synchronization](../common/flypados3/settings.md#3rd-party-options) page on the EFB, under Settings -> 3rd Party Options.
     
     - If you do use GSX, then much of the boarding and refueling process is completed through GSX itself, while also still requiring some interaction with the A32NX EFB. This is explained in detail in our [GSX Integration Guide](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/gsxintegration).
 
@@ -736,7 +736,7 @@ The following list of issues are commonly reported on our Discord support channe
 
     ^^Possible Solution or Workaround^^
 
-    - [Deactivate MSFS Assistance Features](../../fbw-a32nx/settings.md#deactivate-msfs-assistance-features)
+    - [Deactivate MSFS Assistance Features](../install/settings.md#deactivate-msfs-assistance-features)
 
 ??? tip "Rudder or Toe Brake Operation Issues"
     ### Rudder or Toe Brake Operation Issues
@@ -755,7 +755,7 @@ The following list of issues are commonly reported on our Discord support channe
 
     ^^Possible Solution or Workaround^^
     
-    - Deactivate [MSFS Assistance Features](../../fbw-a32nx/settings.md#deactivate-msfs-assistance-features)
+    - Deactivate [MSFS Assistance Features](../install/settings.md#deactivate-msfs-assistance-features)
     - Rudder Settings: See the correct settings for rudder using the T.Flight Rudder Pedals as an example: [T.Flight Rudder Pedals Settings](./detail-pages/rudder.md)
 
 ??? tip "++ctrl+'E'++ - Engine Start Unsupported" 
@@ -777,7 +777,7 @@ The following list of issues are commonly reported on our Discord support channe
     ^^Possible Solution or Workaround^^
 
     We highly suggest learning how to start the engines manually by reading our beginner guide. 
-    [Beginner Guide - Engine Start Section](../../pilots-corner/beginner-guide/engine-start-taxi.md#engine-start).
+    [Beginner Guide - Engine Start Section](../../pilots-corner/a32nx/a32nx-beginner-guide/engine-start-taxi.md#engine-start).
 
 ??? tip "flyPad EFB Missing in Cockpit"
     ### flyPad EFB Missing in Cockpit
@@ -797,7 +797,7 @@ The following list of issues are commonly reported on our Discord support channe
 
     Select the **^^FlyByWire Simulations A320neo (LEAP)^^** in the aircraft selector instead of the Asobo one.
 
-    ![New Aircraft](../assets/new-aircraft.png){width=50% align=left loading=lazy}
+    ![New Aircraft](../a32nx/assets/new-aircraft.png){width=50% align=left loading=lazy}
 
 ??? tip "Incompatible Keyboard Mapping for Pause Function"
     ### Incompatible Keyboard Mapping for Pause Function
@@ -849,7 +849,7 @@ The following list of issues are commonly reported on our Discord support channe
 
     ^^Read the documentation about Discontinuities^^
 
-    - [Discontinuities](../../pilots-corner/advanced-guides/flight-planning/disco.md)
+    - [Discontinuities](../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/disco.md)
 
 ## Solutions to Commonly Reported Issues 
 The following list of solutions solves most reported issues on our Discord support channel. 
@@ -896,13 +896,13 @@ Please try these before reporting any other issue on Discord.
 
     Go to your content manager and filter for "flybywire" as you see in the following image.
 
-    ![version sample](../assets/version-sample.jpg){loading=lazy}
+    ![version sample](../a32nx/assets/version-sample.jpg){loading=lazy}
 
     If you see old versions (e.g., v0.6.1) or if you have multiple installations of the A32NX, please uninstall them in the Content Manager and restart the sim. Reinstall development version from our [installer](https://api.flybywiresim.com/installer){target=new}.
 
     ^^Additional Information^^
 
-    Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../installation.md).
+    Information on how to install with the FlyByWire Installer can be found here: [Installation Guide](../install/installation.md).
 
 
 ??? tip "Use the Latest Version of MS Flight Simulator"
@@ -923,19 +923,19 @@ Please try these before reporting any other issue on Discord.
 ??? tip "Clean Install"
     ### Clean Install
 
-    See [Clean Install](../installation.md#clean-install-steps)
+    See [Clean Install](../install/installation.md#clean-install-steps)
 
 ??? tip "Enable Windows UTF-8 Support"
     ### Enable Windows UTF-8 Support
 
-    See [UTF8 Support](../../fbw-a32nx/settings.md#utf-8-support)
+    See [UTF8 Support](../install/settings.md#utf-8-support)
 
 ??? tip "Test With Only the A32NX Add-on in Community"
     ### Test With Only the A32NX Add-on in Community
 
     !!! danger "**This is the most important troubleshooting step for Microsoft Flight Simulator!!**"
 
-    To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries ***remove everything (really everything!) from your [Community Folder](#community-folder-content)** and perform a [clean reinstall](../installation.md#clean-install-steps) of the A32NX with the [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}.
+    To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries ***remove everything (really everything!) from your [Community Folder](#community-folder-content)** and perform a [clean reinstall](../install/installation.md#clean-install-steps) of the A32NX with the [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}.
 
     An easy way to do this without deleting your add-ons and liveries is to rename the current Community folder to "Community.old" and then create a new Community folder, which 
     is empty. You can then use the FlyByWire Installer to reinstall the A32NX. 
@@ -943,22 +943,22 @@ Please try these before reporting any other issue on Discord.
 ??? tip "Use the Correct Airframe for SimBrief"
     ### Use the Correct Airframe for SimBrief
 
-    See [SimBrief Airframe](../../fbw-a32nx/installation.md#simbrief-airframe)
+    See [SimBrief Airframe](../install/installation.md#simbrief-airframe)
 
 ??? tip "Turn Off All MS Flight Simulator Assistance Features"
     ### Turn Off All MS Flight Simulation Assistance Features
 
-    See [Deactivate MSFS Assistance Features](../../fbw-a32nx/settings.md#deactivate-msfs-assistance-features)
+    See [Deactivate MSFS Assistance Features](../install/settings.md#deactivate-msfs-assistance-features)
 
 ??? tip "Throttle Calibration"
     ### Throttle Calibration
 
-    See our [Throttle Calibration Guide](../feature-guides/flypados3/throttle-calibration.md)
+    See our [Throttle Calibration Guide](../common/flypados3/throttle-calibration.md)
 
 ??? tip "Check your MSFS Uses the Correct Community Folder"
     ### Check your MSFS Uses the Correct Community Folder
 
-    See [Community Folder](../../fbw-a32nx/installation.md#community-folder)
+    See [Community Folder](../install/installation.md#community-folder)
 
 ??? tip "Setup Your Controller Deadzones"
     ### Setup Your Controller Deadzones
@@ -971,17 +971,17 @@ Please try these before reporting any other issue on Discord.
     
     Start with 20 % deadzone, if the problem persists, keep increasing it. If it's fine with 20 % you can then slowly decrease it too.
 
-    ![Controller Deadzone](../assets/support-guide/controller-deadzone.png){loading=lazy}
+    ![Controller Deadzone](../a32nx/assets/support-guide/controller-deadzone.png){loading=lazy}
 
 ??? tip "Understand Discontinuities"
     ### Understand Discontinuities
 
-    See [Discontinuities Guide](../../pilots-corner/advanced-guides/flight-planning/disco.md)
+    See [Discontinuities Guide](../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/disco.md)
 
 ??? tip "Sync MSFS Flight Plan with the A32NX Flight Plan"
     ### Sync MSFS Flight Plan with the A32NX Flight Plan
 
-    See [Sync to MSFS Flight Plan](../../fbw-a32nx/feature-guides/cFMS.md#sync-mcdu-to-msfs)
+    See [Sync to MSFS Flight Plan](../a32nx/feature-guides/cFMS.md#sync-mcdu-to-msfs)
 
 ??? tip "Cockpit Interaction System"
     ### Cockpit Interaction System
@@ -1064,7 +1064,7 @@ Please try these before reporting any other issue on Discord.
 
     1. TEMPORARY Solution: Try a VPN - a great free one that's reliable is [ProtonVPN](https://protonvpn.com/).
         - Please do your own due diligence and research when utilizing a VPN, even with our recommended one above.
-    2. Download a full build from our website [here]() - Please ensure you follow our [manual installation instructions](../installation.md#manual-installation).
+    2. Download a full build from our website [here]() - Please ensure you follow our [manual installation instructions](../install/installation.md#manual-installation).
     3. Contact your ISP to check with them if there are any existing issues utilizing Cloudflare on their network.
 
     ^^Additional Information^^

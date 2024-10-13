@@ -53,9 +53,9 @@ A warning will be displayed if you have certain AI assistance features turned on
 ??? tip "Verify Settings"
     You can verify the assistance and AI features are switched off by checking the following settings.
 
-    ![MSFS Assistance Options](assets/settings/assistance-options.png "MSFS Assistance Options"){loading=lazy}
+    ![MSFS Assistance Options](../a32nx/assets/settings/assistance-options.png "MSFS Assistance Options"){loading=lazy}
 
-    ![MSFS AI Options](assets/settings/ai-options.png "MSFS AI Options"){loading=lazy}
+    ![MSFS AI Options](../a32nx/assets/settings/ai-options.png "MSFS AI Options"){loading=lazy}
 
 
 ### Legacy Cockpit Interaction System
@@ -115,7 +115,7 @@ On the Development version, if you have an extra axis on your controllers (e.g.,
     
     Sample configuration:
 
-    ![Racing Pedals Config](assets/settings/racing-pedals-config.png){loading=lazy}
+    ![Racing Pedals Config](../a32nx/assets/settings/racing-pedals-config.png){loading=lazy}
 
     <sub>Thanks to SteveCollins100 for the configuration tip.</sub>
 

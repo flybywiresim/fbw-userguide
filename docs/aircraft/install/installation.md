@@ -24,7 +24,7 @@ Please follow the information on this page to install FlyByWire Simulations prod
 !!! danger "MSFS Marketplace Version Discontinued"
     Please uninstall any marketplace version.
 
-    You can reference [this issue](support/reported-issues.md#outdated-marketplace-version) in our reported issues page for more details.
+    You can reference [this issue](../support/reported-issues.md#outdated-marketplace-version) in our reported issues page for more details.
 
 ---
 
@@ -77,7 +77,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
          [Download Development](https://github.com/flybywiresim/aircraft/releases/download/assets/master/A32NX-master.7z){.md-button target=new}
          
-         [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](feature-guides/autopilot-fbw.md)
+         [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](../a32nx/feature-guides/autopilot-fbw.md)
 
 <p style="color:yellow; font-size:18px;">TODO: Add A380X download links</p>
 

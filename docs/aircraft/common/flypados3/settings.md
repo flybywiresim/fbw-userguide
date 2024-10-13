@@ -300,7 +300,7 @@ Settings for integration with various data and information sources.
 
             ~~USE AT YOUR OWN RISK~~
 
-            [Free Text - Feature Guide](../freetext.md){.md-button}
+            [Free Text - Feature Guide](../../a32nx/feature-guides/freetext.md){.md-button}
 
     - If enabled, a message will be displayed to confirm sharing of the free text and position data to the public.
 
