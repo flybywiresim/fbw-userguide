@@ -16,16 +16,16 @@ especially the Airbus A320neo.
 
 ## Quick Links
 
-[Beginner Guide](a32nx/beginner-guide/overview.md){ .md-button }
-[Advanced Guides](a32nx/advanced-guides/overview.md){ .md-button }
+[Beginner Guide](a32nx-beginner-guide/overview.md){ .md-button }
+[Advanced Guides](a32nx-advanced-guides/overview.md){ .md-button }x§
 [A320neo Pilot Briefing](a32nx-briefing/index.md){ .md-button }
 
 ##  Topics
 
-| Featured List                                                     |
-|:------------------------------------------------------------------|
-| [Beginner Guide](a32nx/beginner-guide/overview.md)                |
-| [Advanced Guides](a32nx/advanced-guides/overview.md)              |
-| [A320neo Pilot Briefing](a32nx/a32nx-briefing/index.md)           |
-| [Standard Operating Procedures](a32nx/a32nx-sop.md)               |
-| [Airliner Flying Guide](common/airliner-flying-guide/overview.md) |
+| Featured List                                                          |
+|:-----------------------------------------------------------------------|
+| [Beginner Guide](a32nx-beginner-guide/overview.md)                     |
+| [Advanced Guides](a32nx-advanced-guides/overview.md)                   |
+| [A320neo Pilot Briefing](a32nx-briefing/index.md)                      |
+| [Standard Operating Procedures](a32nx-sop.md)                          |
+| [Airliner Flying Guide](../airliner/airliner-flying-guide/overview.md) |

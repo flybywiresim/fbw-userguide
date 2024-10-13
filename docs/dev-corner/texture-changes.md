@@ -23,7 +23,7 @@ The A32NX has a [toggle option in the EFB to disable the dynamic registration nu
 !!! warning "Avoid Using panel.cfg"
     Overriding `panel.cfg` creates future conflicts with A32NX development.
 
-    Please avoid using `panel.cfg` to disable the registration number decal, and instead advise users to [disable the dynamic decal in the EFB settings](../fbw-a32nx/feature-guides/flypados3/settings.md#sim-options).
+    Please avoid using `panel.cfg` to disable the registration number decal, and instead advise users to [disable the dynamic decal in the EFB settings](../aircraft/common/flypados3/settings.md#sim-options).
 
 ## Mirrored Wheel Texture
 

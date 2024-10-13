@@ -2,7 +2,7 @@
 
 This is an advanced guide on how to calculate takeoff performance in the A32NX. This is meant to supplement information the provided in our flyPadOS 3 documentation and usage guide.
 
-[flyPad Performance Calculator Page](../../../fbw-a32nx/feature-guides/flypados3/performance.md){ .md-button }
+[flyPad Performance Calculator Page](../../../../aircraft/common/flypados3/performance.md){ .md-button }
 
 Clicking on the calculate button after all the input fields are filled properly will either result in takeoff speeds and Flex temperature (if Flex was selected and can be used) 
 being displayed in the replica of the MCDU Takeoff Perf Pages provided on the right side of the calculator unless the takeoff weight exceeds the maximum takeoff weight for the 
@@ -14,7 +14,7 @@ Information that can be obtained from Airport 10-9 (or 10-9A) charts
 
 ### EGLL
 
-![egll-to.png](..%2F..%2Fassets%2Fadvanced-guides%2Ftakeoff-perf%2Fegll-to.png){loading=lazy}
+![egll-to.png](../../../assets/advanced-guides/takeoff-perf/egll-to.png){loading=lazy}
 
 - Item 1 is the elevation for a takeoff from Runway 09L. 
 - Item 2 shows an example of a relatively rare zero-degree turn-on angle from the taxiway to the runway. This is denoted by the gray taxiway extending far enough after the turn 
@@ -30,7 +30,7 @@ Since the elevations of both ends of the runway are the same, the slope for take
 The magnetic variation at EGLL is 0 degrees, so there is no difference between a true heading and a magnetic heading. No conversion is needed for the METAR wind direction when 
 the wind is input manually for this airport.
 
-![eggl-10-9a.png](..%2F..%2Fassets%2Fadvanced-guides%2Ftakeoff-perf%2Feggl-10-9a.png){loading=lazy}
+![eggl-10-9a.png](../../../assets/advanced-guides/takeoff-perf/eggl-10-9a.png){loading=lazy}
 
 For a large airport like EGLL, there is not enough space to add the additional runway information on the 10-9 chart. In this case, TORA distance for each runway and for 
 intersection takeoffs is provided on the 10-9A chart. For a Runway 09L full-length takeoff, the TORA is 12,799 feet, or 3901 meters.
@@ -41,7 +41,7 @@ Be aware that some runways for which the airport 10-9 chart shows a zero-degree 
 required. One example of this is SBRF/Recife, Brazil. The marked area in the airport 10-9 chart below shows that the airplane can be aligned in the direction of takeoff before 
 entering the black runway area. In MSFS 2020, however, the taxiway meets the runway end at a 90-degree angle.
 
-![sbrf-to.png](..%2F..%2Fassets%2Fadvanced-guides%2Ftakeoff-perf%2Fsbrf-to.png){loading=lazy width=75%}
+![sbrf-to.png](../../../assets/advanced-guides/takeoff-perf/sbrf-to.png){loading=lazy width=75%}
 
 The magnetic variation for SBRF is 21 degrees West. For a magnetic variation in the West direction, add the magnetic variation to the true wind direction referenced to 
 true North number to get the magnetic wind direction referenced to true North. For example, if the winds are 240/10 from the METAR, then input 261/10 into the takeoff calculator (240+21).  
@@ -51,7 +51,7 @@ true North number to get the magnetic wind direction referenced to true North. F
 
 ### LOWI
 
-![lowi.png](..%2F..%2Fassets%2Fadvanced-guides%2Ftakeoff-perf%2Flowi.png){loading=lazy}
+![lowi.png](../../../assets/advanced-guides/takeoff-perf/lowi.png){loading=lazy}
 
 This airport’s 10-9 chart has all the information on one chart. This is an example where both runways have a 180-degree entry angle; that is, the airplane must use the runway 
 to taxi to the runway end and then turn around to use the full runway length for takeoff. TORA values for the full runway length as well as from the taxiway 

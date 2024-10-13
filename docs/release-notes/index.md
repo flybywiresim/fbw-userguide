@@ -11,10 +11,11 @@ for some of the FlyByWire Tools and other projects.
 
     The A32NX Release Notes section contains release notes for the A32NX aircraft add-on.
 
-- <p style="font-size:24px;">[A380X Release Notes](./a380x/v0111.md)</p>
+- <p style="font-size:24px;">A380X Release Notes</p>
 
-    The A380X Release Notes section contains release notes for the A380X aircraft add-on.
+    Not yet available.
+[//]: # (    The A380X Release Notes section contains release notes for the A380X aircraft add-on.)
 
-- <p style="font-size:24px;">[Installer Release Notes](./installer/v330.md)</p>
+- <p style="font-size:24px;">[Installer Release Notes](installer/v330.md)</p>
 
     The Installer Release Notes section contains release notes for the FlyByWire Installer.
