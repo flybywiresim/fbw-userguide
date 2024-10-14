@@ -122,7 +122,7 @@ This guide will cover these phases:
 
     The MCDU FIX INFO page can be accessed by selecting the first waypoint on the F-PLN page and pressing LSK 1L "FIX INFO".
 
-    See our feature guide [FIX INFO](../advanced-guides/flight-planning/fixinfo.md) for how to use this function.
+    See our feature guide [FIX INFO](../a32nx-advanced-guides/flight-planning/fixinfo.md) for how to use this function.
 
 #### How to Calculate the Required Distance for Descent
 

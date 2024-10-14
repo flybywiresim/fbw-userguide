@@ -11,13 +11,13 @@ Revisions to the lateral and vertical flight plans can be made from these pages.
 !!! tip "Additional Resources"
     Also see the following resources for further feature information when utilizing the F-PLN page:
 
-    - [MCDU Setup Procedure](../../beginner-guide/preparing-mcdu.md) in our [Beginner Guide](../../beginner-guide/overview.md).
+    - [MCDU Setup Procedure](../../a32nx-beginner-guide/preparing-mcdu.md) in our [Beginner Guide](../../a32nx-beginner-guide/overview.md).
     - Advance Flight Planning Guides
-        - [Direct To (DIR TO)](../../advanced-guides/flight-planning/direct.md)
-        - [Discontinuities](../../advanced-guides/flight-planning/disco.md)
-        - [Fix Info](../../advanced-guides/flight-planning/fixinfo.md)
-        - [Holds](../../advanced-guides/flight-planning/holds.md)
-        - [Leg Types](../../advanced-guides/flight-planning/leg-types.md)
+        - [Direct To (DIR TO)](../../a32nx-advanced-guides/flight-planning/direct.md)
+        - [Discontinuities](../../a32nx-advanced-guides/flight-planning/disco.md)
+        - [Fix Info](../../a32nx-advanced-guides/flight-planning/fixinfo.md)
+        - [Holds](../../a32nx-advanced-guides/flight-planning/holds.md)
+        - [Leg Types](../../a32nx-advanced-guides/flight-planning/leg-types.md)
 
 ![F-PLAN A Page](../../assets/a32nx-briefing/mcdu/mcdu-fpln-a-page.png "F-PLAN A Page"){loading=lazy}
 

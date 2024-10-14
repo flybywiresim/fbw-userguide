@@ -42,7 +42,7 @@ Prompts on each PERF page:
     !!! tip
         In the FlyByWire A32NX, pilots can calculate takeoff performance data via the flyPad. Visit our flyPad Performance Page guide for more information.
 
-        [flyPad Performance Page](../../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new .md-button}
+        [flyPad Performance Page](../../../../aircraft/common/flypados3/performance.md){target=new .md-button}
 
         !!! warning "Not Available in the Stable Version; you can instead click on the LSK next to V1, VR and V2 to let the aircraft calculate the V-Speeds for you."
         

@@ -21,7 +21,7 @@ It includes a simple route that you can use to follow along easily and replicate
 The simBrief route used in this guide:
 
 <p style="color:yellow; font-size:18px;">TODO: update/insert downloadable OFP</p>
-[Download simBrief OFP](../assets/beginner-guide/mcdu/sample-ofp.pdf){ .md-button }
+[Download simBrief OFP](#){ .md-button }
 
 !!! tip "AIRAC Updates"
     Please note, we may update this OFP and guide from occasionally to ensure it is current with the latest AIRAC 

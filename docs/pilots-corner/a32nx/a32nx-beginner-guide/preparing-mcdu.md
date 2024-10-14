@@ -141,7 +141,7 @@ DATA includes the pages below:
 
     For more information and a guide to our simBrief A32NX features, visit the page below:
 
-    [FMS (MCDU) and simBrief Integration](../../fbw-a32nx/feature-guides/simbrief.md#using-the-fms-mcdu-and-simbrief-integration){ .md-button }
+    [FMS (MCDU) and simBrief Integration](../../../aircraft/a32nx/feature-guides/simbrief.md#using-the-fms-mcdu-and-simbrief-integration){ .md-button }
 
 ^^FROM/TO Field^^
 
@@ -168,7 +168,7 @@ The cost index can be found in the image above.
 !!! tip "Wind Requests"
     Pilots can choose to import your wind data at this stage through the `WIND/TEMP` option by pressing LSK 4R. For more information on using this feature, please see the guide below.
 
-    [Wind Request Guide](../../fbw-a32nx/feature-guides/simbrief.md#wind-request){.md-button}
+    [Wind Request Guide](../../../aircraft/a32nx/feature-guides/simbrief.md#wind-request){.md-button}
 
     !!! warning ""
         Please also note the following:
@@ -209,7 +209,7 @@ Our route for this flight can be found on the 2nd page of the OFP
 
     These are procedures that are defined and published that take a flight from the take-off phase to the en route phase.
 
-    Also see: [SIDS and STARS](../airliner-flying-guide/navigation.md#sids-and-stars)
+    Also see: [SIDS and STARS](../../airliner/airliner-flying-guide/navigation.md#sids-and-stars)
 
 To program the Standard Instrument Departure (SID):
 
@@ -287,7 +287,7 @@ For the purposes of this guide, we will pre-plan our arrival into EDDF via the `
     Similar to the SID, these are procedures that are defined and published that take a flight from
     the last point in a route *(in our case `DEBHI`)* to the first point in the approach or the initial approach fix (IAF).
 
-    Also see: [SIDS and STARS](../airliner-flying-guide/navigation.md#sids-and-stars)
+    Also see: [SIDS and STARS](../../airliner/airliner-flying-guide/navigation.md#sids-and-stars)
 
 Find `EDDF` in green in the flight plan OR select `EDDF` in white under `DEST` using the corresponding LSK.
 
@@ -318,10 +318,11 @@ Verify the flight plan by using the vertical slew keys to scroll through it.
 
     ![mcdu-discontinuity.png](../assets/beginner-guide/mcdu/mcdu-discontinuity.png){loading=lazy}
 
-    See our detailed documentation for [Discontinuities](../advanced-guides/flight-planning/disco.md){target=new} to understand how to appropriately handle these when encountered on your F-PLN page. 
+    See our detailed documentation for [Discontinuities](../a32nx-advanced-guides/flight-planning/disco.md){target=new} to understand how to appropriately handle these when 
+encountered on your F-PLN page. 
     
     !!! warning ""
-        Additionally, make note of this [Special Case](../advanced-guides/flight-planning/disco.md#special-case) on the discontinuity page.
+        Additionally, make note of this [Special Case](../a32nx-advanced-guides/flight-planning/disco.md#special-case) on the discontinuity page.
 
 !!! info "Viewing Flight Plan on ND"
     We can also verify the route looks correct by selecting `Plan` on the EFIS control panel and watching the ND as we scroll through.
@@ -384,7 +385,7 @@ On this page, we can input our zero fuel weight (ZFW) and zero fuel weight cente
     - This page (INIT FUEL PRED) has a ZFW/ZFWCG value. **Reminder:** After engines are started, INIT FUEL PRED changes to the FUEL PRED page.
     - At least one engine is running.
 
-    Please see our [Fuel and Weights Guide](../../fbw-a32nx/feature-guides/loading-fuel-weight.md) for more detailed information.
+    Please see our [Fuel and Weights Guide](../../../aircraft/a32nx/feature-guides/loading-fuel-weight.md) for more detailed information.
 
 The A32NX can autopopulate this information.
 
@@ -399,7 +400,7 @@ Now we can add our fuel on board (FOB). The amount we input in this field can be
 
 !!! info "Loading Fuel"
 
-    Via the EFB - [Learn How](../../fbw-a32nx/feature-guides/flypados3/dispatch.md#fuel-page)
+    Via the EFB - [Learn How](../../../aircraft/common/flypados3/dispatch.md#fuel-page)
 
 ^^ECAM FOB^^
 
@@ -441,7 +442,7 @@ The performance page changes based on the relative stages of flight until we lan
 
 The flyPad onboard the aircraft is capable of calculating your required takeoff performance for your flight. Visit our flyPad Performance Page guide for more information.
 
-[flyPad Performance Page](../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new .md-button}
+[flyPad Performance Page](../../../aircraft/common/flypados3/performance.md){target=new .md-button}
 
 For this flight, we will be taking off with a `1+F` flaps configuration.
 
@@ -475,12 +476,12 @@ For this flight, we will be taking off with a `1+F` flaps configuration.
 
     GW CG Values can be found: 
 
-    - On the [Payload Tab on the Grounds Services Page](../../fbw-a32nx/feature-guides/loading-fuel-weight.md#finding-the-payload-screen) in the flyPad EFB.
+    - On the [Payload Tab on the Grounds Services Page](../../../aircraft/a32nx/feature-guides/loading-fuel-weight.md#finding-the-payload-screen) in the flyPad EFB.
     - On the [Fuel Prediction](../a32nx-briefing/mcdu/fuel-pred.md) page in the MCDU.
 
     CG to THS calculation:
     
-    - CG to THS can be found in the downloable FBW checklist in our [Standard Operating Procedures](../SOP.md#normal-procedures) resources page.
+    - CG to THS can be found in the downloable FBW checklist in our [Standard Operating Procedures](../a32nx-sop.md#normal-procedures) resources page.
     - The CG/THS markings on the trim wheel can be used to validate this.
 
     Make sure to update this value or set the correct trim once your engines have started.
@@ -505,7 +506,7 @@ Read the following tip for more information on FLEX temp.
 Pilots can use the flyPad Performance Page to calculate Flex Temp for takeoff. The flyPad will also 
 calculate if TOGA is the preferred thrust setting for takeoff and notify the pilot through the EFB.
 
-[flyPad Performance Page](../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new .md-button}
+[flyPad Performance Page](../../../aircraft/common/flypados3/performance.md){target=new .md-button}
 
 !!! tip "What is Flex Temp?"
     Flex temp is entered into the MCDU, enabling the computer to use the pilot-specified air temperature to allow for take-off thrust that is less than TOGA but not less than CLB. This is a method of creating cost savings by increasing engine life, resulting in reduced overhaul and fuel costs. This value is normally calculated via a pilot's company EFB or other tools.
@@ -531,7 +532,7 @@ Our SID chart mentions that the TRANS ALT for this departure is 5000 ft.
 
 Pilots can use the flyPad Performance Page to calculate V-Speeds for takeoff.
 
-[flyPad Performance Page](../../fbw-a32nx/feature-guides/flypados3/performance.md){target=new .md-button}
+[flyPad Performance Page](../../../aircraft/common/flypados3/performance.md){target=new .md-button}
 
 ??? warning "Stable Version Only"
     V-Speeds are normally calculated by a company EFB or other tools. This feature is not yet available in the stable version.

@@ -22,7 +22,7 @@ This guide will explain the correct procedures to accomplish a pushback with eng
 
 At this time, we may request for clearance to push and start from ATC.
 
-[Download FlyByWire Checklist](../assets/sop/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf){ .md-button }
+[Download FlyByWire Checklist](../assets/sop/FBW_A380X_Checklist.pdf){ .md-button }
 
 ---
 
@@ -86,7 +86,7 @@ Once all passengers have boarded and secured, we are ready to begin pushback.
     At this point, we may begin pushback away from the terminal onto the taxiway Alpha 3.
 
     <p style="color:yellow; font-size:18px;">TODO: optimze image</p>
-    ![parking stands](../assets/beginner-guide/taxi/parking-stands-guidelines.png){loading=lazy}
+    ![parking stands](#){loading=lazy}
     <sub>Copyright © 2021 Navigraph / Jeppesen<br>
     "Navigraph Charts are intended for flight simulation use only, not for navigational use."
 
@@ -129,7 +129,7 @@ Click below to learn more about the flyPad and how to use it for pushback.
     
     After the tug is attached to the nose wheel, we can start pushing back by using the control buttons or the rudder and elevator controls.
     
-    See the flyPad documentation for more details: [flyPad Pushback](../../../aircraft/a32nx/feature-guides/flypados3/ground.md#pushback)
+    See the flyPad documentation for more details: [flyPad Pushback](../../../aircraft/common/flypados3/ground.md#pushback)
 
 ---
 
@@ -224,7 +224,7 @@ can proceed with the following steps.
 
 [//]: # (TODO)
 <p style="color:yellow; font-size:18px;">TODO: update checklist image</p>
-![after start checklist](../assets/beginner-guide/taxi/afterstart.png){loading=lazy}
+![after start checklist](#){loading=lazy}
 
 Perform the AFTER START checklist.
 
@@ -251,7 +251,7 @@ For additional information on signs and markings on the ground, please see [Gene
     
     [//]: # (TODO)
     <p style="color:yellow; font-size:18px;">TODO: optimize image</p>
-    ![Taxi Chart](../assets/beginner-guide/taxi/airport-chart-guidelines.png){loading=lazy}
+    ![Taxi Chart](#){loading=lazy}
     <sub>Copyright © 2021 Navigraph / Jeppesen<br>
     "Navigraph Charts are intended for flight simulation use only, not for navigational use."
     
@@ -471,12 +471,12 @@ There are typically three very important holding position signs / markings that 
 2. Taxiway Holding Position
     - Single dashed yellow line. If this is present along your taxi route, it will indicate a position that ground control may request you stop and hold short before another taxiway.
 
-        ![taxiway hold](../assets/beginner-guide/04_engine-start-taxi/taxiway-hold.png){ loading=lazy style="width:320px;height:79px" }
+        ![taxiway hold](../../a32nx/assets/beginner-guide/taxi/taxiway-hold.png){ loading=lazy style="width:320px;height:79px" }
 
 3. ILS Critical Area
     - Solid yellow lines that look like a railroad or ladder. These are another form of hold short point but indicate a critical area Where your aircraft would violate the ILS approach airspace while on the ground.
 
-        ![ils critical](../assets/beginner-guide/04_engine-start-taxi/ils-critical.png){loading=lazy}
+        ![ils critical](../../a32nx/assets/beginner-guide/taxi/ils-critical.png){loading=lazy}
 
 ---
 
