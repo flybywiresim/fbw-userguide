@@ -110,8 +110,8 @@ Let's try and avoid duplication where possible.
 
 ### Docs Team All Phases
 
-- [ ] Update and add redirects for pages that have been moved or renamed
-- [ ] Fix broken links and images
+- [x] Update and add redirects for pages that have been moved or renamed
+- [x] Fix broken links and images
 - [ ] Support Guide - cleanup, split section if required, etc.
 - [ ] Common Features - Check structure and move if necessary. Also change into card format.
   - [ ] EFB
@@ -123,7 +123,7 @@ Let's try and avoid duplication where possible.
   - [x] A380X - No Stable yet Page is ready but hidden
 - FlyByWire Tools
   - [x] SimBridge
-  - [ ] Installer
+  - [x] Installer
 - [ ] Development Corner
   - check what changes are required in this section
     - Push that back up to P1/P2
