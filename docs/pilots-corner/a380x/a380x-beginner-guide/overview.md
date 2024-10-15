@@ -1,18 +1,16 @@
 ---
-title: A32NX Beginner Guide - Overview
-description: The A32NX Beginner Guide teaches users how to operate and fly the FlyByWire A32NX aircraft.
+title: A380X Beginner Guide - Overview
+description: The A380X Beginner Guide teaches users how to operate and fly the FlyByWire A380X aircraft.
 ---
 
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
 
-<p style="color:yellow; font-size:24px;">TODO: Re-write the bg for A380X</p>
-
 # Overview
 
-Welcome to the A32NX Beginner's Guide. Although this guide is tailored towards beginners, each topic below may even
+Welcome to the A380X Beginner's Guide. Although this guide is tailored towards beginners, each topic below may even
 serve as reminders of proper procedure at different stages of flight for veteran sim pilots.
 
-Each page was reviewed by an A320 type rated pilot and provides accurate information to aircraft operation.
+Each page was reviewed by an A380 type rated pilot and provides accurate information to aircraft operation.
 
 !!! warning "Disclaimer"
     <p style="color:coral;">This is for simulation purposes only.</p>
@@ -72,6 +70,6 @@ For general questions, please visit our Discord:
 
 ---
 
-Authors: Awemeter#3110, Cdr_Maverick#6475, Scoopy#1399, Valastiri#8902
+Authors: cdr_maverick, valastiri, popespice
 
-Guide reviewed by A320 Pilots.
+Guide reviewed by A380 Pilots.

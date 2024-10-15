@@ -43,14 +43,6 @@ function for the FMS similar to the real aircraft.
 
 Also, the EFB can import and use your SimBrief flight plan to display the OFP, import fuel and payload data automatically.
 
-!!! warning "IMPORTANT"
-
-[//]: # (TODO)
-    <p style="color:yellow; font-size:18px;">TODO: double check this</p> 
-    If you plan to import the flight plan from SimBrief, do **not select an arrival airport** on the MSFS world menu or flight
-    planner. Doing this "initializes" the `FROM/TO` field when loading into your flight, removing the `INIT REQ.` option
-    from the `INIT A` page.
-
 [SimBrief A380X Features](../../../aircraft/a32nx/feature-guides/simbrief.md){.md-button}
 <p style="color:yellow; font-size:18px;">TODO: simbrief guide needs separation and update</p> 
 
@@ -62,7 +54,7 @@ showcase how to input your waypoints, departure SID, and arrival STAR / procedur
 
 ### Flight Plan Discontinuities
 
-When inputting your flight plan into the MCDU, discontinuities appearing is an intended feature. The page below
+When inputting your flight plan, discontinuities appearing is an intended feature. The page below
 describes how to handle these when encountered during your preflight preparations.
 
 [Flight Plan Discontinuities](03_preparing-fms.md#discontinuity){.md-button}
