@@ -202,6 +202,10 @@ Verify these items:
 `LOC CAPTURE ...................................................... MONITOR`<br/>
 `ILS LOCALIZER ................................................ ESTABLISHED`<br/>
 `FLAPS 1 .............................................................. SET`<br/>
+`ECAM STS .......................................................... NORMAL`<br/>
+`ALTIMETER .................................................... QNH/HPA SET`<br/>
+`MINIMA ............................................................... SET`<br/>
+`SIGNS ................................................................. ON`<br/>
 
 After ATC has given us clearance for the ILS approach, we can also start descending using the ILS glideslope.
 
