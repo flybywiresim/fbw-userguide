@@ -133,7 +133,7 @@ If we are cleared to "line up" (or take-off) we will do the following steps.
     It is recommended setting the weather radar on the pilot in command side, and the terrain radar on the pilot monitoring side.
     !!! info ""
         The Weather Radar is currently not available for the FBW A380X for Microsoft Flight Simulator as the simulator 
-        does not provide the required data. . The Terrain Radar is available and can be set to the pilot monitoring side.
+        does not provide the required data. The Terrain Radar is available and can be set to the pilot monitoring side.
 `TRAF .................................................................. ON`<br/>
 `APPROACH PATH ................................................ CHECK CLEAR`<br/>
 `STROBE LIGHTS ......................................................... ON`<br/>
@@ -313,7 +313,7 @@ move thrust levers to the `CL` detent.
     not touch the thrust levers again before final approach and landing (under normal flight conditions).
 
     The aircraft will now climb to the altitude selected in the FCU (in our case, 5.000ft).
-`PACKS 1 and 2 ......................................................... ON`<br/>
+`PACKS 1 and 2 ................................................... AS REQ'D`<br/>
 `AUTOPILOT .................................................... AS REQUIRED`<br/>
 ??? note "Autopilot"
     **Activate the __Autopilot__ at this point by pressing the AP1 button on the FCU.**
@@ -368,7 +368,7 @@ move thrust levers to the `CL` detent.
 ??? note "After Takeoff Checklist - Down to the line"
     `LDG GEAR ................................................................... UP`<br/>
     `FLAPS ....................................................................... 0`<br/>
-    `PACK 1+2 ................................................................... ON`<br/>
+    `PACK 1+2 ............................................................. AS REQ'D`<br/>
     `APU MASTER ................................................................ OFF`<br/>
 
 At this point, the aircraft is climbing to the initially cleared altitude. The __Autopilot__ will manage the climb to the
@@ -400,7 +400,7 @@ selected altitude.
 
 `AFTER TAKEOFF CHECKLIST below the line .......................... COMPLETE`<br/>
 ??? note "After Takeoff Checklist - Below the line"
-    `ALTIMETERS (at transition altitude) ....................................... STD`<br/>
+    `BARO REF STD .............................................................. STD`<br/>
     `LANDING LIGHT (at 10,000ft) ............................................... OFF`<br/>
 
 
