@@ -451,7 +451,8 @@ This concludes *Descent and Approach Planning*.
 #### Starting the Descent
 
 `DESCENT ......................................................... INITIATE`<br/>
-`ALTITUDE ............................................................ PUSH`<br/>
+`ALTITUDE ..................................................... QNH/HPA SET`<br/>
+`CABIN CREW ........................................................ ADVISE`<br/>
 
 ??? tip "How to initiate the descent"
     For descending, we set the new flight level or altitude in the `FCU` with the `altitude selector`. We can then 
@@ -526,6 +527,7 @@ This concludes *Descent and Approach Planning*.
     The `LS` buttons are turned on so we have the landing system active for when we intercept the ILS. 
 
 `LANDING LIGHTS ........................................................ ON`<br/>
+`LANDING DATA ......................................................... SET`<br/>
 `SEAT BELTS SIGN ....................................................... ON`<br/>
 `CSTR BUTTON ........................................................... ON`<br/>
 `LS BUTTON .................................................... AS REQUIRED`<br/>
