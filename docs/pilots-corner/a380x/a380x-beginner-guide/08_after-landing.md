@@ -51,6 +51,7 @@ This guide will cover these phases:
     Also you will prepare the aircraft for taxiing by setting up the aircraft systems for taxiing.
 
 `RADIO FREQUENCY ....................................... AS ASSIGNED BY ATC`<br/>
+`AUXILLIARY POWER UNIT MASTER SWITCH ................................... ON`<br/>
 ??? note "Radio Frequency"
     ATC Tower will usually hand us off to ATC Ground, and they will give us taxi instructions for our destination gate.
     Write them down and read them back as usual, but you don't have to move immediately unless ATC explicitly tells you
