@@ -1,4 +1,4 @@
-# Exterior Lighting
+# Exterior Lights Panel
 
 ---
 

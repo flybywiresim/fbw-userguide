@@ -1,6 +1,5 @@
 # Internal Lights Panel
 
-
 ---
 
 [Back to Overhead](../overviews/ovhd.md){ .md-button }
