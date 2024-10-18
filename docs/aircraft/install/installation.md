@@ -56,9 +56,15 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
 ### Manual Installation
 
-??? info "Download A32NX"
+<p style="color:yellow; font-size:18px;">TODO: Add A380X download links</p>
 
-    === "Latest Stable Version"
+<div class="grid cards" markdown>
+
+- **Download A32NX**
+
+    ---
+
+    === "Stable Version"
 
         **Current Stable Version -** <img src="https://img.shields.io/github/v/release/flybywiresim/aircraft.svg?color=2F4E5B&style=flat" />
 
@@ -77,13 +83,17 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
          [Download Development](https://github.com/flybywiresim/aircraft/releases/download/assets/master/A32NX-master.7z){.md-button target=new}
          
-         [**IMPORTANT:** View information on Autopilot / Fly-By-Wire here](../a32nx/feature-guides/autopilot-fbw.md)
+         **IMPORTANT:** 
 
-<p style="color:yellow; font-size:18px;">TODO: Add A380X download links</p>
+        View information on Autopilot / Fly-By-Wire [here](../a32nx/feature-guides/autopilot-fbw.md)
 
-??? info "Download A380X"
+- **Download A380X**
 
-    Pending futher information
+    ---
+
+    Pending further information
+
+</div>
 
 [//]: # (    === "Experimental Version")
 
