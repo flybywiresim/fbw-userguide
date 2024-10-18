@@ -17,7 +17,7 @@ Let's try and avoid duplication where possible.
 - [ ] FAQ - Further Pending (Val)
 - [ ] Installation Guide - cleanup, split section if required, etc.
   - [ ] Overview
-  - [ ] Versions
+  - [x] Versions
     - Add simple versioning table
   - [ ] Installation (TODO: Part 2)
     - Add A380X specific installation links / steps 
