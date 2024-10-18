@@ -28,14 +28,14 @@ Let's try and avoid duplication where possible.
   - [ ] Feature Guides - split into a32nx/a380x specific features and common features
   - [x] API
 - [ ] A380X
-  - [ ] Overview
-  - [ ] Feature Guides (need a list of available features for early documentation)
-  - [ ] Hardware Guides (Limited/Initial)
+  - [x] Overview - Interim Docs Started
+  - [x] Feature Guides (need a list of available features for early documentation)
+  - [ ] Hardware Guides - **Coming Soon OK (Limited/Initial)**
 - [ ] Pilot's Corner
   - [x] Overview
   - [x] A32NX Corner
-    - [ ] Beginner Guide
-      - [ ] Add Flow Patterns
+    - [x] Beginner Guide - Keeping the Same
+      - [ ] Add Flow Patterns - **Optional**
     - [x] A320X Pilot Briefing
       - [x] Flight-Deck
       - [x] MFD
