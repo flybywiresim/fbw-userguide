@@ -279,7 +279,7 @@ In the simulator, we are usually alone, so we will do the flow on our own.
     CVR Test
     <p style="color:yellow; font-size:18px;">TODO: insert image of CVR Test or link to interactive flight deck</p>
 
-### Main Instrument Panel
+## Main Instrument Panel
 
 `SWITCHING PANEL ..................................................... NORM`<br/>
 `INTEGRATED STANDBY INSTRUMENT SYSTEM ............................... CHECK`<br/>
@@ -306,7 +306,7 @@ In the simulator, we are usually alone, so we will do the flow on our own.
     Anti Akid (A-Skid)
     <p style="color:yellow; font-size:18px;">TODO: insert image of anti akid (a-skid) or link to interactive flight deck</p>
 
-### Pedestal
+## Pedestal
 
 `PARKING BRAKE ........................................................ ON`<br/>
 `BODY ACCUMULATOR PRESSURE ............................... CHECK/REINFLATE`<br/>
@@ -359,7 +359,7 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 At this point, the Flight Management System (FMS) should be initialized.
 See [Preparing the MFD](03_preparing-fms) for more information.
 
-### Glareshield
+## Glareshield
 
 `INTEGRAL LIGHTS ............................................. AS REQUIRED`<br/>
 `BAROMETRIC REFERENCE ................................................ SET`<br/>
@@ -409,7 +409,7 @@ See [Preparing the MFD](03_preparing-fms) for more information.
     Auto Flight System Control Panel
     <p style="color:yellow; font-size:18px;">TODO: insert image of auto flight system control panel or link to interactive flight deck</p>
 
-### Lateral Consoles
+## Lateral Consoles
 
 `OXYGEN MASKS TEST ............................................... PERFORM`<br/>
 `DOOR SD PAGE REGUL PR LO indication ................. CHECK NOT DISPLAYED`<br/>
@@ -428,7 +428,7 @@ See [Preparing the MFD](03_preparing-fms) for more information.
     Sliding Windows Locked
     <p style="color:yellow; font-size:18px;">TODO: insert image of sliding windows locked or link to interactive flight deck</p>
 
-### Pilot Briefing
+## Pilot Briefing
 
 As the last step the pilots would conduct the takeoff briefing:
 
