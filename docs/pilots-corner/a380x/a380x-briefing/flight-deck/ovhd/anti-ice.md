@@ -6,7 +6,7 @@
 
 ---
 
-![Anti Ice Panel](../../../assets/a380x-briefing/flight-deck/ovhd/anti-ice-panel.png "Anti Ice Panel")
+![Anti Ice Panel](../../../assets/a380x-briefing/flight-deck/ovhd/anti-ice-panel.png "Anti Ice Panel"){loading=lazy}
 
 [//]: # (TODO)
 <!-- TODO 
