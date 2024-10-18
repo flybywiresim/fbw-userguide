@@ -1,7 +1,7 @@
 title: FlyByWire Aircraft
 nav:
     - Overview: index.md
-    - FAQ: faq.md
+    - General FAQ: faq.md
     - Installation: install
     - Support: support
     - A32NX: a32nx
