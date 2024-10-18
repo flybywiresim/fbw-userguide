@@ -14,18 +14,14 @@ This section of the FlyByWire Documentation is dedicated to the A380X add-on. It
 The following aircraft configurations are currently simulated:
 
 ```title="Simulated Hardware"
-Model       A380-800 (Confirm)
-Engine      Rolls-Royce Trent 900 (Confirm)
+Model       A380-842
+Engines     Rolls-Royce Trent 972B-84
 APU         Honeywell 331-350C (Confirm)
-FMS         Confirm
-FWC Std.    Change
-RA          Change
-TAWS        Honeywell EGPWS
-ACAS        Honeywell TPA-100B
-ATC         Honeywell TRA-100B
-MMR         Honeywell iMMR
-WXR         Honeywell RDR-4000
-ACSC        S1803A0001
+WV          003
+TAWS        Honeywell AESS
+ACAS        Honeywell AESS
+ATC         Honeywell AESS
+WXR         Honeywell AESS
 ```
 ## Quick Links
 

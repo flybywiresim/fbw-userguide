@@ -1,6 +1,6 @@
 ---
-title: FlyByWire A380X - Feature Guide List
-description: An initial list of available feature guides for the FlyByWire A380X.
+title: A380X Feature Guides - Overview
+description: A collection of guides for selected features of the A380X.
 ---
 
 # Overview
