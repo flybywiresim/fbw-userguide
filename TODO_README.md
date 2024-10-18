@@ -85,6 +85,71 @@ Let's try and avoid duplication where possible.
     - [x] Airliner Flying Guide
     - [x] Terms and Abbreviations
 
+#### P1 Additional for Beginning Guide
+Section is for additional content to match P1 requirements for **Beginner Guide Specifically**.
+
+**Preflight**
+Minor internal linking requirements and restructuring.
+
+- [ ] SimBrief guide needs update + New Page
+  - [ ] Note: Would exist in `aircraft/A380x/new page here`
+- [ ] Discontinuities
+  - [ ] Has a page in A380X corner needs updates
+  - How is this handled?
+- [ ] Payload Management
+  - [ ] Fuel and weight - needs guide + new page
+
+**Cockpit Preparation**
+
+Pre-Checks
+- [ ]  Flight Deck Overview Link (Add)
+
+Initial Power Up
+- [ ]  Image of how to do so (overhead → See Panels)
+
+Fire Test and APU Startup
+- [ ]  Location
+
+**Panels**
+
+Requires images in block format for each specific module to include in the cockpit preparation (can be reused later but would be handy to have.
+
+Can see the requirements in the A380X pilot briefing. **All Modules In block format**
+
+- [ ]  Overhead Panel
+  - [ ]  Left
+  - [ ]  Center
+  - [ ]  Right
+- [ ]  Main Instrument Panel
+- [ ]  Pedestal
+- [ ]  Glareshield
+- [ ]  Lateral Consoles
+
+Takeoff Briefing
+
+- [ ]  Need before runway Image
+- [ ]  Vertical and Lateral Guidance on PFD Image
+- [ ]  A380X speedband with V speeds
+- [ ]  FCU standard screenshot
+
+Preparing FMS
+Straks should be preparing this
+
+Descent Planning
+
+- [ ]  Verify Landing Calc Present in FMS - use simbrief UPDATE NOTICE
+- [ ]  BTV Documentation Written
+- [ ]  Remove notice to update links in V/S not recommended
+
+Landing
+
+- [ ]  Update aircraft exterior screenshot exiting runway entry markers with full length of the aircraft
+
+After Landing + Powering Down
+
+- [ ]  Repeat of imagery based on landing
+
+
 ### P2
 
 - [ ] Pilot's Corner
