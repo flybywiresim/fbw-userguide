@@ -6,7 +6,7 @@
 
 ---
 
-![Internal Lights Panel](../../../assets/a380x-briefing/flight-deck/ovhd/int-lt-panel.png "Internal Lights Panel")
+![Internal Lights Panel](../../../assets/a380x-briefing/flight-deck/ovhd/int-lt-panel.png "Internal Lights Panel"){loading=lazy}
 
 [//]: # (TODO)
 <!-- TODO

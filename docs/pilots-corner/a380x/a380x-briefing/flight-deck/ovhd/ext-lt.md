@@ -6,7 +6,7 @@
 
 ---
 
-![Exterior Lighting](../../../assets/a380x-briefing/flight-deck/ovhd/ext-lt-panel.png "Exterior Lighting")
+![Exterior Lighting](../../../assets/a380x-briefing/flight-deck/ovhd/ext-lt-panel.png "Exterior Lighting"){loading=lazy}
 
 [//]: # (TODO)
 <!-- TODO 
