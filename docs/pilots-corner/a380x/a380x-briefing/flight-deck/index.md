@@ -11,9 +11,9 @@ description: The A380 Flight Deck Overview is providing an interactive graphical
 [Back to A380 Pilot Briefing Overview](../index.md){ .md-button }
 
 !!! note "Clickable Cockpit"
-- Clickable overview of the A380 flight deck.
-- Move the mouse over the panels to get the name of the panel.
-- Click on the panels to get a more detailed description of that panel.
+    - Clickable overview of the A380 flight deck.
+    - Move the mouse over the panels to get the name of the panel.
+    - Click on the panels to get a more detailed description of that panel.
 
 <link href="/stylesheets/a380x-flight-deck-1.css" rel="stylesheet">
 

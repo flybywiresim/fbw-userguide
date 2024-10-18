@@ -21,9 +21,9 @@ Simulator and the FlyByWire A380X aircraft add-on.
 
 ##  Topics
 
-| Quick Links                         |
-|:------------------------------------|
-| [Flight-Deck](flight-deck/index.md) |  
+| Quick Links                         |                                            |
+|:------------------------------------|--------------------------------------------|
+| [Flight-Deck](flight-deck/index.md) | Overview of the Flight Deck and its Panels |  
 
 
 ---
