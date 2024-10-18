@@ -81,6 +81,7 @@ description: The A380 Flight Deck Overhead Panel is providing an interactive gra
 
     <!-- PRESS -->
     <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/press"><div class="imagemap" style="position: absolute; top: 83.0%; height: 4.7%; left: 53.9%; width: 17.2%;"><span class="imagemapname">Pressurization</span></div></a>
+    <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/press"><div class="imagemap" style="position: absolute; top: 87.7%; height: 3.3%; left: 65.1%; width: 6.0%;"><span class="imagemapname">Ditching</span></div></a>
 
     <!-- EXT LT -->
     <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/ext-lt"><div class="imagemap" style="position: absolute; top: 87.7%; height: 7.3%; left: 28.8%; width: 19.2%;"><span class="imagemapname">Exterior Lights</span></div></a>
@@ -89,7 +90,8 @@ description: The A380 Flight Deck Overhead Panel is providing an interactive gra
     <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/apu"><div class="imagemap" style="position: absolute; top: 87.7%; height: 7.3%; left: 48.0%; width: 4.0%;"><span class="imagemapname">APU</span></div></a>
 
     <!-- INT LT -->
-    <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/int-lt"><div class="imagemap" style="position: absolute; top: 87.7%; height: 3.3%; left: 52.0%; width: 19.1%;"><span class="imagemapname">Interior Lights</span></div></a>
+    <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/int-lt"><div class="imagemap" style="position: absolute; top: 87.7%; height: 3.3%; left: 52.0%; width: 13.1%;"><span class="imagemapname">Interior Lights</span></div></a>
+
 
     <!-- SIGNS -->
     <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/signs"><div class="imagemap" style="position: absolute; top: 91%; height: 4.0%; left: 52.0%; width: 19.1%;"><span class="imagemapname">Signs</span></div></a>
