@@ -9,7 +9,8 @@ This guide will explain the correct procedures to accomplish takeoff, climb and 
     The level of detail in this guide is meant to get an Airbus A380 beginner safely up in the air and to cruise level
     under normal conditions, while simplifying details which are not (yet) important for a beginner.
 
-    A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
+    A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation 
+    terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
 
 ---
 
@@ -17,10 +18,14 @@ This guide will explain the correct procedures to accomplish takeoff, climb and 
 
 Microsoft Flight Simulator allows you to start your flight from cold & dark at a gate or directly from the runway with
 the aircraft ready for takeoff.
+
 For this guide, we assume you started cold & dark at the gate and taxied to the runway holding point as per the previous
 chapters of this beginner guide.
-If you did start on the runway, you can skip the first part (Lineup) and directly continue
-reading [Takeoff](#2-takeoff).
+
+If you did start on the runway, you have to make sure to set up the FMS and APS correctly anyway as otherwise the aircraft
+won't work as expected. You can't fly an airliner without a proper setup. 
+
+You can then skip the first part (Lineup) and directly continue reading [Takeoff](#2-takeoff).
 
 ## Prerequisites
 
@@ -31,6 +36,8 @@ Aircraft is in `TAXI` state as per previous chapters.
 ## Chapters / Phases
 
 This guide will cover these phases:
+
+[Base Knowledge About the Airbus A380 for Flight](#base-knowledge-about-the-airbus-a380-for-flight)
 
 1. [Lineup](#1-lineup)
 2. [Takeoff](#2-takeoff)
@@ -84,18 +91,19 @@ This section is focused on differences to other non-Airbus airliners a user migh
 
 ??? tip "Using the FCU Knobs in Microsoft Flight Simulator"
     In Microsoft Flight Simulator, pushing is clicking the knob "UP" and pulling is clicking the knob "DOWN"<br/>
-    ![Pulling a knob in MSFS](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/Pulling-knob.png "Pulling a knob in MSFS")
-    {loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update screenshot with new FCU</p>
+    ![Pulling a knob in MSFS](../assets/beginner-guide/05_takeoff-climb-cruise/knob-push-pull.png){loading=lazy}
 
 ??? tip "What are Flight Phases"
     The A380 uses flight phases to manage different parts of a flight. These are preflight, takeoff, climb, cruise, descent,
-    approach, go around, done. They match the PERF pages in the MCDU (see [Preparing the MCDU](03_preparing-fms)).
+    approach, go around, done. See also: [Flight Phases](../../../airliner/flight-phases).
 
 ??? tip "What are Flight Envelope Protections"
     The A380 includes many protections for the pilot, which make it nearly impossible to stall or overspeed the aircraft.
     It's beyond this beginner-guide to go into details (Normal law, Alternate Law, Alpha Floor, etc.)
-    See also: [Protections](../../a32nx/a32nx-advanced-guides/protections/overview.md).
-    <p style="color:yellow; font-size:18px;">TODO: check if this requires update</p>
+
+    [//]: # (TODO)
+    Please refer to the [A32NX Protections](../../a32nx/a32nx-advanced-guides/protections/overview.md)
+    for more information on Protections on the A380 as the systems are similar.
 
 ---
 
@@ -106,9 +114,6 @@ This section is focused on differences to other non-Airbus airliners a user migh
 - ATC (Ground or Tower) has instructed us to hold at a runway holding point and wait until we are cleared to "line up"
   or "take off".<br/>
 - Aircraft is still in TAXI state (see previous chapters) and parking brakes are set.
-
-![Holding at runway holding point](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/Holding.png "Aircraft holding at runway holding point"){loading=lazy} 
-<p style="color:yellow; font-size:18px;">TODO: update screenshot with 380</p>
 
 Typically, it is here at the latest that we are asked to switch to Tower ATC frequency for takeoff clearance.
 
@@ -124,11 +129,11 @@ If we are cleared to "line up" (or take-off) we will do the following steps.
 `EXTERIOR LIGHTS ...................................................... SET`<br/>
 ??? note "Exterior Lights"
     Set the RWY TURN OFF & CAMERA ON, the Landing light to ON, and the nose light to T.O.
-`TAXI (ETACS) ......................................................... OFF`<br/>
+`TAXI (ETACS) (INOP)................................................... OFF`<br/>
 `NAVIGATION DISPLAY RANGE ............................................. SET`<br/>
 ??? note "Navigation Display Range"
     Set the ND range to at least see the first waypoint after takeoff. 
-`ELECTRONIC FLIGHT INSTRUMENT SYSTEM CONTROL PANEL OPTIONS ............ SET`<br/>
+`ELECTRONIC FLIGHT INSTRUMENT SYSTEM CONTROL PANEL OPTIONS (EFIS)...... SET`<br/>
 ??? note "EFIS Control Panel"
     It is recommended setting the weather radar on the pilot in command side, and the terrain radar on the pilot monitoring side.
     !!! info ""
@@ -142,17 +147,33 @@ If we are cleared to "line up" (or take-off) we will do the following steps.
 `TCAS TA ................................................. TA ONLY or TA/RA`<br/>
 
 ??? tip "Where and How?"
-[//]: # (TODO)
-    <p style="color:yellow; font-size:18px;">TODO: add additional info, images or links to the flight deck</p>
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
 
-`BEFORE TAKEOFF CHECKLIST below the line ......................... COMPLETE`<br/>
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
+    clickable cockpit that will show you where each item is located.
+    
+    * [Packs](../../a380x-briefing/flight-deck/ovhd/air)
+    * [Exterior Lights](../../a380x-briefing/flight-deck/ovhd/ext-lt)
+    * [Navigation Display Range](../../a380x-briefing/flight-deck/glareshield/efis)
+    * [EFIS Control Panel](../../a380x-briefing/flight-deck/glareshield/efis)
+    * [TCAS](../../a380x-briefing/flight-deck/pedestal/surveillance)
+
+`BEFORE TAKEOFF CHECKLIST (Line-Up - below the line .............. COMPLETE`<br/>
 ??? note "Before Takeoff Checklist - Below the line"
-    `CABIN CREW ........................................................ ADVISE`<br/>
-    `PACKS 1 and 2 .................................................AS REQUIRED`<br/>
-    `EXTERIOR LIGHTS ...................................................... SET`<br/>
+    The Airbus A380 has a built-in checklist system that can be accessed via the
+    [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
 
+    To activate it you need to press the `C/L` button on the 
+    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam).
 
-??? - tip "Entering Runway"
+    You can navigate through the checklist by using the `UP` and `DOWN` buttons on the ECP. You can check/uncheck items
+    by pressing the buttons with the check mark on the ECP.
+
+    Some items are autosensed by the aircraft and will be checked automatically (e.g. Beacon).
+
+    ![Before Start Checklist](../assets/beginner-guide/05_takeoff-climb-cruise/checklist-before-start-line-up.png){loading=lazy}
+
+??? tip "Entering Runway"
     Before we start rolling, we visually check that no other aircraft is on final approach. We can also use TCAS on the 
     ND to check for aircraft in the vicinity.
 
@@ -164,8 +185,7 @@ If we are cleared to "line up" (or take-off) we will do the following steps.
 
     When we reached our starting point, we stop and set the parking brakes.
 
-    ![image](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/Line-up.png "Aircraft at starting point on the runway"){loading=lazy} 
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot with 380 exterior</p>
+    ![image](../assets/beginner-guide/05_takeoff-climb-cruise/aircraft-lined-up.png "Aircraft at starting point on the runway"){loading=lazy} 
 
     If we were only cleared to "line up" we wait here until we get clearance to *take off*.
 
@@ -200,31 +220,35 @@ Once we are cleared for takeoff, we will start the takeoff roll:
 `CHRONOMETER ........................................................ START`<br/>
 `DIRECTIONAL CONTROL ........................................... USE RUDDER`<br/>
 `PRIMARY FLIGHT DISPLAY and ENGINE indications ....................... SCAN`<br/>
-??? note "PFD and ND"
+??? note "PFD"
     - The PFD Flight Mode Annunciator (FMA) now shows several things which we should check when the aircraft starts rolling:
-        ![FMA at T.O. Thrust](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/FMA-to-thrust.png "FMA at T.O. Thrust"){loading=lazy}
-        <p style="color:yellow; font-size:18px;">TODO: update screenshot for A380X</p>
+        <!-- TODO
+        <p style="color:yellow; font-size:18px;">TODO: fix screenshot for A380X to show RWY NAV blue</p>
+        ![FMA at T.O. Thrust](../assets/beginner-guide/05_takeoff-climb-cruise/fma-toga-thrust.png "FMA at T.O. Thrust"){loading=lazy}
+        -->
 
         From the left:
     
-        - Thrust: set to MAN FLX + 60
+        - Thrust: set to MAN TOGA
         - Vertical guidance:
-            - Active (green): SRS (pitch guidance to maintain V~2~ + 10)
+            - Active (green): SRS (pitch guidance to maintain V~2~+10)
             - Armed (blue): CLB mode (is next after SRS is done)
         - Lateral guidance:
-            - Active: RWY (automatic runway axis follow up through ILS use)
-            - Armed: NAV (navigation guidance according to HDG knob)
+            - Active (green): RWY (automatic runway axis follow up through ILS use)
+            - Armed (blue): NAV (navigation guidance according to HDG knob)
         - __Autopilot__, Flight Director, Autothrust:
 `TAKEOFF THRUST ..................................................... CHECK`<br/>
 
+<!-- TODO
+<p style="color:yellow; font-size:18px;">TODO: fix screenshot for A380X to show RWY NAV blue</p>
 ??? tip "Vertical and Lateral Guidance"
     Vertical and lateral guidance are **only shown** via Flight Director, as we have not turned on the __Autopilot__ yet 
     and need to be followed manually by the pilot.
         ![Flight Director guidance](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/Flight-director-guidance.png "Flight Director guidance"){loading=lazy}#
         <p style="color:yellow; font-size:18px;">TODO: update screenshot for A380X</p>
+-->
 
-??? tip "Center line"
-    Keep the aircraft on the center line while accelerating down the runway.
+Keep the aircraft on the center line while accelerating down the runway.
 
 #### Monitor Speeds and V-Speeds
 

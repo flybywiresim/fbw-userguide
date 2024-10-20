@@ -108,8 +108,7 @@ Once all passengers have boarded and secured, we are ready to begin pushback.
     * [Parking Brake](../../a380x-briefing/flight-deck/pedestal/parking-brake)
     
 `BEFORE START CHECKLIST .......................................... COMPLETE`<br/>
-
-??? tip "How and Where"
+??? note "Before Start Checklist"
     The Airbus A380 has a built-in checklist system that can be accessed via the 
     [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
     
@@ -275,8 +274,7 @@ can proceed with the following steps.
     * [Flight Controls](../../a380x-briefing/flight-deck/main-panel/sd) (Page F/CTL)
 
 `AFTER START CHECKLIST ........................................... COMPLETE`<br/>
-
-??? tip "How and Where"
+??? note "After Start Checklist"
     The Airbus A380 has a built-in checklist system that can be accessed via the
     [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
 
@@ -319,7 +317,7 @@ For additional information on signs and markings on the ground, please see [Gene
     
     Once we have the routing from ATC and have read back the taxi clearance, we are now free to taxi to the runway.
 
-`TAXI (ETACS) ..................................................AS REQUIRED`<br/>
+`TAXI (ETACS) (INOP)............................................AS REQUIRED`<br/>
 ??? note "TAXI (ETACS)"
     The External and Taxiing Aid Camera System (ETACS) helps the flight crew to navigate the aircraft on the ground by 
     showing outside video feeds on the lower ECAM display. 
@@ -476,7 +474,7 @@ While underway to the runway, perform the following as part of the taxi flow:
     * [Cabin Ready](../../a380x-briefing/flight-deck/ovhd/calls)
 
 `BEFORE TAKEOFF CHECKLIST (TAXI - down to the line)............... COMPLETE`<br/>
-??? tip "How and Where"
+??? note "Before Takeoff Checklist - Above the line"
     The Airbus A380 has a built-in checklist system that can be accessed via the
     [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
 
