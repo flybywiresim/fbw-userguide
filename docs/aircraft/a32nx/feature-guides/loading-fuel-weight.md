@@ -63,8 +63,7 @@ This section provides information on the A32NX weight configuration and insight 
     An acceptable range for takeoff CG in the A32NX is between 16-40%. The CG is balanced during the passenger loading process.
 
     Trimming the aircraft for takeoff is usually optional and technically not required. Please reference our the [FBW Checklist](../../../pilots-corner/a32nx/a32nx-sop.md) to 
-set 
-    the appropriate trim should you wish to.
+    set the appropriate trim should you wish to.
     
     Anything less than 25 % CG is considered FWD load, and anything more than 25 % is considered an AFT load. While opting to choose between either CG configuration (aft/fwd), please consider the information below.
     
