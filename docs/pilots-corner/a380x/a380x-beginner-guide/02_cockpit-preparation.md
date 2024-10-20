@@ -17,7 +17,6 @@ It includes images to help you understand the locations of all buttons and switc
 
     When this guide refers to ATC it is referring to any Online ATC network but **NOT** the built-in ATC in the 
     simulator as this is very unrealistic and unreliable.
-
     
 ---
 

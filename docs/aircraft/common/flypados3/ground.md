@@ -190,6 +190,7 @@ The current cabin and cargo area layout of the A32NX consists of:
     - Aft Baggage Container
     - Aft Baggage
     - Aft Bulk Loose
+
 ## Pushback
 
 {--
