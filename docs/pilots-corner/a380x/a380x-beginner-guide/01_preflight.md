@@ -33,8 +33,6 @@ as seen in the next section. Additionally, other tools often don't have the most
 - [ChartFox](https://chartfox.org/){target=new} (Charts)
 - [Navigraph](https://navigraph.com/){target=new} (Flight Planning and Charts) <span style="color:red;">**Requires
 Subscription**</span>
-- See our [Custom Flight Management System](../../../aircraft/a32nx/feature-guides/cFMS.md) page and
-the [special notes section](../../../aircraft/a32nx/feature-guides/cFMS.md#special-notes) section.
 
 ## Flight Plan Import
 
@@ -43,9 +41,7 @@ function for the FMS similar to the real aircraft.
 
 Also, the EFB can import and use your SimBrief flight plan to display the OFP, import fuel and payload data automatically.
 
-[SimBrief A380X Features](../../../aircraft/a32nx/feature-guides/simbrief.md){.md-button}
-<p style="color:yellow; font-size:18px;">TODO: simbrief guide needs separation and update</p> 
-
+[SimBrief A380X Features](../../../aircraft/a380x/feature-guides/simbrief.md){.md-button}
 
 ### Manual Flight Planning
 
@@ -58,15 +54,13 @@ When inputting your flight plan, discontinuities appearing is an intended featur
 describes how to handle these when encountered during your preflight preparations.
 
 [Flight Plan Discontinuities](03_preparing-fms.md#discontinuity){.md-button}
-<p style="color:yellow; font-size:18px;">TODO: guide needs separation and update</p> 
 
 ## Payload Management
 
 To configure your aircraft, we have provided options onboard the aircraft to load fuel and passengers / baggage. See the
 following page and note any advisories.
 
-[Fuel and Weights](../../../aircraft/a32nx/feature-guides/loading-fuel-weight.md){.md-button}
-<p style="color:yellow; font-size:18px;">TODO: guide needs separation and update</p> 
+[Fuel and Weights](../../../aircraft/a380x/feature-guides/loading-fuel-weight.md){.md-button}
 
 ## EFB Navigraph Charts
 

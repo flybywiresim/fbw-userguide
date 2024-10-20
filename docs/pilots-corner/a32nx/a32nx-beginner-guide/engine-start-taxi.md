@@ -80,10 +80,10 @@ The FlyByWire A32NX has a ground operations page on its built-in flyPad EFB (Ele
 
 Although Microsoft Flight Simulator also has some pushback functionality built into the default ATC service, this guide will only cover the A32NX pushback functionality.
 
-![flyPad Pushback](../../../aircraft/a32nx/assets/flypados3/flypad-ground-pushback.png "flyPad Pushback"){loading=lazy}
+![flyPad Pushback](../../../aircraft/common/assets/flypados3/flypad-ground-pushback.png "flyPad Pushback"){loading=lazy}
 
 !!! block ""
-    ![Call Tug](../../../aircraft/a32nx/assets/flypados3/flypad-pushback-tugcall.png "Call Tug"){loading=lazy align=left width=30%}
+    ![Call Tug](../../../aircraft/common/assets/flypados3/flypad-pushback-tugcall.png "Call Tug"){loading=lazy align=left width=30%}
     
     After we received clearance to pushback, we will call the pushback tug by pressing the `Call Tug` button on the flyPad.
 

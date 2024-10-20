@@ -10,7 +10,7 @@ description: A comprehensive guide covering the takeoff, descent, and landing pe
 ## Takeoff Performance Calculator
 
 <div style="position: relative;">
-    <img src="/fbw-a32nx/assets/flypados3/flypad-performance-takeoff.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-performance-takeoff.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -157,7 +157,7 @@ be off for takeoff. Turning the air conditioning packs off allows the engines to
 ## Top of Descent Calculator
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-performance-tod.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-performance-tod.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -202,7 +202,7 @@ Example:
 - Descent angle: 3°
 - Ground Speed: has no impact on the calculation because of the fixed angle.
 
-![flyPad Performance TOD Calculator](../../a32nx/assets/flypados3/performance-tod-angle.png "flyPad Performance TOD Calculator"){loading=lazy}
+![flyPad Performance TOD Calculator](../assets/flypados3/performance-tod-angle.png "flyPad Performance TOD Calculator"){loading=lazy}
 
 **Result: We need to start our descent ^^88 NM^^ before the target fix, at which we want to reach 11 000 ft.**
 
@@ -217,7 +217,7 @@ Example:
 - Distance to fix: 90 NM
 - Ground Speed: 450 kt (constant)
 
-![flyPad Performance TOD Calculator](../../a32nx/assets/flypados3/performance-tod-distance.png "flyPad Performance TOD Calculator"){loading=lazy}
+![flyPad Performance TOD Calculator](../assets/flypados3/performance-tod-distance.png "flyPad Performance TOD Calculator"){loading=lazy}
 
 **Result: We need to start our descent 90 NM before the target fix with either an average ^^vertical speed of - 2333 ft/min^^ or an average ^^descent angle of - 3.0°^^** during the descent distance.
 
@@ -235,7 +235,7 @@ Example:
 - Vertical Speed: - 2000 ft/min
 - Ground Speed: 450 kt (constant)
 
-![flyPad Performance TOD Calculator](../../a32nx/assets/flypados3/performance-tod-vs.png "flyPad Performance TOD Calculator"){loading=lazy}
+![flyPad Performance TOD Calculator](../assets/flypados3/performance-tod-vs.png "flyPad Performance TOD Calculator"){loading=lazy}
 
 **Result: We need to start our descent ^^105 NM^^ before the target fix with a vertical speed of - 2000 ft/min**
 
@@ -250,7 +250,7 @@ Example:
 - Vertical Speed: - 2 000 ft/min
 - Ground Speed: 420 kt at or above 10 000 ft, 250 kt below 10 000 ft
 
-![flyPad Performance TOD Calculator](../../a32nx/assets/flypados3/performance-tod-gs.png "flyPad Performance TOD Calculator"){loading=lazy}
+![flyPad Performance TOD Calculator](../assets/flypados3/performance-tod-gs.png "flyPad Performance TOD Calculator"){loading=lazy}
 
 **Result: We need to start our descent ^^98 NM^^ before the target fix with a vertical speed of -2 000 ft/min**
 
@@ -264,7 +264,7 @@ The primary purpose of this calculator is to aid the flight crew in assessing wh
 The calculator results are shown both numerically and graphically. Variations in airplane configuration, approach speed, runway surface condition, and other parameters can also be investigated to see their effect on the airplane's landing distance. The landing distance results include a safety margin of 15 % added to the calculated distance.
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-performance-landing.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-performance-landing.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -314,12 +314,12 @@ Weather data can be automatically filled by entering an airport ICAO and pressin
 - Approach Speed: MCDU PERF APPR
     - This is part of the MCDU PERF APPR page and can be taken from there (V~APP~).
 
-    ![MCDU PERF APPR page](../../a32nx/assets/flypados3/performance-landing-mcdu-perf.png "MCDU PERF APPR page"){loading=lazy}
+    ![MCDU PERF APPR page](../assets/flypados3/performance-landing-mcdu-perf.png "MCDU PERF APPR page"){loading=lazy}
 
 - Weight:
     - This information can be obtained from the ECAM SD bottom-right corner (GW 59 600 kg in the example below).
 
-    ![ECAM SD](../../a32nx/assets/flypados3/performance-landing-ecam-sd.png "ECAM SD"){loading=lazy}
+    ![ECAM SD](../assets/flypados3/performance-landing-ecam-sd.png "ECAM SD"){loading=lazy}
 
 - Flaps:
     - Planned landing flap setting (CONF FULL or CONF 3).
@@ -333,7 +333,7 @@ Weather data can be automatically filled by entering an airport ICAO and pressin
     - Use of reverse thrust on a wet or contaminated runway would be considered necessary for safety reasons.
     - May be subject to airport requirements. If there are airport requirements regarding the use of reverse thrust, these can be found on the airport chart (see example below).
 
-    ![Airport Chart Information](../../a32nx/assets/flypados3/performance-landing-charts-reverser.png "Airport Chart Information"){loading=lazy}
+    ![Airport Chart Information](../assets/flypados3/performance-landing-charts-reverser.png "Airport Chart Information"){loading=lazy}
 
 - Autoland:
     - If an Autoland is planned, then set this to Yes.
@@ -344,7 +344,7 @@ Below you can find an example of runway details and how to identify it to input 
 
 #### Example Chart:
 
-![Airport Chart](../../a32nx/assets/flypados3/performance-landing-chart.png "Airport Chart"){loading=lazy}
+![Airport Chart](../assets/flypados3/performance-landing-chart.png "Airport Chart"){loading=lazy}
 
 <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
 "Navigraph Charts are intended for flight simulation use only, not for navigational use."*</sub>
@@ -353,20 +353,20 @@ Below you can find an example of runway details and how to identify it to input 
 
 This runway can be used for landing in the given circumstances and full flaps in all braking configurations (low, medium, max manual).
 
-![flyPad Performance Calculator Landing](../../a32nx/assets/flypados3/performance-landing-ok.png "flyPad Performance Calculator Landing"){loading=lazy}
+![flyPad Performance Calculator Landing](../assets/flypados3/performance-landing-ok.png "flyPad Performance Calculator Landing"){loading=lazy}
 
 #### Example 2
 
 This runway's landing distance available is long enough to be used for landing with full flaps only and with max manual braking.
 Be aware that there might be other restrictions that prohibit landing of an A320neo on this airport/runway.
 
-![flyPad Performance Calculator Landing](../../a32nx/assets/flypados3/performance-landing-maxok.png "flyPad Performance Calculator Landing"){loading=lazy}
+![flyPad Performance Calculator Landing](../assets/flypados3/performance-landing-maxok.png "flyPad Performance Calculator Landing"){loading=lazy}
 
 #### Example 3
 
 This runway can't be used for landing in the given circumstances. It is similar to Example 2 but has a higher weight and therefore higher approach speed.
 
-![flyPad Performance Calculator Landing](../../a32nx/assets/flypados3/performance-landing-notok.png "flyPad Performance Calculator Landing"){loading=lazy}
+![flyPad Performance Calculator Landing](../assets/flypados3/performance-landing-notok.png "flyPad Performance Calculator Landing"){loading=lazy}
 
 *[TORA]: Take-Off Run Available
 *[QNH]: sea level atmospheric pressure

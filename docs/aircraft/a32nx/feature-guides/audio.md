@@ -9,7 +9,7 @@ This page provides an overview of the various audio settings available in the A3
 
 These settings can be found on the EFB:
 
-![EFB Audio Settings](../assets/flypados3/flypad-settings-audio.png)
+![EFB Audio Settings](../../common/assets/flypados3/flypad-settings-audio.png)
 
 For information on the other settings available on the EFB, visit our [flyPad Settings](../../common/flypados3/settings.md) page.
 

@@ -8,7 +8,7 @@ description: A comprehensive guide on how to use the Dashboard widgets in flyPad
 # flyPad Dashboard
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-dashboard.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-dashboard.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -43,7 +43,7 @@ The provided widgets are:
 - Maintenance:
     - Shows active failures from the [Failures page](failures.md) 
 
-![Widgets Rearrange](../../a32nx/assets/flypados3/widgets-rearrange.png)
+![Widgets Rearrange](../assets/flypados3/widgets-rearrange.png)
 
 By clicking on the edit symbol (pen) the widgets can be rearranged as required by the user. 
 
@@ -57,7 +57,7 @@ You can switch between the weather summary which shows the most important METAR 
 
 Selected METAR information is updated every 5 minutes.
 
-![ICAO Input to Weather Widget](../../a32nx/assets/flypados3/weather-widget-input.png "ICAO Input to Weather Widget"){loading=lazy}
+![ICAO Input to Weather Widget](../assets/flypados3/weather-widget-input.png "ICAO Input to Weather Widget"){loading=lazy}
 
 We have applied a helpful coloring scheme a large European airline uses to point out significant parts of the raw METAR information to the pilots. This coloring uses the following colors:
 
@@ -69,21 +69,21 @@ We have applied a helpful coloring scheme a large European airline uses to point
 
 ### Pinned Charts Widget
 
-![img_4.png](../../a32nx/assets/flypados3/pinned-charts-widget.png)
+![img_4.png](../assets/flypados3/pinned-charts-widget.png)
 
 Any pinned charts from the [Navigation page](charts.md#pinned-charts) will be shown here. 
 Clicking on a chart card brings up the corresponding chart. 
 
 ### Checklist and Maintenance Widget
 
-![img_5.png](../../a32nx/assets/flypados3/checklist-maintenance-widget.png)
+![img_5.png](../assets/flypados3/checklist-maintenance-widget.png)
 
 This shows relevant checklists in relation to the current flight phase.
 Clicking on a checklist card brings up the corresponding checklist.
 
 ### Load From simBrief
 
-![From simBrief](../../a32nx/assets/flypados3/load-from-simbrief.png)
+![From simBrief](../assets/flypados3/load-from-simbrief.png)
 
 If you have [configured](settings.md) your simBrief account correctly, you can click the above button to load your last simBrief flight plan into the flyPad. This does not load the flight plan into the MCDU - you need to load it there separately (see [MCDU simBrief Integration](../../../pilots-corner/a32nx/a32nx-beginner-guide/preparing-mcdu.md#a32nx-simbrief-integration)).
 
@@ -93,7 +93,7 @@ See [ATSU / AOC Settings](settings.md#atsuaoc)
 ### After loading of a simBrief flight plan 
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-dashboard-simbrief.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-dashboard-simbrief.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>

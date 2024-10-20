@@ -39,7 +39,7 @@ Normally engine 1 is started first but either engine can be started with this pr
 - `ASU CONNECTED` - `REQUEST`
     - This is done from the flyPad Ground page - example below.
 
-![asugroundpage.png](../../../../aircraft/a32nx/assets/flypados3/flypad-ground.png){loading=lazy}
+![asugroundpage.png](../../../../aircraft/common/assets/flypados3/flypad-ground.png){loading=lazy}
 
 ### Engine Start Clearance
 

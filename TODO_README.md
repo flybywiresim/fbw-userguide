@@ -63,6 +63,9 @@ Let's try and avoid duplication where possible.
 #### P1 Additional for Beginning Guide
 Section is for additional content to match P1 requirements for **Beginner Guide Specifically**.
 
+**Overview**
+- [X] Overview page for the A380X Beginner Guide
+
 **Preflight**
 Minor internal linking requirements and restructuring.
 

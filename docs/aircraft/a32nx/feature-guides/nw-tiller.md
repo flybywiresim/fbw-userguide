@@ -118,7 +118,7 @@ The MSFS Controller Option we are using is `TOGGLE WATER RUDDER` and your mappin
 
 To activate the tiller feature, you need to go to the flyPad Settings page and navigate to the `Realism` tab. From there, enable the `Separate Tiller from Rudder` feature.
 
-![flyPad Settings Sim Options Tiller](../assets/flypados3/flypad-settings-realism.png "flyPad Settings Sim Options 
+![flyPad Settings Sim Options Tiller](../../common/assets/flypados3/flypad-settings-realism.png "flyPad Settings Sim Options 
 Tiller"){loading=lazy}
 
 ## Using the Tiller and Rudder

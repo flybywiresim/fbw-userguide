@@ -107,7 +107,7 @@ Taking care of passengers and luggage with the FlyByWire flyPad:
 - Connect the Jetway (PAX).
 - Call cargo/baggage (Baggage).
 
-![flyPad Ground page](../../../aircraft/a32nx/assets/flypados3/flypad-ground.png){loading=lazy}
+![flyPad Ground page](../../../aircraft/common/assets/flypados3/flypad-ground.png){loading=lazy}
 
 Obviously, this would take a while in real life, and we would not be able to shut down the aircraft before everybody is disembarked.
 

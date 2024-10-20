@@ -8,7 +8,7 @@ description: Learn how to configure various aspects of flyPadOS3 itself in the F
 # flyPad Settings
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-settings-overview.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-settings-overview.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -33,7 +33,7 @@ Find a description of all available setting categories and their settings below.
 Settings for A32NX aircraft configuration.
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-settings-aircraft-configuration.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-settings-aircraft-configuration.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -84,14 +84,14 @@ Settings for A32NX aircraft configuration.
         - one of "five hundred" or "four hundred" is mandatory,
         - only one of "two thousand five hundred" and "twenty five hundred" can be selected.
   
-    ![flypad-settings-callouts.png](../../a32nx/assets/flypados3/flypad-settings-callouts.png){loading=lazy}
+    ![flypad-settings-callouts.png](../assets/flypados3/flypad-settings-callouts.png){loading=lazy}
   
 ## Sim Options
 
 Settings for simulation aspects of the A32NX aircraft.
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-settings-sim-options.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-settings-sim-options.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -162,7 +162,7 @@ Settings for simulation aspects of the A32NX aircraft.
 Settings for realism aspects of the A32NX aircraft.
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-settings-realism.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-settings-realism.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -217,15 +217,15 @@ Settings for realism aspects of the A32NX aircraft.
     - If the TOD point shifts before your present position, or AP mode reverts to CRZ, it will pause the simulation.
 
     !!! block ""
-        ![img_3.png](../../a32nx/assets/flypados3/flypad-settings-realism-avatars.png){loading=lazy align=center width=49%}
-        ![img_2.png](../../a32nx/assets/flypados3/flypad-settings-realism-avatars2.png){loading=lazy align=center width=49%}
+        ![img_3.png](../assets/flypados3/flypad-settings-realism-avatars.png){loading=lazy align=center width=49%}
+        ![img_2.png](../assets/flypados3/flypad-settings-realism-avatars2.png){loading=lazy align=center width=49%}
   
 
 ## 3rd Party Options
 Settings for integrations with various 3rd party applications
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-settings-third-party-options.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-settings-third-party-options.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -267,7 +267,7 @@ These options are separate to provide you with the flexibility to choose what to
 Settings for integration with various data and information sources.
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-settings-atsu-aoc.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-settings-atsu-aoc.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -304,7 +304,7 @@ Settings for integration with various data and information sources.
 
     - If enabled, a message will be displayed to confirm sharing of the free text and position data to the public.
 
-        ![flypad-settings-atsu-aoc-telex-warning](../../a32nx/assets/flypados3/flypad-settings-atsu-aoc-telex-warning.png)
+        ![flypad-settings-atsu-aoc-telex-warning](../assets/flypados3/flypad-settings-atsu-aoc-telex-warning.png)
 
 - Hoppie User ID:
     - Unique logon code that is used to identify the user for the Hoppie ACARS communication.
@@ -315,7 +315,7 @@ Settings for integration with various data and information sources.
 Settings for various audio sources and sounds.
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-settings-audio.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-settings-audio.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -350,7 +350,7 @@ For detailed information on these settings, please visit:
 Settings for the flyPad itself.
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-settings-flypad.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-settings-flypad.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -399,7 +399,7 @@ Settings for the flyPad itself.
 The About page provides the build information which is sometimes requested when seeking support on the FlyByWire Discord.
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-settings-about.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-settings-about.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>

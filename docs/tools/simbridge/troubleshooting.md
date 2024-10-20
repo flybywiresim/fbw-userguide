@@ -64,17 +64,17 @@ SimBridge should now be able to be minimized to the tray appropriately.
 
 The EFB will stop trying to connect to SimBridge after a 5-minute timer.
 Check the connectivity status on the EFB by checking if the Wi-Fi icon on the top is crossed.
-![FlyPad Wi-Fi](../../aircraft/a32nx/assets/flypados3/flypad-dashboard-connectivity.png){loading=lazy}
+![FlyPad Wi-Fi](../../aircraft/common/assets/flypados3/flypad-dashboard-connectivity.png){loading=lazy}
 
 Icon Crossed             |  Icon Normal
 :-------------------------:|:-------------------------:
-![Wi-Fi Crossed](../../aircraft/a32nx/assets/flypados3/flypad-status-crossed.png){loading=lazy}  |  ![Wi-Fi Normal](../../aircraft/a32nx/assets/flypados3/flypad-status-normal.png){loading=lazy}
+![Wi-Fi Crossed](../../aircraft/common/assets/flypados3/flypad-status-crossed.png){loading=lazy}  |  ![Wi-Fi Normal](../../aircraft/common/assets/flypados3/flypad-status-normal.png){loading=lazy}
 
 - If the Wi-Fi / connectivity icon is crossed, head to the flyPad Settings --> Sim Options 
 
 FlyPad Settings            |  Sim Options
 :-------------------------:|:-------------------------:
-![FlyPad Sim Settings](../../aircraft/a32nx/assets/flypados3/flypad-settings-overview_sim_options_marked.png){loading=lazy}  |      ![FlyPad Sim Options](../../aircraft/a32nx/assets/flypados3/flypad-settings-sim-options-marked.png){loading=lazy}
+![FlyPad Sim Settings](../../aircraft/common/assets/flypados3/flypad-settings-overview_sim_options_marked.png){loading=lazy}  |      ![FlyPad Sim Options](../../aircraft/common/assets/flypados3/flypad-settings-sim-options-marked.png){loading=lazy}
 
 To attempt connection:
 

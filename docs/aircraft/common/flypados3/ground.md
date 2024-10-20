@@ -8,7 +8,7 @@ description: A comprehensive guide on how to use the ground services provided by
 # flyPad Ground
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-ground.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-ground.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -69,7 +69,7 @@ For settings, see: [flyPad Sim Options Settings](settings.md#sim-options)
 The fuel page provides accurate information about the quantity of fuel in the different tanks of the aircraft. It also allows fueling or defueling the aircraft to the desired fuel quantity.
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-ground-fuel.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-ground-fuel.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -85,7 +85,7 @@ The fuel page provides accurate information about the quantity of fuel in the di
 
 ### Fuel and De-Fuel
 
-![flyPad Fuel Page Refuel](../../a32nx/assets/flypados3/fuel-refuel.png "flyPad Fuel Page Refuel")
+![flyPad Fuel Page Refuel](../assets/flypados3/fuel-refuel.png "flyPad Fuel Page Refuel")
 
 To set the fuel quantity, simply click into the input field and change the value to the desired quantity.
 
@@ -95,7 +95,7 @@ Press the "play" symbol to start the refueling process (defueling if the new qua
 
 ### Realism Settings for Fuel Time
 
-![flyPad Fuel Page Fuel Time](../../a32nx/assets/flypados3/fuel-time.png "flyPad Fuel Page Fuel Time")
+![flyPad Fuel Page Fuel Time](../assets/flypados3/fuel-time.png "flyPad Fuel Page Fuel Time")
 
 Set this setting to the desired duration of refueling. Either instant refueling (Instant - but unrealistic), realistic refuel time (Real) or a middle ground (Fast).
 
@@ -106,7 +106,7 @@ After starting the engines, only "Instant" is available.
 The Payload page allows setting up the payload of the aircraft, board and deboard passengers and load cargo. 
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-ground-payload.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-ground-payload.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -124,7 +124,7 @@ See our [Fuel and Weight](../../a32nx/feature-guides/loading-fuel-weight.md#deve
 up the payload.
 
 ### Setting Up Payload
-![flypad-ground-payload-values](../../a32nx/assets/flypados3/flypad-ground-payload-values.png)
+![flypad-ground-payload-values](../assets/flypados3/flypad-ground-payload-values.png)
 
 This widget allows setting up the payload of the aircraft.
 
@@ -152,7 +152,7 @@ This widget allows setting up the payload of the aircraft.
     - This will switch between ZFW/ZFWCG and GW/GWCG, the percentage for calculation is changed automatically.
 
 ### Configure Boarding/Loading Time
-![flypad-ground-payload-loadingtime](../../a32nx/assets/flypados3/flypad-ground-payload-loadingtime.png)
+![flypad-ground-payload-loadingtime](../assets/flypados3/flypad-ground-payload-loadingtime.png)
 
 This widget allows configuring the boarding/loading time.
 
@@ -161,14 +161,14 @@ This widget allows configuring the boarding/loading time.
 * Real: will load 1 passenger every 5 s.
 
 ### Center of Gravity Diagram
-![flypad-ground-payload-cgenvelope](../../a32nx/assets/flypados3/flypad-ground-payload-cgenvelope.png)
+![flypad-ground-payload-cgenvelope](../assets/flypados3/flypad-ground-payload-cgenvelope.png)
 
 This shows the CG and ZFWCG envelope of the aircraft. The current CG is sown in cyan and the ZFWCG is shown in white.
 
 These current value indicators move during boarding and deboarding and loading and unloading of cargo.
 
 ### Interactive Seating and Cargo Diagram
-![flypad-ground-payload-seatscargo](../../a32nx/assets/flypados3/flypad-ground-payload-seatscargo.png)
+![flypad-ground-payload-seatscargo](../assets/flypados3/flypad-ground-payload-seatscargo.png)
 
 This widget shows the planned and current loading of the cabin and cargo visually. 
 
@@ -201,7 +201,7 @@ See [Pushback System On/Off](#pushback-system-onoff).
 --}
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-ground-pushback.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-ground-pushback.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -229,8 +229,8 @@ The flyPad pushback system provides comfortable pushback from within the cockpit
 As pushback add-ons all use the same sim variables to control and move the aircraft during pushback the flyPad pushback system and these add-ons usually cannot not be used at the same time. Because of this, the flyPad pushback system can be disabled completely to avoid any interference with other pushback add-ons.
 
 !!! block ""
-    ![img.png](../../a32nx/assets/flypados3/flypad-pushback-system-off.png){align=center width=49% loading=lazy}
-    ![img_1.png](../../a32nx/assets/flypados3/flypad-pushback-system-on.png){align=center width=49% loading=lazy}
+    ![img.png](../assets/flypados3/flypad-pushback-system-off.png){align=center width=49% loading=lazy}
+    ![img_1.png](../assets/flypados3/flypad-pushback-system-on.png){align=center width=49% loading=lazy}
 
 A warning message will appear if you enable the system to remind users of these potential incompatibilities.
 
@@ -248,9 +248,9 @@ Pressing this button will call and attach the pushback tug or release it in case
 When releasing the tug, the button will stay amber until the pushback pin is removed and the ECAM memo "NW STRG DISC" has disappeared (~15sec). The aircraft cannot be steered with the nose wheel steering pin installed.
 
 !!! block ""
-    ![img.png](../../a32nx/assets/flypados3/flypad-pushback-tugcall.png){align=center width=32% loading=lazy}
-    ![img_2.png](../../a32nx/assets/flypados3/flypad-pushback-tugwait.png){align=center width=32% loading=lazy}
-    ![img_1.png](../../a32nx/assets/flypados3/flypad-pushback-tugrelease.png){align=center width=32% loading=lazy}
+    ![img.png](../assets/flypados3/flypad-pushback-tugcall.png){align=center width=32% loading=lazy}
+    ![img_2.png](../assets/flypados3/flypad-pushback-tugwait.png){align=center width=32% loading=lazy}
+    ![img_1.png](../assets/flypados3/flypad-pushback-tugrelease.png){align=center width=32% loading=lazy}
 
 ### Parking Brake
 
@@ -301,14 +301,14 @@ You can use the standard elevator axis (pitch) for controlling the speed of the 
 The pushback map allows executing the pushback without leaving the cockpit view. It depicts the airport and ground markings so that a precise pushback can be accomplished.
 
 !!! block ""
-    ![img_5.png](../../a32nx/assets/flypados3/flypad-pushback-mapzoom.png){align=left width=5% loading=lazy}    
+    ![img_5.png](../assets/flypados3/flypad-pushback-mapzoom.png){align=left width=5% loading=lazy}    
     <p />
     The map allows zooming in and out as require using the zoom buttons.
 
 
 !!! block ""
-    ![img_7.png](../../a32nx/assets/flypados3/flypad-pushback-map-aircraft-icon-filled.png){align=left width=5% loading=lazy}
-    ![img_8.png](../../a32nx/assets/flypados3/flypad-pushback-map-aircraft-icon-outlined.png){align=left width=5% loading=lazy}
+    ![img_7.png](../assets/flypados3/flypad-pushback-map-aircraft-icon-filled.png){align=left width=5% loading=lazy}
+    ![img_8.png](../assets/flypados3/flypad-pushback-map-aircraft-icon-outlined.png){align=left width=5% loading=lazy}
     <p />
     If the aircraft symbol is filled, the map is in centered aircraft mode and moves with the aircraft movement.
     If it is outlined, the map is fixed and the aircraft symbol is moving.
@@ -316,7 +316,7 @@ The pushback map allows executing the pushback without leaving the cockpit view.
     The map can also be dragged and moved with the mouse. To reset the map to be centered on the aircraft, press the aircraft symbol.
 
 !!! block ""
-    ![img_6.png](../../a32nx/assets/flypados3/flypad-pushback-map-turn-prediction.png){align=left width=15% loading=lazy}
+    ![img_6.png](../assets/flypados3/flypad-pushback-map-turn-prediction.png){align=left width=15% loading=lazy}
     <p />
     The map also features a turn prediction indicator, providing a visual aid while turning. 
 

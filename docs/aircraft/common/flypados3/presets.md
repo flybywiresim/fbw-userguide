@@ -10,7 +10,7 @@ description: Discover how to automate setup procedures in the FlyByWire A32NX wi
 ## Interior Lighting Presets
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-presets-lighting.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-presets-lighting.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -37,7 +37,7 @@ Lighting presets can be loaded [manually](#manual) or [automatically](#automatic
 
 To change a preset's name, click on the current name of the preset and change the name to any string up to 16 characters. When you leave the input field, a confirmation dialog will ask you to confirm the name change. Press `Confirm` to save the new name.   
 
-![img_11.png](../../a32nx/assets/flypados3/flypad-presets-name-change.png)
+![img_11.png](../assets/flypados3/flypad-presets-name-change.png)
 
 #### Load a Preset
 
@@ -45,7 +45,7 @@ To change a preset's name, click on the current name of the preset and change th
 
 To load a preset, please click on the "Load Preset" button. The aircraft must be powered for the buttons to be enabled. 
 
-![img_1.png](../../a32nx/assets/flypados3/flypad-presets-load-button.png)
+![img_1.png](../assets/flypados3/flypad-presets-load-button.png)
 
 ---
 
@@ -58,17 +58,17 @@ You can also configure the aircraft to set your lighting preset automatically de
 
 Select a preset from the dropdown menu and ensure that you enable the feature using the toggle.
 
-![lighting presets](../../a32nx/assets/flypados3/lighting-presets.png)
+![lighting presets](../assets/flypados3/lighting-presets.png)
 
 #### Save a Preset
 
 To save a preset, please click on the "Save Preset" button. The aircraft must be powered for the buttons to be enabled.
 
-![img_2.png](../../a32nx/assets/flypados3/flypad-presets-save-preset-button.png)
+![img_2.png](../assets/flypados3/flypad-presets-save-preset-button.png)
 
 A confirmation dialog will appear to prevent you from accidentally overwriting existing presets. 
 
-![img_10.png](../../a32nx/assets/flypados3/flypad-presets-save-preset-confirm.png)
+![img_10.png](../assets/flypados3/flypad-presets-save-preset-confirm.png)
 
 ## Aircraft Presets
 
@@ -90,7 +90,7 @@ You as the pilot can use the time to set up the FMGC (MCDU), Flight Control Unit
 ### Loading a Preset
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-presets-aircraft.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-presets-aircraft.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -107,7 +107,7 @@ You as the pilot can use the time to set up the FMGC (MCDU), Flight Control Unit
 To load a preset, click on the corresponding preset button. 
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-presets-aircraft-load.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-presets-aircraft-load.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -124,7 +124,7 @@ To load a preset, click on the corresponding preset button.
 To avoid accidentally loading a preset, a confirmation dialog will appear. 
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-presets-aircraft-confirm.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-presets-aircraft-confirm.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -141,7 +141,7 @@ To avoid accidentally loading a preset, a confirmation dialog will appear.
 During the loading, the status bar will show the currently executed step. 
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-presets-aircraft-status.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-presets-aircraft-status.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -158,7 +158,7 @@ During the loading, the status bar will show the currently executed step.
 It will also show when the execution pauses for certain steps to complete. For example, ADIR alignment, the APU start and the engines start.
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-presets-aircraft-wait.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-presets-aircraft-wait.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -321,7 +321,7 @@ You can cancel loading of a preset any time by pressing the `Cancel` button. The
 For convenience, there is also a summarized help page in the flyPad for your reference. 
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-presets-help.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-presets-help.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>

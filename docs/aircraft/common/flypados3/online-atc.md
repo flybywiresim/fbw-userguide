@@ -8,7 +8,7 @@ description: Discover how to use online ATC services such as VATSIM or IVAO with
 # flyPad Online ATC
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-online-atc-vatsim.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-online-atc-vatsim.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -36,7 +36,7 @@ Go to the flyPad [ATSU/AOC settings page](settings.md#atsuaoc) and select your O
 ## Usage
 
 <div style="position: relative;">
-    <img src="/aircraft/a32nx/assets/flypados3/flypad-online-atc-frequency.png" style="width: 100%; height: auto;" loading="lazy">
+    <img src="/aircraft/common/assets/flypados3/flypad-online-atc-frequency.png" style="width: 100%; height: auto;" loading="lazy">
     <a href="../dashboard/">   <div class="imagemap" style="position: absolute; left: 1.7%; top:  6.9%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dashboard</span></div></a>
     <a href="../dispatch/">    <div class="imagemap" style="position: absolute; left: 1.7%; top: 14.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Dispatch</span></div></a>
     <a href="../ground/">      <div class="imagemap" style="position: absolute; left: 1.7%; top: 21.1%; width: 5.8%; height: 7.0%;"><span class="imagemapname">Ground</span></div></a>
@@ -60,7 +60,7 @@ To change a frequency, hover over the station and click either `Set Active` or `
 
 ### Filter the Station List
 
-![flypad-online-atc-filter](../../a32nx/assets/flypados3/flypad-online-atc-filter.png){loading=lazy}
+![flypad-online-atc-filter](../assets/flypados3/flypad-online-atc-filter.png){loading=lazy}
 
 Use the search and predefined filters to find the station you are looking for. 
 

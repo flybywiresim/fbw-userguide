@@ -7,7 +7,15 @@ description: Discover how to use SimBrief with the FlyByWire A32NX for realistic
 
 # SimBrief and Navigraph Integration
 
-Please use the Quick Links to jump to any relevant section. For connecting your SimBrief/Navigraph Accounts, click the button below.
+!!! warning "This Page Needs A380X Update"
+    [//]: # (TODO)
+    <p style="color:yellow; font-size:18px;">TODO:<br/> 
+    The A380X documentation is work in progress.<br/> 
+    This page needs to be updated for the A380X. 
+    </p>
+
+Please use the Quick Links to jump to any relevant section. For connecting your SimBrief/Navigraph Accounts, click the 
+button below.
 
 [Setup SimBrief/Navigraph](#setup-a32nx-simbrief-integration){.md-button}
 
@@ -26,9 +34,12 @@ Please use the Quick Links to jump to any relevant section. For connecting your 
 
 Check the [Flight Planning guide](flight-planning.md) for more details on Flight Planning in general.
 
-In the world of flight simulation, SimBrief does all the flight planning for the users based on real word databases and sources. SimBrief provides on average ~40,000 flight plans to users each day and is the most commonly used tool for flight planning for non-professional flight simulation.
+In the world of flight simulation, SimBrief does all the flight planning for the users based on real word databases and 
+sources. SimBrief provides on average ~40,000 flight plans to users each day and is the most commonly used tool for 
+flight planning for non-professional flight simulation.
 
-It is possible to use the SimBrief OFP (Operational Flight Plan) to configure and program the aircraft based on it without any special integration into the flight sim software or aircraft.
+It is possible to use the SimBrief OFP (Operational Flight Plan) to configure and program the aircraft based on it 
+without any special integration into the flight sim software or aircraft.
 
 ### Flight Planning with SimBrief
 
@@ -38,11 +49,9 @@ This is best explained by SimBrief itself - [SimBrief User Guide](https://www.si
 
 ## SimBrief Airframe
 
-SimBrief has a custom airframe available when using the A20N Aircraft type. You can select it as shown in the image below.
+[SimBrief A380X Airframe](https://dispatch.simbrief.com/airframes/share/eyJiYXNldHlwZSI6IkEzODgiLCJpY2FvIjoiQTM4OCIsInJlZyI6IkQ4LUZCVyIsImZpbiI6IiIsInNlbGNhbCI6IktGQlciLCJoZXhjb2RlIjoiODk2NDY5IiwicGxhbmZvcm1hdCI6IiIsImZsaWdodHJ1bGVzIjoiIiwiZmxpZ2h0dHlwZSI6IiIsInBsYW51bml0cyI6IiIsImFsdG5zYWR2X3JhZGl1cyI6IjQ2MCIsImFsdG5zYWR2X3VuaXRzX3J3eSI6ImZ0IiwiYWx0bnNhZHZfcnd5IjoiNzAwMCIsIm5hbWUiOiJBMzgwLTg0MiIsImVuZ2luZXMiOiJUcmVudCA5NzJCLTg0IiwiY29tbWVudHMiOiJGTFlCWVdJUkUgQTM4MFgiLCJwZXIiOiJDIiwiY2F0IjoiSiIsImV0b3BzdGhyZXNob2xkIjoiNjAiLCJldG9wc3JhbmdlIjoiIiwiZXF1aXAiOiJTQURFMkUzRkdISUozSjRKNU0xUldYWVoiLCJ0cmFuc3BvbmRlciI6IkxCMUQxIiwicGJuIjoiQTFCMUMxRDFMMU8xUzIiLCJleHRyYXJtayI6IkZMWUJZV0lSRSBBMzgwWCIsIm1hbnVhbHJtayI6IiIsIndndHVuaXRzIjoiS0dTIiwibWF4cGF4IjoiNDg0IiwicGF4d2d0IjoiODQiLCJiYWd3Z3QiOiIyMCIsIm9ldyI6IjMwMDAwNyIsIm16ZnciOiIzNzMwMDAiLCJtdG93IjoiNTEwMDAwIiwibWx3IjoiMzk1MDAwIiwibWF4ZnVlbCI6IjI1OTc1NSIsIm1heGNhcmdvIjoiIiwiY2FyZ29tb2RlIjoiIiwiY29udHBjdCI6IiIsInJlc3ZydWxlIjoiIiwidGF4aWZ1ZWwiOiIiLCJtaW5mb2IiOiIiLCJtaW5mb2JfdW5pdHMiOiJ3Z3QiLCJtaW5mb2QiOiIiLCJtaW5mb2RfdW5pdHMiOiJ3Z3QiLCJtZWxmdWVsIjoiIiwibWVsZnVlbF91bml0cyI6IndndCIsImF0Y2Z1ZWwiOiIiLCJhdGNmdWVsX3VuaXRzIjoid2d0Iiwid3h4ZnVlbCI6IiIsInd4eGZ1ZWxfdW5pdHMiOiJ3Z3QiLCJhZGRlZGZ1ZWxfbGFiZWwiOiJleHRyYSIsImFkZGVkZnVlbCI6IiIsImFkZGVkZnVlbF91bml0cyI6IndndCIsInRhbmtlcmluZyI6IiIsInRhbmtlcmluZ191bml0cyI6IndndCIsImZ1ZWxmYWN0b3IiOiJQMDAiLCJjcnVpc2VvZmZzZXQiOiJQMDAwMCIsImNlaWxpbmciOiI0MzAwMCIsImRlZmF1bHRjcnVpc2UiOiJDSSIsImRlZmF1bHRjaSI6IiIsImRlZmF1bHRjbGltYiI6IjI1MC8zMjAvODQiLCJkZWZhdWx0ZGVzY2VudCI6Ijg1LzMwMC8yNTAiLCJ0aHJ1c3RfdW5pdHMiOiJsYmYiLCJ0aHJ1c3QiOiI3NTE1MiIsImZsYXRyYXRpbmciOiIifQ--){.md-button target=new}
 
-![SimBrief Airframe](../assets/feature-guides/simbrief/airframe.png){loading=lazy}
-
-This airframe will be updated by FlyByWire Simulations when needed, so you will always have the right configuration available.
+Save/Copy this airframe into your fleet on SimBrief to use the A380X for flight planning. 
 
 ## Setup A32NX SimBrief Integration
 
@@ -75,7 +84,7 @@ If successful, you should see your account name followed by your Navigraph accou
     In this case you can override the SimBrief User ID by entering it in the SimBrief User ID field. This will override the linked Navigraph account temporarily until it 
     is removed. You will be notified when the override is successful with a pop up message. Example below:
 
-    ![flypad-ng-override.png](../assets/flypados3/navigraph/flypad-ng-override.png){loading=lazy}
+    ![flypad-ng-override.png](../../common/assets/flypados3/navigraph/flypad-ng-override.png){loading=lazy}
 
 If you are still unsure of where the Settings page on the EFB is, please see [flyPad Settings](../../common/flypados3/settings.md).
 
