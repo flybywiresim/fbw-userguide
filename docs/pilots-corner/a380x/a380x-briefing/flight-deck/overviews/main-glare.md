@@ -32,6 +32,10 @@ description: The A380 Flight Deck Main Instrument Panel and Glareshield page is 
     <!-- GLARESHIELD FO SIDE -->
     <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/glareshield/glare-side"><div class="imagemap" style="position: absolute; top: 6%; height: 14.5%; left: 69.5%; width: 31.5%;"><span class="imagemapname">Glareshield Side</span></div></a>
 
+    <!-- GLARESHIELD UNDERSIDE -->
+    <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/glareshield/glare-underside"><div class="imagemap" style="position: absolute; top: 21%; height: 6%; left: 16%; width: 67.5%;"><span class="imagemapname">Glareshield Underside</span></div></a>
+
+
     <!-- ======= MAIN PANEL ====== -->
 
     <!-- OIT -->

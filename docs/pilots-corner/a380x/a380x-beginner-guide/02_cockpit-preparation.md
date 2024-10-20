@@ -46,12 +46,20 @@ This guide assumes that your aircraft is in a cold and dark state at a gate.
 `WIPERS (BOTH) ........................................................ OFF`<br/>
 
 ??? tip "How and Where"
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
-
-[//]: # (TODO)
-
-    <p style="color:yellow; font-size:18px;">TODO: images or link to flight-deck</p> 
+    
+    * [Engine Master Switches](../../a380x-briefing/flight-deck/pedestal/engine-master)
+    * [Parking Brake](../../a380x-briefing/flight-deck/pedestal/parking-brake)
+    * [Speed Brake Lever](../../a380x-briefing/flight-deck/pedestal/speed-brake)
+    * [Flaps Lever](../../a380x-briefing/flight-deck/pedestal/flap-lever)
+    * [Weather Radar](../../a380x-briefing/flight-deck/pedestal/surveillance)
+    * [Engine Mode Selector](../../a380x-briefing/flight-deck/ovhd/eng-start)
+    * [Thrust Levers](../../a380x-briefing/flight-deck/pedestal/throttle)
+    * [Gear Lever](../../a380x-briefing/flight-deck/main-panel/center-right)
+    * [Wipers](../../a380x-briefing/flight-deck/ovhd/wiper)
 
 After these pre-checks, we can start the aircraft starting with the initial power up.
 
@@ -67,15 +75,20 @@ After these pre-checks, we can start the aircraft starting with the initial powe
     aircraft systems when the engines are not running. The aircraft needs at least two external power units to power the 
     whole electrical network.
 
-`ENGINES MASTER SWITCHES (1, 2, 3, 4) ................................. OFF`<br/>
-`BATTERIES (BAT 1, BAT 2) .............................................. ON`<br/>
+`ALL BATTERIES (BAT 1, ESS BAT, BAT 2, APU BAT) ........................ ON`<br/>
 `EXTERNAL POWER (2, 3, 1, 4) ........................................... ON`<br/>
 `COCKPIT LIGHTING ............................................. AS REQUIRED`<br/>
 
 ??? tip "How and Where?"
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
 
-[//]: # (TODO)
-    <p style="color:yellow; font-size:18px;">TODO: images or link to flight-deck</p>     
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
+    clickable cockpit that will show you where each item is located.
+    
+    * [Batteries](../../a380x-briefing/flight-deck/ovhd/elec)
+    * [External Power](../../a380x-briefing/flight-deck/ovhd/elec)
+    * [Cockpit Lighting](../../a380x-briefing/flight-deck/pedestal/cockpit-lighting)
+    * [Glareshield Lighting](../../a380x-briefing/flight-deck/glareshield/glare-underside)
 
 ## Fire Tests and APU Startup
 
@@ -111,9 +124,20 @@ After these pre-checks, we can start the aircraft starting with the initial powe
     It is recommended to keep the external power units to ON to reduce the APU load in hot weather conditions.
 
 ??? tip "How and Where?"
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
 
-[//]: # (TODO)
-    <p style="color:yellow; font-size:18px;">TODO: images or link to flight-deck</p>
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
+    clickable cockpit that will show you where each item is located.
+    
+    * [RMP 1 and 2](../../a380x-briefing/flight-deck/pedestal/rmp)
+    * [Standby Radio Navigation](../../a380x-briefing/flight-deck/pedestal/rmp)
+    * [Communication Frequencies](../../a380x-briefing/flight-deck/pedestal/rmp)
+    * [Interphone Reception](../../a380x-briefing/flight-deck/pedestal/rmp)
+    * [APU Fire](../../a380x-briefing/flight-deck/ovhd/apu-fire)
+    * [Engine Fire](../../a380x-briefing/flight-deck/ovhd/eng-fire)
+    * [APU Master Switch](../../a380x-briefing/flight-deck/ovhd/apu)
+    * [APU Start](../../a380x-briefing/flight-deck/ovhd/apu)
+    * [External Power](../../a380x-briefing/flight-deck/ovhd/elec)
 
 ## Cockpit Preparation Flow
 
@@ -143,13 +167,14 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 ## Overhead Panel
 
 ??? tip "What and Why?"
-    We scan the overhead panel from left to right and bottom to top to ensure that all switches are in the correct position.
+    We scan the overhead panel from left to right and bottom to top to ensure that all switches are in the correct 
+    position.
 
 ### Overhead Panel Left (bottom to top)
 
 `ALL WHITE LIGHTS ..................................................... OFF`<br/>
-`RECORDER GROUND CTL ................................................... ON`<br/>
-`EVAC CAPT/CAPT & PURS ............................................... CAPT`<br/>
+`RECORDER GROUND CTL (INOP)............................................. ON`<br/>
+`EVAC CAPT/CAPT & PURS (INOP)......................................... CAPT`<br/>
 `PROBE & WINDOW HEAT ................................................. AUTO`<br/>
 `ADIRS ALL IR MODE .................................................... NAV`<br/>
 ??? note "ADIRS Alignment"
@@ -157,29 +182,20 @@ In the simulator, we are usually alone, so we will do the flow on our own.
     It is also recommended to complete a full alignment if this is the first flight of the day, the flight crew has
     changed, the GPS is not available to all segment in the flights, or that the pilot expects long segments with low
     NAVAID coverage. It is recommended to perform a fast alignment for all other flight conditions.
-`EMERGENCY LOCATOR TRANSMITTER (ELT) ................................ ARMED`<br/>
+`EMERGENCY LOCATOR TRANSMITTER (INOP) ............................... ARMED`<br/>
 
 ??? tip "How and Where?"
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
-
-    All White Lights
-    <p style="color:yellow; font-size:18px;">TODO: insert image of all white lights or link to interactive flight deck</p>
     
-    Recorder Ground Control
-    <p style="color:yellow; font-size:18px;">TODO: insert image of recorder ground control or link to interactive flight deck</p>
-    
-    Evac Capt/Capt & Purs
-    <p style="color:yellow; font-size:18px;">TODO: insert image of evac capt/capt & purs or link to interactive flight deck</p>
-    
-    Probe & Window Heat
-    <p style="color:yellow; font-size:18px;">TODO: insert image of probe & window heat or link to interactive flight deck</p>
-    
-    ADIRS All IR Mode
-    <p style="color:yellow; font-size:18px;">TODO: insert image of ADIRS all IR mode or link to interactive flight deck</p>
-    
-    Emergency Locator Transmitter
-    <p style="color:yellow; font-size:18px;">TODO: insert image of emergency locator transmitter or link to interactive flight deck</p>
+    * [All White Lights](../../a380x-briefing/flight-deck/overviews/ovhd)
+    * [Recorder Ground Control](../../a380x-briefing/flight-deck/ovhd/rcdr-evac)
+    * [Evacuation](../../a380x-briefing/flight-deck/ovhd/rcdr-evac)
+    * [Probe and Window Heat](../../a380x-briefing/flight-deck/ovhd/adirs)
+    * [ADIRS](../../a380x-briefing/flight-deck/ovhd/adirs)
+    * [ELT](../../a380x-briefing/flight-deck/ovhd/elt)
 
 ### Overhead Panel Center (bottom to top)
 
@@ -188,7 +204,7 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 `NAV ....... ........................................................... ON`<br/>
 `REMAINING EXTERIOR LIGHTS .....................................AS REQUIRED`<br/>
 `SEAT BELTS ............................................................ ON`<br/>
-`NO SMOKING .......................................................... AUTO`<br/>
+`NO MOBILE ........................................................... AUTO`<br/>
 `EMERGENCY EXIT LIGHTS ................................................ ARM`<br/>
 `ENGINE STARTER ...................................................... NORM`<br/>
 `APU BLEED ............................................................. ON`<br/>
@@ -208,53 +224,26 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 `MAINTENANCE PANEL ALL LIGHTS.......................................... OFF`<br/>
 
 ??? tip "How and Where?"
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
-
-    Strobe
-    <p style="color:yellow; font-size:18px;">TODO: insert image of strobe or link to interactive flight deck</p>
     
-    Beacon
-    <p style="color:yellow; font-size:18px;">TODO: insert image of beacon or link to interactive flight deck</p>
-    
-    Nav
-    <p style="color:yellow; font-size:18px;">TODO: insert image of nav or link to interactive flight deck</p>
-    
-    Remaining Exterior Lights
-    <p style="color:yellow; font-size:18px;">TODO: insert image of remaining exterior lights or link to interactive flight deck</p>
-    
-    Seat Belts
-    <p style="color:yellow; font-size:18px;">TODO: insert image of seat belts or link to interactive flight deck</p>
-    
-    No Smoking
-    <p style="color:yellow; font-size:18px;">TODO: insert image of no smoking or link to interactive flight deck</p>
-    
-    Emergency Exit Lights
-    <p style="color:yellow; font-size:18px;">TODO: insert image of emergency exit lights or link to interactive flight deck</p>
-    
-    Engine Starter
-    <p style="color:yellow; font-size:18px;">TODO: insert image of engine starter or link to interactive flight deck</p>
-    
-    APU Bleed
-    <p style="color:yellow; font-size:18px;">TODO: insert image of APU Bleed or link to interactive flight deck</p>
-    
-    Xbleed
-    <p style="color:yellow; font-size:18px;">TODO: insert image of xbleed or link to interactive flight deck</p>
-    
-    Air Flow
-    <p style="color:yellow; font-size:18px;">TODO: insert image of air flow or link to interactive flight deck</p>
-    
-    CKPT
-    <p style="color:yellow; font-size:18px;">TODO: insert image of ckpt or link to interactive flight deck</p>
-    
-    Cabin
-    <p style="color:yellow; font-size:18px;">TODO: insert image of cabin or link
-
-    Trim TK Feed
-    <p style="color:yellow; font-size:18px;">TODO: insert image of trim tk feed or link to interactive flight deck</p>
-
-    Maintenance Panel All Lights
-    <p style="color:yellow; font-size:18px;">TODO: insert image of maintenance panel all lights or link to interactive flight deck</p>
+    * [Strobe](../../a380x-briefing/flight-deck/ovhd/ext-lt)
+    * [Beacon](../../a380x-briefing/flight-deck/ovhd/ext-lt)
+    * [Nav](../../a380x-briefing/flight-deck/ovhd/ext-lt)
+    * [Remaining Exterior Lights](../../a380x-briefing/flight-deck/ovhd/ext-lt)
+    * [Seat Belts](../../a380x-briefing/flight-deck/ovhd/signs)
+    * [No Mobile](../../a380x-briefing/flight-deck/ovhd/signs)
+    * [Emergency Exit Lights](../../a380x-briefing/flight-deck/ovhd/signs)
+    * [Engine Starter](../../a380x-briefing/flight-deck/ovhd/eng-start)
+    * [APU Bleed](../../a380x-briefing/flight-deck/ovhd/air)
+    * [X Bleed](../../a380x-briefing/flight-deck/ovhd/air)
+    * [Air Flow](../../a380x-briefing/flight-deck/ovhd/air)
+    * [Cockpit](../../a380x-briefing/flight-deck/ovhd/air)
+    * [Cabin](../../a380x-briefing/flight-deck/ovhd/air)
+    * [Trim Tank Feed](../../a380x-briefing/flight-deck/ovhd/fuel)
+    * [Maintenance Panel](../../a380x-briefing/flight-deck/ovhd/maintenance)
 
 ### Overhead Panel Right (bottom to top)
 
@@ -264,47 +253,35 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 `CVR TEST ........................................................... PRESS`<br/>
 
 ??? tip "How and Where?"
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
-
-    Cargo Air Cond
-    <p style="color:yellow; font-size:18px;">TODO: insert image of cargo air cond or link to interactive flight deck</p>
     
-    Radio Management Panel 3
-    <p style="color:yellow; font-size:18px;">TODO: insert image of radio management panel 3 or link to interactive flight deck</p>
-    
-    Standby Radio Navigation
-    <p style="color:yellow; font-size:18px;">TODO: insert image of standby radio navigation or link to interactive flight deck</p>
-    
-    CVR Test
-    <p style="color:yellow; font-size:18px;">TODO: insert image of CVR Test or link to interactive flight deck</p>
-
+    * [Cargo Air Conditioning](../../a380x-briefing/flight-deck/ovhd/cargo-air)
+    * [Radio Management Panel 3](../../a380x-briefing/flight-deck/ovhd/rmp)
+    * [Standby Radio Navigation](../../a380x-briefing/flight-deck/pedestal/rmp)
+    * [CVR Test](../../a380x-briefing/flight-deck/ovhd/cvr)
+   
 ## Main Instrument Panel
 
 `SWITCHING PANEL ..................................................... NORM`<br/>
 `INTEGRATED STANDBY INSTRUMENT SYSTEM ............................... CHECK`<br/>
 `LANDING GEAR GRAVITY SYSTEM .......................................... OFF`<br/>
 `CLOCK ...........................................CHECK and SET AS REQUIRED`<br/>
-`ANTI AKID (A-SKID) ................................................... ON`<br/>
+`ANTI AKID (A-SKID) .................................................... ON`<br/>
 
 ??? tip "How and Where?"
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
-
-    Switching Panel
-    <p style="color:yellow; font-size:18px;">TODO: insert image of switching panel or link to interactive flight deck</p>
     
-    Integrated Standby Instrument System
-    <p style="color:yellow; font-size:18px;">TODO: insert image of integrated standby instrument system or link to interactive flight deck</p>
-    
-    Landing Gear Gravity System
-    <p style="color:yellow; font-size:18px;">TODO: insert image of landing gear gravity system or link to interactive flight deck</p>
-    
-    Clock
-    <p style="color:yellow; font-size:18px;">TODO: insert image of clock or link to interactive flight deck</p>
-    
-    Anti Akid (A-Skid)
-    <p style="color:yellow; font-size:18px;">TODO: insert image of anti akid (a-skid) or link to interactive flight deck</p>
+    * [Switching Panel](../../a380x-briefing/flight-deck/main-panel/switching)
+    * [Integrated Standby Instrument System](../../a380x-briefing/flight-deck/main-panel/isis)
+    * [Landing Gear Gravity System](../../a380x-briefing/flight-deck/main-panel/gravity-gear)
+    * [Clock](../../a380x-briefing/flight-deck/main-panel/center-right)
+    * [Anti Skid](../../a380x-briefing/flight-deck/main-panel/center-right)
 
 ## Pedestal
 
@@ -326,35 +303,18 @@ In the simulator, we are usually alone, so we will do the flow on our own.
     elevation/tilt to AUTO, Mode set to WX, TURB set to AUTO, GAIN set to AUTO, WX ON VD set to ON and PRED W/S to AUTO)
 
 ??? tip "How and Where?"
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
-
-    Parking Brake
-    <p style="color:yellow; font-size:18px;">TODO: insert image of parking brake or link to interactive flight deck</p>
     
-    Body Accumulator Pressure
-    <p style="color:yellow; font-size:18px;">TODO: insert image of body accumulator pressure or link to interactive flight deck</p>
-    
-    Thrust Levers
-    <p style="color:yellow; font-size:18px;">TODO: insert image of thrust levers or link to interactive flight deck</p>
-    
-    Thrust Reverse Levers
-    <p style="color:yellow; font-size:18px;">TODO: insert image of thrust reverse levers or link to interactive flight deck</p>
-    
-    Engine Master Switches
-    <p style="color:yellow; font-size:18px;">TODO: insert image of engine master switches or link to interactive flight deck</p>
-    
-    Cockpit Door Switch
-    <p style="color:yellow; font-size:18px;">TODO: insert image of cockpit door switch or link to interactive flight deck</p>
-    
-    ATC Clearance
-    <p style="color:yellow; font-size:18px;">TODO: insert image of ATC clearance or link to interactive flight deck</p>
-    
-    Navigation Charts
-    <p style="color:yellow; font-size:18px;">TODO: insert image of navigation charts or link to interactive flight deck</p>
-    
-    MFD Surveillance Default Settings
-    <p style="color:yellow; font-size:18px;">TODO: insert image of MFD surveillance default settings or link to interactive flight deck</p>
+    * [Parking Brake](../../a380x-briefing/flight-deck/pedestal/parking-brake)
+    * [Body Accumulator Pressure Check](../../a380x-briefing/flight-deck/main-panel/center-right)
+    * [Thrust Levers](../../a380x-briefing/flight-deck/pedestal/throttle)
+    * [Thrust Reverse Levers](../../a380x-briefing/flight-deck/pedestal/throttle)
+    * [Engine Master Switches](../../a380x-briefing/flight-deck/pedestal/engine-master)
+    * [Cockpit Door Switch](../../a380x-briefing/flight-deck/pedestal/cockpit-door)
+    * [MFD Surveillance Default Settings](../../a380x-briefing/flight-deck/main-panel/mfd)
 
 At this point, the Flight Management System (FMS) should be initialized.
 See [Preparing the MFD](03_preparing-fms) for more information.
@@ -371,62 +331,40 @@ See [Preparing the MFD](03_preparing-fms) for more information.
 ??? note "North Reference"
     It is recommended to ensure that the “TRUE” message does not appear on the primary flight display or on the HDG/TRK
     display.
-`SPD/MACH, HDG / TRK, V/S / FPA display ........................... DASHED`<br/>
+`SPD, HDG, V/S display ............................................ DASHED`<br/>
 `ALTITUDE display .................... INITIAL EXPECTED CLEARANCE ALTITUDE`<br/>
-`AUTO FLIGHT SYSTEM CONTROL PANEL ............................. CROSSCHECK`<br/>
 
 ??? tip "How and Where?"
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
-
-    Integral Lights
-    <p style="color:yellow; font-size:18px;">TODO: insert image of integral lights or link to interactive flight deck</p>
     
-    Barometric Reference
-    <p style="color:yellow; font-size:18px;">TODO: insert image of barometric reference or link to interactive flight deck</p>
-    
-    Navigation Display (ND) Mode and Range
-    <p style="color:yellow; font-size:18px;">TODO: insert image of navigation display (ND) mode and range or link to interactive flight deck</p>
-    
-    Weather Radar
-    <p style="color:yellow; font-size:18px;">TODO: insert image of weather radar or link to interactive flight deck</p>
-    
-    Other EFIS Options
-    <p style="color:yellow; font-size:18px;">TODO: insert image of other EFIS options or link to interactive flight deck</p>
-    
-    Flight Director
-    <p style="color:yellow; font-size:18px;">TODO: insert image of flight director or link to interactive flight deck</p>
-    
-    North Reference
-    <p style="color:yellow; font-size:18px;">TODO: insert image of north reference or link to interactive flight deck</p>
-    
-    SPD/MACH, HDG / TRK, V/S / FPA display
-    <p style="color:yellow; font-size:18px;">TODO: insert image of SPD/MACH, HDG / TRK, V/S / FPA display or link to interactive flight deck</p>
-    
-    Altitude Display
-    <p style="color:yellow; font-size:18px;">TODO: insert image of altitude display or link to interactive flight deck</p>
-    
-    Auto Flight System Control Panel
-    <p style="color:yellow; font-size:18px;">TODO: insert image of auto flight system control panel or link to interactive flight deck</p>
+    * [Integral Lights](../../a380x-briefing/flight-deck/glareshield/glare-underside)
+    * [Barometric Reference](../../a380x-briefing/flight-deck/glareshield/efis)
+    * [Navigation Display](../../a380x-briefing/flight-deck/glareshield/efis)
+    * [Weather Radar](../../a380x-briefing/flight-deck/glareshield/efis)
+    * [Other EFIS Options](../../a380x-briefing/flight-deck/glareshield/efis)
+    * [Flight Director](../../a380x-briefing/flight-deck/glareshield/afs)
+    * [North Reference](../../a380x-briefing/flight-deck/glareshield/afs)
+    * [SPD, HDG, V/S Display](../../a380x-briefing/flight-deck/glareshield/afs)
+    * [Altitude Display](../../a380x-briefing/flight-deck/glareshield/afs)
 
 ## Lateral Consoles
 
-`OXYGEN MASKS TEST ............................................... PERFORM`<br/>
+`OXYGEN MASKS TEST (INOP)......................................... PERFORM`<br/>
 `DOOR SD PAGE REGUL PR LO indication ................. CHECK NOT DISPLAYED`<br/>
 `SLIDING WINDOWS LOCKED .................................... CLOSED/LOCKED`<br/>
 
 ??? tip "How and Where?"
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+
     Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
     clickable cockpit that will show you where each item is located.
+    
+    * [Door SD Page](../../a380x-briefing/flight-deck/main-panel/sd)
+    * [Sliding Windows](../../a380x-briefing/flight-deck/overviews/lateral-console)
 
-    Oxygen Masks Test
-    <p style="color:yellow; font-size:18px;">TODO: insert image of oxygen masks test or link to interactive flight deck</p>
-    
-    Door SD Page Regul PR LO Indication
-    <p style="color:yellow; font-size:18px;">TODO: insert image of door SD page regul PR LO indication or link to interactive flight deck</p>
-    
-    Sliding Windows Locked
-    <p style="color:yellow; font-size:18px;">TODO: insert image of sliding windows locked or link to interactive flight deck</p>
 
 ## Pilot Briefing
 
@@ -434,15 +372,11 @@ As the last step the pilots would conduct the takeoff briefing:
 
 `TAKE OFF BRIEFING ............................................... PERFORM`<br/>
 
-??? tip "How and Where?"
-    Take Off Briefing
-    <p style="color:yellow; font-size:18px;">TODO: describe briefing</p>
-
 ---
 
-This concludes the *Starting the Aircraft* guide.
+This concludes the *Cockpit Preparation* guide.
 
-Continue with [Preparing the FMS](03_preparing-fms).
+Continue with [Preparing the FMS](../03_preparing-fms).
 
 
 
