@@ -86,8 +86,19 @@ This section is focused on differences to other non-Airbus airliners a user migh
     setting certain values and then push or pull the knobs. Pushing usually means automatic control (Managed Mode) and
     pulling will use the manually selected value (Selected Mode).
 
-    ![FCU](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/FCU.png "FCU"){loading=lazy} 
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot with new FCU</p>
+    ![FCU](../assets/beginner-guide/05_takeoff-climb-cruise/aps-fcu.png "FCU"){loading=lazy}
+
+    The FCU (Flight Control Unit) shows three important values:
+
+    - SPD "---":<br/>
+      Means the __Autopilot__ is in Managed Speed mode (e.g., 250kt <10000ft, 290kt above).<br/>
+      If we pull the SPD knob we can select a speed which the __Autopilot__ will then apply.
+    - HDG "---": <br/>
+      Means the lateral navigation is in Managed HDG Mode and the __Autopilot__ follows the planned route. 
+      Dialing the HDG knob will let us select a heading and by pulling the knob we tell the __Autopilot__ to fly this 
+      heading (Selected Heading Mode).<br/>
+    - ALT "5000": <br/>
+      Means the selected altitude is 5000ft<br/>
 
 ??? tip "Using the FCU Knobs in Microsoft Flight Simulator"
     In Microsoft Flight Simulator, pushing is clicking the knob "UP" and pulling is clicking the knob "DOWN"<br/>
@@ -210,10 +221,6 @@ Once we are cleared for takeoff, we will start the takeoff roll:
 `PARKING BRAKE ........................................................ OFF`<br/>
 `BRAKES ............................................................. PRESS`<br/>
 `TAKEOFF ..........................................................ANNOUNCE`<br/>
-`SIDESTICK ........................................................ FORWARD`<br/>
-??? note "Sidestick"
-    Push sidestick forward half the way to put pressure on the front gear<br/>
-    ![Flight Stick forward pressure](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/Thrust-brake-forward-pressure.png "Flight Stick forward pressure"){loading=lazy}
 `THRUST LEVERS ........................................................ 25%`<br/>
 `BRAKES ........................................................... RELEASE`<br/>
 `THRUST LEVERS ............................................ FLX/MCT OR TOGA`<br/>
@@ -222,10 +229,8 @@ Once we are cleared for takeoff, we will start the takeoff roll:
 `PRIMARY FLIGHT DISPLAY and ENGINE indications ....................... SCAN`<br/>
 ??? note "PFD"
     - The PFD Flight Mode Annunciator (FMA) now shows several things which we should check when the aircraft starts rolling:
-        <!-- TODO
-        <p style="color:yellow; font-size:18px;">TODO: fix screenshot for A380X to show RWY NAV blue</p>
+
         ![FMA at T.O. Thrust](../assets/beginner-guide/05_takeoff-climb-cruise/fma-toga-thrust.png "FMA at T.O. Thrust"){loading=lazy}
-        -->
 
         From the left:
     
@@ -236,17 +241,15 @@ Once we are cleared for takeoff, we will start the takeoff roll:
         - Lateral guidance:
             - Active (green): RWY (automatic runway axis follow up through ILS use)
             - Armed (blue): NAV (navigation guidance according to HDG knob)
-        - __Autopilot__, Flight Director, Autothrust:
+        - Autopilot:
+            - Flight Director, Autothrust:
 `TAKEOFF THRUST ..................................................... CHECK`<br/>
 
-<!-- TODO
-<p style="color:yellow; font-size:18px;">TODO: fix screenshot for A380X to show RWY NAV blue</p>
 ??? tip "Vertical and Lateral Guidance"
     Vertical and lateral guidance are **only shown** via Flight Director, as we have not turned on the __Autopilot__ yet 
     and need to be followed manually by the pilot.
-        ![Flight Director guidance](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/Flight-director-guidance.png "Flight Director guidance"){loading=lazy}#
-        <p style="color:yellow; font-size:18px;">TODO: update screenshot for A380X</p>
--->
+    
+    ![fd-guidance-takeoff-roll.png](../assets/beginner-guide/05_takeoff-climb-cruise/fd-guidance-takeoff-roll.png){loading=lazy}
 
 Keep the aircraft on the center line while accelerating down the runway.
 
@@ -271,12 +274,8 @@ Keep the aircraft on the center line while accelerating down the runway.
     As we lift off from the ground, monitor the PFD's V/S band. As long as that shows a positive rate of climb we are 
     ok to take the gear up. In real life the pilot monitoring would be the one to call out "positive rate of climb."
 
-    <p style="color:yellow; font-size:18px;">TODO: add screenshot for A380X speed band with V speeds</p>
+    ![V-Speeds](../assets/beginner-guide/05_takeoff-climb-cruise/speed-band-vspeeds.png){loading=lazy align=left}
 
-`SIDESTICK ........................................................ NEUTRAL`<br/>
-??? note "Sidestick"
-    At about 80 knots, slowly release the forward pressure on the sidestick until about 100 knots, when the sidestick should
-    be in the neutral position.
 `V1 ............................................................... MONITOR`<br/>
 ??? note "At V1"    
     The throttle hand remains on the thrust levers until reaching V~1~ to be able to quickly abort the start. Remove the
@@ -284,29 +283,27 @@ Keep the aircraft on the center line while accelerating down the runway.
 `ROTATION ......................................................... PERFORM`<br/>
 ??? note "Rotation"
     At V~R~ apply smooth positive backward stick movement on the sidestick and aim for a rotation rate (pitch rate) of 
-    3deg/sec for about 5 seconds (15° - 18° pitch attitude). Once airborne, follow the flight director's 
+    3deg/sec for about 5 seconds (15°-18° pitch attitude). Once airborne, follow the flight director's 
     guidance for pitch attitude.<br/>
     
-    Count one-one thousand, two-one-thousand, etc. and hit 15 degrees at five-one-thousand - practice this.
-        
-    ![V~1~](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/V1.png "Speedtape with V~1~ marker"){loading=lazy}
+    Count one-one thousand, two-one-thousand, etc. and hit 15 degrees at five-one-thousand - practice this.
+
+    PFD shortly after V1:<br/>
+    ![img.png](../assets/beginner-guide/05_takeoff-climb-cruise/pfd-v1-rotation.png){loading=lazy}
+
 `POSITIVE CLIMB ................................................... CONFIRM`<br/>
 ??? note "Positive Climb"
     The pilot flying (PF) will call out "Positive Climb" when the vertical speed indicator shows a positive rate of climb.
     The pilot monitoring (PM) will confirm this callout.
-    
-    ![Positve Climb](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/Positve-climb.png "Positve Climb"){loading=lazy}.
+
+    ![Positve Climb](../assets/beginner-guide/05_takeoff-climb-cruise/pfd-positive-vs.png "Positve Climb"){loading=lazy}.
+
 `LANDING GEAR .......................................................... UP`<br/>
 ??? note "Gear up"
     ![gearup](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/Gearup.png)
 
-    - We confirm that the landing gear is up by looking at the landing gear annunciators, and the lower ECAM Wheels page.
+    - We confirm that the landing gear is up by looking at the landing gear annunciators, and the lower SD Wheels page.
 
-    ![ldg_gear_annun](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/Ldg-gear-annun.png "Landing gear annunciators show no lights"){loading=lazy}<br/> 
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot for A380X</p>
-
-    ![Lower ECAM Wheel page after gear up](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/ECAM-wheel.png "Lower ECAM Wheel page after gear up"){ loading=lazy} 
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot with new lower ECAM</p>
 `AUTOPILOT .................................................... AS REQUIRED`<br/>
 
 This concludes *Takeoff*.
@@ -322,43 +319,31 @@ This concludes *Takeoff*.
 #### After Takeoff
 
 After takeoff, the aircraft will use `FLX/MCT` or `TO GA` thrust until thrust reduction altitude is reached (typically ~
-1500 ft above runway, this is part of the MCDU setup)
+1500 ft above runway, this is part of the FMS setup)
 
 After reaching **thrust reduction altitude**, the `PFD FMA` now shows a flashing *LVR CLB* message to instruct the pilot to 
 move thrust levers to the `CL` detent.
 
 `THRUST LEVERS ......................................................... CL`<br/>
-??? note "Thrust Levers in CL detent" 
-    ![Thrust levers in CL detent](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/Lvr-clb.png "Thrust levers in CL detent"){loading=lazy} 
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot with new throttle quadrant</p>
 `A/THR........................................................ CHECK ACTIVE`<br/>
 ??? note "Autothrust"
     This activates the __Autothrust__ system (FMA shows `A/THR` in white now). In the A380 (and most Airbus models) we will
     not touch the thrust levers again before final approach and landing (under normal flight conditions).
 
     The aircraft will now climb to the altitude selected in the FCU (in our case, 5.000ft).
+
+    ![img.png](../assets/beginner-guide/05_takeoff-climb-cruise/fma-athr-active.png){loading=lazy}
+
 `PACKS 1 and 2 ................................................... AS REQ'D`<br/>
 `AUTOPILOT .................................................... AS REQUIRED`<br/>
 ??? note "Autopilot"
     **Activate the __Autopilot__ at this point by pressing the AP1 button on the FCU.**
-    
-    ![Autopilot and Autothrust buttons](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/AP1.png "Autopilot and Autothrust buttons"){loading=lazy} 
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot with new FCU</p>
-    
+
+    ![AP1 Pushbutton](../assets/beginner-guide/05_takeoff-climb-cruise/aps-fcu-ap1-pb.png)
+
     The FMA now shows AP1 in white in the upper-right corner.
 
-??? tip "FCU Autopilot Displays and Controls"
-    The FCU (Flight Control Unit) shows three important values:
-
-    - SPD "---" : means the __Autopilot__ is in Managed Speed mode (e.g., 250kt <10000ft, 290kt above).<br/> 
-      If we pull the SPD knob we can select a speed which the __Autopilot__ will then apply.
-    - HDG "---" : means the lateral navigation is in Managed HDG Mode and the __Autopilot__ follows the planned route. 
-      Dialing the HDG knob will let us select a heading and by pulling the knob we tell the __Autopilot__ to fly this 
-      heading (Selected Heading Mode).<br/>
-    - ALT "5000" : means the selected altitude is 5000ft<br/>
-
-    <p style="color:yellow; font-size:18px;">TODO: add screenshot</p>
-
+    ![FMA AP1](../assets/beginner-guide/05_takeoff-climb-cruise/fma-ap1-on.png){loading=lazy}
 
 `At F speed: FLAPS 1 .................................................. SET`<br/>
 ??? note "Flaps during takeoff and climb"
@@ -373,8 +358,8 @@ move thrust levers to the `CL` detent.
 
     We always retract flaps by only one step at a time. So, when we took off with `FLAPS 2` (`CONF-2`) we retract `FLAPS` at "F" to `FLAPS 1`. Then at "S" we retract them to `FLAPS 0`.
 
-    ![Aircraft shortly before reaching S-speed](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/S-speed.png "Aircraft shortly before reaching VS speed"){loading=lazy}
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot for A380X</p>
+    ![Aircraft shortly before reaching S-speed](../assets/beginner-guide/05_takeoff-climb-cruise/pfd-s-speed.png){loading=lazy}
+
 `At S speed: FLAPS ZERO ............................................... SET`<br/>
 
 `EXTERIOR LIGHTS ...................................................... OFF`<br/>
@@ -388,12 +373,18 @@ move thrust levers to the `CL` detent.
 `TCAS ............................................................... TA/RA`<br/>
 `ANTI-ICE ..................................................... AS REQUIRED`<br/>
 
-`AFTER TAKEOFF CHECKLIST down to the line ........................ COMPLETE`<br/>
-??? note "After Takeoff Checklist - Down to the line"
-    `LDG GEAR ................................................................... UP`<br/>
-    `FLAPS ....................................................................... 0`<br/>
-    `PACK 1+2 ............................................................. AS REQ'D`<br/>
-    `APU MASTER ................................................................ OFF`<br/>
+??? tip "How and Where"
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
+    clickable cockpit that will show you where each item is located.
+
+    * [Exterior Lights](../../a380x-briefing/flight-deck/ovhd/ext-lt)
+    * [Ground Spoilers](../../a380x-briefing/flight-deck/pedestal/speed-brake)
+    * [APU Bleed](../../a380x-briefing/flight-deck/ovhd/apu)
+    * [APU Master Switch](../../a380x-briefing/flight-deck/ovhd/apu)
+    * [TCAS](../../a380x-briefing/flight-deck/pedestal/surveillance)
+    * [Anti-Ice](../../a380x-briefing/flight-deck/ovhd/anti-ice)
 
 At this point, the aircraft is climbing to the initially cleared altitude. The __Autopilot__ will manage the climb to the
 selected altitude.
@@ -409,8 +400,8 @@ selected altitude.
     Dial the newly cleared altitude into the FCU. (e.g., 15 000 ft) and push for managed climb (CLB) or pull for open
     climb (OP CLB)
 
-    ![Entering the new altitude and pushing the knob for Managed Altitude Mode](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/Altitude-setting-15000.png "Entering the new altitude and pushing the knob for Managed Altitude Mode"){loading=lazy} 
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot with new FCU</p>
+    ![Entering the new altitude and pushing the knob for Managed Altitude Mode](../assets/beginner-guide/05_takeoff-climb-cruise/fma-altitude-15000.png 
+    "Entering the new altitude and pushing the knob for Managed Altitude Mode"){loading=lazy} 
 
 ??? warning "Use OP CLB or CLB mode and not V/S"
     It is not recommended to use V/S for climbing or descending in the A380 (at least not for beginners) as the V/S 
@@ -421,12 +412,6 @@ selected altitude.
     limit, V/S automatically decreases to maintain the minimum or maximum speed limit.<p/>
 
     See also [Protections](../../a32nx/a32nx-advanced-guides/protections/overview.md).
-
-`AFTER TAKEOFF CHECKLIST below the line .......................... COMPLETE`<br/>
-??? note "After Takeoff Checklist - Below the line"
-    `BARO REF STD .............................................................. STD`<br/>
-    `LANDING LIGHT (at 10,000ft) ............................................... OFF`<br/>
-
 
 This concludes the *Initial Climb*.
 
@@ -450,8 +435,7 @@ This concludes the *Initial Climb*.
     automatically.
 
     The PFD's `FMA` now shows:<br/>
-    ![FMA during climb](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/FMA-THR-CLB.png "FMA during climb"){loading=lazy}
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot for A380X</p>
+    ![FMA during climb](../assets/beginner-guide/05_takeoff-climb-cruise/pfd-set-cruise-lvl.png "FMA during climb"){loading=lazy}
 
 `ANTI-ICE ..................................................... AS REQUIRED`<br/>
 
@@ -477,10 +461,9 @@ the seatbelt signs. The aircraft will now accelerate to CLB speed (defined in `M
     set transition altitude, you will set your barometer to `STD`, as notated in the Check Baro Setting item in the previous
     section. Standard altitude is `29.92 in` or `1013 QNH`.
 
-
-??? tip "MCDU and PFD at cruise level"
-    ![PFD and MCDU at CRUISE](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/pfd-mcdu-cruise-lvl.png "PFD and MCDU at CRUISE"){loading=lazy} 
-    <p style="color:yellow; font-size:18px;"> TODO: update screenshot for A380X</p>
+??? tip "PFD at cruise level"
+    ![PFD and MCDU at CRUISE](../assets/beginner-guide/05_takeoff-climb-cruise/pfd-cruise.png 
+    "PFD and MCDU at CRUISE"){loading=lazy} 
 
 This concludes the *Climb*.
 
@@ -527,13 +510,17 @@ like weather, traffic, etc.
 
 ??? info "Direct course to a waypoint (DIR TO)"
     **Direct course to a waypoint (DIR TO)** <br/>
-    ATC regularly instructs us to go "direct to (waypoint) XYZ". Use the ECAM DIR page to select the waypoint from the
-    flight plan's list of waypoints. In rare cases it is a waypoint not in the current flight plan, then you can enter a
-    new waypoint in the MCDU and put it into the upper left entry field. Select DIRECT* on the right-bottom to execute 
-    the change.
+    ATC regularly instructs us to go "direct to (waypoint) XYZ". Use the MFD F-PLN page to click the waypoint from the
+    flight plan's list of waypoints and select "FROM P.POS DIR TO". This bring you to the DIR TO page.
 
-    ![ECAM direct to](../../a32nx/assets/beginner-guide/takeoff-climb-cruise/Dir-to.png "ECAM direct to"){loading=lazy}
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot for A380X</p>
+    ![img.png](../assets/beginner-guide/05_takeoff-climb-cruise/mfd-fpln-dirto.png)
+
+    In rare cases it is a waypoint not in the current flight plan, then you enter the DIR TO page by using the 
+    DIR TO button on the bottom right of the MFD F-PLN page. There you can type in the waypoint name.
+
+    ![img_1.png](../assets/beginner-guide/05_takeoff-climb-cruise/mfd-dirto.png)
+
+    Confirm the change by pressing the "INSERT DIR TO*" button on the bottom right of the DIR TO page.
 
 ??? info "ATC requests specific speed"
     **ATC requests specific speed **<br/>
@@ -546,4 +533,4 @@ descent and approach.
 
 This concludes the *Cruise*.
 
-Continue with [Descent Planning and Descent](06_descent)
+Continue with [Descent Planning and Descent](../06_descent)
