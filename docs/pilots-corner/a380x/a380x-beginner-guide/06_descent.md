@@ -112,7 +112,7 @@ possible.
 
 ---
 
-### 1. Planning the Descent and Approach
+## 1. Planning the Descent and Approach
 
 **Situation:**
 
@@ -146,54 +146,16 @@ possible.
     - **Aircraft capability and passenger comfort:** Although not a big concern in the A380, general aircraft 
       capabilities and passenger comfort also come into play.
 
-#### Step-by-step Guide for Descent Planning
+### Step-by-step Guide for Descent Planning
 1. Read the STAR chart and determine if there are altitude and/or speed constraints which we need to consider.
-2. Consider the STAR and APPR route as optional and do not count on them to be flown and available for descending. ATC might want to vector us to a different runway or at least shortcut our approach. But they won't be able to if we are still too high for the final approach.
-3. Determine the first constraint you need to meet. This could be a STAR waypoint with an altitude constraint, the Final Approach Fix altitude or even the airport (or runway) elevation itself.
-4. Calculate the required distance needed to descend to that waypoint with a standard descent angle of 3°. We can use the FlyByWire flyPad in the cockpit or a simple rule of thumb calculation (details below).
-5. Use the MCDU PROG page's DIST function to read out the current distance to this waypoint. It is also possible to use the MCDU flight plan page, maps or the NDs distance rings to help determine the current distance.
-
-??? tip "ECAM PROG page and ND distance rings"
-    #### ECAM PROG page
-    
-    The ECAM PROG page can be accessed by pressing the ECAM page button on the lower ECAM display and then selecting the
-    PROG page. This page will show the distance to the next waypoint, the estimated time of arrival at the next
-    waypoint, and the estimated time of arrival at the destination.
-
-    ![ECAM PROG page](../../a32nx/assets/beginner-guide/descent/ECAM-Progress-page.png "ECAM PROG page"){loading=lazy}  
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot for A380X</p>
-    
-    **ND distance rings:**
-
-    The ND distance rings can be used to determine the distance to a waypoint or fix. The distance rings can be set to a
-    specific distance and will show the distance to the waypoint or fix. The distance rings can be set by pressing the 
-    ND button on the lower ECAM display and then selecting the distance rings option.
-
-    ![ND distance rings](../../a32nx/assets/beginner-guide/descent/ND-disctance-rings.png "ND distance rings"){loading=lazy}
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot for A380X</p>
-
-??? tip "FIX INFO Distance Ring"
-    #### FIX INFO Distance Ring
-
-    A great aid for knowing when to descend is the FIX INFO feature.
-
-    You can add a ring around a waypoint or fix with a specified distance. As we need 57NM for our descent from FL320 to 
-    FL140 at ABTUM we can set the fix distance ring to 57NM.
-
-    Now we can easily see our TOD (top of descent) on the ND.
-
-    !!! block ""
-        ![FIX INFO Distance Ring](../../a32nx/assets/beginner-guide/descent/fix-info-ring.png "FIX INFO Distance Ring"){loading=lazy width=45% align=left}
-        ![ND Fix Distance Ring](../../a32nx/assets/beginner-guide/descent/nd-fix-distance-ring.png "ND Fix Distance Ring"){loading=lazy width=45% align=right}
-
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot for A380X</p>
-
-    The MCDU FIX INFO page can be accessed by selecting the first waypoint on the F-PLN page and pressing LSK 1L 
-    "FIX INFO".
-
-    See our feature guide [FIX INFO](../../a32nx/a32nx-advanced-guides/flight-planning/fixinfo.md) for how to use this 
-    function.
-    <p style="color:yellow; font-size:18px;">TODO: update link/page for A380X</p>
+2. Consider the STAR and APPR route as optional and do not count on them to be flown and available for descending. ATC 
+   might want to vector us to a different runway or at least shortcut our approach. But they won't be able to if we are 
+   still too high for the final approach.
+3. Determine the first constraint you need to meet. This could be a STAR waypoint with an altitude constraint, the Final 
+   Approach Fix altitude or even the airport (or runway) elevation itself.
+4. Calculate the required distance needed to descend to that waypoint with a standard descent angle of 3°. We can use 
+   the FlyByWire flyPad in the cockpit or a simple rule of thumb calculation (details below).
+5. Use the DIR TO function of the F-PLN page to determine the distance to the waypoint (see details below). 
 
 ??? tip "How to Calculate the Required Distance for Descent"
     #### Calculate the Required Distance for Descent
@@ -242,9 +204,32 @@ possible.
     ATC will quite often instruct certain altitudes within the STAR and APPR which deviate from the STAR and APPR 
     charts. Please expect such instructions at any time.
 
-#### Advanced Arrival Planning
 
-<p style="color:yellow; font-size:18px;">TODO: consider removing "advanced" as this shouldbe standard</p>
+??? tip "Distance to Waypoint"
+    #### Distance to Waypoint
+
+    The F-PLN page of the MFD has the DIR TO function which can be used to determine the distance to a waypoint. This is 
+    currently the only way to get this information without having to calculate it manually by adding up all distances
+    between waypoints as displayed on the F-PLN page.
+
+    Unfortunately, the A380X does not yet have [FIX INFO](../../../a32nx/a32nx-advanced-guides/flight-planning/fixinfo) 
+    implemented, so we can't use it to determine when to start descent at a certain distance. 
+
+    To use the DIR TO function, go to the F-PLN page and select the waypoint you want to know the distance to. Then press
+    on the waypoint and select the DIR TO option in the popup menu.
+
+    ![DirTo Distance](../assets/beginner-guide/06_descent/mfd-fpln-dirto-distance.png){loading=lazy}    
+    
+    **ND distance rings:**
+
+    The ND distance rings can also be used to determine the distance to a waypoint or fix. The distance rings can be set to a
+    specific distance and will show the distance to the waypoint or fix. The distance rings can be set by pressing the 
+    ND button on the lower ECAM display and then selecting the distance rings option.
+
+    ![ND distance rings](../../a32nx/assets/beginner-guide/descent/ND-disctance-rings.png "ND distance rings"){loading=lazy}
+    <p style="color:yellow; font-size:18px;">TODO: update screenshot for A380X</p>
+
+### Advanced Arrival Planning
 
 !!! warning "Important Notice"
     The following is a more advanced process for planning our arrival. It is obviously important when we want to have a 
@@ -258,22 +243,22 @@ For a more advanced arrival planning, we can collect the following information a
     ##### Entering DEST DATA on the MFD
 
     Before we descend, we should also reconfirm our destination runway and input or update our destination data into the
-    MCDU PERF APPR page. This is typically done about 50NM before the starting the descent.
-    We can obtain this data from the destination airport's ATIS information and the airport charts.
+    MFD PERF APPR page. This is typically done about 50NM before the starting the descent. We can obtain this data from 
+    the destination airport's ATIS information and the airport charts.
 
-    ![ENTER DEST DATA Message on the MFD](../../a32nx/assets/beginner-guide/descent/MCDU-Enter-dest-data.png "ENTER DEST DATA Message on the MFD"){loading=lazy}
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot for A380X</p>
+    ![ENTER DEST DATA Message on the MFD](../assets/beginner-guide/06_descent/mfd-perf-appr-data.png 
+    "ENTER DEST DATA Message on the MFD"){loading=lazy}
 
     From ATIS we get: `QNH`, `TEMP`, `MAG WIND` and `TRANS LVL` - if not refer to the approach chart.
 
     ATIS Example:
     <p style="color:yellow; font-size:18px;">TODO: update with new route to EDDF</p>
     ```
-    GATWICK INFORMATION K TIME 2020, RUNWAY IN USE 26L
-    TRANSITION LEVEL FL70, SURFACE WIND 260,7 KNOTS
-    CAVOK TEMPERATURE +16, DEW POINT +12, QNH 1018,
-    ACKNOWLEDGE RECEIPT OF INFORMATION K AND ADVISE AIRCRAFT
-    TYPE ON FIRST CONTACT
+    ARR-ATIS EDDF P METAR 1450 - EXPECT DEPENDENT PARALLEL ILS Y
+    APCH RWY 07L OR ILS APCH RWY 07R - RWY 07L 07R - EXPECT RADAR
+    VECTORING, GLS APCH ON REQUEST, DO NOT MISTAKE TWY M FOR RWY 07C
+    WHEN PERFORMING VISUAL APPROACH - TRL 60 - 32003KT 270V350 -
+    9999 - - - FEW038 - T19 DP08 - QNH1030 - NOSIG -
     ```
 
     From the chart, we get `Trans level` and `BARO` (=DA or MDA) or `RADIO` (=RA or DH). 
@@ -293,58 +278,44 @@ For a more advanced arrival planning, we can collect the following information a
     VATSIM or IVAO, you can try the following things:
 
     - Search online for the real life D-ATIS at your arrival airport (much like the ATIS example above).
-    - Use the `Trans ALT` + 1000 ft.
+    - Use the `Trans ALT`+1000ft.
     - If you have imported your flight plan via our simBrief integration, this value would be autopopulated for you.
 
-    ![Transition level on chart](../../a32nx/assets/beginner-guide/descent/EGKK-APPR-char-1.png "Transition level on chart"){loading=lazy}<br/>
-    ![ILS information on chart](../../a32nx/assets/beginner-guide/descent/EGKK-APPR-chart-2.png "ILS information on chart"){loading=lazy}<br/>
+    ![Transition level on chart](../assets/beginner-guide/06_descent/eddf-07c-trans-alt.png 
+    "Transition level on chart"){loading=lazy}<br/>
     <sub>*Copyright © 2021 Navigraph / Jeppesen*
 
 ??? tip "ILS in the A380"
     ##### ILS in the A380
 
-    The A380 is capable of a CAT IIIB ILS approach and has an approach category of "C" - see the red area on the chart.
+    Although the A380 is capable of a CAT IIIB ILS approach (with Autoland) and has an approach category of "C" we will 
+    do a manual landing for the purpose of this guide. 
     (see [Wikipedia Aircraft approach category](https://en.wikipedia.org/wiki/Aircraft_approach_category){target=new})
 
-    In this chart for EGKK 26L ILS there is no DH for CAT IIIB defined - so we can enter "NO" or "NO DH" into the 
-    `RADIO` field.
-    <p style="color:yellow; font-size:18px;">TODO: update text for EDDF</p>
-
+    So for the minimums we need to find the `DA` or `MDA` for CAT I ILS for the destination airport. In this chart for 
+    EDDF 07C ILS there is a `DA` of 528ft defined - so we can enter "528" into the `BARO` field.
+    
     If we are using Microsoft Flight Simulator without any Online ATC services (VATSIM, IVAO, PilotEdge, ...), and using
     the MSFS built-in ATC, you usually can't request ATIS information for the destination airport at this point. MSFS 
     ATC makes ATIS only available once close to the destination airport.
 
-    If we are flying with Online ATC, you can request ATIS via the `MCDU-ATSU-AOC` page or your Online ATC network's 
-    client at this time. 
-
-    <p style="color:yellow; font-size:18px;">TODO: double check this with new MFD</p>
+    If we are flying with Online ATC, you can request ATIS via the network. 
 
 ??? tip "METAR Information"
     ##### METAR Information
 
-    We can in any case request the METAR weather information for the destination airport via the same page.
+    We can in any case request the METAR weather information the flyPad EFB.
 
-    ![MCDU ATSU AOC page - WX and ATIS](../../a32nx/assets/beginner-guide/descent/MCDU-ATSU-AOC-WX.png "MCDU ATSU AOC page - WX and ATIS"){loading=lazy} 
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot with new MFD</p>
-
-    If we used Simbrief for flight planning, we can also see METAR information on the flyPad after importing the 
-    SimBrief plan to the flyPad.
-
-    ![flyPad showing weather](../../../aircraft/a32nx/assets/flypados3/weather-widget-input.png){loading=lazy}
-
-    Once we have confirmed the destination runway and the destination data, we are set for the approach, and we can 
-    continue to focus on the descent.
-
-    <p style="color:yellow; font-size:18px;">TODO: double check this with new MFD</p>
+    ![flyPad showing weather](../assets/beginner-guide/06_descent/flypad-weather-widget.png){loading=lazy}
 
 `WEATHER AND LANDING INFORMATION ................................... OBTAIN`<br/>
 `LANDING ELEVATION .................................................. CHECK`<br/>
 `BAROMETRIC REFERENCE .............................................. PRESET`<br/>
 `LANDING PERFORMANCE ................................................ CHECK`<br/>
+??? note "Landing Performance"
+     Unfortunately, there is no landing performance calculator for the A380X yet. This will be added in the future.   
 
-<p style="color:yellow; font-size:18px;">TODO: VERIFY LANDING CALC WILL BE PRESENT IN NEW FMS</p>
-
-##### Flight Management System (FMS) Checks
+#### Flight Management System (FMS) Checks
 If not already inserted, insert the applicable APPR, STAR, TRANS and APPR VIA in the active flight plan arrival page
 of the flight management system.
 
@@ -355,8 +326,8 @@ of the flight management system.
 `FMS POSITIONAL/NAVAIDS PAGE ........................................ CHECK`<br/>
 `FMS ........................................................... CROSSCHECK`<br/>
 
-##### OANS (Onboard Airport Navigation System) and BTV (Brake to Vacate)
-If available, set up the OANS and BTV for the destination airport.
+#### OANS (Onboard Airport Navigation System) and BTV (Brake to Vacate)
+If available, you can also set up the [OANS and BTV](../../a380x-advanced-guides/oans-btv) for the destination airport.
 
 ??? tip "OANS"
     The Onboard Airport Navigation System (OANS), developed jointly by Thales and Airbus, is a groundbreaking technology
@@ -396,6 +367,7 @@ If available, set up the OANS and BTV for the destination airport.
     runway exits. By selecting the most appropriate exit, pilots can help to reduce taxi times, improve airport 
     efficiency, and enhance the overall passenger experience.
 
+
 `RUNWAY SHIFT ................................................. AS REQUIRED`<br/>
 `ND MODE ............................................................. PLAN`<br/>
 `ND RANGE ............................................................ ZOOM`<br/>
@@ -415,7 +387,7 @@ If available, set up the OANS and BTV for the destination airport.
     of the HI mode if the BTV mode is not available or on short runway conditions
 `OANS RUNWAY LENGTH VS CHARTS RUNWAY LENGTH .................... CROSSCHECK`<br/>
 
-<p style="color:yellow; font-size:18px;">TODO: add link to advanced guide or video</p>
+See our [OANS Guide](../../a380x-advanced-guides/oans-btv) for more information on the system.
 
 `LANDING BRIEFING ................................................. PERFORM`<br/>
 
@@ -423,7 +395,7 @@ This concludes *Descent and Approach Planning*.
 
 ---
 
-### 2. Descent
+## 2. Descent
 
 **Situation:**
 
@@ -448,7 +420,7 @@ This concludes *Descent and Approach Planning*.
 `CLEARED ALTITUDE ON AUTO FLIGHT SYSTEM CONTROL PANEL ................. SET`<br/>
 `ANIT-ICE ..................................................... AS REQUIRED`<br/>
 
-#### Starting the Descent
+### Starting the Descent
 
 `DESCENT ......................................................... INITIATE`<br/>
 `ALTITUDE ..................................................... QNH/HPA SET`<br/>
@@ -508,7 +480,7 @@ This concludes *Descent and Approach Planning*.
 !!! info "Airline SOPs"
     Some airline's SOPs (standard operating procedures) might have a different order for the following steps.
 
-#### At 20,000 feet
+### At 20,000 feet
 
 `CABIN CREW ........................................................ ADVICE`<br/>
 `TERRAIN RADAR ................................................ AS REQUIRED`<br/>
@@ -517,7 +489,7 @@ This concludes *Descent and Approach Planning*.
     The Weather Radar is currently not available in the A380X. It is planned to be implemented in the future if and when
     the simulator provides the required weather data. 
  
-#### At 10,000 feet
+### At 10,000 feet
 
 ??? tip "What and Why?"
     As we reach the 10,000 foot mark in our descent, we have to take a few more steps to prepare the aircraft to land. 
@@ -562,7 +534,7 @@ This concludes *Starting the Descent*.
 
 ---
 
-### 3. Flying the STAR and Approach
+## 3. Flying the STAR and Approach
 
 **Situation:**
 
@@ -600,7 +572,7 @@ Let the __Autopilot__ do this for you, and just adjust altitude and speed accord
 
 ---
 
-### 4. Intercepting ILS
+## 4. Intercepting ILS
 
 **Situation:**
 
