@@ -229,15 +229,9 @@ possible.
     ![ND distance rings](../../a32nx/assets/beginner-guide/descent/ND-disctance-rings.png "ND distance rings"){loading=lazy}
     <p style="color:yellow; font-size:18px;">TODO: update screenshot for A380X</p>
 
-### Advanced Arrival Planning
+### Arrival Planning
 
-!!! warning "Important Notice"
-    The following is a more advanced process for planning our arrival. It is obviously important when we want to have a 
-    more realistic experience, but in Microsoft Flight Simulator you can skip this part for now. <br/>
-    This process is best done with an Online ATC service, as the built-in MSFS ATC does not provide the necessary 
-    information at the right time.
-
-For a more advanced arrival planning, we can collect the following information and execute the following steps:
+For arrival planning, we can collect the following information and execute the following steps:
 
 ??? tip "Entering DEST DATA on the MFD"
     ##### Entering DEST DATA on the MFD
@@ -252,7 +246,6 @@ For a more advanced arrival planning, we can collect the following information a
     From ATIS we get: `QNH`, `TEMP`, `MAG WIND` and `TRANS LVL` - if not refer to the approach chart.
 
     ATIS Example:
-    <p style="color:yellow; font-size:18px;">TODO: update with new route to EDDF</p>
     ```
     ARR-ATIS EDDF P METAR 1450 - EXPECT DEPENDENT PARALLEL ILS Y
     APCH RWY 07L OR ILS APCH RWY 07R - RWY 07L 07R - EXPECT RADAR
@@ -399,10 +392,10 @@ This concludes *Descent and Approach Planning*.
 
 **Situation:**
 
-- Aircraft is in `CRUISE` state and phase as per previous chapters.
+- Aircraft is in `CRUISE` phase as per previous chapters.
 - Descent and approach planning is done.
-- First descent point (altitude at certain waypoint) is identified.
-- Distance to descent point is calculated, which is called TOD (top of descent).
+- The first descent point (altitude at certain waypoint) is identified.
+- Distance-to-descent point is calculated, which is called TOD (top of descent).
 
 ??? tip "Descent Clearance from ATC & TOD"
     A few minutes before we reach our calculated descent point (TOD) we request clearance for descent from ATC if not 
@@ -433,7 +426,9 @@ This concludes *Descent and Approach Planning*.
     selector for `Selected Altitude Mode` (constraints are ignored, also known as 
     [OP DES](../../a32nx/a32nx-advanced-guides/flight-guidance/vertical-guidance/selected-modes.md#op-des-open-descent)). 
     
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot with new FCU if needed</p>
+
+    ![Entering the new altitude and pushing the knob for Managed Altitude Mode](../assets/beginner-guide/05_takeoff-climb-cruise/fma-altitude-15000.png 
+    "Entering the new altitude and pushing the knob for Managed Altitude Mode"){loading=lazy} 
 
 ??? info "What is DES mode"
     Managed Descent (DES) Mode will follow a calculated vertical profile, this may lead to unexpected occurrences of 
@@ -445,9 +440,7 @@ This concludes *Descent and Approach Planning*.
 
     When either of these altitude modes are engaged, the relevant mode will appear in the Second Column of the `FMA`, 
     and will be displayed in green.<br/>
-    (See [Vertical Mode Annunciations](../../a32nx/a32nx-briefing/pfd/second-column.md)).
-
-    <p style="color:yellow; font-size:18px;">TODO: update links</p>
+    (See [A32NX Vertical Mode Annunciations](../../a32nx/a32nx-briefing/pfd/second-column.md) as the A380 FMA is very similar).
 
 ??? warning "Using V/S not recommended for beginners"
     It is not recommended to use V/S for climbing or descending in the A380 (at least not for beginners) as the V/S 
@@ -457,8 +450,8 @@ This concludes *Descent and Approach Planning*.
     aircraft to the target V/S, but the aircraft will also accelerate or decelerate. When the speed reaches its 
     authorized limit, V/S automatically decreases to maintain the minimum or maximum speed limit.
 
-    See also [Protections](../../a32nx/a32nx-advanced-guides/protections/overview.md).
-    <p style="color:yellow; font-size:18px;">TODO: update links</p>
+    See also [A32NX Protections](../../a32nx/a32nx-advanced-guides/protections/overview.md) as the A380 systems are very
+    similar.
 
 ??? tip "VNAV and ATC in the FlyByWire A380X"
     In case we are cleared to a lower altitude or flight level with altitude constraints above the clearance 
@@ -506,19 +499,30 @@ This concludes *Descent and Approach Planning*.
 `NAVAIDS ................................................ AS REQUIRED/CHECK`<br/>
 
 ??? tip "How and Where?"
-    <p style="color:yellow; font-size:18px;">TODO: add screenshots and description</p>
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
+    clickable cockpit that will show you where each item is located.
+    
+    * [External Lights](../../a380x-briefing/flight-deck/ovhd/ext-lt)
+    * [MFD](../../a380x-briefing/flight-deck/main-panel/mfd)
+    * [SIGNS Panel](../../a380x-briefing/flight-deck/ovhd/signs)
+    * [EFIS Panel](../../a380x-briefing/flight-deck/glareshield/efis)
 
 `APPROACH CHECKLIST .............................................. COMPLETE`<br/>
 ??? note "Approach Checklist"
-    `CABIN CREW ............................................................. ADVISE`<br/>
-    `LANDING DATA .............................................................. SET`<br/>
-    `AUTOBRAKE/BTV ..................................................... AS REQUIRED`<br/>
-    `LANDING BRIEFING ...................................................... CONFIRM`<br/>
-    `ECAM STS ............................................................... NORMAL`<br/>
-    `ALTIMETER .................................................... ____ QNH/HPA SET`<br/>
-    `LAND LIGHT ................................................................. ON`<br/>
-    `MINIMA .................................................................... SET`<br/>
-    `SEAT BELTS ................................................................. ON`<br/>
+    The Airbus A380 has a built-in checklist system that can be accessed via the
+    [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
+
+    To activate it you need to press the `C/L` button on the 
+    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam).
+
+    You can navigate through the checklist by using the `UP` and `DOWN` buttons on the ECP. You can check/uncheck items
+    by pressing the buttons with the check mark on the ECP.
+
+    Some items are autosensed by the aircraft and will be checked automatically (e.g. Beacon).
+
+    ![Approach Checklist](../assets/beginner-guide/06_descent/checklist-approach.png){loading=lazy}
 
 ??? tip "Cabin Crew in real life"
     In real life, the cabin crew will be asked to prepare the cabin for landing at some point during the descent. The 
@@ -527,8 +531,6 @@ This concludes *Descent and Approach Planning*.
 
     The Cabin Crew will notify the pilots either by a "Cabin Ready" button (A380) or by a call to the cockpit once
     they are ready and strapped in themselves. Typically, we will be in final approach by that time.
-
-    <p style="color:yellow; font-size:18px;">TODO: check SOP for updated 380 cabin crew</p>
 
 This concludes *Starting the Descent*.
 
@@ -541,9 +543,7 @@ This concludes *Starting the Descent*.
 - Aircraft is in `DES` phase.
 - Descent has started (we are after TOD).
 - We have not yet reached the first waypoint of the STAR.
-- `MCDU PERF APPR` page is filled (beginners can skip this - see chapter 
-  [Advanced arrival planning](#advanced-arrival-planning)).
-
+- `FMS PERF APPR` page is filled - see [Arrival Planning](#arrival-planning)).
 
 Flying the STAR and Approach is very similar to any other part of the route within the flight plan. Apart from 
 descending and adhering to constraints, the lateral flight path just follows the programmed route.
@@ -561,14 +561,15 @@ Let the __Autopilot__ do this for you, and just adjust altitude and speed accord
 
     **Example for shortcuts:**
     
-    ROKIL STAR/Transition EDDM (Munich) 26R - it is only in times with a lot of traffic that we would have to fly the whole downwind part of this transition.
-    
-    ![EDDM transition until vectored](../../a32nx/assets/beginner-guide/descent/EDDM-TRANS-chart.png "EDDM transition until vectored"){loading=lazy}<br/>
-    <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
+    DEBHI1D STAR EDDF (Frankfurt) 07C - it is only in times with a lot of traffic that we would have to fly the whole 
+    downwind part of this transition.
+
+    ![STAR: EDDF DEBHI![img.png](img.png) 1C](../assets/beginner-guide/06_descent/eddf-star-debhi1c-manual.png){loading=lazy}    
+    <sub>*Copyright © 2024 Navigraph / Jeppesen<br/>
     "Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
-    <p style="color:yellow; font-size:18px;">TODO: update to EDDF</p>
-
+    Note: If you do fly without Online ATC use DIR TO to the IAF waypoint DF554 after DF644 to start the final approach and 
+    intercept the ILS localizer.
 
 ---
 
@@ -588,18 +589,18 @@ Let the __Autopilot__ do this for you, and just adjust altitude and speed accord
     To intercept the ILS, we need to be at the correct altitude and should not have an approach angle larger than 30°. 
     The `LS` button should also be `ON`on both the captain and first officer's sides of the FCU.
 
-    ![EDDM ILS 26R chart](../../a32nx/assets/beginner-guide/descent/EDDM-ILS-26R-chart.png "EDDM ILS 26R chart"){loading=lazy}<br>
-    ![EDDM ILS 26R GS chart](../../a32nx/assets/beginner-guide/descent/EDDM-ILS-26R-GS-chart.png "EDDM ILS 26R GS chart"){loading=lazy}<br/>
-    <sub>*Copyright © 2021 Navigraph / Jeppesen<br/>
+    ![img_1.png](../assets/beginner-guide/06_descent/eddf-07CILS-30degree.png)
+    ![img_2.png](../assets/beginner-guide/06_descent/eddf-07CILS-final-descent.png)
+    <sub>*Copyright © 2024 Navigraph / Jeppesen<br/>
     "Navigraph Charts are intended for flight simulation use only, not for navigational use."*
-
-    <p style="color:yellow; font-size:18px;">TODO: update to EDDF</p>
 
 `APPROACH PHASE ............................................ CHECK/ACTIVATE`<br/>
 ??? note "Approach Phase"
-    The aircraft will activate the APPR phase automatically if flown over the pseudo waypoint in NAV mode. However, if 
-    the aircraft is in heading or track mode, It is recommended to activate the APPR phase 15 nautical miles from 
-    touchdown.
+    The FMS approach phase activates:
+
+    - Manually, when the flight crew clicks on the ACTIVATE APPR on the FMS PERF page, or
+    - Automatically, when NAV is engaged, and the aircraft flies the DECEL pseudo waypoint.
+
 `MANAGED SPEED ...................................................... CHECK`<br/>
 ??? note "Managed Speed"
     It is recommended to regularly verify the managed speed and to monitor the target speed.
