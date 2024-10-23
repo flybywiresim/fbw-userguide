@@ -1,5 +1,7 @@
 *[AP]: AutoPilot
+*[A/THR]: AutoTHRust
 *[APU]: Auxiliary Power Unit
+*[BTV]: Brake To Vacate
 *[ECAM]: Electronic Centralized Aircraft Monitoring
 *[EFB]: Electronic Flight Bag
 *[F-PLN]: Flight PLan
@@ -15,5 +17,6 @@
 *[FPL]: Flight Plan
 *[ILS]: Instrument Landing System (LOC and G/S)
 *[MCDU]: Multipurpose Control & Display Unit
+*[OANS]: Onboard Airport Navigation System
 *[ND]: Navigation Display
 *[PFD]: Primary Flight Display
