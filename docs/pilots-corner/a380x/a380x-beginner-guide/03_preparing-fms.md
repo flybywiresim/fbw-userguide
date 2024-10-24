@@ -2,17 +2,16 @@
 
 # Preparing the Flight Management System
 
-This guide will help you prepare the Flight Management System in the A380X for your departure. 
+This guide will help you prepare the Flight Management System in the A380X for your departure.
 It includes a simple route that you can use to follow along easily and replicate in the simulator.
 
 !!! warning "Disclaimer"
-    <p style="color:coral;">This is for simulation purposes only.</p>
     The level of detail in this guide is meant to teach an Airbus A380 beginner to start the aircraft correctly.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation 
     terminology and know-how is a requirement to fly any airliner, even in Microsoft Flight Simulator.
 
-    This guide simplifies the process of starting the aircraft to accomodate beginners and the fact that this is a 
+    This guide simplifies the process of starting the aircraft to accommodate beginners and the fact that this is a 
     simulation. More advanced sim pilots can use the [A380X SOP](../a380x-sop.md) directly. 
 
     When this guide refers to ATC it is referring to any Online ATC network but **NOT** the built-in ATC in the 
@@ -20,11 +19,10 @@ It includes a simple route that you can use to follow along easily and replicate
 
 The simBrief route used in this guide:
 
-<p style="color:yellow; font-size:18px;">TODO: update/insert downloadable OFP</p>
-[Download simBrief OFP](#){ .md-button }
+[Download simBrief OFP](../assets/beginner-guide/03_preparing-fms/sample-ofp.pdf){ .md-button }
 
 !!! tip "AIRAC Updates"
-    Please note, we may update this OFP and guide from occasionally to ensure it is current with the latest AIRAC 
+    Please note, we may update this OFP and guide occasionally to ensure it is current with the latest AIRAC
     provided by the simulator or external nav-data.
 
 ---
@@ -33,16 +31,16 @@ The simBrief route used in this guide:
 
 Below are a few Prerequisites before starting programming the FMS.
 
-Visit [Starting the Aircraft](02_cockpit-preparation) to learn more.
+Visit [Cockpit Preparation](02_cockpit-preparation.md) to learn more.
 
 * Make sure the aircraft is powered up.
-    * External Power OR APU
+  * External Power OR APU
 * Make sure the ADIRS are set to NAV.
 * Have a valid flight plan.
 * Ensure IFR clearance has been obtained.
 
-!!! info "Requesting IFR Clearance when using an Online ATC Network"
-    Before departing for the flight, we must obtain an IFR clearance from ATC. The clearance may be obtained from 
+??? tip "Requesting IFR Clearance when using an Online ATC Network"
+    Before departing for the flight, we must obtain an IFR clearance from ATC. The clearance may be obtained from
     clearance delivery or another specific frequency, depending on the airport and available services.
 
     If you are not flying on a network and are using the built-in ATC menu, simply find the appropriate selection in the menu and request for IFR clearance.
@@ -60,520 +58,350 @@ Visit [Starting the Aircraft](02_cockpit-preparation) to learn more.
 
 ---
 
-## FMS-Setup - Chapters
+## Chapters / Phases
 
-<p style="color:yellow; font-size:18px;">TODO: describe the MFD, FMS and the process for setting it up.</p>
+This guide will cover the following topics in helping you set up the FMS:
 
-### Flight-Plan
-<p style="color:yellow; font-size:18px;">TODO: update docs for importing flight plan manually, and the process for setting it up.</p>
+<!-- TODO: Link the menu items -->
 
-### Discontinuity
-<p style="color:yellow; font-size:18px;">TODO: update this section with DISCO procedures, identify changes from 32NX.</p>
-
-<!--
-
-This guide will cover the following topics:
-
-1. [Understanding the FMS](#understanding-the-FMS)
-2. [MCDU Programming](#mcdu-programming)
-    - [**^^D^^**ATA](#data)
-    - [**^^I^^**NIT A](#init-a)
-    - [**^^F^^**LIGHT PLAN](#flight-plan)
-    - [**^^S^^**ECONDARY FLIGHT PLAN](#secondary-flight-plan)
-    - [**^^R^^**AD NAV](#rad-nav)
-    - [**^^I^^**NIT FUEL PRED](#init-fuel-pred)
-    - [**^^P^^**ERF](#perf)
-3. [Entering Squawk Code](#entering-squawk-code)
-4. [A32NX simBrief Integration](#a32nx-simbrief-integration) <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
-
----
+1. Understanding the FMS
+2. FMS Initialization
+   * Data & Status
+   * Init & Flight Plan Initialization
+   * Navaids
+   * Fuel & Payload Management
+   * Performance
+3. Entering a Squawk Code
+4. A380X simBrief Integration
 
 ## Understanding the FMS
 
+<!-- TODO: Will contain data on how to use the FMS -->
 During this guide we will be referring to a few key terms which are defined below.
 
-### Line Select Key (LSK)
+### Using Keyboard and Mouse
 
-`LSK` for short. These keys are on the left and right-hand side of the MCDU screen. They are highlighted in the image below.
+The FMS can be managed entirely using your mouse and keyboard, allowing for a greater freedom and efficiency when selecting items and entering information.
 
-* Left-hand keys are referenced (in descending order) as `LSK1L - LSK6L`.
-* Right-hand keys are referenced (in descending order) as `LSK1R - LSK6R`.
+Below is a screenshot of the FMS as you would find it after the initial start up of the aircraft. Two items are highlighted in the image below:
 
-![mcdu1](../assets/beginner-guide/mcdu/mcdu1.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
+* Buttons show up as grey boxes.
+  * If a button has a downwards pointing triangle, it indicates a dropdown menu.
+  * If a button has greyed out text, it is disabled.
+  * Tabs also show as buttons.
+* The mouse pointer is identified as a yellow `X` with a dot in the middle.
 
-### Slew Keys
+Highlighted and selected buttons and fields will have a blue border around them.
 
-These keys are referenced below.
+![FMS STATUS PAGE](../assets/beginner-guide/03_preparing-fms/fms-status-elements.png){loading=lazy}
 
-![mcdu1a](../assets/beginner-guide/mcdu/mcdu1a.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
+By using the mouse and using the different dropdown menus and buttons, it is easy to navigate through the entire FMS and quickly find the page or information you are looking for.
 
-!!! info
+When you select an input field, you will be able to use your regular keyboard to type in the expected data. By pressing `ENTER`, you will confirm the entry in the field.
 
-    === "Horizontal Slew Keys"
+## FMS Initialization
 
-        These keys scroll between certain pages, i.e., `INIT A` and `INIT FUEL PRED` when the INIT page is selected. 
+### Data & Status
 
-    === "Vertical Slew Keys"
+When the FMS first starts, it will show a screen showing the current status of the aircraft. This information includes:
 
-        These keys scroll vertically on certain pages, i.e., `F-PLN` page. 
+* Aircraft type
+* Engine type
+* Navigation Database serial number and dates
+* Pilot stored Waypoints, Routes, Navaids and Runways
 
----
+<!-- TODO: Include description of the DATA menu and the available and currently unavailable options -->
 
-## MCDU Programming
+### Init & Flight Plan Initialization
 
-**D.I.F.S.R.I.P.**
+??? tip "What and Why?"
+    The FMS contains information about the flight that needs to be set up by the pilots. This includes:
 
-Pilots commonly use the acronym above when programming the MCDU. It represents the following flow on the MCDU:
+    * Flight Number
+    * From, To and possible Alternate airports
+    * Cruise level
+    * Cost Index
+    * Flight Plan Route
+ 
+    These form the basis of the FMS Initialization and help the FMS manage the flight. It helps program the different systems in the aircraft to optimally fly the flightplan.
 
-- [**^^D^^**ATA](#data)
-- [**^^I^^**NIT A](#init-a)
-- [**^^F^^**LIGHT PLAN](#flight-plan)
-- [**^^S^^**ECONDARY FLIGHT PLAN](#secondary-flight-plan)
-- [**^^R^^**AD NAV](#rad-nav)
-- [**^^I^^**NIT FUEL PRED](#init-fuel-pred)
-- [**^^P^^**ERF](#perf)
+`FLIGHT PLAN INITIALIZATION........................................COMPLETE`<br/>
 
-The simBrief route used in this guide - [Available Here](../assets/beginner-guide/mcdu/sample-ofp.pdf)
+??? tip "Step 1 - FMS Initialization"
+    The Flight Plan Initialization starts by opening the `INIT` page on the FMS from the `ACTIVE` menu.
 
----
+    ^^Flight Number^^
 
-### **^^D^^**ATA
+    ![FMS FLT NBR](../assets/beginner-guide/03_preparing-fms/fms-init-flt-nbr.png){loading=lazy}
 
-This MCDU page provides various data for the pilots. It has two pages (accessed by using the horizontal slew keys). It will not be used for this tutorial.
+    * Click the `FLT NBR` field so a blue typing cursor appears in the field.
+    * Using your keyboard, type `FBW380` and press the `ENTER` key.
 
-DATA includes the pages below:
+    This will confirm the flight number in the FMS. It can be used to identify your flight.
 
-* Position Monitor
-* IRS Monitor
-* GPS Monitor
-* A/C Status
-* Closest Airports
-* Equitime Point
-* Waypoints
-* NavAids
-* Runways
-* Routes
+    ^^From, To and Alternate Airports^^
 
-### **^^I^^**NIT A
+    * Click the `FROM` field so a blue typing cursor appears in the field.
+    * Using your keyboard, type `EDDM` and press the `ENTER` key.
+    * Click the `TO` field so a blue typing cursor appears in the field.
+    * Using your keyboard, type `EDDF` and press the `ENTER` key.
+    * (Optionally) Click the `ALTN` field so a blue typing cursor appears in the field.
+    * (Optionally) Using your keyboard, type `EDDL` and press the `ENTER` key.
 
-!!! warning "Automatic OFP Imports via INIT REQUEST"
-    Please note that the `INIT REQUEST` option will **not** appear if you have selected both a departure and arrival on the MSFS world menu before loading into your flight.
+    This will set up the FMS for a flight from Munich to Frankfurt with the alternate airport set to Leipzig. 
 
-    For more information and a guide to our simBrief A32NX features, visit the page below:
-
-    [FMS (MCDU) and simBrief Integration](../../fbw-a32nx/feature-guides/simbrief.md#using-the-fms-mcdu-and-simbrief-integration){ .md-button } <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
-
-^^FROM/TO Field^^
-
-  * Using the keypad, type in `EDDM/EDDF`
-  * Once this is in the scratch pad, press LSK1R.
-  * This following screen would show "company routes". Since there are none stored, select `Return` using LSK6L.
-
-![mcdu5](../assets/beginner-guide/mcdu/mcdu5.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
-
-^^FLT NBR^^
-
-* Using the keypad, type in `EZY123` and press LSK3L. Feel free to use your own flight number here!
-* If you have the Free Text module enabled for your flight, this will enable other users flying the A32NX to send you messages. This will not be covered in this guide.
-
-^^COST INDEX^^
-
-![ofp1](../assets/beginner-guide/mcdu/ofp1.jpg){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
-
-The cost index can be found in the image above.
-
-* Using the keypad, type in `10`
-* Press LSK5L.
-
-!!! tip "Wind Requests"
-    Pilots can choose to import your wind data at this stage through the `WIND/TEMP` option by pressing LSK 4R. For more information on using this feature, please see the guide below.
-
-    [Wind Request Guide](../../fbw-a32nx/feature-guides/simbrief.md#wind-request){.md-button} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
-
-    !!! warning ""
-        Please also note the following:
-
-        - Per-waypoint entry and request of cruise winds is still being implemented.
-        - Wind Request functionality is not 100% accurate to the real aircraft.
-            - In real life, selecting the wind requests option on the climb page would populate the wind data for all stages of flight.
-
-^^CRZ FL/TEMP^^
-
-![ofp2](../assets/beginner-guide/mcdu/ofp2.jpg){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
-
-Input the desired cruise flight level in this field. On our OFP, this is listed as `0240` or `FL240`.
-
-* Using the keypad, type in `240`
-* Press LSK6L
-
-This will input FL240 and the temperature as well.
-
-
-### **^^F^^**LIGHT PLAN
-
-Upon loading the flight plan page, there will be three entries. Departure airport, a discontinuity and arrival airport.
-
-Our route for this flight can be found on the 2nd page of the OFP
-
-!!! info "Routing Disclaimer"
-    Note that waypoints, STARs, and SIDs may be called differently due to different nav-databases or different AIRAC cycles between simBrief and the simulator.
-
-![ofp3](../assets/beginner-guide/mcdu/ofp3.jpg){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
-
-`EDDM/08L GIVMI6Q GIVMI Y101 ERNAS T161 DEBHI DEBHI1C EDDF/07L`
-
-^^Inputting a SID^^
-
-!!! info "SID"
-    Standard Instrument Departure Route
-
-    These are procedures that are defined and published that take a flight from the take-off phase to the en route phase.
-
-    Also see: [SIDS and STARS](../airliner-flying-guide/navigation.md#sids-and-stars)
-
-To program the Standard Instrument Departure (SID):
-
-* Press LSK1L or EDDM (the departure airport)
-* Select `DEPARTURE` shown next to LSK1L
-* Select the runway we are departing from. In this case `08L` using LSK2L
-* On the list of SIDs select the `GIVMI6Q` departure
-
-The MCDU should now show at the top of the screen in yellow what is selected for our departure from EDDM.
-
-![mcdu8](../assets/beginner-guide/mcdu/mcdu8.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
-
-* Press `INSERT*` using LSK6R to program this into the flight plan.
-
-Our flight plan should now have the associated waypoints for the `GIVMI6Q` SID. We can scroll through the flight plan using the vertical slew keys. The SID terminates at `GIVMI` 
-and this is where we can begin to fill out the rest of the flight plan.
-
-!!! info "GIVMI6Q ILS Frequency"
-    When selecting a departure SID that pairs with a LOC/ILS frequency, the respective frequency will be autopopulated in RADNAV provided it is available from the navdata.
-
-^^Enroute Flight Plan^^
-
-* Press the LSK that matches the location of `GIVMI` on the MCDU screen.
-* Select `AIRWAYS` using LSK5R.
-* Using the keypad, type in `Y101` *(the airway)* and press LSK1L.
-* Using the keypad, type in `ERNAS` *(waypoint)* and press LSK1R.
-    * Remember: Airways are on the left and waypoints are on the right.
-* Continue inputting the airway `T161` and following waypoint `DEBHI`.
-
-![mcdu10](../assets/beginner-guide/mcdu/mcdu10.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
-
-* Press `INSERT*` using LSK6R to program this into the flight plan.
-
-#### DCT Before a Waypoint
-
-!!! warning ""
-    There will be cases where your flight plan has waypoints and no airways, or a mix of both. When you go direct from one waypoint to another, it will usually look like the following: `WAYPOINT DCT WAYPOINT`. You might also see directs represented as two waypoints without a separator, which looks like `WAYPOINT WAYPOINT`.
-
-    Let's look at an example and understand how to program these into the MCDU. (*Please note this is not applicable to the sample flight plan in this guide, and we plan to create a more advanced flight plan entry guide at a later time.*)
-
-    Below is the current flight plan we are utilizing:
-
-    ```title="Current Sample Flight Plan"
-    EDDM/08L GIVMI6Q GIVMI Y101 ERNAS T161 DEBHI EDDF/07L
-    ```
-
-    Let's imagine for this example that there was no airway between `GIVMI` and `ERNAS`, as well as between `ERNAS` and `DEBHI`. The flight plan would look like the following:
-
-    ```title="Example NO AIRWAY Flight Plan"
-    EDDM/08L GIVMI6Q GIVMI DCT ERNAS DCT DEBHI EDDF/07L
-    ```
-
-    !!! note ""
-        The airways `Y101` and `T161` were replaced with `DCT` indicating from waypoint `GIVMI` proceed direct to `ERNAS` and after that proceed direct to `DEBHI`.
-
-    When you encounter this type of routing, there are a couple of ways to input this leg without the use of the airways page on the MCDU.
-
-    One of the easiest ways is utilizing the lateral revision page. To do this, simply find the starting waypoint on your F-PLN page, which in this case is `GIVMI`.
-
-    - Use the relevant LSK to select it. 
-    - You will then be on the following page:
-
-        ![lat-rev-fpln.png](../assets/beginner-guide/mcdu/mcdu-latrev.png){loading=lazy width=50%} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
-
-    - Type in `ERNAS` so it's visible in the scratchpad.
-    - Use `LSK3R` to enter `ERNAS` as the next waypoint on your flight plan.
-
-^^Planning the Arrival^^
-
-For the purposes of this guide, we will pre-plan our arrival into EDDF via the `DEBHI1C` STAR into 07L.
-
-!!! info "STAR"
-    Standard Terminal Arrival Route
-
-    Similar to the SID, these are procedures that are defined and published that take a flight from
-    the last point in a route *(in our case `DEBHI`)* to the first point in the approach or the initial approach fix (IAF).
-
-    Also see: [SIDS and STARS](../airliner-flying-guide/navigation.md#sids-and-stars)
-
-Find `EDDF` in green in the flight plan OR select `EDDF` in white under `DEST` using the corresponding LSK.
-
-* Select `ARRIVAL` using LSK1R
-    * We will be shown the approaches available, designated by `Type` `Rwy`.
-    * For this guide, we will shoot for an ILS to keep it simple.
-* Use the vertical slew keys to find `ILS07LY` and select it using the corresponding LSK.
-  * A designator such as Y or Z may be present. This suffix is to distinguish in the navigation database a difference between approaches to the same runway. While similar in nature, they may have different minimums, allowed equipment, or other differences.
-* Again, use the vertical slew keys to find the STAR for this flight `DEBHI1C` and select it using the corresponding LSK.
-* For the approach VIA, select `DF454`, using the appropriate LSK. On the following page, we can choose transitions, if available, but for this flight, we don't.
-* Press `INSERT*` using LSK6R to program this into the flight plan.
-
-![mcdu12](../assets/beginner-guide/mcdu/mcdu12.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
-
-Verify the flight plan by using the vertical slew keys to scroll through it.
-
-!!! info "Discontinuity"
-    #### Discontinuity
-
-    The flight plan might contain so-called discontinuities. These are breaks in the flight plan and often separate two flight plan sections, like the SID and first in-route waypoint or the STAR and the APPR. They are also often inserted when the flight plan is modified.
-
-    Sometimes discontinuities are also part of a procedure to indicate that manual input is required
-    (mostly clearance by ATC). The preceding legs are called MANUAL legs. 
+    ^^Cost Index^^
     
-    **Discontinuities after a MANUAL leg can not and should not be deleted. See below link on how to 
-    handle discontinuities.** 
+    ![OFP CI](../assets/beginner-guide/03_preparing-fms/ofp-ci.png){loading=lazy}
+
+    The Cost Index helps the FMS determine the balance between fuel consumption and flight duration. This is used by airlines to balance the fuel-related costs versus the time-related costs of a flight. A high Cost Index indicates that time efficiency is more important. A low Cost Index indicates that fuel efficiency is more important.
+
+    The Cost Index can be found in the OFP as highlighted in the image.
+
+    * Click the `CI` field so a blue typing cursor appears in the field.
+    * Using your keyboard, type `10` and press the `ENTER` key.
+
+    ^^Cruise Level & Temp^^
+
+    ![OFP CRZ FL](../assets/beginner-guide/03_preparing-fms/ofp-crz-fl.png){loading=lazy}
+
+    The Cruise Level of the flight can be found on the OFP as highlighted in the image. It is listed as `0240` indicating `FL240`. 
+
+    * Click the `CRZ FL` field so a blue typing cursor appears in the field.
+    * Using your keyboard, type `240` and press the `ENTER` key.
     
-    In this flight plan we have a discontinuity between the STAR and approach procedure as shown below.
+    The `CRZ TEMP` field will automatically update.
 
-    ![mcdu-discontinuity.png](../assets/beginner-guide/mcdu/mcdu-discontinuity.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
+    !!! warning "`CRZ TEMP` availability"
+        The `CRZ TEMP` is not fully implemented yet and might not automatically be set.
 
-    See our detailed documentation for [Discontinuities](../advanced-guides/flight-planning/disco.md){target=new} to understand how to appropriately handle these when encountered on your F-PLN page. 
+??? tip "Step 2 - Flight Plan Entry"
+    Our route for this flight can be found on the 2nd page of the OFP
+
+    !!! info "Routing Disclaimer"
+        Note that waypoints, STARs, and SIDs may be called differently due to different nav-databases or different AIRAC cycles between simBrief and the simulator.
+
+    ![OFP ROUTING](../assets/beginner-guide/03_preparing-fms/ofp-routing.png){loading=lazy}
+
+    ^^Inputting a SID^^
+
+    !!! info "Standard Instrument Departure (SID)"
+        These are procedures that are defined and published that take a flight from the take-off phase to the en route phase.
+
+        Also see: [SIDS and STARS](../../airliner/airliner-flying-guide/navigation.md#sids-and-stars)
+
+    Now that the FMS has been initialized with the basic information of the flight, it is time to add the Flight Plan. This starts with clicking the `DEPARTURE` button on the `INIT` page.
+
+    ![INIT DEPARTURE](../assets/beginner-guide/03_preparing-fms/fms-init-departure.png){loading=lazy}
+
+    This will open the `F-PLN/DEPARTURE` page, from where you can select the Standard Instrument Departure (SID). 
+
+    * Click the `RUNWAY` dropdown and select `08L 4000M ILS`.
+    * Click the `SID` dropdown and scroll down until you can select `GIVM6Q`. 
+
+    For this SID, there is no Transition (`TRANS`) waypoint, so the dropdown will remain gray. 
+
+    ![INIT DEPARTURE ENTERED](../assets/beginner-guide/03_preparing-fms/fms-init-departure-entered.png){loading=lazy}
+
+    Now you can click the `TMPY F-PLN`, which will enter the SID information in the Temporary Flight Plan in the FMS. A Temporary Flight Plan will show in yellow text to indicate it isn't active yet.
     
-    !!! warning ""
-        Additionally, make note of this [Special Case](../advanced-guides/flight-planning/disco.md#special-case) on the discontinuity page.
+    You can use the arrow keys at the bottom of the screen to scroll through the current Flight Plan. The SID terminates at `GIVMI` and this is where we can begin to fill out the rest of the flight plan.
 
-!!! info "Viewing Flight Plan on ND"
-    We can also verify the route looks correct by selecting `Plan` on the EFIS control panel and watching the ND as we scroll through.
+    ^^Enroute Flight Plan^^
 
-### **^^S^^**ECONDARY FLIGHT PLAN
+    ![TMPY FPLN WAYPOINT MENU](../assets/beginner-guide/03_preparing-fms/fms-tmpy-fpln-waypoint-menu.png){loading=lazy}
 
-This page allows us to input a secondary flight plan. This page is currently inoperable in the A32NX. We will update this portion of the guide when it is usable.
+    Our flight plan uses Airways between waypoints to simplify the routing by using standard defined routes in the airspace. It also makes it easier to enter the Enroute portion of the flight plan.
 
-### **^^R^^**AD NAV
+    * Click the `GIVMI` waypoint.
+    * From the menu that opens, select `AIRWAYS`.
+    * Click the `VIA` field so a blue typing cursor appears in the field.
+    * Using your keyboard, type `Y1011` *(the airway)* and press the `ENTER` key.
+    * Click the `TO` field so a blue typing cursor appears in the field.
+    * Using your keyboard, type `ERNAS` *(the waypoint)* and press the `ENTER` key.
+    * A second line with a new `VIA` and `TO` field will appear. Use these to follow the same procedure to enter `T161` as the airway and `DEBHI` as the waypoint.
 
-On this page, we would set any frequencies or identifiers needed for the departure and subsequently later en route those required for the arrival.
+    ![TMPY FPLN AIRWAYS](../assets/beginner-guide/03_preparing-fms/fms-tmpy-fpln-airways.png){loading=lazy}
 
-For the purposes of this guide, we will be using frequencies on the RADNAV page.
+    * Click the `TMPY F-PLN` button to load this into your Temporary Flight Plan.
 
-If we would like to have additional navaids for the departure, we can input the runway localizer for runway centerline guidance on the PFD and the initial procedure turn, including the BRECON VOR (BCN) to verify the track en route to BCN. This is a little more advanced than this guide allows for, but we will cover how to input frequencies.
-
-^^VOR^^
-
-The A380X supports VOR autotuning when in range of a VOR before departure. You can verify this by checking the POSITION / NAVAIDS page accessed via the MFD or on the RMP, and seeing if the VOR frequency is already populated. You should verify the relevance of this VOR to your departure procedure and flight plan before takeoff.
-
-On this departure SID, we have routing instructions that rely on the Munich VOR `DMN` with a frequency of `116.0`.
-
-
-^^Departure ILS^^
-
-When selecting the SID earlier in the flight plan section, the A380X should have autopopulated the ILS/LOC frequency. If it hasn't, we can manually insert it for centerline guidance on take off.
-
-Our departure runway is EDDM/08L (runway 08 left), which has a frequency of `109.50`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. You could also enter the identifier `IMNE` and it would automatically fill in the frequency. You cannot enter both at the same time, as this would result in a `FORMAT ERROR`. 
-
-* Using the keypad, type in `109.50` and press LSK3L to input it.
-
-^^Arrival ILS^^
-
-With an ILS or LOC approach selected, the arrival ILS frequency should be automatically tuned correctly whenever the aircraft is at climb phase or greater and within 250 NM of the destination. **Ensure** that we verify the ILS frequency when we reach the arrival phase of the flight - see [Approach and Landing (ILS)](07_landing).
-
-Remember, our arrival airport/rwy is `EDDF/07L` with ILS07L having a frequency of `110.30`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. There is no need to fill these fields. You could also enter the identifier `IFEL` and it would automatically fill in the frequency. You cannot enter both at the same time, as this would result in a `FORMAT ERROR`. 
-
-* Using the keypad, type in `110.30` and press LSK3L to input it.
-
-![mcdu15](../assets/beginner-guide/mcdu/mcdu15.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
-
-^^ADF^^
-
-This works much in the same way as the examples above.
-
-### **^^I^^**NIT FUEL PRED
-
-To navigate to the `INIT FUEL PRED` page, we first have to select the `INIT` button. Once on `INIT A`, use the horizontal slew keys to switch the page to `INIT FUEL PRED`.
-
-On this page, we can input our zero fuel weight (ZFW) and zero fuel weight center of gravity (ZFWCG).
-
-!!! warning "Important Info - FMS Gross Weight (FMS GW)"
-    Fuel and payload have to be set in the aircraft (see link below) and passenger boarding has to be **complete or in progress** for the ZFW/ZFWCG values to be correct. The 
-    "planned" payload values are used for the calculation if boarding has not been completed.
-
-    Gross Weight (GW) value on the ECAM will appear only when certain conditions are satisfied:
-
-    - This page (INIT FUEL PRED) has a ZFW/ZFWCG value. **Reminder:** After engines are started, INIT FUEL PRED changes to the FUEL PRED page.
-    - At least one engine is running.
-
-    Please see our [Fuel and Weights Guide](../../fbw-a32nx/feature-guides/loading-fuel-weight.md) for more detailed information.
-
-The A380X can autopopulate this information.
-
-* Press LSK1R to load in the calculated ZFW/ZFWCG into the scratch pad at the bottom of the MCDU (after boarding has been started in the flyPad).
-* Press LSK1R a second time to input the above calculation into the MCDU. (The empty orange boxes should now be filled in by the scratch pad entry).
-
-Now we can add our fuel on board (FOB). The amount we input in this field can be done in one of three ways:
-
-* Indicated FOB on the upper ECAM.
-* We can have the MCDU plan the amount of fuel required.
-* The amount indicated in the OFP.
-
-!!! info "Loading Fuel"
-
-    Via the EFB - [Learn How](../../fbw-a32nx/feature-guides/flypados3/dispatch.md#fuel-page)
-
-^^ECAM FOB^^
-
-Look at the upper ECAM and note the FOB indicated. Let's say that amount is `4631 kg`. When inputting the block fuel into the MCDU, it is referenced in "tons", and we should round to the closest decimal point.
-
-* Using the keypad, type in `4.7` and press LSK2R.
-
-^^MCDU Planning^^
-
-!!! warning "A Note on Fuel Planning"
-
-    The *fuel planning* feature on the MCDU should only be used as a reference point before fueling the aircraft using the EFB. 
-
-    Generating / using the value provided by this feature may not be accurate and does not actually load fuel into the aircraft.
-
-We can choose to have the MCDU provide a recommended amount of fuel for the planned flight.
-
-* Press LSK3R to compute an amount of fuel.
-
-The `Block` field will be populated with a calculated fuel amount.
-
-* Press LSK3R again to confirm the fuel.
-* We should load this amount of fuel via the EFB.
-
-^^SimBrief OFP^^
-
-We can use the planned block fuel stated on the OFP, which in this case is `4631 kg`.
-
-* Using the keypad, type in `4.7` and press LSK2R
-* We should load this amount of fuel via the EFB option.
-
-![mcdu16](../assets/beginner-guide/mcdu/mcdu16.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
-
-### **^^P^^**ERF
-
-The performance page changes based on the relative stages of flight until we land the aircraft. When programming the MCDU on the ground, we start on the take-off performance page.
-
-For this flight, we will be taking off with a `1+F` flaps configuration.
-
-* Using the keypad, type in `1` and press LSK3R
-
-!!! info "THS Field MCDU"
-    **Entry of the THS field is subject to airline SOP and may not be required.**
-
-    ---
-
-    The Trimmable Horizontal Stabilizer (THS) field is where we enter the stabilizer trim for takeoff based on the aircraft's takeoff CG (TOCG). Entering this value in the MCDU will trigger the ^^F/CTL PITCH TRIM/MCDU/CG DISAGREE^^ ECAM caution, if appropriate.
-
-    If you have already entered your flaps configuration in the step above, applicable entries are formatted `/X.XDN` or `/X.XUP` representing a trim value and nose down or up respectively.
-
-    Examples:
-
-    - Nose down trim of 0.4 can be inputted as `/0.4DN`
-    - Nose up trim of 1.5 can be inputted as `/1.5UP`
-
-    {--
-
-    **For the purposes of simulation**, there are a couple of methods to set the value of THS, described below. We intend to add a better visual representation of the TOCG at a later time, since loadsheets are not available.
-
-    See the [After Engine Start](engine-start-taxi.md#after-engine-start) section to find the appropriate trim value and to physically set your trim.
-
-    ---
-
-    ^^GW CG^^
-
-    Insert a THS value based on the GW CG values found in the EFB Ground Services > Payload page or the Fuel Prediction page in the MCDU. While this will be slightly off versus TOCG because of taxi fuel consumption, this will be close enough to accurate values until a better TOCG display is implemented.
-
-    GW CG Values can be found: 
-
-    - On the [Payload Tab on the Grounds Services Page](../../fbw-a32nx/feature-guides/loading-fuel-weight.md#finding-the-payload-screen) in the flyPad EFB.
-    - On the [Fuel Prediction](../a32nx-briefing/mcdu/fuel-pred.md) page in the MCDU. <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
-
-    CG to THS calculation:
+    ??? info "DCT Before a Waypoint"
+        There will be cases where your flight plan has waypoints and no airways, or a mix of both. When you go direct from one waypoint to another, it will usually look like the following: `WAYPOINT DCT WAYPOINT`. You might also see directs represented as two waypoints without a separator, which looks like `WAYPOINT WAYPOINT`.
     
-    - CG to THS can be found in the downloable FBW checklist in our [Standard Operating Procedures](../SOP.md#normal-procedures) resources page.
-    - The CG/THS markings on the trim wheel can be used to validate this.
-
-    Make sure to update this value or set the correct trim once your engines have started.
-
-    ---
-
-    ^^After Engine Start^^
+        Let's look at an example and understand how to program these into the FMS. (*Please note this is not applicable to the sample flight plan in this guide, and we plan to create a more advanced flight plan entry guide at a later time.*)
     
-    Once the engines have been started, we can use the auto-calculated CG value (not the ZFWCG value) on the FUEL PRED page for determining the pitch trim setting. You can now update the THS setting (if you chose to input a THS value) in the take-off performance page and set the pitch trim using the trim wheel. Although the TOCG may be slightly different due to fuel being used for taxi, it will not change enough to require a change in pitch trim.
+        Below is the current flight plan we are utilizing:
+    
+        ```title="Current Sample Flight Plan"
+        EDDM/08L GIVMI6Q GIVMI Y101 ERNAS T161 DEBHI DEBHI1D EDDF/07C
+        ```
+    
+        Let's imagine for this example that there was no airway between `GIVMI` and `ERNAS`, as well as between `ERNAS` and `DEBHI`. The flight plan would look like the following:
+    
+        ```title="Example NO AIRWAY Flight Plan"
+        EDDM/08L GIVMI6Q GIVMI DCT ERNAS DCT DEBHI DEBHI1D EDDF/07C
+        ```
+    
+        !!! note ""
+            The airways `Y101` and `T161` were replaced with `DCT` indicating from waypoint `GIVMI` proceed direct to `ERNAS` and after that proceed direct to `DEBHI`.
+    
+        When you encounter this type of routing, there are a couple of ways to input this leg without the use of the airways page on the FMS.
+    
+        One of the easiest ways is utilizing the `INSERT NEXT WPT` option in the menu when clicking a waypoint in the flight plan. To do this, simply find the starting waypoint on your F-PLN page, which in this case is `GIVMI`.
+    
+        * Click the `GIVMI` waypoint.
+        * From the menu that opens, select `INSERT NEXT WPT`. You will see the following:
+        * Click the dropdown field so a blue typing cursors appears in the field (do not select from the dropdown).
+        * Using your keyboard, type `ERNAS` and press the `ENTER` key.
+        
+        ![TMPY FPLN NEXT WPT](../assets/beginner-guide/03_preparing-fms/fms-tmpy-fpln-next-wpt.png){loading=lazy width=50%}
+    
+    ^^Planning the Arrival^^
+    
+    For the purposes of this guide, we will pre-plan our arrival into `EDDF` via the `DEBHI1D` STAR into 07C.
+    
+    !!! info "Standard Terminal Arrival Route (STAR)"
+        Similar to the SID, these are procedures that are defined and published that take a flight from
+        the last point in a route *(in our case `DEBHI`)* to the first point in the approach or the initial approach fix (IAF).
+    
+        Also see: [SIDS and STARS](../../airliner/airliner-flying-guide/navigation.md#sids-and-stars)
+    
+    Find the `EDDF` button at the bottom left of the Temporary Flight Plan. This will open the `F-PLN/ARRIVAL` page, from where you can select the Standard Terminal Arrival Route (STAR).
 
-    --}
+    * Click the `RUNWAY` dropdown and select `07C 4000M`
+    * Click the `APPR` dropdown and select `I07CY`
+    ??? note "Y or Z Designators"
+        A designator such as Y or Z may be present. This suffix is to distinguish in the navigation database a difference between approaches to the same runway. While similar in nature, they may have different minimums, allowed equipment, or other differences.
 
-We can also choose to set a `FLEX TO TEMP` for the flight. The example we are using today is 60 degrees. 
-This will normally be calculated via a pilot's company EFB or other tools, but for the sake of this guide, we will use the value of 60.
+    * Click the `VIA` dropdown and select `DF454`
+    * Click the `STAR` dropdown and select `DEBH1D`
 
-Read the following tip for more information on FLEX temp.
+    For this STAR, there is no Transition (`TRANS`) waypoint, so the dropdown will remain gray. 
 
-* Using the keypad, type in `60` and press LSK4R
+    ![TMPY FPLN ARRIVAL ENTERED](../assets/beginner-guide/03_preparing-fms/fms-tmpy-fpln-arrival-entered.png){loading=lazy}
 
-#### Flex Temp
+    Now you can click the `TMPY F-PLN`, which will enter the STAR information in the Temporary Flight Plan in the FMS.     
 
-!!! tip "What is Flex Temp?"
-    Flex temp is entered into the MCDU, enabling the computer to use the pilot-specified air temperature to allow for take-off thrust that is less than TOGA but not less than CLB. This is a method of creating cost savings by increasing engine life, resulting in reduced overhaul and fuel costs. This value is normally calculated via a pilot's company EFB or other tools.
+    ^^Verify the Flight Plan^^
 
-    Unfortunately, A380 performance data for FLEX temp performance calculators alongside other various tools are not publicly available and are guarded by Airbus. For the purposes of simulation, it's important to note the following:
+    Verify the flight plan by scrolling through it and check all the waypoints. 
 
-    {==
+    !!! info "Viewing Flight Plan on ND"
+        We can also verify the route looks correct by selecting `Plan` on the EFIS control panel and watching the ND as we scroll through. When doing so for a Temporary Flight Plan, the lines between waypoints will be dashed and yellow. The active flight plan will show as green solid lines.
 
-    Flex temps are above ISA+29°C (44°C at sea level) and above current temp, but no higher than ISA+59°C (74°C at sea level). Usable Flex temps at sea level are from 45 °C (or current OAT if it is higher) to 74 °C.
+    ??? info "MANUAL Leg and DISCONTINUITY"
+        The flight plan might contain so-called discontinuities. These are breaks in the flight plan and often separate two flight plan sections, like the SID and first in-route waypoint or the STAR and the APPR. They are also often inserted when the flight plan is modified.
 
-    Additionally, a decent rule of thumb for simulation purposes is to use a lower number if heavy or on a short runway and higher for the opposite.
+        Sometimes discontinuities are also part of a procedure to indicate that manual input is required
+        (mostly clearance by ATC). The preceding legs are called MANUAL legs. 
+    
+        **Discontinuities after a MANUAL leg can not and should not be deleted. See below link on how to 
+        handle discontinuities.** 
+    
+        In this flight plan we have a discontinuity between the STAR and approach procedure as shown below.
 
-    ==}
+        ![TMPY FPLN DISCONTINUITY](../assets/beginner-guide/03_preparing-fms/fms-tmpy-fpln-discontinuity.png){loading=lazy}
 
-Our SID chart mentions that the TRANS ALT for this departure is 5000 ft.
+        See our detailed documentation for [Discontinuities](../../a32nx/a32nx-advanced-guides/flight-planning/disco.md){target=new} to understand how to appropriately handle these when encountered on your F-PLN page. 
+    
+        !!! warning ""
+            Additionally, make note of this [Special Case](../../a32nx/a32nx-advanced-guides/flight-planning/disco.md#special-case) on the discontinuity page.
 
-* Using the keypad, type in `5000` and press LSK4L
+    After verifying the flight plan, you can use the `INSERT TMPY *` button on the bottom right of the `F-PLN` page. This will insert the Temporary Flight Plan into the Active Flight Plan.
 
-#### V-Speeds
+### Navaids
 
-V-Speeds are normally calculated by a company EFB or other tools. Unfortunately, A320neo performance
-data for V-Speeds alongside other various tools are not publicly available and are guarded by Airbus. 
-Therefore, the A32NX has a built-in simplified V-Speed calculator, which can be used by simply 
-clicking the LSK next to the V-Speed you want to calculate.
+??? tip "What and Why?"
+    The Navaids are used to tune the different radio navigation frequencies. This includes VOR and ILS frequencies.
 
-* Press LSK1L to have the calculated V1 speed appear in the scratchpad.
+    * A VOR (Very High Frequency Omni-Directional Range) is a radio beacon that can be used for non-precision navigation. These beacons are used to follow or verify the route flown.
+    * ILS (Instrument Landing System) is a radio navigation system that provides short-range guidance to aircraft for landing on a runway.
 
-![mcdu19](../assets/beginner-guide/mcdu/mcdu19.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
+    Both can be entered using frequencies or identifiers for ease of use. 
 
-* Press LSK1L again to have the value inputted into the V1 speed. The value you get can be different 
-  from the one in the image as it depends on the weight of the aircraft.
-* Repeat this procedure for VR and V2.
+    The A380X supports VOR and ILS autotuning when in range of a VOR before departure. We will verify this in the "How and Where?" step below. For ILS autotuning, the FMS will automatically load the departure runway ILS frequency if there is one. Once we get within 250NM of our destination and are in climb phase or later, the ILS frequency of the selected arrival runway will be autotuned.
 
-The performance page should now look similar to this:
+`NAVAIDS..............................................................CHECK`<br/>
 
-![mcdu20](../assets/beginner-guide/mcdu/mcdu20.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
+??? tip "How and Where?"
+    To reach the Navaids page, go back to the `INIT` page. You can do so by either selecting `INIT` from the `ACTIVE` dropdown, or if you are on the `F-PLN` page after the previous section, you can just click the `INIT` button on the bottom of the `F-PLN` page. 
 
-## Entering Squawk Code
+    Once on the `INIT` page, you can click the `NAVAIDS` button to go to the Navaids page.
 
-During your MCDU preparation or before departing from the stand, you should have obtained your IFR clearance. As part of this action, you will be given a transponder/squawk code 
-for your flight. This allows ATC to identify your aircraft on their radar.
+    On this page, we would set any frequencies or identifiers needed for the departure and subsequently later en route, those required for the arrival.
 
-To enter your assigned code find the ATC/TCAS Panel on the bottom right portion of the lower pedestal. It will look like this:
+    ^^VOR Tuning^^
 
-![ATC-TCAS.png](../assets/beginner-guide/takeoff-climb-cruise/ATC-TCAS.png){loading=lazy} <p style="color:yellow; font-size:18px;">TODO: update this image to 380 spec.</p>
+    The A380X supports VOR autotuning when in range of a VOR before departure. You can verify this by checking the RADNAV page and seeing if the VOR frequency is already populated. You should verify the relevance of this VOR to your departure procedure and flight plan before takeoff.
 
-- Ensure that the `XPDR` switch is on STDBY for now (will be set to `AUTO` or `ON` shortly before take-off)
-- To clear the current code, **double press** the `CLR` button.
-- Enter your assigned code using the keypad.
+    On this departure SID, we have routing instructions that rely on the Munich VOR `DMN` with a frequency of `116.0`.
 
+    To enter this, you can click the `IDENT` field for `VOR1` and enter `DMN` and press `ENTER`. A page will open showing multiple options. Select the closest one, with the `116.0` frequency. Now you have the `DMN` VOR selected and can use it as a reference on the ND.
+
+    ^^Departure ILS^^
+
+    When selecting the SID earlier in the flight plan section, the A380X should have autopopulated the ILS/LOC frequency under the `LS` heading. If it hasn't, we can manually insert it for centerline guidance on take off.
+
+    Our departure runway is EDDM/08L (runway 08 left), which has a frequency of `109.50`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. You could also enter the identifier `IMNE` and it would automatically fill in the frequency.
+
+    If the ILS information was not automatically populated, you can select the `IDENT` field under the `LS` header and type in `IMNE` and then press `ENTER`. The other fields will automatically get populated.
+
+    ^^Arrival ILS^^
+
+    With an ILS or LOC approach selected, the arrival ILS frequency should be automatically tuned correctly whenever the aircraft is in climb phase or greater and within 250 NM of the destination. Ensure that we verify the ILS frequency when we reach the arrival phase of the flight - see [Landing](07_landing.md#during-instrument-approach).
+
+    ![NAVAIDS](../assets/beginner-guide/03_preparing-fms/fms-navaids.png){loading=lazy}
+
+### Fuel & Payload
+
+??? tip "What and Why?"
+    Will contain the Fuel & Payload what/why
+
+`ZFW/ZFWCG...........................................................INSERT`<br/>
+`BLOCK FUEL..........................................................INSERT`<br/>
+`RTE RSV/FINAL..................................CHECK/INSERT AS APPROPRIATE`<br/>
+`MIN FUEL AT DEST...............................CHECK/INSERT AS APPROPRIATE`<br/>
+
+??? tip "How and Where?"
+    Will contain the Fuel & Payload how/where
+
+### Performance
+
+<!-- TODO: Decide if we include NOISE PROCEDURE and EO ACCEL ALTITUDE and THRUST REDUCTION/ACCELERATION ALTITUDE -->
+
+??? tip "What and Why?"
+    Will contain the Performance what/why
+
+`PRELIMINARY TAKEOFF PERF DATA.......................................INSERT`<br/>
+`V1, VR and V2.......................................................INSERT`<br/>
+`TOGA/FLEX/DERATED............................................SELECT/INSERT`<br/>
+`FLAPS...............................................................SELECT`<br/>
+`ANTI-ICE............................................................INSERT`<br/>
+`TRANS ALTITUDE..............................................AS APPROPRIATE`<br/>
+
+??? tip "How and Where?"
+    Will contain the Performance how/where
+
+<!--
+
+TODO: Consider more sections to add:
+* Secondary Flight Plan
+* Route Summary (verification)
+* FMS Verification
+
+`..........................................................................`<br/>
+`..........................................................................`<br/>
+`..........................................................................`<br/>
 -->
 
 ---
 
 ## A380X simBrief Integration
 
-<p style="color:yellow; font-size:18px;">TODO: update/complete this</p>
+<!-- TODO: Update -->
 
 This section has been moved to our dedicated [simBrief Integration](../../../aircraft/a32nx/feature-guides/simbrief.md#importing-the-simbrief-ofp-to-the-fms-mcdu) feature guide.
 
 ---
 
-After setting up the MCDU, continue with [Engine Start and Taxi](04_engine-start-taxi)
+After setting up the FMS, continue with [Engine Start and Taxi](04_engine-start-taxi)
