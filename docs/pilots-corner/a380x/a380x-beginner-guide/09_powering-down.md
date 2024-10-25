@@ -59,7 +59,7 @@ would not turn off certain systems and at some point simply start with the prepa
     longer necessary.
 
 `ANTI-ICE ............................................................. OFF`<br/>
-`AUXILIARY POWER UNIT BLEED ............................................ ON`<br/>
+`APU BLEED ............................................................. ON`<br/>
 `PARKING BRAKE ......................................................... ON`<br/>
 `ENGINE MASTER SWITCHES (1, 2, 3, 4) .................................. OFF`<br/>
 `SEAT BELTS ........................................................... OFF`<br/>
@@ -74,17 +74,34 @@ would not turn off certain systems and at some point simply start with the prepa
     Verify the amount of fuel left on board is consistent with the predicted fuel remaining.
 
 ??? tip "How and Where?"
-    <p style="color:yellow; font-size:18px;">TODO: add screenshots and how to for the above steps</p>
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
+    clickable cockpit that will show you where each item is located.
+    
+    * [Anti-Ice](../../a380x-briefing/flight-deck/ovhd/anti-ice)
+    * [APU Bleed](../../a380x-briefing/flight-deck/ovhd/apu)
+    * [Parking Brake](../../a380x-briefing/flight-deck/pedestal/parking-brake)
+    * [Engine Master Switches](../../a380x-briefing/flight-deck/pedestal/engine-master)
+    * [Seat Belts](../../a380x-briefing/flight-deck/ovhd/int-lt)
+    * [Beacon](../../a380x-briefing/flight-deck/ovhd/ext-lt)
+    * [Exterior Lights](../../a380x-briefing/flight-deck/ovhd/ext-lt)
+    * [Fuel Pumps](../../a380x-briefing/flight-deck/ovhd/fuel)
 
 `PARKING CHECKLIST ............................................... COMPLETE`<br/>
 ??? note "Parking Checklist"
-    `APU ..................................................................... START`<br/>
-    `PARK BRK ................................................................... ON`<br/>
-    `EXT LT ............................................................ AS REQUIRED`<br/>
-    `APU BLEED .................................................................. ON`<br/>
-    `ALL ENGs .................................................................. OFF`<br/>
-    `FUEL PMPs ................................................................. OFF`<br/>
-    `SEAT BELTS ................................................................ OFF`<br/>
+    The Airbus A380 has a built-in checklist system that can be accessed via the
+    [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
+
+    To activate it you need to press the `C/L` button on the 
+    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam).
+
+    You can navigate through the checklist by using the `UP` and `DOWN` buttons on the ECP. You can check/uncheck items
+    by pressing the buttons with the check mark on the ECP.
+
+    Some items are autosensed by the aircraft and will be checked automatically.
+
+    ![Checklist Parking](../assets/beginner-guide/09-powering-down/checklist-parking.png){loading=lazy} 
 
 This concludes *Parking at the Gate*.
 
@@ -107,8 +124,6 @@ Taking care of passengers and luggage with the FlyByWire flyPad:
 - Go to the flyPad (view can be activated by `Ctrl+0`).
 - Connect the Jetway (PAX).
 - Call cargo/baggage (Baggage).
-
-<p style="color:yellow; font-size:18px;">TODO: update flypad pax and cargo loading screenshot</p>
 
 This would take a while in real life, and we would not be able to shut down the aircraft before all
 passengers and crew have disembarked.
@@ -139,24 +154,41 @@ This concludes *Disembarking Passengers and Baggage*.
 `OXYGEN CREW SUPPLY ................................................... OFF`<br/>
 `ADIRS (1+2+3) ........................................................ OFF`<br/>
 `EXTERIOR LIGHTS ...................................................... OFF`<br/>
-`AUXILIARY POWER UNIT BLEED ........................................... OFF`<br/>
+`APU BLEED ............................................................ OFF`<br/>
 `EXTERNAL POWER ....................................................... OFF`<br/>
 `AUXILIARY POWER UNIT MASTER SWITCH ................................... OFF`<br/>
 `EMERGENCY EXIT LIGHTS ................................................ OFF`<br/>
 `NO SMOKING ........................................................... OFF`<br/>
 
 ??? tip "How and Where?"
-    <p style="color:yellow; font-size:18px;">TODO: add screenshots and how to for the above steps</p>
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
+    clickable cockpit that will show you where each item is located.
+    
+    * [Parking Brake](../../a380x-briefing/flight-deck/pedestal/parking-brake)
+    * [Oxygen Crew Supply](../../a380x-briefing/flight-deck/ovhd/oxygen)
+    * [ADIRS](../../a380x-briefing/flight-deck/ovhd/adirs)
+    * [Exterior Lights](../../a380x-briefing/flight-deck/ovhd/ext-lt)
+    * [APU Bleed](../../a380x-briefing/flight-deck/ovhd/apu)
+    * [External Power](../../a380x-briefing/flight-deck/ovhd/elec)
+    * [APU Master Switch](../../a380x-briefing/flight-deck/ovhd/apu)
+    * [Emergency Exit Lights](../../a380x-briefing/flight-deck/ovhd/signs)
 
 `SECURING THE AIRCRAFT CHECKLIST ................................. COMPLETE`<br/>
 ??? note "Securing the Aircraft Checklist"
-    `ADIRS (1+2+3) ............................................................. OFF`<br/>
-    `OXYGEN CREW SUPPLY ........................................................ OFF`<br/>
-    `APU BLEED ................................................................. OFF`<br/>
-    `EMERGENCY EXIT LIGHTS ..................................................... OFF`<br/>
-    `SEAT BELTS ................................................................ OFF`<br/>
-    `NO SMOKING ................................................................ OFF`<br/>
-    `APU MASTER SWITCH ......................................................... OFF`<br/>
+    The Airbus A380 has a built-in checklist system that can be accessed via the
+    [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
+
+    To activate it you need to press the `C/L` button on the 
+    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam).
+
+    You can navigate through the checklist by using the `UP` and `DOWN` buttons on the ECP. You can check/uncheck items
+    by pressing the buttons with the check mark on the ECP.
+
+    Some items are autosensed by the aircraft and will be checked automatically.
+
+    ![Checklist Securing](../assets/beginner-guide/09-powering-down/checklist-securing.png){loading=lazy}
 
 `ALL BATT (Battery 1, Essential, Battery 2, APU Battery) .............. OFF`<br/>
 
