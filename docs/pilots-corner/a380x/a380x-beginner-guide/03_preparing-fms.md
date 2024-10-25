@@ -47,12 +47,12 @@ Visit [Cockpit Preparation](02_cockpit-preparation.md) to learn more.
 
     Clearances will usually provide the following information below. As a pilot, you would need to read back the clearance correctly or acknowledge it if using the built-in ATC menu.
 
-    - Cleared to the destination via specified route in the filed flight plan.
-    - Initial cleared altitude after departure.
-    - Assigned SID for departure OR radar vectors
-    - Assigned departing runway.
-    - [Transponder/squawk code](#entering-squawk-code).
-    - Departure frequency.
+    * Cleared to the destination via specified route in the filed flight plan.
+    * Initial cleared altitude after departure.
+    * Assigned SID for departure OR radar vectors
+    * Assigned departing runway.
+    * [Transponder/squawk code](#entering-squawk-code).
+    * Departure frequency.
 
     Additional reading material: [The CRAFT mnemonic](https://en.wikipedia.org/wiki/CRAFT_(aviation)){target=new}
 
@@ -62,21 +62,18 @@ Visit [Cockpit Preparation](02_cockpit-preparation.md) to learn more.
 
 This guide will cover the following topics in helping you set up the FMS:
 
-<!-- TODO: Link the menu items -->
-
-1. Understanding the FMS
-2. FMS Initialization
-   * Data & Status
-   * Init & Flight Plan Initialization
-   * Navaids
-   * Fuel & Payload Management
-   * Performance
-3. Entering a Squawk Code
-4. A380X simBrief Integration
+* [Understanding the FMS](#understanding-the-fms)
+    * [Using Keyboard and Mouse](#using-keyboard-and-mouse)
+* [FMS Initialization](#fms-initialization)
+    * [Data & Status](#data-status)
+    * [Init & Flight Plan Initialization](#init-flight-plan-initialization)
+    * [Navaids](#navaids)
+    * [Fuel & Payload](#fuel-payload)
+    * [Performance](#performance)
+* [A380X simBrief Integration](#a380x-simbrief-integration)
 
 ## Understanding the FMS
 
-<!-- TODO: Will contain data on how to use the FMS -->
 During this guide we will be referring to a few key terms which are defined below.
 
 ### Using Keyboard and Mouse
@@ -207,16 +204,16 @@ When the FMS first starts, it will show a screen showing the current status of t
     
     You can use the arrow keys at the bottom of the screen to scroll through the current Flight Plan. The SID terminates at `GIVMI` and this is where we can begin to fill out the rest of the flight plan.
 
-    ^^Enroute Flight Plan^^
+    ^^En route Flight Plan^^
 
     ![TMPY FPLN WAYPOINT MENU](../assets/beginner-guide/03_preparing-fms/fms-tmpy-fpln-waypoint-menu.png){loading=lazy}
 
-    Our flight plan uses Airways between waypoints to simplify the routing by using standard defined routes in the airspace. It also makes it easier to enter the Enroute portion of the flight plan.
+    Our flight plan uses Airways between waypoints to simplify the routing by using standard defined routes in the airspace. It also makes it easier to enter the En route portion of the flight plan.
 
     * Click the `GIVMI` waypoint.
     * From the menu that opens, select `AIRWAYS`.
     * Click the `VIA` field so a blue typing cursor appears in the field.
-    * Using your keyboard, type `Y1011` *(the airway)* and press the `ENTER` key.
+    * Using your keyboard, type `Y101` *(the airway)* and press the `ENTER` key.
     * Click the `TO` field so a blue typing cursor appears in the field.
     * Using your keyboard, type `ERNAS` *(the waypoint)* and press the `ENTER` key.
     * A second line with a new `VIA` and `TO` field will appear. Use these to follow the same procedure to enter `T161` as the airway and `DEBHI` as the waypoint.
@@ -314,12 +311,12 @@ When the FMS first starts, it will show a screen showing the current status of t
 ??? tip "What and Why?"
     The Navaids are used to tune the different radio navigation frequencies. This includes VOR and ILS frequencies.
 
-    * A VOR (Very High Frequency Omni-Directional Range) is a radio beacon that can be used for non-precision navigation. These beacons are used to follow or verify the route flown.
+    * A VOR (Very High Frequency Omnidirectional Range) is a radio beacon that can be used for non-precision navigation. These beacons are used to follow or verify the route flown.
     * ILS (Instrument Landing System) is a radio navigation system that provides short-range guidance to aircraft for landing on a runway.
 
     Both can be entered using frequencies or identifiers for ease of use. 
 
-    The A380X supports VOR and ILS autotuning when in range of a VOR before departure. We will verify this in the "How and Where?" step below. For ILS autotuning, the FMS will automatically load the departure runway ILS frequency if there is one. Once we get within 250NM of our destination and are in climb phase or later, the ILS frequency of the selected arrival runway will be autotuned.
+    The A380X supports VOR and ILS auto-tuning when in range of a VOR before departure. We will verify this in the "How and Where?" step below. For ILS auto-tuning, the FMS will automatically load the departure runway ILS frequency if there is one. Once we get within 250NM of our destination and are in climb phase or later, the ILS frequency of the selected arrival runway will be auto-tuned.
 
 `NAVAIDS..............................................................CHECK`<br/>
 
@@ -332,7 +329,7 @@ When the FMS first starts, it will show a screen showing the current status of t
 
     ^^VOR Tuning^^
 
-    The A380X supports VOR autotuning when in range of a VOR before departure. You can verify this by checking the RADNAV page and seeing if the VOR frequency is already populated. You should verify the relevance of this VOR to your departure procedure and flight plan before takeoff.
+    The A380X supports VOR auto-tuning when in range of a VOR before departure. You can verify this by checking the RADNAV page and seeing if the VOR frequency is already populated. You should verify the relevance of this VOR to your departure procedure and flight plan before takeoff.
 
     On this departure SID, we have routing instructions that rely on the Munich VOR `DMN` with a frequency of `116.0`.
 
@@ -340,9 +337,9 @@ When the FMS first starts, it will show a screen showing the current status of t
 
     ^^Departure ILS^^
 
-    When selecting the SID earlier in the flight plan section, the A380X should have autopopulated the ILS/LOC frequency under the `LS` heading. If it hasn't, we can manually insert it for centerline guidance on take off.
+    When selecting the SID earlier in the flight plan section, the A380X should have auto-populated the ILS/LOC frequency under the `LS` heading. If it hasn't, we can manually insert it for centerline guidance on take off.
 
-    Our departure runway is EDDM/08L (runway 08 left), which has a frequency of `109.50`. When inputting a frequency, and we are in range of the ILS, it will autopopulate the identifier and course. You could also enter the identifier `IMNE` and it would automatically fill in the frequency.
+    Our departure runway is EDDM/08L (runway 08 left), which has a frequency of `109.50`. When inputting a frequency, and we are in range of the ILS, it will auto-populate the identifier and course. You could also enter the identifier `IMNE` and it would automatically fill in the frequency.
 
     If the ILS information was not automatically populated, you can select the `IDENT` field under the `LS` header and type in `IMNE` and then press `ENTER`. The other fields will automatically get populated.
 
@@ -355,7 +352,19 @@ When the FMS first starts, it will show a screen showing the current status of t
 ### Fuel & Payload
 
 ??? tip "What and Why?"
-    Will contain the Fuel & Payload what/why
+    For a safe flight, we need to make sure that the FMS has the correct information about the fuel and payload on board. This section will go over configuring the different values the FMS will use for optimal flight planning:
+
+    * **Zero Fuel Weight (ZFW)** is the weight of the aircraft including passengers, cargo, and crew, but excluding usable fuel.
+    * **Zero Fuel Weight Center of Gravity (ZFWCG)** represents the aircraft's balance point without fuel, affecting stability and control during flight.
+    * **Block Fuel (BLOCK)** is the total amount of fuel loaded before departure, covering the entire flight, reserves, and taxiing.
+    * **Route Reserve Fuel (RTE RSV)** is additional fuel allocated for potential deviations along your planned route, such as detours due to weather or air traffic control instructions.
+    * **Alternate Fuel (ALTN)** is the fuel required to fly from your destination airport to the alternate airport if landing at the original destination isn't possible.
+    * **Final Reserve Fuel (FINAL)** is the mandatory minimum fuel reserve upon reaching the alternate airport, typically enough for 30 minutes of holding at a specified altitude. This is also referred to as **FINRES**.
+    * **Passengers (PAX)** is the amount of passengers aboard.
+
+
+    !!! info "Loading Fuel"
+        Via the EFB - [Learn How](../../../aircraft/common/flypados3/ground.md#fuel-page)
 
 `ZFW/ZFWCG...........................................................INSERT`<br/>
 `BLOCK FUEL..........................................................INSERT`<br/>
@@ -363,14 +372,73 @@ When the FMS first starts, it will show a screen showing the current status of t
 `MIN FUEL AT DEST...............................CHECK/INSERT AS APPROPRIATE`<br/>
 
 ??? tip "How and Where?"
-    Will contain the Fuel & Payload how/where
+    Return to the `INIT` page on the FMS and select the `FUEL&LOAD` button to open the `FUEL&LOAD` page where we will fill in the different values for `ZFW`, `ZFWCG`, `BLOCK`, `TAXI`, `PAX NBR`, `ALTN` and `FINAL`.
+
+    Before we can fill in the values though, we need to find the correct values. Each of these can be found in several locations, below is a description for the most common locations in the EFB or OFP.
+
+    ^^ZFW, BLOCK, ALTN and FINAL/FINRES^^
+
+    These values can be found in the OFP as shown below. Note that ZFW can also be found on the EFB once passengers start boarding. 
+
+    ![OFP FUEL VALUES](../assets/beginner-guide/03_preparing-fms/ofp-zfw-altn-finres-block.png){loading=lazy}
+
+    ^^ZFW, ZFWCG and PAX^^
+
+    Once boarding has started with the appropriate number of passengers set in the EFB, using the payload window, you can find the ZFW, ZFWCG and PAX as highlighted below.
+
+    ![EFB PAYLOAD PAGE](../assets/beginner-guide/03_preparing-fms/efb-payload-zfw-zfwcg.png){loading=lazy}
+
+    You can also find the passenger numbers in the OFP as well in the WEIGHTS section on the third page.
+
+    ![EFB WEIGHTS](../assets/beginner-guide/03_preparing-fms/ofp-pax.png){loading=lazy}
+
+    ---
+
+    Now that we have all the necessary values, we can go to each of the different fields and set the correct values. It's important to indicate that in the OFP or EFB, the values are set in Kilograms (KG), where the FMS expects them in Tons (1000 KG). We need to divide the values from the OFP and EFB by a 1000 and round them to one decimal.
+
+    Some of the values might already have some information set, but it is good to verify they are correct, and if not, enter the correct ones.
+
+    * Click on in the input box next to `ZFW` to fill in the value of `332.0` and press `ENTER` to store the value.
+    * For the `ZFWCG`, we do the same and enter `35.4`.
+    * Next is the `BLOCK` value, where we fill in the block fuel value of `22.8`. 
+    * For `TAXI`, we set the value to `1.0`.
+    * `PAX NBR` we set to `308`.
+    * The `CI` should already be set to `10`, but it's good to verify.
+    * `RTE RSV` is grayed out and can not be configured at this time, this is expected. As long as `BLOCK` is correctly filled in, the FMS will take all fuel on board in account.
+    * For the `ALTN` value, we set `6.0`.
+    * Finally, check the `FINAL` value, it should be close to what is in the OFP, if not, fill in the correct value as described in the OFP. This might slightly change the time indication for your final reserve.
+
+    Once you have filled in all the information in the `FUEL&LOAD` page, the page should look similar to the one below.
+
+    ![FMS FUEL AND LOAD](../assets/beginner-guide/03_preparing-fms/fms-fuel-load.png){loading=lazy}
 
 ### Performance
 
-<!-- TODO: Decide if we include NOISE PROCEDURE and EO ACCEL ALTITUDE and THRUST REDUCTION/ACCELERATION ALTITUDE -->
-
 ??? tip "What and Why?"
-    Will contain the Performance what/why
+    The `PERF` page in holds information about the performance configuration of the aircraft for every phase of the flight, starting with the Take Off phase.
+
+    The `T.O PERF` (Takeoff Performance) page in the FMS allows pilots to input and verify takeoff-related data to optimize aircraft performance during departure. Its primary purpose is to ensure that the aircraft operates within safe performance limits by accounting for current conditions such as aircraft weight, runway length, environmental factors, and configuration settings.
+
+    On the `T.O PERF` page, pilots enter or confirm settings like takeoff flaps and slats positions, engine thrust mode (more details below), and any changes in available runway length (`T.O SHIFT`). Additionally, it also requires setting the essential speeds:
+
+    * **V1**: Decision speed where a takeoff should no longer be aborted.
+    * **VR**: Rotation speed at which the pilot begins to lift the nose for takeoff.
+    * **V2**: Takeoff safety speed that ensures sufficient climb performance.
+    
+    The page may also include settings for acceleration altitude and engine-out acceleration altitude, which are important for climb performance and obstacle clearance. By accurately configuring the `T.O PERF` page, pilots ensure that the aircraft's automation systems are properly programmed for the takeoff phase, enhancing safety and efficiency.
+
+    ^^TOGA, FLEX and DERATED^^
+
+    The choice among TOGA, FLEX, and DERATED depends on factors like runway length, aircraft weight, and environmental conditions.
+
+    * TOGA (Takeoff/Go-Around) thrust provides maximum engine power for takeoff and is used when maximum performance is required, such as on short runways or in adverse conditions. 
+    * FLEX thrust is a reduced power setting based on an assumed higher temperature, allowing for lower engine stress and fuel savings; it's used when full thrust isn't necessary due to favorable conditions. 
+    * DERATED takeoff further reduces engine thrust by selecting a lower fixed thrust setting, independent of temperature assumptions. This minimizes engine wear and extends its lifespan.
+
+    !!! note "DERATED is not yet supported for the A380X."
+
+    For this guide, we will use FLEX thrust. 
+    
 
 `PRELIMINARY TAKEOFF PERF DATA.......................................INSERT`<br/>
 `V1, VR and V2.......................................................INSERT`<br/>
@@ -380,7 +448,42 @@ When the FMS first starts, it will show a screen showing the current status of t
 `TRANS ALTITUDE..............................................AS APPROPRIATE`<br/>
 
 ??? tip "How and Where?"
-    Will contain the Performance how/where
+    To fill in the `T.O PERF` page, we will need to calculate the appropriate values. We will use the [Simbrief Takeoff Performance Calculater](https://dispatch.simbrief.com/tools/search?performance=takeoff){target=new}. By selecting the proper configuration, we can get good estimations of values that will work.
+
+    Using the calculator, we need to fill in several fields:
+
+    * Select the correct Aircraft Type (A388 - A380-800) and the correct Variant (D8-FBW - FLYBYWIRE A380X). 
+    * Enter the Airport as `EDDM` and select Runway `08L`.
+    * Enter the Takeoff Weight as `353837`, this can be found on the `FUEL&LAD` page after entering all the correct values under `TOW`. A more accurate value can be found on the OFP.
+      ![OFP TOW](../assets/beginner-guide/03_preparing-fms/ofp-tow.png){loading=lazy}
+    * Select the Flap Setting as `2`, this will more efficient on the take off and lower our speeds.
+    * Select `TOGA/FLEX` for the Thrust Setting.
+    * For the other values, it is you can keep them as Simbrief populates them. It is good to select "Populate Weather" to get the current weather at the airport to get accurate data for when you are flying.
+
+    ![SIMBRIEF TO PERF CALCULATOR](../assets/beginner-guide/03_preparing-fms/simbrief-perf-input.png){loading=lazy}
+
+    After all values have been entered, press the Calculate button, and the Takeoff Performance panel on the right should show the calculated values.
+
+    ![SIMBRIEF TO PERF RESULTS](../assets/beginner-guide/03_preparing-fms/simbrief-perf-results.png){loading=lazy}
+
+    ---
+
+    To enter these values, we need to go to the `T.O PERF` page by clicking the `T.O PERF` page on the `INIT` page in the FMS. Once the page opens, enter the calculated values from the Simbrief Takeoff Performance calculator (the values calculated for your flight might differ because of different weather situations):
+
+    * Set the `V1` speed to `133`.
+    * Set the `VR` speed to `133`. 
+    * Set the `V2` speed to `142`.
+    * Select `FLEX` and fill in `66` for the temperature.
+    * Select `2` for `FLAPS`.
+    * Set `PACKS` to `ON` and `ANTI ICE` to `OFF`.
+    * The `THR RED`, `ACCEL` and `EO ACCEL` altitudes will be set automatically to appropriate values.
+    * The `TRANS` Altitude (transition altitude) can be found on the chart for our SID, in case of the `GIVMI6Q` SID, the transition altitude is `5000`.
+
+    Once you filled in all fields, your `T.O PERF` page should look similar to the image below. 
+
+    ![FMS T.O PERF PAGE](../assets/beginner-guide/03_preparing-fms/fms-perf-to.png){loading=lazy}
+
+    <!-- TODO: THS description and calculation -->
 
 <!--
 
