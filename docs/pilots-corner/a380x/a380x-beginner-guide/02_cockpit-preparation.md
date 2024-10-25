@@ -7,6 +7,7 @@ It includes images to help you understand the locations of all buttons and switc
 
 !!! warning "Disclaimer"
     <p style="color:coral;">This is for simulation purposes only.</p>
+
     The level of detail in this guide is meant to teach an Airbus A380 beginner to start the aircraft correctly.
 
     A *beginner* is defined as someone familiar with flying a GA aircraft or different types of airliners. Aviation 
