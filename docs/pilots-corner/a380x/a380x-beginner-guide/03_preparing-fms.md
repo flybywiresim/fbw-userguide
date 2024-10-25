@@ -134,7 +134,7 @@ When the FMS first starts, it will show a screen showing the current status of t
     ![FMS FLT NBR](../assets/beginner-guide/03_preparing-fms/fms-init-flt-nbr.png){loading=lazy}
 
     * Click the `FLT NBR` field so a blue typing cursor appears in the field.
-    * Using your keyboard, type `FBW380` and press the `ENTER` key.
+    * Using your keyboard, type the flight number you want to use (e.g. "FBW388") and press the `ENTER` key.
 
     This will confirm the flight number in the FMS. It can be used to identify your flight.
 
@@ -505,7 +505,7 @@ TODO: Consider more sections to add:
 
 <!-- TODO: Update -->
 
-This section has been moved to our dedicated [simBrief Integration](../../../aircraft/a32nx/feature-guides/simbrief.md#importing-the-simbrief-ofp-to-the-fms-mcdu) feature guide.
+This section has been moved to our dedicated [simBrief Integration](../../../aircraft/a380x/feature-guides/simbrief.md#importing-the-simbrief-ofp-to-the-fms-mcdu) feature guide.
 
 ---
 

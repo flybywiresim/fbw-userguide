@@ -119,6 +119,14 @@ After these pre-checks, we can start the aircraft starting with the initial powe
 
 `APU MASTER SWITCH ..................................................... ON`<br/>
 `APU START ............................................................. ON`<br/>
+??? note "APU Start"
+    You can monitor the APU start on the SD APU page which comes up automatically when the APU is started. Once the APU 
+    is running, the APU page will show switch back to the previous page. 
+
+    The APU page should look similar to this now:
+
+    ![APU Page](../assets/beginner-guide/02_cockpit-preparation/sd-apu-page.png){loading=lazy}
+
 `EXTERNAL POWER .................................................... AS REQ`<br/>
 ??? note "External Power"
     It is recommended to keep the external power units to ON to reduce the APU load in hot weather conditions.
@@ -250,7 +258,7 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 `CARGO AIR COND ............................................... AS REQUIRED`<br/>
 `RADIO MANAGEMENT PANEL 3 .............................................. ON`<br/>
 `STBY RAD NAV ......................................................... OFF`<br/>
-`CVR TEST ........................................................... PRESS`<br/>
+`CVR TEST (INOP) .................................................... PRESS`<br/>
 
 ??? tip "How and Where?"
     [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
@@ -286,11 +294,11 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 ## Pedestal
 
 `PARKING BRAKE ........................................................ ON`<br/>
-`BODY ACCUMULATOR PRESSURE ............................... CHECK/REINFLATE`<br/>
+`BODY ACCUMULATOR PRESSURE (INOP)......................... CHECK/REINFLATE`<br/>
 `THRUST LEVERS ...................................................... IDLE`<br/>
 `THRUST REVERSE LEVERS ............................................ STOWED`<br/>
 `ENGINE MASTER SWITCHES (1, 2, 3, 4) ................................. OFF`<br/>
-`COCKPIT DOOR SWITCH ................................................ NORM`<br/>
+`COCKPIT DOOR SWITCH (INOP).......................................... NORM`<br/>
 `ATC CLEARANCE .....................................................OBTAIN`<br/>
 ??? note "ATC Clearance"
     <p style="color:yellow; font-size:24px;">TODO: Improve.</p>
@@ -331,7 +339,7 @@ See [Preparing the MFD](03_preparing-fms) for more information.
 ??? note "North Reference"
     It is recommended to ensure that the “TRUE” message does not appear on the primary flight display or on the HDG/TRK
     display.
-`SPD, HDG, V/S display ............................................ DASHED`<br/>
+`SPD, HDG, V/S display .......................................... DEFAULTS`<br/>
 `ALTITUDE display .................... INITIAL EXPECTED CLEARANCE ALTITUDE`<br/>
 
 ??? tip "How and Where?"
