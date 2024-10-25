@@ -274,11 +274,18 @@ Verify these items:
 
 `LANDING CHECKLIST ............................................... COMPLETE`<br/>
 ??? note "Landing Checklist"
-    `A/THR MODE ........................................................ AS REQUIRED`<br/>
-    `SIGNS ...................................................................... ON`<br/>
-    `LDG GEAR ................................................................. DOWN`<br/>
-    `FLAPS ..................................................................... LDG`<br/>
-    `SPLRS ..................................................................... ARM`<br/>
+    The Airbus A380 has a built-in checklist system that can be accessed via the
+    [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
+
+    To activate it you need to press the `C/L` button on the 
+    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam).
+
+    You can navigate through the checklist by using the `UP` and `DOWN` buttons on the ECP. You can check/uncheck items
+    by pressing the buttons with the check mark on the ECP.
+
+    Some items are autosensed by the aircraft and will be checked automatically.
+    
+    ![Checklist Landing](../assets/beginner-guide/07_landing/checklist-landing.png){loading=lazy}
 
 !!! warning "Thrust levers during landing"
     For the landing, we have our hand on the thrust levers for a potential go-around, so we can quickly push the levers 

@@ -52,30 +52,37 @@ This guide will cover these phases:
     Also you will prepare the aircraft for taxiing by setting up the aircraft systems for taxiing.
 
 `RADIO FREQUENCY ....................................... AS ASSIGNED BY ATC`<br/>
-`AUXILLIARY POWER UNIT MASTER SWITCH ................................... ON`<br/>
 ??? note "Radio Frequency"
     ATC Tower will usually hand us off to ATC Ground, and they will give us taxi instructions for our destination gate.
     Write them down and read them back as usual, but you don't have to move immediately unless ATC explicitly tells you
     to. Online ATC controllers understand that the after-landing-tasks do take some time.
 
     If you did not get any frequencies from ATC, you can use the airport charts to find the correct frequencies for EDDM.
-
-    ![EDDM ATC frequencies](../../a32nx/assets/beginner-guide/after-landing/EDDM-frequency-chart.png "EDDM ATC frequencies"){ loading=lazy }
-    <p style="color:yellow; font-size:18px;">TODO: change to EDDF</p>
+`AUXILLIARY POWER UNIT MASTER SWITCH ................................... ON`<br/>
 `GROUND SPOILERS ................................................... DISARM`<br/>
 `FLAPS ............................................................ RETRACT`<br/>
-`AUXILLIARY POWER UNIT START ........................................... ON`<br/>
+`APU MASTER ............................................................ ON`<br/>
+`APU START ............................................................. ON`<br/>
 ??? note "Starting the APU"
     Once we are safely off the runway and on to our assigned taxiway, we need to start the APU. We are doing this to 
     ensure the aircraft will still have electrical power and air conditioning and circulation once we complete our 
     taxi to our assigned gate. Upon reaching the gate, our engines will need to be shut down, and we are still 
     going to need power for a little bit while we focus on shutting the airplane down.
-    <p style="color:yellow; font-size:18px;">TODO: update/screenshot</p>
 `ENGINE START SELECTOR ......................................... CHECK NORM`<br/>
 `ANTI-ICE ..................................................... AS REQUIRED`<br/>
 
 ??? tip "How and Where"
-    <p style="color:yellow; font-size:18px;">TODO: add howto and screenshots for steps up to this point</p>
+    [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
+
+    Use the Flight Deck Overview to locate the items mentioned above. The Flight Deck Overview is a
+    clickable cockpit that will show you where each item is located.
+    
+    * [RMP Panel](../../a380x-briefing/flight-deck/pedestal/rmp)
+    * [Spoiler Lever](../../a380x-briefing/flight-deck/pedestal/speed-brake)
+    * [Flaps Lever](../../a380x-briefing/flight-deck/pedestal/flaps-lever)
+    * [APU Master Switch](../../a380x-briefing/flight-deck/ovhd/apu)
+    * [Engine Start Selector](../../a380x-briefing/flight-deck/ovhd/eng-start)
+    * [Anti-Ice](../../a380x-briefing/flight-deck/ovhd/anti-ice)
 
 ### Exterior Lights
 ??? tip "What and Why"
@@ -87,13 +94,6 @@ This guide will cover these phases:
 `OTHER EXTERIOR LIGHTS ........................................ AS REQUIRED`<br/>
 `NOSE ................................................................ TAXI`<br/>
 `RUNWAY TURN OFF LIGHTS & CAMERA............................... AS REQUIRED`<br/>
-
-??? tip "How and Where"
-    ![Exterior Lights](../../a32nx/assets/beginner-guide/after-landing/taxi-lights-on.png){loading=lazy width=50%}
-    <p style="color:yellow; font-size:18px;">TODO: update/screenshot</p>
-
-    <p style="color:yellow; font-size:18px;">TODO: add link to this:</p>
-    [https://docs.flybywiresim.com/pilots-corner/a32nx-briefing/flight-deck/ovhd/ext-lt/#external-lighting-configuration](https://docs.flybywiresim.com/pilots-corner/a32nx-briefing/flight-deck/ovhd/ext-lt/#external-lighting-configuration)
 
 ### Prepare for Taxi
 
@@ -110,30 +110,8 @@ This guide will cover these phases:
     allows for it.
 `BRAKE TEMPERATURE ................................................ MONITOR`<br/>
 ??? note "Brake Temperature"
-    You can monitor the brake temperature on the WHEEL SD page. Verify the temperatures for discrepancies and high 
+    You can monitor the brake temperature on the SD WHEEL page. Verify the temperatures for discrepancies and high 
     temperature (higher than 500°C).
-    <p style="color:yellow; font-size:18px;">TODO: update for A380 hot brakes OP</p>
-
-??? tip "How and Where"
-    Change Frequency using the RMP panel:
-
-    ![RMP Panel](../../a32nx/assets/beginner-guide/after-landing/RMP-Panel.png "RMP Panel"){loading=lazy }
-    <p style="color:yellow; font-size:18px;">TODO: update/screenshot</p>
-
-    Disarm the Ground Spoilers using the Spoiler Lever:
-
-    ![Spoiler armed and disarmed](../../a32nx/assets/beginner-guide/after-landing/Spoiler.png "Spoiler armed and disarmed"){loading=lazy }
-    <p style="color:yellow; font-size:18px;">TODO: update/screenshot</p>
-
-    <p style="color:yellow; font-size:18px;">TODO: add screenshot and how to for the above steps</p>
-
-`AFTER LANDING CHECKLIST ......................................... COMPLETE`<br/>
-??? note "After Landing Checklist"
-    `A/THR MODE ........................................................ AS REQUIRED`<br/>
-    `EXTERIOR LIGHTS ........................................................... SET`<br/>
-    `SPLRS .................................................................. DISARM`<br/>
-    `FLAPS ....................................................................... 0`<br/>
-    `APU ..................................................................... START`<br/>
     
 This concludes *After Landing*
 
@@ -153,6 +131,11 @@ Use your charts to follow the ATC taxi instructions to the designated gate.
 !!! warning "Only use taxiways approved for the A380"
     The A380 is a large aircraft and not all taxiways are approved for the A380. Make sure to follow the taxi instructions 
     and only use taxiways that are approved for the A380.
+
+    A380 Airport Taxi Chart for EDDF:<br/>
+    ![A380 Taxi Chart](../assets/beginner-guide/04_engine-start-taxi/chart-eddf-a380-taxi.png){loading=lazy}
+    <sub>*Copyright © 2024 Navigraph / Jeppesen<br/>
+    "Navigraph Charts are intended for flight simulation use only, not for navigational use."*
 
 ??? tip "How to Cross a Runway"
     When approaching a runway, always ensure you have ATC permission to cross it. Ask ATC for 
@@ -185,8 +168,9 @@ Use your charts to follow the ATC taxi instructions to the designated gate.
     When turning into the gate, turn off your `NOSE` light and your `RWY TURN OFF` lights to not 
     blind the ground personnel. This of course is only done if enough lighting is available to safely 
     navigate and park into the gate.
-    <p style="color:yellow; font-size:18px;">TODO: update/screenshot</p>
+
+![img.png](../assets/beginner-guide/08_after-landing/aircraft-at-gate.png)
 
 This concludes *Taxi to Gate*
 
-Continue with [Powering Down](09_powering-down)
+Continue with [Powering Down](../09_powering-down)
