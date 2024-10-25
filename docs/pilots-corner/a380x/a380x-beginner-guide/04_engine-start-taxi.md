@@ -76,14 +76,14 @@ Once all passengers have boarded and secured, we are ready to begin pushback.
     response from ground would give you clearance for your request and a direction to face (or any direction). 
 
 `PUSHBACK/START UP CLEARANCE ....................................... OBTAIN`<br/>
+`BEACON ................................................................ ON`<br/>
 `WINDOWS AND DOORS ............................................CHECK CLOSED`<br/>
 `SLIDES ............................................................. ARMED`<br/>
-`BEACON ................................................................ ON`<br/>
 `THRUST LEVERS ....................................................... IDLE`<br/>
 `PARKING BRAKE ........................................................ OFF`<br/>
 
 ??? tip "How and Where"
-    At EDDM on gate 209 and runway 08L you could expect the following push and start clearance from ground:
+    At EDDM on gate 208 and runway 08L you could expect the following push and start clearance from ground:
 
     "** Your Aircraft Callsign**, Ground. You are clear to push and start onto Whiskey 3 facing north."
 
@@ -240,9 +240,22 @@ can proceed with the following steps.
 `GROUND SPOILERS ...................................................... ARM`<br/>
 `RUDDER TRIM ......................................................... ZERO`<br/>
 `FLAPS T.O POSITION.................................................... SET`<br/>
+??? note "FLAPS"
+    During the [preparation of the FMS](../a380x-beginner-guide/03_preparing-fms.md#performance) we have calculated the 
+    takeoff performance to use FLAPS 2 for takeoff. The flaps are set to the takeoff position by moving the flap lever 
+    to the 2 position.
 `PITCH TRIM ......................................................... CHECK`<br/>
-??? note "ENGINE ANTI_ICE"
+??? note "Pitch Trim"
     Verify that the pitch trim is set to the takeoff trim position. It is displayed on the primary flight display (PFD).
+    
+    [Pitch Trim Panel](../../a380x-briefing/flight-deck/pedestal/trim-panel) (located on the pedestal)
+
+    Pitch Trim is not yet set:<br/>
+    ![img.png](../assets/beginner-guide/04_engine-start-taxi/pfd-pitch-trim-off.png){loading=lazy}
+
+    Pitch Trim is set:<br/>
+    ![img.png](../assets/beginner-guide/04_engine-start-taxi/pfd-pitch-trim-ok.png){loading=lazy}
+    
 `ECAM STATUS ........................................................ CHECK`<br/>
 `CLEAR TO DISCONNECT AND HAND SIGNALS ............................ ANNOUNCE`<br/>
 `N/W STEERING DISC MEMO ............................... CHECK NOT DISPLAYED`<br/>
@@ -330,9 +343,7 @@ For additional information on signs and markings on the ground, please see [Gene
     At the pilot’s discretion, zoom as necessary to activate the onbard airport navigation system (OANS). Then, at the 
     pilot’s discretion, select either ARC, ROSE, or PLAN mode.
 
-    [//]: # (TODO)
-    !!! warning "OANS Guide"
-        A separate guide for the OANS systems will follow soon.
+    See our [OANS Guide](../../a380x-advanced-guides/oans-btv) for more information on how to use the OANS system.
 
 `NOSE LIGHTS ......................................................... TAXI`<br/>
 `RWY TURN OFF & CAMERA ........................................ AS REQUIRED`<br/>
@@ -379,11 +390,12 @@ check while in a turn, as we don't want to come to a complete stop while turning
 
 It is generally recommended that pilots only taxi on taxiways large enough to support the aircraft. Because of how wide
 the wingspan of the A380 is, we need large taxiways available to use. Appropriate taxiways are commonly found at large, 
-international airports, such as EGLL, EDDM, KJFK, CYYV, etc.
+international airports, such as EGLL, EDDF, KJFK, CYYV, etc.
 
+Example EDDF (EDDM does not have a separate taxi chart for the A380):<br/>
 ![img.png](../assets/beginner-guide/04_engine-start-taxi/chart-eddf-a380-taxi.png)
 
-??? tip "2 engine taxi"
+??? tip "2 Engine Taxi"
     There are several scenarios where taxiing can be limited. If, for example, the pilot opts for a 2-engine taxi, the 
     engines must be symmetrical. Symmetrical engines are engines on either wing symmetrical to another engine on the 
     opposite wing. For example, if we were to 2-engine taxi to the runway, we would use either `ENG 2+3` OR `ENG 1+4`. 
@@ -444,17 +456,15 @@ While underway to the runway, perform the following as part of the taxi flow:
 `FLIGHT INSTRUMENTS ............................................... CONFIRM`<br/>
 `SPLRS ................................................................ ARM`<br/>
 `FLAPS ................................................................ T.O`<br/>
+??? note "FLAPS"
+    During the [preparation of the FMS](../a380x-beginner-guide/03_preparing-fms.md#performance) we have calculated the
+    takeoff performance to use FLAPS 2 for takeoff. The flaps are set to the takeoff position by moving the flap lever
+    to the 2 position.
 `AUTOBRAKE RTO ........................................................ ARM`<br/>
 `SIGNS .......................................................... AS NEEDED`<br/>
 `T.O CONFIG .......................................................... TEST`<br/>
 `T.O MEMO .................................................... NO BLUE LINE`<br/>
 `CABIN .............................................................. READY`<br/>
-??? note "CABIN READY"
-    The cabin crew should have completed their checks and are ready for takeoff. The cabin should be secure and all 
-    passengers seated with their seatbelts fastened.In real life, the cabin crew would have informed the flight crew
-    by sending the CABIN READY signal which would show up on the ECAM. 
-
-    In the A380X we simulate this by pressing the CALL button on the overhead panel. 
 
 ??? tip "How and Where"
     [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }

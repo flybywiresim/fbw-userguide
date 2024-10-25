@@ -61,62 +61,47 @@ To intercept the ILS Localizer, we follow these steps:
     Verify that the correct ILS frequency is tuned in the `MFD-RNAV` page. We find the correct frequency on the 
     pproach chart. 
 
-    <p style="color:yellow; font-size:18px;">TODO: verify RNAV page location in MFD</p>
+    "Check ILS frequency"
 
-    === "Check ILS frequency"
-
-    ![ILS frequency on approach chart](../../a32nx/assets/beginner-guide/landing/EDDM-26R-ILS-freq-chart.png "ILS frequency on approach chart"){align=left width=45%}
+    ![ILS frequency on approach chart](../assets/beginner-guide/07_landing/chart-eddf-07c-ils-freq.png 
+    "ILS frequency on approach chart"){loading=lazy}
     
-    ![ILS frequency on ECAM RNAV page](../../a32nx/assets/beginner-guide/landing/ECAM-RNAV-page-ILS.png "ILS frequency on ECAM RNAV page"){align=right width=45%}
-    
-     <p style="color:yellow; font-size:18px;">TODO: update screenshots for A380</p>
+    ![ILS frequency on ECAM RNAV page](../assets/beginner-guide/07_landing/sd-navaid-page.png 
+    "ILS frequency on ECAM RNAV page"){loading=lazy}
 
 `LS (Landing System) ............................................. CHECK ON`<br/>
 ??? note "LS Button on Glare Shield"
     Turn on the `ILS localizer and glideslope scales` with the `LS` button on the glareshield if not already done 
     before. There is an `LS` button on both the captain and F.Os side of the FCU.
 
-    === "Turn on ILS scales"
-    
-    <p style="color:yellow; font-size:18px;">TODO: update screenshots for A380</p>
-
-    ![LS button on glareshield](../../a32nx/assets/beginner-guide/landing/GLARE-LS-button.png "LS button on glareshield"){loading=lazy align=left}
-    ![LS Mode on PFD and ND](../../a32nx/assets/beginner-guide/landing/LS-Mode.png "LS Mode on PFD and ND"){align=right width=75%}
+    ![LS button on glareshield](../assets/beginner-guide/07_landing/efis-ls-button.png 
+    "LS button on glareshield"){loading=lazy width=40%}
 
 `ALTITUDE .......................................................... VERIFY`<br/>
 ??? note "Verify Altitude"
-    Make sure we are on the correct altitude (5000ft in this example) and we should not have an approach angle larger 
+    Make sure we are on the correct altitude (4000 ft in this example) and we should not have an approach angle larger 
     than 30°.<br/>
 
-    ![EDDM ILS 26R chart](../../a32nx/assets/beginner-guide/landing/EDDM-ILS-26R-30-chart.png "EDDM ILS 26R chart"){loading=lazy}<br/>
-    ![EDDM glideslope](../../a32nx/assets/beginner-guide/landing/EDDM-ILS-26R-GS-chart.png "EDDM glideslope"){loading=lazy}
-    
-    <p style="color:yellow; font-size:18px;">TODO: update screenshots for EDDF</p>
-
-    Optional: Turn on `ROSE LS Mode` for the `ND` (can also be on F.O.'s side). The ROSE LS Mode shows the deviation 
-    from the localizer approach heading path.
-    
-    <p style="color:yellow; font-size:18px;">TODO: update screenshots for A380</p>
-
-    ![ND ROSE LS Mode](../../a32nx/assets/beginner-guide/landing/ND-ROSE-LS-Mode.png "ND ROSE LS Mode"){loading=lazy}<p>
-
-    <p style="color:yellow; font-size:18px;">TODO: update screenshots for A380</p>
+    ![img_1.png](../assets/beginner-guide/06_descent/eddf-07CILS-30degree.png)
+    ![img_2.png](../assets/beginner-guide/06_descent/eddf-07CILS-final-descent.png)
+    <sub>*Copyright © 2024 Navigraph / Jeppesen<br/>
+    "Navigraph Charts are intended for flight simulation use only, not for navigational use."*    
 
 ### After ATC Clearance
 Once ATC has cleared us for the approach, we will fo the following:
 
 `ATC CLEARANCE FOR APPROACH ...................................... OBTAINED`<br/>
 ??? note "APPR Phase and Speed"
-    Check if the `APPR` phase is activated. This is usually automatically done by the aircraft at a certain 
-    point during the approach, but we make sure that at this point at the latest it is activated. 
+    When passing the pseudo waypoint `D` (DECEL) the aircraft will automatically switch to the `APPR` phase. 
 
-    ![Activate APPR in ECAM PERF](../../a32nx/assets/beginner-guide/landing/ECAM-PERF-activate-APPR.png "Activate APPR in ECAM PERF"){loading=lazy } 
-    
-    <p style="color:yellow; font-size:18px;">TODO: update screenshots for A380</p>
+    Check if the `APPR` phase is activated by going to the `PERF` page on the `MFD` and verify that the `APPR` mode is 
+    active (green tab). If it is not active, you can activate it by pressing the `ACTIVATE APPR *` button at the bottom
+    of the `PERF` page.
     
     When in the APPR phase, the `Autopilot` together with "Managed Speed Mode" relieves the pilot of a lot of stress 
     by managing the speed according to flaps setting automatically (S-Speed after `FLAPS 1`, F-Speed after `FLAPS 2`, 
     V~app~ after landing flap selection).
+
 `SPEED MODE ....................................................... MANAGED`<br/>
 ??? note "Managed Speed Mode"
     Set `SPEED` to `Managed Speed Mode` (push the `Speed Selector`). The aircraft should now decelerate to `green dot` 
@@ -128,17 +113,10 @@ Once ATC has cleared us for the approach, we will fo the following:
     localizer scale` shows the `deviation marker` moving towards the middle of the `lateral deviation scale`. Also, the 
     lateral `FMA` shows `LOC` in blue (armed). 
 
-    ![Activate APPR mode on FCU](../../a32nx/assets/beginner-guide/landing/FCU-ILS-APPR.png "Activate APPR mode on FCU"){loading=lazy} 
-    <p style="color:yellow; font-size:18px;">TODO: update FCU screenshot</p>
+    ![Activate APPR mode on FCU](../assets/beginner-guide/07_landing/fcu-appr-mode.png 
+    "Activate APPR mode on FCU"){loading=lazy} 
 
-    ![ILS lateral deviation marker moving inwards](../../a32nx/assets/beginner-guide/landing/PFD-ILS-deviation-scale.png "ILS lateral deviation marker moving inwards"){loading=lazy} 
-    <p style="color:yellow; font-size:18px;">TODO: update screenshots for A380</p>
-
-    !!! tip "What is the blue-dashed line?" 
-        You might ask what the blue dashed line is. It is part of the FIX INFO feature which allows drawing distance 
-        rings or radial lines from navigation fixes. For this illustration, it helps us to visualize the localizer 
-        signal path at 261° into the runway, which we are going to capture with the APPR mode.
-        <p style="color:yellow; font-size:18px;">TODO: update screenshots for EDDF</p>
+    ![PFD FMA APPR](../assets/beginner-guide/07_landing/pfd-fma-appr.png){loading=lazy}
 
 !!! warning "Arming APPR"
     Using `APPR` also arms the glideslope descent (G/S) and the aircraft will descend as soon as it captures the ILS 
@@ -157,7 +135,8 @@ Once ATC has cleared us for the approach, we will fo the following:
     The pilot can verify on the flight mode annunciator the approach capability (CAT2, CAT3 SINGLE, CAT3 DUAL, or 
     AUTOLAND) for the selected approach.
 
-    Also the `lateral FMA` should show `LOC` in blue (armed) and the `vertical FMA` should show `G/S` in blue (armed).
+    Also the `lateral FMA` should show `LOC` in blue (armed) or green (active) and the `vertical FMA` should show `G/S` 
+    in blue (armed) or green (active).
 `FLAPS 1 (at V~FE~ -15)................................................ SET`<br/>
 ??? note "Flaps 1"
     Set `FLAPS` to 1 at about V~FE~ -15 knots (but never before speed is below V~FE~) for the first slat/flap
@@ -165,7 +144,8 @@ Once ATC has cleared us for the approach, we will fo the following:
     target is to be in CONF 1 and at S-speed by the time you need to set flaps 2 (CONFIG 2) before the glideslope
     intercept (S-speed will be slow enough to set flaps 2).
 
-    ![VFE for next configuration](../../a32nx/assets/beginner-guide/landing/PFD-Speed-band-flaps-marker.png "VFE for next configuration"){loading=lazy}
+    ![VFE for next configuration](../../a32nx/assets/beginner-guide/landing/PFD-Speed-band-flaps-marker.png 
+    "VFE for next configuration"){loading=lazy}
 `TCAS MODE .......................................................... TA/RA`<br/>
 `LOC CAPTURE ...................................................... MONITOR`<br/>
 ??? note "Capturing the Localizer"
@@ -175,9 +155,9 @@ Once ATC has cleared us for the approach, we will fo the following:
 
     The aircraft will turn towards the localizer and the deviation marker will move towards the center of the lateral
     deviation scale. The lateral `FMA` will show `LOC` in green when the localizer is captured.
-    
-    ![Established on ILS localizer](../../a32nx/assets/beginner-guide/landing/PFD-ND-established.png "Established on ILS localizer"){loading=lazy} 
-    <p style="color:yellow; font-size:18px;">TODO: update screenshots for A380</p>
+
+    ![Established on ILS localizer](../assets/beginner-guide/07_landing/pfd-loc-active.png 
+    "Established on ILS localizer"){loading=lazy} 
 `ATC CONTACT ........................................................ TOWER`<br/>
 ??? note "Contact Tower"
     When we are established on the ILS localizer (the lateral `FMA` shows `LOC` in green) we will contact Tower ATC and 
@@ -220,9 +200,8 @@ The vertical `FMA` now shows `G/S` (glideslope) in blue.
     The aircraft will start descending when the deviation marker is in the middle (we have captured the ILS glideslope). 
     The vertical `FMA` will now display `G/S` in green.
 
-    ![PFD when G/S is activated](../../a32nx/assets/beginner-guide/landing/PFD-FMA-GS-active.png "PFD when G/S is 
-    ctivated" ){loading=lazy } 
-    <p style="color:yellow; font-size:18px;">TODO: update screenshots for A380</p>
+    ![PFD when G/S is activated](../assets/beginner-guide/07_landing/pfd-gs-capture.png 
+    "PFD when G/S is activated" ){loading=lazy} 
 
     We are now descending along the glideslope. The radio altimeter comes alive at 2,500ft above the ground to display 
     the actual precise height above ground.
@@ -247,9 +226,6 @@ The vertical `FMA` now shows `G/S` (glideslope) in blue.
     is below 2 000 feet above ground level, It is recommended setting flaps 2 at one dot below the glideslope. If 
     the aircraft is above the glideslope, or the aircraft does not decelerate, it is recommended to extend the landing 
     gear. It is not recommended to use the speed brakes due to limited effect at low speed.
-
-    ![Radio altimeter alive](../../a32nx/assets/beginner-guide/landing/PFD-radio-alt.png "Radio altimeter alive"){loading=lazy } 
-    <p style="color:yellow; font-size:18px;">TODO: update PFD example</p>
 
 This concludes *Intercepting the ILS Glideslope*
 
@@ -281,28 +257,21 @@ Verify these items:
 `FLAPS (below V~FE~).................................................. FULL`<br/>
 `AUTOTHRUST .................................... CHECK IN SPEED MODE OR OFF`<br/>
 
-??? tip "Ready at 1000 feet"
+??? tip "Ready at <=1000 feet"
     **We need to be fully set up and stable at 1,000ft above the ground.** 
 
     What does that mean? Flaps fully extended, Autothrottle in speed mode or off completely, and the landing checklist 
     is complete.
-    
-    ![Fully setup for landing](../../a32nx/assets/beginner-guide/landing/Landing-Cockpit.png "Fully setup for landing"){loading=lazy} 
-    <p style="color:yellow; font-size:18px;">TODO: update cockpit example</p>
 
-    ![RWY TURN OFF ON and NOSE T.O](../../a32nx/assets/beginner-guide/landing/Landing-lights.png "RWY TURN OFF ON and NOSE T.O"){loading=lazy } 
-    <p style="color:yellow; font-size:18px;">TODO: update landing lights example</p>
+    PFD at ~1000ft above the ground:<br/>
+    ![img_1.png](../assets/beginner-guide/07_landing/pfd-at1000.png){loading=lazy}    
+
+    EWD at ~1000ft above the ground:<br/>
+    ![img.png](../assets/beginner-guide/07_landing/ewd-at1000.png){loading=lazy}
 
 `LANDING MEMO ................................................ NO BLUE LINE`<br/>
 `CABIN .............................................................. READY`<br/>
-??? note "Cabin Crew"
-    In real life, the cabin crew will have been asked to prepare the cabin for landing during the descent. The exact moment and process might differ between airlines, but most seem to do this when the `Seatbelt Signs` are turned on during descent (typically at the latest at 10,000ft).
 
-    The Cabin Crew will notify the pilots either by a "Cabin Ready" button (A380) or by a call to the cockpit (---) once they are ready and strapped-in themselves.
-
-    In the Microsoft Flight Simulator, we simulate this by pressing the `CALLS ALL` button on the left of the overhead panel. This will set the "Cabin Ready" status as shown in the ECAM and there will be a short announcement playing "Cabin Crew take your seats for landing".
-
-    ![Cabin notification](../../a32nx/assets/beginner-guide/landing/CALLS-all.png "Cabin notification"){loading=lazy } <p style="color:yellow; font-size:18px;">TODO: update calls panel</p>
 `LANDING CHECKLIST ............................................... COMPLETE`<br/>
 ??? note "Landing Checklist"
     `A/THR MODE ........................................................ AS REQUIRED`<br/>
@@ -359,9 +328,6 @@ Verify these items:
 
     We leave the **Autothrust** on, so we don't have to worry about thrust and speed at all (Leaving **Autothrust** on 
     for landing is common for the Airbus).
-    
-    ![Cockpit view when AP has been turned off](../../a32nx/assets/beginner-guide/landing/Cockpit-view-AP-off.png "Cockpit view when AP has been turned off"){loading=lazy} 
-    <p style="color:yellow; font-size:18px;">TODO: update cockpit screenshot</p>
 
 ??? tip "PAPI lights"
     At the beginning of the runway you will notice an array of lights to the runway side. These are called PAPI lights 
@@ -383,9 +349,6 @@ Verify these items:
     ![Runway touchdown zone](../../a32nx/assets/beginner-guide/landing/Runway-touchdown-zone.png "Runway touchdown zone"){loading=lazy}
 
     Also, we try to aim for the center line of the runway in a way that it points directly under us.
-
-    ![Hold the runway center line pointing under us](../../a32nx/assets/beginner-guide/landing/Hold-Runway-Centerline.png "Hold the runway center line pointing under us"){loading=lazy}
-    <p style="color:yellow; font-size:18px;">TODO: update screenshots for A380</p>
 
     Correct your final heading and bank very carefully. We should not need to correct much at this point.
 
@@ -427,11 +390,6 @@ Verify these items:
 
     We let the aircraft settle to the runway while holding the pitch.
 `THRUST LEVERS ....................................................... IDLE`<br/>
-??? note "Executing the Flare and Thrust Idle"
-    When the main gear touches the ground, we pull back the thrust levers to idle.
-    
-    ![PFD during flare](../../a32nx/assets/beginner-guide/landing/PFD-Flare.png "PFD during flare"){loading=lazy } 
-    <p style="color:yellow; font-size:18px;">TODO: update PFD screenshot</p>
 `DEROTATION ...................................................... INITIATE`<br/>
 ??? note "Derotation"
     We let the front gear settle gently on the runway (don't slam it down) and hold the center line of the runway while 
@@ -453,11 +411,9 @@ Verify these items:
 ??? note "Auto Brake"
     The `Autobrakes` should now have activated and started to further decelerate the aircraft. This can be checked by 
     the `Autobrake` annunciators.
-    
-    ![Speed trend arrow](../../a32nx/assets/beginner-guide/landing/PFD-speedtrend.png "Speed trend arrow"){loading=lazy}
 
-    ![Autobrake annunciator](../../a32nx/assets/beginner-guide/landing/Autobrake-annunciator.png "Autobrake annunciator"){loading=lazy}
-    <p style="color:yellow; font-size:18px;">TODO: update for A380</p>
+    If you have configured BTV (Brake to Vacate) the FMA should now show `BTV` in green.
+    
 `REVERSE LEVERS (at <80knots) ........................................ IDLE`<br/>
 
 This concludes *Landing*
@@ -485,9 +441,8 @@ We look for the next runway exit and slow down to about 10knots before we start 
 
 We continue rolling forward until we passed the runway entry marker with the **full length** of our aircraft.
 
-![Aircraft stopped after runway is vacated](../../a32nx/assets/beginner-guide/landing/Runway-vacated.png "Aircraft 
-stopped after runway is vacated"){loading=lazy} 
-<p style="color:yellow; font-size:18px;">TODO: update aircraft exterior screenshot</p>
+![Aircraft stopped after runway is vacated](../assets/beginner-guide/07_landing/runway-vacated.png 
+"Aircraft stopped after runway is vacated"){loading=lazy} 
 
 We can now safely stop the aircraft and do our "After Landing" checklist - see next chapter.
 
@@ -503,4 +458,4 @@ tasks.
 
 This concludes *Vacate Runway*
 
-Continue with [After Landing Steps](08_after-landing)
+Continue with [After Landing Steps](../08_after-landing)
