@@ -7,6 +7,7 @@ the departure runway.
 
 !!! warning "Disclaimer"
     <p style="color:coral;">This is for simulation purposes only.</p>
+
     The level of detail in this guide is meant to get an Airbus A380 beginner safely from the terminal to the runway 
     hold short point.
 
@@ -82,7 +83,7 @@ Once all passengers have boarded and secured, we are ready to begin pushback.
 `PARKING BRAKE ........................................................ OFF`<br/>
 
 ??? tip "How and Where"
-    At EDDM on gate 208 and runway 08L you could expect the following push and start clearance from ground:
+    At EDDM on gate 209 and runway 08L you could expect the following push and start clearance from ground:
 
     "** Your Aircraft Callsign**, Ground. You are clear to push and start onto Whiskey 3 facing north."
 
