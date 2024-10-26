@@ -1,3 +1,8 @@
+---
+search:
+    boost: 1
+---
+
 # Thrust Lever and Pitch Trim
 
 ---

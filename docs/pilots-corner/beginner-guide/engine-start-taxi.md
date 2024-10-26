@@ -1,3 +1,8 @@
+---
+search:
+    boost: 2
+---
+
 # Engine Start and Taxi
 
 This guide will explain the correct procedures to accomplish a pushback with engine start and perform a safe taxi to the departure runway.
@@ -192,13 +197,13 @@ Complete the after start flow:
 
 Perform the AFTER START checklist.
 
-!!! info "Setting Pitch Trim Advice"
-    While setting the pitch trim is standard operating procedure, a precisely set trim value on the trim wheel is not critical. As long as your center of gravity (CG) is within CG limits, any trim setting within the green band will provide for a safe takeoff in the A320neo. Appropriate trim settings can be found at the bottom of our [checklist](../assets/sop/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf).
+### Pitch Trim
 
-    There is a rotation law in the NEO that gives you a consistent rotation rate for any given stick input, regardless of other conditions. Upon liftoff, the autotrim becomes active.
+While setting the pitch trim is standard operating procedure, a precisely set trim value on the trim wheel is not critical. As long as your center of gravity (CG) is within CG limits, any trim setting within the green band will provide for a safe takeoff in the A320neo. Appropriate trim settings can be found at the bottom of our [checklist](../assets/sop/A32NX%20Documentation/FBW%20A32NX%20Checklist.pdf).
 
-    ---
+There is a rotation law in the NEO that gives you a consistent rotation rate for any given stick input, regardless of other conditions. Upon liftoff, the autotrim becomes active.
 
+!!! info "Pitch Trim Takeoff Example"
     !!! block ""
         ![Throttle quad](../assets/beginner-guide/mcdu/Thrust-lever-elev-trim.png){loading=lazy width=50% align=left}
 
