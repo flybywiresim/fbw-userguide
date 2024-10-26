@@ -55,7 +55,7 @@ Visit [Cockpit Preparation](02_cockpit-preparation.md) to learn more.
     * Initial cleared altitude after departure.
     * Assigned SID for departure OR radar vectors
     * Assigned departing runway.
-    * [Transponder/squawk code](#entering-squawk-code).
+    * Transponder/squawk code.
     * Departure frequency.
 
     Additional reading material: [The CRAFT mnemonic](https://en.wikipedia.org/wiki/CRAFT_(aviation)){target=new}
@@ -253,14 +253,14 @@ When the FMS first starts, it will show a screen showing the current status of t
         Below is the current flight plan we are utilizing:
     
         ```title="Current Sample Flight Plan"
-        EDDM/08L GIVMI6Q GIVMI Y101 ERNAS T161 DEBHI DEBHI1D EDDF/07C
+        EDDM/08L GIVMI6Q GIVMI Y101 ERNAS T161 DEBHI DEBHI1C EDDF/07C
         ```
     
         Let's imagine for this example that there was no airway between `GIVMI` and `ERNAS`, as well as between `ERNAS` 
         and `DEBHI`. The flight plan would look like the following:
     
         ```title="Example NO AIRWAY Flight Plan"
-        EDDM/08L GIVMI6Q GIVMI DCT ERNAS DCT DEBHI DEBHI1D EDDF/07C
+        EDDM/08L GIVMI6Q GIVMI DCT ERNAS DCT DEBHI DEBHI1C EDDF/07C
         ```
     
         !!! note ""
@@ -282,7 +282,7 @@ When the FMS first starts, it will show a screen showing the current status of t
     
     ^^Planning the Arrival^^
     
-    For the purposes of this guide, we will pre-plan our arrival into `EDDF` via the `DEBHI1D` STAR into 07C.
+    For the purposes of this guide, we will pre-plan our arrival into `EDDF` via the `DEBHI1C` STAR into 07C.
     
     !!! info "Standard Terminal Arrival Route (STAR)"
         Similar to the SID, these are procedures that are defined and published that take a flight from
@@ -521,7 +521,7 @@ When the FMS first starts, it will show a screen showing the current status of t
     * DERATED takeoff further reduces engine thrust by selecting a lower fixed thrust setting, independent of 
       temperature assumptions. This minimizes engine wear and extends its lifespan.
 
-    !!! note "DERATED is not yet supported for the A380X."
+    !!! warning "DERATED is not yet supported for the A380X."
 
     For this guide, we will use FLEX thrust. 
     
