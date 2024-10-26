@@ -1,44 +1,35 @@
 ---
 title: SimBrief and Navigraph Integration
-description: Discover how to use SimBrief with the FlyByWire A32NX for realistic flight planning.
+description: Discover how to use SimBrief with the FlyByWire A380X for realistic flight planning.
 ---
 
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
 
 # SimBrief and Navigraph Integration
 
-!!! warning "This Page Needs A380X Update"
-    [//]: # (TODO)
-    <p style="color:yellow; font-size:18px;">TODO:<br/> 
-    The A380X documentation is work in progress.<br/> 
-    This page needs to be updated for the A380X. 
-    </p>
+Please use the Quick Links to jump to any relevant section. For connecting your SimBrief/Navigraph Accounts, click the button below.
 
-Please use the Quick Links to jump to any relevant section. For connecting your SimBrief/Navigraph Accounts, click the 
-button below.
-
-[Setup SimBrief/Navigraph](#setup-a32nx-simbrief-integration){.md-button}
+[Setup SimBrief/Navigraph](#setup-a380x-simbrief-integration){.md-button}
 
 ## Quick Links
 
-|                                          Quick Links                                          |
-|:---------------------------------------------------------------------------------------------:|
-|                              [Flight Planning](#flight-planning)                              |
-|                            [SimBrief Airframe](#simbrief-airframe)                            |
-|             [Setup A32NX SimBrief Integration](#setup-a32nx-simbrief-integration)             |
-|          [Using flyPad SimBrief Integration](#using-the-flypad-simbrief-integration)          |
-| [Using the FMS (MCDU) and SimBrief Integration](#using-the-fms-mcdu-and-simbrief-integration) |
-
+|                                          Quick Links                               |
+|:----------------------------------------------------------------------------------:|
+|                              [Flight Planning](#flight-planning)                    |
+|                            [SimBrief Airframe](#simbrief-airframe)                 |
+|             [Setup A380X SimBrief Integration](#setup-a380x-simbrief-integration)  |
+|          [Using flyPad SimBrief Integration](#using-the-flypad-simbrief-integration) |
+| [Using the FMS and SimBrief Integration](#using-the-fms-and-simbrief-integration)  |
 
 ## Flight Planning
 
 Check the [Flight Planning guide](flight-planning.md) for more details on Flight Planning in general.
 
-In the world of flight simulation, SimBrief does all the flight planning for the users based on real word databases and 
-sources. SimBrief provides on average ~40,000 flight plans to users each day and is the most commonly used tool for 
+In the world of flight simulation, SimBrief does all the flight planning for the users based on real word databases and
+sources. SimBrief provides on average ~40,000 flight plans to users each day and is the most commonly used tool for
 flight planning for non-professional flight simulation.
 
-It is possible to use the SimBrief OFP (Operational Flight Plan) to configure and program the aircraft based on it 
+It is possible to use the SimBrief OFP (Operational Flight Plan) to configure and program the aircraft based on it
 without any special integration into the flight sim software or aircraft.
 
 ### Flight Planning with SimBrief
@@ -51,9 +42,9 @@ This is best explained by SimBrief itself - [SimBrief User Guide](https://www.si
 
 [SimBrief A380X Airframe](https://dispatch.simbrief.com/airframes/share/eyJiYXNldHlwZSI6IkEzODgiLCJpY2FvIjoiQTM4OCIsInJlZyI6IkQ4LUZCVyIsImZpbiI6IiIsInNlbGNhbCI6IktGQlciLCJoZXhjb2RlIjoiODk2NDY5IiwicGxhbmZvcm1hdCI6IiIsImZsaWdodHJ1bGVzIjoiIiwiZmxpZ2h0dHlwZSI6IiIsInBsYW51bml0cyI6IiIsImFsdG5zYWR2X3JhZGl1cyI6IjQ2MCIsImFsdG5zYWR2X3VuaXRzX3J3eSI6ImZ0IiwiYWx0bnNhZHZfcnd5IjoiNzAwMCIsIm5hbWUiOiJBMzgwLTg0MiIsImVuZ2luZXMiOiJUcmVudCA5NzJCLTg0IiwiY29tbWVudHMiOiJGTFlCWVdJUkUgQTM4MFgiLCJwZXIiOiJDIiwiY2F0IjoiSiIsImV0b3BzdGhyZXNob2xkIjoiNjAiLCJldG9wc3JhbmdlIjoiIiwiZXF1aXAiOiJTQURFMkUzRkdISUozSjRKNU0xUldYWVoiLCJ0cmFuc3BvbmRlciI6IkxCMUQxIiwicGJuIjoiQTFCMUMxRDFMMU8xUzIiLCJleHRyYXJtayI6IkZMWUJZV0lSRSBBMzgwWCIsIm1hbnVhbHJtayI6IiIsIndndHVuaXRzIjoiS0dTIiwibWF4cGF4IjoiNDg0IiwicGF4d2d0IjoiODQiLCJiYWd3Z3QiOiIyMCIsIm9ldyI6IjMwMDAwNyIsIm16ZnciOiIzNzMwMDAiLCJtdG93IjoiNTEwMDAwIiwibWx3IjoiMzk1MDAwIiwibWF4ZnVlbCI6IjI1OTc1NSIsIm1heGNhcmdvIjoiIiwiY2FyZ29tb2RlIjoiIiwiY29udHBjdCI6IiIsInJlc3ZydWxlIjoiIiwidGF4aWZ1ZWwiOiIiLCJtaW5mb2IiOiIiLCJtaW5mb2JfdW5pdHMiOiJ3Z3QiLCJtaW5mb2QiOiIiLCJtaW5mb2RfdW5pdHMiOiJ3Z3QiLCJtZWxmdWVsIjoiIiwibWVsZnVlbF91bml0cyI6IndndCIsImF0Y2Z1ZWwiOiIiLCJhdGNmdWVsX3VuaXRzIjoid2d0Iiwid3h4ZnVlbCI6IiIsInd4eGZ1ZWxfdW5pdHMiOiJ3Z3QiLCJhZGRlZGZ1ZWxfbGFiZWwiOiJleHRyYSIsImFkZGVkZnVlbCI6IiIsImFkZGVkZnVlbF91bml0cyI6IndndCIsInRhbmtlcmluZyI6IiIsInRhbmtlcmluZ191bml0cyI6IndndCIsImZ1ZWxmYWN0b3IiOiJQMDAiLCJjcnVpc2VvZmZzZXQiOiJQMDAwMCIsImNlaWxpbmciOiI0MzAwMCIsImRlZmF1bHRjcnVpc2UiOiJDSSIsImRlZmF1bHRjaSI6IiIsImRlZmF1bHRjbGltYiI6IjI1MC8zMjAvODQiLCJkZWZhdWx0ZGVzY2VudCI6Ijg1LzMwMC8yNTAiLCJ0aHJ1c3RfdW5pdHMiOiJsYmYiLCJ0aHJ1c3QiOiI3NTE1MiIsImZsYXRyYXRpbmciOiIifQ--){.md-button target=new}
 
-Save/Copy this airframe into your fleet on SimBrief to use the A380X for flight planning. 
+Save/Copy this airframe into your fleet on SimBrief to use the A380X for flight planning.
 
-## Setup A32NX SimBrief Integration
+## Setup A380X SimBrief Integration
 
 !!! info "This integration does not require having an active Navigraph subscription."
 
@@ -62,8 +53,8 @@ Your Navigraph account needs to be configured in the flyPad EFB.
 You can do this by navigating to the following page on the flyPad (EFB):
 
 1. Settings Page
-- 3rd Party Options
-- Select the "Link Account" button next to Navigraph Account Link
+2. 3rd Party Options
+3. Select the "Link Account" button next to Navigraph Account Link
 
 ![flypad-ng-3rdpartyoptions-blank.png](../../common/assets/flypados3/navigraph/flypad-ng-3rdpartyoptions-blank.png){loading=lazy}
 
@@ -78,11 +69,9 @@ If successful, you should see your account name followed by your Navigraph accou
 ![flypad-ng-3rdpartyoptions.png](../../common/assets/flypados3/navigraph/flypad-ng-3rdpartyoptions.png){loading=lazy}
 
 !!! note "Overriding SimBrief User ID"
-    There may be situations where you would like to import data from SimBrief not specifically linked to your account, i.e., copying a streamer's or friend's flight plan to your 
-    aircraft or using an add-on for shared cockpit scenarios.
+    There may be situations where you would like to import data from SimBrief not specifically linked to your account, i.e., copying a streamer's or friend's flight plan to your aircraft or using an add-on for shared cockpit scenarios.
 
-    In this case you can override the SimBrief User ID by entering it in the SimBrief User ID field. This will override the linked Navigraph account temporarily until it 
-    is removed. You will be notified when the override is successful with a pop up message. Example below:
+    In this case you can override the SimBrief User ID by entering it in the SimBrief User ID field. This will override the linked Navigraph account temporarily until it is removed. You will be notified when the override is successful with a pop up message. Example below:
 
     ![flypad-ng-override.png](../../common/assets/flypados3/navigraph/flypad-ng-override.png){loading=lazy}
 
@@ -100,11 +89,11 @@ See [Fuel and Weight](loading-fuel-weight.md) on how to load fuel and payload.
 
 ---
 
-## Using the FMS (MCDU) and SimBrief Integration
+## Using the FMS and SimBrief Integration
 
-### Importing the SimBrief OFP to the FMS (MCDU)
+### Importing the SimBrief OFP to the FMS
 
-We've included a quick method to have your SimBrief OFP automatically loaded into the MCDU.
+We've included a quick method to have your SimBrief OFP automatically loaded into the FMS.
 
 !!! warning "Please do not select an arrival airport on the MSFS world menu, otherwise the integration will not work."
 
@@ -112,80 +101,34 @@ This portion of the guide assumes that you understand how to generate a SimBrief
 Otherwise, read the [SimBrief User Guide](https://www.simbrief.com/system/guide.php){target=new} first.
 
 !!! warning "Please Enable Detailed Navlog SimBrief Setting"
-    ![OFP Settings](../assets/feature-guides/simbrief/OFP-settings.png){loading=lazy}
+    ![OFP Settings](../assets/feature-guides/simbrief/simbrief-selections-detailed.png){loading=lazy}
 
     It is important when generating your SimBrief OFP to ensure that the Detailed Navlog setting is enabled. 
 
     This setting is available when generating a new dispatch. Additionally, we recommend that you save any of your preferred settings here, including Detailed Navlog as the default by clicking on `Save Default`. This ensures that this setting is never disabled when generating a new OFP.
 
-    If the setting is not enabled, the import function may only populate the departure and arrival airports into the flight page on the MCDU.
+    If the setting is not enabled, the import function may only populate the departure and arrival airports into the flight page on the FMS.
 
-#### Request Data from SimBrief
+#### Request Data from SimBrief and Initialize Flight Plan
 
-- Return to `MCDU MENU`
-- Click on `ATSU`
-- Click on `AOC MENU`
-- Click on `INIT/PRESS`
-- Click on `INIT DATA REQ`
+To start the process of importing data from SimBrief, open the `INIT` page and click on `CPNY F-PLN REQUEST`.
 
-![MCDU ATSU AOC INIT REQ](../assets/feature-guides/simbrief/mcdu2.png "MCDU ATSU AOC INIT REQ"){loading=lazy}
+This will show a message `UPLINK INSERT IN PROG`, indicating that the FMS is loading the OFP. Once it is done, the `CPNY F-PLN REQUEST` button will change to `RECEIVED CPNY F-PLN`. Clicking the button will give you the option to `INSERT` or `CLEAR` the loaded information.
 
-This will prepare the MCDU to input the flight plan.
+Click `INSERT` and all information in the `INIT` page will be automatically filled in. Additionally, the flight plan will be loaded from SimBrief directly into the FMS.
 
-#### Initialize Flight Plan
-
-!!! warning "IMPORTANT"
-    Do not select an arrival airport on the MSFS world menu or flight planner. Doing this "initializes" the `FROM/TO` field when loading into your flight, removing the `INIT REQ.` option from the `INIT A` page.
-
-Head over to the `INIT A` page.
-
-- Select `INIT REQUEST` by pressing LSK2R
-
-This will load your flight plan from SimBrief directly into the MCDU
-
-![MCDU INIT A](../assets/feature-guides/simbrief/mcdu1b.png "MCDU INIT A"){loading=lazy}
+![FMS INIT RECEIVED CPNY F-PLAN](../assets/feature-guides/simbrief/fms-init-received-cpny-fpln.png){loading=lazy}
 
 !!! note
     #### RWY, SID, STAR, and APPR
-    The SimBrief import will **not** load RWY, SID, STAR, or APPR. You will need to manually add these into the flight plan. To learn how to set up the MCDU, you can read the [**^^F^^**LIGHT PLAN](../../../pilots-corner/a32nx/a32nx-beginner-guide/preparing-mcdu.md#--f---light-plan) section in our beginner's guide.
+    The SimBrief import will **not** load RWY, SID, STAR, or APPR. You will need to manually add these into the flight plan. To learn how to set up the FMS, you can read the [**^^F^^**LIGHT PLAN](../../../pilots-corner/a380x/a380x-beginner-guide/03_preparing-fms.md#init--flight-plan-initialization) section in our beginner's guide.
 
     This is because RWY, SID, STAR and APPR are dependent on factors like active runways, traffic, weather, etc. and are determined by ATC and not the pilot's flight plan. They can be changed by ATC any time before takeoff or during flight and are therefore not imported in real life aircraft either.  
-
-[//]: # (Updates to the wind request section should be mentioned in the preparing-mcdu.md page as well.)
 
 ### Wind Request
 
 !!! warning "Important Notes"
-    The current implementation of wind requests in the A32NX is in its early stages, with a full accurate implementation to follow at a later date. This method provides an easy solution to quickly import winds from a valid SimBrief OFP.
-
-    In addition, please note the following:
-
-    - Per-waypoint entry and request of cruise winds is still being implemented.
-    - Wind Request functionality is not 100 % accurate to the real aircraft.
-        - In real life, selecting the wind requests option on the climb page would populate the wind data for all stages of flight.
-
-![Wind Request](../assets/feature-guides/simbrief/mcdu-wind1.png){loading=lazy}
-
-On the `INIT A` page, select `WIND/TEMP` by pressing LSK4R. This brings you to the `CLIMB WIND` page.
-
-![Wind Request](../assets/feature-guides/simbrief/mcdu-wind2.png){loading=lazy}
-
-To request the wind data from the SimBrief flight plan, select `WIND REQUEST` by pressing LSK3R. This will calculate the wind profiles during the climb phase based on the SimBrief-provided wind data.
-
-![Wind Request](../assets/feature-guides/simbrief/mcdu-wind3.png){loading=lazy}
-
-Press LSK5R to go to the `NEXT PHASE`, `CRZ WIND`. The same procedure of pressing LSK3R for `WIND REQUEST` applies here.
-
-Finally, press LSK5R to go to the `NEXT PHASE`, `DESCENT WIND`. Pressing LSK3R for `WIND REQUEST` will calculate the wind profiles during the descent phase based on the SimBrief-provided wind data.
-
-!!! tip "Manual Entry"
-    If you are obtaining your wind data from another source, please note that the format is as follows:
-
-    ``` title="Winds Format Example"
-    Magnetic Heading / Wind Speed / Altitude 
-    ```
-
-    Examples are provided above, and please note that altitude is written in relation to flight level (FL). 
+    Currently, the wind request system is not implemented yet for the A380X. This will be introduced in a future update.
 
 ### Fuel and Weight
 
