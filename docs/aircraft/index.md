@@ -5,7 +5,7 @@ hide:
   - toc
 ---
 
-<link rel="stylesheet" href="../../stylesheets/toc-tables.css">
+<link rel="stylesheet" href="/stylesheets/toc-tables.css">
 
 # FlyByWire Aircraft Overview
 

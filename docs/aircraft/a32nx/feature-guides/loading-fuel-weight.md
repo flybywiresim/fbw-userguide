@@ -5,7 +5,7 @@ description: Detailed overview of fueling, weight setup, and CG management in th
 
 # Fuel and Weight
 
-<link rel="stylesheet" href="/../../stylesheets/fuel-weight.css">
+<link rel="stylesheet" href="/stylesheets/fuel-weight.css">
 
 This section provides information on the A32NX weight configuration and insight on how to utilize and reference onboard/sim features to configure the aircraft appropriately for departure.
 
