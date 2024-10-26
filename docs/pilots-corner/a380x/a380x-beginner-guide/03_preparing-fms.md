@@ -268,12 +268,12 @@ When the FMS first starts, it will show a screen showing the current status of t
     Find the `EDDF` button at the bottom left of the Temporary Flight Plan. This will open the `F-PLN/ARRIVAL` page, from where you can select the Standard Terminal Arrival Route (STAR).
 
     * Click the `RUNWAY` dropdown and select `07C 4000M`
-    * Click the `APPR` dropdown and select `I07CY`
+    * Click the `APPR` dropdown and select `ILS07C-Z`
     ??? note "Y or Z Designators"
         A designator such as Y or Z may be present. This suffix is to distinguish in the navigation database a difference between approaches to the same runway. While similar in nature, they may have different minimums, allowed equipment, or other differences.
 
-    * Click the `VIA` dropdown and select `DF454`
-    * Click the `STAR` dropdown and select `DEBH1D`
+    * Click the `VIA` dropdown and select `DF554`
+    * Click the `STAR` dropdown and select `DEBH1C`
 
     For this STAR, there is no Transition (`TRANS`) waypoint, so the dropdown will remain gray. 
 
@@ -400,14 +400,14 @@ When the FMS first starts, it will show a screen showing the current status of t
 
     Some of the values might already have some information set, but it is good to verify they are correct, and if not, enter the correct ones.
 
-    * Click on in the input box next to `ZFW` to fill in the value of `332.0` and press `ENTER` to store the value.
-    * For the `ZFWCG`, we do the same and enter `35.4`.
-    * Next is the `BLOCK` value, where we fill in the block fuel value of `22.8`. 
+    * Click on in the input box next to `ZFW` to fill in the value of `341.5` and press `ENTER` to store the value.
+    * For the `ZFWCG`, we do the same and enter `35.1`.
+    * Next is the `BLOCK` value, where we fill in the block fuel value of `22.6`. 
     * For `TAXI`, we set the value to `1.0`.
-    * `PAX NBR` we set to `308`.
+    * `PAX NBR` we set to `399`.
     * The `CI` should already be set to `10`, but it's good to verify.
     * `RTE RSV` is grayed out and can not be configured at this time, this is expected. As long as `BLOCK` is correctly filled in, the FMS will take all fuel on board in account.
-    * For the `ALTN` value, we set `6.0`.
+    * For the `ALTN` value, we set `5.9`.
     * Finally, check the `FINAL` value, it should be close to what is in the OFP, if not, fill in the correct value as described in the OFP. This might slightly change the time indication for your final reserve.
 
     Once you have filled in all the information in the `FUEL&LOAD` page, the page should look similar to the one below.
@@ -456,7 +456,7 @@ When the FMS first starts, it will show a screen showing the current status of t
 
     * Select the correct Aircraft Type (A388 - A380-800) and the correct Variant (D8-FBW - FLYBYWIRE A380X). 
     * Enter the Airport as `EDDM` and select Runway `08L`.
-    * Enter the Takeoff Weight as `353837`, this can be found on the `FUEL&LAD` page after entering all the correct values under `TOW`. A more accurate value can be found on the OFP.
+    * Enter the Takeoff Weight as `363068`, this can be found on the `FUEL&LAD` page after entering all the correct values under `TOW`. A more accurate value can be found on the OFP.
       ![OFP TOW](../assets/beginner-guide/03_preparing-fms/ofp-tow.png){loading=lazy}
     * Select the Flap Setting as `2`, this will more efficient on the take off and lower our speeds.
     * Select `TOGA/FLEX` for the Thrust Setting.
@@ -468,16 +468,23 @@ When the FMS first starts, it will show a screen showing the current status of t
 
     ![SIMBRIEF TO PERF RESULTS](../assets/beginner-guide/03_preparing-fms/simbrief-perf-results.png){loading=lazy}
 
+    ^^THS Value^^
+
+    You can find the Trimmable Horizontal Stabilizer Nose Forward (THS FOR) value on the PFD in the magenta box. Make sure all loading (passengers, luggage and fuel) has finished to get an accurate reading.
+
+    ![PFD THS FOR VALUE](../assets/beginner-guide/03_preparing-fms/pfd-ths.png){loading=lazy}
+
     ---
 
     To enter these values, we need to go to the `T.O PERF` page by clicking the `T.O PERF` page on the `INIT` page in the FMS. Once the page opens, enter the calculated values from the Simbrief Takeoff Performance calculator (the values calculated for your flight might differ because of different weather situations):
 
-    * Set the `V1` speed to `133`.
-    * Set the `VR` speed to `133`. 
+    * Set the `V1` speed to `136`.
+    * Set the `VR` speed to `136`. 
     * Set the `V2` speed to `142`.
     * Select `FLEX` and fill in `66` for the temperature.
     * Select `2` for `FLAPS`.
-    * Set `PACKS` to `ON` and `ANTI ICE` to `OFF`.
+    * Set `THS FOR` value to `36.0`
+    * Set `PACKS` to `ON` and `ANTI ICE` to `ENG ONLY` (or as per what the Performance calculator suggests).
     * The `THR RED`, `ACCEL` and `EO ACCEL` altitudes will be set automatically to appropriate values.
     * The `TRANS` Altitude (transition altitude) can be found on the chart for our SID, in case of the `GIVMI6Q` SID, the transition altitude is `5000`.
 
@@ -485,27 +492,11 @@ When the FMS first starts, it will show a screen showing the current status of t
 
     ![FMS T.O PERF PAGE](../assets/beginner-guide/03_preparing-fms/fms-perf-to.png){loading=lazy}
 
-    <!-- TODO: THS description and calculation -->
-
-<!--
-
-TODO: Consider more sections to add:
-* Secondary Flight Plan
-* Route Summary (verification)
-* FMS Verification
-
-`..........................................................................`<br/>
-`..........................................................................`<br/>
-`..........................................................................`<br/>
--->
-
 ---
 
 ## A380X simBrief Integration
 
-<!-- TODO: Update -->
-
-This section has been moved to our dedicated [simBrief Integration](../../../aircraft/a380x/feature-guides/simbrief.md#importing-the-simbrief-ofp-to-the-fms-mcdu) feature guide.
+This section has been moved to our dedicated [simBrief Integration](../../../aircraft/a380x/feature-guides/simbrief.md) feature guide.
 
 ---
 
