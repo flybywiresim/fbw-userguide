@@ -13,13 +13,13 @@ Please use the Quick Links to jump to any relevant section. For connecting your 
 
 ## Quick Links
 
-|                                          Quick Links                               |
-|:----------------------------------------------------------------------------------:|
-|                              [Flight Planning](#flight-planning)                    |
-|                            [SimBrief Airframe](#simbrief-airframe)                 |
-|             [Setup A380X SimBrief Integration](#setup-a380x-simbrief-integration)  |
-|          [Using flyPad SimBrief Integration](#using-the-flypad-simbrief-integration) |
-| [Using the FMS and SimBrief Integration](#using-the-fms-and-simbrief-integration)  |
+|                                    Quick Links                                    |
+|:---------------------------------------------------------------------------------:|
+|                        [Flight Planning](#flight-planning)                        |
+|                      [SimBrief Airframe](#simbrief-airframe)                      |
+|       [Setup A380X SimBrief Integration](#setup-a380x-simbrief-integration)       |
+|    [Using flyPad SimBrief Integration](#using-the-flypad-simbrief-integration)    |
+| [Using the FMS and SimBrief Integration](#using-the-fms-and-simbrief-integration) |
 
 ## Flight Planning
 
