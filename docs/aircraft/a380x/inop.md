@@ -1,8 +1,13 @@
 # INOP System 
 
 ## Description
-The FlyByWire A380X is an open alpha work in progress. This page describes the systems and features that are currently inoperative or 
-not implemented yet.
+The FlyByWire A380X is an open alpha work in progress. This page describes the systems and features that are currently 
+inoperative or not implemented yet.
+
+!!! warning "Work in Progress"
+    This page is subject to change pending further development to the aircraft, and thus may be out of date. For the
+    most up-to-date list of INOPs and system progress, please see our github page, found 
+    [here.](https://github.com/flybywiresim/aircraft/tree/master/fbw-a380x)
 
 # A380X INOP systems
 These systems are currently not operational / these features are missing and shall thus not lead to bug reports.
@@ -126,6 +131,3 @@ CPIOM etc. not implemented yet.
 - Reverser
 - Electrical system for triple lock safety system
 
-### Misc / Sim specifics
-
-This page is subject to change pending further development to the aircraft, and thus may be out of date. For the most up to date list of INOPs and system progress, please see our github page, found [here.](https://github.com/flybywiresim/aircraft/tree/master/fbw-a380x)
