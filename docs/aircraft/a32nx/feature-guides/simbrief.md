@@ -75,7 +75,7 @@ If successful, you should see your account name followed by your Navigraph accou
     In this case you can override the SimBrief User ID by entering it in the SimBrief User ID field. This will override the linked Navigraph account temporarily until it 
     is removed. You will be notified when the override is successful with a pop up message. Example below:
 
-    ![flypad-ng-override.png](../assets/flypados3/navigraph/flypad-ng-override.png){loading=lazy}
+    ![flypad-ng-override.png](../../common/assets/flypados3/navigraph/flypad-ng-override.png){loading=lazy}
 
 If you are still unsure of where the Settings page on the EFB is, please see [flyPad Settings](../../common/flypados3/settings.md).
 
