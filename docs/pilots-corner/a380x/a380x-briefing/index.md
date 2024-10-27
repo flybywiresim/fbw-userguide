@@ -1,11 +1,12 @@
 ---
-title: A320neo Pilot Briefing - Overview
-description: The A320neo Pilot Briefing provides Flight Crew Operations Manuals (FCOM) styled documentation for the FlyByWire A32NX aircraft.
+title: A380 Pilot Briefing - Overview
+description: The A380X Pilot Briefing provides Flight Crew Operations Manuals (FCOM) styled documentation for the 
+             FlyByWire A380X aircraft.
 ---
 
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
 
-# A380neo Pilot Briefing
+# A380 Pilot Briefing
 
 This A380 Pilot Briefing shall give a good overview of most A380
 systems for personal flight simulation with focus on Microsoft Flight
