@@ -11,7 +11,7 @@ description: The A380 Flight Deck Keyboard Cursor Control Unit (KCCU) descriptio
 
 ---
 
-![img_1.png](../../../assets/a380x-briefing/flight-deck/pedestal/kccu.png)
+![img_1.png](../../../assets/a380x-briefing/flight-deck/pedestal/kccu.png){width=70%}
 
 
 [//]: # (TODO)
