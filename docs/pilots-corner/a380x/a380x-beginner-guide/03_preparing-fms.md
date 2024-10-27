@@ -135,7 +135,7 @@ When the FMS first starts, it will show a screen showing the current status of t
     * (Optionally) Click the `ALTN` field so a blue typing cursor appears in the field.
     * (Optionally) Using your keyboard, type `EDDL` and press the `ENTER` key.
 
-    This will set up the FMS for a flight from Munich to Frankfurt with the alternate airport set to Leipzig. 
+    This will set up the FMS for a flight from Munich to Frankfurt with the alternate airport set to Duesseldorf. 
 
     ^^Cost Index^^
     
