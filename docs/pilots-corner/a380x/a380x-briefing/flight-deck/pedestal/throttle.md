@@ -11,8 +11,8 @@ description: The A380 Flight Deck Thrust and Thrust Reverser Control Levers desc
 
 ---
 
-![img.png](../../../assets/a380x-briefing/flight-deck/pedestal/thrust-levers.png)
-
+![img.png](../../../assets/a380x-briefing/flight-deck/pedestal/thrust-levers.png){width=50%}
+ 
 
 [//]: # (TODO)
 <p style="color:yellow; font-size:18px;">TODO: </p>
