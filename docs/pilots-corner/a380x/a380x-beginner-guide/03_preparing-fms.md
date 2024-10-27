@@ -41,37 +41,6 @@ Visit [Cockpit Preparation](02_cockpit-preparation.md) to learn more.
 * Have a valid flight plan.
 * Ensure IFR clearance has been obtained.
 
-??? tip "Requesting IFR Clearance when using an Online ATC Network"
-    Before departing for the flight, we must obtain an IFR clearance from ATC. The clearance may be obtained from
-    clearance delivery or another specific frequency, depending on the airport and available services.
-
-    If you are not flying on a network and are using the built-in ATC menu, simply find the appropriate selection in the
-    menu and request for IFR clearance.
-
-    Clearances will usually provide the following information below. As a pilot, you would need to read back the 
-    clearance correctly or acknowledge it if using the built-in ATC menu.
-
-    * Cleared to the destination via specified route in the filed flight plan.
-    * Initial cleared altitude after departure.
-    * Assigned SID for departure OR radar vectors
-    * Assigned departing runway.
-    * Transponder/squawk code.
-    * Departure frequency.
-
-    Additional reading material: [The CRAFT mnemonic](https://en.wikipedia.org/wiki/CRAFT_(aviation)){target=new}
-
-??? tip "Setting the Squawk Code"
-    In the ATC IFR clearance you will be assigned a squawk code. This code is used to identify your aircraft on radar.
-
-    To set the squawk code, you can use the [Radio Management Panel (RMP)](../a380x-briefing/flight-deck/pedestal/rmp.md)
-    on the pedestal or the [MFD](../a380x-briefing/flight-deck/main-panel/mfd.md) Surveillance (SURV) page.
-
-    In the MFD Surveillance page, you can set the squawk code by clicking on the `SQWK` field and typing in the assigned 
-    code and confirm with ENTER. Then click on the AUTO button to activate the squawk code. 
-
-    MFD Surveilance Page - Setting the squawk code `2000`:<br/>
-    ![img.png](../assets/beginner-guide/03_preparing-fms/fms-surv-sqwk.png){loading=lazy}
-
 ---
 
 ## Chapters / Phases
