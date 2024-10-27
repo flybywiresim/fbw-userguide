@@ -1,3 +1,8 @@
+---
+title: Emergency Electrical Panel
+description: The A380 Flight Deck Emergency Electrical Panel description.
+---
+
 # Emergency Electrical Panel
 
 ---

@@ -1,3 +1,8 @@
+---
+title: Hydraulic Panel
+description: The A380 Flight Deck Hydraulic Panel description.
+---
+
 # Hydraulic Panel
 
 ---

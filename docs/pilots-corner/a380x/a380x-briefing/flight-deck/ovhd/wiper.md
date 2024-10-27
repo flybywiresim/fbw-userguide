@@ -1,3 +1,8 @@
+---
+title: Wiper Panel
+description: The A380 Flight Deck Wiper Panel description.
+---
+
 # Wiper Panel
 
 ---

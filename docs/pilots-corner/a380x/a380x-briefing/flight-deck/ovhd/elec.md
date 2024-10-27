@@ -1,3 +1,8 @@
+---
+title: Electrical Panel
+description: The A380 Flight Deck Electrical Panel description.
+---
+
 # Electrical Panel
 
 ---

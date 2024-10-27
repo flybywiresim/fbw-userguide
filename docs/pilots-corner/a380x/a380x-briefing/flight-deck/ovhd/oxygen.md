@@ -1,3 +1,8 @@
+---
+title: Oxygen Panel
+description: The A380 Flight Deck Oxygen Panel description.
+---
+
 # Oxygen Panel
 
 ---

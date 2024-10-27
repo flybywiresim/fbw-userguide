@@ -1,4 +1,9 @@
-# AFS - Auto Flight System 
+---
+title: Auto Flight System (AFS) Panel
+description: The A380 Flight Deck Auto Flight System (AFS) Panel description.
+---
+
+# Auto Flight System (AFS) Panel
 
 ---
 

@@ -1,4 +1,9 @@
-# PFD - Primary Flight Display
+---
+title: Primary Flight Display (PFD)
+description: The A380 Flight Deck Primary Flight Display (PFD) description.
+---
+
+# Primary Flight Display (PFD)
 
 ---
 

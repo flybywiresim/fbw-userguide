@@ -1,4 +1,9 @@
-# EFIS - Electronic Flight Instrument System
+---
+title: Electronic Flight Instrument System (EFIS) Panel
+description: The A380 Flight Deck Electronic Flight Instrument System (EFIS) Panel description.
+---
+
+# Electronic Flight Instrument System (EFIS) Panel
 
 ---
 

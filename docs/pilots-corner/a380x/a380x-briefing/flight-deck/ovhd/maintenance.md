@@ -1,3 +1,8 @@
+---
+title: Maintenance Panel
+description: The A380 Flight Deck Maintenance Panel description.
+---
+
 # Maintenance Panel
 
 ---

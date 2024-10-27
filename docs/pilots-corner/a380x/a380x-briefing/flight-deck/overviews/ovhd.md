@@ -2,6 +2,7 @@
 hide:
   - toc
   - navigation
+title: Overhead Panel  
 description: The A380 Flight Deck Overhead Panel is providing an interactive graphical overview of the A380 flight deck 
              overhead panel and its systems. 
 ---

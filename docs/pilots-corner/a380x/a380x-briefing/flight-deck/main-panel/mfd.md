@@ -1,5 +1,9 @@
+---
+title: Multi-Function Display (MFD)
+description: The A380 Flight Deck Multi-Function Display (MFD) description.
+---
 
-# MFD - Multi-Function Display
+# Multi-Function Display (MFD)
 
 ---
 

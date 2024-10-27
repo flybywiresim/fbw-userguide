@@ -1,3 +1,8 @@
+---
+title: Table and Keyboard
+description: The A380 Flight Deck Table and Keyboard description.
+---
+
 # Table and Keyboard
 
 ---

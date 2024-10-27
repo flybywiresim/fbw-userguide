@@ -1,3 +1,8 @@
+---
+title: ADIRS Panel
+description: The A380 Flight Deck Air Data Inertial Reference System (ADIRS) Panel description.
+---
+
 # ADIRS Panel
 
 ---

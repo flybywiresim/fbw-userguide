@@ -1,11 +1,11 @@
 ---
-title: A380 Flight Deck - Trim Panel
+title: Trim Panel
 description: The A380 Flight Deck Trim Panel page description.
 ---
 
-# Trim Panel
+# Printer Panel
 
-[Back to A380 Flight Deck Overview](../index.md){ .md-button }
+[Back to Pedestal](../overviews/pedestal.md){ .md-button }
 
 ---
 
@@ -18,4 +18,4 @@ description: The A380 Flight Deck Trim Panel page description.
 
 ---
 
-[Back to A380 Flight Deck Overview](../index.md){ .md-button }
+[Back to Pedestal](../overviews/pedestal.md){ .md-button }

@@ -1,3 +1,8 @@
+---
+title: Reset Panels
+description: The A380 Flight Deck Reset Panels description.
+---
+
 # Reset Panels
 
 ---

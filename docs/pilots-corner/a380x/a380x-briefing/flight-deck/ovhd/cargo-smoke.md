@@ -1,3 +1,8 @@
+---
+title: Cargo Smoke Panel 
+description: The A380 Flight Deck Cargo Smoke Panel description. 
+---
+
 # Cargo Smoke Panel
 
 ---

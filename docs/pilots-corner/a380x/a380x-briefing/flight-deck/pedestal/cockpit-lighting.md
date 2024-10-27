@@ -1,11 +1,11 @@
 ---
-title: A380 Flight Deck - Cockpit Lighting
-description: The A380 Flight Deck Cockpit Lighting page description.
+title: Cockpit Lighting Panel
+description: The A380 Flight Deck Cockpit Lighting Panel description.
 ---
 
-# Cockpit Lighting
+# Cockpit Lighting Panel
 
-[Back to A380 Flight Deck Overview](../index.md){ .md-button }
+[Back to Pedestal](../overviews/pedestal.md){ .md-button }
 
 ---
 
@@ -44,5 +44,5 @@ reduce eye strain and maintain night vision.
 
 ---
 
-[Back to A380 Flight Deck Overview](../index.md){ .md-button }
+[Back to Pedestal](../overviews/pedestal.md){ .md-button }
 

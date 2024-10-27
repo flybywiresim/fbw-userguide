@@ -1,3 +1,9 @@
+---
+title: EFIS Reconfiguration Panel
+description: The A380 Flight Deck Electronic Flight Instrument System (EFIS) Reconfiguration Panel 
+             description.
+---
+
 # EFIS Reconfiguration Panel
 
 ---
