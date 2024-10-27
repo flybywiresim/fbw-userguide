@@ -11,7 +11,8 @@ description: The A380 Flight Deck Engine Start Panel description.
 
 ---
 
-![Engine Start Panel](../../../assets/a380x-briefing/flight-deck/ovhd/eng-start-panel.png "Engine Start Panel"){loading=lazy}
+![Engine Start Panel](../../../assets/a380x-briefing/flight-deck/ovhd/eng-start-panel.png 
+"Engine Start Panel"){loading=lazy width=50%}
 
 [//]: # (TODO API Doc Link) 
     
