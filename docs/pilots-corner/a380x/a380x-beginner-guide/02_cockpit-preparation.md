@@ -300,16 +300,37 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 `ENGINE MASTER SWITCHES (1, 2, 3, 4) ................................. OFF`<br/>
 `COCKPIT DOOR SWITCH (INOP).......................................... NORM`<br/>
 `ATC CLEARANCE .....................................................OBTAIN`<br/>
-??? note "ATC Clearance"
-    We will cover the ATC clearance in the next chapter when we prepare the FMS.    
+??? note "Requesting ATC IFR Clearance"
+    Before departing for the flight, we must obtain an IFR clearance from ATC. The clearance may be obtained from
+    clearance delivery or another specific frequency, depending on the airport and available services.
+
+    If you are not flying on a network and are using the built-in ATC menu, simply find the appropriate selection in the
+    menu and request for IFR clearance.
+
+    Clearances will usually provide the following information below. As a pilot, you would need to read back the 
+    clearance correctly or acknowledge it if using the built-in ATC menu.
+
+    * Cleared to the destination via specified route in the filed flight plan.
+    * Initial cleared altitude after departure.
+    * Assigned SID for departure OR radar vectors
+    * Assigned departing runway.
+    * Transponder/squawk code.
+    * Departure frequency.
+
+    Additional reading material: [The CRAFT mnemonic](https://en.wikipedia.org/wiki/CRAFT_(aviation)){target=new}
+  
 `NAVIGATION CHARTS ............................................... PREPARE`<br/>
 `MFD SURVEILLANCE DEFAULT SETTINGS................................. SELECT`<br/>
-??? note "MFD Default Settings"
-    Verify on the multi function display surveillance control page that the transponder is set to AUTO, the squawk code
-    is the same, the TCAS is set to TA/RA and Norm, all TAWS modes are ON, and the weather radar is set to AUTO, the
+??? note "MFD Surveillance Default Settings"
+    Verify on the Multi-Function Display (MFD) Surveillance page that the transponder is set to AUTO, the squawk code
+    is as per ATC, the TCAS is set to TA/RA and Norm, all TAWS modes are ON, and the weather radar is set to AUTO, the
     elevation/tilt to AUTO, Mode set to WX, TURB set to AUTO, GAIN set to AUTO, WX ON VD set to ON and PRED W/S to AUTO)
-    
-    We will cover how to set the squawk code in the next chapter when we prepare the FMS.
+
+    In the MFD Surveillance page, you can set the squawk code by clicking on the `SQWK` field and typing in the assigned 
+    code and confirm with ENTER. Then click on the AUTO button to activate the squawk code. 
+
+    MFD Surveilance Page:<br/>
+    ![img.png](../assets/beginner-guide/02_cockpit-preparation/fms-surv-default.png)
 
 ??? tip "How and Where?"
     [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
@@ -323,7 +344,7 @@ In the simulator, we are usually alone, so we will do the flow on our own.
     * [Thrust Reverse Levers](../../a380x-briefing/flight-deck/pedestal/throttle)
     * [Engine Master Switches](../../a380x-briefing/flight-deck/pedestal/engine-master)
     * [Cockpit Door Switch](../../a380x-briefing/flight-deck/pedestal/cockpit-door)
-    * [MFD Surveillance Default Settings](../../a380x-briefing/flight-deck/main-panel/mfd)
+    * [MFD](../../a380x-briefing/flight-deck/main-panel/mfd)
 
 At this point, the Flight Management System (FMS) should be initialized.
 See [Preparing the MFD](03_preparing-fms) for more information.
