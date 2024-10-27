@@ -18,6 +18,23 @@ description: The A380 Flight Deck Anti Ice Panel description.
 !!! note "API Documentation: [Anti Ice Panel API](../../../../../aircraft/a32nx/a32nx-api/a32nx-flightdeck-api.md#anti-ice-panel)"
 -->
 
+## Description
+
+The ice protection system allows unrestricted operation of the aircraft in icing conditions.
+
+This system protects the critical areas of the aircraft against ice, by using:
+
+- Hot bleed air for:
+  - Engine anti-ice
+  - Wing anti-ice
+- Electrical power for:
+  - Window heating
+  - Water/Waste drain masts heating
+  - Probe heating
+  
+An ice detection system measures ice accretion via the anti-ice control system and provides this
+information to the flight crew.
+
 ## Usage
 
 ### WING anti-ice
