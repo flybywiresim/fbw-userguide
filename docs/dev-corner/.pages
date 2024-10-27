@@ -6,6 +6,6 @@
 title: Development Corner
 nav:
     - Overview: index.md
-    - Texture Changes: texture-changes.md
+    - A32NX Texture Changes: texture-changes.md
     - Scenery Developers: scenery-developers.md
     - ...
