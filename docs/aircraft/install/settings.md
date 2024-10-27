@@ -16,7 +16,7 @@ This page aims to list a few recommended settings for the Microsoft Flight Simul
 If you are new to flying our aircraft please make sure to read our beginner guides: 
 
 - [A32NX Beginner Guide](../../pilots-corner/a32nx/a32nx-beginner-guide/overview.md), especially [Preflight](../../pilots-corner/a32nx/a32nx-beginner-guide/preflight.md).
-- [A380X Beignner Guide](#)
+- [A380X Beginner Guide](../../pilots-corner/a380x/a380x-beginner-guide/overview.md), especially [Preflight](../../pilots-corner/a380x/a380x-beginner-guide/01_preflight.md).
 
 ## Microsoft Flight Simulator Settings
 
@@ -182,7 +182,3 @@ The first time you start the aircraft after this feature has been included and a
 flyPad EFB Settings for Error Reporting:
 
 ![flyPad EFB Setting Error Reporting](../a32nx/assets/settings/efb-settings-atsuaoc-error-reporting.png "flyPad EFB Setting Error Reporting")
-
-## A380X - Important Settings
-
-<p style="color:yellow; font-size:18px;">TODO: Add A380X settings</p>

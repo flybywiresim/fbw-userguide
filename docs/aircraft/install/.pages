@@ -1,6 +1,5 @@
 title: Installation
 nav:
-    #- Overview: index.md
     - Overview: installation.md
     - Versions: fbw-versions.md
     - Settings: settings.md
