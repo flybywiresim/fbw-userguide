@@ -62,7 +62,7 @@ This section provides information on the A380X weight configuration and insight 
     
     ### Center of Gravity
     
-    An acceptable range for takeoff CG in the A380NX is between 15-45%. The CG is balanced during the passenger loading process.
+    An acceptable range for takeoff CG in the A380X is between 15-45%. The CG is balanced during the passenger loading process.
 
     Trimming the aircraft for takeoff is usually optional and technically not required. Please reference our the [FBW Checklist](../../../pilots-corner/a380x/a380x-sop.md) to set the appropriate trim should you wish to.
     
@@ -228,7 +228,7 @@ The payload section can be found in the Ground Services Page on the EFB and sele
 
 Once on this page, you will be presented with the following:
 
-- A top-down model of the A380NX seating configuration
+- A top-down model of the A380X seating configuration
 - Entry fields to configure PAX and Cargo
 - Per passenger weight and baggage weight entry
 - Boarding time settings
