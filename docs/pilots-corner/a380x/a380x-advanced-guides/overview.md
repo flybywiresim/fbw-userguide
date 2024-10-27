@@ -16,7 +16,7 @@ Each page was reviewed by an A380 type rated pilot and provides accurate informa
 !!! info "Airline SOP"
     Please be aware that different airlines may have slightly different procedures at different stages of flight.
 
-**For Simulation Use Only**
+<p style="color:coral;">This is for simulation purposes only.</p>
 
 ---
 

@@ -15,6 +15,8 @@ well as setup and operation of BTV.
 
     BTV can be set up manually without the OANS airport map through the OANS control panel, this is however not explained in this guide.
 
+<p style="color:coral;">This is for simulation purposes only.</p>
+
 ---
 
 ## Airport navigation
