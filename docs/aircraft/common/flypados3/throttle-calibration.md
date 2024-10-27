@@ -367,8 +367,6 @@ For a throttle with 2 axes, you need to set `Independent Axis` to 2.
 Also make sure that your MSFS Controller config maps throttle 1 and 2 to the first hardware axis and throttle 3 and 4 
 to the second hardware axis.
 
-You now can calibrate each throttle as described in the A32NX section.
-
 MSFS Controller Config for 2-Axis Throttle:<br/>
 ![img_3.png](../assets/flypados3/throttle-calibration/a380x-msfs-controller-2axis.png)
 Note that throttle 1 and 2 are mapped to the first hardware axis and throttle 3 and 4 to the second hardware axis.
