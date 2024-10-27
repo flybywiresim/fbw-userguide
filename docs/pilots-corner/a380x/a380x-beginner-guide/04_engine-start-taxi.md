@@ -521,4 +521,4 @@ Please see [Airport Signage and Markings](../../airliner/airliner-flying-guide/a
 
 This concludes the *Taxi* guide.
 
-Continue with [Takeoff, climb and cruise](05_takeoff-climb-cruise)
+Continue with [Takeoff, climb and cruise](../05_takeoff-climb-cruise)
