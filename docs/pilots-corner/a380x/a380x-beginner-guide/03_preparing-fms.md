@@ -60,6 +60,18 @@ Visit [Cockpit Preparation](02_cockpit-preparation.md) to learn more.
 
     Additional reading material: [The CRAFT mnemonic](https://en.wikipedia.org/wiki/CRAFT_(aviation)){target=new}
 
+??? tip "Setting the Squawk Code"
+    In the ATC IFR clearance you will be assigned a squawk code. This code is used to identify your aircraft on radar.
+
+    To set the squawk code, you can use the [Radio Management Panel (RMP)](../a380x-briefing/flight-deck/pedestal/rmp.md)
+    on the pedestal or the [MFD](../a380x-briefing/flight-deck/main-panel/mfd.md) Surveillance (SURV) page.
+
+    In the MFD Surveillance page, you can set the squawk code by clicking on the `SQWK` field and typing in the assigned 
+    code and confirm with ENTER. Then click on the AUTO button to activate the squawk code. 
+
+    MFD Surveilance Page - Setting the squawk code `2000`:<br/>
+    ![img.png](../assets/beginner-guide/03_preparing-fms/fms-surv-sqwk.png){loading=lazy}
+
 ---
 
 ## Chapters / Phases

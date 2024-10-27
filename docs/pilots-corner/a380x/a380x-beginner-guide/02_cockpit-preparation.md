@@ -301,14 +301,15 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 `COCKPIT DOOR SWITCH (INOP).......................................... NORM`<br/>
 `ATC CLEARANCE .....................................................OBTAIN`<br/>
 ??? note "ATC Clearance"
-    <p style="color:yellow; font-size:24px;">TODO: Improve.</p>
-    It is recommended to obtain the ATC clearance before starting the engines.
+    We will cover the ATC clearance in the next chapter when we prepare the FMS.    
 `NAVIGATION CHARTS ............................................... PREPARE`<br/>
 `MFD SURVEILLANCE DEFAULT SETTINGS................................. SELECT`<br/>
 ??? note "MFD Default Settings"
     Verify on the multi function display surveillance control page that the transponder is set to AUTO, the squawk code
     is the same, the TCAS is set to TA/RA and Norm, all TAWS modes are ON, and the weather radar is set to AUTO, the
     elevation/tilt to AUTO, Mode set to WX, TURB set to AUTO, GAIN set to AUTO, WX ON VD set to ON and PRED W/S to AUTO)
+    
+    We will cover how to set the squawk code in the next chapter when we prepare the FMS.
 
 ??? tip "How and Where?"
     [Flight Deck Overview](../../a380x-briefing/flight-deck){ .md-button }
