@@ -5,14 +5,14 @@ description: Frequently Asked Questions about the FlyByWire Aircraft, detailing 
 
 ## General
 
-<p style="color:yellow; font-size:18px;">TODO: Add 380 directory/filenames</p>
-
 ???+ info "Q: Where are our planes in-sim?"
     Both of our aircraft are searchable in the aircraft selection menu. 
 
+    ![img.png](assets/faq/msfs-aircraft-selection.png)
+
     - The A32NX is listed as `FlyByWire Simulations A320neo (LEAP)`
 
-    - The A380X is listed as `TBD`
+    - The A380X is listed as `FlyByWire Simulations A380X (A380-842R RR)`
 
     !!! tip "A32NX"
         The A32NX is a separate aircraft from the default Asobo A320. 
@@ -31,11 +31,11 @@ description: Frequently Asked Questions about the FlyByWire Aircraft, detailing 
     **NOTE:** Liveries for the default A320neo are incompatible with the A32NX. 
 <p style="color:yellow; font-size:18px;">TODO: Verify other directories for airframe or if we're moving this</p>
 ??? info "Q: Do we have a simBrief profile for our aircraft?"
-    Yes, there is one available for all versions of our aircraft. You can find how to use them below.
+    Yes, there is one available for all versions of our aircraft. 
 
-    [A32NX Airframe](a32nx/feature-guides/simbrief.md##simbrief-airframe){.md-button}
+    A32NX: [A32NX SimBrief Integration](./a32nx/feature-guides/simbrief.md#simbrief-airframe)
 
-    [A380X Airframe](#){.md-button}
+    A380X: [A380X SimBrief Integration](./a380x/feature-guides/simbrief.md#simbrief-airframe)
 
 ??? info "Q: When will it be released?"
     The project is an ongoing rolling release. See [Downloads](install/installation.md#downloads).
@@ -46,7 +46,7 @@ description: Frequently Asked Questions about the FlyByWire Aircraft, detailing 
     [Version Information](install/fbw-versions.md){.md-button}
 
 ??? info "Q: How do I join the team?"
-    Head over to [A32NX Development Overview](../dev-corner/dev-guide/index.md) and join our Discord to get started.
+    Head over to the [Development Corner](../dev-corner/dev-guide/index.md) and join our Discord to get started.
 
 ??? info "Q: Is it payware?"
     No, it is a completely free and open-source aircraft.
