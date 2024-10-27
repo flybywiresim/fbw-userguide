@@ -1,4 +1,4 @@
-# Texture Map Changes
+# A32NX Texture Map Changes
 
 Changes made to the A32NX external model texturing will be documented below. The intended audience for this page is livery creators.
 
