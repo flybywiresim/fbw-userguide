@@ -7,25 +7,6 @@ description: Learn how to install the FlyByWire Aircraft for Microsoft Flight Si
 
 Please follow the information on this page to install FlyByWire Simulations products for Microsoft Flight Simulator 2020.
 
-!!! warning "Important Notice for the A32NX"
-
-    All FlyByWire Simulations A32NX versions are now independent of the default A320neo.
-
-    We’d like to remind all users of the following two **important changes**:
-
-    The folder in the Community directory is now:
-
-      - `flybywire-aircraft-a320-neo`
-
-    The airplane in the simulator is now titled:
-
-      - `FlyByWire Simulations - A320neo (LEAP)`
-
-!!! danger "MSFS Marketplace Version Discontinued"
-    Please uninstall any marketplace version.
-
-    You can reference [this issue](../support/reported-issues.md#outdated-marketplace-version) in our reported issues page for more details.
-
 ---
 
 ## Downloads
@@ -55,8 +36,6 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 [Download Installer](https://api.flybywiresim.com/installer){ .md-button target=new}
 
 ### Manual Installation
-
-<p style="color:yellow; font-size:18px;">TODO: Add A380X download links</p>
 
 <div class="grid cards" markdown>
 
@@ -91,6 +70,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
     ---
 
+[//]: # (TODO: Add A380X download links)
     Pending further information
 
 </div>
@@ -120,17 +100,16 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
 **Please follow ALL steps in this section if you encounter any issues with installation before seeking support.**
 
-Open the zip that you downloaded from one of the links above, and drag the `flybywire-aircraft-a320-neo` or `insert A380 folder` folder inside the zip into your Community folder.
+Open the zip that you downloaded from one of the links above, and drag the `flybywire-aircraft-a320-neo` or 
+`flybywire-aircraft-a380-842` folder inside the zip into your Community folder.
 
 See below for the location of your Community folder.
-
-<p style="color:yellow; font-size:18px;">TODO: Add A380X installation steps and folder name</p>
 
 ## Community Folder
 
 ### Microsoft Store and/or Game Pass Edition
 
-- Copy the `flybywire-aircraft-a320-neo` or `a380 folder` folder into your community package folder.
+- Copy the `flybywire-aircraft-a320-neo` or `flybywire-aircraft-a380-842` folder into your community package folder.
 
 It is located in:
 
@@ -140,7 +119,7 @@ It is located in:
 
 ### Steam Edition
 
-- Copy the `flybywire-aircraft-a320-neo` or `a380 folder` folder into your community package folder.
+- Copy the `flybywire-aircraft-a320-neo` or `flybywire-aircraft-a380-842` folder into your community package folder.
 
 It is located in:
 
@@ -150,7 +129,7 @@ It is located in:
 
 ### Boxed Edition
 
-- Copy the `flybywire-aircraft-a320-neo` or `a380 folder` folder into your community package folder.
+- Copy the `flybywire-aircraft-a320-neo` or `flybywire-aircraft-a380-842` folder into your community package folder.
 
 It is located in:
 
@@ -196,31 +175,32 @@ FBW Installer version 3.0.0 introduced the `Uninstall` feature. To perform an au
 
 ### Manual Clean Install
 
-<p style="color:yellow; font-size:18px;">TODO: Add A380X folder name + clean install steps</p>
-
 If you would like to manually perform a clean install you first have to delete the 
-`flybywire-aircraft-a320-neo` or `a380 folder` folder from your community folder.
+`flybywire-aircraft-a320-neo` or `flybywire-aircraft-a380-842` folder from your community folder.
 
-We also store additional information related to the aircraft in a separate directory, which is built when you load the aircraft in the simulator. You also need to delete the contents of this folder, but not the folder itself. 
+We also store additional information related to the aircraft in a separate directory, which is built when you load the 
+aircraft in the simulator. You also need to delete the contents of this folder, but not the folder itself. 
 
 These locations are found below:
 
 - [Microsoft Store Version](#microsoft-store-version)
 - [Steam Version](#steam-version)
 
-If the above folders are hidden to you, follow the directions on [Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5).
+If the above folders are hidden to you, follow the directions on 
+[Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5).
 
-Once in the correct directory, delete the files show here:
+Once in the correct directory, delete all files in the folder but maybe leave the `work` folder:
 
-<p style="color:yellow; font-size:18px;">TODO: get proper photo for localstate and not temp</p>
-
-![localstate folder](https://cdn.discordapp.com/attachments/838062729398976522/869736690695172156/unknown.png){ width=70% }
+![img.png](../assets/install/localstate-folder.png)
 
 !!! info "Work Folder"
-    The locations below contain a "work" folder. We store two important things here that you may not want to delete:
+    The locations below contain a "work" folder. We store important things here that you may not want to delete:
 
     - Your EFB throttle configuration.
-    - Our flight data recorder (for debugging purposes, which we may ask you to provide).
+    - Your FDR files (for debugging purposes, which we may ask you to provide).
+    - Your lighting presets.
+    - Your last fuel tank levels.
+    - Your flight model configuration (if you have changed it).
 
     **It is up to you to keep this folder or not.**
 
@@ -228,7 +208,11 @@ Once in the correct directory, delete the files show here:
 
 The folder can be found here:
 
+A32NX:<br/>
 `%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a320-neo\`
+
+A380X:<br/>
+`%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a380-842\`
 
 To quickly locate the `%localappdata%`:
 
@@ -244,7 +228,11 @@ To quickly locate the `%localappdata%`:
 
 The folder can be found here:
 
+A32NX:<br/>
 `%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a320-neo\`
+
+A380X:<br/>
+`%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a380-842\`
 
 To quickly locate `%appdata%`:
 
@@ -258,20 +246,25 @@ To quickly locate `%appdata%`:
 
 ***
 
-## Recommended Settings for A32NX, MSFS and Windows
+## Recommended Settings for A32NX, A380X, MSFS and Windows
 
 See [Recommended Settings](settings.md).
 
 ## Contributing
 
-[:fontawesome-brands-github:{: .github } **GitHub Contributing.md**](https://github.com/flybywiresim/aircraft/blob/master/.github/Contributing.md){ .md-button target=new }
+More info [FlyByWire Development Overview](../../dev-corner/dev-guide/index.md) or
+[:fontawesome-brands-github:{: .github } **GitHub Contributing.md**](https://github.com/flybywiresim/aircraft/blob/master/.github/Contributing.md){target=new }
 
-More info [A32NX Development Overview](../../dev-corner/dev-guide/index.md)
 
 ***
 
 ## SimBrief Airframe
 
+A32NX:<br/>
 [SimBrief Integration Guide](../a32nx/feature-guides/simbrief.md){.md-button}
+
+A380X:<br/>
+[SimBrief Integration Guide](../a380x/feature-guides/simbrief.md){.md-button}
+
 
 We have moved this information to the location above.
