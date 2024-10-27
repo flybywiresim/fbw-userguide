@@ -2,4 +2,5 @@ title: Release Notes
 nav:
     - Overview: index.md
     - A32NX: a32nx
+    - A380X: a380x
     - Installer: installer
