@@ -1,3 +1,8 @@
+---
+title: Fuel Panel
+description: The A380 Flight Deck Fuel Panel description.
+---
+
 # Fuel Panel
 
 ---

@@ -1,4 +1,9 @@
-# SD - System Display
+---
+title: System Display (SD)
+description: The A380 Flight Deck System Display (SD) description.
+---
+
+# System Display (SD)
 
 ---
 

@@ -1,3 +1,8 @@
+---
+title: Exterior Lights Panel
+description: The A380 Flight Deck Exterior Lights Panel description.
+---
+
 # Exterior Lights Panel
 
 ---

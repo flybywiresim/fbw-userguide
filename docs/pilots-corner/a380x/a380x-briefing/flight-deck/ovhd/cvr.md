@@ -1,3 +1,8 @@
+---
+title: Cockpit Voice Recorder (CVR) Panel 
+description: The A380 Flight Deck Cockpit Voice Recorder (CVR) Panel description. 
+---
+
 # Cockpit Voice Recorder (CVR) Panel
 
 ---

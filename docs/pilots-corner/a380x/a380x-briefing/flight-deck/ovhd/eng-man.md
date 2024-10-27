@@ -1,3 +1,8 @@
+---
+title: Engine Manual Start Panel
+description: The A380 Flight Deck Engine Manual Start Panel description.
+---
+
 # Engine Manual Start Panel
 
 ---

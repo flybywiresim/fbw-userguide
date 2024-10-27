@@ -1,17 +1,17 @@
 ---
-title: A380 Flight Deck - Parking Brake
-description: The A380 Flight Deck Parking Brake page description.
+title: Parking Brake Panel
+description: The A380 Flight Deck Parking Brake Panel description.
 ---
 
-# Parking Brake
+# Parking Brake Panel
 
-[Back to A380 Flight Deck Overview](../index.md){ .md-button }
+[Back to Pedestal](../overviews/pedestal.md){ .md-button }
 
 ---
 
 ## Overview
 
-![parking-brake.png](../../../assets/a380x-briefing/flight-deck/pedestal/parking-brake.png)
+![img_8.png](../../../assets/a380x-briefing/flight-deck/pedestal/parking-brake.png)
 
 ## Parking Brake Handle
 
@@ -31,5 +31,5 @@ With initial nominal BLG ACCUS filling, the parking brake is efficient for 12 h.
 
 ---
 
-[Back to A380 Flight Deck Overview](../index.md){ .md-button }
+[Back to Pedestal](../overviews/pedestal.md){ .md-button }
 

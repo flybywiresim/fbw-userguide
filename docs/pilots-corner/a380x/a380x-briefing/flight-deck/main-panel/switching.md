@@ -1,3 +1,8 @@
+---
+title: Switching Panel
+description: The A380 Flight Deck Switching Panel description.
+---
+
 # Switching Panel
 
 ---

@@ -1,3 +1,12 @@
+---
+title: Center Right Panel
+description: The A380 Flight Deck Center Right Panel description. The Center Right Panel is holding
+             the landing gear indicator, the brake accumulator pressure gauge, the autobrake 
+             selector, the RTO (Rejected Takeoff) button, the anti skid switch, the gear lever, the
+             clock. 
+             
+---
+
 # Center Right Panel
 
 ---

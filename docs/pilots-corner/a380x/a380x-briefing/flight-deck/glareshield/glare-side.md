@@ -1,4 +1,9 @@
-# Glare Shield Side Panels
+---
+title: Glareshield Side Panels
+description: The A380 Flight Deck Glareshield Side Panels description.
+---
+
+# Glareshield Side Panels
 
 ---
 

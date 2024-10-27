@@ -1,3 +1,8 @@
+---
+title: Recording and Evacuation Panel
+description: The A380 Flight Deck Recording and Evacuation Panel description.
+---
+
 # Recording and Evacuation Panel
 
 ---

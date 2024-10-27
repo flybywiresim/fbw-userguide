@@ -1,4 +1,9 @@
-# EWD - Engine Warning Display
+---
+title: Engine Warning Display (EWD)
+description: The A380 Flight Deck Engine Warning Display (EWD) description.
+---
+
+# Engine Warning Display (EWD)
 
 ---
 

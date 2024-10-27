@@ -1,4 +1,9 @@
-# OIT - Onboard Information Terminal
+---
+title: Onboard Information Terminal (OIT)
+description: The A380 Flight Deck Onboard Information Terminal (OIT) description.
+---
+
+# Onboard Information Terminal (OIT)
 
 ---
 

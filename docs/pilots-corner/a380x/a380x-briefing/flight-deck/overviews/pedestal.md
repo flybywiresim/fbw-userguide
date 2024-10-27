@@ -2,7 +2,8 @@
 hide:
 - toc
 - navigation
-description: The A380 Flight Deck Pedesatl page is providing an interactive graphical overview of the A380 flight deck 
+title: Pedestal
+description: The A380 Flight Deck Pedestal page is providing an interactive graphical overview of the A380 flight deck 
              pedestal and its systems. 
              
 ---
@@ -31,7 +32,7 @@ description: The A380 Flight Deck Pedesatl page is providing an interactive grap
     <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/engine-master"><div class="imagemap" style="position: absolute; top: 27%; height: 10%; left: 30.5%; width: 39%;"><span class="imagemapname">Engine Master</span></div></a>
 
     <!-- ECAM CONTROL PANEL -->
-    <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/ecam"><div class="imagemap" style="position: absolute; top: 37%; height: 13.6%; left: 30.5%; width: 39%;"><span class="imagemapname">ECAM Control</span></div></a>
+    <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/ecam-cp"><div class="imagemap" style="position: absolute; top: 37%; height: 13.6%; left: 30.5%; width: 39%;"><span class="imagemapname">ECAM Control</span></div></a>
 
     <!-- SPEED BRAKE -->
     <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/speed-brake"><div class="imagemap" style="position: absolute; top: 51%; height: 13%; left: 9.5%; width: 27%;"><span class="imagemapname">Speed Brake</span></div></a>

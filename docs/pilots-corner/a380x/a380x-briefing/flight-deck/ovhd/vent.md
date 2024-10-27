@@ -1,3 +1,8 @@
+---
+title: Ventilation Panel
+description: The A380 Flight Deck Ventilation Panel description.
+---
+
 # Ventilation Panel
 
 ---

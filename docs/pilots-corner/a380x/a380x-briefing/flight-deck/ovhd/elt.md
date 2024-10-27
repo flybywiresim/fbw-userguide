@@ -1,3 +1,8 @@
+---
+title: Emergency Locator Transmitter (ELT) Panel
+description: The A380 Flight Deck Emergency Locator Transmitter (ELT) Panel description.
+---
+
 # Emergency Locator Transmitter (ELT) Panel
 
 ---

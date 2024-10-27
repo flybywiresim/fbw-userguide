@@ -1,3 +1,8 @@
+---
+title: Entertainment Panel
+description: The A380 Flight Deck Entertainment Panel description.
+---
+
 # Entertainment Panel
 
 ---

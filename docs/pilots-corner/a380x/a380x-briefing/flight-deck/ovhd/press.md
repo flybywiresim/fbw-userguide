@@ -1,3 +1,8 @@
+---
+title: Pressurization Panel
+description: The A380 Flight Deck Pressurization Panel description.
+---
+
 # Pressurization Panel
 
 ---

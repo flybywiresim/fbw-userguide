@@ -1,3 +1,8 @@
+---
+title: Reading Lights Panels
+description: The A380 Flight Deck Reading Lights Panels description.
+---
+
 # Reading Lights Panels
 
 ---

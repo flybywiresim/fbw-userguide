@@ -1,3 +1,8 @@
+---
+title: Flight Control System Panel
+description: The A380 Flight Deck Flight Control System Panel description.
+---
+
 # Flight Control System Panel
 
 ---

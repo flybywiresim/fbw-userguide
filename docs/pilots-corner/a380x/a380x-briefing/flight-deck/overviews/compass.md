@@ -1,6 +1,6 @@
 ---
-description: The A380 Flight Deck Seats page is providing an interactive graphical overview of the A380 flight deck
-             seats and its features. 
+title: Compass and Eye Reference 
+description: The A380 Flight Deck Compass and Eye Reference description. 
 ---
 
 # Compass and Eye Reference

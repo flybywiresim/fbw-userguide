@@ -1,3 +1,8 @@
+---
+title: Gravity Gear Panel
+description: The A380 Flight Deck Gravity Gear Panel description.
+---
+
 # Gravity Gear Panel
 
 ---

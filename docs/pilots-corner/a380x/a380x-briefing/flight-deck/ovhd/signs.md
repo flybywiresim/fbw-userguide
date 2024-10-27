@@ -1,3 +1,8 @@
+---
+title: Signs Panel
+description: The A380 Flight Deck Signs Panel description.
+---
+
 # Signs Panel
 
 ---

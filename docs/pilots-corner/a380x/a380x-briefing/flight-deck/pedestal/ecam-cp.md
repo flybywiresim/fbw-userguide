@@ -1,9 +1,9 @@
 ---
-title: Flaps Lever Panel
-description: The A380 Flight Deck Flaps Lever Panel description.
+title: ECAM Control Panel (ECP)
+description: The A380 Flight Deck ECAM Control Panel description.
 ---
 
-# Flaps Lever Panel
+# ECAM Control Panel (ECP) 
 
 ---
 
@@ -11,7 +11,8 @@ description: The A380 Flight Deck Flaps Lever Panel description.
 
 ---
 
-![img_7.png](../../../assets/a380x-briefing/flight-deck/pedestal/flaps.png)
+
+![img_4.png](../../../assets/a380x-briefing/flight-deck/pedestal/ecp.png)
 
 
 [//]: # (TODO)

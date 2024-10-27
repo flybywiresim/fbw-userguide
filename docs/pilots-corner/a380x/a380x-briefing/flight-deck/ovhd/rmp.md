@@ -1,3 +1,8 @@
+---
+title: Radio Management Panel (RMP)
+description: The A380 Flight Deck Radio Management Panel (RMP) description.
+---
+
 # Radio Management Panel (RMP)
 
 ---

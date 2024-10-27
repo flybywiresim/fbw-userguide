@@ -1,3 +1,8 @@
+---
+title: Internal Lights Panel
+description: The A380 Flight Deck Internal Lights Panel description.
+---
+
 # Internal Lights Panel
 
 ---

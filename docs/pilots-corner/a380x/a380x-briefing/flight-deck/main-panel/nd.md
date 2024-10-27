@@ -1,4 +1,9 @@
-# ND - Navigation Display
+---
+title: Navigation Display (ND)
+description: The A380 Flight Deck Navigation Display (ND) description.
+---
+
+# Navigation Display (ND)
 
 ---
 
