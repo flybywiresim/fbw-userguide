@@ -22,9 +22,9 @@ This page goes over how to use payload synchronization as-well as any caveats yo
 You may notice the payload page is slightly different, with the Play/Stop button missing. This is because boarding is now managed by GSX and thus triggering these states is done by you, the user, through the GSX Menu.
 
 In the future, when the GSX API expands, we aim to reduce the dependency on the GSX Menu and allow you to do everything from the EFB.
-
+../../../common/flypados3/settings.md#3rd-party-options
 1. Boarding
-      - Load the aircraft as per normal, following the instructions defined in, [Setting Up Payload](../flypados3/ground.md#setting-up-payload) in the EFB.
+      - Load the aircraft as per normal, following the instructions defined in, [Setting Up Payload](../../../common/flypados3/ground.md#setting-up-payload) in the EFB.
       - Before proceeding, ensure you've set *everything* to your preferences, this is the point of NO return. 
       - Select `Request Boarding` from the GSX Menu.
       - The payload page will now enter a disabled state, where you can no longer modify anything until ***after deboarding*** has completed.

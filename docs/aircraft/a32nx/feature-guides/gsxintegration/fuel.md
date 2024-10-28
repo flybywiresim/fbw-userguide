@@ -29,4 +29,4 @@ Much of the refuelling process between the A32NX and GSX is automated; However s
       - Once complete, `(Refuelling...)` will disappear and the fuel truck will leave.
 
 2. Defueling
-     - Due to limitations with GSX, this is not supported. To defuel, disable [Fuel Sync](../flypados3/settings.md#3rd-party-options) temporarily and use the play button to initiate the defuelling process.
+     - Due to limitations with GSX, this is not supported. To defuel, disable [Fuel Sync](../../../common/flypados3/settings.md#3rd-party-options) temporarily and use the play button to initiate the defuelling process.
