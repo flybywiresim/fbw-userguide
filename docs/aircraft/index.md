@@ -26,7 +26,7 @@ A common feature section will cover features that are shared between the aircraf
 
     The FAQ section provides answers to frequently asked questions regarding the FlyByWire aircraft add-ons.
 
-- <p style="font-size:24px;">[Installation Guide](./install)</p>
+- <p style="font-size:24px;">[Installation Guide](./install/installation.md)</p>
 
     ---
     
