@@ -16,7 +16,7 @@ description: The A380 Flight Deck Electronic Flight Instrument System (EFIS) Pan
 
 [//]: # (TODO)
 <p style="color:yellow; font-size:18px;">TODO: </p>
-s
+
 
 ---
 
