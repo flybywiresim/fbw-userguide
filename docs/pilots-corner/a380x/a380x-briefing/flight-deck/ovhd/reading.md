@@ -14,8 +14,9 @@ description: The A380 Flight Deck Reading Lights Panels description.
 
 [//]: # (TODO API Doc Link)
 
-[//]: # (TODO)
-<p style="color:yellow; font-size:18px;">TODO: </p>
+## Description
+
+Each flight crew member has a reading light.
 
 ---
 
