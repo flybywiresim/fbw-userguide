@@ -11,11 +11,18 @@ description: The A380 Flight Deck Speed Brake Panel description.
 
 ---
 
-![img_5.png](../../../assets/a380x-briefing/flight-deck/pedestal/speed-brake.png)
+![img_5.png](../../../assets/a380x-briefing/flight-deck/pedestal/speed-brake.png){loading=lazy width=70%}
 
+## Description
 
-[//]: # (TODO)
-<p style="color:yellow; font-size:18px;">TODO: </p>
+- The speed brake surfaces can be controlled with the SPEED BRAKE lever.
+- To set speedbrake surfaces to a required position, the lever has to be pushed down and set to the required position.
+- A detent is provided at "½" SPEED BRAKE position.
+- The ground spoilers can be armed via the SPEED BRAKE lever. The lever must be pulled up when in the RET position to 
+  achieve this.
+- When the lever is armed (or reverse thrust is selected), all spoiler's surfaces will automatically extend at landing, 
+  or in case of a rejected takeoff.
+
 
 
 ---

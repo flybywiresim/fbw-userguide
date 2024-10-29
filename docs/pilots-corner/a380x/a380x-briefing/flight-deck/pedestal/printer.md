@@ -1,5 +1,5 @@
 ---
-title: Trim Panel
+title: Printer Panel
 description: The A380 Flight Deck Trim Panel page description.
 ---
 
@@ -11,10 +11,18 @@ description: The A380 Flight Deck Trim Panel page description.
 
 ## Overview
 
-![printer.png](../../../assets/a380x-briefing/flight-deck/pedestal/printer.png)
+![printer.png](../../../assets/a380x-briefing/flight-deck/pedestal/printer.png){loading=lazy width=70%}
 
-[//]: # (TODO)
-<p style="color:yellow; font-size:18px;">TODO: content </p> 
+## Description
+
+The following systems (if installed) can print reports on paper: ACARS, AIDS, FMGC, CFDIU and EVMU.
+
+After loading a new paper roll, the SLEW switch can be used to feed the paper forward.
+
+New paper can be added by opening the printer panel using the latch, which locks the door.
+
+!!! warning "Printer"
+    The printer is not yet implemented in the A380X.
 
 ---
 
