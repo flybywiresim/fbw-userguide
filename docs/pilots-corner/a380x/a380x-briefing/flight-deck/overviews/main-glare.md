@@ -43,9 +43,9 @@ description: The A380 Flight Deck Main Instrument Panel and Glareshield page is 
     <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/oit"><div class="imagemap" style="position: absolute; top: 36%; height: 45%; left: 0%; width: 8%;"><span class="imagemapname">OIT Capt</span></div></a>
     <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/oit"><div class="imagemap" style="position: absolute; top: 36%; height: 45%; left: 92%; width: 8%;"><span class="imagemapname">OIT FO</span></div></a>
 
-    <!-- EFIS RECONF -->
-    <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/efis-reconf"><div class="imagemap" style="position: absolute; top: 32%; height: 12%; left: 8.5%; width: 7%;"><span class="imagemapname">EFIS Reconf Capt</span></div></a>
-    <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/efis-reconf"><div class="imagemap" style="position: absolute; top: 32%; height: 12%; left: 84.5%; width: 7%;"><span class="imagemapname">EFIS Reconf FO</span></div></a>
+    <!-- EFIS RECONF / DU CP-->
+    <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/efis-reconf"><div class="imagemap" style="position: absolute; top: 32%; height: 12%; left: 8.5%; width: 7%;"><span class="imagemapname">Display Unit Control Panel Capt</span></div></a>
+    <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/efis-reconf"><div class="imagemap" style="position: absolute; top: 32%; height: 12%; left: 84.5%; width: 7%;"><span class="imagemapname">Display Unit Control Panel FO</span></div></a>
 
     <!-- PFD -->
     <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/pfd"><div class="imagemap" style="position: absolute; top: 28%; height: 31%; left: 16%; width: 8.5%;"><span class="imagemapname">PFD Capt</span></div></a>

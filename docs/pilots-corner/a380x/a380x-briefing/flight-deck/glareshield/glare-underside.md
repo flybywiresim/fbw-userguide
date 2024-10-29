@@ -14,8 +14,19 @@ description: The A380 Flight Deck Glareshield Underside description.
 ![img_2.png](../../../assets/a380x-briefing/flight-deck/glare/glareshield-underside.png)
 
 
-[//]: # (TODO)
-<p style="color:yellow; font-size:18px;">TODO: </p>
+## Description
+
+The Glareshield Underside has 4 knobs to control the brightness of the instrument panel flodd lights and the 
+brightness of the glareshield integral lights and LCD brightness.
+
+## Usage
+
+From left to right:
+
+- Brightness for the instrument panel flood lights on the Captain side.
+- Brightness for the glareshield integral lights.
+- Brightness for the LCD displays.
+- Brightness for the instrument panel flood lights on the First Officer side.
 
 
 ---
