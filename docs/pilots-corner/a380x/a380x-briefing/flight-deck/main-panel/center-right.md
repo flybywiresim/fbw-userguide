@@ -15,7 +15,7 @@ description: The A380 Flight Deck Center Right Panel description. The Center Rig
 
 ---
 
-![img.png](../../../assets/a380x-briefing/flight-deck/main/center-right.png)
+![img.png](../../../assets/a380x-briefing/flight-deck/main/center-right.png){loading=lazy width=50%}
 
 ## Description
 

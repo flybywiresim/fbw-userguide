@@ -12,7 +12,7 @@ description: The A380 Flight Deck Display Unit Control Panel
 
 ---
 
-![img.png](../../../assets/a380x-briefing/flight-deck/main/efis-reconfig.png)
+![img.png](../../../assets/a380x-briefing/flight-deck/main/efis-reconfig.png){loading=lazy width=50%}
 
 ## Description
 

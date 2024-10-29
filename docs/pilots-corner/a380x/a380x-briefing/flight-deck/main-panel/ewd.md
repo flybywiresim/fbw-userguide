@@ -11,11 +11,22 @@ description: The A380 Flight Deck Engine Warning Display (EWD) description.
 
 ---
 
-![img_1.png](../../../assets/a380x-briefing/flight-deck/main/ewd.png)
+![img_1.png](../../../assets/a380x-briefing/flight-deck/main/ewd.png){loading=lazy width=50%}
+
+## Description
+
+The Engine Warning Display (EWD) is located on the main instrument panel in the center. 
+
+It consists of two parts:
+
+- The upper part displays the status of the engines.
+- The lower part displays the status of the Electronic Centralized Aircraft Monitoring (ECAM)
+
+!!! note ""
+    We will provide a detailed description of the EWD in the future.
 
 
-[//]: # (TODO)
-<p style="color:yellow; font-size:18px;">TODO: </p>
+
 
 
 ---
