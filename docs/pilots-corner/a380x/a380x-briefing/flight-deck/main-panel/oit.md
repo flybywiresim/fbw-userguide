@@ -14,8 +14,10 @@ description: The A380 Flight Deck Onboard Information Terminal (OIT) description
 ![img.png](../../../assets/a380x-briefing/flight-deck/main/oit.png)
 
 
-[//]: # (TODO)
-<p style="color:yellow; font-size:18px;">TODO: </p>
+## Description
+
+!!! warning "OIS and OIT"
+    THe OIS/OIT is not yet implemented in the A380X. We will provide a detailed description in the future.
 
 
 ---

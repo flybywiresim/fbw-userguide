@@ -11,7 +11,7 @@ description: The A380 Flight Deck Gravity Gear Panel description.
 
 ---
 
-![img_1.png](../../../assets/a380x-briefing/flight-deck/main/gravity-gear.png)
+![img_1.png](../../../assets/a380x-briefing/flight-deck/main/gravity-gear.png){loading=lazy width=50%}
 
 ## Description
 
