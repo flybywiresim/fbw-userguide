@@ -11,7 +11,7 @@ description: The A380 Flight Deck Wiper Panel description.
 
 ---
 
-![Wiper Panel](../../../assets/a380x-briefing/flight-deck/ovhd/wiper-panel.png "Wiper Panel"){loading=lazy}
+![Wiper Panel](../../../assets/a380x-briefing/flight-deck/ovhd/wiper-panel.png "Wiper Panel"){loading=lazy width=50%}
 
 [//]: # (TODO API Doc Link)
 
