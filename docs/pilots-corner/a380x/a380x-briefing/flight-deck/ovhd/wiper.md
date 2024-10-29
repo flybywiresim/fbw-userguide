@@ -15,8 +15,21 @@ description: The A380 Flight Deck Wiper Panel description.
 
 [//]: # (TODO API Doc Link)
 
-[//]: # (TODO)
-<p style="color:yellow; font-size:18px;">TODO: </p>
+## DESCRIPTION
+
+Each windshield is provided with two-speed electric wipers that are controlled by individual WIPER selectors. 
+
+## Usage
+
+### WIPER SELECTOR:
+
+- OFF:
+    - Wiper is stowed out of view at the base of the window.
+- SLOW:
+    - Wiper operates at low speed.
+- FAST:
+    - Wiper operates at high speed.
+
 
 ---
 
