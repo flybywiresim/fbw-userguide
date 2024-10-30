@@ -7,15 +7,25 @@ for some of the FlyByWire Tools and other projects.
 
 <div class="grid cards" markdown>
 
-- <p style="font-size:24px;">[A32NX Release Notes](./a32nx/v0111.md)</p>
+- <p style="font-size:24px; color:#00E0FE;">A32NX Release Notes</p>
+
+    ---
 
     The A32NX Release Notes section contains release notes for the A32NX aircraft add-on.
 
-- <p style="font-size:24px;">A380X Release Notes</p>
+    [View Latest Here](a32nx/v0111.md){.md-button}
 
-    Not yet available.
-[//]: # (    The A380X Release Notes section contains release notes for the A380X aircraft add-on.)
+- <p style="font-size:24px; color:#00E0FE;">A380X Release Notes</p>
+
+    ---
+
+    The A380X Release Notes section contains release notes for the A380X aircraft add-on.
+
+    [View Latest Here](a380x/v012.md){.md-button}
+
 
 - <p style="font-size:24px;">[Installer Release Notes](installer/v330.md)</p>
+
+    ---
 
     The Installer Release Notes section contains release notes for the FlyByWire Installer.
