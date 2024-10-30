@@ -13,7 +13,7 @@ well as setup and operation of BTV.
 
     We're working on enabling OANS using the MSFS scenery data, however this is work-in-progress.
 
-    BTV can be set up manually without the OANS airport map through the OANS control panel, this is however not explained in this guide.
+    BTV can be set up manually without the OANS airport map through the OANS control panel, for details see [Without Navigraph Unlimited](#without-navigraph-unlimited)
 
 <p style="color:coral;">This is for simulation purposes only.</p>
 
@@ -71,7 +71,7 @@ The upper left of the ND now shows:
 ![Runway + exit selected](../assets/advanced-guides/oans-btv/btv-setup-selected.png)
 
 To finalize the setup, the auto brake mode selector knob is turned to the "BTV" option, which arms BTV (this should be
-checked in the PFD FMA). Images see below.
+checked in the PFD FMA). Images [see below](#btv-arming-img).
 
 ### Without Navigraph Unlimited
 
@@ -86,7 +86,7 @@ field next to "BTV STOP DISTANCE" (don't forget to finish by pressing the enter 
 To finalize the setup, the auto brake mode selector knob is turned to the "BTV" option, which arms BTV (this should be
 checked in the PFD FMA).
 
-![Auto brake selector knob](../assets/advanced-guides/oans-btv/btv-abrk-selector.png)
+![Auto brake selector knob](../assets/advanced-guides/oans-btv/btv-abrk-selector.png) {#btv-arming-img}
 ![PFD FMA: BTV armed](../assets/advanced-guides/oans-btv/pfd-btv-armed.png)
 
 ## BTV operation after touchdown
