@@ -1,55 +1,73 @@
 ---
 title: Support Guide
-description: Receive support for the FlyByWire A32NX. Access resources, troubleshooting guides, and community forums for assistance.
+description: Receive support for the FlyByWire A32NX and A380X. Access resources, troubleshooting guides, and community 
+             forums for assistance.
 ---
 
 <link rel="stylesheet" href="../../stylesheets/toc-tables.css">
 
 # Support Guide
 
-Microsoft Flight Simulator 2020 is still a rather young flight simulator and many issues still need to be addressed.
-
-The FlyByWire A32NX tries to address many of these issues, but it is of course also likely to have issues and bugs itself now and then.
-
-This guide shall help you how to identify and solve these issues by guiding you through a systematic troubleshooting process. There are several sources of information you can check if you experience an issue with the FBW A32NX add-on. We will describe each of them in more detail below.
+This guide shall help you how to identify and solve these issues by guiding you through a systematic troubleshooting 
+process. There are several sources of information you can check if you experience an issue with the FBW A32NX and A380X
+add-on. We will describe each of them in more detail below.
 
 ##  Index
 
 | Quick Links                                                                |
 |:---------------------------------------------------------------------------|
-| 1. [Learn how to fly the A32NX](#1-learn-how-to-fly-the-a32nx)             |
+| 1. [Learn how to fly the Aircraft](#1-learn-how-to-fly-the-aircraft)       |
 | 2. [How to Troubleshoot](#2-how-to-troubleshoot)                           |
 | 3. [Research Known Issues](#3-research-known-issues)                       |
 | 4. [Report Issue on Discord](#4-report-issue-on-discord)                   |
 | 5. [Report Issue on the A32NX GitHub](#5-report-issue-on-the-a32nx-github) |
 | 6. [Collecting Support Information](#collecting-support-information)       |
 
-## 1. Learn How to Fly the A32NX
+## 1. Learn How to Fly the Aircraft
 
 !!! warning "IMPORTANT"
 
-The FBW A32NX aims to become a realistic simulation of a real Airbus A320neo. Accordingly, as with real pilots, some reading, and learning is required to gain the knowledge to competently fly this aircraft, even in a simulator. Our support channels are not meant to and cannot replace this learning process for you.
+The FBW A32NX and A380X aim to become realistic simulations of the real Airbus A320neo and A380. Accordingly, as with 
+real pilots, some reading, and learning is required to gain the knowledge to competently fly this aircraft, even in a 
+simulator. Our support channels are not meant to and cannot replace this learning process for you.
 
-A good place to start learning to fly and operate the FlyByWire A32NX is our [Beginner Guide](../../pilots-corner/a32nx/a32nx-beginner-guide/overview.md).
+A good place to start learning to fly and operate our aircraft are our Beginner Guides:
 
-Further help can be found on our [:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire){target=new} in the channel #flight-school .
+A32NX: [Beginner Guide](../../pilots-corner/a32nx/a32nx-beginner-guide/overview.md).
 
-Please make sure you have acquired the knowledge to distinguish a software issue within the A32NX from lack of knowledge on your part. You will help keep our support channel effective for other users reporting actual issues.
+A380X: [Beginner Guide](../../pilots-corner/a380x/a380x-beginner-guide/overview.md).
+
+Further help can be found on our 
+[:fontawesome-brands-discord:{: .discord } - **Discord Link**](https://discord.gg/flybywire){target=new} 
+in the channel #flight-school .
+
+Please make sure you have acquired the knowledge to distinguish a software issue within the A32NX or A380X from lack of
+knowledge on your part. You will help keep our support channel effective for other users reporting actual issues.
 
 ## 2. How to Troubleshoot
 
 !!! warning "Before reporting an issue on the FlyByWire Discord or on GitHub, please follow these troubleshooting steps first."
 
-Please follow the steps below. If you can't reproduce the issue until the last item in the list, then it is most likely NOT a FlyByWire A32NX issue.
+Please follow the steps below. If you can't reproduce the issue until the last item in the list, then it is most likely 
+NOT a FlyByWire A32NX or A380X issue.
 
 1. Read [3. Research Known Issues](#3-research-known-issues)
 - **Make sure the issue is reproducible!**<br/>
-    Issues which happen only once can have many causes. These usually cannot be investigated or fixed, as they can't be reproduced by the FlyByWire team. To do so, restart the sim and try to create the same situation again (e.g., same airports, route, livery, time of day, weather, etc.).
+  Issues which happen only once can have many causes. These usually cannot be investigated or fixed, as they can't be 
+  reproduced by the FlyByWire team. To do so, restart the sim and try to create the same situation again (e.g., same
+  airports, route, livery, time of day, weather, etc.).
 - If the issue is reproducible, do a **test in a different situation** (different airports, route, weather, etc.).
-- If the issue is still reproducible, please do a **test with another aircraft** (preferably a default Microsoft Flight Simulator aircraft). If the issue is reproducible with other aircraft, it is most likely **not** a FlyByWire A32NX issue. If it is not reproducible with other aircraft, follow the next steps.
-- To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries ***remove everything (really everything!) from your [Community Folder](#community-folder-content)** and perform a [clean reinstall](../install/installation.md#clean-install-steps) of the A32NX with the [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}.
-- Also **ensure no other 3rd party software** such as FSUIPC, SPAD.neXt, YourControls, FS2Crew, etc. **is running** while you are troubleshooting.
-- If the issue is not already known and is reproducible, please** take screenshots or a video clearly showing your issue** and continue with chapter [4. Report Issue on Discord](#4-report-issue-on-discord).
+- If the issue is still reproducible, please do a **test with another aircraft** (preferably a default Microsoft Flight
+  Simulator aircraft). If the issue is reproducible with other aircraft, it is most likely **not** a FlyByWire 
+  A32NX/A380X issue. If it is not reproducible with other aircraft, follow the next steps.
+- To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries ***remove
+  everything (really everything!) from your [Community Folder](#community-folder-content)** and perform a 
+  [clean reinstall](../install/installation.md#clean-install-steps) of the aircraft with the 
+  [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}.
+- Also **ensure no other 3rd party software** such as FSUIPC, SPAD.neXt, YourControls, FS2Crew, etc. **is running** 
+  while you are troubleshooting.
+- If the issue is not already known and is reproducible, please** take screenshots or a video clearly showing your 
+  issue** and continue with chapter [4. Report Issue on Discord](#4-report-issue-on-discord).
 
 !!! warning "Please really do this as >90% of all reported issues are caused by conflicts with other mods and liveries, etc. Unfortunately, Microsoft Flight Simulator 2020 is very sensitive to conflicts between mods and liveries."
 
@@ -82,7 +100,7 @@ If you can't solve or find your issue with the above steps, you can use our [:fo
 Please prepare the following before reporting any issues:
 
 - [MSFS Version](#msfs-version)
-- [A32NX Version](#a32nx-version)
+- [Aircarft Version](#aircraft-version)
 - [Community Folder Content](#community-folder-content)
 - [Screenshot of Cockpit](#screenshot-of-cockpit)
 
@@ -91,7 +109,7 @@ describe your issue and respond to the questions our support team might have.
 
 !!! warning "Please do some research (see [above](#3-research-known-issues) ) before you post any questions or report any issues."
 
-## 5. Report Issue on the A32NX GitHub
+## 5. Report Issue on the A32NX/A380X GitHub
 
 [:fontawesome-brands-github:{: .github } - **Issues / Feature Requests**](https://github.com/flybywiresim/aircraft/issues){target=new}
 
@@ -100,7 +118,7 @@ Follow the issue template as good as you can. The more information you provide, 
 Provide at least the following so that our team can reproduce the issue:
 
 - [MSFS Version](#msfs-version)
-- [A32NX Version](#a32nx-version)
+- [Aircraft Version](#aircraft-version)
 - Clearly describe the issue in a way a third person can fully understand and reproduce it!
 - Include references like screenshots or videos
 
@@ -124,11 +142,11 @@ The version of Microsoft Flight Simulator 2020 you are using can be found via se
 
     ![MSFS-Version-MSStore](../a32nx/assets/support-guide/MSFS-Version-MSStore.jpg "MSFS-Version-MSStore")
 
-### A32NX Version
+### Aircraft Version
 
 #### Stable or Development
 
-You can determine which version of the FBW A32NX you use by looking at:
+You can determine which version of the FBW A32NX/A380X you use by looking at:
 
 - the FlyByWire Installer
 
@@ -140,7 +158,8 @@ You can determine which version of the FBW A32NX you use by looking at:
 
 #### Build Info
 
-To get the actual build number of your installed A32NX, go into your Community folder and open this A32NX file with Notepad:
+To get the actual build number of your installed A32NX/A380X, go into your Community folder and open this A32NX/A380X 
+file with Notepad:
 
 <your-Community-Folder>\flybywire-aircraft-a320-neo\build_info.json
 
@@ -175,30 +194,57 @@ Position yourself in the cockpit using arrow keys (default key mapping) to look 
 
 ### FDR Files
 
-The FlyByWire A32NX has a built-in data collection system to help with development, debugging, and user support.
+The FlyByWire A32NX/A380X have a built-in data collection system to help with development, debugging, and user support.
 
-The idea is taken from real aircraft and their flight data recorder and helps to analyze issues and performance of the simulated aircraft.
+The idea is taken from real aircraft and their flight data recorder and helps to analyze issues and performance of the
+simulated aircraft.
 
-These files are stored in your [work folder](#work-folder), and you will find the FDR files for the last 10 flights you did.
+These files are stored in your [work folder](#work-folder), and you will find the FDR files for the last 10 flights you
+did.
 
-You should recognize the correct one by the filename, which is the date and time of the flight. For a long flight, it might have been split into several files.
+You should recognize the correct one by the filename, which is the date and time of the flight. For a long flight, it
+might have been split into several files.
 
 Example: 2021-11-15-12-57-13.fdr
 
-Compress/Zip the file(s) and upload them to a sharing site (e.g., [Swisstransfer.com](https://www.swisstransfer.com/){target=new} ) as these files are likely to be very large.
+Compress/Zip the file(s) and upload them to a sharing site (e.g., 
+[Swisstransfer.com](https://www.swisstransfer.com/){target=new} ) as these files are likely to be very large.
 
 ### Work Folder
 
-Microsoft Flight Simulator allows mods like FlyByWire A32NX to store configuration and other data in a folder called "**work**": This folder is located in different places for the **MS Store version** and the **Steam version** of Microsoft Flight Simulator. The folder's location is described in the next paragraphs.
+Microsoft Flight Simulator allows mods like FlyByWire A32NX/A380X to store configuration and other data in a folder 
+called "**work**": This folder is located in different places for the **MS Store version** and the **Steam version** of
+Microsoft Flight Simulator. The folder's location is described in the next paragraphs.
 
 !!! info ""
     If you can't find the folders, these folders might be hidden from you by Windows. Follow the directions on ["View hidden files and folders in Windows 10" on Microsoft's support site](https://support.microsoft.com/en-us/windows/view-hidden-files-and-folders-in-windows-10-97fbc472-c603-9d90-91d0-1166d1d9f4b5){target=new}.
+
+We store important things here that you may not want to delete:
+
+- Your EFB throttle configuration.
+- Your FDR files (for debugging purposes, which we may ask you to provide).
+- Your lighting presets.
+- Your last fuel tank levels.
+- Your flight model configuration (if you have changed it).
+
+![img.png](../assets/install/localstate-folder.png)
 
 #### Microsoft Store Version
 
 The folder can be found here:
 
-`%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a320-neo\work`
+A32NX:<br/>
+`%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a320-neo\`
+
+A380X:<br/>
+`%LOCALAPPDATA%\Packages\Microsoft.FlightSimulator_8wekyb3d8bbwe\LocalState\packages\flybywire-aircraft-a380-842\`
+
+To quickly locate the `%localappdata%`:
+
+- Press start
+- Type in run into the start menu and press ++enter++
+- Type into the box `%localappdata%`
+- Press ++"OK"++
 
 !!! warning ""
     This is not your community directory
@@ -207,7 +253,18 @@ The folder can be found here:
 
 The folder can be found here:
 
-`%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a320-neo\work`
+A32NX:<br/>
+`%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a320-neo\`
+
+A380X:<br/>
+`%APPDATA%\Microsoft Flight Simulator\Packages\flybywire-aircraft-a380-842\`
+
+To quickly locate `%appdata%`:
+
+- Press start
+- Type in run into the start menu and press ++enter++
+- Type into the box `%appdata%`
+- Press ++"OK"++
 
 !!! warning ""
     This is not your community directory
