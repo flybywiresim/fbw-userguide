@@ -7,8 +7,8 @@ This advanced guide introduces the basic operation of the airport navigation fun
 well as setup and operation of BTV.
 
 !!! warning "Disclaimer"
-    <p style="color:coral;">Navigraph Ultimate subscription required</p>
-    The OANS function currently relies on data provided by Navigraph, which can only be accessed with a Navigraph Ultimate
+    <p style="color:coral;">Navigraph Unlimited subscription required</p>
+    The OANS function currently relies on data provided by Navigraph, which can only be accessed with a Navigraph Unlimited
     subscription.
 
     We're working on enabling OANS using the MSFS scenery data, however this is work-in-progress.
@@ -50,10 +50,12 @@ There is no aural warning (as RAAS).
 
 ## BTV setup
 
+### With Navigraph Unlimited
+
 As part of the descent preparations, BTV is usually set up. After having selected the landing runway in the FMS, switch
-the EFIS mode selector to PLAN, and load the destination airport using the OANS control panel. The airport map now shows
-your destination airport, with the FMS landing runway marked with a green arrow in front of the runway identifier (QFU).
-Clicking on the runway identifier selects this runway for BTV.
+the EFIS mode selector to PLAN, turn the range selector to ZOOM and load the destination airport using the OANS control panel.
+The airport map now shows your destination airport, with the FMS landing runway marked with a green arrow in front of the 
+runway identifier (QFU). Clicking on the runway identifier selects this runway for BTV.
 
 After selecting a runway, OANS displays two magenta lines projecting the required minimal stopping distance for DRY and WET
 conditions. The targeted exit should be chosen after the WET line only, this provides a safety margin. To finalize the
@@ -67,6 +69,19 @@ The upper left of the ND now shows:
 
 ![No selection](../assets/advanced-guides/oans-btv/btv-setup-no-selection.png)
 ![Runway + exit selected](../assets/advanced-guides/oans-btv/btv-setup-selected.png)
+
+To finalize the setup, the auto brake mode selector knob is turned to the "BTV" option, which arms BTV (this should be
+checked in the PFD FMA). Images see below.
+
+### Without Navigraph Unlimited
+
+Provided the landing runway is set in the FMS, BTV can also be set up without the airport map from the OANS. Turn the EFIS range
+selector to ZOOM, and open the OANS control panel by clicking on the arrow symbol on the lower right of the ND.
+
+Change to the "MAP DATA" tab, check that the selected landing runway is correct and enter the desired stopping distance in the input
+field next to "BTV STOP DISTANCE" (don't forget to finish by pressing the enter key).
+
+![BTV STOP DISTANCE selection in OANS control panel](../assets/advanced-guides/oans-btv/btv-fallback.png)
 
 To finalize the setup, the auto brake mode selector knob is turned to the "BTV" option, which arms BTV (this should be
 checked in the PFD FMA).
