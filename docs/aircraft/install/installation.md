@@ -250,6 +250,31 @@ To quickly locate `%appdata%`:
 
 See [Recommended Settings](settings.md).
 
+## Estimated System Requirements for A380X
+
+**Minimum (1080p30 Low)**
+
+* CPU: Intel i5-4460 or Ryzen 3 1400
+* GPU: Nvidia GTX 1060 6GB or AMD RX 480 8GB
+* Memory: 8GB
+* Storage: 28GB* free space (HDD or SSD)
+
+**At least 4-8GB needed for pagefile (virtual memory)*
+
+**Recommended (1440p30 High)**
+
+* CPU: Intel i5-8400 or Ryzen 5 3600
+* GPU: Nvidia RTX 3060 12GB or AMD RX 6600 XT 8GB
+* Memory: 16GB
+* Storage: 20GB free space (SSD)
+
+**Flying By Wire (1440p/4k DLSS 60 High/Ultra)**
+
+* CPU: Ryzen 7 7800X3D
+* GPU: RTX 4080 Super 16GB or 7900 XTX 24GB
+* Memory: 32GB
+* Storage: 20GB free space (SSD)
+
 ## Contributing
 
 More info [FlyByWire Development Overview](../../dev-corner/dev-guide/index.md) or

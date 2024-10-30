@@ -1,7 +1,25 @@
 ---
 title: FlyByWire Aircraft - Common Questions 
 description: Frequently Asked Questions about the FlyByWire Aircraft, detailing features, installation, and troubleshooting.
+
+
 ---
+
+<div class="grid cards" markdown>
+
+- **A32NX FAQ**
+
+    ---
+
+    Get quick answers to common questions [here](a32nx/index.md#a32nx-quick-faq).
+
+- **A380X FAQ**
+
+    ---
+
+    Get quick answers to common questions [here](a380x/index.md#a380x-quick-faq).
+
+</div>
 
 ## General
 
@@ -63,21 +81,9 @@ description: Frequently Asked Questions about the FlyByWire Aircraft, detailing 
 
     [Version Information](install/fbw-versions.md){.md-button}
 
----
+??? info "Q: Do your aircraft have WXR (weather radar) capabilities?"
 
-## A32NX Quick FAQ
+    Due to simulator limitations it isn't possible to display an accurate weather radar data on the ND at this time.
 
-???+ info "Q: I cannot hear the Flaps or PTU in the cockpit anymore?"
-    This change was made due to feedback from IRL A320 pilots who identified the sounds could not be heard from the cockpit IRL as they currently are in the simulator.
 
-    The PTU has a toggleable switch on the EFB (flyPad) settings that allows you to hear it in the cockpit when it is running.
-
-??? info "Q: Why is the overall interior lighting different? (Blue light effect on pedestal and displays)"
-    Based on IRL A320 pilot feedback, the blue light effect can only be seen from images. Also, the pedestal should be dark at night to improve pilots' vision at night.
-
-??? info "Q: Why does light bleed into the cockpit? Can this be fixed?"
-    Unfortunately, no - This is a more profound issue which will require work from the Asobo team.
-
-??? info "Q: The new sounds are different from the default ones, why?"
-    The default sounds were shared sounds from other default aircraft. The new sounds are accurate and very well-developed based on the A320 and A320neo pilot feedback.
 

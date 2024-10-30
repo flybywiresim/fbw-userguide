@@ -78,5 +78,18 @@ ACSC        S1803A0001
 | [Support](../support/index.md)                          |
 | [API and Hardware](a32nx-api/index.md)                  |
 
+## A32NX Quick FAQ
 
+???+ info "Q: I cannot hear the Flaps or PTU in the cockpit anymore?"
+    This change was made due to feedback from IRL A320 pilots who identified the sounds could not be heard from the cockpit IRL as they currently are in the simulator.
 
+    The PTU has a toggleable switch on the EFB (flyPad) settings that allows you to hear it in the cockpit when it is running.
+
+??? info "Q: Why is the overall interior lighting different? (Blue light effect on pedestal and displays)"
+    Based on IRL A320 pilot feedback, the blue light effect can only be seen from images. Also, the pedestal should be dark at night to improve pilots' vision at night.
+
+??? info "Q: Why does light bleed into the cockpit? Can this be fixed?"
+    Unfortunately, no - This is a more profound issue which will require work from the Asobo team.
+
+??? info "Q: The new sounds are different from the default ones, why?"
+    The default sounds were shared sounds from other default aircraft. The new sounds are accurate and very well-developed based on the A320 and A320neo pilot feedback.
