@@ -85,7 +85,7 @@ plugins:
         #        'exp.md': 'fbw-a32nx/support/exp.md'
         'vnav.md': 'pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/vertical-guidance/overview.md'
         # Release Notes Permalink
-        'latest-release.md': 'release-notes/a32nx/v0111.md'
+        'latest-release.md': 'release-notes/index.md'
         'latest-installer-release.md': 'release-notes/installer/v330.md'
         # ########################################
         # Needed for URL within the A32NX aircraft
