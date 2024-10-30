@@ -71,17 +71,20 @@ The upper left of the ND now shows:
 ![Runway + exit selected](../assets/advanced-guides/oans-btv/btv-setup-selected.png)
 
 To finalize the setup, the auto brake mode selector knob is turned to the "BTV" option, which arms BTV (this should be
-checked in the PFD FMA). Images [see below](#without-navigraph-unlimited).
+checked in the PFD FMA). Images [see below](#finalize-btv-setup).
 
-### Without Navigraph Unlimited
+??? info "Without Navigraph Unlimited"
+    ### Without Navigraph Unlimited
 
-Provided the landing runway is set in the FMS, BTV can also be set up without the airport map from the OANS. Turn the EFIS range
-selector to ZOOM, and open the OANS control panel by clicking on the arrow symbol on the lower right of the ND.
+    Provided the landing runway is set in the FMS, BTV can also be set up without the airport map from the OANS. Turn the EFIS range
+    selector to ZOOM, and open the OANS control panel by clicking on the arrow symbol on the lower right of the ND.
 
-Change to the "MAP DATA" tab, check that the selected landing runway is correct and enter the desired stopping distance in the input
-field next to "BTV STOP DISTANCE" (don't forget to finish by pressing the enter key).
+    Change to the "MAP DATA" tab, check that the selected landing runway is correct and enter the desired stopping distance in the input
+    field next to "BTV STOP DISTANCE" (don't forget to finish by pressing the enter key).
 
-![BTV STOP DISTANCE selection in OANS control panel](../assets/advanced-guides/oans-btv/btv-fallback.png)
+    ![BTV STOP DISTANCE selection in OANS control panel](../assets/advanced-guides/oans-btv/btv-fallback.png)
+
+### Finalize BTV Setup
 
 To finalize the setup, the auto brake mode selector knob is turned to the "BTV" option, which arms BTV (this should be
 checked in the PFD FMA).
