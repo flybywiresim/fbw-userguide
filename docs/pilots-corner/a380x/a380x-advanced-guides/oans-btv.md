@@ -54,7 +54,7 @@ There is no aural warning (as RAAS).
 
 As part of the descent preparations, BTV is usually set up. After having selected the landing runway in the FMS, switch
 the EFIS mode selector to PLAN, turn the range selector to ZOOM and load the destination airport using the OANS control panel.
-The airport map now shows your destination airport, with the FMS landing runway marked with a green arrow in front of the 
+The airport map now shows your destination airport, with the FMS landing runway marked with a green arrow in front of the
 runway identifier (QFU). Clicking on the runway identifier selects this runway for BTV.
 
 After selecting a runway, OANS displays two magenta lines projecting the required minimal stopping distance for DRY and WET
@@ -71,7 +71,7 @@ The upper left of the ND now shows:
 ![Runway + exit selected](../assets/advanced-guides/oans-btv/btv-setup-selected.png)
 
 To finalize the setup, the auto brake mode selector knob is turned to the "BTV" option, which arms BTV (this should be
-checked in the PFD FMA). Images [see below](#btv-arming-img).
+checked in the PFD FMA). Images [see below](#without-navigraph-unlimited).
 
 ### Without Navigraph Unlimited
 
@@ -86,7 +86,7 @@ field next to "BTV STOP DISTANCE" (don't forget to finish by pressing the enter 
 To finalize the setup, the auto brake mode selector knob is turned to the "BTV" option, which arms BTV (this should be
 checked in the PFD FMA).
 
-![Auto brake selector knob](../assets/advanced-guides/oans-btv/btv-abrk-selector.png) {#btv-arming-img}
+![Auto brake selector knob](../assets/advanced-guides/oans-btv/btv-abrk-selector.png)
 ![PFD FMA: BTV armed](../assets/advanced-guides/oans-btv/pfd-btv-armed.png)
 
 ## BTV operation after touchdown
