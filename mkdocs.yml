@@ -80,6 +80,7 @@ plugins:
         'airframe.md': 'https://docs.flybywiresim.com/fbw-a32nx/installation/#simbrief-airframe'
         'fdr.md': 'https://docs.flybywiresim.com/fbw-a32nx/support/#fdr-files'
         'flypad-performance.md': 'aircraft/common/flypados3/performance.md'
+        'faq.md': 'aircraft/faq.md'
         # Commented out in case we want to use this in the future
         #        'exp.md': 'fbw-a32nx/support/exp.md'
         'vnav.md': 'pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/vertical-guidance/overview.md'
