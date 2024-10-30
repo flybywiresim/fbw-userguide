@@ -70,9 +70,6 @@ The upper left of the ND now shows:
 ![No selection](../assets/advanced-guides/oans-btv/btv-setup-no-selection.png)
 ![Runway + exit selected](../assets/advanced-guides/oans-btv/btv-setup-selected.png)
 
-To finalize the setup, the auto brake mode selector knob is turned to the "BTV" option, which arms BTV (this should be
-checked in the PFD FMA). Images [see below](#finalize-btv-setup).
-
 ??? info "Without Navigraph Unlimited"
     ### Without Navigraph Unlimited
 
