@@ -118,7 +118,7 @@ be used.
     ### Workaround to use MSFS ATC
 
     To still have some use of the built-in MSFS ATC and VFR Map in the A380X you can load an identical flight plan into 
-    the MSFS WorldMap and into the aircraft. You can either manually enter the flight plan into the aircraft's FMS or
+    the MSFS World Map and into the aircraft. You can either manually enter the flight plan into the aircraft's FMS or
     load it from SimBrief. 
 
     **Make sure the plan you enter into the MSFS World Map is really identical to the one in the aircraft.** 
