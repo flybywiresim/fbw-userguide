@@ -439,7 +439,8 @@ any other issue on Discord.
     ^^Possible Solution or Workaround^^
     
     - Deactivate [MSFS Assistance Features](../../install/settings.md#deactivate-msfs-assistance-features)
-    - Rudder Settings: See the correct settings for rudder using the T.Flight Rudder Pedals as an example: [T.Flight Rudder Pedals Settings](./detail-pages/rudder.md)
+    - Rudder Settings: See the correct settings for rudder using the T.Flight Rudder Pedals as an example: 
+      [T.Flight Rudder Pedals Settings](../detail-pages/rudder.md)
 
 ??? tip "++ctrl+'E'++ - Engine Start Unsupported"
     ### ++ctrl+'E'++ - Engine Start Unsupported

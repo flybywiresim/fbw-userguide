@@ -29,7 +29,7 @@ Please try these before reporting any other issue on Discord.
 
     To make sure the issue you are experiencing is not caused by a conflict with other add-ons or liveries 
     **remove everything (really everything!) from your [Community Folder](#community-folder-content)** and perform a 
-    [clean reinstall](../../../install/installation/#clean-install-steps) of the A32NX or the A380X with the 
+    [clean reinstall](../../install/installation.md#clean-install-steps) of the A32NX or the A380X with the 
     [FlyByWire Installer](https://api.flybywiresim.com/installer){target=new}.
 
     An easy way to do this without deleting your add-ons and liveries is to rename the current Community folder to 
@@ -56,17 +56,17 @@ Please try these before reporting any other issue on Discord.
 ??? tip "Clean Install"
     ### Clean Install
 
-    See [Clean Install](../install/installation.md#clean-install-steps)
+    See [Clean Install](../../install/installation.md#clean-install-steps)
 
 ??? tip "Enable Windows UTF-8 Support"
     ### Enable Windows UTF-8 Support
 
-    See [UTF8 Support](../install/settings.md#utf-8-support)
+    See [UTF8 Support](../../install/settings.md#utf-8-support)
 
 ??? tip "Turn Off All MS Flight Simulator Assistance Features"
     ### Turn Off All MS Flight Simulation Assistance Features
 
-    Deactivate [MSFS Assistance Features](../install/settings.md#deactivate-msfs-assistance-features)
+    Deactivate [MSFS Assistance Features](../../install/settings.md#deactivate-msfs-assistance-features)
 
 ??? tip "Performance Issues / FPS Issues"
     ### Performance Issues / FPS Issues
@@ -96,17 +96,17 @@ Please try these before reporting any other issue on Discord.
 ??? tip "Use the Correct Airframe for SimBrief"
     ### Use the Correct Airframe for SimBrief
 
-    See [SimBrief Airframe](../install/installation.md#simbrief-airframe)
+    See [SimBrief Airframe](../../install/installation.md#simbrief-airframe)
 
 ??? tip "Check your MSFS Uses the Correct Community Folder"
     ### Check your MSFS Uses the Correct Community Folder
 
-    See [Community Folder](../install/installation.md#community-folder)
+    See [Community Folder](../../install/installation.md#community-folder)
 
 ??? tip "Throttle Calibration"
     ### Throttle Calibration
 
-    See our [Throttle Calibration Guide](../common/flypados3/throttle-calibration.md)
+    See our [Throttle Calibration Guide](../../common/flypados3/throttle-calibration.md)
 
 ??? tip "Setup Your Controller Deadzones"
     ### Setup Your Controller Deadzones
@@ -122,12 +122,12 @@ Please try these before reporting any other issue on Discord.
     Start with 20 % deadzone, if the problem persists, keep increasing it. If it's fine with 20 % you can then slowly 
     decrease it too.
 
-    ![Controller Deadzone](../a32nx/assets/support-guide/controller-deadzone.png){loading=lazy}
+    ![Controller Deadzone](../../a32nx/assets/support-guide/controller-deadzone.png){loading=lazy}
 
 ??? tip "Understand Discontinuities"
     ### Understand Discontinuities
 
-    See [Discontinuities Guide](../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/disco.md)
+    See [Discontinuities Guide](../../../pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/disco.md)
 
 ??? tip "Cockpit Interaction System"
     ### Cockpit Interaction System
@@ -228,7 +228,7 @@ Please try these before reporting any other issue on Discord.
     1. Remove everything from the Community folder - **really everything**!<br />[Test With Only the A32NX Add-on in 
     Community](#test-with-only-the-a32nx-add-on-in-community)
     1. [Enable Windows UTF-8 Support](#enable-windows-utf-8-support)
-    1. Perform a [Clean Install](../install/installation.md#clean-install-steps)
+    1. Perform a [Clean Install](../../install/installation.md#clean-install-steps)
     1. Stop any third-party application which connect to MSFS<br/>
        FSUIPC, YourControls, Fs2Crew, GSX, SPAD.next, ...
     1. Run without live weather and/or live traffic.
@@ -340,14 +340,14 @@ Please try these before reporting any other issue on Discord.
 
     You may find the 'play' button (that is used to initialise the refueling process) or the 'boarding' button (used to 
     initiate boarding of passengers) is missing or disabled on the 'Fuel' or 'Payload' page of the EFB (flyPad). This 
-    occurs when [GSX Synchronization](../common/flypados3/settings.md#3rd-party-options) is enabled. 
+    occurs when [GSX Synchronization](../../common/flypados3/settings.md#3rd-party-options) is enabled. 
 
     GSX is a third-party software developed and sold by FSDreamteam, which you can purchase and install to enhance ground
     operations at airports.
 
     ^^Possible Solution or Workaround^^
     
-    - If you are **not** using GSX, then you will need to disable both options on the [GSX Synchronization](../common/flypados3/settings.md#3rd-party-options) page on the EFB, under Settings -> 3rd Party Options.
+    - If you are **not** using GSX, then you will need to disable both options on the [GSX Synchronization](../../common/flypados3/settings.md#3rd-party-options) page on the EFB, under Settings -> 3rd Party Options.
     
     - If you do use GSX, then much of the boarding and refueling process is completed through GSX itself, while also 
     still requiring some interaction with the flyPad EFB. This is explained in detail in our 
@@ -370,7 +370,7 @@ Please try these before reporting any other issue on Discord.
     ^^Possible Solution or Workaround^^
     
     Please do a hard reset on the flyPad by either using the hardware power button or pressing and holding the software 
-    button. See [flyPad General Usage](../common/flypados3/index.md#general-usage) for more information.
+    button. See [flyPad General Usage](../../common/flypados3/index.md#general-usage) for more information.
 
 ??? tip "Hard To Control the Aircraft during Taxi, TakeOff, or Landing"
     ### Hard To Control the Aircraft during Taxi, TakeOff, or Landing
@@ -384,7 +384,7 @@ Please try these before reporting any other issue on Discord.
 
     ^^Possible Solution or Workaround^^
 
-    - [Deactivate MSFS Assistance Features](../install/settings.md#deactivate-msfs-assistance-features)
+    - [Deactivate MSFS Assistance Features](../../install/settings.md#deactivate-msfs-assistance-features)
 
 ??? tip "Difficulty Accurately Clicking Controls"
     ### Difficulty Accurately Clicking Controls

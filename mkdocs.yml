@@ -74,7 +74,7 @@ plugins:
         'beginner-guide.md': 'pilots-corner/a32nx/a32nx-beginner-guide/overview.md'
         'installation.md': 'aircraft/install/installation.md'
         'throttle.md': 'aircraft/common/flypados3/throttle-calibration.md'
-        'reported-issues.md': 'aircraft/support/known-issues.md'
+        'reported-issues.md': 'aircraft/support/known-issues/known-issues.md'
         'support.md': 'aircraft/support/index.md'
         'discord-bot.md': 'dev-corner/development-projects/discord-bot.md'
         'airframe.md': 'https://docs.flybywiresim.com/fbw-a32nx/installation/#simbrief-airframe'

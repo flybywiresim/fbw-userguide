@@ -14,7 +14,7 @@ description: Explore reported issues and known bugs for the FlyByWire aircraft a
 
     *Most reported issues are caused by conflicts with other mods and liveries. If this does not resolve your issue, please continue below.*
 
-    **Throttle Calibration is Required** - [Guide Here](../common/flypados3/throttle-calibration.md)
+    **Throttle Calibration is Required** - [Guide Here](../../common/flypados3/throttle-calibration.md)
 
     ---
 
@@ -24,34 +24,34 @@ description: Explore reported issues and known bugs for the FlyByWire aircraft a
 
 !!! warning "Read our Support Guides"
 
-    1. [Learn How to Fly the Aircraft](index.md#1-learn-how-to-fly-the-aircraft)
-    2. [Troubleshoot](index.md#2-how-to-troubleshoot)
-    3. [Research Known Issues](index.md#3-research-known-issues)
-    4. [Report Issue on Discord](index.md#4-report-issue-on-discord)
-    5. [Report Issue on the FBW Aircraft GitHub](index.md#5-report-issue-on-the-a32nx-github)
-    6. [Collecting Support Information](index.md#collecting-support-information)
+    1. [Learn How to Fly the Aircraft](../index.md#1-learn-how-to-fly-the-aircraft)
+    2. [Troubleshoot](../index.md#2-how-to-troubleshoot)
+    3. [Research Known Issues](../index.md#3-research-known-issues)
+    4. [Report Issue on Discord](../index.md#4-report-issue-on-discord)
+    5. [Report Issue on the FBW Aircraft GitHub](../index.md#5-report-issue-on-the-a32nx-github)
+    6. [Collecting Support Information](../index.md#collecting-support-information)
 
     === "Custom Autopilot"
 
         Due to the complex nature of our custom autopilot, please visit the dedicated ^^Custom Autopilot / Fly-By-Wire^^ page for more information:
     
-        - [**Main Page**](../a32nx/feature-guides/autopilot-fbw.md)
-        - [**Typical Issues + Solutions**](../a32nx/feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
-        - [**Known Issues**](../a32nx/feature-guides/autopilot-fbw.md#known-issues)
+        - [**Main Page**](../../a32nx/feature-guides/autopilot-fbw.md)
+        - [**Typical Issues + Solutions**](../../a32nx/feature-guides/autopilot-fbw.md#typical-issues-and-how-to-solve-them)
+        - [**Known Issues**](../../a32nx/feature-guides/autopilot-fbw.md#known-issues)
 
     === "Custom FMS"
 
         Please visit the ^^Dedicated Custom Flight Management System^^ page for more information on our latest implementation:
     
-        - [**Features + Issues**](../a32nx/feature-guides/cFMS.md)
-        - [**Special Notes**](../a32nx/feature-guides/cFMS.md#special-notes)
-        - [**Known Issues**](../a32nx/feature-guides/cFMS.md#known-issues)
+        - [**Features + Issues**](../../a32nx/feature-guides/cFMS.md)
+        - [**Special Notes**](../../a32nx/feature-guides/cFMS.md#special-notes)
+        - [**Known Issues**](../../a32nx/feature-guides/cFMS.md#known-issues)
 
     === "SimBridge"
 
         If you're having issues with ^^SimBridge^^, please follow our dedicated guide for it:
         
-        - [**SimBridge Troubleshooting Guide**](../../tools/simbridge/troubleshooting.md)
+        - [**SimBridge Troubleshooting Guide**](../../../tools/simbridge/troubleshooting.md)
 
     ---
 
