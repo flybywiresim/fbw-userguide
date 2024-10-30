@@ -9,5 +9,5 @@ Our Experimental Version is temporarily on hold and all of its features have bee
 
 See our versions here:
 
-[A32NX Versions](../install/fbw-versions.md){.md-button}
+[FlyByWire Aircraft Versions](../install/fbw-versions.md){.md-button}
 

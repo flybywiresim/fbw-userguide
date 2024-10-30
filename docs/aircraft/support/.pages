@@ -3,4 +3,5 @@ nav:
     - Support Guide: index.md
     - reported-issues.md
     - performance-tips.md
+    - exp.md
     - ...
