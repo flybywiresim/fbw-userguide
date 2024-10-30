@@ -304,7 +304,7 @@ Please try these before reporting any other issue on Discord.
 
     Due to a sim limitation, the flyPad cannot be used in the external view. 
 
-??? bug "Lost Use of Mouse After Typing in a flyPad Input Field"
+??? tip "Lost Use of Mouse After Typing in a flyPad Input Field"
     ### Lost Use of Mouse After Typing in a flyPad Input Field
 
     !!! tip ""
@@ -353,7 +353,7 @@ Please try these before reporting any other issue on Discord.
     still requiring some interaction with the flyPad EFB. This is explained in detail in our 
     [GSX Integration Guide](https://docs.flybywiresim.com/fbw-a32nx/feature-guides/gsxintegration).
 
-??? warning "Ground Services on the flyPad Are Out of Sync"
+??? tip "Ground Services on the flyPad Are Out of Sync"
     ### Ground Services on the flyPad Are Out of Sync
 
     !!! tip ""
@@ -407,7 +407,7 @@ Please try these before reporting any other issue on Discord.
     ![Lens Correction Settings](https://media.discordapp.net/attachments/785976111875751956/911096088809848852/unknown.png?width=1440&height=633)
 
 
-??? warning "Controls Freeze up While Looking Around"
+??? tip "Controls Freeze up While Looking Around"
     ### Controls Freeze up While Looking Around
 
     !!! tip ""

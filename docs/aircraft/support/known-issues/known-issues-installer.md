@@ -36,7 +36,7 @@ TEMPLATE
 ## FBW Installer Known Issues
 
 ??? bug "Download Issues - FBW Products"
-### Download Issues - FBW Products
+    ### Download Issues - FBW Products
 
     ^^Description^^
 
@@ -73,7 +73,7 @@ TEMPLATE
     - Spain
 
 ??? bug "Installer Permission Problems"
-### Installer Permission Problems
+    ### Installer Permission Problems
 
     ^^Description^^
 
