@@ -21,7 +21,7 @@ for some of the FlyByWire Tools and other projects.
 
     The A380X Release Notes section contains release notes for the A380X aircraft add-on.
 
-    [View Latest Here](a380x/v012.md){.md-button}
+    [View Latest Here](a380x/v0120){.md-button}
 
 
 - <p style="font-size:24px;">[Installer Release Notes](installer/v330.md)</p>
