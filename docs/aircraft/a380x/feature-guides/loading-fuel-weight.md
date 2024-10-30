@@ -9,19 +9,6 @@ description: Detailed overview of fueling, weight setup, and CG management in th
 
 This section provides information on the A380X weight configuration and insight on how to utilize and reference onboard/sim features to configure the aircraft appropriately for departure.
 
-[//]: # ({==)
-
-[//]: # ()
-[//]: # (There are differences when using our Stable version vs. Development version.<br/>)
-
-[//]: # (Please select the correct version below.)
-
-[//]: # ()
-[//]: # (==})
-
-[//]: # ()
-[//]: # ([Development Version]&#40;#development-version&#41;{ .md-button })
-
 ---
 
 ??? info "General Fuel and Weight Information"
@@ -62,23 +49,24 @@ This section provides information on the A380X weight configuration and insight 
     
     ### Center of Gravity
     
-    An acceptable range for takeoff CG in the A380X is between 15-45%. The CG is balanced during the passenger loading process.
+    An acceptable range for takeoff CG in the A380X is between 28-44%. The CG is balanced during the passenger loading process.
 
     Trimming the aircraft for takeoff is usually optional and technically not required. Please reference our the [FBW Checklist](../../../pilots-corner/a380x/a380x-sop.md) to set the appropriate trim should you wish to.
     
-    Anything less than 25 % CG is considered FWD load, and anything more than 25 % is considered an AFT load. While opting to choose between either CG configuration (aft/fwd), please consider the information below.
-    
     !!! info "Notes on Differing CG Configurations"
     
-    There are a few arguments worth considering when it comes to favoring an AFT CG or FWD CG. Generally, an AFT CG would provide for better aircraft performance (lower stall speed, drag, and angle of attack for a given lift coefficient) but generally worse for pitch stability.
+    There are a few arguments worth considering when it comes to favoring an AFT CG or FWD CG. Generally, an AFT CG 
+    would provide for better aircraft performance (lower stall speed, drag, and angle of attack for a given lift 
+    coefficient) but generally worse for pitch stability.
 
     Most operators would favor an AFT CG loading for fuel consumption benefits when considering the lifetime of the fleet and how easy the benefits can be obtained.
 
 ??? info "Aircraft CG Envelopes"
     ## Aircraft CG Envelopes
 
-    Our dynamic CG and payload chart provides the relevant visual information during the planning and execution of passenger/cargo loading. Fully understanding how the 
-    longitudinal CG envelope affects the aircraft can be difficult. Below is a great deep dive on understanding the chart and what the information provided indicates.
+    Our dynamic CG and payload chart provides the relevant visual information during the planning and execution of 
+    passenger/cargo loading. Fully understanding how the longitudinal CG envelope affects the aircraft can be difficult. 
+    Below is a great deep dive on understanding the chart and what the information provided indicates.
 
     <iframe src="https://www.sawe.ca/download/tech2011/Aircraft%20CG%20Envelopes.pdf" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border:1px solid #CCC;
     margin-bottom:5px;max-width: 100%; overflow: hidden; width: 100%; height: 600px;" allowfullscreen></iframe>`
@@ -284,7 +272,8 @@ If you imported your SimBrief OFP from the main page on the EFB, the values in t
 
     **ZFW MAC %/CG and GW/GWCG**
 
-    When utilizing the cyan switch button you can see the ZFW MAC %/CG and corresponding GW/GWCG reflect the correct percentage based on the appropriate calculation. 
+    When utilizing the cyan switch button you can see the ZFW MAC %/CG and corresponding GW/GWCG reflect the correct 
+    percentage based on the appropriate calculation. 
 
     !!! tip ""
         In the example below you can note that the fields for ZFW and ZFWCG have been swapped to GW and GWCG respectively.

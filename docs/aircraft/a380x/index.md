@@ -16,7 +16,7 @@ The following aircraft configurations are currently simulated:
 ```title="Simulated Hardware"
 Model       A380-842
 Engines     Rolls-Royce Trent 972B-84
-APU         Honeywell 331-350C (Confirm)
+APU         APU - Pratt & Whitney PW980
 WV          003
 TAWS        Honeywell AESS
 ACAS        Honeywell AESS
@@ -41,7 +41,7 @@ WXR         Honeywell AESS
 
     View a list of reported issues and their status.
 
-    [:octicons-arrow-right-24: View Issues](../support/reported-issues.md)
+    [:octicons-arrow-right-24: View Issues](../support/known-issues/known-issues)
 
 - **Feature Guides**
 
@@ -50,23 +50,7 @@ WXR         Honeywell AESS
     Please see our initial list of available features below. Guides pending.
 
     [:octicons-arrow-right-24: Feature List](feature-guides/index.md)
-
-[//]: # (    Learn how to use the various FlyByWire A380X's features.)
-
-[//]: # ()
-[//]: # (    [:octicons-arrow-right-24: View Guides]&#40;feature-guides/index.md&#41;)
-
-[//]: # (- **Throttle Calibration Guide**)
-
-[//]: # (    )
-[//]: # (    ---)
-
-[//]: # ()
-[//]: # (    Calibrate your throttle to work with the FlyByWire A380X.)
-
-[//]: # ()
-[//]: # (    [:octicons-arrow-right-24: View Guide]&#40;../common/flypados3/throttle-calibration.md&#41;)
-
+  philippe@dellaert.org
 </div>
 
 ## A380X Quick FAQ
@@ -99,9 +83,10 @@ The list below will be updated as best as possible. If you have any questions, p
 
 ??? info "Q: Will there be a performance calculator?"
 
-    We aim for the outmost accuracy with our projects, and as such we want to hold on making a performance calculator that could potentially provide bad data. 
+    We suggest using the (free) simBrief calculator for the time being, as it has been found to provide acceptable 
+    outputs for the current configuration of the A380X.
 
-    We suggest using the (free) simBrief calculator for the time being, as it has been found to provide acceptable outputs for the current configuration of the A380X.
+    We might implement a performance calculator in the future, but it is not a priority at the moment.
 
 ??? info "Q: Will hardware and gear from the A32NX work on the A380X (e.g. FCU Hardware)?"
 

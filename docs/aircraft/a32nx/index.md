@@ -48,7 +48,7 @@ ACSC        S1803A0001
     
     View a list of reported issues and their status.
         
-    [:octicons-arrow-right-24: View Issues](../support/reported-issues.md)
+    [:octicons-arrow-right-24: View Issues](../support/known-issues/known-issues)
 
 - **Feature Guides**
 
