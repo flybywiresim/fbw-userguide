@@ -117,7 +117,7 @@ When the FMS first starts, it will show a screen showing the current status of t
 ??? tip "Step 1 - FMS Initialization"
     The Flight Plan Initialization starts by opening the `INIT` page on the FMS from the `ACTIVE` menu.
 
-    ^^Flight Number^^
+    #### Flight Number
 
     ![FMS FLT NBR](../assets/beginner-guide/03_preparing-fms/fms-init-flt-nbr.png){loading=lazy}
 
@@ -126,7 +126,7 @@ When the FMS first starts, it will show a screen showing the current status of t
 
     This will confirm the flight number in the FMS. It can be used to identify your flight.
 
-    ^^From, To and Alternate Airports^^
+    #### From, To and Alternate Airports^^
 
     * Click the `FROM` field so a blue typing cursor appears in the field.
     * Using your keyboard, type `EDDM` and press the `ENTER` key.
@@ -137,7 +137,7 @@ When the FMS first starts, it will show a screen showing the current status of t
 
     This will set up the FMS for a flight from Munich to Frankfurt with the alternate airport set to Duesseldorf. 
 
-    ^^Cost Index^^
+    #### Cost Index
     
     ![OFP CI](../assets/beginner-guide/03_preparing-fms/ofp-ci.png){loading=lazy}
 
@@ -150,7 +150,7 @@ When the FMS first starts, it will show a screen showing the current status of t
     * Click the `CI` field so a blue typing cursor appears in the field.
     * Using your keyboard, type `10` and press the `ENTER` key.
 
-    ^^Cruise Level & Temp^^
+    #### Cruise Level & Temp
 
     ![OFP CRZ FL](../assets/beginner-guide/03_preparing-fms/ofp-crz-fl.png){loading=lazy}
 
@@ -174,7 +174,7 @@ When the FMS first starts, it will show a screen showing the current status of t
 
     ![OFP ROUTING](../assets/beginner-guide/03_preparing-fms/ofp-routing.png){loading=lazy}
 
-    ^^Inputting a SID^^
+    #### Inputting a SID
 
     !!! info "Standard Instrument Departure (SID)"
         These are procedures that are defined and published that take a flight from the take-off phase to the en route 
@@ -202,7 +202,7 @@ When the FMS first starts, it will show a screen showing the current status of t
     You can use the arrow keys at the bottom of the screen to scroll through the current Flight Plan. The SID terminates 
     at `GIVMI` and this is where we can begin to fill out the rest of the flight plan.
 
-    ^^En route Flight Plan^^
+    #### En Route Flight Plan
 
     ![TMPY FPLN WAYPOINT MENU](../assets/beginner-guide/03_preparing-fms/fms-tmpy-fpln-waypoint-menu.png){loading=lazy}
 
@@ -261,7 +261,7 @@ When the FMS first starts, it will show a screen showing the current status of t
         
         ![TMPY FPLN NEXT WPT](../assets/beginner-guide/03_preparing-fms/fms-tmpy-fpln-next-wpt.png){loading=lazy width=50%}
     
-    ^^Planning the Arrival^^
+    #### Planning the Arrival
     
     For the purposes of this guide, we will pre-plan our arrival into `EDDF` via the `DEBHI1C` STAR into 07C.
     
@@ -291,7 +291,7 @@ When the FMS first starts, it will show a screen showing the current status of t
 
     Now you can click the `TMPY F-PLN`, which will enter the STAR information in the Temporary Flight Plan in the FMS.     
 
-    ^^Verify the Flight Plan^^
+    #### Verify the Flight Plan
 
     Verify the flight plan by scrolling through it and check all the waypoints. 
 
@@ -356,7 +356,7 @@ When the FMS first starts, it will show a screen showing the current status of t
     On this page, we would set any frequencies or identifiers needed for the departure and subsequently later en route, 
     those required for the arrival.
 
-    ^^VOR Tuning^^
+    #### VOR Tuning
 
     The A380X supports VOR auto-tuning when in range of a VOR before departure. You can verify this by checking the 
     RADNAV page and seeing if the VOR frequency is already populated. You should verify the relevance of this VOR to 
@@ -368,7 +368,7 @@ When the FMS first starts, it will show a screen showing the current status of t
     showing multiple options. Select the closest one, with the `116.0` frequency. Now you have the `DMN` VOR selected 
     and can use it as a reference on the ND.
 
-    ^^Departure ILS^^
+    #### Departure ILS
 
     When selecting the SID earlier in the flight plan section, the A380X should have auto-populated the ILS/LOC 
     frequency under the `LS` heading. If it hasn't, we can manually insert it for centerline guidance on take off.
@@ -380,7 +380,7 @@ When the FMS first starts, it will show a screen showing the current status of t
     If the ILS information was not automatically populated, you can select the `IDENT` field under the `LS` header and 
     type in `IMNE` and then press `ENTER`. The other fields will automatically get populated.
 
-    ^^Arrival ILS^^
+    #### Arrival ILS
 
     With an ILS or LOC approach selected, the arrival ILS frequency should be automatically tuned correctly whenever the 
     aircraft is in climb phase or greater and within 250 NM of the destination. Ensure that we verify the ILS frequency 
@@ -515,6 +515,8 @@ When the FMS first starts, it will show a screen showing the current status of t
 `TRANS ALTITUDE..............................................AS APPROPRIATE`<br/>
 
 ??? tip "How and Where?"
+    #### Performance Calculator
+    
     To fill in the `T.O PERF` page, we will need to calculate the appropriate values. We will use the 
     [Simbrief Takeoff Performance Calculater](https://dispatch.simbrief.com/tools/search?performance=takeoff){target=new}. 
     By selecting the proper configuration, we can get good estimations of values that will work.
@@ -545,7 +547,7 @@ When the FMS first starts, it will show a screen showing the current status of t
 
     ![PFD THS FOR VALUE](../assets/beginner-guide/03_preparing-fms/pfd-ths.png){loading=lazy}
 
-    ---
+    #### Take Off Performance
 
     To enter these values, we need to go to the `T.O PERF` page by clicking the `T.O PERF` page on the `INIT` page in 
     the FMS. Once the page opens, enter the calculated values from the Simbrief Takeoff Performance calculator (the 
@@ -570,7 +572,7 @@ When the FMS first starts, it will show a screen showing the current status of t
 
 ## A380X simBrief Integration
 
-This section has been moved to our dedicated [simBrief Integration](../../../aircraft/a380x/feature-guides/simbrief.md) 
+This section has been moved to our dedicated [simBrief Integration](../../../aircraft/a380x/feature-guides/simbrief.md)
 feature guide.
 
 ---
