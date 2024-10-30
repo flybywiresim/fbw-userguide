@@ -26,7 +26,7 @@ theme:
     - navigation.prune
     - navigation.tabs
     - navigation.tabs.sticky
-    # Removed this feature again as it's breaking TOC navigation on reported-issues.md
+    # Removed this feature again as it's breaking TOC navigation on known-issues.md
     - navigation.instant
     - navigation.instant.progress
     - navigation.top
@@ -74,7 +74,7 @@ plugins:
         'beginner-guide.md': 'pilots-corner/a32nx/a32nx-beginner-guide/overview.md'
         'installation.md': 'aircraft/install/installation.md'
         'throttle.md': 'aircraft/common/flypados3/throttle-calibration.md'
-        'reported-issues.md': 'aircraft/support/reported-issues.md'
+        'reported-issues.md': 'aircraft/support/known-issues.md'
         'support.md': 'aircraft/support/index.md'
         'discord-bot.md': 'dev-corner/development-projects/discord-bot.md'
         'airframe.md': 'https://docs.flybywiresim.com/fbw-a32nx/installation/#simbrief-airframe'
