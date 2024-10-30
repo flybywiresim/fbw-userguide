@@ -20,7 +20,7 @@ The SD screen has three horizontal sections:
 - The top section provides the system display page, the STATUS page, or the STATUS MORE page. In normal operation, the 
   SD provides system display pages. The system display pages appear:
     - Automatically, depending on the flight phase. For more details Refer to Normal Operation, or
-    - When manually-selected by the flight crew. For more details refer to [ECP](../pedesatl/ecam-cp.md).
+    - When manually-selected by the flight crew. For more details refer to [ECP](../pedestal/ecam-cp.md).
 - The middle section displays permanently-displayed data such as: External temperature, time,
   aircraft weight, CG, and Fuel On Board (FOB).
 - The bottom section displays the mailbox (Refer to ECP).
