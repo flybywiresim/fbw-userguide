@@ -29,7 +29,7 @@ description: Frequently Asked Questions about the FlyByWire Aircraft, detailing 
     We recommend downloading compatible liveries from [Flightsim.to](https://flightsim.to/c/liveries/flybywire-a32nx/){target=new}.
 
     **NOTE:** Liveries for the default A320neo are incompatible with the A32NX. 
-<p style="color:yellow; font-size:18px;">TODO: Verify other directories for airframe or if we're moving this</p>
+
 ??? info "Q: Do we have a simBrief profile for our aircraft?"
     Yes, there is one available for all versions of our aircraft. 
 
