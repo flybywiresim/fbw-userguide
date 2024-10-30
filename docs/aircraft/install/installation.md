@@ -70,8 +70,9 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
     ---
 
-[//]: # (TODO: Add A380X download links)
-    Pending further information
+    Download via our Installer.
+
+    [Download Installer](https://api.flybywiresim.com/installer){ .md-button target=new}
 
 </div>
 
