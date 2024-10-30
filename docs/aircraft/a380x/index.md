@@ -71,6 +71,8 @@ WXR         Honeywell AESS
 
 ## A380X Quick FAQ
 
+The list below will be updated as best as possible. If you have any questions, please feel free to ask in our Discord server and see our [#a380x-faq](https://discord.com/channels/738864299392630914/1300949191740358757) channel for the latest updates.
+
 ### General
 
 ???+ info "Q: What about Performance and System Requirements"
