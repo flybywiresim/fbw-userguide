@@ -7,8 +7,8 @@ site_description: Comprehensive documentation for FlyByWire Simulations
 repo_url: https://github.com/flybywiresim/aircraft/
 repo_name: flybywiresim/aircraft
 edit_uri: "" #removes edit button and icon
-copyright: Powered by <a href="https://vercel.com/?utm_source=flybywiresim&utm_campaign=oss" target="_blank">
-  <img src="/assets/images/vercel-logotype-light.svg" alt="Vercel Logo"></a>
+copyright: Runs on Cloudflare®
+  <img src="/assets/images/cloudflare-logo.png" alt="Cloudflare Logo">
 
 # Configuration
 theme:
