@@ -154,7 +154,7 @@ This opens the Community folder in a Windows Explorer. Please ensure that your a
 
 ---
 
-If your issue is not related to installation visit - [**Reported Issues**](../support/known-issues/known-issues)
+If your issue is not related to installation visit - [**Reported Issues**](../support/known-issues/index.md)
 
 ---
 

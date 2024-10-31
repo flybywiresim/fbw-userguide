@@ -4,7 +4,7 @@ description: Explore reported issues and known bugs for the FlyByWire Installer.
 ---
 
 !!! danger "STOP"
-    [Read this first before reporting any issues on Discord or GitHub.](./known-issues.md#read-this-first)
+    [Read this first before reporting any issues on Discord or GitHub.](./index.md#read-this-first)
 
 ## Use the Browser's Search Function
 

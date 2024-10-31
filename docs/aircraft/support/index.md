@@ -73,7 +73,7 @@ NOT a FlyByWire A32NX or A380X issue.
 
 ##  3. Research Known Issues
 
-Read the [Reported Issues](known-issues/known-issues) section - most issues users encounter are already on this list.
+Read the [Reported Issues](known-issues/index.md) section - most issues users encounter are already on this list.
 
 If you have a GitHub account, please also see [Issues](https://github.com/flybywiresim/aircraft/issues){target=new} there. Please also use the search for your particular issue.
 

@@ -41,7 +41,7 @@ WXR         Honeywell AESS
 
     View a list of reported issues and their status.
 
-    [:octicons-arrow-right-24: View Issues](../support/known-issues/known-issues)
+    [:octicons-arrow-right-24: View Issues](../support/known-issues/index.md)
 
 - **Feature Guides**
 
