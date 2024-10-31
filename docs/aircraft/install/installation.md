@@ -74,6 +74,30 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
     [Download Installer](https://api.flybywiresim.com/installer){ .md-button target=new}
 
+    ---
+
+    === "4K Texture Option"
+
+        [System Requirements](../../aircraft/install/installation.md#estimated-system-requirements-for-a380x)
+
+        Includes our 4K downscaled cabin, cockpit and exterior textures. Choose this option for reduced stutters, better performance, with HIGH or lower texture resolution setting.
+
+        Additionally, if you intend to use the following:
+
+        - Use frame generation
+        - Virtual Reality (VR)
+        - DX12 beta
+        - or are otherwise limited by your graphics card VRAM amount.
+
+    === "8K Texture Option"
+
+         [System Requirements](../../aircraft/install/installation.md#estimated-system-requirements-for-a380x)
+
+         Includes our 8K full resolution cabin, cockpit and exterior textures. This is the full fidelity experience and our recommendation if your system is powerful enough to support it. Realistic and in high detail.
+
+        - DX11 recommended
+        - HIGH or lower texture resolution setting recommended
+
 </div>
 
 [//]: # (    === "Experimental Version")
