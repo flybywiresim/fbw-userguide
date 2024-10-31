@@ -4,6 +4,7 @@
 *[BTV]: Brake To Vacate
 *[ECAM]: Electronic Centralized Aircraft Monitoring
 *[EFB]: Electronic Flight Bag
+*[EFIS]: Electronic Flight Instrument System
 *[F-PLN]: Flight PLan
 *[F/O]: First Officer
 *[FBW]: Fly-By-Wire
