@@ -87,12 +87,12 @@ is good enough for now but might be improved in the future.
         - [X] [A320neo Pilot Briefing](pilots-corner/a32nx/a32nx-briefing/index.md)
             - [X] [Flight-Deck](pilots-corner/a32nx/a32nx-briefing/index.md)
             - [X] [PFD](pilots-corner/a32nx/a32nx-briefing/pfd/index.md)
-            - [ ] [ND](pilots-corner/a32nx/a32nx-briefing/nd.md) <span style="color: red;">TODO</span>
+            - [ ] ND <span style="color: red;">TODO</span>
             - [X] [ECAM](pilots-corner/a32nx/a32nx-briefing/ecam/index.md)
                 - [X] [ECAM E/WD](pilots-corner/a32nx/a32nx-briefing/ecam/ecam-e-wd.md)
                 - [X] [ECAM SD](pilots-corner/a32nx/a32nx-briefing/ecam/sd/index.md)
             - [X] [MCDU](pilots-corner/a32nx/a32nx-briefing/mcdu/index.md)
-            - [ ] [RMP](pilots-corner/a32nx/a32nx-briefing/rmp.md) <span style="color: red;">TODO</span>
+            - [ ] RMP <span style="color: red;">TODO</span>
             - [X] [Limitations](pilots-corner/a32nx/a32nx-briefing/limitations.md)
         - [X] [SOP](pilots-corner/a32nx/a32nx-sop.md)
     - [X] [A380X Corner](pilots-corner/a380x/index.md)
@@ -102,17 +102,17 @@ is good enough for now but might be improved in the future.
             - [X] [OANS / BTV](pilots-corner/a380x/a380x-advanced-guides/oans-btv.md)
         - [X] [A380X Pilot Briefing](pilots-corner/a380x/a380x-briefing/index.md)
             - [X] [Flight-Deck](pilots-corner/a380x/a380x-briefing/flight-deck/index.md)
-            - [ ] [PFD](pilots-corner/a380x/a380x-briefing/pfd.md) <span style="color: red;">TODO</span>
-            - [ ] [ND](pilots-corner/a380x/a380x-briefing/nd.md) <span style="color: red;">TODO</span>
-            - [ ] [EWD](pilots-corner/a380x/a380x-briefing/ewd.md) <span style="color: red;">TODO</span>
-            - [ ] [SD](pilots-corner/a380x/a380x-briefing/sd.md) <span style="color: red;">TODO</span>
-            - [ ] [MFD](pilots-corner/a380x/a380x-briefing/mfd.md) <span style="color: red;">TODO</span>
-            - [ ] [RMP](pilots-corner/a380x/a380x-briefing/rmp.md) <span style="color: red;">TODO</span>
+            - [ ] PFD <span style="color: red;">TODO</span>
+            - [ ] ND <span style="color: red;">TODO</span>
+            - [ ] EWD <span style="color: red;">TODO</span>
+            - [ ] SD <span style="color: red;">TODO</span>
+            - [ ] MFD <span style="color: red;">TODO</span>
+            - [ ] RMP <span style="color: red;">TODO</span>
         - [X] [SOP](pilots-corner/a380x/a380x-sop.md)
     - [X] [Airliner Corner](pilots-corner/airliner/index.md)
-        - [ ] [Airbus Corner](pilots-corner/airliner/airbus-corner.md) (Airbus Specific Common Guide for A32NX and A380X) <span style="color: red;">TODO</span>
+        - [ ] Airbus Corner (Airbus Specific Common Guide for A32NX and A380X) <span style="color: red;">TODO</span>
             - [ ] <span style="color: red;">TODO: Move from A32NX Advanced Guides to here and update to include A380X</span>
-            - [ ] [Terms and Abbreviations](pilots-corner/airliner/terms-and-abbreviations.md) (TODO Needs to be moved here)
+            - [ ] Terms and Abbreviations (TODO Needs to be moved here)
         - [X] [Airliner Flying Guide](pilots-corner/airliner/airliner-flying-guide/overview.md)
             - [X] [Types of Approaches](pilots-corner/airliner/airliner-flying-guide/approaches.md)
             - [X] [Navigation](pilots-corner/airliner/airliner-flying-guide/navigation.md)
@@ -126,23 +126,23 @@ is good enough for now but might be improved in the future.
         - [X] [Overview](dev-corner/dev-guide/index.md)
         - [X] [Resources](dev-corner/dev-guide/resources.md)
         - [X] [Setup Dev Environment](dev-corner/dev-guide/setup-environment.md)
-        - [ ] [Repository Structure](dev-corner/dev-guide/repository-structure.md) <span style="color: red;">TODO</span>
+        - [ ] Repository Structure <span style="color: red;">TODO</span>
         - [X] [Contribution Guidelines](dev-corner/dev-guide/contribute.md)
-        - [ ] [Best Practices](dev-corner/dev-guide/best-practices.md) <span style="color: red;">TODO</span>
-            - [ ] [Systems Development](dev-corner/dev-guide/best-practices/systems-development.md) <span style="color: red;">TODO</span>
-            - [ ] [Instrument Development](dev-corner/dev-guide/best-practices/instrument-development.md) <span style="color: red;">TODO</span>
-            - [ ] [flyPad Development](dev-corner/dev-guide/best-practices/flypad-development.md) <span style="color: red;">TODO</span>
+        - [ ] Best Practices <span style="color: red;">TODO</span>
+            - [ ] Systems Development <span style="color: red;">TODO</span>
+            - [ ] Instrument Development <span style="color: red;">TODO</span>
+            - [ ] flyPad Development <span style="color: red;">TODO</span>
         - [X] [Specific](dev-corner/dev-guide/specific/index.md)
             - [X] [Overview](dev-corner/dev-guide/specific/index.md)
             - [X] [Instruments Build Guide](dev-corner/dev-guide/specific/instruments.md)
             - [X] [flyPadOS 3 Localization Process](dev-corner/dev-guide/specific/flypad-translations.md) <span style="color: red;">TODO: Move to Localization Guide</span>
             - [X] [Javascript](dev-corner/dev-guide/specific/javascript.md)
-    - [ ] [Localization Guide](dev-corner/localization-guide/index.md) <span style="color: red;">TODO</span>
-        - [ ] [flyPad](dev-corner/localization-guide/flypad.md) <span style="color: red;">TODO</span>
-        - [ ] [locPak for MSFS](dev-corner/localization-guide/locpak-for-msfs.md) <span style="color: red;">TODO</span>
-    - [ ] [Documentation Guide](dev-corner/documentation-guide/index.md) <span style="color: red;">TODO</span>
-    - [ ] [Livery Creators Guide](dev-corner/livery-creators-guide/index.md) <span style="color: red;">TODO</span>
-    - [ ] [Other](dev-corner/other/index.md) <span style="color: red;">TODO</span>
+    - [ ] Localization Guide <span style="color: red;">TODO</span>
+        - [ ] flyPad <span style="color: red;">TODO</span>
+        - [ ] locPak for MSFS <span style="color: red;">TODO</span>
+    - [ ] Documentation Guide <span style="color: red;">TODO</span>
+    - [ ] Livery Creators Guide <span style="color: red;">TODO</span>
+    - [ ] Other <span style="color: red;">TODO</span>
     - [X] [FlyByWire Projects](dev-corner/development-projects/index.md)
         - [X] [Overview](dev-corner/development-projects/index.md)
         - [X] [Documentation Project](dev-corner/development-projects/documentation-project/documentation.md) <span style="color: red;">TODO: Move up to Documentation GUIDE</span>
@@ -151,7 +151,7 @@ is good enough for now but might be improved in the future.
 
 - [X] [**FlyByWire Tools**](tools/index.md)
     - [X] [SimBridge](tools/simbridge/index.md)
-    - [ ] [Installer](tools/installer.md) <span style="color: red;">TODO</span>
+    - [ ] [Installer](tools/installer/index.md) <span style="color: red;">TODO</span>
 
 - [X] [**Release Notes**](release-notes/index.md)
     - [X] ...
