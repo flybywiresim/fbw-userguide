@@ -17,23 +17,15 @@ in Microsoft Flight Simulator.
 ## Quick Links
 
 [Beginner Guide](a380x-beginner-guide/overview.md){ .md-button }
-
-[//]: # (TODO)
-<!--
-[Advanced Guides](a32nx/advanced-guides/overview.md){ .md-button }
-[A320neo Pilot Briefing](a32nx-briefing/index.md){ .md-button }
--->
+[A380X Pilot Briefing](a380x-briefing/index.md){ .md-button }
 
 ##  Topics
 
-| Featured List                                        |
-|:-----------------------------------------------------|
-| [Beginner Guide](./a380x-beginner-guide/overview.md) |
-| [A380 Pilot Briefing](./a380x-briefing/index.md)     |
-| [Standard Operating Procedures](./a380x-sop.md)      |
+| Featured List                                          |
+|:-------------------------------------------------------|
+| [Beginner Guide](./a380x-beginner-guide/overview.md)   |
+| [Advanced Guides](./a380x-advanced-guides/overview.md) |
+| [A380 Pilot Briefing](./a380x-briefing/index.md)       |
+| [Standard Operating Procedures](./a380x-sop.md)        |
 
-[//]: # (TODO)
-<!--
-| [Advanced Guides](a32nx/advanced-guides/overview.md)              |
-| [Airliner Flying Guide](common/airliner-flying-guide/overview.md) |
 -->
