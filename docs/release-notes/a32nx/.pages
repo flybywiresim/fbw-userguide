@@ -1,6 +1,7 @@
 
 title: A32NX Release Notes
 nav:
+    - Stable Release v0.12.1: v0121.md
     - Stable Release v0.12.0: v0120.md
     - Stable Release v0.11.1: v0111.md
     - Stable Release v0.11.0: v0110.md
