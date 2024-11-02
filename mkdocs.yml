@@ -56,12 +56,13 @@ plugins:
         'airliner-flying-guide/overview.md': 'pilots-corner/airliner/airliner-flying-guide/overview.md'
         # Folder: /development-projects/
         'development-projects/overview.md': 'dev-corner/dev-guide/index.md'
-        'development-projects/website.md': 'dev-corner/development-projects/website.md'
+        'development-projects/website.md': 'dev-corner/flybywire-projects/website.md'
         # Folder: /a32nx-devs/
         'a32nx-dev/overview.md': 'dev-corner/dev-guide/index.md'
-        'a32nx-dev/texture-changes.md': 'dev-corner/texture-changes.md'
+        'a32nx-dev/texture-changes.md': 'dev-corner/livery-creators-guide/a32nx-texture-changes.md'
+
         # TEMP redirects
-      # A.FLOOR
+        # A.FLOOR
         'fbw-a32nx/feature-guides/afloor.md': 'pilots-corner/a32nx/a32nx-advanced-guides/protections/afloor.md'
         # Fix Info
         'fbw-a32nx/feature-guides/fixinfo.md': 'pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/fixinfo.md'
@@ -70,23 +71,29 @@ plugins:
 
         # additional redirects:
         'fbw-a32nx/feature-guides/throttle-calibration.md': 'aircraft/common/flypados3/throttle-calibration.md'
+
         # Convenience redirects:
+        'bg.md': 'pilots-corner/a32nx/a32nx-beginner-guide/overview.md'
         'beginner-guide.md': 'pilots-corner/a32nx/a32nx-beginner-guide/overview.md'
         'installation.md': 'aircraft/install/installation.md'
         'throttle.md': 'aircraft/common/flypados3/throttle-calibration.md'
         'reported-issues.md': 'aircraft/support/known-issues/index.md'
         'support.md': 'aircraft/support/index.md'
-        'discord-bot.md': 'dev-corner/development-projects/discord-bot.md'
-        'airframe.md': 'https://docs.flybywiresim.com/fbw-a32nx/installation/#simbrief-airframe'
-        'fdr.md': 'https://docs.flybywiresim.com/fbw-a32nx/support/#fdr-files'
-        'flypad-performance.md': 'aircraft/common/flypados3/performance.md'
+        'discord-bot.md': 'dev-corner/flybywire-projects/discord-bot.md'
         'faq.md': 'aircraft/faq.md'
-        # Commented out in case we want to use this in the future
-        #        'exp.md': 'fbw-a32nx/support/exp.md'
+        'flypad-performance.md': 'aircraft/common/flypados3/performance.md'
         'vnav.md': 'pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/vertical-guidance/overview.md'
+
         # Release Notes Permalink
         'latest-release.md': 'release-notes/index.md'
         'latest-installer-release.md': 'release-notes/installer/v330.md'
+
+        # anchors links require full external URL
+        'fdr.md': 'https://docs.flybywiresim.com/fbw-a32nx/support/#fdr-files'
+
+        # Commented out in case we want to use this in the future
+        #        'exp.md': 'fbw-a32nx/support/exp.md'
+
         # ########################################
         # Needed for URL within the A32NX aircraft
         # ########################################

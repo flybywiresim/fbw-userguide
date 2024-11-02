@@ -15,10 +15,12 @@ This section of the FlyByWire Documentation is dedicated to the development aspe
 
 ## Quick Links
 
-| Topics                                              |
-|:----------------------------------------------------|
-| [Development Guide](dev-guide/index.md)             |
-| [Texture Changes](texture-changes.md)               |
-| [Scenery Developers](scenery-developers.md)         |
-| [FlyByWire Projects](development-projects/index.md) |
+| Topics                                                 |
+|:-------------------------------------------------------|
+| [Development Guide](dev-guide/index.md)                |
+| [Livery Creator Guide](livery-creators-guide/index.md) |
+| [Documentation Guide](documentation-guide/index)       |
+| [Other](other)                                         |
+| [FlyByWire Projects](flybywire-projects/index.md)      |
 
+[//]: # (| [Localization Guide]&#40;localization-guide/index.md&#41;      |)

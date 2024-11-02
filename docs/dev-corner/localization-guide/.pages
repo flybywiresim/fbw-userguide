@@ -1,0 +1,8 @@
+# Edit this page to get:
+# - Title for the whole directory
+# - Titles for specific pages or subdirectories
+# - Order of pages (otherwise alphabetical order)
+
+title: Localization Guide
+nav:
+    - ...

@@ -1,3 +1,8 @@
+---
+title: Contribution Guidelines
+description: Overview of the FlyByWire Documentation Guide
+---
+
 # Contribution Guidelines
 
 Welcome to the A32NX project repository. Thank you for your interest in contributing to the project. Full details and guidelines on how to ensure this project is managed well are included below.

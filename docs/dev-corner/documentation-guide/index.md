@@ -1,4 +1,9 @@
-# FlyByWire Documentation Project
+---
+title: Overview
+description: Overview of the FlyByWire Documentation Guide
+---
+
+# FlyByWire Documentation Guide
 
  [:fontawesome-brands-github:{: .github } -  **Documentation Project GitHub**](https://github.com/flybywiresim/docs){target=new .md-button}
 

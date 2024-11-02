@@ -1,3 +1,8 @@
+---
+title: Development Environment
+description: Setting up the development environment for the FlyByWire A32NX and A380X project.
+---
+
 # Development Environment
 
 ## Required Software, Tools, and libraries

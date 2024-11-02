@@ -1,3 +1,8 @@
+---
+title: Resources
+description: Resources for working with and on the A32NX and A380X code.
+---
+
 # Resources
 
 On this page, you will find all the necessary resources, links, and documentation you might need to work with and on the A32NX code.

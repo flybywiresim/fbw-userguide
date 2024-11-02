@@ -1,3 +1,8 @@
+---
+title: QA Process
+description: The QA Process is a detailed guide on how to test and report on the A32NX and A380X projects. 
+---
+
 # Quality Assurance Process
 
 ## QA at FlyByWire
@@ -40,7 +45,7 @@ To manage this process, we use the GitHub Project feature.
 
 This is a simple Kanban board where items move from the left to the right. For QA tests, the third column is relevant ("QA Team Review: Ready to Test")
 
-![QA Project Board on GitHub](assets/qa-process/qa-board.png "QA Project Board on GitHub"){loading=lazy}<br/>[QA Project Board on GitHub](https://github.com/orgs/flybywiresim/projects/7){target=new}
+![QA Project Board on GitHub](../assets/qa-process/qa-board.png "QA Project Board on GitHub"){loading=lazy}<br/>[QA Project Board on GitHub](https://github.com/orgs/flybywiresim/projects/7){target=new}
 
 If you have gotten a grasp on the above instructions, pick a PR to test from the list.
 
@@ -66,15 +71,15 @@ How to download the PR for QA
 1. Open the PR in a browser window (press ++ctrl+lbutton++ on PR link).
 2. Go to the "Checks" tab in the PR.
 
-    ![GitHub PR Checks tab](assets/qa-process/pr-checks-tab.png "GitHub PR Checks tab")
+    ![GitHub PR Checks tab](../assets/qa-process/pr-checks-tab.png "GitHub PR Checks tab")
 
 3. On the left side, click on the PR label saying `on: pull_request`.
 
-    ![GitHub PR Check PR](assets/qa-process/pr-check-pr.png "GitHub PR Check PR")
+    ![GitHub PR Check PR](../assets/qa-process/pr-check-pr.png "GitHub PR Check PR")
 
 4. Download the zipped Artifact at the bottom.
 
-    ![GitHub PR Artifact](assets/qa-process/pr-checks-artifact.png "GitHub PR Artifact")
+    ![GitHub PR Artifact](../assets/qa-process/pr-checks-artifact.png "GitHub PR Artifact")
 
 5. Unzip the file and place the "flybywire-aircraft-a320-neo" folder into your Community Folder.
 
@@ -130,7 +135,7 @@ Look in "quality-assurance" if a discussion thread already exists for this issue
 
 !!! block ""
     Example:<br/>
-    ![Discord Thread Example](assets/qa-process/discord-thread.png "Discord Thread Example")
+    ![Discord Thread Example](../assets/qa-process/discord-thread.png "Discord Thread Example")
 
 If no dedicated thread exists for the PR, please provide the #PR number and title in the "quality-assurance" channel and ask your question or describe your issue.
 

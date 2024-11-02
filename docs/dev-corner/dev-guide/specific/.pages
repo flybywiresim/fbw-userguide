@@ -1,7 +1,7 @@
 title: Specific
 nav:
   - index.md
-# - flypad-dev.md
-  - instruments.md
-  - flypad-translations.md
-  - javascript.md
+  - instruments-build-guide.md
+  - flypad-dev-guide.md
+  - flypad-localization.md
+  - javascript-dev-guide.md

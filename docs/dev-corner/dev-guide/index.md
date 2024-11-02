@@ -1,5 +1,5 @@
 ---
-title: FlyByWire Development Guide - Overview
+title: Development Guide - Overview
 description: The Development Guide is dedicated to providing information to efficiently contribute to the A32NX project.
 ---
 
@@ -35,5 +35,6 @@ development environment to be able to efficiently contribute to our projects.
 | [Resources](resources.md)                                      | General information and documentation resources                                                                                             |
 | [Setting up the Development Environment](setup-environment.md) | From software to troubleshooting - everything you need to successfully change and compile the code.                                         |
 | [Contribution Guidelines](contribute.md)                       | From General Development Process and Practices to Pull Requests - everything you need to know to collaborate and contribute to the project. |
+| [QA Process](qa-process.md)                                    | Information on how to test your changes and how to run the tests.                                                                           |
 | [Specific Development Areas](specific/index.md)                | Information for specific parts of the project like the flyPad or avionics.                                                                  |
 
