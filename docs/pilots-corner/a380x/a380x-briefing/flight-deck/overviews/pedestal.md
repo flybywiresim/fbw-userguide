@@ -44,7 +44,7 @@ description: The A380 Flight Deck Pedestal page is providing an interactive grap
     <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/surveillance"><div class="imagemap" style="position: absolute; top: 51%; height: 13%; left: 36.5%; width: 26.5%;"><span class="imagemapname">Surveillance Control</span></div></a>
 
     <!-- COCKPIT LIGHTING -->
-    <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/cockpit-lighting">
+    <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/pedestalcockpit-lighting">
     <div class="imagemap" style="
         position: absolute; 
         top: 64%; 
