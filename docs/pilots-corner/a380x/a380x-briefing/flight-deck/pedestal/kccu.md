@@ -99,7 +99,7 @@ Moves the cursor to the display unit that is to the right, or to the left, of th
 - OFF:
     - The KCCU cursor control device is inactive.
 
-### KCCU sw
+### KBD sw
 
 - ON:
     - The KCCU keyboard is active.
