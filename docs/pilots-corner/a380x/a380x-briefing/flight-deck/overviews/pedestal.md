@@ -45,16 +45,7 @@ description: The A380 Flight Deck Pedestal page is providing an interactive grap
 
     <!-- COCKPIT LIGHTING -->
     <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/pedestalcockpit-lighting">
-    <div class="imagemap" style="
-        position: absolute; 
-        top: 64%; 
-        left: 9.5%; 
-        width: 27%; 
-        height: 15%; 
-        clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 70% 100%, 70% 40%, 0% 40%);">
-        <span class="imagemapname">Cockpit Lighting</span>
-    </div>
-    </a>
+    <div class="imagemap" style="position: absolute; top: 64%; left: 9.5%; width: 27%; height: 15%; clip-path: polygon(0% 0%, 100% 0%, 100% 100%, 70% 100%, 70% 40%, 0% 40%);"><span class="imagemapname">Cockpit Lighting</span></div></a>
 
     <!-- PARKING BRAKE -->
     <a href="/pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/parking-brake"><div class="imagemap" style="position: absolute; top: 70%; height: 9%; left: 9.5%; width: 18.5%;"><span class="imagemapname">Parking Brake</span></div></a>
