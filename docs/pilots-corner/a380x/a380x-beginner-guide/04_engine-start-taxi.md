@@ -114,7 +114,7 @@ Once all passengers have boarded and secured, we are ready to begin pushback.
     [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
     
     To activate it you need to press the `C/L` button on the 
-    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam).
+    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam-cp).
 
     You can navigate through the checklist by using the `UP` and `DOWN` buttons on the ECP. You can check/uncheck items
     by pressing the buttons with the check mark on the ECP.
@@ -293,7 +293,7 @@ can proceed with the following steps.
     [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
 
     To activate it you need to press the `C/L` button on the 
-    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam).
+    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam-cp).
 
     You can navigate through the checklist by using the `UP` and `DOWN` buttons on the ECP. You can check/uncheck items
     by pressing the buttons with the check mark on the ECP.
@@ -480,7 +480,7 @@ While underway to the runway, perform the following as part of the taxi flow:
     * [Flaps](../../a380x-briefing/flight-deck/pedestal/flap-lever)
     * [Auto Brake](../../a380x-briefing/flight-deck/main-panel/center-right)
     * [Signs](../../a380x-briefing/flight-deck/ovhd/signs)
-    * [T.O Config](../../a380x-briefing/flight-deck/pedestal/ecam)
+    * [T.O Config](../../a380x-briefing/flight-deck/pedestal/ecam-cp)
     * [T.O Memo](../../a380x-briefing/flight-deck/main-panel/ewd)
     * [Cabin Ready](../../a380x-briefing/flight-deck/ovhd/calls)
 
@@ -490,7 +490,7 @@ While underway to the runway, perform the following as part of the taxi flow:
     [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
 
     To activate it you need to press the `C/L` button on the 
-    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam).
+    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam-cp).
 
     You can navigate through the checklist by using the `UP` and `DOWN` buttons on the ECP. You can check/uncheck items
     by pressing the buttons with the check mark on the ECP.
