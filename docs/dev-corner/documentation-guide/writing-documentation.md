@@ -126,7 +126,7 @@ Below is an example of our current use case in the FlyByWire Documentation Proje
   `loading=lazy` to the image tag.
 
    ```md title="Sample Image Markdown with Lazy Loading"
-    ![image](directory/image.png){loading=lazy}
+   ![image](directory/image.png){loading=lazy}
    ```
 
 !!! tip ""
