@@ -516,7 +516,7 @@ This concludes *Descent and Approach Planning*.
     [Engine Warning Display (EWD)](../../a380x-briefing/flight-deck/main-panel/ewd).
 
     To activate it you need to press the `C/L` button on the 
-    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam).
+    [ECAM Control Panel (ECP)](../../a380x-briefing/flight-deck/pedestal/ecam-cp).
 
     You can navigate through the checklist by using the `UP` and `DOWN` buttons on the ECP. You can check/uncheck items
     by pressing the buttons with the check mark on the ECP.
