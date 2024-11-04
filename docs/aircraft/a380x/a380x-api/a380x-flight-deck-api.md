@@ -12,15 +12,6 @@ hide:
 [A380 Pilot Briefing](../../../pilots-corner/a380x/a380x-briefing/index.md){ .md-button }
 [Clickable Flight Deck](../../../pilots-corner/a380x/a380x-briefing/flight-deck/index.md){ .md-button }
 
-!!! note ""
-    The below table might lag behind the current developments of the A380X. It is based on the A380X Development 
-    version, and we try to keep it updated as best as possible.
-
-    You can help us keep this up to date and improve this by reporting any errors or omissions on our 
-    [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire){target=new} in the 
-    **#a380x-support** channel or by creating an issue report here: 
-    [Docs Issues](https://github.com/flybywiresim/docs/issues){target=new}.
-
 Find the complete list of Custom Event and Custom LVARS of the A380X:
 
 - [Custom LVARs](https://github.com/flybywiresim/aircraft/blob/master/fbw-a380x/docs/a380-simvars.md){target=new}
@@ -28,21 +19,50 @@ Find the complete list of Custom Event and Custom LVARS of the A380X:
 
 [//]: # (- [Custom Events]&#40;https://github.com/flybywiresim/aircraft/blob/master/fbw-a380x/docs/a380-events.md&#41;{target=new})
 
+
+## "How to read the tables"
+
+- **Function**: The name of the switch or button on the panel.
+- **API Usage**: The name of the API variable or event.
+- **Values**: The possible values the API variable or event can have.
+- **Read/Write**: Whether the API variable or event can be read or written.
+- **Type**: The type of the API variable or event (see [below](#api-var-and-event-types)).
+- **Remark**: Additional information about the API variable or event.
+
+To shorten the length of the table we use the following placeholders for the API disignations:
+
+- `{SIDE}`: Replace with `L` for left, `R` for right.
+- `{NUM}`: Replace with `1` for the first, `2` for the second, `3` for the third, `4` for the fourth.
+
+### "API Var and Event Types"
+
+| Type                 | Description                                                                                                           |
+|----------------------|-----------------------------------------------------------------------------------------------------------------------|
+| **Custom LVAR**      | are custom variables created by the FlyByWire team to control the aircraft (aka Named Vars).                          |
+| **MSFS VAR**         | are variables that are part of the default MSFS SDK (aka A Vars).                                                     |
+| **SIMCONNECT VAR**   | are variables that are part of the default MSFS SDK (aka A Vars).                                                     |
+| **MSFS EVENT**       | are events that are part of the default MSFS SDK (aka K-Events).                                                      |
+| **SIMCONNECT EVENT** | are events that are part of the default MSFS SDK (aka K Events).                                                      |
+| **CUSTOM EVENT**     | are custom events created by the FlyByWire team to control the aircraft.                                              |
+| **H EVENT**          | are events that are part of the default MSFS SDK (aka H Events).                                                      |
+| **INPUT EVENT**      | are events that are part of the default MSFS SDK used mainly for cockpit interaction inputs (aka B Vars or B Events). |
+
+_[MSFS Avionics Framework on SimVars](https://microsoft.github.io/msfs-avionics-mirror/docs/interacting-with-msfs/simvars){target=new}_
+
+_[MSFS Avionics Framework on Events](https://microsoft.github.io/msfs-avionics-mirror/docs/interacting-with-msfs/key-events){target=new}_
+
+_[MSFS Avionics Framework on H Events](https://microsoft.github.io/msfs-avionics-mirror/docs/interacting-with-msfs/receiving-h-events){target=new}_
+
+!!! note ""
+    The below table might lag behind the current developments of the A380X. It is based on the A380X Development
+    version, and we try to keep it updated as best as possible.
+
+    You can help us keep this up to date and improve this by reporting any errors or omissions on our 
+    [:fontawesome-brands-discord:{: .discord } - **Discord**](https://discord.gg/flybywire){target=new} in the 
+    **#a380x-support** channel or by creating an issue report here: 
+    [Docs Issues](https://github.com/flybywiresim/docs/issues){target=new}.
+
 !!! note "The order of the panels below is roughly done after the standard cold & dark setup procedure."
-
-!!! note "How to read the tables"
-    - **Function**: The name of the switch or button on the panel.
-    - **API Usage**: The name of the API variable or event.
-    - **Values**: The possible values the API variable or event can have.
-    - **Read/Write**: Whether the API variable or event can be read or written.
-    - **Type**: The type of the API variable or event.
-    - **Remark**: Additional information about the API variable or event.
-
-    To shorten the length of the table we use the following placeholders for the API disignations:
-
-    - `{SIDE}`: Replace with `L` for left, `R` for right.
-    - `{NUM}`: Replace with `1` for the first, `2` for the second, `3` for the third, `4` for the fourth.
-
 
 ## Overhead Forward
 
@@ -93,18 +113,18 @@ Flight Deck:  [EXT LT Panel](../../../pilots-corner/a380x/a380x-briefing/flight-
 
 | Function     | API Usage             | Values   | Read/Write | Type             | Remark                                                             |
 |:-------------|:----------------------|:---------|:-----------|:-----------------|:-------------------------------------------------------------------|
-| STROBE       | STROBES_SET           | 0&#124;1 | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                                               |
-|              | STROBES_TOGGLE        | -        | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                                               |
-|              | STROBES_ON            | -        | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                                               |
-|              | STROBES_OFF           | -        | -          | SIMCONNECT EVENT | OFF and ON (no AUTO)                                               |
+| STROBE       | STROBES_SET           | 0&#124;1 | -          | INPUT EVENT      | OFF and ON (no AUTO)                                               |
+|              | STROBES_TOGGLE        | -        | -          | INPUT EVENT      | OFF and ON (no AUTO)                                               |
+|              | STROBES_ON            | -        | -          | INPUT EVENT      | OFF and ON (no AUTO)                                               |
+|              | STROBES_OFF           | -        | -          | INPUT EVENT      | OFF and ON (no AUTO)                                               |
 |              | LIGHT STROBE          | 0&#124;1 | R/W        | SIMCONNECT VAR   | OFF and ON (no AUTO)                                               |
 |              | STROBE_0_AUTO         | 0&#124;1 | R/W        | Custom LVAR      | AUTO only when STROBES are ON                                      |
 |              | LIGHTING_STROBE_0     | 0..2     | R/W        |                  | 2=OFF, 1=AUTO, 0=ON                                                |
 |              |                       |          |            |                  |                                                                    |
-| BEACON       | BEACON_SET            | 0&#124;1 | -          | SIMCONNECT EVENT |                                                                    |
-|              | BEACON_TOGGLE         | -        | -          | SIMCONNECT EVENT |                                                                    |
-|              | BEACON_ON             | -        | -          | SIMCONNECT EVENT |                                                                    |
-|              | BEACON_OFF            | -        | -          | SIMCONNECT EVENT |                                                                    |
+| BEACON       | BEACON_SET            | 0&#124;1 | -          | INPUT EVENT      |                                                                    |
+|              | BEACON_TOGGLE         | -        | -          | INPUT EVENT      |                                                                    |
+|              | BEACON_ON             | -        | -          | INPUT EVENT      |                                                                    |
+|              | BEACON_OFF            | -        | -          | INPUT EVENT      |                                                                    |
 |              | LIGHT BEACON          | 0&#124;1 | R/W        | SIMCONNECT VAR   |                                                                    |
 |              |                       |          |            |                  |                                                                    |
 | WING         | WING_SET              | 0&#124;1 | -          | SIMCONNECT EVENT |                                                                    |
