@@ -15,7 +15,7 @@ description: The A380 Flight Deck Anti Ice Panel description.
 
 [//]: # (TODO)
 <!-- TODO 
-!!! note "API Documentation: [Anti Ice Panel API](../../../../../aircraft/a32nx/a32nx-api/a32nx-flightdeck-api.md#anti-ice-panel)"
+!!! note "API Documentation: [Anti Ice Panel API](../../../../../aircraft/a32nx/a32nx-api/a380x-flight-deck-api.md#anti-ice-panel)"
 -->
 
 ## Description

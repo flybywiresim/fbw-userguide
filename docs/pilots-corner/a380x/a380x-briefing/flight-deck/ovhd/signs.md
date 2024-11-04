@@ -15,7 +15,7 @@ description: The A380 Flight Deck Signs Panel description.
 
 [//]: # (TODO)
 <!-- TODO
-!!! note "API Documentation: [Signs Panel API](../../../../../aircraft/a32nx/a32nx-api/a32nx-flightdeck-api.md#signs-panel)"
+!!! note "API Documentation: [Signs Panel API](../../../../../aircraft/a32nx/a32nx-api/a380x-flight-deck-api.md#signs-panel)"
 -->
 
 ## Usage

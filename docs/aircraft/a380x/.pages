@@ -9,4 +9,4 @@ nav:
 #   - support
 #   - INOP Systems: inop.md
    - Feature Guides: feature-guides
-#   - API and Hardware: a32nx-api
+   - A380X APIs: a380x-api

@@ -15,7 +15,7 @@ description: The A380 Flight Deck Internal Lights Panel description.
 
 [//]: # (TODO)
 <!-- TODO
-!!! note "API Documentation: [INT LT Panel API](../../../../../aircraft/a32nx/a32nx-api/a32nx-flightdeck-api.md#interior-lights-panel)"
+!!! note "API Documentation: [INT LT Panel API](../../../../../aircraft/a32nx/a32nx-api/a380x-flight-deck-api.md#interior-lights-panel)"
 -->
 
 ## Usage
