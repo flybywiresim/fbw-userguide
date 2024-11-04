@@ -31,8 +31,8 @@ def format_output(pages, base_directory):
         indent = ' ' * 4 * indent_level
         first_level_folder = relative_path.split(os.sep)[0] if indent_level > 0 else None
         if first_level_folder and first_level_folder != previous_first_level_folder:
-            if previous_first_level_folder is not None:
-                output.append('\n')  # Add an empty line after each first-level folder
+            # if previous_first_level_folder is not None:
+            # output.append('\n')  # Add an empty line after each first-level folder
             previous_first_level_folder = first_level_folder
         output.append(f"{indent}- [X] [{title}]({relative_path.replace(os.sep, '/')})")
     return '\n'.join(output)
