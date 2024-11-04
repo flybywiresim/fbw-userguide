@@ -108,10 +108,40 @@ In normal operation:
     When pressed, dial, select, validate, activate the corresponding displays (e.g.
     frequencies, functions).
 
+### VOICE
+
+!!! block ""
+    ![img_3.png](../../../assets/a380x-briefing/flight-deck/pedestal/rmp-voice.png){loading=lazy align=right}
+
+    The "VOICE" button on the RMP filters out Morse code identifiers from navigational aids like VORs or ADFs.
+    
+    - Not illuminated:
+        - If the green light is off, it indicates that the "VOICE" feature is disabled, and the crew will hear the Morse code along with any voice transmissions on that frequency.
+
+    - Illuminated green:
+        - When the green light is illuminated, it mutes the Morse code, allowing the crew to hear only voice transmissions on that frequency.
+
+### NAVAID VOLUME
+
+!!! block ""
+    ![img_4.png](../../../assets/a380x-briefing/flight-deck/pedestal/rmp-voice-volume.png){loading=lazy align=right}
+
+    When pressed, turns the NAVAID RADIO audio on/off
+    
+    - Not illuminated:
+        - If the white light on the NAVAID volume control is not illuminated, it indicates that the NAVAID audio is inactive or not selected.
+
+    - Illuminated white:
+        - When the white light on the NAVAID volume control is illuminated, it indicates that the NAVAID audio is active and ready for use.
+
+    - Rotating controls
+        - Turning the knob clockwise increases the volume of the audio signals from the navigational aid.
+        - Decrease Volume: Turning the knob counterclockwise decreases the volume.
+
 ### NUMERIC KEYS
 
 !!! block ""
-    ![img_3.png](../../../assets/a380x-briefing/flight-deck/pedestal/rmp-numeric.png){loading=lazy align=right}
+    ![img_5.png](../../../assets/a380x-briefing/flight-deck/pedestal/rmp-numeric.png){loading=lazy align=right}
 
     When pressed, enter numeric values (e.g. frequencies, squawk codes).
     
@@ -123,7 +153,7 @@ In normal operation:
 ### VHF TRANSMISSION KEYS (VHF 1(2)(3))
 
 !!! block ""
-    ![img_4.png](../../../assets/a380x-briefing/flight-deck/pedestal/rmp-tx.png){loading=lazy align=right}
+    ![img_6.png](../../../assets/a380x-briefing/flight-deck/pedestal/rmp-tx.png){loading=lazy align=right}
 
     - Not illuminated:
         - The associated communication mean (i.e. VHF 1(2)(3)) is not in transmission mode.
@@ -137,7 +167,7 @@ In normal operation:
 ### VHF RECEPTION KNOBS (VHF 1(2)(3))
 
 !!! block ""
-    ![img_5.png](../../../assets/a380x-briefing/flight-deck/pedestal/rmp-rx.png){loading=lazy align=right}
+    ![img_7.png](../../../assets/a380x-briefing/flight-deck/pedestal/rmp-rx.png){loading=lazy align=right}
     
     - Dark and in:
         - The associated communication mean (i.e. VHF 1(2)(3)) is in reception mode.
@@ -150,13 +180,13 @@ In normal operation:
 ### RMP Page Access Keys
 
 !!! block ""
-    ![img_7.png](../../../assets/a380x-briefing/flight-deck/pedestal/rmp-page-access.png){loading=lazy align=right}
+    ![img_8.png](../../../assets/a380x-briefing/flight-deck/pedestal/rmp-page-access.png){loading=lazy align=right}
 
     - The RMPs have multiple pages that can be selected by pressing the LSK 1-3 keys.
 
 ### VHF Page
 
-![img_6.png](../../../assets/a380x-briefing/flight-deck/pedestal/rmp-vhf-page.png){loading=lazy}
+![img_9.png](../../../assets/a380x-briefing/flight-deck/pedestal/rmp-vhf-page.png){loading=lazy}
 
 1. Active frequency
 2. Loadspeaker symbol (indicating if reception is on or not)
