@@ -108,7 +108,7 @@ In normal operation:
     When pressed, dial, select, validate, activate the corresponding displays (e.g.
     frequencies, functions).
 
-### VOICE
+### VOICE FILTER
 
 !!! block ""
     ![img_3.png](../../../assets/a380x-briefing/flight-deck/pedestal/rmp-voice.png){loading=lazy align=right}
