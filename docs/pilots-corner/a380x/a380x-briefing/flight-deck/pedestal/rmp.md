@@ -136,7 +136,7 @@ In normal operation:
 
     - Rotating controls
         - Turning the knob clockwise increases the volume of the audio signals from the navigational aid.
-        - Decrease Volume: Turning the knob counterclockwise decreases the volume.
+        - Turning the knob counterclockwise decreases the volume.
 
 ### NUMERIC KEYS
 
