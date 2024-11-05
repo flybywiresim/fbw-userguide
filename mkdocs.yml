@@ -8,7 +8,7 @@ repo_url: https://github.com/flybywiresim/aircraft/
 repo_name: flybywiresim/aircraft
 edit_uri: "" #removes edit button and icon
 copyright: Runs on Cloudflare®
-  <img src="/assets/images/cloudflare-logo.png" alt="Cloudflare Logo">
+  <img src="/assets/images/cloudflare-logo.png" alt="Cloudflare Logo" width="40%">
 
 # Configuration
 theme:
