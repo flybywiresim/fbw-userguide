@@ -108,9 +108,6 @@ planning. This allows you to directly import flight plans from SimBrief into the
 
 See our [SimBrief Integration Guide](./simbrief.md) for more information.
 
-As long as MSFS ATC and VFR Map are not required, the aircraft's flight plan does not have to be synchronized back to
-the MSFS flight planner (set `flyPad's Setting > Sim Options > Sync MSFS Flight Plan` to `None`).
-
 The MSFS ATC and VFR Map will <span style="color:orange;">**not**</span> be aware of the flight plan at all and cannot 
 be used.
 

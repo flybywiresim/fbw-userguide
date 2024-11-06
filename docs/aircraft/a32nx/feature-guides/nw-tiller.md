@@ -4,7 +4,6 @@ description: A guide to using the FlyByWire A32NX's tiller independently of the 
 ---
 
 [//]: # (TODO)
-<p style="color:yellow; font-size:18px;">TODO: adapt this to also work for the A380X </p> 
 
 # Nose Wheel and Tiller Operation
 
