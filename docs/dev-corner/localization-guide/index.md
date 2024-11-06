@@ -1,6 +1,8 @@
 ---
 title: Localization Guide - Overview
 description: Overview of the FlyByWire Localization Guide
+search:
+    exclude: true
 ---
 
 <link rel="stylesheet" href="/stylesheets/toc-tables.css">

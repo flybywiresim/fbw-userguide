@@ -1,17 +1,21 @@
 ---
 title: Contribution Guidelines
-description: Overview of the FlyByWire Documentation Guide
+description: Overview of the FlyByWire Contribution Guidelines
 ---
 
 # Contribution Guidelines
 
-Welcome to the A32NX project repository. Thank you for your interest in contributing to the project. Full details and guidelines on how to ensure this project is managed well are included below.
+Welcome to the FlyByWire Aircraft project repository. Thank you for your interest in contributing to the project. Full details and 
+guidelines on how to ensure this project is managed well are included below.
 
 As this is an open-source project, anyone is free to contribute as much or as little as they like.
 
-If you're just getting started with GitHub or project contributions, then we suggest you take a look at issues on the repository. These issues will vary in complexity depending on the issue itself, but will give you a good insight into the different topics you could contribute to.
+If you're just getting started with GitHub or project contributions, then we suggest you take a look at issues on the 
+repository. These issues will vary in complexity depending on the issue itself, but will give you a good insight into 
+the different topics you could contribute to.
 
-If you're comfortable contributing to Open-Source projects on GitHub, please ensure you read our expectations for issue tracking, feature proposals and pull requests.
+If you're comfortable contributing to Open-Source projects on GitHub, please ensure you read our expectations for issue 
+tracking, feature proposals and pull requests.
 
 If you're looking for tools and tips to help you develop, see [Development Resources](resources.md).
 

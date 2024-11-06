@@ -1,6 +1,7 @@
 ---
 title: Development Guide - Overview
-description: The Development Guide is dedicated to providing information to efficiently contribute to the A32NX project.
+description: The Development Guide is dedicated to providing information to efficiently contribute to the FlyByWire 
+             projects. 
 ---
 
 <link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
