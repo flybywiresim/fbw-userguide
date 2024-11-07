@@ -15,11 +15,13 @@ Also, some git client is necessary to interact with the GitHub repository.
 
 Either use a standalone git client (terminal or UI based) or one integrated into your editor.
 
-Make sure you are familiar with the basics of working with git/GitHub. The GitHub [Quickstart](https://docs.github.com/en/get-started/quickstart){target=new} documentation is a great help.
+Make sure you are familiar with the basics of working with git/GitHub. The GitHub 
+[Quickstart](https://docs.github.com/en/get-started/quickstart){target=new} documentation is a great help.
 
 ### Docker
 
-FlyByWire provides a preconfigured docker container that has all necessary tools included and preconfigured to compile the aircraft.
+FlyByWire provides a preconfigured docker container that has all necessary tools included and preconfigured to compile 
+the aircraft.
 
 To use this, you need to download and install [Docker](https://docs.docker.com/get-docker/){target=new} here.
 
@@ -27,59 +29,80 @@ Use either WSL2 or HyperV backend work, but the latter is faster.
 
 ### Editor or IDE
 
-Most of our team works with either Visual Studio Code or IntelliJ IDEA-based IDEs for development. Obviously, your choice is yours as long as the resulting code conforms to our standards.
+Most of our team works with either Visual Studio Code or IntelliJ IDEA-based IDEs for development. Obviously, your 
+choice is yours as long as the resulting code conforms to our standards.
+
+For Visual Studio Code, we recommend installing the following extensions: 
+[vscode eslint extension](https://marketplace.visualstudio.com/items?itemName=dbaeumer.vscode-eslint)
+
+It's recommended to set gitbash as your default shell in vscode
 
 ## Getting the source code
 
-To work on the A32NX project, you need to create a fork ( [GitHub fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new)}) of the [aircraft repository](https://github.com/flybywiresim/aircraft).
+To work on the A32NX project, you need to create a fork (
+[GitHub fork](https://docs.github.com/en/get-started/quickstart/fork-a-repo){target=new)}) of the 
+[aircraft repository](https://github.com/flybywiresim/aircraft).
 
-Clone this fork to your local environment. You can use the command line git or a UI-based git to do this. On the command line, go to your projects folder and clone it into that folder.
+Clone this fork to your local environment. You can use the command line git or a UI-based git to do this. On the command
+line, go to your projects folder and clone it into that folder.
 
 ```
 git clone https://github.com/flybywiresim/aircraft.git
+cd aircraft
+git submodule update --init
+.\scripts\dev-env\run.cmd ./scripts/setup.sh
 ```
 
-You now have a copy of the aircraft repository on your local machine to review and change the source code. The subfolder `./fbw-a320nx` contains the A32NX source code.
+You now have a copy of the aircraft repository on your local machine to review and change the source code.
+
+The setup.sh is configuring the build process and is sometimes necessary when you changed branches which for example use
+a different Nodes configuration.
 
 ## Compiling the source
 
-To compile the source code into a package you can install into the Microsoft Flight Simulator Community folder, we have prepared a few scripts you need to run, which in turn use the Docker container mentioned above to compile the aircraft add-on.
-
+To compile the source code into a package you can install into the Microsoft Flight Simulator Community folder, we have 
+prepared a few scripts you need to run. These use the Docker container mentioned above to compile the aircraft 
+add-on.
 
 ```powershell title="PowerShell or Cmd Prompt"
 cd aircraft
-.\scripts\dev-env\run.cmd ./scripts/setup.sh
 .\scripts\dev-env\run.cmd ./scripts/build.sh
 ```
+To build only the A32NX or the A380X, change build.sh to build_a32nx.sh or build_a380x.sh. To build the A380X with 4K 
+textures instead of maximum quality (8K), add the -4k flag at the end of the command.
 
-```bash title="git bash or other *nix shells on Windows"
-cd aircraft
-./scripts/dev-env/run.cmd ./scripts/setup.sh
-./scripts/dev-env/run.cmd ./scripts/build.sh
-```
+If you are using WSL, ensure that the Vmmem process is not memory-limited. At least 10GB of memory is the recommended 
+setting. This can be configured in C:\<user>\.wslconfig.
 
-The setup.sh is configuring the build process and is sometimes necessary when you changed branches which for example use a different Nodes configuration.
-
-The build.sh is actually using the docker container to compile and build the add-on into the folder `flybywire-aircraft-a320-neo`.
+The build.sh is actually using the docker container to compile and build the add-on(a) into the folder 
+`fbw-a32nx/out/flybywire-aircraft-a320-neo` or `fbw-a380x/out/flybywire-aircraft-a380` respectively.
 
 !!! note "Compiling on Linux (incl. WSL)"
     You should use run.sh instead of run.cmd if you are on Linux/WSL.
 
-    If you are using WSL, ensure that the Vmmem process is not memory limited. At least 10 GB of memory is the recommended setting. This can be configured in C:\<user>\.wslconfig.
+    If you are using WSL, ensure that the Vmmem process is not memory limited. At least 10 GB of memory is the 
+    recommended setting. This can be configured in C:\<user>\.wslconfig.
 
 !!! tip "Create working branches"
-    We recommend when making changes on your fork, you create a new branch, titled with the change you're looking to make or something similar.
+    We recommend when making changes on your fork, you create a new branch, titled with the change you're looking to 
+    make or something similar.
 
-After a successful build, it is possible to copy the `flybywire-aircraft-a320-neo` folder into your Community folder and use the compiled A32NX in your simulator. See next chapter for a more convenient way to update the add-on after a compile.
+After a successful build, it is possible to copy the `fbw-a32nx/out/flybywire-aircraft-a320-neo` or 
+`fbw-a380x/out/flybywire-aircraft-a380` folders into your Community folder and use the compiled A32NX in your simulator.
+See the next chapter for a more convenient way to update the add-on after a compilation.
 
 !!! warning "Important step!"
     Make sure you remove any existing copy of the aircraft from your community folder before doing this.
 
 ## Linking Dev folder to Community folder
 
-To avoid having to copy the `flybywire-aircraft-a320-neo` folder after every compile, it is possible to use a so called symlink from your Community folder to your compiled `flybywire-aircraft-a320-neo` folder.
+To avoid having to copy the `flybywire-aircraft-a320-neo`/`fbw-a380x/out/flybywire-aircraft-a380` folders after every 
+compile, it is possible to use a so-called symlink from your Community folder to your compiled 
+`flybywire-aircraft-a320-neo`/`fbw-a380x/out/flybywire-aircraft-a380` folder.
 
-To create your symlink, open your command terminal and run the below command, substituting the correct file paths with your community folder, and the 'flybywire-aircraft-a320' folder from your new project.
+To create your symlink, open your command terminal and run the below command, substituting the correct file paths with 
+your community folder, and the `flybywire-aircraft-a320`/`fbw-a380x/out/flybywire-aircraft-a380` folder from your new 
+project.
 
 !!! warning "Important step!"
     Make sure you remove any existing copy of the aircraft from your community folder before doing this.
@@ -95,9 +118,10 @@ mklink /J C:\Users\USERNAME\AppData\Local\Packages\Microsoft.FlightSimulator_8we
 
 If this works, you'll receive the response:
 
-"Junction created for \[Community folder] \[Project Folder]" from the terminal.
+`Junction created for \[Community folder] \[Project Folder]` from the terminal.
 
-Now you've compiled and symlinked your GitHub fork to your community folder, you should be able to load into the aircraft as normal.
+Now you've compiled and symlinked your GitHub fork to your community folder, you should be able to load into the 
+aircraft as normal.
 
 !!! info ""
     Open MSFS and check everything is working with your compiled branch before progressing.

@@ -4,7 +4,7 @@ description: The Development Guide is dedicated to providing information to effi
              projects. 
 ---
 
-<link rel="stylesheet" href="../../../stylesheets/toc-tables.css">
+<link rel="stylesheet" href="/stylesheets/toc-tables.css">
 
 # FlyByWire Development Guide
 
