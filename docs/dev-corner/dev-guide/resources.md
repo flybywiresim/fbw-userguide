@@ -38,7 +38,7 @@ First get yourself the "programmer" role in
 The most general channel for getting help for development is [#dev-support](https://discord.gg/v3jAxJpwZm){target=new}.
 
 There are many other channels for specific systems or subprojects. If you are working on the flyPad EFB for example, the
-#efb channel would be an important channel for collaborating and support.
+`#efb` channel would be an important channel for collaborating and support.
 
 ## Tech Stack
 
@@ -73,8 +73,3 @@ A number of tools make development in Microsoft Flight Simulator easier.
 - [devtools-backend-refurb](https://github.com/dga711/devtools-backend-refurb){target=new} - Chrome DevTools server 
   targeting Coherent GT. Gives you DevTools for html-ui content. WARNING: This is still a work in progress, and tends to 
   be very finicky.
-
-## Additional resources
-
-- [P3D XML Gauge Reference](http://www.prepar3d.com/SDK/SimObject%20Creation%20Kit/Panels%20and%20Gauges%20SDK/creating%20xml%20gauges.html)
-  still applies to FS2020.
