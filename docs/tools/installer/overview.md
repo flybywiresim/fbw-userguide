@@ -44,7 +44,7 @@ description: The FlyByWire Installer Overview is providing an interactive graphi
 </style>
 
 <div style="position: relative;">
-    <img src="/docs/docs/tools/installer/assets/installer.png" class="skip-lightbox" style="width: 100%; height: auto;">
+    <img src="/tools/installer/assets/installer.png" class="skip-lightbox" style="width: 100%; height: auto;">
 </div>
 
 ---
