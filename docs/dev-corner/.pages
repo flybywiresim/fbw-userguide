@@ -8,7 +8,7 @@ nav:
     - Overview: index.md
     - Developer Guide: dev-guide
     #- Localization Guide: localization-guide
-    - Livery Creators Guide: livery-creators-guide
+    - Livery Creators: livery-creators
     - Documentation Guide: documentation-guide
     - Other Guides: other
     - FlyByWire Projects: flybywire-projects

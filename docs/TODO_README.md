@@ -142,8 +142,8 @@ is good enough for now but might be improved in the future.
     - [ ] Localization Guide <span style="color: red;">TODO</span>
         - [ ] flyPad <span style="color: red;">TODO</span>
         - [ ] locPak for MSFS <span style="color: red;">TODO</span>
-    - [X] [Livery Creators Guide](dev-corner/livery-creators-guide/index.md)
-        - [X] [A380X PaintKit](dev-corner/livery-creators-guide/a380x-paintkit.md)
+    - [X] [Livery Creators Guide](dev-corner/livery-creators/index.md)
+        - [X] [A380X PaintKit](dev-corner/livery-creators/a380x-paintkit.md)
     - [X] [Documentation Guide](dev-corner/documentation-guide/index.md)
     - [X] [Additional Resources](dev-corner/other/index.md)
         - [X] [Scenery Developer Tips](dev-corner/other/scenery-developers.md)  

@@ -3,7 +3,7 @@
 # - Titles for specific pages or subdirectories
 # - Order of pages (otherwise alphabetical order)
 
-title: Livery Creators Guide
+title: Livery Creators
 nav:
     - Overview: index.md
     - A380X Paintkit: a380x-paintkit.md

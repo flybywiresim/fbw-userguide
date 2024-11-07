@@ -59,7 +59,7 @@ plugins:
         'development-projects/website.md': 'dev-corner/flybywire-projects/website.md'
         # Folder: /a32nx-devs/
         'a32nx-dev/overview.md': 'dev-corner/dev-guide/index.md'
-        'a32nx-dev/texture-changes.md': 'dev-corner/livery-creators-guide/a32nx-texture-changes.md'
+        'a32nx-dev/texture-changes.md': 'dev-corner/livery-creators/a32nx-texture-changes.md'
 
         # TEMP redirects
         # A.FLOOR

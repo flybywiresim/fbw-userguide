@@ -18,7 +18,7 @@ This section of the FlyByWire Documentation is dedicated to the development aspe
 | Topics                                                 |
 |:-------------------------------------------------------|
 | [Development Guide](dev-guide/index.md)                |
-| [Livery Creator Guide](livery-creators-guide/index.md) |
+| [Livery Creator Guide](livery-creators/index.md) |
 | [Documentation Guide](documentation-guide/index)       |
 | [Other](other)                                         |
 | [FlyByWire Projects](flybywire-projects/index.md)      |
