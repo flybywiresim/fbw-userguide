@@ -133,7 +133,7 @@ is good enough for now but might be improved in the future.
         - [ ] Best Practices <span style="color: red;">TODO</span>
             - [ ] Systems Development <span style="color: red;">TODO</span>
             - [ ] Instrument Development <span style="color: red;">TODO</span>
-            - [ ] flyPad Development <span style="color: red;">TODO</span>
+            - [ ] flyPad Development <span style="color: red;">TODO - page exists but needs update</span>
         - [X] [Specific](dev-corner/dev-guide/specific/index.md)
             - [X] [Overview](dev-corner/dev-guide/specific/index.md)
             - [X] [Instruments Build Guide](dev-corner/dev-guide/specific/instruments-build-guide)

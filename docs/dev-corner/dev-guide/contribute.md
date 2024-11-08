@@ -61,7 +61,8 @@ review and accept.  Large PRs with a small error will prevent the entire PR from
 ## Helping others
 
 Please help other contributors to the project wherever you can, as people all start somewhere. If you require assistance
-or wish to provide assistance, you can ask/answer questions on the [#dev-support](https://discord.gg/v3jAxJpwZm){target=new} channel on discord.
+or wish to provide assistance, you can ask/answer questions on the 
+[#dev-support](https://discord.gg/v3jAxJpwZm){target=new} channel on discord.
 
 ## Finding tasks
 

@@ -24,11 +24,6 @@ assurance process.
 This documentation describes the FlyByWire Development Process and tools in detail to help you set up your 
 development environment to be able to efficiently contribute to our projects.
 
-!!! info "Structure"
-    Currently these sections are specific to the A32NX. It details with the necessary software and tools, downloading and compiling the A32NX successfully, as well as guidelines on how to contribute within the project. 
-
-    We will adapt our documentation to cover A380X development requirements in the future as well.
-
 ##  Topics
 
 | Quick Links                                                    | Description                                                                                                                                 |

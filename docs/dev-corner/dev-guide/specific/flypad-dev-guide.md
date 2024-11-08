@@ -5,6 +5,8 @@ search:
 
 # flyPad Development Guide
 
+<h1><span style="color: yellow;">This guide needs to be updated.</span></h1>    
+
 ## Quick Reloading the flyPad
 
 As the aircraft in your project folder is now connected to your MSFS community folder via the Symlink you created in the previous step, each time you load in to the A32NX on MSFS, any changes you've made since the sim was last opened should be updated.
