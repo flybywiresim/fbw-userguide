@@ -27,7 +27,9 @@ functions:
 !!! warning ""
     The Surveillance Panel is not yet fully implemented in the A380X.
 
-    You can use the [MFD's SURV](../../../a380x-beginner-guide/02_cockpit-preparation.md#mfd-surveillance-default-settings) page to setup surveillance systems.
+    You can use the 
+    [MFD's SURV](../../../a380x-beginner-guide/02_cockpit-preparation.md#mfd-surveillance-default-settings) page to 
+    setup surveillance systems.
 
 ## Usage
 
