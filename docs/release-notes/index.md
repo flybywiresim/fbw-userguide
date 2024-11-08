@@ -13,7 +13,7 @@ for some of the FlyByWire Tools and other projects.
 
     The A32NX Release Notes section contains release notes for the A32NX aircraft add-on.
 
-    [View Latest Here](a32nx/v0121.md){.md-button}
+    [View Latest Here](a32nx/v0122.md){.md-button}
 
 - <p style="font-size:24px; color:#00E0FE;">A380X Release Notes</p>
 
@@ -21,7 +21,7 @@ for some of the FlyByWire Tools and other projects.
 
     The A380X Release Notes section contains release notes for the A380X aircraft add-on.
 
-    [View Latest Here](a380x/v0121.md){.md-button}
+    [View Latest Here](a380x/v0122.md){.md-button}
 
 
 - <p style="font-size:24px;">[Installer Release Notes](installer/v330.md)</p>
