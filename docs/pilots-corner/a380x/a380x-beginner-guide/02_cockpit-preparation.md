@@ -322,6 +322,8 @@ In the simulator, we are usually alone, so we will do the flow on our own.
 `NAVIGATION CHARTS ............................................... PREPARE`<br/>
 `MFD SURVEILLANCE DEFAULT SETTINGS................................. SELECT`<br/>
 ??? note "MFD Surveillance Default Settings"
+    ### MFD Surveillance Default Settings
+    
     Verify on the Multi-Function Display (MFD) Surveillance page that the transponder is set to AUTO, the squawk code
     is as per ATC, the TCAS is set to TA/RA and Norm, all TAWS modes are ON, and the weather radar is set to AUTO, the
     elevation/tilt to AUTO, Mode set to WX, TURB set to AUTO, GAIN set to AUTO, WX ON VD set to ON and PRED W/S to AUTO)
