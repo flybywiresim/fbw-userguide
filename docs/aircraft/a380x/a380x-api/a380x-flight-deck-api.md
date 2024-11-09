@@ -119,28 +119,28 @@ Flight Deck:  [EXT LT Panel](../../../pilots-corner/a380x/a380x-briefing/flight-
 |              | LIGHT STROBE         | 0..1   | R          | SIMCONNECT VAR | OFF and ON (no AUTO)          |
 |              | STROBE_0_AUTO        | 0..1   | R/W        | Custom LVAR    | AUTO only when STROBES are ON |
 |              |                      |        |            |                |                               |
-| BEACON       | LIGHTING_BEACON_0    | -      | -          | INPUT EVENT    |                               |
+| BEACON       | LIGHTING_BEACON_0    | -      | R/W        | INPUT EVENT    |                               |
 |              | BEACON_LIGHTS_SET    | 0..1   | -          | INPUT EVENT    |                               |
 |              | BEACON_LIGHTS_ON     | -      | -          | INPUT EVENT    |                               |
 |              | BEACON_LIGHTS_OFF    | -      | -          | INPUT EVENT    |                               |
 |              | TOGGLE_BEACON_LIGHTS | -      | -          | INPUT EVENT    |                               |
 |              | LIGHT BEACON         | 0..1   | R          | SIMCONNECT VAR |                               |
 |              |                      |        |            |                |                               |
-| WING         | LIGHTING_WING_0      | -      | -          | INPUT EVENT    |                               |
+| WING         | LIGHTING_WING_0      | -      | R/W        | INPUT EVENT    |                               |
 |              | WING_LIGHTS_SET      | 0..1   | -          | INPUT EVENT    |                               |
 |              | WING_LIGHTS_ON       | -      | -          | INPUT EVENT    |                               |
 |              | WING_LIGHTS_OFF      | -      | -          | INPUT EVENT    |                               |
 |              | TOGGLE_WING_LIGHTS   | -      | -          | INPUT EVENT    |                               |
 |              | LIGHT WING           | 0..1   | R          | SIMCONNECT VAR |                               |
 |              |                      |        |            |                |                               |
-| NAV          | LIGHTING_NAV_0       | -      | -          | INPUT EVENT    |                               |
+| NAV          | LIGHTING_NAV_0       | -      | R/W        | INPUT EVENT    |                               |
 |              | NAV_LIGHTS_SET       | 0..1   | -          | INPUT EVENT    |                               |
 |              | NAV_LIGHTS_ON        | -      | -          | INPUT EVENT    |                               |
 |              | NAV_LIGHTS_OFF       | -      | -          | INPUT EVENT    |                               |
 |              | TOGGLE_NAV_LIGHTS    | -      | -          | INPUT EVENT    |                               |
 |              | LIGHT NAV            | 0..1   | R          | SIMCONNECT VAR |                               |
 |              |                      |
-| LOGO         | LIGHTING_LOGO_0      | -      | -          | INPUT EVENT    |                               |
+| LOGO         | LIGHTING_LOGO_0      | -      | R/W        | INPUT EVENT    |                               |
 |              | LOGO_LIGHTS_SET      | 0..2   | -          | INPUT EVENT    |                               |
 |              | LOGO_LIGHTS_ON       | -      | -          | INPUT EVENT    |                               |
 |              | LOGO_LIGHTS_OFF      | -      | -          | INPUT EVENT    |                               |
@@ -151,9 +151,9 @@ Flight Deck:  [EXT LT Panel](../../../pilots-corner/a380x/a380x-briefing/flight-
 |              | TOGGLE_TAXI_LIGHTS   | -      | -          | INPUT EVENT    |                               |
 |              | LIGHT TAXI:2         | 0..1   | R          | SIMCONNECT VAR |                               |
 |              |                      |        |            |                |                               |
-| LAND         | LIGHTING_LANDING_2   | 0..1   | -          | INPUT EVENT    | 0=OFF, 1=ON                   |
+| LAND         | LIGHTING_LANDING_2   | 0..1   | R/W        | INPUT EVENT    | 0=OFF, 1=ON                   |
 |              |                      |        |            |                |                               |
-| NOSE         | LIGHTING_LANDING_1   | 0..2   | -          | INPUT EVENT    | 0=T.O, 1=TAXI, 2=OFF          |
+| NOSE         | LIGHTING_LANDING_1   | 0..2   | R/W        | INPUT EVENT    | 0=T.O, 1=TAXI, 2=OFF          |
 
 ### Interior Lights Panel
 
@@ -175,6 +175,7 @@ Flight Deck: [Signs Panel](../../../pilots-corner/a380x/a380x-briefing/flight-de
 |:-------------|:--------------------------------------------|:-------|:-----------|:-----------------|:--------------------|
 | SEAT BELTS   | CABIN_SEATBELTS_ALERT_SWITCH_TOGGLE         | -      | -          | SIMCONNECT EVENT |                     |
 |              | CABIN SEATBELTS ALERT SWITCH                | 0..1   | R          | SIMCONNECT VAR   |                     |
+|              | XMLVAR_SWITCH_OVHD_INTLT_SEATBELT_Position  | 0..2   | R          | Custom LVAR      | 0=ON, 1=AUTO, 2=OFF |
 |              |                                             |        |            |                  |                     |
 | NO SMOKING   | XMLVAR_SWITCH_OVHD_INTLT_NOSMOKING_POSITION | 0..2   | R/W        | Custom LVAR      | 0=ON, 1=AUTO, 2=OFF |
 |              |                                             |        |            |                  |                     |
