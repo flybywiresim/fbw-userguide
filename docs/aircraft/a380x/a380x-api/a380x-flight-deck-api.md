@@ -185,21 +185,17 @@ Flight Deck: [Signs Panel](../../../pilots-corner/a380x/a380x-briefing/flight-de
 
 Flight Deck: [ADIRS Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/adirs.md)
 
-!!! note "The below table shows the API for ADIR 1. Replace `1` with `2` or `3` for the other ADIRS."
-
-| Function                 | API Usage                                | Values  | Read/Write | Type        | Remark              |
-|:-------------------------|:-----------------------------------------|:--------|:-----------|:------------|:--------------------|
-| ADIR 1 knob              | A32NX_OVHD_ADIRS_IR_1_MODE_SELECTOR_KNOB | 0..2    | R/W        | Custom LVAR | 0=OFF, 1=NAV, 2=ATT |
-|                          |                                          |         |            |             |                     |
-| IR 1                     | A32NX_OVHD_ADIRS_IR_1_PB_IS_ON           | 0..1    | R/W        | Custom LVAR |                     |
-|                          | A32NX_OVHD_ADIRS_IR_1_PB_HAS_FAULT       | 0..1    | R          | Custom LVAR |                     |
-|                          |                                          |         |            |             |                     |
-| ADR 1                    | A32NX_OVHD_ADIRS_ADR_1_PB_IS_ON          | 0..1    | R/W        | Custom LVAR |                     |
-|                          | A32NX_OVHD_ADIRS_ADR_1_PB_HAS_FAULT      | 0..1    | R          | Custom LVAR |                     |
-|                          |                                          |         |            |             |                     |
-| Remaining Alignment Time | A32NX_ADIRS_REMAINING_IR_ALIGNMENT_TIME  | seconds | R          | Custom LVAR |                     |
-|                          |                                          |         |            |             |                     |
-| ON BAT light             | A32NX_OVHD_ADIRS_ON_BAT_IS_ILLUMINATED   | 0..1    | R          | Custom LVAR |                     |
+| Function                 | API Usage                                    | Values  | Read/Write | Type        | Remark              |
+|:-------------------------|:---------------------------------------------|:--------|:-----------|:------------|:--------------------|
+| ADIR {NUM} knob          | A32NX_OVHD_ADIRS_IR_{NUM}_MODE_SELECTOR_KNOB | 0..2    | R/W        | Custom LVAR | 0=OFF, 1=NAV, 2=ATT |
+|                          |                                              |         |            |             |                     |
+| IR {NUM}                 | A32NX_OVHD_ADIRS_IR_{NUM}_PB_IS_ON           | 0..1    | R/W        | Custom LVAR |                     |
+|                          | A32NX_OVHD_ADIRS_IR_{NUM}_PB_HAS_FAULT       | 0..1    | R          | Custom LVAR |                     |
+|                          |                                              |         |            |             |                     |
+| ADR {NUM}                | A32NX_OVHD_ADIRS_ADR_{NUM}_PB_IS_ON          | 0..1    | R/W        | Custom LVAR |                     |
+|                          | A32NX_OVHD_ADIRS_ADR_{NUM}_PB_HAS_FAULT      | 0..1    | R          | Custom LVAR |                     |
+|                          |                                              |         |            |             |                     |
+| Remaining Alignment Time | A32NX_ADIRS_REMAINING_IR_ALIGNMENT_TIME      | seconds | R          | Custom LVAR |                     |
 
 ### APU Panel
 
