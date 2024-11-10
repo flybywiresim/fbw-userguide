@@ -231,35 +231,28 @@ Flight Deck: [Oxygen Panel](../../../pilots-corner/a380x/a380x-briefing/flight-d
 
 ### Fire Panel
 
-Flight Deck: [Fire Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/fire.md)
+Flight Deck: [APU Fire Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/apu-fire.md)<br/>
+Flight Deck: [ENG Fire Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/eng-fire.md)
 
-| Function             | API Usage                            | Values | Read/Write | Type        | Remark                                   |
-|:---------------------|:-------------------------------------|:-------|:-----------|:------------|:-----------------------------------------|
-| APU FIRE GUARD       | A32NX_FIRE_GUARD_APU1                | 0..1   | R/W        | Custom LVAR |                                          |
-|                      |                                      |        |            |             |                                          |
-| APU FIRE             | A32NX_FIRE_BUTTON_APU1               | 0..1   | R/W        | Custom LVAR | Open Guard first. Can't be reset.        |
-|                      |                                      |        |            |             |                                          |
-| APU DISCH            | A32NX_FIRE_APU_AGENT1_DISCHARGE      | 0..1   | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
-|                      |                                      |        |            |             |                                          |
-| ENG {NUM} FIRE TEST  | A32NX_FIRE_TEST_ENG{NUM}             | 0..1   | R/W        | Custom LVAR |                                          |
-|                      |                                      |        |            |             |                                          |
-| ENG {NUM} FIRE GUARD | A32NX_FIRE_GUARD_ENG{NUM}            | 0..1   | R/W        | Custom LVAR |                                          |
-|                      |                                      |        |            |             |                                          |
-| ENG {NUM} FIRE       | A32NX_FIRE_BUTTON_ENG{NUM}           | 0..1   | R/W        | Custom LVAR | Open Guard first. Can't be reset.        |
-|                      |                                      |        |            |             |                                          |
-| ENG {NUM} AGENT1     | A32NX_FIRE_ENG{NUM}_AGENT1_DISCHARGE | 0..1   | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
-|                      |                                      |        |            |             |                                          |
-| ENG {NUM} AGENT2     | A32NX_FIRE_ENG{NUM}_AGENT2_DISCHARGE | 0..1   | R/W        | Custom LVAR | Press Fire button first. Can't be reset. |
+| Function                      | API Usage                                            | Values | Read/Write | Type        | Remark                                          |
+|:------------------------------|:-----------------------------------------------------|:-------|:-----------|:------------|:------------------------------------------------|
+| APU FIRE GUARD                | A32NX_FIRE_GUARD_APU1                                | 0..1   | R/W        | Custom LVAR |                                                 |
+| APU FIRE                      | A32NX_FIRE_BUTTON_APU1                               | 0..1   | R/W        | Custom LVAR |                                                 |
+| APU AGENT ARMED               | A32NX_FIRE_SQUIB_1_APU_1_IS_ARMED                    | 0..1   | R          | Custom LVAR |                                                 |
+| APU AGENT PRESSED             | A32NX_OVHD_FIRE_AGENT_1_APU_1_IS_PRESSED             | 0..1   | R/W        | Custom LVAR | When pressed, SQUIB discharges. Can't be reset. |
+| APU AGENT DISCH               | A32NX_OVHD_FIRE_AGENT_1_APU_1_IS_DISCHARGED          | 0..1   | R          | Custom LVAR | Can't be reset.                                 |
+|                               |                                                      |        |            |             |                                                 |
+| ENG {NUM} FIRE GUARD          | A32NX_FIRE_GUARD_ENG{NUM}                            | 0..1   | R/W        | Custom LVAR |                                                 |
+| ENG {NUM} FIRE                | A32NX_FIRE_BUTTON_ENG{NUM}                           | 0..1   | R/W        | Custom LVAR |                                                 |
+| ENG {NUM} AGENT {NUM} ARMED   | A32NX_FIRE_SQUIB_{NUM}\_ENG_{NUM}_IS_ARMED           | 0..1   | R          | Custom LVAR |                                                 |
+| ENG {NUM} AGENT {NUM} PRESSED | A32NX_OVHD_FIRE_AGENT_{NUM}\_ENG_{NUM}_IS_PRESSED    | 0..1   | R/W        | Custom LVAR | When pressed, SQUIB discharges. Can't be reset. |
+| ENG {NUM} AGENT {NUM} DISCH   | A32NX_OVHD_FIRE_AGENT_{NUM}\_ENG_{NUM}_IS_DISCHARGED | 0..1   | R          | Custom LVAR | Can't be reset.                                 |
+|                               |                                                      |        |            |             |                                                 |
+| FIRE TEST                     | A32NX_OVHD_FIRE_TEST_PB_IS_PRESSED                   | 0..1   | R/W        | Custom LVAR |                                                 |
 
 ### Fuel Panel
 
 Flight Deck: [Fuel Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/fuel.md)
-
-!!! note "The below table shows ':' if a pump index has to be added. Replace with appropriate value for the corresponding pump. E.g. FUELSYSTEM_PUMP_TOGGLE:2"
-    L1=2, L2=5, C1=9, C2=10, R1=3, R2=6
-
-    !!! warning ""
-        Please note that FUELSYSTEM_PUMP_TOGGLE 1 and 4 for the center tank pump switches got replaced with FUELSYSTEM_VALVE_TOGGLE 9 and 10, due to the NEO having jet pumps instead of conventional pumps, which was corrected in a recent update.
 
 | Function         | API Usage                | Values  | Read/Write | Type       | Remark                                |
 |:-----------------|:-------------------------|:--------|:-----------|:-----------|:--------------------------------------|
