@@ -254,21 +254,38 @@ Flight Deck: [ENG Fire Panel](../../../pilots-corner/a380x/a380x-briefing/flight
 
 Flight Deck: [Fuel Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/fuel.md)
 
-| Function         | API Usage                | Values  | Read/Write | Type       | Remark                                |
-|:-----------------|:-------------------------|:--------|:-----------|:-----------|:--------------------------------------|
-| Fuel L&R Tank    | FUELSYSTEM_PUMP_TOGGLE   | 2,3,5,6 | -          | MSFS EVENT | Fuel pumps for wing tanks             |
-|                  | FUELSYSTEM PUMP ACTIVE:  | 0..1    | R          | MSFS VAR   | Current state of the pump             |
-|                  | FUELSYSTEM PUMP SWITCH:  | 0..1    | R          | MSFS VAR   | Current state of the switch           |
-|                  |                          |         |            |            |                                       |
-| Fuel Center Tank | FUELSYSTEM_VALVE_TOGGLE  | 9,10    | -          | MSFS EVENT | Fuel jet pump valves for center tanks |
-|                  | FUELSYSTEM VALVE OPEN:   | 0..1    | R          | MSFS VAR   | Current state of the valve            |
-|                  | FUELSYSTEM VALVE SWITCH: | 0..1    | R          | MSFS VAR   | Current state of the switch           |
-|                  |                          |         |            |            |                                       |
-| X FEED           | FUELSYSTEM_VALVE_TOGGLE  | 3       | -          | MSFS EVENT | X-Feed pump                           |
-|                  | FUELSYSTEM VALVE OPEN:   | 0..1    | R          | MSFS VAR   | Current state of the valve            |
-|                  | FUELSYSTEM VALVE SWITCH: | 0..1    | R          | MSFS VAR   | Current state of the switch           |
-|                  |                          |         |            |            |                                       |
-| MODE SEL         | N/A                      |         |            |            |                                       |
+The A380X Fuel Panel is split into several parts, the crossfeeds, the left and right fuel tanks, the trim tanks and
+the x-feeds.
+
+The individual pumps are controlled via circuit connections. The corresponding circuit connection numbers are as 
+follows:
+
+``` title="Fuel and Trim Tank CIRCUIT CONNECTION NUMBERS"
+|    | 2  | 3  | 64 | 65 |    |    | 66 | 67 | 68 | 69 |    |   
+| 70 | 71 | 72 | 73 | 74 |    |    | 78 | 79 | 76 | 77 | 75 |
+|    |    |    |    |    | 80 | 81 |    |    |    |    |    |
+```
+
+```rpn title="Example Reverse Polish Notation (RPN) for Fuel Pump Circuit Connection"
+2 1 (>K:2:ELECTRICAL_BUS_TO_CIRCUIT_CONNECTION_TOGGLE)
+```
+
+| Function               | API Usage                                           | Values         | Read/Write | Type        | Remark                       |
+|:-----------------------|:----------------------------------------------------|:---------------|:-----------|:------------|:-----------------------------|
+| FUEL PUMP              | ELECTRICAL_BUS_TO_CIRCUIT_CONNECTION_TOGGLE         | see above      | -          | MSFS EVENT  | Fuel pumps connection toggle |
+|                        |                                                     |                |            |             |                              |
+| CROSSFEED Valve        | FUELSYSTEM_VALVE_TOGGLE                             | 46, 47, 48, 49 | -          | MSFS EVENT  |                              |
+| CROSSFEED 1 PRESSED    | XMLVAR_Momentary_PUSH_OVHD_FUEL_XFEED_Pressed       | 0..1           | R          | Custom LVAR |                              |
+| CROSSFEED 2..4 PRESSED | XMLVAR_Momentary_PUSH_OVHD_FUEL_XFEED{1..3}_Pressed | 0..1           | R          | Custom LVAR |                              |
+|                        |                                                     |                |            |             |                              |
+| OUTR TK XFR            | A380X_OVHD_FUEL_OUTRTK_XFR_PB_IS_AUTO               | 0..1           | R/W        | Custom LVAR |                              |
+|                        | A380X_OVHD_FUEL_OUTTTK_XFR_PB_IS_AUTO_LOCK          | 0..1           | R          | Custom LVAR |                              |
+| MID TK XFR             | A380X_OVHD_FUEL_MIDTK_XFR_PB_IS_AUTO                | 0..1           | R/W        | Custom LVAR |                              |
+|                        | A380X_OVHD_FUEL_MIDTK_XFR_PB_IS_AUTO_LOCK           | 0..1           | R          | Custom LVAR |                              |
+| INR TK XFR             | A380X_OVHD_FUEL_INRTK_XFR_PB_IS_AUTO                | 0..1           | R/W        | Custom LVAR |                              |
+|                        | A380X_OVHD_FUEL_INRTK_XFR_PB_IS_AUTO_LOCK           | 0..1           | R          | Custom LVAR |                              |
+| TRIM TK XFR            | A380X_OVHD_FUEL_TRIMTK_XFR_PB_IS_AUTO               | 0..1           | R/W        | Custom LVAR |                              |
+|                        | A380X_OVHD_FUEL_TRIMTK_XFR_PB_IS_AUTO_LOCK          | 0..1           | R          | Custom LVAR |                              |
 
 ### Air Condition Panel
 
