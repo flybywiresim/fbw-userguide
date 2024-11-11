@@ -227,8 +227,8 @@ possible.
     specific distance and will show the distance to the waypoint or fix. The distance rings can be set by pressing the 
     ND button on the lower ECAM display and then selecting the distance rings option.
 
+[//]: # (TODO: A380X shot instead    )
     ![ND distance rings](../../a32nx/assets/beginner-guide/descent/ND-disctance-rings.png "ND distance rings"){loading=lazy}
-    <p style="color:yellow; font-size:18px;">TODO: update screenshot for A380X</p>
 
 ### Arrival Planning
 
