@@ -102,7 +102,7 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
     - Use frame generation
       - Virtual Reality (VR)
       - DX12 beta
-      - or are otherwise limited by your graphics card VRAM amount TEST.
+      - or are otherwise limited by your graphics card VRAM amount.
     
     Use the **8K texture option** for the full fidelity experience if your system is powerful enough to support it.
     
