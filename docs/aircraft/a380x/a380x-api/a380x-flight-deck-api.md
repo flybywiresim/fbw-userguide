@@ -93,7 +93,7 @@ Flight Deck:  [ELEC Panel](../../../pilots-corner/a380x/a380x-briefing/flight-de
 |                  |                                               |            |            |                  |                                                                             |
 | AC ESS FEED      | A32NX_OVHD_ELEC_AC_ESS_FEED_PB_IS_NORMAL      | 0..1       | R/W        | Custom LVAR      |                                                                             |
 |                  | A32NX_OVHD_ELEC_AC_ESS_FEED_PB_HAS_FAULT      | 0..1       | R          | Custom LVAR      |                                                                             |
-| AC ESS FEED LOCK | A32NX_OVHD_ELEC_AC_ESS_FEED_PB_IS_NORMAL_LOCK | 0..1       | R          | Custom LVAR      |                                                                             |
+| AC ESS FEED LOCK | A32NX_OVHD_ELEC_AC_ESS<br/>_FEED_PB_IS_NORMAL_LOCK | 0..1       | R          | Custom LVAR      |                                                                             |
 |                  |                                               |            |            |                  |                                                                             |
 | DRIVE {NUM}      | A32NX_OVHD_ELEC_IDG_{NUM}_PB_IS_RELEASED      | 0 -> 1     | R/W        | Custom LVAR      | Cannot be undone - flight restart required                                  |
 |                  | A32NX_OVHD_ELEC_IDG_{NUM}_PB_HAS_FAULT        | 0..1       | R          | Custom LVAR      |                                                                             |
@@ -159,13 +159,13 @@ Flight Deck:  [EXT LT Panel](../../../pilots-corner/a380x/a380x-briefing/flight-
 
 Flight Deck: [INT LT Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/int-lt.md)
 
-| Function               | API Usage                                          | Values | Read/Write | Type             | Remark                                 |
-|:-----------------------|:---------------------------------------------------|:-------|:-----------|:-----------------|:---------------------------------------|
-| ICE IND & STBY COMPASS | L:A380X_OVHD_EXTLT_STBY_COMPASS_ICE_IND_SWITCH_POS | 0..1   | R/W        | Custom LVAR      | 0=OFF, 1=ICI IND ON, 2=STBY COMPASS ON |
-|                        |                                                    |        |            |                  |                                        |
-| STORM                  | N/A                                                |        |            |                  |                                        |
-|                        |                                                    |        |            |                  |                                        |
-| ANN LT                 | A32NX_OVHD_INTLT_ANN                               | 0..2   | R/W        | Custom LVAR      | 2=DIM, 1=BRT, 0=TEST                   |
+| Function               | API Usage                                               | Values | Read/Write | Type             | Remark                                 |
+|:-----------------------|:--------------------------------------------------------|:-------|:-----------|:-----------------|:---------------------------------------|
+| ICE IND & STBY COMPASS | L:A380X_OVHD_EXTLT_STBY<br/>_COMPASS_ICE_IND_SWITCH_POS | 0..1   | R/W        | Custom LVAR      | 0=OFF, 1=ICI IND ON, 2=STBY COMPASS ON |
+|                        |                                                         |        |            |                  |                                        |
+| STORM                  | N/A                                                     |        |            |                  |                                        |
+|                        |                                                         |        |            |                  |                                        |
+| ANN LT                 | A32NX_OVHD_INTLT_ANN                                    | 0..2   | R/W        | Custom LVAR      | 2=DIM, 1=BRT, 0=TEST                   |
 
 ### Signs Panel
 
@@ -245,8 +245,8 @@ Flight Deck: [ENG Fire Panel](../../../pilots-corner/a380x/a380x-briefing/flight
 | ENG {NUM} FIRE GUARD          | A32NX_FIRE_GUARD_ENG{NUM}                            | 0..1   | R/W        | Custom LVAR |                                                 |
 | ENG {NUM} FIRE                | A32NX_FIRE_BUTTON_ENG{NUM}                           | 0..1   | R/W        | Custom LVAR |                                                 |
 | ENG {NUM} AGENT {NUM} ARMED   | A32NX_FIRE_SQUIB_{NUM}\_ENG_{NUM}_IS_ARMED           | 0..1   | R          | Custom LVAR |                                                 |
-| ENG {NUM} AGENT {NUM} PRESSED | A32NX_OVHD_FIRE_AGENT_{NUM}\_ENG_{NUM}_IS_PRESSED    | 0..1   | R/W        | Custom LVAR | When pressed, SQUIB discharges. Can't be reset. |
-| ENG {NUM} AGENT {NUM} DISCH   | A32NX_OVHD_FIRE_AGENT_{NUM}\_ENG_{NUM}_IS_DISCHARGED | 0..1   | R          | Custom LVAR | Can't be reset.                                 |
+| ENG {NUM} AGENT {NUM} PRESSED | A32NX_OVHD_FIRE_AGENT<br/>_{NUM}\_ENG_{NUM}_IS_PRESSED    | 0..1   | R/W        | Custom LVAR | When pressed, SQUIB discharges. Can't be reset. |
+| ENG {NUM} AGENT {NUM} DISCH   | A32NX_OVHD_FIRE_AGENT<br/>_{NUM}\_ENG_{NUM}_IS_DISCHARGED | 0..1   | R          | Custom LVAR | Can't be reset.                                 |
 |                               |                                                      |        |            |             |                                                 |
 | FIRE TEST                     | A32NX_OVHD_FIRE_TEST_PB_IS_PRESSED                   | 0..1   | R/W        | Custom LVAR |                                                 |
 
@@ -295,13 +295,13 @@ Flight Deck: [AC Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/
 |:------------------|:---------------------------------------------------------|:-------|:-----------|:---------------|:--------------------------------------------------------|
 | APU BLEED         | A32NX_OVHD_PNEU_APU_BLEED_PB_IS_ON                       | 0..1   | R/W        | Custom LVAR    |                                                         |
 |                   | A32NX_OVHD_PNEU_APU_BLEED_PB_HAS_FAULT                   | 1      | R          | Custom LVAR    |                                                         |
-|                   | XMLVAR_Momentary_PUSH_OVHD_AIRCOND_APUBLEED_Pressed      | 0..1   | R/W        | SIMCONNECT VAR | Button position                                         |
+|                   | XMLVAR_Momentary_PUSH<br/>_OVHD_AIRCOND_APUBLEED_Pressed      | 0..1   | R/W        | SIMCONNECT VAR | Button position                                         |
 |                   | BLEED AIR APU                                            | 0..1   | R          | SIMCONNECT VAR |                                                         |
 |                   |                                                          |        |            |                |                                                         |
 | ENG {NUM} BLEED   | ENGINE_BLEED_AIR_SOURCE_TOGGLE                           | {NUM}  | -          | MSFS EVENT     |                                                         |
 |                   | BLEED AIR ENGINE:{NUM}                                   | 0..1   | R          | SIMCONNECT VAR |                                                         |
 |                   | A32NX_OVHD_PNEU_ENG_{NUM}_BLEED_PB_HAS_FAULT             | 0..1   | R/W        | Custom LVAR    |                                                         |
-|                   | XMLVAR_Momentary_PUSH_OVHD_AIRCOND_ENG{NUM}BLEED_Pressed | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   | XMLVAR_Momentary_PUSH<br/>_OVHD_AIRCOND_ENG{NUM}BLEED_Pressed | 0..1   | R/W        | Custom LVAR    |                                                         |
 |                   |                                                          |        |            |                |                                                         |
 | X BLEED knob      | A32NX_KNOB_OVHD_AIRCOND_XBLEED_POSITION                  | 0..2   | R/W        | Custom LVAR    | 0=Close, 1=AUTO, 2=Open                                 |
 |                   | A32NX_PNEU_XBLEED_VALVE_{SIDE}_OPEN                      | 0..1   | R          | Custom LVAR    | SIDE=C, L, R                                            |
@@ -334,25 +334,18 @@ Flight Deck: [AC Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/
 
 Flight Deck: [Anti Ice Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/anti-ice.md)
 
-| Function          | API Usage                                            | Values | Read/Write | Type             | Remark                  |
-|:------------------|:-----------------------------------------------------|:-------|:-----------|:-----------------|:------------------------|
-| WING              | TOGGLE_STRUCTURAL_DEICE                              | -      | -          | SIMCONNECT EVENT | Function & Button light |
-|                   | STRUCTURAL DEICE SWITCH                              | 0..1   | R/W        | SIMCONNECT VAR   | Function & Button light |
-|                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>ANTIICE_WING_PRESSED | 0..1   | R/W        | Custom LVAR      | Button state            |
-| WING fault light  | N/A                                                  |        |            |                  |                         |
-|                   |                                                      |        |            |                  |                         |
-| ENG 1             | ANTI_ICE_TOGGLE_ENG1                                 | -      | -          | SIMCONNECT EVENT | Function & Button light |
-|                   | ENG ANTI ICE:1                                       | 0..1   | R/W        | SIMCONNECT VAR   | Function & Button light |
-|                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>ANTIICE_ENG1_PRESSED | 0..1   | R/W        | Custom LVAR      | Button state            |
-| ENG 1 fault light | N/A                                                  |        |            |                  |                         |
-|                   |                                                      |        |            |                  |                         |
-| ENG 2             | ANTI_ICE_TOGGLE_ENG2                                 | -      | -          | SIMCONNECT EVENT | Function & Button light |
-|                   | ENG ANTI ICE:2                                       | 0..1   | R/W        | SIMCONNECT VAR   | Function & Button light |
-|                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>ANTIICE_ENG2_PRESSED | 0..1   | R/W        | Custom LVAR      | Button state            |
-| ENG 2 fault light | N/A                                                  |        |            |                  |                         |
-|                   |                                                      |        |            |                  |                         |
-| PROBE/WINDOW HEAT | A32NX_MAN_PITOT_HEAT                                 | 0..1   | R/W        | Custom LVAR      | Function & Button light |
-|                   | XMLVAR_MOMENTARY_PUSH_OVHD_<br/>PROBESWINDOW_PRESSED | 0..1   | R/W        | Custom LVAR      | Button state            |
+| Function          | API Usage                                                | Values | Read/Write | Type             | Remark                                |
+|:------------------|:---------------------------------------------------------|:-------|:-----------|:-----------------|:--------------------------------------|
+| WING              | TOGGLE_STRUCTURAL_DEICE                                  | -      | -          | SIMCONNECT EVENT | Function & Button light               |
+|                   | STRUCTURAL DEICE SWITCH                                  | 0..1   | R/W        | SIMCONNECT VAR   | Function & Button light               |
+|                   | XMLVAR_MOMENTARY_PUSH<br/>_OVHD_ANTIICE_WING_PRESSED     | 0..1   | R/W        | Custom LVAR      | Button state                          |
+|                   |                                                          |        |            |                  |                                       |
+| ENG {NUM}         | ANTI_ICE_SET_ENG{NUM}                                    | 0..1   | -          | SIMCONNECT EVENT | Function & Button light               |
+|                   | ENG ANTI ICE:{NUM}                                       | 0..1   | R/W        | SIMCONNECT VAR   | Function & Button light               |
+|                   | XMLVAR_MOMENTARY_PUSH<br/>_OVHD_ANTIICE_ENG{NUM}_PRESSED | 0..1   | R/W        | Custom LVAR      | Button state                          |
+|                   |                                                          |        |            |                  |                                       |
+| PROBE/WINDOW HEAT | A32NX_MAN_PITOT_HEAT                                     | 0..1   | R/W        | Custom LVAR      | Panel is on the left side of the OVHD |
+|                   | XMLVAR_MOMENTARY_PUSH<br/>_OVHD_PROBESWINDOW_PRESSED     | 0..1   | R/W        | Custom LVAR      | Button state                          |
 
 ### Calls Panel
 
@@ -360,14 +353,6 @@ Flight Deck: [Calls Panel](../../../pilots-corner/a380x/a380x-briefing/flight-de
 
 | Function | API Usage                | Values | Read/Write | Type        | Remark |
 |:---------|:-------------------------|:-------|:-----------|:------------|:-------|
-| MECH     | PUSH_OVHD_CALLS_MECH     | 0..1   | R/W        | Custom LVAR |        |
-|          |                          |        |            |             |        |
-| ALL      | PUSH_OVHD_CALLS_ALL      | 0..1   | R/W        | Custom LVAR |        |
-|          |                          |        |            |             |        |
-| FWD      | PUSH_OVHD_CALLS_FWD      | 0..1   | R/W        | Custom LVAR |        |
-|          |                          |        |            |             |        |
-| AFT      | PUSH_OVHD_CALLS_AFT      | 0..1   | R/W        | Custom LVAR |        |
-|          |                          |        |            |             |        |
 | EMER     | A32NX_CALLS_EMER_ON_LOCK | 0..1   | R          | Custom LVAR |        |
 |          | A32NX_CALLS_EMER_ON      | 0..1   | R/W        | Custom LVAR |        |
 
