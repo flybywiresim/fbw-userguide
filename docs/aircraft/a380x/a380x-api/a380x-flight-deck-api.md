@@ -291,51 +291,44 @@ follows:
 
 Flight Deck: [AC Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/ac.md)
 
-| Function       | API Usage                                     | Values | Read/Write | Type        | Remark       |
-|:---------------|:----------------------------------------------|:-------|:-----------|:------------|:-------------|
-| APU BLEED      | A32NX_OVHD_PNEU_APU_BLEED_PB_IS_ON            | 0..1   | R/W        | Custom LVAR |              |
-|                | LVAR:A32NX_OVHD_PNEU_APU_BLEED_PB_HAS_FAULT   | 1      | R          | Custom LVAR |              |
-|                |                                               |        |            |             |              |
-| ENG 1 BLEED    | ENGINE_BLEED_AIR_SOURCE_TOGGLE                | 1      | -          | MSFS EVENT  |              |
-|                | BLEED AIR ENGINE:1                            | 0..1   | R          |             |              |
-|                | LVAR:A32NX_OVHD_PNEU_ENG_1_BLEED_PB_HAS_FAULT | 0..1   | R/W        |             |              |
-|                |                                               |        |            |             |              |
-| ENG 2 BLEED    | ENGINE_BLEED_AIR_SOURCE_TOGGLE                | 2      | -          | MSFS EVENT  |              |
-|                | BLEED AIR ENGINE:1                            | 0..1   | R          |             |              |
-|                | LVAR:A32NX_OVHD_PNEU_ENG_2_BLEED_PB_HAS_FAULT | 0..1   | R/W        |             |              |
-|                |                                               |        |            |             |              |
-| X BLEED knob   | A32NX_KNOB_OVHD_AIRCOND_XBLEED_POSITION       | 0..2   | R/W        | Custom LVAR |              |
-|                | A32NX_PNEU_XBLEED_VALVE_OPEN                  | 0..1   | R          | Custom LVAR |              |
-|                | APU_BLEED_PRESSURE                            | ..     | R          | Custom LVAR |              |
-|                |                                               |        |            |             |              |
-| PACK 1         | A32NX_OVHD_COND_PACK_1_PB_IS_ON               | 0..1   | R/W        | Custom LVAR |              |
-|                | A32NX_OVHD_COND_PACK_1_PB_HAS_FAULT           | 0..1   | R/W        | Custom LVAR |              |
-|                | A32NX_COND_PACK_FLOW_VALVE_1_IS_OPEN          | 0..1   | R          | Custom LVAR |              |
-|                |                                               |        |            |             |              |
-| PACK 2         | A32NX_OVHD_COND_PACK_2_PB_IS_ON               | 0..1   | R/W        | Custom LVAR |              |
-|                | A32NX_OVHD_COND_PACK_2_PB_HAS_FAULT           | 0..1   | R/W        | Custom LVAR |              |
-|                | A32NX_COND_PACK_FLOW_VALVE_2_IS_OPEN          | 0..1   | R          | Custom LVAR |              |
-|                |                                               |        |            |             |              |
-| PACK FLOW knob | A32NX_KNOB_OVHD_AIRCOND_PACKFLOW_POSITION     | 0..2   | R/W        | Custom LVAR |              |
-|                | A32NX_COND_PACK_FLOW                          | 0..120 | R          | Custom LVAR |              |
-|                |                                               |        |            |             |              |
-| COCKPIT knob   | A32NX_OVHD_COND_CKPT_SELECTOR_KNOB            | 0..300 | R/W        | Custom LVAR |              |
-|                | A32NX_COND_CKPT_TEMP                          | °      | R          | Custom LVAR |              |
-|                | A32NX_COND_CKPT_DUCT_TEMP                     | °      | R          | Custom LVAR |              |
-|                |                                               |        |            |             |              |
-| FWD CABIN knob | A32NX_OVHD_COND_FWD_SELECTOR_KNOB             | 0..300 | R/W        | Custom LVAR |              |
-|                | A32NX_COND_FWD_TEMP                           | °      | R          | Custom LVAR |              |
-|                | A32NX_COND_FWD_DUCT_TEMP                      | °      | R          | Custom LVAR |              |
-|                |                                               |        |            |             |              |
-| AFT CABIN knob | A32NX_OVHD_COND_AFT_SELECTOR_KNOB             | 0..300 | R/W        | Custom LVAR |              |
-|                | A32NX_COND_AFT_TEMP                           | °      | R          | Custom LVAR |              |
-|                | A32NX_COND_AFT_DUCT_TEMP                      | °      | R          | Custom LVAR |              |
-|                |                                               |        |            |             |              |
-| HOT AIR        | A32NX_OVHD_COND_HOT_AIR_PB_IS_ON              | 0..1   | R/W        | Custom LVAR |              |
-|                | A32NX_OVHD_COND_HOT_AIR_PB_HAS_FAULT          | 0..1   | R/W        | Custom LVAR |              |
-|                |                                               |        |            |             |              |
-| RAM AIR        | A32NX_AIRCOND_RAMAIR_TOGGLE_LOCK              | 0..1   | R          | Custom LVAR | Switch Guard |
-|                | A32NX_AIRCOND_RAMAIR_TOGGLE                   | 0..1   | R/W        | Custom LVAR |              |
+| Function          | API Usage                                                | Values | Read/Write | Type           | Remark                                                  |
+|:------------------|:---------------------------------------------------------|:-------|:-----------|:---------------|:--------------------------------------------------------|
+| APU BLEED         | A32NX_OVHD_PNEU_APU_BLEED_PB_IS_ON                       | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   | A32NX_OVHD_PNEU_APU_BLEED_PB_HAS_FAULT                   | 1      | R          | Custom LVAR    |                                                         |
+|                   | XMLVAR_Momentary_PUSH_OVHD_AIRCOND_APUBLEED_Pressed      | 0..1   | R/W        | SIMCONNECT VAR | Button position                                         |
+|                   | BLEED AIR APU                                            | 0..1   | R          | SIMCONNECT VAR |                                                         |
+|                   |                                                          |        |            |                |                                                         |
+| ENG {NUM} BLEED   | ENGINE_BLEED_AIR_SOURCE_TOGGLE                           | {NUM}  | -          | MSFS EVENT     |                                                         |
+|                   | BLEED AIR ENGINE:{NUM}                                   | 0..1   | R          | SIMCONNECT VAR |                                                         |
+|                   | A32NX_OVHD_PNEU_ENG_{NUM}_BLEED_PB_HAS_FAULT             | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   | XMLVAR_Momentary_PUSH_OVHD_AIRCOND_ENG{NUM}BLEED_Pressed | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   |                                                          |        |            |                |                                                         |
+| X BLEED knob      | A32NX_KNOB_OVHD_AIRCOND_XBLEED_POSITION                  | 0..2   | R/W        | Custom LVAR    | 0=Close, 1=AUTO, 2=Open                                 |
+|                   | A32NX_PNEU_XBLEED_VALVE_{SIDE}_OPEN                      | 0..1   | R          | Custom LVAR    | SIDE=C, L, R                                            |
+|                   |                                                          |        |            |                |                                                         |
+| PACK {NUM}        | A32NX_OVHD_COND_PACK_{NUM}_PB_IS_ON                      | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   | A32NX_OVHD_COND_PACK_{NUM}_PB_HAS_FAULT                  | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   | A32NX_COND_PACK_{NUM}_FLOW_VALVE_1_IS_OPEN               | 0..1   | R          | Custom LVAR    |                                                         |
+|                   | A32NX_COND_PACK_{NUM}_FLOW_VALVE_2_IS_OPEN               | 0..1   | R          | Custom LVAR    |                                                         |
+|                   |                                                          |        |            |                |                                                         |
+| AIR FLOW knob     | A32NX_KNOB_OVHD_AIRCOND_PACKFLOW_POSITION                | 0..3   | R/W        | Custom LVAR    | 0=MAN, 1=LO, 2=NORM, 3=HI                               |
+|                   |                                                          |        |            |                |                                                         |
+| COCKPIT knob      | A32NX_OVHD_COND_CKPT_SELECTOR_KNOB                       | 0..300 | R/W        | Custom LVAR    |                                                         |
+|                   | A32NX_COND_CKPT_TEMP                                     | °      | R          | Custom LVAR    |                                                         |
+|                   | A32NX_COND_CKPT_DUCT_TEMP                                | °      | R          | Custom LVAR    |                                                         |
+|                   |                                                          |        |            |                |                                                         |
+| CABIN knob        | A32NX_OVHD_COND_FWD_SELECTOR_KNOB                        | 0..400 | R/W        | Custom LVAR    | 0..350 Cabin Temp, 400=PURS SEL                         |
+|                   | A32NX_COND_{DECK}\_DECK_{NUM}_TEMP                       | °      | R          | Custom LVAR    | DECK=MAIN or UPPER, MAIN has 8 zones, UPPER has 7 zones |
+|                   | A32NX_COND_{DECK}\_DECK_{NUM}_DUCT_TEMP                  | °      | R          | Custom LVAR    | DECK=MAIN or UPPER, MAIN has 8 zones, UPPER has 7 zones |
+|                   |                                                          |        |            |                |                                                         |
+| HOT AIR           | A32NX_OVHD_COND_HOT_AIR_{NUM}_PB_IS_ON                   | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   | A32NX_OVHD_COND_HOT_AIR_{NUM}_PB_HAS_FAULT               | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   |                                                          |        |            |                |                                                         |
+| RAM AIR           | A32NX_OVHD_COND_RAM_AIR_PB_IS_ON_LOCK                    | 0..1   | R          | Custom LVAR    | Switch Guard                                            |
+|                   | A32NX_OVHD_COND_RAM_AIR_PB_IS_ON                         | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   |                                                          |        |            |                |                                                         |
+| CABIN AIR EXTRACT | A32NX_OVHD_VENT_AIR_EXTRACT_PB_IS_ON_LOCK                | 0..1   | R          | Custom LVAR    | Switch Guard                                            |
+|                   | A32NX_OVHD_VENT_AIR_EXTRACT_PB_IS_ON                     | 0..1   | R/W        | Custom LVAR    |                                                         |
 
 ### Anti Ice Panel
 
