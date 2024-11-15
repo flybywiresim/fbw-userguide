@@ -37,6 +37,16 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
 ### Manual Installation
 
+!!! bug "Manual Installation is not recommended"
+    We recommend using the FlyByWire Installer for the best download and installation experience. The Installer uses the 
+    Cloudflare CDN to ensure fast downloads and also download smaller chunks of the file to ensure more stability during 
+    the download process.
+
+    Manual download is done from GitHub, which can be slower and less reliable. 
+
+    Especially during a build and upload of the master branch the manual download can be tricky as files might be 
+    missing or being changed during the download process.
+
 <div class="grid cards" markdown>
 
 - **Download A32NX**
@@ -47,12 +57,12 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
         **Current Stable Version -** <img src="https://img.shields.io/github/v/release/flybywiresim/aircraft.svg?color=2F4E5B&style=flat" />
 
-          Stable is our variant that has the least bugs and best performance. This version will not always be up-to-date, but we guarantee its compatibility with each major patch from MSFS. 
+        Stable is our variant that has the least bugs and best performance. This version will not always be up-to-date, 
+        but we ensure its compatibility with each major patch from MSFS. 
 
-          [Download Stable](https://github.com/flybywiresim/aircraft/releases/download/assets/stable/A32NX-stable.zip){.md-button target=new}
+        [Download Stable](https://github.com/flybywiresim/aircraft/releases/download/assets/stable/A32NX-stable.zip){.md-button target=new}
 
-          Latest release notes: [View Here](/latest-release/)
-
+        Latest release notes: [View Here](/latest-release/)
 
     === "Development Version"
 
@@ -60,44 +70,44 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
         It updates whenever something is added to the 'master' branch on GitHub. 
 
-         [Download Development](https://github.com/flybywiresim/aircraft/releases/download/assets/master/A32NX-master.7z){.md-button target=new}
-         
-         **IMPORTANT:** 
-
-        View information on Autopilot / Fly-By-Wire [here](../a32nx/feature-guides/autopilot-fbw.md)
-
+        [Download Development](https://github.com/flybywiresim/aircraft/releases/download/assets/master/A32NX-master.7z){.md-button target=new}
+ 
 - **Download A380X**
 
     ---
 
-    Download via our Installer.
+    === "Stable Version"
 
-    [Download Installer](https://api.flybywiresim.com/installer){ .md-button target=new}
+        **Current Stable Version -** <img src="https://img.shields.io/github/v/release/flybywiresim/aircraft.svg?color=2F4E5B&style=flat" />
 
-    ---
+        Stable is our variant that has the least bugs and best performance. This version will not always be up-to-date, 
+        but we ensure its compatibility with each major patch from MSFS. 
 
-    === "4K Texture Option"
+        [Download Stable](https://github.com/flybywiresim/aircraft/releases){.md-button target=new}
 
-        [System Requirements](../../aircraft/install/installation.md#estimated-system-requirements-for-a380x)
+        Latest release notes: [View Here](/latest-release/)
 
-        Includes our 4K downscaled cabin, cockpit and exterior textures. Choose this option for reduced stutters, better performance, with HIGH or lower texture resolution setting.
+    === "Development Version"
 
-        Additionally, if you intend to use the following:
+        Development will have the latest features that will end up in the next stable. Bugs are to be expected. 
 
-        - Use frame generation
-        - Virtual Reality (VR)
-        - DX12 beta
-        - or are otherwise limited by your graphics card VRAM amount.
+        It updates whenever something is added to the 'master' branch on GitHub. 
 
-    === "8K Texture Option"
+        [Download Development](https://github.com/flybywiresim/aircraft/releases/tag/assets%2Fmaster){.md-button target=new}
+  
+    **4K vs. 8K Textures:**
 
-         [System Requirements](../../aircraft/install/installation.md#estimated-system-requirements-for-a380x)
+    We recommend using the **4K texture option** for
+     
+    - Use frame generation
+    - Virtual Reality (VR)
+    - DX12 beta
+    - or are otherwise limited by your graphics card VRAM amount.
 
-         Includes our 8K full resolution cabin, cockpit and exterior textures. This is the full fidelity experience and our recommendation if your system is powerful enough to support it. Realistic and in high detail.
+    Use the **8K texture option** for the full fidelity experience if your system is powerful enough to support it.
 
-        - DX11 recommended
-        - HIGH or lower texture resolution setting recommended
-
+    - DX11 recommended
+    - HIGH or lower texture resolution setting recommended
 </div>
 
 [//]: # (    === "Experimental Version")
