@@ -95,19 +95,20 @@ You can send us logs to our [Discord](https://discord.gg/flybywire){target=new} 
 
         [Download Development](https://github.com/flybywiresim/aircraft/releases/tag/assets%2Fmaster){.md-button target=new}
   
-    **4K vs. 8K Textures:**
-
+    <p style="color:orangered;">**4K vs. 8K Textures:**</p>
+    
     We recommend using the **4K texture option** for
      
     - Use frame generation
-    - Virtual Reality (VR)
-    - DX12 beta
-    - or are otherwise limited by your graphics card VRAM amount.
-
+      - Virtual Reality (VR)
+      - DX12 beta
+      - or are otherwise limited by your graphics card VRAM amount TEST.
+    
     Use the **8K texture option** for the full fidelity experience if your system is powerful enough to support it.
-
+    
     - DX11 recommended
     - HIGH or lower texture resolution setting recommended
+ 
 </div>
 
 [//]: # (    === "Experimental Version")
