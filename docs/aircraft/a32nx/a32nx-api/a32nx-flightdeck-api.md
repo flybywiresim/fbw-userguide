@@ -523,7 +523,7 @@ Flight Deck: [FCU Panel](../../../pilots-corner/a32nx/a32nx-briefing/flight-deck
 | Function          | API Usage                              | Values               | Read/Write | Type             | Remark                                                                   |
 |:------------------|:---------------------------------------|:---------------------|:-----------|:-----------------|:-------------------------------------------------------------------------|
 | SPD knob          | A32NX_AUTOPILOT_SPEED_SELECTED         | 0..399               | R          | Custom LVAR      | Deprecated                                                               |
-|                   | A32NX_FCU_AFS_DISPLAY_SPD_MACH_VALUE   | 0..399/0.1..0.99     | R          | Custom LVAR      |                                                                          |
+|                   | A32NX_FCU_AFS_DISPLAY_SPD_MACH_VALUE   | 0..399/0.1..0.99     | R          | Custom LVAR      | Range depends on speed/mach mode                                         |
 |                   | A32NX_FCU_AFS_DISPLAY_SPD_MACH_DASHES  | 0&#124;1             | R          | Custom LVAR      |                                                                          |
 |                   | A32NX_FCU_AFS_DISPLAY_SPD_MACH_MANAGED | 0&#124;1             | R          | Custom LVAR      |                                                                          |
 |                   | A32NX.FCU_SPD_INC                      | -                    | -          | Custom EVENT     |                                                                          |
@@ -583,7 +583,7 @@ Flight Deck: [FCU Panel](../../../pilots-corner/a32nx/a32nx-briefing/flight-deck
 |                   | AP_ATT_HOLD                            | -                    | -          | SIMCONNECT EVENT | Repurposed event as Simconnect has no standard event for this otherwise. |
 |                   |                                        |                      |            |                  |                                                                          |
 | V/S FPA knob      | A32NX_AUTOPILOT_VS_SELECTED            | -6000..6000          | R          | Custom LVAR      | Deprecated                                                               |
-|                   | A32NX_FCU_AFS_DISPLAY_VS_FPA_VALUE     | -6000..6000          | R          | Custom LVAR      |                                                                          |
+|                   | A32NX_FCU_AFS_DISPLAY_VS_FPA_VALUE     | -6000..6000/-9.9..9.9| R          | Custom LVAR      | Range depends on TRK/FPA mode                                            |
 |                   | A32NX_FCU_AFS_DISPLAY_VS_FPA_DASHES    | 0&#124;1             | R          | Custom LVAR      |                                                                          |
 |                   | A32NX.FCU_VS_INC                       | -                    | -          | Custom LVAR      | FPA: -9.9..9.9                                                           |
 |                   | A32NX.FCU_VS_DEC                       | -                    | -          | Custom EVENT     |                                                                          |
