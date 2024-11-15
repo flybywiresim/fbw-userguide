@@ -431,131 +431,205 @@ Flight Deck: [Glareshield Lighting Knobs](../../../pilots-corner/a32nx/a32nx-bri
 
 Flight Deck: [EFIS Control Panel](../../../pilots-corner/a32nx/a32nx-briefing/flight-deck/glareshield/efis_control.md)
 
-| Function     | API Usage                        | Values           | Read/Write | Type             | Remark                                            |
-|:-------------|:---------------------------------|:-----------------|:-----------|:-----------------|:--------------------------------------------------|
-| Baro Display | KOHLSMAN SETTING MB:1            | 948-1084 (hPa)   | R          | MSFS VAR         |                                                   |
-|              | KOHLSMAN SETTING HG:1            | 27.99-32.01 (Hg) | R          | MSFS VAR         |                                                   |
-|              |                                  |                  |            |                  |                                                   |
-| Baro knob    | KOHLSMAN_INC                     | -                | -          | SIMCONNECT EVENT |                                                   |
-|              | KOHLSMAN_INC                     | -                | -          | SIMCONNECT EVENT |                                                   |
-|              | XMLVAR_Baro1_Mode                | 0..2             | R/W        | Custom LVAR      | 0=QFE, 1=QNH, 2=STD                               |
-|              |                                  |                  |            |                  |                                                   |
-| inHG / hPa   | XMLVAR_BARO_SELECTOR_HPA_1       | 0&#124;1         | R/W        | Custom LVAR      | 0=Hg, 1=hPa                                       |
-|              |                                  |                  |            |                  |                                                   |
-| FD           | AUTOPILOT FLIGHT DIRECTOR ACTIVE | 0&#124;1         | R          | SIMCONNECT VAR   |                                                   |
-|              | TOGGLE_FLIGHT_DIRECTOR           | -                | -          | SIMCONNECT EVENT |                                                   |
-|              |                                  |                  |            |                  |                                                   |
-| LS Capt.     | BTN_LS_1_FILTER_ACTIVE           | 0&#124;1         | R/W        | Custom LVAR      |                                                   |
-| LS F.O.      | BTN_LS_2_FILTER_ACTIVE           | 0&#124;1         | R/W        | Custom LVAR      |                                                   |
-|              |                                  |                  |            |                  |                                                   |
-| ND Filter    | A32NX_EFIS_L_OPTION              | 0..31 (bitmap)   | R/W        | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 4=WPT, 8=NDB, 16=ARPT      |
-|              | A32NX_EFIS_R_OPTION              | 0..31 (bitmap)   | R/W        | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 4=WPT, 8=NDB, 16=ARPT      |
-|              |                                  |                  |            |                  |                                                   |
-| ND MODE      | A32NX_EFIS_L_ND_MODE             | 0..4             | R/W        | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN |
-|              | A32NX_EFIS_R_ND_MODE             | 0..4             | R/W        | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN |
-|              |                                  |                  |            |                  |                                                   |
-| ND RANGE     | A32NX_EFIS_L_ND_RANGE            | 0..5             | R/W        | Custom LVAR      | 0=10, ..., 5=320                                  |
-|              | A32NX_EFIS_R_ND_RANGE            | 0..5             | R/W        | Custom LVAR      | 0=10, ..., 5=320                                  |
-|              |                                  |                  |            |                  |                                                   |
-| ADF-VOR      | A32NX_EFIS_L_NAVAID_1_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR                               |
-|              | A32NX_EFIS_L_NAVAID_2_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR                               |
-|              | A32NX_EFIS_R_NAVAID_1_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR                               |
-|              | A32NX_EFIS_R_NAVAID_2_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR                               |
+| Function     | API Usage                                | Values           | Read/Write | Type             | Remark                                                        |
+|:-------------|:-----------------------------------------|:-----------------|:-----------|:-----------------|:--------------------------------------------------------------|
+| Baro Display | KOHLSMAN SETTING MB:1                    | 948-1084 (hPa)   | R          | MSFS VAR         |                                                               |
+|              | KOHLSMAN SETTING HG:1                    | 27.99-32.01 (Hg) | R          | MSFS VAR         |                                                               |
+|              | A32NX_FCU_EFIS_L_DISPLAY_BARO_VALUE      | 948-1084 (hPa) or| R          | Custom LVAR      | Range dynamically changes with Baro unit                      |
+|              | A32NX_FCU_EFIS_R_DISPLAY_BARO_VALUE      | 27.99-32.01 (Hg) | R          | Custom LVAR      | Range dynamically changes with Baro unit                      |
+|              |                                          |                  |            |                  |                                                               |
+| Baro knob    | KOHLSMAN_INC                             | -                | -          | SIMCONNECT EVENT |                                                               |
+|              | KOHLSMAN_DEC                             | -                | -          | SIMCONNECT EVENT |                                                               |
+|              | A32NX.FCU_EFIS_L_BARO_INC                | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_BARO_INC                | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_L_BARO_DEC                | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_BARO_DEC                | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_L_BARO_SET                | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_BARO_SET                | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_L_BARO_PUSH               | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_BARO_PUSH               | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_L_BARO_PULL               | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_BARO_PULL               | -                | -          | Custom EVENT     |                                                               |
+|              | XMLVAR_Baro1_Mode                        | 0..2             | R          | Custom LVAR      | 0=QFE, 1=QNH, 2=STD, Deprecated                               |
+|              | A32NX_FCU_EFIS_L_DISPLAY_BARO_MODE       | 0..2             | R          | Custom LVAR      | 0=STD, 1=QNH, 2=QFE                                           |
+|              | A32NX_FCU_EFIS_R_DISPLAY_BARO_MODE       | 0..2             | R          | Custom LVAR      | 0=STD, 1=QNH, 2=QFE                                           |
+|              |                                          |                  |            |                  |                                                               |
+| inHG / hPa   | XMLVAR_BARO_SELECTOR_HPA_1               | 0&#124;1         | R/W        | Custom LVAR      | 0=Hg, 1=hPa, REMOVED                                          |
+|              | A32NX_FCU_EFIS_L_DISPLAY_BARO_VALUE_MODE | 0..2             | R          | Custom LVAR      | 0=STD, 1=hPa, 2=inHG                                          |
+|              | A32NX_FCU_EFIS_R_DISPLAY_BARO_VALUE_MODE | 0..2             | R          | Custom LVAR      | 0=STD, 1=hPa, 2=inHG                                          |
+|              | A32NX_FCU_EFIS_L_BARO_IS_INHG            | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_FCU_EFIS_R_BARO_IS_INHG            | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              |                                          |                  |            |                  |                                                               |
+| FD           | AUTOPILOT FLIGHT DIRECTOR ACTIVE         | 0&#124;1         | R          | SIMCONNECT VAR   |                                                               |
+|              | A32NX_FCU_EFIS_L_FD_LIGHT_ON             | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_FCU_EFIS_R_FD_LIGHT_ON             | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | TOGGLE_FLIGHT_DIRECTOR                   | -                | -          | SIMCONNECT EVENT |                                                               |
+|              | A32NX.FCU_EFIS_L_FD_PUSH                 | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_FD_PUSH                 | -                | -          | Custom EVENT     |                                                               |
+|              |                                          |                  |            |                  |                                                               |
+| LS Capt.     | BTN_LS_1_FILTER_ACTIVE                   | 0&#124;1         | R          | Custom LVAR      | Deprecated                                                    |
+| LS F.O.      | BTN_LS_2_FILTER_ACTIVE                   | 0&#124;1         | R          | Custom LVAR      | Deprecated                                                    |
+| LS           | A32NX_FCU_EFIS_L_LS_LIGHT_ON             | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_FCU_EFIS_R_LS_LIGHT_ON             | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX.FCU_EFIS_L_LS_PUSH                 | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_LS_PUSH                 | -                | -          | Custom EVENT     |                                                               |
+|              |                                          |                  |            |                  |                                                               |
+| ND Filter    | A32NX_EFIS_L_OPTION                      | 0..31 (bitmap)   | R          | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 4=WPT, 8=NDB, 16=ARPT, Deprecated      |
+|              | A32NX_EFIS_R_OPTION                      | 0..31 (bitmap)   | R          | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 4=WPT, 8=NDB, 16=ARPT, Deprecated      |
+|              | A32NX_EFIS_L_CSTR_LIGHT_ON               | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_EFIS_R_CSTR_LIGHT_ON               | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_EFIS_L_WPT_LIGHT_ON                | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_EFIS_R_WPT_LIGHT_ON                | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_EFIS_L_VORD_LIGHT_ON               | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_EFIS_R_VORD_LIGHT_ON               | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_EFIS_L_NDB_LIGHT_ON                | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_EFIS_R_NDB_LIGHT_ON                | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_EFIS_L_ARPT_LIGHT_ON               | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_EFIS_R_ARPT_LIGHT_ON               | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX.EFIS_L_CSTR_PUSH                   | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.EFIS_R_CSTR_PUSH                   | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.EFIS_L_WPT_PUSH                    | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.EFIS_R_WPT_PUSH                    | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.EFIS_L_VORD_PUSH                   | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.EFIS_R_VORD_PUSH                   | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.EFIS_L_NDB_PUSH                    | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.EFIS_R_NDB_PUSH                    | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.EFIS_L_ARPT_PUSH                   | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.EFIS_R_ARPT_PUSH                   | -                | -          | Custom EVENT     |                                                               |
+|              |                                          |                  |            |                  |                                                               |
+| ND MODE      | A32NX_EFIS_L_ND_MODE                     | 0..4             | R          | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN, Deprecated |
+|              | A32NX_EFIS_R_ND_MODE                     | 0..4             | R          | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN, Deprecated |
+|              | A32NX_FCU_EFIS_L_EFIS_MODE               | 0..4             | R/W        | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN             |
+|              | A32NX_FCU_EFIS_R_EFIS_MODE               | 0..4             | R/W        | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN             |
+|              |                                          |                  |            |                  |                                                               |
+| ND RANGE     | A32NX_EFIS_L_ND_RANGE                    | 0..5             | R          | Custom LVAR      | 0=10, ..., 5=320, Deprecated                                  |
+|              | A32NX_EFIS_R_ND_RANGE                    | 0..5             | R          | Custom LVAR      | 0=10, ..., 5=320, Deprecated                                  |
+|              | A32NX_FCU_EFIS_L_EFIS_RANGE              | 0..5             | R/W        | Custom LVAR      | 0=10, ..., 5=320                                              |
+|              | A32NX_FCU_EFIS_R_EFIS_RANGE              | 0..5             | R/W        | Custom LVAR      | 0=10, ..., 5=320                                              |
+|              |                                          |                  |            |                  |                                                               |
+| ADF-VOR      | A32NX_EFIS_L_NAVAID_1_MODE               | 0..2             | R          | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR, Deprecated                               |
+|              | A32NX_EFIS_L_NAVAID_2_MODE               | 0..2             | R          | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR, Deprecated                               |
+|              | A32NX_EFIS_R_NAVAID_1_MODE               | 0..2             | R          | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR, Deprecated                               |
+|              | A32NX_EFIS_R_NAVAID_2_MODE               | 0..2             | R          | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR, Deprecated                               |
+|              | A32NX_FCU_EFIS_L_NAVAID_1_MODE           | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR                                           |
+|              | A32NX_FCU_EFIS_L_NAVAID_2_MODE           | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR                                           |
+|              | A32NX_FCU_EFIS_R_NAVAID_1_MODE           | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR                                           |
+|              | A32NX_FCU_EFIS_R_NAVAID_2_MODE           | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR                                           |
 
 ### FCU Panel
 
 Flight Deck: [FCU Panel](../../../pilots-corner/a32nx/a32nx-briefing/flight-deck/glareshield/fcu.md)
 
-| Function          | API Usage                           | Values               | Read/Write | Type             | Remark                                                                   |
-|:------------------|:------------------------------------|:---------------------|:-----------|:-----------------|:-------------------------------------------------------------------------|
-| SPD knob          | A32NX_AUTOPILOT_SPEED_SELECTED      | 0..399               | R          | Custom LVAR      |                                                                          |
-|                   | A32NX.FCU_SPD_INC                   | -                    | -          | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_SPD_DEC                   | -                    | -          | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_SPD_SET                   | 0..399               | -          | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_SPD_PUSH                  | -                    | -          | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_SPD_PULL                  | -                    | -          | Custom EVENT     |                                                                          |
-|                   | AP_AIRSPEED_ON                      | -                    | -          | SIMCONNECT EVENT | Push                                                                     |
-|                   | AP_AIRSPEED_OFF                     | -                    | -          | SIMCONNECT EVENT | Pull                                                                     |
-|                   | AP_SPD_VAR_INC                      | -                    | -          | SIMCONNECT EVENT |                                                                          |
-|                   | AP_SPD_VAR_DEC                      | -                    | -          | SIMCONNECT EVENT |                                                                          |
-|                   | AP_MACH_VAR_INC                     | -                    | -          | SIMCONNECT EVENT |                                                                          |
-|                   | AP_MACH_VAR_DEC                     | -                    | -          | SIMCONNECT EVENT |                                                                          |
-|                   |                                     |                      |            |                  |                                                                          |
-| HDG knob          | A32NX_AUTOPILOT_HEADING_SELECTED    | 0..359               | R          | Custom LVAR      |                                                                          |
-|                   | A32NX.FCU_HDG_INC                   | -                    | -          | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_HDG_DEC                   | -                    | -          | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_HDG_SET                   | 0..359               | -          | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_HDG_PUSH                  | -                    | -          | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_HDG_PULL                  | -                    | -          | Custom EVENT     |                                                                          |
-|                   | AP_HDG_HOLD_ON                      | -                    | -          | SIMCONNECT EVENT | Push                                                                     |
-|                   | AP_HDG_HOLD_OFF                     | -                    | -          | SIMCONNECT EVENT | Pull                                                                     |
-|                   | HEADING_BUG_INC                     | -                    | -          | SIMCONNECT EVENT |                                                                          |
-|                   | HEADING_BUG_DEC                     | -                    | -          | SIMCONNECT EVENT |                                                                          |
-|                   |                                     |                      |            |                  |                                                                          |
-| LOC               | A32NX_FCU_LOC_MODE_ACTIVE           | 0&#124;1             | R          | Custom LVAR      |                                                                          |
-|                   | A32NX.FCU_LOC_PUSH                  | -                    | -          | Custom EVENT     |                                                                          |
-|                   | AP_LOC_HOLD                         | -                    | -          | SIMCONNECT EVENT |                                                                          |
-|                   |                                     |                      |            |                  |                                                                          |
-| ALT knob          | AUTOPILOT ALTITUDE LOCK VAR:3       | 100..49000           |            | MSFS VAR         |                                                                          |
-|                   | A32NX.FCU_ALT_INC                   | 0&#124;100&#124;1000 | R          | Custom EVENT     | 0=Use FCU Setting, 100=100, 1000=1000                                    |
-|                   | A32NX.FCU_ALT_DEC                   | 0&#124;100&#124;1000 | R          | Custom EVENT     | 0=Use FCU Setting, 100=100, 1000=1000                                    |
-|                   | A32NX.FCU_ALT_SET                   | 100..49000           | -          | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_ALT_PUSH                  | -                    | -          | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_ALT_PULL                  | -                    | -          | Custom EVENT     |                                                                          |
-|                   | AP_ALT_HOLD_ON                      | -                    | -          | SIMCONNECT EVENT | Push                                                                     |
-|                   | AP_ALT_HOLD_OFF                     | -                    | -          | SIMCONNECT EVENT | Pull                                                                     |
-|                   | AP_ALT_VAR_INC                      | -                    | -          | SIMCONNECT EVENT |                                                                          |
-|                   | AP_ALT_VAR_DEC                      | -                    | -          | SIMCONNECT EVENT |                                                                          |
-|                   |                                     |                      |            |                  |                                                                          |
-| ALT INC 100-1000  | A32NX.FCU_ALT_INCREMENT_TOGGLE      | -                    | -          | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_ALT_INCREMENT_SET         | 100&#124;1000        | -          | Custom EVENT     |                                                                          |
-|                   | XMLVAR_AUTOPILOT_ALTITUDE_INCREMENT | 100&#124;1000        | R          | Custom LVAR      |                                                                          |
-|                   | AP_ALT_HOLD                         | -                    | -          | SIMCONNECT EVENT | Repurposed event as Simconnect has no standard event for this otherwise. |
-|                   |                                     |                      |            |                  |                                                                          |
-| EXPED             | A32NX_FMA_EXPEDITE_MODE             | 0&#124;1             | R          | Custom LVAR      |                                                                          |
-|                   | A32NX.FCU_EXPED_PUSH                | -                    | -          | Custom EVENT     |                                                                          |
-|                   | AP_ATT_HOLD                         | -                    | -          | SIMCONNECT EVENT | Repurposed event as Simconnect has no standard event for this otherwise. |
-|                   |                                     |                      |            |                  |                                                                          |
-| V/S FPA knob      | A32NX_AUTOPILOT_VS_SELECTED         | -6000..6000          | R          | Custom LVAR      |                                                                          |
-|                   | A32NX.FCU_VS_INC                    | -                    | -          | Custom LVAR      | FPA: -9.9..9.9                                                           |
-|                   | A32NX.FCU_VS_DEC                    | -                    | -          | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_VS_SET                    | -6000..6000          | -          | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_VS_PUSH                   | -                    | -          | Custom EVENT     | FPA: -9.9..9.9                                                           |
-|                   | A32NX.FCU_VS_PULL                   | -                    | -          | Custom EVENT     |                                                                          |
-|                   | AP_VS_HOLD_ON                       | -                    | -          | SIMCONNECT EVENT | Push                                                                     |
-|                   | AP_VS_HOLD_OFF                      | -                    | -          | SIMCONNECT EVENT | Pull                                                                     |
-|                   | AP_VS_VAR_INC                       | -                    | -          | SIMCONNECT EVENT |                                                                          |
-|                   | AP_VS_VAR_DEC                       | -                    | -          | SIMCONNECT EVENT |                                                                          |
-|                   |                                     |                      |            |                  |                                                                          |
-| APPR              | A32NX_FCU_APPR_MODE_ACTIVE          | 0&#124;1             | R          | Custom LVAR      |                                                                          |
-|                   | A32NX.FCU_APPR_PUSH                 | -                    | -          | Custom EVENT     |                                                                          |
-|                   | AP_APR_HOLD                         | -                    | -          | SIMCONNECT EVENT |                                                                          |
-|                   |                                     |                      |            |                  |                                                                          |
-| AP 1 + 2          | A32NX_AUTOPILOT_1_ACTIVE            | 0&#124;1             | R          | Custom LVAR      |                                                                          |
-|                   | A32NX_AUTOPILOT_2_ACTIVE            | 0&#124;1             | R          | Custom LVAR      |                                                                          |
-|                   | A32NX.FCU_AP_1_PUSH                 | -                    | -          | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_AP_2_PUSH                 | -                    | -          | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_AP_DISCONNECT_PUSH        | -                    |            | Custom EVENT     |                                                                          |
-|                   | AP_MASTER                           | 1                    | -          | SIMCONNECT EVENT | Toggles                                                                  |
-|                   | AUTOPILOT_ON                        | -                    | -          | SIMCONNECT EVENT | 1st call AP1, 2nd call AP2                                               |
-|                   | AUTOPILOT_OFF                       | -                    | -          | SIMCONNECT EVENT | Turns off any AP                                                         |
-|                   | AUTOPILOT_DISENGAGE_SET             | -                    | -          | SIMCONNECT EVENT | 1 for OFF                                                                |
-|                   | AUTOPILOT_DISENGAGE_TOGGLE          | -                    | -          | SIMCONNECT EVENT | Toggles                                                                  |
-|                   |                                     |                      | -          |                  |                                                                          |
-| A/THR             | A32NX_AUTOTHRUST_STATUS             | 0..2                 | R          | Custom LVAR      | 0=Disengaged, 1=Armed, 2=Active                                          |
-|                   | A32NX.FCU_ATHR_PUSH                 | -                    |            | Custom EVENT     |                                                                          |
-|                   | A32NX.FCU_ATHR_DISCONNECT_PUSH      | -                    | -          | Custom EVENT     |                                                                          |
-|                   | AUTO_THROTTLE_ARM                   | -                    | -          | SIMCONNECT EVENT |                                                                          |
-|                   | AUTO_THROTTLE_DISCONNECT            | -                    | -          | SIMCONNECT EVENT |                                                                          |
-|                   | AUTO_THROTTLE_TO_GA                 | -                    | -          | SIMCONNECT EVENT |                                                                          |
-|                   |                                     |                      |            |                  |                                                                          |
-| SPD/MACH          | AUTOPILOT MANAGED SPEED IN MACH     | 0&#124;1             | R          | MSFS VAR         |                                                                          |
-|                   | A32NX.FCU_SPD_MACH_TOGGLE_PUSH      | -                    | -          | Custom EVENT     |                                                                          |
-|                   | AP_MACH_HOLD                        | -                    | -          | SIMCONNECT EVENT | Repurposed event as Simconnect has no standard event for this otherwise. |
-|                   |                                     |                      |            |                  |                                                                          |
-| HDG-TRK / V/S-FPA | A32NX_TRK_FPA_MODE_ACTIVE           | 0&#124;1             | R          | Custom LVAR      |                                                                          |
-|                   | A32NX.FCU_TRK_FPA_TOGGLE_PUSH       | -                    | -          | Custom EVENT     |                                                                          |
-|                   | AP_VS_HOLD                          | -                    | -          | SIMCONNECT EVENT | Repurposed event as Simconnect has no standard event for this otherwise. |
+| Function          | API Usage                              | Values               | Read/Write | Type             | Remark                                                                   |
+|:------------------|:---------------------------------------|:---------------------|:-----------|:-----------------|:-------------------------------------------------------------------------|
+| SPD knob          | A32NX_AUTOPILOT_SPEED_SELECTED         | 0..399               | R          | Custom LVAR      | Deprecated                                                               |
+|                   | A32NX_FCU_AFS_DISPLAY_SPD_MACH_VALUE   | 0..399/0.1..0.99     | R          | Custom LVAR      | Range depends on speed/mach mode                                         |
+|                   | A32NX_FCU_AFS_DISPLAY_SPD_MACH_DASHES  | 0&#124;1             | R          | Custom LVAR      |                                                                          |
+|                   | A32NX_FCU_AFS_DISPLAY_SPD_MACH_MANAGED | 0&#124;1             | R          | Custom LVAR      |                                                                          |
+|                   | A32NX.FCU_SPD_INC                      | -                    | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_SPD_DEC                      | -                    | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_SPD_SET                      | -                    | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_SPD_PUSH                     | -                    | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_SPD_PULL                     | -                    | -          | Custom EVENT     |                                                                          |
+|                   | AP_AIRSPEED_ON                         | -                    | -          | SIMCONNECT EVENT | Push                                                                     |
+|                   | AP_AIRSPEED_OFF                        | -                    | -          | SIMCONNECT EVENT | Pull                                                                     |
+|                   | AP_SPD_VAR_INC                         | -                    | -          | SIMCONNECT EVENT |                                                                          |
+|                   | AP_SPD_VAR_DEC                         | -                    | -          | SIMCONNECT EVENT |                                                                          |
+|                   | AP_MACH_VAR_INC                        | -                    | -          | SIMCONNECT EVENT |                                                                          |
+|                   | AP_MACH_VAR_DEC                        | -                    | -          | SIMCONNECT EVENT |                                                                          |
+|                   |                                        |                      |            |                  |                                                                          |
+| HDG knob          | A32NX_AUTOPILOT_HEADING_SELECTED       | 0..359               | R          | Custom LVAR      | Deprecated                                                               |
+|                   | A32NX_FCU_AFS_DISPLAY_HDG_TRK_VALUE    | 0..359               | R          | Custom LVAR      |                                                                          |
+|                   | A32NX_FCU_AFS_DISPLAY_HDG_TRK_DASHES   | 0&#124;1             | R          | Custom LVAR      |                                                                          |
+|                   | A32NX_FCU_AFS_DISPLAY_HDG_TRK_MANAGED  | 0&#124;1             | R          | Custom LVAR      |                                                                          |
+|                   | A32NX.FCU_HDG_INC                      | -                    | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_HDG_DEC                      | -                    | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_HDG_SET                      | 0..359               | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_HDG_PUSH                     | -                    | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_HDG_PULL                     | -                    | -          | Custom EVENT     |                                                                          |
+|                   | AP_HDG_HOLD_ON                         | -                    | -          | SIMCONNECT EVENT | Push                                                                     |
+|                   | AP_HDG_HOLD_OFF                        | -                    | -          | SIMCONNECT EVENT | Pull                                                                     |
+|                   | HEADING_BUG_INC                        | -                    | -          | SIMCONNECT EVENT |                                                                          |
+|                   | HEADING_BUG_DEC                        | -                    | -          | SIMCONNECT EVENT |                                                                          |
+|                   |                                        |                      |            |                  |                                                                          |
+| LOC               | A32NX_FCU_LOC_MODE_ACTIVE              | 0&#124;1             | R          | Custom LVAR      | Deprecated                                                               |
+|                   | A32NX_FCU_LOC_LIGHT_ON                 | 0&#124;1             | R          | Custom LVAR      |                                                                          |
+|                   | A32NX.FCU_LOC_PUSH                     | -                    | -          | Custom EVENT     |                                                                          |
+|                   | AP_LOC_HOLD                            | -                    | -          | SIMCONNECT EVENT |                                                                          |
+|                   |                                        |                      |            |                  |                                                                          |
+| ALT knob          | AUTOPILOT ALTITUDE LOCK VAR:3          | 100..49000           |            | MSFS VAR         | Deprecated                                                               |
+|                   | A32NX_FCU_AFS_DISPLAY_ALT_VALUE        | 100..49000           |            | Custom LVAR      |                                                                          |
+|                   | A32NX_FCU_AFS_DISPLAY_LVL_CH_MANAGED   | 0&#124;1             |            | Custom LVAR      |                                                                          |
+|                   | A32NX.FCU_ALT_INC                      | 0&#124;100&#124;1000 | R          | Custom EVENT     | 0=Use FCU Setting, 100=100, 1000=1000                                    |
+|                   | A32NX.FCU_ALT_DEC                      | 0&#124;100&#124;1000 | R          | Custom EVENT     | 0=Use FCU Setting, 100=100, 1000=1000                                    |
+|                   | A32NX.FCU_ALT_SET                      | 100..49000           | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_ALT_PUSH                     | -                    | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_ALT_PULL                     | -                    | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_METRIC_ALT_TOGGLE_PUSH       | -                    | -          | Custom EVENT     |                                                                          |
+|                   | AP_ALT_HOLD_ON                         | -                    | -          | SIMCONNECT EVENT | Push                                                                     |
+|                   | AP_ALT_HOLD_OFF                        | -                    | -          | SIMCONNECT EVENT | Pull                                                                     |
+|                   | AP_ALT_VAR_INC                         | -                    | -          | SIMCONNECT EVENT |                                                                          |
+|                   | AP_ALT_VAR_DEC                         | -                    | -          | SIMCONNECT EVENT |                                                                          |
+|                   |                                        |                      |            |                  |                                                                          |
+| ALT INC 100-1000  | A32NX.FCU_ALT_INCREMENT_TOGGLE         | -                    | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_ALT_INCREMENT_SET            | 100&#124;1000        | -          | Custom EVENT     |                                                                          |
+|                   | XMLVAR_AUTOPILOT_ALTITUDE_INCREMENT    | 100&#124;1000        | R          | Custom LVAR      | REMOVED                                                                  |
+|                   | A32NX_FCU_ALT_INCREMENT_1000           | 0&#124;1             | R/W        | Custom LVAR      |                                                                          |
+|                   | AP_ALT_HOLD                            | -                    | -          | SIMCONNECT EVENT | Repurposed event as Simconnect has no standard event for this otherwise. |
+|                   |                                        |                      |            |                  |                                                                          |
+| EXPED             | A32NX_FMA_EXPEDITE_MODE                | 0&#124;1             | R          | Custom LVAR      | Deprecated                                                               |
+|                   | A32NX_FCU_EXPED_LIGHT_ON               | 0&#124;1             | R          | Custom LVAR      |                                                                          |
+|                   | A32NX.FCU_EXPED_PUSH                   | -                    | -          | Custom EVENT     |                                                                          |
+|                   | AP_ATT_HOLD                            | -                    | -          | SIMCONNECT EVENT | Repurposed event as Simconnect has no standard event for this otherwise. |
+|                   |                                        |                      |            |                  |                                                                          |
+| V/S FPA knob      | A32NX_AUTOPILOT_VS_SELECTED            | -6000..6000          | R          | Custom LVAR      | Deprecated                                                               |
+|                   | A32NX_FCU_AFS_DISPLAY_VS_FPA_VALUE     | -6000..6000/-9.9..9.9| R          | Custom LVAR      | Range depends on TRK/FPA mode                                            |
+|                   | A32NX_FCU_AFS_DISPLAY_VS_FPA_DASHES    | 0&#124;1             | R          | Custom LVAR      |                                                                          |
+|                   | A32NX.FCU_VS_INC                       | -                    | -          | Custom LVAR      | FPA: -9.9..9.9                                                           |
+|                   | A32NX.FCU_VS_DEC                       | -                    | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_VS_SET                       | -6000..6000          | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_VS_PUSH                      | -                    | -          | Custom EVENT     | FPA: -9.9..9.9                                                           |
+|                   | A32NX.FCU_VS_PULL                      | -                    | -          | Custom EVENT     |                                                                          |
+|                   | AP_VS_HOLD_ON                          | -                    | -          | SIMCONNECT EVENT | Push                                                                     |
+|                   | AP_VS_HOLD_OFF                         | -                    | -          | SIMCONNECT EVENT | Pull                                                                     |
+|                   | AP_VS_VAR_INC                          | -                    | -          | SIMCONNECT EVENT |                                                                          |
+|                   | AP_VS_VAR_DEC                          | -                    | -          | SIMCONNECT EVENT |                                                                          |
+|                   |                                        |                      |            |                  |                                                                          |
+| APPR              | A32NX_FCU_APPR_MODE_ACTIVE             | 0&#124;1             | R          | Custom LVAR      | Deprecated                                                               |
+|                   | A32NX_FCU_APPR_LIGHT_ON                | 0&#124;1             | R          | Custom LVAR      |                                                                          |
+|                   | A32NX.FCU_APPR_PUSH                    | -                    | -          | Custom EVENT     |                                                                          |
+|                   | AP_APR_HOLD                            | -                    | -          | SIMCONNECT EVENT |                                                                          |
+|                   |                                        |                      |            |                  |                                                                          |
+| AP 1 + 2          | A32NX_AUTOPILOT_1_ACTIVE               | 0&#124;1             | R          | Custom LVAR      | Deprecated                                                               |
+|                   | A32NX_AUTOPILOT_2_ACTIVE               | 0&#124;1             | R          | Custom LVAR      | Deprecated                                                               |
+|                   | A32NX_FCU_AP_1_LIGHT_ON                | 0&#124;1             | R          | Custom LVAR      |                                                                          |
+|                   | A32NX_FCU_AP_2_LIGHT_ON                | 0&#124;1             | R          | Custom LVAR      |                                                                          |
+|                   | A32NX.FCU_AP_1_PUSH                    | -                    | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_AP_2_PUSH                    | -                    | -          | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_AP_DISCONNECT_PUSH           | -                    |            | Custom EVENT     |                                                                          |
+|                   | AP_MASTER                              | 1                    | -          | SIMCONNECT EVENT | Toggles                                                                  |
+|                   | AUTOPILOT_ON                           | -                    | -          | SIMCONNECT EVENT | 1st call AP1, 2nd call AP2                                               |
+|                   | AUTOPILOT_OFF                          | -                    | -          | SIMCONNECT EVENT | Turns off any AP                                                         |
+|                   | AUTOPILOT_DISENGAGE_SET                | -                    | -          | SIMCONNECT EVENT | 1 for OFF                                                                |
+|                   | AUTOPILOT_DISENGAGE_TOGGLE             | -                    | -          | SIMCONNECT EVENT | Toggles                                                                  |
+|                   |                                        |                      | -          |                  |                                                                          |
+| A/THR             | A32NX_AUTOTHRUST_STATUS                | 0..2                 | R          | Custom LVAR      | 0=Disengaged, 1=Armed, 2=Active                                          |
+|                   | A32NX_FCU_ATHR_LIGHT_ON                | 0&#124;1             | R          | Custom LVAR      |                                                                          |
+|                   | A32NX.FCU_ATHR_PUSH                    | -                    |            | Custom EVENT     |                                                                          |
+|                   | A32NX.FCU_ATHR_DISCONNECT_PUSH         | -                    | -          | Custom EVENT     |                                                                          |
+|                   | AUTO_THROTTLE_ARM                      | -                    | -          | SIMCONNECT EVENT |                                                                          |
+|                   | AUTO_THROTTLE_DISCONNECT               | -                    | -          | SIMCONNECT EVENT |                                                                          |
+|                   | AUTO_THROTTLE_TO_GA                    | -                    | -          | SIMCONNECT EVENT |                                                                          |
+|                   |                                        |                      |            |                  |                                                                          |
+| SPD/MACH          | AUTOPILOT MANAGED SPEED IN MACH        | 0&#124;1             | R          | MSFS VAR         | Deprecated                                                               |
+|                   | A32NX_FCU_AFS_DISPLAY_MACH_MODE        | 0&#124;1             | R          | Custom LVAR      |                                                                          |
+|                   | A32NX.FCU_SPD_MACH_TOGGLE_PUSH         | -                    | -          | Custom EVENT     |                                                                          |
+|                   | AP_MACH_HOLD                           | -                    | -          | SIMCONNECT EVENT | Repurposed event as Simconnect has no standard event for this otherwise. |
+|                   |                                        |                      |            |                  |                                                                          |
+| HDG-TRK / V/S-FPA | A32NX_TRK_FPA_MODE_ACTIVE              | 0&#124;1             | R          | Custom LVAR      | Deprecated                                                               |
+|                   | A32NX_FCU_AFS_DISPLAY_TRK_FPA_MODE     | 0&#124;1             | R          | Custom LVAR      |                                                                          |
+|                   | A32NX.FCU_TRK_FPA_TOGGLE_PUSH          | -                    | -          | Custom EVENT     |                                                                          |
+|                   | AP_VS_HOLD                             | -                    | -          | SIMCONNECT EVENT | Repurposed event as Simconnect has no standard event for this otherwise. |
 
 ### Warning Panel
 
