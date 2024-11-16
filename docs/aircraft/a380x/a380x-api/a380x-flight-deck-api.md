@@ -31,7 +31,7 @@ Find the complete list of Custom Event and Custom LVARS of the A380X:
 
 To shorten the length of the table we use the following placeholders for the API disignations:
 
-- `{SIDE}`: Replace with `L` for left, `R` for right.
+- `{SIDE}`: Replace with `L` for left, `R` for right (and sometimes `C` for Center).
 - `{NUM}`: Replace with `1` for the first, `2` for the second, `3` for the third, `4` for the fourth.
 
 ### "API Var and Event Types"
@@ -234,21 +234,21 @@ Flight Deck: [Oxygen Panel](../../../pilots-corner/a380x/a380x-briefing/flight-d
 Flight Deck: [APU Fire Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/apu-fire.md)<br/>
 Flight Deck: [ENG Fire Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/eng-fire.md)
 
-| Function                      | API Usage                                            | Values | Read/Write | Type        | Remark                                          |
-|:------------------------------|:-----------------------------------------------------|:-------|:-----------|:------------|:------------------------------------------------|
-| APU FIRE GUARD                | A32NX_FIRE_GUARD_APU1                                | 0..1   | R/W        | Custom LVAR |                                                 |
-| APU FIRE                      | A32NX_FIRE_BUTTON_APU1                               | 0..1   | R/W        | Custom LVAR |                                                 |
-| APU AGENT ARMED               | A32NX_FIRE_SQUIB_1_APU_1_IS_ARMED                    | 0..1   | R          | Custom LVAR |                                                 |
-| APU AGENT PRESSED             | A32NX_OVHD_FIRE_AGENT_1_APU_1_IS_PRESSED             | 0..1   | R/W        | Custom LVAR | When pressed, SQUIB discharges. Can't be reset. |
-| APU AGENT DISCH               | A32NX_OVHD_FIRE_AGENT_1_APU_1_IS_DISCHARGED          | 0..1   | R          | Custom LVAR | Can't be reset.                                 |
-|                               |                                                      |        |            |             |                                                 |
-| ENG {NUM} FIRE GUARD          | A32NX_FIRE_GUARD_ENG{NUM}                            | 0..1   | R/W        | Custom LVAR |                                                 |
-| ENG {NUM} FIRE                | A32NX_FIRE_BUTTON_ENG{NUM}                           | 0..1   | R/W        | Custom LVAR |                                                 |
-| ENG {NUM} AGENT {NUM} ARMED   | A32NX_FIRE_SQUIB_{NUM}\_ENG_{NUM}_IS_ARMED           | 0..1   | R          | Custom LVAR |                                                 |
+| Function                      | API Usage                                                 | Values | Read/Write | Type        | Remark                                          |
+|:------------------------------|:----------------------------------------------------------|:-------|:-----------|:------------|:------------------------------------------------|
+| APU FIRE GUARD                | A32NX_FIRE_GUARD_APU1                                     | 0..1   | R/W        | Custom LVAR |                                                 |
+| APU FIRE                      | A32NX_FIRE_BUTTON_APU1                                    | 0..1   | R/W        | Custom LVAR |                                                 |
+| APU AGENT ARMED               | A32NX_FIRE_SQUIB_1_APU_1_IS_ARMED                         | 0..1   | R          | Custom LVAR |                                                 |
+| APU AGENT PRESSED             | A32NX_OVHD_FIRE_AGENT_1_APU_1_IS_PRESSED                  | 0..1   | R/W        | Custom LVAR | When pressed, SQUIB discharges. Can't be reset. |
+| APU AGENT DISCH               | A32NX_OVHD_FIRE_AGENT_1_APU_1_IS_DISCHARGED               | 0..1   | R          | Custom LVAR | Can't be reset.                                 |
+|                               |                                                           |        |            |             |                                                 |
+| ENG {NUM} FIRE GUARD          | A32NX_FIRE_GUARD_ENG{NUM}                                 | 0..1   | R/W        | Custom LVAR |                                                 |
+| ENG {NUM} FIRE                | A32NX_FIRE_BUTTON_ENG{NUM}                                | 0..1   | R/W        | Custom LVAR |                                                 |
+| ENG {NUM} AGENT {NUM} ARMED   | A32NX_FIRE_SQUIB_{NUM}\_ENG_{NUM}_IS_ARMED                | 0..1   | R          | Custom LVAR |                                                 |
 | ENG {NUM} AGENT {NUM} PRESSED | A32NX_OVHD_FIRE_AGENT<br/>_{NUM}\_ENG_{NUM}_IS_PRESSED    | 0..1   | R/W        | Custom LVAR | When pressed, SQUIB discharges. Can't be reset. |
 | ENG {NUM} AGENT {NUM} DISCH   | A32NX_OVHD_FIRE_AGENT<br/>_{NUM}\_ENG_{NUM}_IS_DISCHARGED | 0..1   | R          | Custom LVAR | Can't be reset.                                 |
-|                               |                                                      |        |            |             |                                                 |
-| FIRE TEST                     | A32NX_OVHD_FIRE_TEST_PB_IS_PRESSED                   | 0..1   | R/W        | Custom LVAR |                                                 |
+|                               |                                                           |        |            |             |                                                 |
+| FIRE TEST                     | A32NX_OVHD_FIRE_TEST_PB_IS_PRESSED                        | 0..1   | R/W        | Custom LVAR |                                                 |
 
 ### Fuel Panel
 
@@ -289,46 +289,46 @@ follows:
 
 ### Air Condition Panel
 
-Flight Deck: [AC Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/ac.md)
+Flight Deck: [AC Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/air.md)
 
-| Function          | API Usage                                                | Values | Read/Write | Type           | Remark                                                  |
-|:------------------|:---------------------------------------------------------|:-------|:-----------|:---------------|:--------------------------------------------------------|
-| APU BLEED         | A32NX_OVHD_PNEU_APU_BLEED_PB_IS_ON                       | 0..1   | R/W        | Custom LVAR    |                                                         |
-|                   | A32NX_OVHD_PNEU_APU_BLEED_PB_HAS_FAULT                   | 1      | R          | Custom LVAR    |                                                         |
+| Function          | API Usage                                                     | Values | Read/Write | Type           | Remark                                                  |
+|:------------------|:--------------------------------------------------------------|:-------|:-----------|:---------------|:--------------------------------------------------------|
+| APU BLEED         | A32NX_OVHD_PNEU_APU_BLEED_PB_IS_ON                            | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   | A32NX_OVHD_PNEU_APU_BLEED_PB_HAS_FAULT                        | 1      | R          | Custom LVAR    |                                                         |
 |                   | XMLVAR_Momentary_PUSH<br/>_OVHD_AIRCOND_APUBLEED_Pressed      | 0..1   | R/W        | SIMCONNECT VAR | Button position                                         |
-|                   | BLEED AIR APU                                            | 0..1   | R          | SIMCONNECT VAR |                                                         |
-|                   |                                                          |        |            |                |                                                         |
-| ENG {NUM} BLEED   | ENGINE_BLEED_AIR_SOURCE_TOGGLE                           | {NUM}  | -          | MSFS EVENT     |                                                         |
-|                   | BLEED AIR ENGINE:{NUM}                                   | 0..1   | R          | SIMCONNECT VAR |                                                         |
-|                   | A32NX_OVHD_PNEU_ENG_{NUM}_BLEED_PB_HAS_FAULT             | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   | BLEED AIR APU                                                 | 0..1   | R          | SIMCONNECT VAR |                                                         |
+|                   |                                                               |        |            |                |                                                         |
+| ENG {NUM} BLEED   | ENGINE_BLEED_AIR_SOURCE_TOGGLE                                | {NUM}  | -          | MSFS EVENT     |                                                         |
+|                   | BLEED AIR ENGINE:{NUM}                                        | 0..1   | R          | SIMCONNECT VAR |                                                         |
+|                   | A32NX_OVHD_PNEU_ENG_{NUM}_BLEED_PB_HAS_FAULT                  | 0..1   | R/W        | Custom LVAR    |                                                         |
 |                   | XMLVAR_Momentary_PUSH<br/>_OVHD_AIRCOND_ENG{NUM}BLEED_Pressed | 0..1   | R/W        | Custom LVAR    |                                                         |
-|                   |                                                          |        |            |                |                                                         |
-| X BLEED knob      | A32NX_KNOB_OVHD_AIRCOND_XBLEED_POSITION                  | 0..2   | R/W        | Custom LVAR    | 0=Close, 1=AUTO, 2=Open                                 |
-|                   | A32NX_PNEU_XBLEED_VALVE_{SIDE}_OPEN                      | 0..1   | R          | Custom LVAR    | SIDE=C, L, R                                            |
-|                   |                                                          |        |            |                |                                                         |
-| PACK {NUM}        | A32NX_OVHD_COND_PACK_{NUM}_PB_IS_ON                      | 0..1   | R/W        | Custom LVAR    |                                                         |
-|                   | A32NX_OVHD_COND_PACK_{NUM}_PB_HAS_FAULT                  | 0..1   | R/W        | Custom LVAR    |                                                         |
-|                   | A32NX_COND_PACK_{NUM}_FLOW_VALVE_1_IS_OPEN               | 0..1   | R          | Custom LVAR    |                                                         |
-|                   | A32NX_COND_PACK_{NUM}_FLOW_VALVE_2_IS_OPEN               | 0..1   | R          | Custom LVAR    |                                                         |
-|                   |                                                          |        |            |                |                                                         |
-| AIR FLOW knob     | A32NX_KNOB_OVHD_AIRCOND_PACKFLOW_POSITION                | 0..3   | R/W        | Custom LVAR    | 0=MAN, 1=LO, 2=NORM, 3=HI                               |
-|                   |                                                          |        |            |                |                                                         |
-| COCKPIT knob      | A32NX_OVHD_COND_CKPT_SELECTOR_KNOB                       | 0..300 | R/W        | Custom LVAR    |                                                         |
-|                   | A32NX_COND_CKPT_TEMP                                     | °      | R          | Custom LVAR    |                                                         |
-|                   | A32NX_COND_CKPT_DUCT_TEMP                                | °      | R          | Custom LVAR    |                                                         |
-|                   |                                                          |        |            |                |                                                         |
-| CABIN knob        | A32NX_OVHD_COND_FWD_SELECTOR_KNOB                        | 0..400 | R/W        | Custom LVAR    | 0..350 Cabin Temp, 400=PURS SEL                         |
-|                   | A32NX_COND_{DECK}\_DECK_{NUM}_TEMP                       | °      | R          | Custom LVAR    | DECK=MAIN or UPPER, MAIN has 8 zones, UPPER has 7 zones |
-|                   | A32NX_COND_{DECK}\_DECK_{NUM}_DUCT_TEMP                  | °      | R          | Custom LVAR    | DECK=MAIN or UPPER, MAIN has 8 zones, UPPER has 7 zones |
-|                   |                                                          |        |            |                |                                                         |
-| HOT AIR           | A32NX_OVHD_COND_HOT_AIR_{NUM}_PB_IS_ON                   | 0..1   | R/W        | Custom LVAR    |                                                         |
-|                   | A32NX_OVHD_COND_HOT_AIR_{NUM}_PB_HAS_FAULT               | 0..1   | R/W        | Custom LVAR    |                                                         |
-|                   |                                                          |        |            |                |                                                         |
-| RAM AIR           | A32NX_OVHD_COND_RAM_AIR_PB_IS_ON_LOCK                    | 0..1   | R          | Custom LVAR    | Switch Guard                                            |
-|                   | A32NX_OVHD_COND_RAM_AIR_PB_IS_ON                         | 0..1   | R/W        | Custom LVAR    |                                                         |
-|                   |                                                          |        |            |                |                                                         |
-| CABIN AIR EXTRACT | A32NX_OVHD_VENT_AIR_EXTRACT_PB_IS_ON_LOCK                | 0..1   | R          | Custom LVAR    | Switch Guard                                            |
-|                   | A32NX_OVHD_VENT_AIR_EXTRACT_PB_IS_ON                     | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   |                                                               |        |            |                |                                                         |
+| X BLEED knob      | A32NX_KNOB_OVHD_AIRCOND_XBLEED_POSITION                       | 0..2   | R/W        | Custom LVAR    | 0=Close, 1=AUTO, 2=Open                                 |
+|                   | A32NX_PNEU_XBLEED_VALVE_{SIDE}_OPEN                           | 0..1   | R          | Custom LVAR    | SIDE=C, L, R                                            |
+|                   |                                                               |        |            |                |                                                         |
+| PACK {NUM}        | A32NX_OVHD_COND_PACK_{NUM}_PB_IS_ON                           | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   | A32NX_OVHD_COND_PACK_{NUM}_PB_HAS_FAULT                       | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   | A32NX_COND_PACK_{NUM}_FLOW_VALVE_1_IS_OPEN                    | 0..1   | R          | Custom LVAR    |                                                         |
+|                   | A32NX_COND_PACK_{NUM}_FLOW_VALVE_2_IS_OPEN                    | 0..1   | R          | Custom LVAR    |                                                         |
+|                   |                                                               |        |            |                |                                                         |
+| AIR FLOW knob     | A32NX_KNOB_OVHD_AIRCOND_PACKFLOW_POSITION                     | 0..3   | R/W        | Custom LVAR    | 0=MAN, 1=LO, 2=NORM, 3=HI                               |
+|                   |                                                               |        |            |                |                                                         |
+| COCKPIT knob      | A32NX_OVHD_COND_CKPT_SELECTOR_KNOB                            | 0..300 | R/W        | Custom LVAR    |                                                         |
+|                   | A32NX_COND_CKPT_TEMP                                          | °      | R          | Custom LVAR    |                                                         |
+|                   | A32NX_COND_CKPT_DUCT_TEMP                                     | °      | R          | Custom LVAR    |                                                         |
+|                   |                                                               |        |            |                |                                                         |
+| CABIN knob        | A32NX_OVHD_COND_FWD_SELECTOR_KNOB                             | 0..400 | R/W        | Custom LVAR    | 0..350 Cabin Temp, 400=PURS SEL                         |
+|                   | A32NX_COND_{DECK}\_DECK_{NUM}_TEMP                            | °      | R          | Custom LVAR    | DECK=MAIN or UPPER, MAIN has 8 zones, UPPER has 7 zones |
+|                   | A32NX_COND_{DECK}\_DECK_{NUM}_DUCT_TEMP                       | °      | R          | Custom LVAR    | DECK=MAIN or UPPER, MAIN has 8 zones, UPPER has 7 zones |
+|                   |                                                               |        |            |                |                                                         |
+| HOT AIR           | A32NX_OVHD_COND_HOT_AIR_{NUM}_PB_IS_ON                        | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   | A32NX_OVHD_COND_HOT_AIR_{NUM}_PB_HAS_FAULT                    | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   |                                                               |        |            |                |                                                         |
+| RAM AIR           | A32NX_OVHD_COND_RAM_AIR_PB_IS_ON_LOCK                         | 0..1   | R          | Custom LVAR    | Switch Guard                                            |
+|                   | A32NX_OVHD_COND_RAM_AIR_PB_IS_ON                              | 0..1   | R/W        | Custom LVAR    |                                                         |
+|                   |                                                               |        |            |                |                                                         |
+| CABIN AIR EXTRACT | A32NX_OVHD_VENT_AIR_EXTRACT_PB_IS_ON_LOCK                     | 0..1   | R          | Custom LVAR    | Switch Guard                                            |
+|                   | A32NX_OVHD_VENT_AIR_EXTRACT_PB_IS_ON                          | 0..1   | R/W        | Custom LVAR    |                                                         |
 
 ### Anti Ice Panel
 
@@ -358,39 +358,36 @@ Flight Deck: [Calls Panel](../../../pilots-corner/a380x/a380x-briefing/flight-de
 
 ### Wiper Panel
 
-Flight Deck: [Wiper Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/wipers.md)
+Flight Deck: [Wiper Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/wiper.md)
 
-| Function     | API Usage                               | Values     | Read/Write | Type        | Remark                                               |
-|:-------------|:----------------------------------------|:-----------|:-----------|:------------|:-----------------------------------------------------|
-| WIPER L knob | CIRCUIT SWITCH ON:77                    | 0..1       | R/W        | MSFS VAR    | Turns the wiper on/off - slow/fast via power setting |
-|              | ELECTRICAL_CIRCUIT_TOGGLE:77            |            |            | MSFS Event  |                                                      |
-|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET:77 | 0..75..100 |            | MSFS Event  | 0=off, 75=slow, 100=fast                             |           |
-|              |                                         |            |            |             |                                                      |
-| WIPER R knob | CIRCUIT SWITCH ON:80                    | 0..1       | R/W        | MSFS        |                                                      |
-|              | ELECTRICAL_CIRCUIT_TOGGLE:80            |            |            | MSFS VAR    |                                                      |
-|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET:80 | 0..75..100 |            | MSFS Event  | 0=off, 75=slow, 100=fast                             |
-|              |                                         |            |            |             |                                                      |
-| RAIN RPLNT   | A32NX_RAIN_REPELLENT_LEFT_ON            | 0..1       | R          | Custom LVAR |                                                      |
-|              | A32NX_RAIN_REPELLENT_RIGHT_ON           | 0..1       | R          | Custom LVAR |                                                      |
+| Function     | API Usage                                | Values     | Read/Write | Type       | Remark                                               |
+|:-------------|:-----------------------------------------|:-----------|:-----------|:-----------|:-----------------------------------------------------|
+| WIPER L knob | CIRCUIT SWITCH ON:141                    | 0..1       | R/W        | MSFS VAR   | Turns the wiper on/off - slow/fast via power setting |
+|              | ELECTRICAL_CIRCUIT_TOGGLE:141            |            |            | MSFS Event |                                                      |
+|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET:141 | 0..75..100 |            | MSFS Event | 0=off, 75=slow, 100=fast                             |           |
+|              |                                          |            |            |            |                                                      |
+| WIPER R knob | CIRCUIT SWITCH ON:143                    | 0..1       | R/W        | MSFS       | Turns the wiper on/off - slow/fast via power setting |
+|              | ELECTRICAL_CIRCUIT_TOGGLE:143            |            |            | MSFS VAR   |                                                      |
+|              | ELECTRICAL_CIRCUIT_POWER_SETTING_SET:143 | 0..75..100 |            | MSFS Event | 0=off, 75=slow, 100=fast                             |
 
 ### Flight Control Panel
 
-Flight Deck: [Flight Control Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/flight-control-computer.md)
+Flight Deck: [Flight Control Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/flt-ctl.md)
 
-| Function                 | API Usage                              | Values | Read/Write | Type        | Remark |
-|:-------------------------|:---------------------------------------|:-------|:-----------|:------------|:-------|
-| ELAC overhead pushbutton | A32NX_ELAC_{1..2}_PUSHBUTTON_PRESSED   | 0..1   | R/W        | Custom LVAR |        |
-| ELAC fault light         | N/A                                    |        |            |             |        |
-| FAC overhead pushbutton  | A32NX_FAC_{1..2}_PUSHBUTTON_PRESSED    | 0..1   | R/W        | Custom LVAR |        |
-| FAC fault light          | N/A                                    |        |            |             |        |
-| SEC overhead pushbutton  | A32NX_SEC_{1..2..3}_PUSHBUTTON_PRESSED | 0..1   | R/W        | Custom LVAR |        |
-| SEC fault light          | A32NX_SEC_{1..2..3}_FAULT_LIGHT_ON     | 0..1   | R          | Custom LVAR |        |
+| Function      | API Usage                           | Values | Read/Write | Type        | Remark |
+|:--------------|:------------------------------------|:-------|:-----------|:------------|:-------|
+| PRIM {NUM} PB | A32NX_PRIM_{NUM}_PUSHBUTTON_PRESSED | 0..1   | R/W        | Custom LVAR |        |
+| SEC {NUM} PB  | A32NX_SEC_{NUM}_PUSHBUTTON_PRESSED  | 0..1   | R/W        | Custom LVAR |        |
 
 ## Glareshield
 
 ### Lighting Knobs
 
 Flight Deck: [Glareshield Lighting Knobs](../../../pilots-corner/a380x/a380x-briefing/flight-deck/glareshield/light-knobs.md)
+
+To control the lighting knobs, the following API usage is available:
+
+SIMCONNECT EVENT: `SIMCONNECT:LIGHT_POTENTIOMETER_SET`
 
 | Function                    | API Usage              | Values | Read/Write | Type     | Remark |
 |:----------------------------|:-----------------------|:-------|:-----------|:---------|:-------|
@@ -406,36 +403,36 @@ Flight Deck: [Glareshield Lighting Knobs](../../../pilots-corner/a380x/a380x-bri
 
 Flight Deck: [EFIS Control Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/glareshield/efis_control.md)
 
-| Function     | API Usage                        | Values           | Read/Write | Type             | Remark                                            |
-|:-------------|:---------------------------------|:-----------------|:-----------|:-----------------|:--------------------------------------------------|
-| Baro Display | KOHLSMAN SETTING MB:1            | 948-1084 (hPa)   | R          | MSFS VAR         |                                                   |
-|              | KOHLSMAN SETTING HG:1            | 27.99-32.01 (Hg) | R          | MSFS VAR         |                                                   |
-|              |                                  |                  |            |                  |                                                   |
-| Baro knob    | KOHLSMAN_INC                     | -                | -          | SIMCONNECT EVENT |                                                   |
-|              | KOHLSMAN_INC                     | -                | -          | SIMCONNECT EVENT |                                                   |
-|              | XMLVAR_Baro1_Mode                | 0..2             | R/W        | Custom LVAR      | 0=QFE, 1=QNH, 2=STD                               |
-|              |                                  |                  |            |                  |                                                   |
-| inHG / hPa   | XMLVAR_BARO_SELECTOR_HPA_1       | 0..1             | R/W        | Custom LVAR      | 0=Hg, 1=hPa                                       |
-|              |                                  |                  |            |                  |                                                   |
-| FD           | AUTOPILOT FLIGHT DIRECTOR ACTIVE | 0..1             | R          | SIMCONNECT VAR   |                                                   |
-|              | TOGGLE_FLIGHT_DIRECTOR           | -                | -          | SIMCONNECT EVENT |                                                   |
-|              |                                  |                  |            |                  |                                                   |
-| LS Capt.     | BTN_LS_1_FILTER_ACTIVE           | 0..1             | R/W        | Custom LVAR      |                                                   |
-| LS F.O.      | BTN_LS_2_FILTER_ACTIVE           | 0..1             | R/W        | Custom LVAR      |                                                   |
-|              |                                  |                  |            |                  |                                                   |
-| ND Filter    | A32NX_EFIS_L_OPTION              | 0..31 (bitmap)   | R/W        | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 4=WPT, 8=NDB, 16=ARPT      |
-|              | A32NX_EFIS_R_OPTION              | 0..31 (bitmap)   | R/W        | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 4=WPT, 8=NDB, 16=ARPT      |
-|              |                                  |                  |            |                  |                                                   |
-| ND MODE      | A32NX_EFIS_L_ND_MODE             | 0..4             | R/W        | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN |
-|              | A32NX_EFIS_R_ND_MODE             | 0..4             | R/W        | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN |
-|              |                                  |                  |            |                  |                                                   |
-| ND RANGE     | A32NX_EFIS_L_ND_RANGE            | 0..5             | R/W        | Custom LVAR      | 0=10, ..., 5=320                                  |
-|              | A32NX_EFIS_R_ND_RANGE            | 0..5             | R/W        | Custom LVAR      | 0=10, ..., 5=320                                  |
-|              |                                  |                  |            |                  |                                                   |
-| ADF-VOR      | A32NX_EFIS_L_NAVAID_1_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR                               |
-|              | A32NX_EFIS_L_NAVAID_2_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR                               |
-|              | A32NX_EFIS_R_NAVAID_1_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR                               |
-|              | A32NX_EFIS_R_NAVAID_2_MODE       | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR                               |
+| Function           | API Usage                               | Values           | Read/Write | Type             | Remark                                                        |
+|:-------------------|:----------------------------------------|:-----------------|:-----------|:-----------------|:--------------------------------------------------------------|
+| Baro Display       | KOHLSMAN SETTING MB:1                   | 948-1084 (hPa)   | R          | MSFS VAR         |                                                               |
+|                    | KOHLSMAN SETTING HG:1                   | 27.99-32.01 (Hg) | R          | MSFS VAR         |                                                               |
+|                    |                                         |                  |            |                  |                                                               |
+| Baro knob          | KOHLSMAN_INC                            | -                | -          | SIMCONNECT EVENT |                                                               |
+|                    | KOHLSMAN_DEC                            | -                | -          | SIMCONNECT EVENT |                                                               |
+|                    | XMLVAR_Baro1_Mode                       | 0..2             | R/W        | Custom LVAR      | 0=QFE, 1=QNH, 2=STD                                           |
+|                    |                                         |                  |            |                  |                                                               |
+| inHG / hPa         | XMLVAR_Baro_Selector_HPA_1              | 0..1             | R/W        | Custom LVAR      | 0=Hg, 1=hPa                                                   |
+|                    |                                         |                  |            |                  |                                                               |
+| LS                 | A380X_EFIS_{SIDE}_LS_BUTTON_IS_ON       | 0..1             | R/W        | Custom LVAR      |                                                               |
+|                    |                                         |                  |            |                  |                                                               |
+| VV                 | A380X_EFIS_{SIDE}_VV_BUTTON_IS_ON       | 0..1             | R/W        | Custom LVAR      |                                                               |
+|                    |                                         |                  |            |                  |                                                               |
+| ND MODE            | A32NX_EFIS_{SIDE}_ND_MODE               | 0..4             | R          | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN             |
+|                    |                                         |                  |            |                  |                                                               |
+| ND RANGE           | A32NX_EFIS_{SIDE}_ND_RANGE              | 0..7             | R/W        | Custom LVAR      | 0=ZOOM, 1=10, ..., 7=640                                      |
+|                    |                                         |                  |            |                  |                                                               |
+| OANS RANGE         | A32NX_EFIS_{SIDE}_OANS_RANGE            | 0..4             | R/W        | Custom LVAR      | 0=MAX, ..., 4=MIN; ND RANGE must be 0 to turn on OANS display |
+|                    |                                         |                  |            |                  |                                                               |
+| ND DATA Display pb | A380X_EFIS_{SIDE}_CSTR_BUTTON_IS_ON     | 0..1             | R/W        | Custom LVAR      |                                                               |
+|                    | A380X_EFIS_{SIDE}_WPT_BUTTON_IS_ON      | 0..1             | R/W        | Custom LVAR      |                                                               |
+|                    | A380X_EFIS_{SIDE}_VORD_BUTTON_IS_ON     | 0..1             | R/W        | Custom LVAR      |                                                               |
+|                    | A380X_EFIS_{SIDE}_NDB_BUTTON_IS_ON      | 0..1             | R/W        | Custom LVAR      |                                                               |
+|                    | A380X_EFIS_{SIDE}_ARPT_BUTTON_IS_ON     | 0..1             | R/W        | Custom LVAR      |                                                               |
+|                    | A380X_EFIS_{SIDE}_NAVAID_1_BUTTON_IS_ON | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR1                                          |
+|                    | A380X_EFIS_{SIDE}_ACTIVE_OVERLAY        | 0..1             | R/W        | Custom LVAR      | 0=WX/TERR OFF, 1=WX ON, 2=TERR ON                             |
+|                    | A380X_EFIS_{SIDE}_TRAF_BUTTON_IS_ON     | 0..1             | R/W        | Custom LVAR      |                                                               |
+|                    | A380X_EFIS_{SIDE}_NAVAID_2_BUTTON_IS_ON | 0..2             | R/W        | Custom LVAR      | 0=OFF, 1=ADF, 2=VOR2                                          |
 
 ### FCU Panel
 
@@ -505,6 +502,9 @@ Flight Deck: [FCU Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck
 | APPR              | A32NX_FCU_APPR_MODE_ACTIVE          | 0..1         | R          | Custom LVAR      |                                                                          |
 |                   | A32NX.FCU_APPR_PUSH                 | -            | -          | Custom EVENT     |                                                                          |
 |                   | AP_APR_HOLD                         | -            | -          | SIMCONNECT EVENT |                                                                          |
+|                   |                                     |              |            |                  |                                                                          |
+| FD                | AUTOPILOT FLIGHT DIRECTOR ACTIVE    | 0..1         | R          | SIMCONNECT VAR   |                                                                          |
+|                   | TOGGLE_FLIGHT_DIRECTOR              | -            | -          | SIMCONNECT EVENT |                                                                          |
 |                   |                                     |              |            |                  |                                                                          |
 | AP 1 + 2          | A32NX_AUTOPILOT_1_ACTIVE            | 0..1         | R          | Custom LVAR      |                                                                          |
 |                   | A32NX_AUTOPILOT_2_ACTIVE            | 0..1         | R          | Custom LVAR      |                                                                          |
