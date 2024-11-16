@@ -484,9 +484,7 @@ Flight Deck: [FCU Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck
 |                   | XMLVAR_AUTOPILOT_ALTITUDE_INCREMENT | 100..1000    | R          | Custom LVAR      |                                                                          |
 |                   | AP_ALT_HOLD                         | -            | -          | SIMCONNECT EVENT | Repurposed event as Simconnect has no standard event for this otherwise. |
 |                   |                                     |              |            |                  |                                                                          |
-| EXPED             | A32NX_FMA_EXPEDITE_MODE             | 0..1         | R          | Custom LVAR      |                                                                          |
-|                   | A32NX.FCU_EXPED_PUSH                | -            | -          | Custom EVENT     |                                                                          |
-|                   | AP_ATT_HOLD                         | -            | -          | SIMCONNECT EVENT | Repurposed event as Simconnect has no standard event for this otherwise. |
+| ALT               | N/A                                 |              |            |                  | Not yet implemented                                                      |
 |                   |                                     |              |            |                  |                                                                          |
 | V/S FPA knob      | A32NX_AUTOPILOT_VS_SELECTED         | -6000..6000  | R          | Custom LVAR      |                                                                          |
 |                   | A32NX.FCU_VS_INC                    | -            | -          | Custom LVAR      | FPA: -9.9..9.9                                                           |
@@ -531,6 +529,10 @@ Flight Deck: [FCU Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck
 | HDG-TRK / V/S-FPA | A32NX_TRK_FPA_MODE_ACTIVE           | 0..1         | R          | Custom LVAR      |                                                                          |
 |                   | A32NX.FCU_TRK_FPA_TOGGLE_PUSH       | -            | -          | Custom EVENT     |                                                                          |
 |                   | AP_VS_HOLD                          | -            | -          | SIMCONNECT EVENT | Repurposed event as Simconnect has no standard event for this otherwise. |
+|                   |                                     |              |            |                  |                                                                          |
+| TRUE MAG pb       | H:A320_Neo_FCU_TRUEMAG_PUSH         | -            | -          | H: Event         |                                                                          |
+|                   |                                     |              |            |                  |                                                                          |
+| METER pb          | A32NX_METRIC_ALT_TOGGLE             | 0..1         | R/W        | Custom LVAR      |                                                                          |
 
 ### Warning Panel
 
