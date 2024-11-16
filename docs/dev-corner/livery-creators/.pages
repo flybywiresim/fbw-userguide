@@ -1,0 +1,11 @@
+# Edit this page to get:
+# - Title for the whole directory
+# - Titles for specific pages or subdirectories
+# - Order of pages (otherwise alphabetical order)
+
+title: Livery Creators
+nav:
+    - Overview: index.md
+    - A380X Paintkit: a380x-paintkit.md
+    - A32NX Texture Changes: a32nx-texture-changes.md
+    - ...

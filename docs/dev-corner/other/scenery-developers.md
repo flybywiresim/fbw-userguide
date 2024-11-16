@@ -1,3 +1,8 @@
+---
+title: Scenery Developers
+description: Resources for scenery developers.
+---
+
 # Tips for Scenery Developers
 
 ## Navigation Data

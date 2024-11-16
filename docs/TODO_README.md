@@ -127,30 +127,30 @@ is good enough for now but might be improved in the future.
     - [X] [Developer Guide](dev-corner/dev-guide/index.md)
         - [X] [Overview](dev-corner/dev-guide/index.md)
         - [X] [Resources](dev-corner/dev-guide/resources.md)
+        - [X] [Repository Structure](dev-corner/dev-guide/repository-structure.md)
         - [X] [Setup Dev Environment](dev-corner/dev-guide/setup-environment.md)
-        - [ ] Repository Structure <span style="color: red;">TODO</span>
         - [X] [Contribution Guidelines](dev-corner/dev-guide/contribute.md)
         - [ ] Best Practices <span style="color: red;">TODO</span>
             - [ ] Systems Development <span style="color: red;">TODO</span>
             - [ ] Instrument Development <span style="color: red;">TODO</span>
-            - [ ] flyPad Development <span style="color: red;">TODO</span>
+            - [ ] flyPad Development <span style="color: red;">TODO - page exists but needs update</span>
         - [X] [Specific](dev-corner/dev-guide/specific/index.md)
             - [X] [Overview](dev-corner/dev-guide/specific/index.md)
-            - [X] [Instruments Build Guide](dev-corner/dev-guide/specific/instruments.md)
-            - [X] [flyPadOS 3 Localization Process](dev-corner/dev-guide/specific/flypad-translations.md) <span style="color: red;">TODO: Move to Localization Guide</span>
-            - [X] [Javascript](dev-corner/dev-guide/specific/javascript.md)
+            - [X] [Instruments Build Guide](dev-corner/dev-guide/specific/instruments-build-guide)
+            - [X] [flyPadOS 3 Localization Process](dev-corner/dev-guide/specific/flypad-localization) <span style="color: red;">TODO: Move to Localization Guide</span>
+            - [X] [Javascript](dev-corner/dev-guide/specific/javascript-dev-guide)
     - [ ] Localization Guide <span style="color: red;">TODO</span>
         - [ ] flyPad <span style="color: red;">TODO</span>
         - [ ] locPak for MSFS <span style="color: red;">TODO</span>
-    - [ ] Documentation Guide <span style="color: red;">TODO</span>
-    - [ ] Livery Creators Guide <span style="color: red;">TODO</span>
-        - [ ] A380X PaintKit <span style="color: red;">TODO</span>
-    - [ ] Other <span style="color: red;">TODO</span>
-    - [X] [FlyByWire Projects](dev-corner/development-projects/index.md)
-        - [X] [Overview](dev-corner/development-projects/index.md)
-        - [X] [Documentation Project](dev-corner/development-projects/documentation-project/documentation.md) <span style="color: red;">TODO: Move up to Documentation GUIDE</span>
-        - [X] [Website Project](dev-corner/development-projects/website.md)
-        - [X] [Discord Bot Project](dev-corner/development-projects/discord-bot.md)
+    - [X] [Livery Creators Guide](dev-corner/livery-creators/index.md)
+        - [X] [A380X PaintKit](dev-corner/livery-creators/a380x-paintkit.md)
+    - [X] [Documentation Guide](dev-corner/documentation-guide/index.md)
+    - [X] [Additional Resources](dev-corner/other/index.md)
+        - [X] [Scenery Developer Tips](dev-corner/other/scenery-developers.md)  
+    - [X] [FlyByWire Projects](dev-corner/flybywire-projects/index.md)
+        - [X] [Overview](dev-corner/flybywire-projects/index.md)
+        - [X] [Website Project](dev-corner/flybywire-projects/website.md)
+        - [X] [Discord Bot Project](dev-corner/flybywire-projects/discord-bot.md)
 
 - [X] [**FlyByWire Tools**](tools/index.md)
     - [X] [SimBridge](tools/simbridge/index.md)
