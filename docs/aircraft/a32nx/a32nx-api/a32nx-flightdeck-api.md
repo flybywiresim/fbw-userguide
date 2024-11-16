@@ -457,8 +457,8 @@ Flight Deck: [EFIS Control Panel](../../../pilots-corner/a32nx/a32nx-briefing/fl
 | inHG / hPa   | XMLVAR_BARO_SELECTOR_HPA_1               | 0&#124;1         | R/W        | Custom LVAR      | 0=Hg, 1=hPa, REMOVED                                          |
 |              | A32NX_FCU_EFIS_L_DISPLAY_BARO_VALUE_MODE | 0..2             | R          | Custom LVAR      | 0=STD, 1=hPa, 2=inHG                                          |
 |              | A32NX_FCU_EFIS_R_DISPLAY_BARO_VALUE_MODE | 0..2             | R          | Custom LVAR      | 0=STD, 1=hPa, 2=inHG                                          |
-|              | A32NX_FCU_EFIS_L_BARO_IS_INHG            | 0&#124;1         | R          | Custom LVAR      |                                                               |
-|              | A32NX_FCU_EFIS_R_BARO_IS_INHG            | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_FCU_EFIS_L_BARO_IS_INHG            | 0&#124;1         | R/W        | Custom LVAR      |                                                               |
+|              | A32NX_FCU_EFIS_R_BARO_IS_INHG            | 0&#124;1         | R/W        | Custom LVAR      |                                                               |
 |              |                                          |                  |            |                  |                                                               |
 | FD           | AUTOPILOT FLIGHT DIRECTOR ACTIVE         | 0&#124;1         | R          | SIMCONNECT VAR   |                                                               |
 |              | A32NX_FCU_EFIS_L_FD_LIGHT_ON             | 0&#124;1         | R          | Custom LVAR      |                                                               |
@@ -476,26 +476,26 @@ Flight Deck: [EFIS Control Panel](../../../pilots-corner/a32nx/a32nx-briefing/fl
 |              |                                          |                  |            |                  |                                                               |
 | ND Filter    | A32NX_EFIS_L_OPTION                      | 0..31 (bitmap)   | R          | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 4=WPT, 8=NDB, 16=ARPT, Deprecated      |
 |              | A32NX_EFIS_R_OPTION                      | 0..31 (bitmap)   | R          | Custom LVAR      | 0=none, 1=CSTR, 2=VOR, 4=WPT, 8=NDB, 16=ARPT, Deprecated      |
-|              | A32NX_EFIS_L_CSTR_LIGHT_ON               | 0&#124;1         | R          | Custom LVAR      |                                                               |
-|              | A32NX_EFIS_R_CSTR_LIGHT_ON               | 0&#124;1         | R          | Custom LVAR      |                                                               |
-|              | A32NX_EFIS_L_WPT_LIGHT_ON                | 0&#124;1         | R          | Custom LVAR      |                                                               |
-|              | A32NX_EFIS_R_WPT_LIGHT_ON                | 0&#124;1         | R          | Custom LVAR      |                                                               |
-|              | A32NX_EFIS_L_VORD_LIGHT_ON               | 0&#124;1         | R          | Custom LVAR      |                                                               |
-|              | A32NX_EFIS_R_VORD_LIGHT_ON               | 0&#124;1         | R          | Custom LVAR      |                                                               |
-|              | A32NX_EFIS_L_NDB_LIGHT_ON                | 0&#124;1         | R          | Custom LVAR      |                                                               |
-|              | A32NX_EFIS_R_NDB_LIGHT_ON                | 0&#124;1         | R          | Custom LVAR      |                                                               |
-|              | A32NX_EFIS_L_ARPT_LIGHT_ON               | 0&#124;1         | R          | Custom LVAR      |                                                               |
-|              | A32NX_EFIS_R_ARPT_LIGHT_ON               | 0&#124;1         | R          | Custom LVAR      |                                                               |
-|              | A32NX.EFIS_L_CSTR_PUSH                   | -                | -          | Custom EVENT     |                                                               |
-|              | A32NX.EFIS_R_CSTR_PUSH                   | -                | -          | Custom EVENT     |                                                               |
-|              | A32NX.EFIS_L_WPT_PUSH                    | -                | -          | Custom EVENT     |                                                               |
-|              | A32NX.EFIS_R_WPT_PUSH                    | -                | -          | Custom EVENT     |                                                               |
-|              | A32NX.EFIS_L_VORD_PUSH                   | -                | -          | Custom EVENT     |                                                               |
-|              | A32NX.EFIS_R_VORD_PUSH                   | -                | -          | Custom EVENT     |                                                               |
-|              | A32NX.EFIS_L_NDB_PUSH                    | -                | -          | Custom EVENT     |                                                               |
-|              | A32NX.EFIS_R_NDB_PUSH                    | -                | -          | Custom EVENT     |                                                               |
-|              | A32NX.EFIS_L_ARPT_PUSH                   | -                | -          | Custom EVENT     |                                                               |
-|              | A32NX.EFIS_R_ARPT_PUSH                   | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX_FCU_EFIS_L_CSTR_LIGHT_ON           | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_FCU_EFIS_R_CSTR_LIGHT_ON           | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_FCU_EFIS_L_WPT_LIGHT_ON            | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_FCU_EFIS_R_WPT_LIGHT_ON            | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_FCU_EFIS_L_VORD_LIGHT_ON           | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_FCU_EFIS_R_VORD_LIGHT_ON           | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_FCU_EFIS_L_NDB_LIGHT_ON            | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_FCU_EFIS_R_NDB_LIGHT_ON            | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_FCU_EFIS_L_ARPT_LIGHT_ON           | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX_FCU_EFIS_R_ARPT_LIGHT_ON           | 0&#124;1         | R          | Custom LVAR      |                                                               |
+|              | A32NX.FCU_EFIS_L_CSTR_PUSH               | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_CSTR_PUSH               | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_L_WPT_PUSH                | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_WPT_PUSH                | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_L_VORD_PUSH               | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_VORD_PUSH               | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_L_NDB_PUSH                | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_NDB_PUSH                | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_L_ARPT_PUSH               | -                | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_R_ARPT_PUSH               | -                | -          | Custom EVENT     |                                                               |
 |              |                                          |                  |            |                  |                                                               |
 | ND MODE      | A32NX_EFIS_L_ND_MODE                     | 0..4             | R          | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN, Deprecated |
 |              | A32NX_EFIS_R_ND_MODE                     | 0..4             | R          | Custom LVAR      | 0=ROSE ILS, 1=ROSE VOR, 2=ROSE NAV. 3=ARC, 4=PLAN, Deprecated |
