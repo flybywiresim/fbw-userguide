@@ -25,22 +25,11 @@ You can view the latest changes to our aircraft via the commits to the master br
 
 #### Development Version Changelogs
 
-<div class="grid cards" markdown>
+The latest additions to the project can be seen either in the official
 
-- **A32NX**
-    
-    ---
+[CHANGELOG](https://github.com/flybywiresim/aircraft/blob/master/.github/CHANGELOG.md){.md-button target=new}
 
-    The latest additions to this version can be seen either in the official 
-    [CHANGELOG](https://github.com/flybywiresim/aircraft/blob/master/.github/CHANGELOG.md).
-
-- **A380X**
-    
-    ---
-
-    A changelog is not yet available.
-
-</div>
+This changelog contains all changes made to the Development Versions of the A32NX and A380X aircraft. 
 
 ---
 
@@ -54,6 +43,8 @@ for users who do not want to update their aircraft as often or require less freq
 This version will not always be up-to-date, but we work hard at ensuring its compatibility with the current version of 
 Microsoft Flight Simulator.
 
+See [Latest Release Notes for the Stable Versions](/latest-release/)
+
 <div class="grid cards" markdown>
 
 - **A32NX - Current Stable Version**
@@ -66,7 +57,7 @@ Microsoft Flight Simulator.
     
     ---
 
-    *Pending Release*
+      <img src="https://img.shields.io/github/v/release/flybywiresim/aircraft.svg?color=2F4E5B&style=flat" />
 
 </div>
 
@@ -75,23 +66,3 @@ Microsoft Flight Simulator.
 !!! danger ""
     We have discontinued our Experimental Version. Latest features and testing will be on the Development Version of the aircraft. 
 
-## Version Comparison
-
-<div class="grid cards" markdown>
-
-- **A32NX - Release Notes**
-    
-    ---
-
-    See [Latest Release Notes for the A32NX Stable Version](/latest-release/)
-
-- **A380X - Release Notes**
-
-    ---
-
-    *Pending Release*
-
-</div>
-
-For all changes made to any of our Development versions since the last major release of the Stable version, refer to 
-the [Version Changelogs](#development-version-changelogs) section above.
