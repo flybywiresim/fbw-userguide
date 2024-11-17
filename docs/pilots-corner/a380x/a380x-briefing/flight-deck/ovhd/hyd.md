@@ -55,7 +55,7 @@ The hydraulic systems ensure:
         - HYD G(Y) RSVR LEVEL LO
         - HYD G(Y) RSVR AIR PRESS LO.
     - The FAULT light goes off, when the flight crew selects OFF. However, in case of an overheat, the FAULT light 
-      will remain on, until the overheat disappears.
+      will remain on, until the overheat condition disappears.
 
 ### ENG PMP A+B DISC pb
 
@@ -109,7 +109,7 @@ The electric pumps are fully automatic and do not require any crew action, unles
         - HYD G(Y) RSVR LEVEL LO (on ground, with engines OFF)
         - HYD G(Y) RSVR AIR PRESS LO (on ground, with engines OFF) (Refer to procedure).
     - The FAULT light goes off, when the flight crew selects OFF. However, in case of an overheat, the FAULT light will
-      remain on, until the overheat disappears.
+      remain on, until the overheat condition disappears.
 
 
 ---

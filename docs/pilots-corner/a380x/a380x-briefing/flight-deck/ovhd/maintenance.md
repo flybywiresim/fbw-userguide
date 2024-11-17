@@ -62,7 +62,7 @@ takes a priority over a refueling initiated from the external REFUEL panel.
     - Note: Only manual transfers can be initiated from the external REFUEL panel.
 - ON:
     - When pressed, automatic ground transfer is activated to automatically obtain the ground CG target.
-    - Note: All transfer pumps must selected ON to perform an automatic ground transfer.
+    - Note: All transfer pumps must be ON to perform an automatic ground transfer.
 - END/ON:
     - Automatic ground transfer is completed, or is aborted by the FQMS.
     - If the FQMS aborts the automatic ground transfer, the light flashes. 
@@ -181,7 +181,7 @@ Maintenance personnel uses this pushbutton to restart the fan.
 #### CKPT DOOR LCKG SYS
 
 Maintenance personnel uses this pushbutton-switch to turn off the Cockpit Door Locking System
-(CDLS), in order to ease ground operations (e.g. servicing, cleaning, maintenance, etc).
+(CDLS), in order to ease ground operations (e.g. servicing, cleaning, maintenance, etc.).
 
 - AUTO:
     - The CDLS is operative.

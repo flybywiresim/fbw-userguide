@@ -40,13 +40,13 @@ The Engine Fire Panel is used to control the engine fire detection and extinguis
 
 - AUTO: 
     - Normal position.
-- SQUID: 
+- SQUIB: 
     - The squibs of the fire extinguisher bottles are armed. 
     - The fire extinguisher bottles are ready to discharge extinguisher agent.
     - When pressed, the extinguisher bottles discharge and the SQUIB light goes off.
 - DISCH: 
     - The fire extinguisher bottle discharges or is empty.
-- SQUID & DISCH: 
+- SQUIB & DISCH: 
     - The flight crew is pressing the ENG FIRE panel TEST pb (Refer to [TEST pb](#test-pb)).
 
 ### TEST pb

@@ -60,7 +60,7 @@ fuel transfers to:
 
 - AUTO:
     - The transfer pump runs, if necessary:
-        - For an automatic fuel transfer from the inner, mid, or outer tanks, via the forward gallery, or
+        - For an automatic fuel transfer from the inner, middle, or outer tanks, via the forward gallery, or
         - For a manual transfer from the outer tanks, via the forward gallery (except if any outer tank pump has been switched off), or
         - During jettison.
 - OFF:
@@ -83,7 +83,7 @@ fuel transfers to:
 
 - ON:
     - The transfer pump runs, if necessary:
-        - For an automatic or manual fuel transfer from the inner, or mid tanks, via the aft gallery, or
+        - For an automatic or manual fuel transfer from the inner, or middle tanks, via the aft gallery, or
         - During jettison.
 - OFF:
     - The transfer pump is off.
@@ -119,10 +119,10 @@ fuel transfers to:
 ### INR(MID)(OUTR) TK XFR pb-sw
 
 - AUTO:
-    - Automatic fuel transfers from the inner (mid)(outer) tanks are available.
+    - Automatic fuel transfers from the inner (middle)(outer) tanks are available.
     - For more information: Refer to Fuel Transfer Sequence
 - MAN:
-    - Fuel manually transfers from the inner (mid)(outer) tanks to the feed tanks.
+    - Fuel manually transfers from the inner (middle)(outer) tanks to the feed tanks.
 - FAULT:
     - Comes on:
         - When automatic fuel transfers from the affected tanks are no longer possible.

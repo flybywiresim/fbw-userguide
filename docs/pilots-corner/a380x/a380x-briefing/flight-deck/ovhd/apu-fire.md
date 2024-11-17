@@ -42,7 +42,7 @@ The APU compartment has a fire protection system, with:
 
 - OFF
     - The fire extinguisher bottle is not armed. 
-- SQUID
+- SQUIB
     - The squibs of the fire extinguisher bottle are armed. The fire extinguisher bottle is ready to discharge 
       extinguisher agent.
     - When pressed, the extinguisher bottle discharges and the SQUIB light goes off.

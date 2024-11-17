@@ -136,7 +136,7 @@ requested by the flight crew, or prompted by the ECAM.
 
 * On EWD or SD clears the lines indicated by the displayed vertical bar.
 * The CLEAR pb light comes on, when there is an alert to clear on EWD.
-* Note: The CLEAR pb does not cancel any aural alerts associated witha caution/warning, and does not deactivate a 
+* Note: The CLEAR pb does not cancel any aural alerts associated with a caution/warning, and does not deactivate a 
   Not-Sensed ABN PROC.
 
 ### RCL LAST

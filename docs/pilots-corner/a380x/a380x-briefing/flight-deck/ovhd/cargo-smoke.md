@@ -24,7 +24,7 @@ The Cargo Smoke Panel is used to detect smoke in the cargo compartments.
 ### AGENT TO FWD/AFT pb
 
 - Guarded and dark:
-    - No smke is detected.
+    - No smoke is detected.
 - Smoke:
     - Smoke is detected in the associated cargo compartment.
     - Associated with the following ECAM warning:

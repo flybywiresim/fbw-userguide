@@ -37,7 +37,7 @@ description: The A380 Flight Deck Thrust and Thrust Reverser Control Levers desc
     - An automatic start sequence aborts, or
     - The HP fuel valve position is abnormal.
     - Associated with the ECAM alert ENG 1(2)(3)(4) HP FUEL VLV FAULT 
-    - The overthrust protection is active and the FADEC automatically shut downs the engine.
+    - The overthrust protection is active and the FADEC automatically shuts down the engine.
     - Associated with the ECAM alert ENG 1(2)(3)(4) CTL SYS FAULT
 
 ---

@@ -41,7 +41,7 @@ The Exterior Lighting of an Airbus A380 includes these lights:
 Turns on and off the three synchronized strobe lights, one on each wing tip and one below the tail cone.
 
 - ON:
-    - Strobe lights or on.
+    - Strobe lights are on.
 - AUTO:
     - Automatically turns on strobe lights when the main gear strut is not compressed.
 - OFF:
@@ -55,7 +55,7 @@ There are three anti-collision beacon lights: Two on the top of the fuselage, an
 fuselage.
 
 - ON:
-    - Beacon lights or on.
+    - Beacon lights are on.
 - OFF:
     - Beacon lights are off.
 
@@ -71,7 +71,7 @@ Illuminate the leading edges of the wings and the engine air intake to show if i
 This switch turns the navigation lights on and off.
 
 - ON:
-    - Navigation lights or on.
+    - Navigation lights are on.
 - OFF:
     - Navigation lights are off.
 
@@ -94,7 +94,7 @@ There are two logo lights: One on the upper surface of each horizontal stabilize
 These lights provide lighting on the company logo that is on the tail fin.
 
 - ON:
-    - LOGO lights or on.
+    - LOGO lights are on.
 - AUTO:
     - The logo lights come on automatically, when the aircraft is on ground or in flight, when the
       slats are extended.
@@ -116,13 +116,13 @@ When the flight crew uses the taxi cameras at night, the camera lights provide g
 for the nose landing gear and the main landing gear.
 
 - ON:
-    - RWY TURN OFF lights or on.
-    - Camera lights or on, if ETACS is set to ON
+    - RWY TURN OFF lights are on.
+    - Camera lights are on, if ETACS is set to ON
 - OFF:
     - RWY TURN OFF lights are off.
     - Camera lights are off.
 
-These lights go off automatically when the landing gear is retracted.
+These lights turn off automatically when the landing gear is retracted.
 
 During takeoff, landing and approach, only the camera lights
 are on if:
@@ -156,7 +156,7 @@ The taxi lights enable the flight crew to detect obstacles on the taxiway.
 - OFF:
     - Taxi and takeoff lights are off.
 
-Note: The lights attached to the nose gear strut, go off automatically when the landing gear is retracted.
+Note: The lights attached to the nose gear strut turn off automatically when the landing gear is retracted.
 
 ---
 

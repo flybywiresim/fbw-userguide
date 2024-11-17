@@ -38,7 +38,7 @@ Both ISIS are connected to fully independent probes:
 
 !!! warning ""
     Only one ISIS is available in the A380X at this time.
-    Also the ISIS is not fully functional at this time.
+    Also, the ISIS is not fully functional at this time.
 
 ## Usage
 
