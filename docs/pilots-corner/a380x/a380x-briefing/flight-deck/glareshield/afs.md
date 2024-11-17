@@ -271,7 +271,7 @@ When pressed, selects either:
 - Shows `HDG` and `---` in managed target mode
 - Shows `TRK` and `---` in managed target mode
 
-Note: The HDG/TRK window shows TRUE, at the top left corner of the HDG/TRK window, if TRUE is selected with the 
+Note: The HDG/TRK window shows TRUE, in the top left corner of the HDG/TRK window, if TRUE is selected with the 
 TRUE/MAG pb.
 
 ### HDG/TRK Knob

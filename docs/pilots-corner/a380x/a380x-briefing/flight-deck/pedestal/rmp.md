@@ -189,7 +189,7 @@ In normal operation:
 ![img_9.png](../../../assets/a380x-briefing/flight-deck/pedestal/rmp-vhf-page.png){loading=lazy}
 
 1. Active frequency
-2. Loadspeaker symbol (indicating if reception is on or not)
+2. Loudspeaker symbol (indicating if reception is on or not)
 3. Transceiver Indicator (indicating if transmission is on or not)
 4. Standby frequency
 5. Clear the RMP message line

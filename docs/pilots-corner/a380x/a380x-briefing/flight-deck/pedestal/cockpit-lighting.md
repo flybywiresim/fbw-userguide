@@ -25,13 +25,13 @@ or when flying through clouds.
 
 ## MAIN PNL FLOOD LT (Main Panel Flood Light):
 
-This control adjusts the flood lighting for the main panel, which provides a wash of light over the entire instrument
+This control adjusts the floodlighting for the main panel, which provides a wash of light over the entire instrument
 panel. This general lighting is useful when the pilots need to see the entire panel without the need for backlighting on
 individual instruments.
 
 ## PEDESTAL FLOOD LT (Pedestal Flood Light):
 
-This knob controls the flood lighting over the pedestal area, where the throttle and other control systems like the
+This knob controls the floodlighting over the pedestal area, where the throttle and other control systems like the
 radio and flight management systems are located. This light allows for better visibility of the pedestal controls,
 especially important during critical flight operations.
 

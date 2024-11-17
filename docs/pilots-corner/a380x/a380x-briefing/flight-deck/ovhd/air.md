@@ -44,7 +44,7 @@ description: The A380 Flight Deck Air Panel description.
     - Or when the pack overheats.
         - Associated with the following ECAM alert:
             - AIR PACK 1(2) OVHT
-        - The FAULT light goes off when the overheat disappears.
+        - The FAULT light goes off when the overheat condition disappears.
     - Or when the pack has failed.
         - Associated with one of the following ECAM alerts:
             - AIR PACK 1(2) FAULT

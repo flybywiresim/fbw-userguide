@@ -23,10 +23,10 @@ brightness of the glareshield integral lights and LCD brightness.
 
 From left to right:
 
-- Brightness for the instrument panel flood lights on the Captain side.
+- Brightness for the instrument panel floodlights on the Captain side.
 - Brightness for the glareshield integral lights.
 - Brightness for the LCD displays.
-- Brightness for the instrument panel flood lights on the First Officer side.
+- Brightness for the instrument panel floodlights on the First Officer side.
 
 
 ---
