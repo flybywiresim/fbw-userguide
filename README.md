@@ -31,6 +31,8 @@ Note: Please be aware that sub-directories are present in the parent directories
 
 ---
 
-[![Powered by Vercel](https://www.datocms-assets.com/31049/1618983297-powered-by-vercel.svg)](https://vercel.com/?utm_source=[flybywiresim]&utm_campaign=oss "Powered by Vercel")
+Runs on Cloudflare®
+
+![cloudflare-logo.png](docs/assets/images/cloudflare-logo.png)
 
 

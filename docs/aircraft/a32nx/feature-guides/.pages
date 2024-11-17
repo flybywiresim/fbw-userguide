@@ -1,0 +1,8 @@
+nav:
+    - Overview: index.md
+    - Custom AP: autopilot-fbw.md
+    - Custom FMS: cFMS.md
+    - Custom Hydraulics: custom-hydraulics.md
+    - Custom Air Conditioning: custom-air-conditioning.md
+    - ...
+    - GSX Integration: gsxintegration

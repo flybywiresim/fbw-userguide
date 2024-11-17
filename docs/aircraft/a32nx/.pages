@@ -1,0 +1,5 @@
+title: A32NX
+nav:
+    - Overview: index.md
+    - Feature Guides: feature-guides
+    - API and Hardware: a32nx-api

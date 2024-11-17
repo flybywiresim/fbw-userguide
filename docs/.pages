@@ -1,7 +1,7 @@
 nav:
     - Home: index.md
-    - fbw-a32nx
+    - aircraft
     - pilots-corner
     - dev-corner
-    - simbridge
+    - tools
     - release-notes

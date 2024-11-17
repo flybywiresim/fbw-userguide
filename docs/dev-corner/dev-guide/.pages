@@ -2,6 +2,8 @@ title: Development Guide
 nav:
     - Overview: index.md
     - Resources: resources.md
+    - Repository Structure: repository-structure.md
     - Setup Dev Environment: setup-environment.md
     - Contribution Guidelines: contribute.md
+    - QA Process: qa-process.md
     - Specific Topics: specific

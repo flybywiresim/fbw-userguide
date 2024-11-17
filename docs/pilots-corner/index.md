@@ -9,20 +9,27 @@ description: The Pilot’s Corner contains guides for both novice and advanced u
 
 Welcome to the Pilot's Corner of the FlyByWire Documentation site.
 
-This section is aimed at sim pilots of all levels and covers topics regarding flying an airliner and especially the Airbus A320neo.
+This section is aimed at sim pilots of all levels and covers topics regarding flying airliners
+in Microsoft Flight Simulator, especially the Airbus A320neo and A380.
 
-## Quick Links
+<p style="color:coral; font-size:24px;">This is for simulation purposes only.</p>
 
-[Beginner Guide](beginner-guide/overview.md){ .md-button }
-[Advanced Guides](advanced-guides/overview.md){ .md-button }
-[A320neo Pilot Briefing](a32nx-briefing/index.md){ .md-button }
+<div class="grid cards" markdown>
 
-##  Topics
+- <p style="font-size:24px;">[A32NX Corner](./a32nx)</p>
 
-| Featured List                                              |
-|:-----------------------------------------------------------|
-| [Beginner Guide](beginner-guide/overview.md)               |
-| [Advanced Guides](advanced-guides/overview.md)             |
-| [A320neo Pilot Briefing](a32nx-briefing/index.md)          |
-| [Standard Operating Procedures](SOP.md)                    |
-| [Airliner Flying Guide](airliner-flying-guide/overview.md) |
+    The A32NX Corner covers the Airbus A320neo and is aimed at sim pilots of all levels.
+    It contains beginner guides, advanced guides, a clickable interactive cockpit, and more. 
+ 
+- <p style="font-size:24px;">[A380X Corner](./a380x)</p>
+
+    The A380X Corner covers the Airbus A380 and is aimed at sim pilots of all levels.
+    It contains beginner guides, advanced guides, a clickable interactive cockpit, and more.
+
+- <p style="font-size:24px;">[Airliner Corner](./airliner)</p>
+
+    The Airliner Corner covers general topics for flying airliners in Microsoft Flight Simulator.
+    It contains an Airliner Flying Guide as a rough basic guide to general airliner terminology 
+    and flying techniques that can be generally applied to most aircraft in the simulator.
+
+</div>

@@ -7,8 +7,8 @@ site_description: Comprehensive documentation for FlyByWire Simulations
 repo_url: https://github.com/flybywiresim/aircraft/
 repo_name: flybywiresim/aircraft
 edit_uri: "" #removes edit button and icon
-copyright: Powered by <a href="https://vercel.com/?utm_source=flybywiresim&utm_campaign=oss" target="_blank">
-  <img src="/assets/images/vercel-logotype-light.svg" alt="Vercel Logo"></a>
+copyright: Runs on Cloudflare®
+  <img src="/assets/images/cloudflare-logo.png" alt="Cloudflare Logo" width="40%">
 
 # Configuration
 theme:
@@ -26,7 +26,7 @@ theme:
     - navigation.prune
     - navigation.tabs
     - navigation.tabs.sticky
-    # Removed this feature again as it's breaking TOC navigation on reported-issues.md
+    # Removed this feature again as it's breaking TOC navigation on known-issues.md
     - navigation.instant
     - navigation.instant.progress
     - navigation.top
@@ -50,54 +50,54 @@ plugins:
     mark: "video-embed"
   redirects:
       redirect_maps:
-        # Folder: /start/
-        'start/fbw-versions.md': 'fbw-a32nx/fbw-versions.md'
-        'start/installation.md': 'fbw-a32nx/installation.md'
-        'start/support.md': 'fbw-a32nx/support/index.md'
-        'start/reported-issues.md': 'fbw-a32nx/support/reported-issues.md'
-        'start/autopilot-fbw.md': 'fbw-a32nx/feature-guides/autopilot-fbw.md'
-        # Commented out in case we want to use this in the future
-#        'start/exp.md': 'fbw-a32nx/support/exp.md'
         # Folder: /beginner-guide/
-        'beginner-guide/overview.md': 'pilots-corner/beginner-guide/overview.md'
+        'beginner-guide/overview.md': 'pilots-corner/a32nx/a32nx-beginner-guide/overview.md'
         # Folder: /airliner-flying-guide/
-        'airliner-flying-guide/overview.md': 'pilots-corner/airliner-flying-guide/overview.md'
+        'airliner-flying-guide/overview.md': 'pilots-corner/airliner/airliner-flying-guide/overview.md'
         # Folder: /development-projects/
         'development-projects/overview.md': 'dev-corner/dev-guide/index.md'
-        'development-projects/website.md': 'dev-corner/development-projects/website.md'
+        'development-projects/website.md': 'dev-corner/flybywire-projects/website.md'
         # Folder: /a32nx-devs/
         'a32nx-dev/overview.md': 'dev-corner/dev-guide/index.md'
-        'a32nx-dev/texture-changes.md': 'dev-corner/texture-changes.md'
+        'a32nx-dev/texture-changes.md': 'dev-corner/livery-creators/a32nx-texture-changes.md'
+
         # TEMP redirects
-      # A.FLOOR
-        'fbw-a32nx/feature-guides/afloor.md': 'pilots-corner/advanced-guides/protections/afloor.md'
+        # A.FLOOR
+        'fbw-a32nx/feature-guides/afloor.md': 'pilots-corner/a32nx/a32nx-advanced-guides/protections/afloor.md'
         # Fix Info
-        'fbw-a32nx/feature-guides/fixinfo.md': 'pilots-corner/advanced-guides/flight-planning/fixinfo.md'
+        'fbw-a32nx/feature-guides/fixinfo.md': 'pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/fixinfo.md'
         # A32NX API
-        'pilots-corner/a32nx-briefing/a32nx_api.md': 'fbw-a32nx/a32nx-api/a32nx-flightdeck-api.md'
+        'pilots-corner/a32nx-briefing/a32nx_api.md': 'aircraft/a32nx/a32nx-api/a32nx-flightdeck-api.md'
 
         # additional redirects:
-        'fbw-a32nx/feature-guides/throttle-calibration.md': 'fbw-a32nx/feature-guides/flypados3/throttle-calibration.md'
+        'fbw-a32nx/feature-guides/throttle-calibration.md': 'aircraft/common/flypados3/throttle-calibration.md'
+
         # Convenience redirects:
-        'beginner-guide.md': 'pilots-corner/beginner-guide/overview.md'
-        'installation.md': 'fbw-a32nx/installation.md'
-        'throttle.md': 'fbw-a32nx/feature-guides/flypados3/throttle-calibration.md'
-        'reported-issues.md': 'fbw-a32nx/support/reported-issues.md'
-        'support.md': 'fbw-a32nx/support/index.md'
-        'discord-bot.md': 'dev-corner/development-projects/discord-bot.md'
-        'airframe.md': 'https://docs.flybywiresim.com/fbw-a32nx/installation/#simbrief-airframe'
+        'bg.md': 'pilots-corner/a32nx/a32nx-beginner-guide/overview.md'
+        'beginner-guide.md': 'pilots-corner/a32nx/a32nx-beginner-guide/overview.md'
+        'installation.md': 'aircraft/install/installation.md'
+        'throttle.md': 'aircraft/common/flypados3/throttle-calibration.md'
+        'reported-issues.md': 'aircraft/support/known-issues/index.md'
+        'support.md': 'aircraft/support/index.md'
+        'discord-bot.md': 'dev-corner/flybywire-projects/discord-bot.md'
+        'faq.md': 'aircraft/faq.md'
+        'flypad-performance.md': 'aircraft/common/flypados3/performance.md'
+        'vnav.md': 'pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/vertical-guidance/overview.md'
+
+        # Release Notes Permalink
+        'latest-release.md': 'release-notes/index.md'
+        'latest-installer-release.md': 'release-notes/installer/v330.md'
+
+        # anchors links require full external URL
         'fdr.md': 'https://docs.flybywiresim.com/fbw-a32nx/support/#fdr-files'
-        'flypad-performance.md': 'fbw-a32nx/feature-guides/flypados3/performance.md'
+
         # Commented out in case we want to use this in the future
         #        'exp.md': 'fbw-a32nx/support/exp.md'
-        'vnav.md': 'pilots-corner/advanced-guides/flight-guidance/vertical-guidance/overview.md'
-        # Release Notes Permalink
-        'latest-release.md': 'release-notes/v0111.md'
-        'latest-installer-release.md': 'release-notes/installer/v330.md'
+
         # ########################################
         # Needed for URL within the A32NX aircraft
         # ########################################
-        'telex.md': 'https://docs.flybywiresim.com/fbw-a32nx/feature-guides/flypados3/settings/#atsuaoc'
+        'telex.md': 'https://docs.flybywiresim.com/aircraft/common/flypados3/settings/#atsuaoc'
   glightbox:
     touchNavigation: true
     loop: false

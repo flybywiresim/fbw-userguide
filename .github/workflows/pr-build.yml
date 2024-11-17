@@ -1,0 +1,29 @@
+# build-preview.yml
+name: PR Build Preview for Cloudflare
+
+on:
+  pull_request:
+    types: [opened, synchronize]
+
+jobs:
+  build-preview:
+    runs-on: ubuntu-latest
+    name: Build Preview Site and Upload Build Artifact
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      - name: Install requirements
+        run: pip install -r requirements.txt
+      - name: Build PR
+        run: mkdocs build
+
+      # Uploads the build directory as a workflow artifact
+      - name: Upload build artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: preview-build
+          path: site

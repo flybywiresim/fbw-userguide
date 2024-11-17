@@ -1,0 +1,161 @@
+# FlyByWire Documentation TODOs
+
+This page lists all existing pages and currently planned new pages for the FlyByWire Documentation.
+
+The fact that a page is listed here as done does not mean that it is perfect. It just means that it is in a state that
+is good enough for now but might be improved in the future.
+
+- [X] [**Homepage**](index.md)
+
+- [X] [**FlyByWire Aircraft**](aircraft/index.md)
+    - [X] [FAQ](aircraft/faq.md)
+    - [X] [Installation](aircraft/install/installation.md)
+        - [X] [Versions](aircraft/install/installation.md)
+        - [X] [Settings](aircraft/install/installation.md)
+        - [X] [Liveries](aircraft/install/installation.md)
+    - [X] [Support](aircraft/support/index.md)
+        - [X] [Support Guide](aircraft/support/index.md)
+        - [X] [Performance Tips](aircraft/support/performance-tips.md)
+        - [X] [Experimental Version](aircraft/support/exp.md)
+        - [X] [Reported and Known Issues](aircraft/support/known-issues/index.md)
+    - [X] [A32NX](aircraft/a32nx/index.md)
+        - [X] [Overview](aircraft/a32nx/index.md)
+        - [X] [Feature Guides](aircraft/a32nx/feature-guides/index.md)
+            - [X] [Custom AP](aircraft/a32nx/feature-guides/autopilot-fbw.md)
+            - [X] [Custom FMS](aircraft/a32nx/feature-guides/cFMS.md)
+            - [X] [Custom Hydraulics](aircraft/a32nx/feature-guides/custom-hydraulics.md)
+            - [X] [Custom Air Conditioning](aircraft/a32nx/feature-guides/custom-air-conditioning.md)
+            - [X] [Audio Configuration](aircraft/a32nx/feature-guides/audio.md)
+            - [X] [Custom Camera Views](aircraft/a32nx/feature-guides/camera-views.md)
+            - [X] [Flight Planning](aircraft/a32nx/feature-guides/flight-planning.md)
+            - [X] [Free Text](aircraft/a32nx/feature-guides/freetext.md)
+            - [X] [Hoppie ACARS](aircraft/a32nx/feature-guides/hoppie.md)
+            - [X] [Fuel and Weight](aircraft/a32nx/feature-guides/loading-fuel-weight.md)
+            - [X] [MCDU Keyboard](aircraft/a32nx/feature-guides/mcdu-keyboard.md)
+            - [X] [Nose Wheel and Tiller Operation](aircraft/a32nx/feature-guides/nw-tiller.md)
+            - [X] [SimBrief and Navigraph Integration](aircraft/a32nx/feature-guides/simbrief.md)
+            - [X] [Wheel Chocks and GSE Safety Cones](aircraft/a32nx/feature-guides/wheel-chocks-cones.md)
+            - [X] [GSX Integration](aircraft/a32nx/feature-guides/gsxintegration/index.md)
+        - [X] [API](aircraft/a32nx/a32nx-api/index.md)
+            - [X] [Common Hardware](aircraft/a32nx/a32nx-api/hardware.md)
+            - [X] [FlyByWire A32NX API - A32NX Flight Deck API](aircraft/a32nx/a32nx-api/a32nx-flightdeck-api.md)
+            - [X] [FlyByWire A32NX LVAR Events](aircraft/a32nx/a32nx-api/lvars-events.md)
+    - [X] [A380X](aircraft/a380x/index.md)
+        - [X] [Overview](aircraft/a380x/index.md)
+        - [X] [Feature Guides](aircraft/a380x/feature-guides/index.md)
+            - [X] [Flight Planning](aircraft/a380x/feature-guides/flight-planning.md)
+            - [X] [Fuel and Weight](aircraft/a380x/feature-guides/loading-fuel-weight.md)
+            - [X] [SimBrief and Navigraph Integration](aircraft/a380x/feature-guides/simbrief.md)
+        - [ ] API <span style="color: red;">(TODO)</span>
+    - [ ] Common Features <span style="color: red;">TODO</span>
+        - [X] [flyPadOS 3 EFB](aircraft/common/flypados3/index.md)
+        - [ ] <span style="color: red;">TODO: Move from A32NX to Common Features and update to include A380X</span>
+
+- [X] [**Pilot's Corner**](pilots-corner/index.md)
+    - [X] [A32NX Corner](pilots-corner/a32nx/index.md)
+        - [X] [Beginner Guide](pilots-corner/a32nx/a32nx-beginner-guide/overview.md)
+            - [X] [Chapters...](pilots-corner/a32nx/a32nx-beginner-guide/overview.md)
+        - [X] [Advanced Guide](pilots-corner/a32nx/a32nx-advanced-guides/overview.md) <span style="color: red;">TODO: Move pages to common section and include A380X</span>
+            - [X] [Engines](pilots-corner/a32nx/a32nx-advanced-guides/engines/asu-start.md)
+                - [X] [ASU Engine Start](pilots-corner/a32nx/a32nx-advanced-guides/engines/asu-start.md)
+                - [X] [Crossbleed Engine Start](pilots-corner/a32nx/a32nx-advanced-guides/engines/crossbleed-start.md)
+            - [X] [Flight Planning](pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/overview.md)
+                - [X] [Takeoff Performance](pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/takeoff-perf-calc.md)
+                - [X] [Fix Info](pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/fixinfo.md)
+                - [X] [Leg Types](pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/leg-types.md)
+                - [X] [Discontinuities](pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/disco.md)
+                - [X] [Direct](pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/direct.md)
+                - [X] [Holds](pilots-corner/a32nx/a32nx-advanced-guides/flight-planning/holds.md)
+            - [X] [Flight Guidance](pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/overview.md)
+                - [X] [Autoland](pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/autoland.md)
+                - [X] [TCAS](pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/tcas.md)
+                - [X] [Vertical Guidance](pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/vertical-guidance/overview.md)
+                    - [X] [Overview](pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/vertical-guidance/overview.md)
+                    - [X] [Selected Vertical Modes](pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/vertical-guidance/selected-modes.md)
+                    - [X] [Managed Vertical Modes](pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/vertical-guidance/managed-modes.md)
+                    - [X] [Speed/Mach Control](pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/vertical-guidance/speed-control.md)
+                    - [X] [Vertical Guidance Symbols](pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/vertical-guidance/nd-symbols.md)
+                    - [X] [Primary Flight Display Indications](pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/vertical-guidance/pfd-indications.md)
+                    - [X] [Example Managed Flight](pilots-corner/a32nx/a32nx-advanced-guides/flight-guidance/vertical-guidance/example.md)
+            - [X] [Protections](pilots-corner/a32nx/a32nx-advanced-guides/protections/overview.md)
+                - [X] [Normal Law](pilots-corner/a32nx/a32nx-advanced-guides/protections/overview.md)
+                - [X] [Abnormal Laws](pilots-corner/a32nx/a32nx-advanced-guides/protections/abnormallaw.md)
+                - [X] [Alpha Floor and TOGA LK](pilots-corner/a32nx/a32nx-advanced-guides/protections/afloor.md)
+            - [X] [Data Management](pilots-corner/a32nx/a32nx-advanced-guides/data-management.md)
+            - [X] [Ice and Rain Protection](pilots-corner/a32nx/a32nx-advanced-guides/ice-rain-protection.md)
+            - [X] [Rejected Takeoff in the A320](pilots-corner/a32nx/a32nx-advanced-guides/rejected-take-off.md)
+        - [X] [A320neo Pilot Briefing](pilots-corner/a32nx/a32nx-briefing/index.md)
+            - [X] [Flight-Deck](pilots-corner/a32nx/a32nx-briefing/index.md)
+            - [X] [PFD](pilots-corner/a32nx/a32nx-briefing/pfd/index.md)
+            - [ ] ND <span style="color: red;">TODO</span>
+            - [X] [ECAM](pilots-corner/a32nx/a32nx-briefing/ecam/index.md)
+                - [X] [ECAM E/WD](pilots-corner/a32nx/a32nx-briefing/ecam/ecam-e-wd.md)
+                - [X] [ECAM SD](pilots-corner/a32nx/a32nx-briefing/ecam/sd/index.md)
+            - [X] [MCDU](pilots-corner/a32nx/a32nx-briefing/mcdu/index.md)
+            - [ ] RMP <span style="color: red;">TODO</span>
+            - [X] [Limitations](pilots-corner/a32nx/a32nx-briefing/limitations.md)
+        - [X] [SOP](pilots-corner/a32nx/a32nx-sop.md)
+    - [X] [A380X Corner](pilots-corner/a380x/index.md)
+        - [X] [Beginner Guide](pilots-corner/a380x/a380x-beginner-guide/overview.md)
+            - [X] [Chapters ...](pilots-corner/a380x/a380x-beginner-guide/overview.md)
+        - [X] [Advanced Guides](pilots-corner/a380x/a380x-advanced-guides/overview.md)
+            - [ ] <span style="color: red;">TODO: Move from A32NX Advanced Guides to here when they need a separate page</span>
+            - [X] [OANS / BTV](pilots-corner/a380x/a380x-advanced-guides/oans-btv.md)
+        - [X] [A380X Pilot Briefing](pilots-corner/a380x/a380x-briefing/index.md)
+            - [X] [Flight-Deck](pilots-corner/a380x/a380x-briefing/flight-deck/index.md)
+                - [ ] [Thrust Levers](pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/throttle.md) <span style="color: red;">TODO: Needs polishing</span> 
+            - [ ] PFD <span style="color: red;">TODO</span>
+            - [ ] ND <span style="color: red;">TODO</span>
+            - [ ] EWD <span style="color: red;">TODO</span>
+            - [ ] SD <span style="color: red;">TODO</span>
+            - [ ] MFD <span style="color: red;">TODO</span>
+            - [ ] RMP <span style="color: red;">TODO</span>
+        - [X] [SOP](pilots-corner/a380x/a380x-sop.md)
+    - [X] [Airliner Corner](pilots-corner/airliner/index.md)
+        - [ ] Airbus Corner (Airbus Specific Common Guide for A32NX and A380X) <span style="color: red;">TODO</span>
+            - [ ] <span style="color: red;">TODO: Move from A32NX Advanced Guides to here and update to include A380X</span>
+            - [ ] Terms and Abbreviations (TODO Needs to be moved here)
+        - [X] [Airliner Flying Guide](pilots-corner/airliner/airliner-flying-guide/overview.md)
+            - [X] [Types of Approaches](pilots-corner/airliner/airliner-flying-guide/approaches.md)
+            - [X] [Navigation](pilots-corner/airliner/airliner-flying-guide/navigation.md)
+            - [X] [Understanding Altitude references](pilots-corner/airliner/airliner-flying-guide/altitude-refs.md)
+            - [X] [Reading METARs/TAFs/ATIS](pilots-corner/airliner/airliner-flying-guide/weather.md)
+            - [X] [Runway Conditions](pilots-corner/airliner/airliner-flying-guide/runway-conditions.md)
+            - [X] [Airport Signage and Markings](pilots-corner/airliner/airliner-flying-guide/airport-signage.md)
+
+- [X] [**Development Corner**](dev-corner/index.md)
+    - [X] [Developer Guide](dev-corner/dev-guide/index.md)
+        - [X] [Overview](dev-corner/dev-guide/index.md)
+        - [X] [Resources](dev-corner/dev-guide/resources.md)
+        - [X] [Repository Structure](dev-corner/dev-guide/repository-structure.md)
+        - [X] [Setup Dev Environment](dev-corner/dev-guide/setup-environment.md)
+        - [X] [Contribution Guidelines](dev-corner/dev-guide/contribute.md)
+        - [ ] Best Practices <span style="color: red;">TODO</span>
+            - [ ] Systems Development <span style="color: red;">TODO</span>
+            - [ ] Instrument Development <span style="color: red;">TODO</span>
+            - [ ] flyPad Development <span style="color: red;">TODO - page exists but needs update</span>
+        - [X] [Specific](dev-corner/dev-guide/specific/index.md)
+            - [X] [Overview](dev-corner/dev-guide/specific/index.md)
+            - [X] [Instruments Build Guide](dev-corner/dev-guide/specific/instruments-build-guide)
+            - [X] [flyPadOS 3 Localization Process](dev-corner/dev-guide/specific/flypad-localization) <span style="color: red;">TODO: Move to Localization Guide</span>
+            - [X] [Javascript](dev-corner/dev-guide/specific/javascript-dev-guide)
+    - [ ] Localization Guide <span style="color: red;">TODO</span>
+        - [ ] flyPad <span style="color: red;">TODO</span>
+        - [ ] locPak for MSFS <span style="color: red;">TODO</span>
+    - [X] [Livery Creators Guide](dev-corner/livery-creators/index.md)
+        - [X] [A380X PaintKit](dev-corner/livery-creators/a380x-paintkit.md)
+    - [X] [Documentation Guide](dev-corner/documentation-guide/index.md)
+    - [X] [Additional Resources](dev-corner/other/index.md)
+        - [X] [Scenery Developer Tips](dev-corner/other/scenery-developers.md)  
+    - [X] [FlyByWire Projects](dev-corner/flybywire-projects/index.md)
+        - [X] [Overview](dev-corner/flybywire-projects/index.md)
+        - [X] [Website Project](dev-corner/flybywire-projects/website.md)
+        - [X] [Discord Bot Project](dev-corner/flybywire-projects/discord-bot.md)
+
+- [X] [**FlyByWire Tools**](tools/index.md)
+    - [X] [SimBridge](tools/simbridge/index.md)
+    - [ ] [Installer](tools/installer/index.md) <span style="color: red;">TODO</span>
+
+- [X] [**Release Notes**](release-notes/index.md)
+    - [X] ...
+

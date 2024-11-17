@@ -6,6 +6,9 @@
 title: Development Corner
 nav:
     - Overview: index.md
-    - Texture Changes: texture-changes.md
-    - Scenery Developers: scenery-developers.md
-    - ...
+    - Developer Guide: dev-guide
+    #- Localization Guide: localization-guide
+    - Livery Creators: livery-creators
+    - Documentation Guide: documentation-guide
+    - Other Guides: other
+    - FlyByWire Projects: flybywire-projects

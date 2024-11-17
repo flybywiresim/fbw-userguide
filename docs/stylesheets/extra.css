@@ -133,3 +133,9 @@ tbody {
     border-color: var(--md-primary-fg-color);
     box-shadow: var(--md-shadow-z2);
 }
+/* For clickable animated gifs */
+.gif-placeholder {
+    cursor: pointer; /* Indicates the image is clickable */
+    display: block; /* Ensures the image block scales correctly */
+    max-width: 100%; /* Ensures the image is responsive and fits its container */
+}
