@@ -534,89 +534,76 @@ Flight Deck: [FCU Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck
 |                   |                                     |              |            |                  |                                                                          |
 | METER pb          | A32NX_METRIC_ALT_TOGGLE             | 0..1         | R/W        | Custom LVAR      |                                                                          |
 
-### Warning Panel
+### Glareshield Side Panel
 
-Flight Deck: [Warning Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/glareshield/warning.md)
+Flight Deck: [Glareshield Side Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/glareshield/glare-side.md)
 
-| Function            | API Usage                        | Values | Read/Write | Type                     | Remark |
-|:--------------------|:---------------------------------|:-------|:-----------|:-------------------------|:-------|
-| MASTER CAUTION      | A32NX_MASTER_CAUTION             | 0..1   | R/W        | Custom LVAR              |        |
-|                     |                                  |        |            |                          |        |
-| MASTER WARNING      | A32NX_MASTER_WARNING             | 0..1   | R/W        | Custom LVAR              |        |
-|                     |                                  |        |            |                          |        |
-| CHRONO              | H:A32NX_EFIS_L_CHRONO_PUSHED     | -      | -          | HTML Event (aka H Event) |        |
-|                     | H:A32NX_EFIS_R_CHRONO_PUSHED     | -      | -          | HTML Event (aka H Event) |        |
-|                     |                                  |        |            |                          |        |
-| SIDE STICK PRIORITY | N/A                              |        |            |                          |        |
-|                     |                                  |        |            |                          |        |
-| AUTOLAND WARNING    | A32NX_AUTOPILOT_AUTOLAND_WARNING | 0..1   | R/W        | Custom LVAR              |        |
-|                     |                                  |        |            |                          |        |
-| ATC MSG             | N/A                              |        |            |                          |        |
-
+| Function            | API Usage                         | Values | Read/Write | Type                     | Remark                 |
+|:--------------------|:----------------------------------|:-------|:-----------|:-------------------------|:-----------------------|
+| MASTER CAUTION      | PUSH_AUTOPILOT_MASTERCAUT_{SIDE}  | 0..1   | R/W        | Custom LVAR              | 0=not pushed, 1=pushed |
+|                     |                                   |        |            |                          |                        |
+| MASTER WARNING      | PUSH_AUTOPILOT_MASTERAWARN_{SIDE} | 0..1   | R/W        | Custom LVAR              | 0=not pushed, 1=pushed |
+|                     |                                   |        |            |                          |                        |
+| CHRONO              | H:A32NX_EFIS_{SIDE}_CHRONO_PUSHED | -      | -          | HTML Event (aka H Event) |                        |
+|                     |                                   |        |            |                          |                        |
+| SIDE STICK PRIORITY | N/A                               |        |            |                          |                        |
+|                     |                                   |        |            |                          |                        |
+| AUTOLAND WARNING    | A32NX_AUTOPILOT_AUTOLAND_WARNING  | 0..1   | R          | Custom LVAR              |                        |
+|                     |                                   |        |            |                          |                        |
+| ATC MSG             | N/A                               |        |            |                          |                        |
 
 ## Instrument Panel
 
-### Instrument Lighting Control Panel
+### Display Unit Control Panel
 
-Flight Deck: [ILCP Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/front/ilcp.md)
+Flight Deck: [Display Unit Control Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/efis-reconf.md)
+
+To control the lighting knobs, the following API usage is available:
+
+SIMCONNECT EVENT: `SIMCONNECT:LIGHT_POTENTIOMETER_SET`
 
 | Function            | API Usage              | Values  | Read/Write | Type     | Remark |
 |:--------------------|:-----------------------|:--------|:-----------|:---------|:-------|
 | PFD Brt Cpt.        | LIGHT POTENTIOMETER:88 | 0..100  | R          | MSFS VAR |        |
-|                     |                        |         |            |          |        |
-| PFD/ND XFR Cpt.     | N/A                    |         |            |          |        |
-|                     |                        |         |            |          |        |
+| PFD/ND Cpt.         | N/A                    |         |            |          |        |
 | ND Brt Cpt.         | LIGHT POTENTIOMETER:89 | 0..100  | R          | MSFS VAR |        |
-|                     |                        |         |            |          |        |
 | WX/Terrain Brt Cpt. | LIGHT POTENTIOMETER:94 | 0..100  | R          | MSFS VAR |        |
-|                     |                        |         |            |          |        |
-| Loud Spkr Cpt.      | N/A                    |         |            |          |        |
-|                     |                        |         |            |          |        |
-| CONSOLE/FLOOR Cpt.  | LIGHT POTENTIOMETER:8  | 50..100 | R          | MSFS VAR |        |
+| OIT Brt. Cpt.       | N/A                    |         |            |          |        |
+| RECONF Cpt.         | N/A                    |         |            |          |        |
+| MFD Brt Cpt.        | LIGHT POTENTIOMETER:98 | 0..100  | R          | MSFS VAR |        |
 |                     |                        |         |            |          |        |
 | PFD Brt F.O.        | LIGHT POTENTIOMETER:90 | 0..100  | R          | MSFS VAR |        |
-|                     |                        |         |            |          |        |
-| PFD/ND XFR F.O.     | N/A                    |         |            |          |        |
-|                     |                        |         |            |          |        |
+| PFD/ND F.O.         | N/A                    |         |            |          |        |
 | ND Brt F.O.         | LIGHT POTENTIOMETER:91 | 0..100  | R          | MSFS VAR |        |
-|                     |                        |         |            |          |        |
 | WX/Terrain Brt F.O. | LIGHT POTENTIOMETER:95 | 0..100  | R          | MSFS VAR |        |
-|                     |                        |         |            |          |        |
-| Loud Spkr F.O.      | N/A                    |         |            |          |        |
-|                     |                        |         |            |          |        |
-| CONSOLE/FLOOR F.O.  | LIGHT POTENTIOMETER:9  | 50..100 | R          | MSFS VAR |        |
+| OIT Brt. F.O.       | N/A                    |         |            |          |        |
+| RECONF F.O.         | N/A                    |         |            |          |        |
+| MFD Brt F.O.        | LIGHT POTENTIOMETER:99 | 0..100  | R          | MSFS VAR |        |
 
 ### Autobrake, Gear Lever and Gear Annunciation
 
-Flight Deck: [Autobrake and Gear Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/front/autobrake-gear.md)
+Flight Deck: [Center Right Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/center-right.md)
 
-| Function              | API Usage                       | Values | Read/Write | Type             | Remark                             |
-|:----------------------|:--------------------------------|:-------|:-----------|:-----------------|:-----------------------------------|
-| Gear lever            | GEAR_UP                         | -      | -          | SIMCONNECT EVENT |                                    |
-|                       | GEAR_DOWN                       | -      | -          | SIMCONNECT EVENT |                                    |
-|                       | GEAR HANDLE POSITION            | 0..1   | R/W        | SIMCONNECT VAR   |                                    |
-|                       |                                 |        |            |                  |                                    |
-| LDG GEAR Annunciators | GEAR LEFT POSITION              | 0..100 | R          | SIMCONNECT VAR   |                                    |
-|                       | GEAR CENTER POSITION            | 0..100 | R          | SIMCONNECT VAR   |                                    |
-|                       | GEAR RIGHT POSITION             | 0..100 | R          | SIMCONNECT VAR   |                                    |
-|                       |                                 |        |            |                  |                                    |
-| AUTO BRK LO/MED/MAX   | A32NX_AUTOBRAKES_ARMED_MODE     | 0..3   | R          | Custom LVAR      | 0=DIS, 1=LO, 2=MED, 3=MAX          |
-|                       | A32NX_AUTOBRAKES_ARMED_MODE_SET | -1..3  | W          | Custom LVAR      | -1=techn. 0=DIS, 1=LO,2=MED, 3=MAX |
-|                       | A32NX_AUTOBRAKES_ACTIVE         | 0..1   | R          | Custom LVAR      | 0=not braking, 1=braking           |
-|                       | A32NX_AUTOBRAKES_DECEL_LIGHT    | 0..1   | R          | Custom LVAR      | 0=off, 1=on                        |
-|                       | A32NX.AUTOBRAKE_SET             | 1..4   |            | Custom EVENT     | 1=DIS, 2=LO, 3=MED, 4=MAX          |
-|                       | A32NX.AUTOBRAKE_SET_DISARM      | -      | -          | Custom EVENT     |                                    |
-|                       | A32NX.AUTOBRAKE_SET_LO          | -      | -          | Custom EVENT     |                                    |
-|                       | A32NX.AUTOBRAKE_SET_MED         | -      | -          | Custom EVENT     |                                    |
-|                       | A32NX.AUTOBRAKE_SET_MAX         | -      | -          | Custom EVENT     |                                    |
-|                       | A32NX.AUTOBRAKE_BUTTON_LO       | -      | -          | Custom EVENT     |                                    |
-|                       | A32NX.AUTOBRAKE_BUTTON_MED      | -      | -          | Custom EVENT     |                                    |
-|                       | A32NX.AUTOBRAKE_BUTTON_MAX      | -      | -          | Custom EVENT     |                                    |
-|                       |                                 |        |            |                  |                                    |
-| BRK FAN               | A32NX_BRAKE_FAN_BTN_PRESSED     | 0..1   | R/W        | Custom LVAR      |                                    |
-|                       |                                 |        |            |                  |                                    |
-| A/SKID & N/W STRG     | ANTISKID_BRAKES_TOGGLE          | -      | -          | SIMCONNECT EVENT |                                    |
-|                       | ANTISKID BRAKES ACTIVE          | 0..1   | R/W        | SIMCONNECT VAR   |                                    |
+| Function              | API Usage                             | Values  | Read/Write | Type             | Remark                                                              |
+|:----------------------|:--------------------------------------|:--------|:-----------|:-----------------|:--------------------------------------------------------------------|
+| Gear lever            | GEAR_UP                               | -       | -          | SIMCONNECT EVENT |                                                                     |
+|                       | GEAR_DOWN                             | -       | -          | SIMCONNECT EVENT |                                                                     |
+|                       | GEAR HANDLE POSITION                  | 0..1    | R/W        | SIMCONNECT VAR   |                                                                     |
+|                       | A32NX_GEAR_HANDLE_POSITION            | 0.0-1.0 | R/W        | Custom LVAR      |                                                                     |
+|                       |                                       |         |            |                  |                                                                     |
+| LDG GEAR Annunciators | GEAR LEFT POSITION                    | 0..100  | R          | SIMCONNECT VAR   |                                                                     |
+|                       | GEAR CENTER POSITION                  | 0..100  | R          | SIMCONNECT VAR   |                                                                     |
+|                       | GEAR RIGHT POSITION                   | 0..100  | R          | SIMCONNECT VAR   |                                                                     |
+|                       |                                       |         |            |                  |                                                                     |
+| REJECTED T.O          | A32NX_OVHD_AUTOBRK_RTO_ARM_IS_PRESSED | 0..1    | R/W        | Custom LVAR      |                                                                     |
+|                       | A32NX_AUTOBRAKES_RTO_ARMED            | 0..1    | R          | Custom LVAR      |                                                                     |
+|                       |                                       |         |            |                  |                                                                     |
+| AUTO BRK KNOB         | A32NX_AUTOBRAKES_SELECTED_MODE        | 0..5    | R/W        | Custom LVAR      | 0=DIS, 1=BTV, 2=LO, 3=L2, 4=L3, 5=HI                                |
+|                       | A32NX_AUTOBRAKES_ARMED_MODE           | 0..6    | R          | Custom LVAR      | 0=DIS, 1=BTV, 2=LO, 3=L2, 4=L3, 5=HI, 6=RTO                         |
+|                       | A32NX_AUTOBRAKES_DISARM_KNOB_REQ      | 0..1    | R          | Custom LVAR      | true(1) when autobrake knob solenoid resets knob position to DISARM |
+|                       |                                       |         |            |                  |                                                                     |
+| A/SKID & N/W STRG     | ANTISKID_BRAKES_TOGGLE                | -       | -          | SIMCONNECT EVENT |                                                                     |
+|                       | ANTISKID BRAKES ACTIVE                | 0..1    | R/W        | SIMCONNECT VAR   |                                                                     |
 
 ### ISIS
 
