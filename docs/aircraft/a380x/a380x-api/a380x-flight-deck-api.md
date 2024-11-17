@@ -607,11 +607,29 @@ Flight Deck: [Center Right Panel](../../../pilots-corner/a380x/a380x-briefing/fl
 
 ### ISIS
 
-Flight Deck: [ISIS Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/front/isis.md)
+Flight Deck: [ISIS Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/isis.md)
 
-| Function   | API Usage             | Values | Read/Write | Type        | Remark                                      |
-|:-----------|:----------------------|:-------|:-----------|:------------|:--------------------------------------------|
-| BRIGHTNESS | A32NX_BARO_BRIGHTNESS | 0..100 | R/W        | Custom LVAR | Auto-brightness - will automatically change |
+| Function | API Usage                        | Values | Read/Write | Type     | Remark                                      |
+|:---------|:---------------------------------|:-------|:-----------|:---------|:--------------------------------------------|
+| PLUS pb  | H:A32NX_ISIS_PLUS_PRESSED        | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_PLUS_RELEASED       | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          |                                  |        |            |          |                                             |
+| MINUS pb | H:A32NX_ISIS_MINUS_PRESSED       | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_MINUS_RELEASED      | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          |                                  |        |            |          |                                             |
+| MODE pb  | H:A32NX_ISIS_BUGS_PRESSED        | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_BUGS_RELEASED       | -      | -          |          |                                             |
+|          |                                  |        |            |          |                                             |
+| LS pb    | H:A32NX_ISIS_LS_PRESSED          | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_LS_RELEASED         | -      | -          |          |                                             |
+|          |                                  |        |            |          |                                             |
+| MENU pb  | H:A32NX_ISIS_RST_PRESSED         | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_RST_RELEASED        | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          |                                  |        |            |          |                                             |
+| KNOB     | H:A32NX_ISIS_KNOB_PRESSED        | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_KNOB_RELEASED       | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_KNOB_ANTI_CLOCKWISE | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_KNOB_CLOCKWISE      | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
 
 ### Clock
 
