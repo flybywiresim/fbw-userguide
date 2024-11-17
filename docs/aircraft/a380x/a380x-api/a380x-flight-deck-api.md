@@ -211,7 +211,7 @@ Flight Deck: [APU Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck
 
 ### RCDR Panel
 
-Flight Deck: [RCDR Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/voice-recorder.md)
+Flight Deck: [RCDR Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/rcdr-evac.md)
 
 | Function  | API Usage                    | Values | Read/Write | Type        | Remark |
 |:----------|:-----------------------------|:-------|:-----------|:------------|:-------|
@@ -383,7 +383,7 @@ Flight Deck: [Flight Control Panel](../../../pilots-corner/a380x/a380x-briefing/
 
 ### Lighting Knobs
 
-Flight Deck: [Glareshield Lighting Knobs](../../../pilots-corner/a380x/a380x-briefing/flight-deck/glareshield/light-knobs.md)
+Flight Deck: [Glareshield Lighting Knobs](../../../pilots-corner/a380x/a380x-briefing/flight-deck/glareshield/glare-underside.md)
 
 To control the lighting knobs, the following API usage is available:
 
@@ -401,7 +401,7 @@ SIMCONNECT EVENT: `SIMCONNECT:LIGHT_POTENTIOMETER_SET`
 
 ### EFIS Control Panel
 
-Flight Deck: [EFIS Control Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/glareshield/efis_control.md)
+Flight Deck: [EFIS Control Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/glareshield/efis.md)
 
 | Function           | API Usage                               | Values           | Read/Write | Type             | Remark                                                        |
 |:-------------------|:----------------------------------------|:-----------------|:-----------|:-----------------|:--------------------------------------------------------------|
@@ -436,7 +436,7 @@ Flight Deck: [EFIS Control Panel](../../../pilots-corner/a380x/a380x-briefing/fl
 
 ### FCU Panel
 
-Flight Deck: [FCU Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/glareshield/fcu.md)
+Flight Deck: [FCU Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/glareshield/afs.md)
 
 | Function          | API Usage                           | Values       | Read/Write | Type             | Remark                                                                   |
 |:------------------|:------------------------------------|:-------------|:-----------|:-----------------|:-------------------------------------------------------------------------|
@@ -554,6 +554,53 @@ Flight Deck: [Glareshield Side Panel](../../../pilots-corner/a380x/a380x-briefin
 
 ## Instrument Panel
 
+### Switching Panel
+
+Flight Deck: [Switching Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/switching.md)
+
+| Function    | API Usage                        | Values | Read/Write | Type        | Remark                |
+|:------------|:---------------------------------|:-------|:-----------|:------------|:----------------------|
+| ATT HDG     | A32NX_ATT_HDG_SWITCHING_KNOB     | 0..2   | R/W        | Custom LVAR | 0=CAPT, 1=NORM, 2=F/O |
+| AIR DATA    | A32NX_AIR_DATA_SWITCHING_KNOB    | 0..2   | R/W        | Custom LVAR | 0=CAPT, 1=NORM, 2=F/O |
+| EIS DMC     | A32NX_EIS_DMC_SWITCHING_KNOB     | 0..2   | R/W        | Custom LVAR | 0=CAPT, 1=NORM, 2=F/O |
+
+### ISIS
+
+Flight Deck: [ISIS Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/isis.md)
+
+| Function | API Usage                        | Values | Read/Write | Type     | Remark                                      |
+|:---------|:---------------------------------|:-------|:-----------|:---------|:--------------------------------------------|
+| PLUS pb  | H:A32NX_ISIS_PLUS_PRESSED        | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_PLUS_RELEASED       | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          |                                  |        |            |          |                                             |
+| MINUS pb | H:A32NX_ISIS_MINUS_PRESSED       | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_MINUS_RELEASED      | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          |                                  |        |            |          |                                             |
+| MODE pb  | H:A32NX_ISIS_BUGS_PRESSED        | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_BUGS_RELEASED       | -      | -          |          |                                             |
+|          |                                  |        |            |          |                                             |
+| LS pb    | H:A32NX_ISIS_LS_PRESSED          | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_LS_RELEASED         | -      | -          |          |                                             |
+|          |                                  |        |            |          |                                             |
+| MENU pb  | H:A32NX_ISIS_RST_PRESSED         | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_RST_RELEASED        | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          |                                  |        |            |          |                                             |
+| KNOB     | H:A32NX_ISIS_KNOB_PRESSED        | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_KNOB_RELEASED       | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_KNOB_ANTI_CLOCKWISE | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+|          | H:A32NX_ISIS_KNOB_CLOCKWISE      | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
+
+### Landing Gear Gravity Panel
+
+Flight Deck: [Gravity Geary Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/gravity-gear.md)
+
+| Function            | API Usage                          | Values | Read/Write | Type        | Remark                 |
+|:--------------------|:-----------------------------------|:-------|:-----------|:------------|:-----------------------|
+| MASTER SWITCH GUARD | A32NX_LG_GRVTY_MASTER_SWITCH_GUARD | 0..1   | R          | Custom LVAR |                        |
+| SWITCH GUARD LEFT   | A32NX_LG_GRVTY_SWITCH_GUARD_1      | 0..1   | R/W        | Custom LVAR |                        |
+| SWITCH GUARD RIGHT  | A32NX_LG_GRVTY_SWITCH_GUARD_2      | 0..1   | R/W        | Custom LVAR |                        |
+| MASTER SWITCH POS   | A32NX_LG_GRVTY_SWITCH_POS          | 0..2   | R/W        | Custom LVAR | 0=RESET, 1=OFF, 2=DOWN |
+
 ### Display Unit Control Panel
 
 Flight Deck: [Display Unit Control Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/efis-reconf.md)
@@ -605,110 +652,135 @@ Flight Deck: [Center Right Panel](../../../pilots-corner/a380x/a380x-briefing/fl
 | A/SKID & N/W STRG     | ANTISKID_BRAKES_TOGGLE                | -       | -          | SIMCONNECT EVENT |                                                                     |
 |                       | ANTISKID BRAKES ACTIVE                | 0..1    | R/W        | SIMCONNECT VAR   |                                                                     |
 
-### ISIS
-
-Flight Deck: [ISIS Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/isis.md)
-
-| Function | API Usage                        | Values | Read/Write | Type     | Remark                                      |
-|:---------|:---------------------------------|:-------|:-----------|:---------|:--------------------------------------------|
-| PLUS pb  | H:A32NX_ISIS_PLUS_PRESSED        | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
-|          | H:A32NX_ISIS_PLUS_RELEASED       | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
-|          |                                  |        |            |          |                                             |
-| MINUS pb | H:A32NX_ISIS_MINUS_PRESSED       | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
-|          | H:A32NX_ISIS_MINUS_RELEASED      | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
-|          |                                  |        |            |          |                                             |
-| MODE pb  | H:A32NX_ISIS_BUGS_PRESSED        | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
-|          | H:A32NX_ISIS_BUGS_RELEASED       | -      | -          |          |                                             |
-|          |                                  |        |            |          |                                             |
-| LS pb    | H:A32NX_ISIS_LS_PRESSED          | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
-|          | H:A32NX_ISIS_LS_RELEASED         | -      | -          |          |                                             |
-|          |                                  |        |            |          |                                             |
-| MENU pb  | H:A32NX_ISIS_RST_PRESSED         | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
-|          | H:A32NX_ISIS_RST_RELEASED        | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
-|          |                                  |        |            |          |                                             |
-| KNOB     | H:A32NX_ISIS_KNOB_PRESSED        | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
-|          | H:A32NX_ISIS_KNOB_RELEASED       | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
-|          | H:A32NX_ISIS_KNOB_ANTI_CLOCKWISE | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
-|          | H:A32NX_ISIS_KNOB_CLOCKWISE      | -      | -          | H: EVENT | Temporary until ISIS is refactored to A380X |
-
 ### Clock
 
-Flight Deck: [Chrono Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/front/clock.md)
+Flight Deck: [Chrono Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/center-right.md)
 
-| Function            | API Usage                    | Values                | Read/Write | Type        | Remark                       |
-|:--------------------|:-----------------------------|:----------------------|:-----------|:------------|:-----------------------------|
-| ELAPSED TIME SWITCH | A32NX_CHRONO_ET_SWITCH_POS   | 0..2                  | R/W        | Custom LVAR | 0 = RUN, 1 = STOP, 2 = RESET |
-| ELAPSED TIME        | A32NX_CHRONO_ET_ELAPSED_TIME | seconds with decimals | R          | Custom LVAR |                              |
-| CHRONO TIME         | A32NX_CHRONO_ELAPSED_TIME    | seconds with decimals | R          | Custom LVAR |                              |
-
-### TERR ON ND
-
-Flight Deck: [ND Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/front/nd.md)
-
-| Function     | API Usage                | Values | Read/Write | Type        | Remark |
-|:-------------|:-------------------------|:-------|:-----------|:------------|:-------|
-| TERR ON ND L | A32NX_EFIS_TERR_L_ACTIVE | 0..1   | R/W        | Custom LVAR |        |
-| TERR ON ND R | A32NX_EFIS_TERR_R_ACTIVE | 0..1   | R/W        | Custom LVAR |        |
-
-### DCDU
-
-Flight Deck: [DCDU Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/front/dcdu.md)
-
-note "The below table shows the API for left DCDU. Replace `L` with `R` for the right DCDU."
-
-| Function    | API Usage                     | Values | Read/Write | Type     | Remark |
-|:------------|:------------------------------|:-------|:-----------|:---------|:-------|
-| BRT / DIM L | A32NX_PANEL_DCDU_L_BRIGHTNESS | 0..100 | R/W        | MSFS VAR |        |
+| Function            | API Usage                  | Values | Read/Write | Type        | Remark                       |
+|:--------------------|:---------------------------|:-------|:-----------|:------------|:-----------------------------|
+| ELAPSED TIME SWITCH | A32NX_CHRONO_ET_SWITCH_POS | 0..2   | R/W        | Custom LVAR | 0 = RUN, 1 = STOP, 2 = RESET |
+| RST pb              | H:A32NX_CHRONO_RST         | -      | -          | H: Event    |                              |
+| CHR pb              | H:A32NX_CHRONO_TOGGLE      | -      | -          | H: Event    |                              |
+| DATE pb             | H:A32NX_CHRONO_DATE        | -      | -          | H: Event    |                              |
 
 ## Pedestal
 
-### MCDU Panel
+### Lighting  Panel
 
-Flight Deck: [MCDU Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/mcdu.md)
+Flight Deck: [Lighting Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/cockpit-lighting.md)
 
-!!! note "The below table shows the API for left MCDU. Replace `L` with `R` for the right MCDU."
+To control the lighting knobs, the following API usage is available:
 
-| Function    | API Usage               | Values | Read/Write | Type     | Remark |
-|:------------|:------------------------|:-------|:-----------|:---------|:-------|
-| BRT / DIM L | A32NX_MCDU_L_BRIGHTNESS | 0..100 | R/W        | MSFS VAR |        |
+SIMCONNECT EVENT: `SIMCONNECT:LIGHT_POTENTIOMETER_SET`
 
-### Switching Panel
+| Function          | API Usage              | Values | Read/Write | Type     | Remark      |
+|:------------------|:-----------------------|:-------|:-----------|:---------|:------------|
+| INTEG LT          | LIGHT POTENTIOMETER:85 | 0..100 | R          | MSFS VAR |             |
+| MAIN PNL FLOOD LT | LIGHT POTENTIOMETER:83 | 0..100 | R          | MSFS VAR |             |
+| PEDESTAL FLOOD LT | LIGHT POTENTIOMETER:76 | 0..100 | R          | MSFS VAR |             |
+| AMBIENT LT        | LIGHT POTENTIOMETER:7  | 0..100 | R          | MSFS VAR | aka DOME Lt |
 
-Flight Deck: [Switching Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/switching.md)
+### KCCU Panel
 
-| Function    | API Usage                        | Values | Read/Write | Type        | Remark                |
-|:------------|:---------------------------------|:-------|:-----------|:------------|:----------------------|
-| ATT HDG     | A32NX_ATT_HDG_SWITCHING_KNOB     | 0..2   | R/W        | Custom LVAR | 0=CAPT, 1=NORM, 2=F/O |
-|             |                                  |        |            |             |                       |
-| AIR DATA    | A32NX_AIR_DATA_SWITCHING_KNOB    | 0..2   | R/W        | Custom LVAR | 0=CAPT, 1=NORM, 2=F/O |
-|             |                                  |        |            |             |                       |
-| EIS DMC     | A32NX_EIS_DMC_SWITCHING_KNOB     | 0..2   | R/W        | Custom LVAR | 0=CAPT, 1=NORM, 2=F/O |
-|             |                                  |        |            |             |                       |
-| ECAM/NA XFR | A32NX_ECAM_ND_XFR_SWITCHING_KNOB | 0..2   | R/W        | Custom LVAR | 0=CAPT, 1=NORM, 2=F/O |
+Flight Deck: [KCCU Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/kccu.md)
+
+| Function  | API Usage                    | Values | Read/Write | Type        |   | Remark         |
+|:----------|:-----------------------------|:-------|:-----------|:------------|:--|:---------------|
+| KEY Press | H:A32NX_KCCU_{SIDE}_{KEY}    | -      | -          | H: EVENT    |   | See list below |
+|           |                              |        |            |             |   |                |
+| KBD sw    | A32NX_KCCU_{SIDE}_KBD_ON_OFF | 0..1   | R/W        | Custom LVAR |   |                |
+| CCD sw    | A32NX_KCCU_{SIDE}_CCD_ON_OFF | 0..1   | R/W        | Custom LVAR |   |                |
+
+??? note "KCCU Keys"
+    - KBD
+    - CCD
+    - 0..9
+    - DOT
+    - PLUSMINUS
+    - A..Z
+    - ESC
+    - UP
+    - RIGHT
+    - DOWN
+    - SIDE
+    - DIR
+    - PERF
+    - INIT
+    - NAVAID
+    - MAILBOX
+    - FPLN
+    - DEST
+    - SECINDEX
+    - SURV
+    - ATCCOM
+    - ND
+    - SLASH
+    - ESC2
+    - KBD
+    - REWIND
+    - FORWARD
+    - ENT
+    - BACKSPACE
+    - SP
+    - CLRINFO
+
+### Thrust Lever 
+
+Flight Deck: [Thrust Lever Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/throttle.md)
+
+| Function              | API Usage                   | Values        | Read/Write | Type             | Remark  |
+|:----------------------|:----------------------------|:--------------|:-----------|:-----------------|:--------|
+| Throttle {NUM} Axis   | THROTTLE{NUM}_AXIS_SET_EX1  | -16383..16384 | -          | MSFS EVENT       |         |
+|                       |                             |               |            |                  |         |
+| AUTO THRUST DISENGAGE | AUTO_THROTTLE_ARM           | -             | -          | SIMCONNECT EVENT | Toggles |
+|                       | A32NX_AUTOTHRUST_DISCONNECT | 0..1          | R          | Custom LVAR      |         |
+
+### RMP
+
+Flight Deck: [RMP Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/rmp.md)
+
+The RMP panel consequently uses InputEvents (aka B: Events) to control the RMPs.
+
+See the [RMP API developer documentation](https://github.com/flybywiresim/aircraft/blob/master/fbw-a380x/docs/a380x-input-events.md#23---communications){target=_blank}.
+
+### ENG Panel
+
+Flight Deck: [ENG Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/engine.md)
+
+| Function       | API Usage                      | Values | Read/Write | Type       |   | Remark                 |
+|:---------------|:-------------------------------|:-------|:-----------|:-----------|:--|:-----------------------|
+| ENG 1+2 MASTER | FUELSYSTEM_VALVE_OPEN          | -      | -          | MSFS EVENT |   | Activates the switch   |
+|                | FUELSYSTEM_VALVE_CLOSE         | -      | -          | MSFS EVENT |   | Deactivates the switch |
+|                | FUELSYSTEM VALVE SWITCH:1      | 0..1   | R          | MSFS VAR   |   |                        |
+|                | FUELSYSTEM VALVE SWITCH:2      | 0..1   | R          | MSFS VAR   |   |                        |
 
 ### ECAM Control Panel
 
-Flight Deck: [ECAM Control Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/ecam-control.md)
+Flight Deck: [ECAM Control Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/ecam-cp.md)
 
-| Function              | API Usage                        | Values | Read/Write | Type        | Remark                                                                     |
-|:----------------------|:---------------------------------|:-------|:-----------|:------------|:---------------------------------------------------------------------------|
-| Upper Display         | LIGHT POTENTIOMETER:92           | 0..100 | R          | MSFS VAR    |                                                                            |
-|                       |                                  |        |            |             |                                                                            |
-| Lower Display         | LIGHT POTENTIOMETER:93           | 0..100 | R          | MSFS VAR    |                                                                            |
-|                       |                                  |        |            |             |                                                                            |
-| ECAM SD Page button   | A32NX_ECAM_SD_CURRENT_PAGE_INDEX | -1..12 | R/W        | Custom LVAR | See below.                                                                 |
-|                       |                                  |        |            |             |                                                                            |
-| Left CLR  button      | A32NX_BTN_CLR                    | 0..1   | R/W        | Custom LVAR | This is a momentary button - it needs to be reset to 0 by the API user     |
-|                       |                                  |        |            |             |                                                                            |
-| Right CLR button      | A32NX_BTN_CLR2                   | 0..1   | R/W        | Custom LVAR | This is a momentary button - it needs to be reset to 0 by the API user     |
-|                       |                                  |        |            |             |                                                                            |
-| RCL button            | A32NX_BTN_RCL                    | 0..1   | R/W        | Custom LVAR | This is a momentary button - it needs to be reset to 0 by the API user     |
-|                       |                                  |        |            |             |                                                                            |
-| T.O. CONFIG button    | A32NX_BTN_TOCONFIG               | 0..1   | R/W        | Custom LVAR | This is a momentary button - it needs to be reset to 0 by the API user     |
-|                       |                                  |        |            |             |                                                                            |
-| EMER CANC button      | A32NX_BTN_EMERCANC               | 0..1   | R/W        | Custom LVAR | This is a momentary button - it needs to be reset to 0 by the API user     |
-|                       |                                  |        |            |             |                                                                            |
-| Page to show on error | A32NX_ECAM_SFAIL                 | -1..12 | R          | Custom LVAR | See below. <br/>Has the page index of the page called by the error message |
+!!! note "The below LVARs are momentary buttons - they need to be reset to 0 by the API user." 
+
+| Function         | API Usage                        | Values | Read/Write | Type        | Remark     |
+|:-----------------|:---------------------------------|:-------|:-----------|:------------|:-----------|
+| ECAM SD Page pb  | A32NX_ECAM_SD_CURRENT_PAGE_INDEX | -1..12 | R/W        | Custom LVAR | See below. |
+|                  |                                  |        |            |             |            |
+| T.O. CONFIG pb   | A32NX_BTN_TOCONFIG               | 0..1   | R/W        | Custom LVAR |            |
+| C/L  pb          | A32NX_BTN_CL                     | 0..1   | R/W        | Custom LVAR |            |
+| CHECK L pb       | A32NX_BTN_CHECK_LH               | 0..1   | R/W        | Custom LVAR |            |
+| CHECK R pb       | A32NX_BTN_CHECK_RH               | 0..1   | R/W        | Custom LVAR |            |
+| ABNPROC  pb      | A32NX_BTN_ABNPROC                | 0..1   | R/W        | Custom LVAR |            |
+| EMERCANC  pb     | A32NX_BTN_EMERCANC               | 0..1   | R/W        | Custom LVAR |            |
+|                  |                                  |        |            |             |            |
+| UP pb            | A32NX_BTN_UP                     | 0..1   | R/W        | Custom LVAR |            |
+| DOWN pb          | A32NX_BTN_DOWN                   | 0..1   | R/W        | Custom LVAR |            |
+|                  |                                  |        |            |             |            |
+| Left CLR  button | A32NX_BTN_CLR                    | 0..1   | R/W        | Custom LVAR |            |
+| RCL button       | A32NX_BTN_RCL                    | 0..1   | R/W        | Custom LVAR |            |
+| MORE button      | A32NX_BTN_MORE                   | 0..1   | R/W        | Custom LVAR |            |
+| Right CLR button | A32NX_BTN_CLR2                   | 0..1   | R/W        | Custom LVAR |            |
+|                  |                                  |        |            |             |            |
+| EWD DU BRT       | LIGHT POTENTIOMETER:92           | 0..100 | R          | MSFS VAR    |            |
+| SD DU BRT        | LIGHT POTENTIOMETER:93           | 0..100 | R          | MSFS VAR    |            |
 
 A32NX_ECAM_SD_CURRENT_PAGE_INDEX:
 
@@ -718,128 +790,23 @@ A32NX_ECAM_SD_CURRENT_PAGE_INDEX:
 }
 </style>
 
-- -1  = none
-- 0  = ENG
-- 1  = BLEED
-- 2  = PRESS
-- 3  = ELEC
-- 4  = HYD
-- 5  = FUEL
-- 6  = APU
-- 7  = COND
-- 8  = DOOR
-- 9  = WHEEL
-- 10 = F-CTL
-- 11 = STS
-- 12 = CRUISE
-
-### Thrust Lever and Trim Wheel
-
-Flight Deck: [Thrust Lever Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/thrust-pitch-trim.md)
-
-| Function              | API Usage                   | Values        | Read/Write | Type             | Remark  |
-|:----------------------|:----------------------------|:--------------|:-----------|:-----------------|:--------|
-| Throttle 1 Axis       | THROTTLE1_AXIS_SET_EX1      | -16383..16384 | -          | MSFS EVENT       |         |
-|                       |                             |               |            |                  |         |
-| Throttle 2 Axis       | THROTTLE2_AXIS_SET_EX1      | -16383..16384 | -          | MSFS EVENT       |         |
-|                       |                             |               |            |                  |         |
-| AUTO THRUST DISENGAGE | AUTO_THROTTLE_ARM           | -             | -          | SIMCONNECT EVENT | Toggles |
-|                       | A32NX_AUTOTHRUST_DISCONNECT | 0..1          | R          | Custom LVAR      |         |
-
-### RMP
-
-Flight Deck: [RMP Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/rmp.md)
-
-!!! note "The below table shows the API for RMP 1. Replace `1` with `2` or `3` for the other RMPs."
-
-| Function         | API Usage                 | Values           | Read/Write | Type             | Remark                        |
-|:-----------------|:--------------------------|:-----------------|:-----------|:-----------------|:------------------------------|
-| Active Frequency | COM ACTIVE FREQUENCY:1    | 118.000..136.975 | R/W        | SIMCONNECT VAR   |                               |
-|                  |                           |                  |            |                  |                               |
-| Stdby Frequency  | COM STANDBY FREQUENCY:1   | 118.000..136.975 | R/W        | SIMCONNECT VAR   |                               |
-|                  |                           |                  |            |                  |                               |
-| XFER Frequency   | COM1_RADIO_SWAP           | -                | -          | SIMCONNECT EVENT |                               |
-|                  |                           |                  |            |                  |                               |
-| RMP MODE         | A32NX_RMP_L_SELECTED_MODE | 0..3             | R/W        | Custom LVAR      | 0=SEL, 1=VHF1, 2=VHF2, 3=VHF3 |
-|                  |                           |                  |            |                  |                               |
-| RMP ON/OFF       | A32NX_RMP_L_TOGGLE_SWITCH | 0..1             | R/W        | Custom LVAR      |                               |
-|                  |                           |                  |            |                  |                               |
-| Transmit VHF1    | COM TRANSMIT:1            | 0..1             | R          | SIMCONNECT VAR   |                               |
-|                  |                           |                  |            |                  |                               |
-| Transmit VHF2    | COM TRANSMIT:2            | 0..1             | R          | SIMCONNECT VAR   |                               |
-|                  |                           |                  |            |                  |                               |
-| Transmit VHF3    | COM TRANSMIT:3            | 0..1             | R          | SIMCONNECT VAR   |                               |
-
-### Lighting Pedestal Captain Side Panel
-
-Flight Deck: [Lighting Pedestal Cpt. Side Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/lighting-capt.md)
-
-| Function      | API Usage              | Values | Read/Write | Type     | Remark       |
-|:--------------|:-----------------------|:-------|:-----------|:---------|:-------------|
-| FLOOD LT Cpt  | LIGHT POTENTIOMETER:83 | 0..100 | R          | MSFS VAR |              |
-|               |                        |        |            |          |              |
-| INTEG LT      | LIGHT POTENTIOMETER:85 | 0..100 | R          | MSFS VAR |              |
-|               |                        |        |            |          |              |
-| FLOOD LT F.O. | LIGHT POTENTIOMETER:76 | 0..100 | R          | MSFS VAR | On F.O. side |
-
-### WX Radar
-
-Flight Deck: [WX Radar Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/radar.md)
-
-| Function   | API Usage                       | Values | Read/Write | Type        | Remark                      |
-|:-----------|:--------------------------------|:-------|:-----------|:------------|:----------------------------|
-| SYS        | XMLVAR_A320_WEATHERRADAR_SYS    | 0..2   | R/W        | Custom LVAR | 0=1, 1=OFF, 2=2             |
-|            |                                 |        |            |             |                             |
-| PWS        | A32NX_SWITCH_RADAR_PWS_POSITION | 0..1   | R/W        | Custom LVAR | 0=OFF, 1=AUTO               |
-|            |                                 |        |            |             |                             |
-| MODE       | XMLVAR_A320_WEATHERRADAR_MODE   | 0..3   | R/W        | Custom LVAR | 0=WX, 1=WX+T, 2=TURB, 3=MAP |
-|            |                                 |        |            |             |                             |
-| GAIN       | N/A                             |        |            |             |                             |
-|            |                                 |        |            |             |                             |
-| MULTISCANS | N/A                             |        |            |             |                             |
-|            |                                 |        |            |             |                             |
-| GCS        | N/A                             |        |            |             |                             |
-|            |                                 |        |            |             |                             |
-| TILT       | N/A                             |        |            |             |                             |
-
-
-### ATC-TCAS
-
-Flight Deck: [ATC-TCAS Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/atc-tcas.md)
-
-| Function     | API Usage                          | Values      | Read/Write | Type             | Remark                      |
-|:-------------|:-----------------------------------|:------------|:-----------|:-----------------|:----------------------------|
-| ATC MODE     | A32NX_TRANSPONDER_MODE             | 0..2        | R/W        | Custom LVAR      | 0=STBY, 1=AUTO, 2=ON        |
-|              |                                    |             |            |                  |                             |
-| ATC SYSTEM   | A32NX_TRANSPONDER_SYSTEM           | 0..1        | R/W        | Custom LVAR      | 0 = System 1, 1 = System 2  |
-|              |                                    |             |            |                  |                             |
-| ALT RPTG     | A32NX_SWITCH_ATC_ALT               | 0..1        | R/W        | Custom LVAR      | 0=OFF, 1=ON                 |
-|              |                                    |             |            |                  |                             |
-| SQUAWK       | TRANSPONDER CODE:1                 | 0000...7777 | R/W        | SIMCONNECT VAR   |                             |
-|              |                                    |             |            |                  |                             |
-| IDENT        | XPNDR_IDENT_ON                     | -           | -          | SIMCONNECT EVENT |                             |
-|              |                                    |             |            |                  |                             |
-| TCAS MODE    | A32NX_SWITCH_TCAS_TRAFFIC_POSITION | 0..3        | R/W        | Custom LVAR      | 0=THRT, 1=ALL, 2=ABV, 3=BLW |
-|              |                                    |             |            |                  |                             |
-| TCAS TRAFFIC | A32NX_SWITCH_TCAS_POSITION         | 0..2        | R/W        | Custom LVAR      | 0=STBY, 1=TA, 2=TA/RA       |
-
-### ENG Panel
-
-Flight Deck: [ENG Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/engine.md)
-
-| Function       | API Usage                      | Values | Read/Write | Type       | Remark                 |
-|:---------------|:-------------------------------|:-------|:-----------|:-----------|:-----------------------|
-| ENG 1+2 MASTER | FUELSYSTEM_VALVE_OPEN          | 1 .. 2 | -          | MSFS EVENT | Activates the switch   |
-|                | FUELSYSTEM_VALVE_CLOSE         | 1 .. 2 | -          | MSFS EVENT | Deactivates the switch |
-|                | FUELSYSTEM VALVE SWITCH:1      | 0..1   | R          | MSFS VAR   |                        |
-|                | FUELSYSTEM VALVE SWITCH:2      | 0..1   | R          | MSFS VAR   |                        |
-|                |                                |        |            |            |                        |
-| MODE           | TURBINE_IGNITION_SWITCH_SET1   | 0..2   | -          | MSFS EVENT | 0=CRANK, 1=NORM, 2=IGN |
-|                | TURBINE_IGNITION_SWITCH_SET2   | 0..2   | -          | MSFS EVENT | 0=CRANK, 1=NORM, 2=IGN |
-|                | TURB ENG IGNITION SWITCH EX1:1 | 0..2   | R/W        | MSFS VAR   | 0=CRANK, 1=NORM, 2=IGN |
-|                | TURB ENG IGNITION SWITCH EX1:2 | 0..2   | R/W        | MSFS VAR   | 0=CRANK, 1=NORM, 2=IGN |
-|                |                                |        |            |            |                        |
-| FIRE 1 + 2     | N/A                            |        |            |            |                        |
+- None = -1,
+- Eng = 0,
+- Apu = 1,
+- Bleed = 2,
+- Cond = 3,
+- Press = 4,
+- Door = 5,
+- ElecAc = 6,
+- ElecDc = 7,
+- Fuel = 8,
+- Wheel = 9,
+- Hyd = 10,
+- Fctl = 11,
+- Cb = 12,
+- Crz = 13,
+- Status = 14,
+- Video = 15,
 
 ### Speed Brake
 
@@ -853,6 +820,8 @@ Flight Deck: [Speed Brake Panel](../../../pilots-corner/a380x/a380x-briefing/fli
 | GND SPOILER ARM  | SPOILERS_ARM_TOGGLE            | -        | -          | SIMCONNECT EVENT |                                  |
 |                  | SPOILERS ARMED                 | 0..1     | R/W        | SIMCONNECT VAR   |                                  |
 |                  | A32NX_SPOILERS_ARMED           | 0..1     | R          | Custom LVAR      |                                  |
+
+### Surveillance Panel
 
 ### Flaps
 
@@ -905,6 +874,50 @@ Flight Deck: [Cockpit Door Panel](../../../pilots-corner/a380x/a380x-briefing/fl
 | COCKPIT DOOR | A32NX_COCKPIT_DOOR_LOCKED | 0..1   | R/W        | Custom LVAR |        |
 |              |                           |        |            |             |        |
 | VIDEO        | PUSH_DOORPANEL_VIDEO      | 0..1   | R/W        | Custom LVAR |        |
+
+
+
+### WX Radar
+
+Flight Deck: [WX Radar Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/radar.md)
+
+| Function   | API Usage                       | Values | Read/Write | Type        | Remark                      |
+|:-----------|:--------------------------------|:-------|:-----------|:------------|:----------------------------|
+| SYS        | XMLVAR_A320_WEATHERRADAR_SYS    | 0..2   | R/W        | Custom LVAR | 0=1, 1=OFF, 2=2             |
+|            |                                 |        |            |             |                             |
+| PWS        | A32NX_SWITCH_RADAR_PWS_POSITION | 0..1   | R/W        | Custom LVAR | 0=OFF, 1=AUTO               |
+|            |                                 |        |            |             |                             |
+| MODE       | XMLVAR_A320_WEATHERRADAR_MODE   | 0..3   | R/W        | Custom LVAR | 0=WX, 1=WX+T, 2=TURB, 3=MAP |
+|            |                                 |        |            |             |                             |
+| GAIN       | N/A                             |        |            |             |                             |
+|            |                                 |        |            |             |                             |
+| MULTISCANS | N/A                             |        |            |             |                             |
+|            |                                 |        |            |             |                             |
+| GCS        | N/A                             |        |            |             |                             |
+|            |                                 |        |            |             |                             |
+| TILT       | N/A                             |        |            |             |                             |
+
+### ATC-TCAS
+
+Flight Deck: [ATC-TCAS Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/atc-tcas.md)
+
+| Function     | API Usage                          | Values      | Read/Write | Type             | Remark                      |
+|:-------------|:-----------------------------------|:------------|:-----------|:-----------------|:----------------------------|
+| ATC MODE     | A32NX_TRANSPONDER_MODE             | 0..2        | R/W        | Custom LVAR      | 0=STBY, 1=AUTO, 2=ON        |
+|              |                                    |             |            |                  |                             |
+| ATC SYSTEM   | A32NX_TRANSPONDER_SYSTEM           | 0..1        | R/W        | Custom LVAR      | 0 = System 1, 1 = System 2  |
+|              |                                    |             |            |                  |                             |
+| ALT RPTG     | A32NX_SWITCH_ATC_ALT               | 0..1        | R/W        | Custom LVAR      | 0=OFF, 1=ON                 |
+|              |                                    |             |            |                  |                             |
+| SQUAWK       | TRANSPONDER CODE:1                 | 0000...7777 | R/W        | SIMCONNECT VAR   |                             |
+|              |                                    |             |            |                  |                             |
+| IDENT        | XPNDR_IDENT_ON                     | -           | -          | SIMCONNECT EVENT |                             |
+|              |                                    |             |            |                  |                             |
+| TCAS MODE    | A32NX_SWITCH_TCAS_TRAFFIC_POSITION | 0..3        | R/W        | Custom LVAR      | 0=THRT, 1=ALL, 2=ABV, 3=BLW |
+|              |                                    |             |            |                  |                             |
+| TCAS TRAFFIC | A32NX_SWITCH_TCAS_POSITION         | 0..2        | R/W        | Custom LVAR      | 0=STBY, 1=TA, 2=TA/RA       |
+
+
 
 ## Side Stick
 
