@@ -29,7 +29,7 @@ Find the complete list of Custom Event and Custom LVARS of the A380X:
 - **Type**: The type of the API variable or event (see [below](#api-var-and-event-types)).
 - **Remark**: Additional information about the API variable or event.
 
-To shorten the length of the table we use the following placeholders for the API disignations:
+To shorten the length of the table, we use the following placeholders for the API designations:
 
 - `{SIDE}`: Replace with `L` for left, `R` for right (and sometimes `C` for Center).
 - `{NUM}`: Replace with `1` for the first, `2` for the second, `3` for the third, `4` for the fourth.
@@ -68,42 +68,42 @@ _[MSFS Avionics Framework on H Events](https://microsoft.github.io/msfs-avionics
 
 Flight Deck:  [ELEC Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/elec.md)
 
-| Function         | API Usage                                     | Values     | Read/Write | Type             | Remark                                                                      |
-|:-----------------|:----------------------------------------------|:-----------|:-----------|:-----------------|:----------------------------------------------------------------------------|
-| BAT {NUM}        | A32NX_OVHD_ELEC_BAT_{NUM}_PB_IS_AUTO          | 0..1       | R/W        | Custom LVAR      |                                                                             |
-|                  | A32NX_OVHD_ELEC_BAT_{NUM}_PB_HAS_FAULT        | 0..1       | R/W        | Custom LVAR      |                                                                             |
-| BAT ESS+APU      | A32NX_OVHD_ELEC_BAT_{ESS\|APU}_PB_IS_AUTO     | 0..1       | R/W        | Custom LVAR      |                                                                             |
-|                  | A32NX_OVHD_ELEC_BAT_{ESS\|APU}_PB_HAS_FAULT   | 0..1       | R/W        | Custom LVAR      |                                                                             |
-|                  |                                               |            |            |                  |                                                                             |
-| EXT PWR {NUM}    | SET_EXTERNAL_POWER                            | 1..4, 0..1 | -          | MSFS EVENT       | This event takes 2 parameters - the number of the index 1..4 and OFF/ON=0/1 |
-|                  | EXTERNAL POWER AVAILABLE:{NUM}                | 0..1       | R          | MSFS VAR         |                                                                             |
-|                  | EXTERNAL POWER ON:{NUM}                       | 0..1       | R          | MSFS VAR         |                                                                             |
-|                  |                                               |            |            |                  |                                                                             |
-| GEN {NUM}        | TOGGLE_ALTERNATOR:{NUM}                       | -          | -          | SIMCONNECT EVENT |                                                                             |
-|                  | GENERAL ENG MASTER ALTERNATOR:{NUM}           | 0..1       | R/W        | SIMCONNECT VAR   |                                                                             |
-|                  | A32NX_OVHD_ELEC_ENG_GEN_{NUM}_PB_HAS_FAULT    | 0..1       | R          | Custom LVAR      |                                                                             |
-|                  |                                               |            |            |                  |                                                                             |
-| APU GEN          | APU_GENERATOR_SWITCH_TOGGLE                   | 1..2       | -          | SIMCONNECT EVENT |                                                                             |
-|                  | APU_GENERATOR_SWITCH_SET                      | 0..1       | -          | SIMCONNECT EVENT |                                                                             |
-|                  | APU GENERATOR SWITCH                          | 0..1       | R/W        | SIMCONNECT VAR   |                                                                             |
-|                  | A32NX_OVHD_ELEC_APU_GEN_{NUM}_PB_HAS_FAULT    | 0..1       | R          | Custom LVAR      |                                                                             |
-|                  |                                               |            |            |                  |                                                                             |
-| BUS TIE          | A32NX_OVHD_ELEC_BUS_TIE_PB_IS_AUTO            | 0..1       | R/W        | Custom LVAR      |                                                                             |
-|                  | A32NX_OVHD_ELEC_BUS_TIE_PB_HAS_FAULT          | 0..1       | R          | Custom LVAR      |                                                                             |
-|                  |                                               |            |            |                  |                                                                             |
-| AC ESS FEED      | A32NX_OVHD_ELEC_AC_ESS_FEED_PB_IS_NORMAL      | 0..1       | R/W        | Custom LVAR      |                                                                             |
-|                  | A32NX_OVHD_ELEC_AC_ESS_FEED_PB_HAS_FAULT      | 0..1       | R          | Custom LVAR      |                                                                             |
+| Function         | API Usage                                          | Values     | Read/Write | Type             | Remark                                                                      |
+|:-----------------|:---------------------------------------------------|:-----------|:-----------|:-----------------|:----------------------------------------------------------------------------|
+| BAT {NUM}        | A32NX_OVHD_ELEC_BAT_{NUM}_PB_IS_AUTO               | 0..1       | R/W        | Custom LVAR      |                                                                             |
+|                  | A32NX_OVHD_ELEC_BAT_{NUM}_PB_HAS_FAULT             | 0..1       | R/W        | Custom LVAR      |                                                                             |
+| BAT ESS+APU      | A32NX_OVHD_ELEC_BAT_{ESS\|APU}_PB_IS_AUTO          | 0..1       | R/W        | Custom LVAR      |                                                                             |
+|                  | A32NX_OVHD_ELEC_BAT_{ESS\|APU}_PB_HAS_FAULT        | 0..1       | R/W        | Custom LVAR      |                                                                             |
+|                  |                                                    |            |            |                  |                                                                             |
+| EXT PWR {NUM}    | SET_EXTERNAL_POWER                                 | 1..4, 0..1 | -          | MSFS EVENT       | This event takes 2 parameters - the number of the index 1..4 and OFF/ON=0/1 |
+|                  | EXTERNAL POWER AVAILABLE:{NUM}                     | 0..1       | R          | MSFS VAR         |                                                                             |
+|                  | EXTERNAL POWER ON:{NUM}                            | 0..1       | R          | MSFS VAR         |                                                                             |
+|                  |                                                    |            |            |                  |                                                                             |
+| GEN {NUM}        | TOGGLE_ALTERNATOR:{NUM}                            | -          | -          | SIMCONNECT EVENT |                                                                             |
+|                  | GENERAL ENG MASTER ALTERNATOR:{NUM}                | 0..1       | R/W        | SIMCONNECT VAR   |                                                                             |
+|                  | A32NX_OVHD_ELEC_ENG_GEN_{NUM}_PB_HAS_FAULT         | 0..1       | R          | Custom LVAR      |                                                                             |
+|                  |                                                    |            |            |                  |                                                                             |
+| APU GEN          | APU_GENERATOR_SWITCH_TOGGLE                        | 1..2       | -          | SIMCONNECT EVENT |                                                                             |
+|                  | APU_GENERATOR_SWITCH_SET                           | 0..1       | -          | SIMCONNECT EVENT |                                                                             |
+|                  | APU GENERATOR SWITCH                               | 0..1       | R/W        | SIMCONNECT VAR   |                                                                             |
+|                  | A32NX_OVHD_ELEC_APU_GEN_{NUM}_PB_HAS_FAULT         | 0..1       | R          | Custom LVAR      |                                                                             |
+|                  |                                                    |            |            |                  |                                                                             |
+| BUS TIE          | A32NX_OVHD_ELEC_BUS_TIE_PB_IS_AUTO                 | 0..1       | R/W        | Custom LVAR      |                                                                             |
+|                  | A32NX_OVHD_ELEC_BUS_TIE_PB_HAS_FAULT               | 0..1       | R          | Custom LVAR      |                                                                             |
+|                  |                                                    |            |            |                  |                                                                             |
+| AC ESS FEED      | A32NX_OVHD_ELEC_AC_ESS_FEED_PB_IS_NORMAL           | 0..1       | R/W        | Custom LVAR      |                                                                             |
+|                  | A32NX_OVHD_ELEC_AC_ESS_FEED_PB_HAS_FAULT           | 0..1       | R          | Custom LVAR      |                                                                             |
 | AC ESS FEED LOCK | A32NX_OVHD_ELEC_AC_ESS<br/>_FEED_PB_IS_NORMAL_LOCK | 0..1       | R          | Custom LVAR      |                                                                             |
-|                  |                                               |            |            |                  |                                                                             |
-| DRIVE {NUM}      | A32NX_OVHD_ELEC_IDG_{NUM}_PB_IS_RELEASED      | 0 -> 1     | R/W        | Custom LVAR      | Cannot be undone - flight restart required                                  |
-|                  | A32NX_OVHD_ELEC_IDG_{NUM}_PB_HAS_FAULT        | 0..1       | R          | Custom LVAR      |                                                                             |
-|                  |                                               |            |            |                  |                                                                             |
-| GALY & CAB       | A32NX_OVHD_ELEC_GALY_AND_CAB_PB_IS_AUTO       | 0..1       | R/W        | Custom LVAR      | Current connected with PAX SYS                                              |
-|                  | A32NX_OVHD_ELEC_GALY_AND_CAB_PB_HAS_FAULT     | 0..1       | R          | Custom LVAR      |                                                                             |
-|                  |                                               |            |            |                  |                                                                             |
-| COMMERCIAL       | A32NX_OVHD_ELEC_COMMERCIAL_PB_IS_AUTO         | 0..1       | R/W        | Custom LVAR      | Currently 1+2 and ELMU are connected                                        |
-|                  | A32NX_OVHD_ELEC_COMMERCIAL_PB_HAS_FAULT       | 0..1       | R          | Custom LVAR      | Currently 1+2 and ELMU are connected                                        |
-|                  |                                               |            |            |                  |                                                                             |
+|                  |                                                    |            |            |                  |                                                                             |
+| DRIVE {NUM}      | A32NX_OVHD_ELEC_IDG_{NUM}_PB_IS_RELEASED           | 0 -> 1     | R/W        | Custom LVAR      | Cannot be undone - flight restart required                                  |
+|                  | A32NX_OVHD_ELEC_IDG_{NUM}_PB_HAS_FAULT             | 0..1       | R          | Custom LVAR      |                                                                             |
+|                  |                                                    |            |            |                  |                                                                             |
+| GALY & CAB       | A32NX_OVHD_ELEC_GALY_AND_CAB_PB_IS_AUTO            | 0..1       | R/W        | Custom LVAR      | Current connected with PAX SYS                                              |
+|                  | A32NX_OVHD_ELEC_GALY_AND_CAB_PB_HAS_FAULT          | 0..1       | R          | Custom LVAR      |                                                                             |
+|                  |                                                    |            |            |                  |                                                                             |
+| COMMERCIAL       | A32NX_OVHD_ELEC_COMMERCIAL_PB_IS_AUTO              | 0..1       | R/W        | Custom LVAR      | Currently 1+2 and ELMU are connected                                        |
+|                  | A32NX_OVHD_ELEC_COMMERCIAL_PB_HAS_FAULT            | 0..1       | R          | Custom LVAR      | Currently 1+2 and ELMU are connected                                        |
+|                  |                                                    |            |            |                  |                                                                             |
 
 ### External Lights Panel
 
@@ -745,7 +745,7 @@ See the [RMP API developer documentation](https://github.com/flybywiresim/aircra
 
 ### ENG Panel
 
-Flight Deck: [ENG Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/engine.md)
+Flight Deck: [ENG Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/engine-master.md)
 
 | Function       | API Usage                      | Values | Read/Write | Type       |   | Remark                 |
 |:---------------|:-------------------------------|:-------|:-----------|:-----------|:--|:-----------------------|
@@ -810,7 +810,7 @@ A32NX_ECAM_SD_CURRENT_PAGE_INDEX:
 
 ### Speed Brake
 
-Flight Deck: [Speed Brake Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/speedbrake.md)
+Flight Deck: [Speed Brake Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/speed-brake.md)
 
 | Function         | API Usage                      | Values   | Read/Write | Type             | Remark                           |
 |:-----------------|:-------------------------------|:---------|:-----------|:-----------------|:---------------------------------|
@@ -818,14 +818,16 @@ Flight Deck: [Speed Brake Panel](../../../pilots-corner/a380x/a380x-briefing/fli
 |                  | A32NX_SPOILERS_HANDLE_POSITION | 0.0..1.0 | R          | Custom LVAR      | (add. SIMCONNECT VARS available) |
 |                  |                                |          |            |                  |                                  |
 | GND SPOILER ARM  | SPOILERS_ARM_TOGGLE            | -        | -          | SIMCONNECT EVENT |                                  |
-|                  | SPOILERS ARMED                 | 0..1     | R/W        | SIMCONNECT VAR   |                                  |
+|                  | SPOILERS ARMED                 | 0..1     | W          | SIMCONNECT VAR   |                                  |
 |                  | A32NX_SPOILERS_ARMED           | 0..1     | R          | Custom LVAR      |                                  |
 
 ### Surveillance Panel
 
+The Surveillance Panel is not yet implemented in the A380X.
+
 ### Flaps
 
-Flight Deck: [Speed Brake Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/flaps.md)
+Flight Deck: [Speed Brake Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/flap-lever.md)
 
 | Function   | API Usage                  | Values   | Read/Write | Type             | Remark                        |
 |:-----------|:---------------------------|:---------|:-----------|:-----------------|:------------------------------|
@@ -852,18 +854,40 @@ Flight Deck: [Parking Brake Panel](../../../pilots-corner/a380x/a380x-briefing/f
 |:--------------|:---------------------------|:-------|:-----------|:------------|:-------|
 | PARKING BRAKE | A32NX_PARK_BRAKE_LEVER_POS | 0..1   | R/W        | Custom LVAR |        |
 
+### Pitch Trim
+
+Flight Deck: [Rudder Trim Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/trim-panel.md)
+
+| Function          | API Usage                          | Values       | Read/Write | Type             | Remark                          |
+|:------------------|:-----------------------------------|:-------------|:-----------|:-----------------|:--------------------------------|
+| PITCH TRIM        | ELEV_TRIM_UP                       | -            | -          | SIMCONNECT Event |                                 |
+|                   | ELEV_TRIM_DN                       | -            | -          | SIMCONNECT Event |                                 |
+|                   |                                    |              |            |                  |                                 |
+| PITCH TRIM VALUEs | SIMCONNECT:ELEVATOR TRIM INDICATOR | -0.20..1.0   | R          | SIMCONNECT Var   |                                 |
+|                   | SIMCONNECT:ELEVATOR TRIM POSITION  | -0.03..0.173 | R          | SIMCONNECT Var   | Radians (in Degrees ~ -2°..10°) |
+|                   | SIMCONNECT:ELEVATOR TRIM PCT       | -19..99      | R          | SIMCONNECT Var   |                                 |
+
 ### Rudder Trim
 
-Flight Deck: [Rudder Trim Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/rudder-trim.md)
+Flight Deck: [Rudder Trim Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/trim-panel.md)
 
-| Function | API Usage         | Values      | Read/Write | Type             | Remark                                                                            |
-|:---------|:------------------|:------------|:-----------|:-----------------|:----------------------------------------------------------------------------------|
-| Display  | RUDDER TRIM PCT   | -1.0..1.0   | R          | SIMCONNECT VAR   | -1.0=20° left, 1.0=20° right                                                      |
-|          | RUDDER TRIM       | -0.35..0.35 | R          | SIMCONNECT VAR   | Radians: 0.3490×180°/π = 19.99°                                                   |
-|          |                   |             |            |                  |                                                                                   |
-| RESET    | RUDDER_TRIM_RESET | -           | .          | SIMCONNECT EVENT |                                                                                   |
-|          |                   |             |            |                  |                                                                                   |
-| RUD TRIM | XMLVAR_RUDDERTRIM | 0 .. 2      | R/W        | Custom LVAR      | ~~Knob jumps back. Needs to be set repeatably until the target value is reached~~ |
+| Function | API Usage               | Values      | Read/Write | Type             | Remark                          |
+|:---------|:------------------------|:------------|:-----------|:-----------------|:--------------------------------|
+| Display  | RUDDER TRIM PCT         | -1.0..1.0   | R          | SIMCONNECT VAR   | -1.0=20° left, 1.0=20° right    |
+|          | RUDDER TRIM             | -0.35..0.35 | R          | SIMCONNECT VAR   | Radians: 0.3490×180°/π = 19.99° |
+|          |                         |             |            |                  |                                 |
+| RESET    | RUDDER_TRIM_RESET       | -           | .          | SIMCONNECT EVENT |                                 |
+|          |                         |             |            |                  |                                 |
+| RUD TRIM | LVAR:XMLVAR_RudderTrim  | 0 .. 2      | R/W        | Custom LVAR      |                                 |
+
+### Flight Data Recording System Panel
+
+Flight Deck: [FDRS Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/fdrs.md)
+
+| Function        | API Usage             | Values | Read/Write | Type        | Remark                        |
+|:----------------|:----------------------|:-------|:-----------|:------------|:------------------------------|
+| ACMS Trigger pb | A32NX_ACMS_TRIGGER_ON | 0..1   | R/W        | Custom LVAR | Momentary button - reset to 0 |
+| DFDR Event pb   | A32NX_DFDR_EVENT_ON   | 0..1   | R/W        | Custom LVAR | Momentary button - reset to 0 |
 
 ### Cockpit Door
 
@@ -872,52 +896,6 @@ Flight Deck: [Cockpit Door Panel](../../../pilots-corner/a380x/a380x-briefing/fl
 | Function     | API Usage                 | Values | Read/Write | Type        | Remark |
 |:-------------|:--------------------------|:-------|:-----------|:------------|:-------|
 | COCKPIT DOOR | A32NX_COCKPIT_DOOR_LOCKED | 0..1   | R/W        | Custom LVAR |        |
-|              |                           |        |            |             |        |
-| VIDEO        | PUSH_DOORPANEL_VIDEO      | 0..1   | R/W        | Custom LVAR |        |
-
-
-
-### WX Radar
-
-Flight Deck: [WX Radar Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/radar.md)
-
-| Function   | API Usage                       | Values | Read/Write | Type        | Remark                      |
-|:-----------|:--------------------------------|:-------|:-----------|:------------|:----------------------------|
-| SYS        | XMLVAR_A320_WEATHERRADAR_SYS    | 0..2   | R/W        | Custom LVAR | 0=1, 1=OFF, 2=2             |
-|            |                                 |        |            |             |                             |
-| PWS        | A32NX_SWITCH_RADAR_PWS_POSITION | 0..1   | R/W        | Custom LVAR | 0=OFF, 1=AUTO               |
-|            |                                 |        |            |             |                             |
-| MODE       | XMLVAR_A320_WEATHERRADAR_MODE   | 0..3   | R/W        | Custom LVAR | 0=WX, 1=WX+T, 2=TURB, 3=MAP |
-|            |                                 |        |            |             |                             |
-| GAIN       | N/A                             |        |            |             |                             |
-|            |                                 |        |            |             |                             |
-| MULTISCANS | N/A                             |        |            |             |                             |
-|            |                                 |        |            |             |                             |
-| GCS        | N/A                             |        |            |             |                             |
-|            |                                 |        |            |             |                             |
-| TILT       | N/A                             |        |            |             |                             |
-
-### ATC-TCAS
-
-Flight Deck: [ATC-TCAS Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/pedestal/atc-tcas.md)
-
-| Function     | API Usage                          | Values      | Read/Write | Type             | Remark                      |
-|:-------------|:-----------------------------------|:------------|:-----------|:-----------------|:----------------------------|
-| ATC MODE     | A32NX_TRANSPONDER_MODE             | 0..2        | R/W        | Custom LVAR      | 0=STBY, 1=AUTO, 2=ON        |
-|              |                                    |             |            |                  |                             |
-| ATC SYSTEM   | A32NX_TRANSPONDER_SYSTEM           | 0..1        | R/W        | Custom LVAR      | 0 = System 1, 1 = System 2  |
-|              |                                    |             |            |                  |                             |
-| ALT RPTG     | A32NX_SWITCH_ATC_ALT               | 0..1        | R/W        | Custom LVAR      | 0=OFF, 1=ON                 |
-|              |                                    |             |            |                  |                             |
-| SQUAWK       | TRANSPONDER CODE:1                 | 0000...7777 | R/W        | SIMCONNECT VAR   |                             |
-|              |                                    |             |            |                  |                             |
-| IDENT        | XPNDR_IDENT_ON                     | -           | -          | SIMCONNECT EVENT |                             |
-|              |                                    |             |            |                  |                             |
-| TCAS MODE    | A32NX_SWITCH_TCAS_TRAFFIC_POSITION | 0..3        | R/W        | Custom LVAR      | 0=THRT, 1=ALL, 2=ABV, 3=BLW |
-|              |                                    |             |            |                  |                             |
-| TCAS TRAFFIC | A32NX_SWITCH_TCAS_POSITION         | 0..2        | R/W        | Custom LVAR      | 0=STBY, 1=TA, 2=TA/RA       |
-
-
 
 ## Side Stick
 
@@ -934,7 +912,7 @@ Flight Deck: [ATC-TCAS Panel](../../../pilots-corner/a380x/a380x-briefing/flight
 
 ## Tiller
 
-See [Nose Wheel and Tiller Operation](../feature-guides/nw-tiller.md)
+See [Nose Wheel and Tiller Operation](../../a32nx/feature-guides/nw-tiller.md)
 
 ## Rudder Pedals
 
@@ -950,15 +928,20 @@ See [Nose Wheel and Tiller Operation](../feature-guides/nw-tiller.md)
 
 ## flyPad EFB
 
-| Function                                     | API Usage                             | Values    | Read/Write | Type                     | Remark                                                                                 |
-|:---------------------------------------------|:--------------------------------------|:----------|:-----------|:-------------------------|:---------------------------------------------------------------------------------------|
-| Hardware Power Button                        | A32NX_EFB_POWER                       | -         | -          | HTML Event (aka H Event) | Toggles EFB Power                                                                      |
-| EFB Brightness                               | A32NX_EFB_BRIGHTNESS                  | 0..100    | R/W        | Custom LVAR              | Overwrites automatic setting                                                           |
-| Load Lighting Preset                         | A32NX_LOAD_LIGHTING_PRESET            | 1..8      | R/W        | Custom LVAR              | Aircraft must be powered. Will be reset to 0 after the preset has been loaded.         |
-| Save Lighting Preset                         | A32NX_SAVE_LIGHTING_PRESET            | 1..8      | R/W        | Custom LVAR              | Aircraft must be powered. Will be reset to 0 after the preset has been saved.          |
-| Load Aircraft Preset                         | A32NX_LOAD_AIRCRAFT_PRESET            | 1..5      | R/W        | Custom LVAR              | Will be reset to 0 after the preset has been loaded.                                   |
-| Current Progress for Aircraft Preset Loading | A32NX_LOAD_AIRCRAFT_PRESET_PROGRESS   | 0.0..1.0  | R          | Custom LVAR              | Percent done of the Aircraft State to be loaded.                                       |
-| Current Aircraft Preset Loading Step         | A32NX_LOAD_AIRCRAFT_PRESET_CURRENT_ID | 0..999    | R          | Custom LVAR              | ID of the current step.                                                                |
+| Function                                     | API Usage                             | Values   | Read/Write | Type                              | Remark                                                                                 |
+|:---------------------------------------------|:--------------------------------------|:---------|:-----------|:----------------------------------|:---------------------------------------------------------------------------------------|
+| Hardware Power Button                        | A32NX_EFB_POWER                       | -        | -          | HTML Event (aka H Event)          | Toggles EFB Power                                                                      |
+|                                              |                                       |          |            |                                   |                                                                                        |
+| EFB Brightness                               | A32NX_EFB_BRIGHTNESS                  | 0..100   | R/W        | Custom LVAR                       | Overwrites automatic setting                                                           |
+|                                              | A32NX_EFB_USING_AUTOBRIGHTNESS        | 0..1     | R/W        | Custom LVAR                       |                                                                                        |
+|                                              |                                       |          |            |                                   |                                                                                        |
+| Checklist Complete Next Item                 | A32NX_EFB_CHECKLIST_COMPLETE_ITEM     | 0..1     | R/W        | Switches back to 0 when processed |                                                                                        |
+|                                              |                                       |          |            |                                   |                                                                                        |
+| Load Lighting Preset                         | A32NX_LOAD_LIGHTING_PRESET            | 1..8     | R/W        | Custom LVAR                       | Aircraft must be powered. Will be reset to 0 after the preset has been loaded.         |
+| Save Lighting Preset                         | A32NX_SAVE_LIGHTING_PRESET            | 1..8     | R/W        | Custom LVAR                       | Aircraft must be powered. Will be reset to 0 after the preset has been saved.          |
+| Load Aircraft Preset                         | A32NX_LOAD_AIRCRAFT_PRESET            | 1..5     | R/W        | Custom LVAR                       | Will be reset to 0 after the preset has been loaded.                                   |
+| Current Progress for Aircraft Preset Loading | A32NX_LOAD_AIRCRAFT_PRESET_PROGRESS   | 0.0..1.0 | R          | Custom LVAR                       | Percent done of the Aircraft State to be loaded.                                       |
+| Current Aircraft Preset Loading Step         | A32NX_LOAD_AIRCRAFT_PRESET_CURRENT_ID | 0..999   | R          | Custom LVAR                       | ID of the current step.                                                                |
 
 ### Pushback API
 
@@ -991,7 +974,7 @@ See [Nose Wheel and Tiller Operation](../feature-guides/nw-tiller.md)
 
     #### Pushback API Example
 
-    ![img.png](../assets/api-guide/pushback-api-example.png){loading=lazy}
+    ![img.png](../assets/api/pushback-api-example.png){loading=lazy}
     
     | Button                      | Pseudo Code                                                                 | Remark                    |
     |-----------------------------|-----------------------------------------------------------------------------|---------------------------|
