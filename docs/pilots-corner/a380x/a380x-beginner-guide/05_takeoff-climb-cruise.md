@@ -287,7 +287,8 @@ Keep the aircraft on the center line while accelerating down the runway.
     2-3 deg/sec for about 5 seconds (12.5° pitch attitude). Once airborne, follow the flight director's 
     guidance for pitch attitude.<br/>
     
-    Count one-one thousand, two-one-thousand, etc. and hit 15 degrees at five-one-thousand - practice this.
+    Count one-one thousand, two-one-thousand, etc. and hit 12.5 degrees at around four- to five-one-thousand - practice 
+    this.
 
     PFD shortly after V1:<br/>
     ![img.png](../assets/beginner-guide/05_takeoff-climb-cruise/pfd-v1-rotation.png){loading=lazy}
