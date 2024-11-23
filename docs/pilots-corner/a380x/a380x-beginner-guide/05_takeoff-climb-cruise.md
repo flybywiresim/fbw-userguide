@@ -284,7 +284,7 @@ Keep the aircraft on the center line while accelerating down the runway.
 `ROTATION ......................................................... PERFORM`<br/>
 ??? note "Rotation"
     At V~R~ apply smooth positive backward stick movement on the sidestick and aim for a rotation rate (pitch rate) of 
-    3deg/sec for about 5 seconds (15°-18° pitch attitude). Once airborne, follow the flight director's 
+    2-3 deg/sec for about 5 seconds (12.5° pitch attitude). Once airborne, follow the flight director's 
     guidance for pitch attitude.<br/>
     
     Count one-one thousand, two-one-thousand, etc. and hit 15 degrees at five-one-thousand - practice this.
