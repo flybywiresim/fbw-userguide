@@ -5,19 +5,26 @@ description: Documentation for the FlyByWire A32NX FlightDeck API.
 
 # A380X Developer API
 
-<span style="color: #ff0000;">TODO: Change content</span>
-
-
 Flight-Deck API Documentation: [Flight-Deck API](a380x-flight-deck-api)
 
 In addition to the above documentation, all custom variables and custom events are documented by our developers on our project's GitHub: [:fontawesome-brands-github:{: .github } -  **Docs section on GitHub**](https://github.com/flybywiresim/aircraft/tree/master/fbw-a32nx/docs){target=new}
 
-## Docs:
+- [Original Page on Github for Custom LVARs](https://github.com/flybywiresim/aircraft/blob/master/fbw-a380x/docs/a380-simvars.md){target=new}
+- [Original Page on Github for Input Events](https://github.com/flybywiresim/aircraft/blob/master/fbw-a380x/docs/a380x-input-events.md){target=new}
+- [Original Page on Github for Internal Vars used for Input Events](https://github.com/flybywiresim/aircraft/blob/master/fbw-a380x/docs/a380x-private-local-vars.md){target=new}
 
-- [Custom LVARs](https://github.com/flybywiresim/aircraft/blob/master/fbw-a32nx/docs/a320-simvars.md){target=new}
-- [Custom Events](https://github.com/flybywiresim/aircraft/blob/master/fbw-a32nx/docs/a320-events.md){target=new}
+!!! note "The GitHub pages have been imported below for your convenience." 
 
-## Templates
+## Developer SimVars Documentation
 
-- **SPAD.neXt:** [flybywire-aircraft-a320-neo.xml](https://github.com/flybywiresim/aircraft/tree/master/fbw-a32nx/docs/SPAD.neXt){target=new}
-- **FSUIPC:** [flybywire-aircraft-a320-neo.evt](https://github.com/flybywiresim/aircraft/tree/master/fbw-a32nx/docs/FSUIPC){target=new}
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a380x/docs/a380-simvars.md', '') }}
+
+## Developer Input Events Documentation
+
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a380x/docs/a380x-input-events.md', '') }}
+
+{{ external_markdown('https://raw.githubusercontent.com/flybywiresim/aircraft/refs/heads/master/fbw-a380x/docs/a380x-private-local-vars.md', '') }}
+
+
+
+
