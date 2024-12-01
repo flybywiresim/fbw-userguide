@@ -13,7 +13,8 @@ description: The A380 Flight Deck Electrical Panel description.
 
 ![Electrical Panel](../../../assets/a380x-briefing/flight-deck/ovhd/elec-panel.png "Electrical Panel"){loading=lazy}
 
-[//]: # (TODO API Doc Link)
+!!! note "API Documentation: [ELEC Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#elec-panel)"
+
 
 ## Description
 

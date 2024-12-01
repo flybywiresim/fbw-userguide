@@ -13,8 +13,6 @@ description: The A380 Flight Deck Entertainment Panel description.
 
 ![Entertainment Panel](../../../assets/a380x-briefing/flight-deck/ovhd/entertainment-panel.png "Entertainment Panel"){loading=lazy}
 
-[//]: # (TODO API Doc Link)
-
 ## Description
 
 The Entertainment Panel is used to control the entertainment system on the A380.

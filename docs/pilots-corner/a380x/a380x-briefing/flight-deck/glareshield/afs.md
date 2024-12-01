@@ -13,6 +13,8 @@ description: The A380 Flight Deck Auto Flight System (AFS) Control Panel descrip
 
 ![img.png](../../../assets/a380x-briefing/flight-deck/glare/aps.png)
 
+!!! note "API Documentation: [AFS CP API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#fcu-panel)"
+
 ## Description
 
 The AFS Control Panel is the main interface with the FG. The flight crew can:

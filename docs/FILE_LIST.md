@@ -255,7 +255,7 @@
                     - [X] [Glareshield Side Panels](pilots-corner/a380x/a380x-briefing/flight-deck/glareshield/glare-side.md)
                     - [X] [Glareshield Underside](pilots-corner/a380x/a380x-briefing/flight-deck/glareshield/glare-underside.md)
                     - [X] [Center Right Panel](pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/center-right.md)
-                    - [X] [Display Unit Control Panel](pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/efis-reconf.md)
+                    - [X] [Display Unit Control Panel](pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/ducp)
                     - [X] [Engine Warning Display (EWD)](pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/ewd.md)
                     - [X] [Gravity Gear Panel](pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/gravity-gear.md)
                     - [X] [Integrated Standby Instrument System (ISIS)](pilots-corner/a380x/a380x-briefing/flight-deck/main-panel/isis.md)

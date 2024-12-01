@@ -13,7 +13,7 @@ description: The A380 Flight Deck Calls Panel description.
 
 ![Calls Panel](../../../assets/a380x-briefing/flight-deck/ovhd/calls-panel.png "Calls Panel"){loading=lazy width=70%}
 
-[//]: # (TODO API Doc Link)
+!!! note "API Documentation: [CALLS Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#calls-panel)"
 
 ## Description
 

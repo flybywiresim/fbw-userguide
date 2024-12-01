@@ -9,9 +9,10 @@ description: The A380 Flight Deck Trim Panel page description.
 
 ---
 
-## Overview
-
 ![Trim Panel](../../../assets/a380x-briefing/flight-deck/pedestal/trim-panel.png)
+
+!!! note "API Documentation: [Pitch Trim Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#pitch-trim-panel)"
+!!! note "API Documentation: [Rudder Trim Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#rudder-trim-panel)"
 
 ## Pitch Trim
 

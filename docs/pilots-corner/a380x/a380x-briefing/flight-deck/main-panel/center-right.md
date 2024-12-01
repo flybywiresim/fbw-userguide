@@ -17,6 +17,8 @@ description: The A380 Flight Deck Center Right Panel description. The Center Rig
 
 ![img.png](../../../assets/a380x-briefing/flight-deck/main/center-right.png){loading=lazy width=50%}
 
+!!! note "API Documentation: [Center Right Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#autobrake-gear-lever-and-gear-annunciation)"
+
 ## Description
 
 We have consolidated the Center Right Panel into a single page. The Center Right Panel is holding the following 

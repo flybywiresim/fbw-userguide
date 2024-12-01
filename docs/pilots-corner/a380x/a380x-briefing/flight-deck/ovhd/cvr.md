@@ -13,7 +13,7 @@ description: The A380 Flight Deck Cockpit Voice Recorder (CVR) Panel description
 
 ![CVR Panel](../../../assets/a380x-briefing/flight-deck/ovhd/cvr-panel.png "CVR Panel"){loading=lazy}
 
-[//]: # (TODO API Doc Link)
+!!! note "API Documentation: [RCDR Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#rcdr-panel)"
 
 ## Description
 

@@ -13,10 +13,7 @@ description: The A380 Flight Deck Exterior Lights Panel description.
 
 ![Exterior Lighting](../../../assets/a380x-briefing/flight-deck/ovhd/ext-lt-panel.png "Exterior Lighting"){loading=lazy}
 
-[//]: # (TODO)
-<!-- TODO 
-!!! note "API Documentation: [EXT LT Panel API](../../../../../aircraft/a32nx/a32nx-api/a380x-flight-deck-api.md#external-lights-panel)"
--->
+!!! note "API Documentation: [EXT LT Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#external-lights-panel)"
 
 ## Description
 

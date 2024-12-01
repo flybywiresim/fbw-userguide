@@ -13,8 +13,6 @@ description: The A380 Flight Deck Fuel Jettison Panel description.
 
 ![Fuel Jettison Panel](../../../assets/a380x-briefing/flight-deck/ovhd/fuel-emer-panel.png "Fuel Jettison Panel"){loading=lazy}
 
-[//]: # (TODO API Doc Link)
-
 ## Description
 
 The A380's fuel jettison system is designed to quickly reduce the aircraft's weight in emergency situations, allowing it

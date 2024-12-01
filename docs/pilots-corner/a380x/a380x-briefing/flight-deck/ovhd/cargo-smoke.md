@@ -13,8 +13,6 @@ description: The A380 Flight Deck Cargo Smoke Panel description.
 
 ![Cargo Smoke Panel](../../../assets/a380x-briefing/flight-deck/ovhd/cargo-smoke-panel.png "Cargo Smoke Panel"){loading=lazy}
 
-[//]: # (TODO API Doc Link)
-
 ## Description
 
 The Cargo Smoke Panel is used to detect smoke in the cargo compartments.

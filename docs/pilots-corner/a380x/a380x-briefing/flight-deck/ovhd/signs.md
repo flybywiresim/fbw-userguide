@@ -13,10 +13,7 @@ description: The A380 Flight Deck Signs Panel description.
 
 ![SIGNS Panel](../../../assets/a380x-briefing/flight-deck/ovhd/signs-panel.png "SIGNS Panel")
 
-[//]: # (TODO)
-<!-- TODO
-!!! note "API Documentation: [Signs Panel API](../../../../../aircraft/a32nx/a32nx-api/a380x-flight-deck-api.md#signs-panel)"
--->
+!!! note "API Documentation: [SIGNS Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#signs-panel)"
 
 ## Usage
 

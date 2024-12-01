@@ -13,6 +13,8 @@ description: The A380 Flight Deck Cockpit Door Panel description.
 
 ![img_8.png](../../../assets/a380x-briefing/flight-deck/pedestal/ckpt-door.png){loading=lazy width=50%}
 
+!!! note "API Documentation: [CKPT DOOR Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#ckpt-door-panel)"
+
 ## Description
 
 The cockpit door automatically locks, as soon as it closes, when the Cockpit Door Locking System

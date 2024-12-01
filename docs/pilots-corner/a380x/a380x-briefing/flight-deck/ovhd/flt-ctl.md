@@ -17,7 +17,7 @@ description: The A380 Flight Deck Flight Control System Panel description.
 ## Right Side
 ![Flight Control System Panel](../../../assets/a380x-briefing/flight-deck/ovhd/f-ctl-2-panel.png "Flight Control System Panel"){loading=lazy}
 
-[//]: # (TODO API Doc Link)
+!!! note "API Documentation: [FLT CTL Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#flight-control-panel)"
 
 ## Description
 

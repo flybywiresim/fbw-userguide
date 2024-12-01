@@ -13,7 +13,7 @@ description: The A380 Flight Deck Air Panel description.
 
 ![Air Panel](../../../assets/a380x-briefing/flight-deck/ovhd/air-panel.png "Air Panel"){loading=lazy}
 
-[//]: # (TODO API Doc Link)
+!!! note "API Documentation: [AIR Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#air-condition-panel)"
 
 ## Usage
 

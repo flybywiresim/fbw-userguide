@@ -13,6 +13,8 @@ description: The A380 Flight Deck Switching Panel description.
 
 ![img_1.png](../../../assets/a380x-briefing/flight-deck/main/switching.png){loading=lazy width=20%}
 
+!!! note "API Documentation: [Switching Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#switching-panel)"
+
 ## Description
 
 ## Usage

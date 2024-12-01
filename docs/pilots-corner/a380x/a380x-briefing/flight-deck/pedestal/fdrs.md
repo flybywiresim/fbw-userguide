@@ -13,6 +13,8 @@ description: The A380 Flight Deck Flight Data Recording System (FDRS) descriptio
 
 ![img_9.png](../../../assets/a380x-briefing/flight-deck/pedestal/fdr.png){loading=lazy width=100%}
 
+!!! note "API Documentation: [FDRS Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#flight-data-recording-system-panel)"
+
 ## Aircraft Conditioning Monitoring System (ACMS)
 
 The ACMS function provides a real-time monitoring of the aircraft parameters.

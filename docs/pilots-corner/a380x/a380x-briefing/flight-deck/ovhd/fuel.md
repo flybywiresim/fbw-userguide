@@ -13,7 +13,7 @@ description: The A380 Flight Deck Fuel Panel description.
 
 ![Fuel Panel](../../../assets/a380x-briefing/flight-deck/ovhd/fuel-panel.png "Fuel Panel"){loading=lazy}
 
-[//]: # (TODO API Doc Link)
+!!! note "API Documentation: [FUEL Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#fuel-panel)"
 
 ## Description
 

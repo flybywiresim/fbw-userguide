@@ -13,8 +13,6 @@ description: The A380 Flight Deck Emergency Electrical Panel description.
 
 ![Emergency Electrical Panel](../../../assets/a380x-briefing/flight-deck/ovhd/emer-elec-panel.png "Emergency Electrical Panel"){loading=lazy}
 
-[//]: # (TODO API Doc Link)
-
 ## Description
 
 The Emergency Electrical Panel is used to control the emergency electrical systems of the aircraft.

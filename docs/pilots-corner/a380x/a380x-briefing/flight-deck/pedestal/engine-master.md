@@ -13,6 +13,8 @@ description: The A380 Flight Deck Thrust and Thrust Reverser Control Levers desc
 
 ![img_3.png](../../../assets/a380x-briefing/flight-deck/pedestal/eng-master.png)
 
+!!! note "API Documentation: [ENG MASTER Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#eng-master-panel)"
+
 ## Usage
 
 ### ENGINE 1(2)(3)(4) MASTER LEVER

@@ -13,6 +13,8 @@ description: The A380 Flight Deck Parking Brake Panel description.
 
 ![img_8.png](../../../assets/a380x-briefing/flight-deck/pedestal/parking-brake.png)
 
+!!! note "API Documentation: [Parking Brake Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#park-brk-panel)"
+
 ## Parking Brake Handle
 
 To apply the Parking Brake, the flight crew pulls this handle and turns it clockwise.

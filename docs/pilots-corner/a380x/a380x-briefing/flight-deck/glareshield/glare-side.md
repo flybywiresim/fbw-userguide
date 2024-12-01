@@ -13,6 +13,8 @@ description: The A380 Flight Deck Glareshield Side Panels description.
 
 ![img.png](../../../assets/a380x-briefing/flight-deck/glare/glareshield-side.png)
 
+!!! note "API Documentation: [Glareshield Side Panels API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#glareshield-side-panel)"
+
 ## Usage
 
 ### CHRONO pb

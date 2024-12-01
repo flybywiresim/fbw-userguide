@@ -13,6 +13,7 @@ description: The A380 Flight Deck Glareshield Underside description.
 
 ![img_2.png](../../../assets/a380x-briefing/flight-deck/glare/glareshield-underside.png)
 
+!!! note "API Documentation: [Glareshield Underside API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#lighting-knobs)"
 
 ## Description
 

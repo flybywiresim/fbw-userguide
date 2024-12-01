@@ -13,6 +13,8 @@ description: The A380 Flight Deck Radio Management (RMP) Panel description.
 
 ![img.png](../../../assets/a380x-briefing/flight-deck/pedestal/rmp.png){loading=lazy width=70%}
 
+!!! note "API Documentation: [RMP Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#rmp-panel)"
+
 ## Description
 
 The Radio Management Panels (RMP) are powerful systems managing the aircraft's communication and std-by navigation 

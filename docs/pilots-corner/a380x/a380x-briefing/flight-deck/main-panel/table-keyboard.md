@@ -16,12 +16,11 @@ description: The A380 Flight Deck Table and Keyboard description.
 
 ## Description
 
-Captain and First Officer have a table and keyboard in front of them. The keyboard is used to interact with the OIS 
+The Captain and First Officer have a table and keyboard in front of them. The keyboard is used to interact with the OIS 
 which is not yet implemented in the A380X.
 
 You can extend the table by clicking the click spot on the stowed table.
 You can then also fold back the table cover to access the keyboard.
-
 
 
 ---

@@ -13,6 +13,7 @@ description: The A380 Flight Deck Surveillance Panel description.
 
 ![img_6.png](../../../assets/a380x-briefing/flight-deck/pedestal/surveilance.png){loading=lazy width=70%}
 
+!!! note "API Documentation: [SURV Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#surv-wxr-tcas-panel)"
 
 ## Description
 

@@ -13,6 +13,8 @@ description: The A380 Flight Deck APU Fire Panel description.
 
 ![APU Fire Panel](../../../assets/a380x-briefing/flight-deck/ovhd/apu-fire-panel.png "APU Fire Panel"){loading=lazy}
 
+!!! note "API Documentation: [APU FIRE Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#fire-panel)"
+
 ## Description
 
 The APU compartment has a fire protection system, with:

@@ -14,8 +14,6 @@ description: The A380 Flight Deck Cargo Air Conditioning Panel description.
 ![Cargo Air Conditioning Panel](../../../assets/a380x-briefing/flight-deck/ovhd/cargo-air-cond-panel.png 
 "Cargo Air Conditioning Panel"){loading=lazy width=70%}
 
-[//]: # (TODO API Doc Link)
-
 ## Description
 
 The Cargo Air Conditioning Panel is used to control the air conditioning in the cargo compartments.

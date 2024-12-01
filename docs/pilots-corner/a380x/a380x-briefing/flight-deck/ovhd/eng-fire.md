@@ -13,7 +13,7 @@ description: The A380 Flight Deck Engine Fire Panel description.
 
 ![Engine Fire Panel](../../../assets/a380x-briefing/flight-deck/ovhd/eng-fire-panel.png "Engine Fire Panel"){loading=lazy}
 
-[//]: # (TODO API Doc Link)
+!!! note "API Documentation: [FIRE Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#fire-panel)"
 
 ## Description
 

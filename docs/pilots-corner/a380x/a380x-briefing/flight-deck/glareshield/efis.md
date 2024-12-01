@@ -13,6 +13,8 @@ description: The A380 Flight Deck Electronic Flight Instrument System (EFIS) Pan
 
 ![img.png](../../../assets/a380x-briefing/flight-deck/glare/efis.png)
 
+!!! note "API Documentation: [EFIS Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#efis-control-panel)"
+
 ## Description
 
 The Electronic Flight Instrument System (EFIS) lets you control what flight info shows up on the Primary Flight Displays

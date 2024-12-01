@@ -13,7 +13,7 @@ description: The A380 Flight Deck Thrust and Thrust Reverser Control Levers desc
 
 ![img.png](../../../assets/a380x-briefing/flight-deck/pedestal/thrust-levers.png){width=50%}
 
-[//]: # (TODO: This needs polishing)
+!!! note "API Documentation: [Thrust Levers API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#thrust-lever)"
 
 ## Description
 
