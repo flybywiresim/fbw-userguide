@@ -444,8 +444,8 @@ Flight Deck: [EFIS Control Panel](../../../pilots-corner/a32nx/a32nx-briefing/fl
 |              | A32NX.FCU_EFIS_R_BARO_INC                | -                 | -          | Custom EVENT     |                                                               |
 |              | A32NX.FCU_EFIS_L_BARO_DEC                | -                 | -          | Custom EVENT     |                                                               |
 |              | A32NX.FCU_EFIS_R_BARO_DEC                | -                 | -          | Custom EVENT     |                                                               |
-|              | A32NX.FCU_EFIS_L_BARO_SET                | -                 | -          | Custom EVENT     |                                                               |
-|              | A32NX.FCU_EFIS_R_BARO_SET                | -                 | -          | Custom EVENT     |                                                               |
+|              | A32NX.FCU_EFIS_L_BARO_SET                | -                 | -          | Custom EVENT     | Parameter is hPa * 16 (same as KOHLSMAN_SET)                  |
+|              | A32NX.FCU_EFIS_R_BARO_SET                | -                 | -          | Custom EVENT     | Parameter is hPa * 16 (same as KOHLSMAN_SET)                  |
 |              | A32NX.FCU_EFIS_L_BARO_PUSH               | -                 | -          | Custom EVENT     |                                                               |
 |              | A32NX.FCU_EFIS_R_BARO_PUSH               | -                 | -          | Custom EVENT     |                                                               |
 |              | A32NX.FCU_EFIS_L_BARO_PULL               | -                 | -          | Custom EVENT     |                                                               |
