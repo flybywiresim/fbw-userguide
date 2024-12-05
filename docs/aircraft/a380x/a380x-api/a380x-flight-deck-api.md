@@ -163,42 +163,41 @@ Flight Deck: [Calls Panel](../../../pilots-corner/a380x/a380x-briefing/flight-de
 
 Flight Deck:  [ELEC Panel](../../../pilots-corner/a380x/a380x-briefing/flight-deck/ovhd/elec.md)
 
-| Function         | API Usage                                          | Values     | Read/Write | Type             | Remark                                                                      |
-|:-----------------|:---------------------------------------------------|:-----------|:-----------|:-----------------|:----------------------------------------------------------------------------|
-| BAT {NUM}        | A32NX_OVHD_ELEC_BAT_{NUM}_PB_IS_AUTO               | 0..1       | R/W        | CUSTOM LVAR      |                                                                             |
-|                  | A32NX_OVHD_ELEC_BAT_{NUM}_PB_HAS_FAULT             | 0..1       | R/W        | CUSTOM LVAR      |                                                                             |
-| BAT ESS+APU      | A32NX_OVHD_ELEC_BAT_{ESS\|APU}_PB_IS_AUTO          | 0..1       | R/W        | CUSTOM LVAR      |                                                                             |
-|                  | A32NX_OVHD_ELEC_BAT_{ESS\|APU}_PB_HAS_FAULT        | 0..1       | R/W        | CUSTOM LVAR      |                                                                             |
-|                  |                                                    |            |            |                  |                                                                             |
-| EXT PWR {NUM}    | SET_EXTERNAL_POWER                                 | 1..4, 0..1 | -          | MSFS EVENT       | This event takes 2 parameters - the number of the index 1..4 and OFF/ON=0/1 |
-|                  | EXTERNAL POWER AVAILABLE:{NUM}                     | 0..1       | R          | MSFS VAR         |                                                                             |
-|                  | EXTERNAL POWER ON:{NUM}                            | 0..1       | R          | MSFS VAR         |                                                                             |
-|                  |                                                    |            |            |                  |                                                                             |
-| GEN {NUM}        | TOGGLE_ALTERNATOR:{NUM}                            | -          | -          | SIMCONNECT EVENT |                                                                             |
-|                  | GENERAL ENG MASTER ALTERNATOR:{NUM}                | 0..1       | R/W        | SIMCONNECT VAR   |                                                                             |
-|                  | A32NX_OVHD_ELEC_ENG_GEN_{NUM}_PB_HAS_FAULT         | 0..1       | R          | CUSTOM LVAR      |                                                                             |
-|                  |                                                    |            |            |                  |                                                                             |
-| APU GEN          | APU_GENERATOR_SWITCH_TOGGLE                        | 1..2       | -          | SIMCONNECT EVENT |                                                                             |
-|                  | APU_GENERATOR_SWITCH_SET                           | 0..1       | -          | SIMCONNECT EVENT |                                                                             |
-|                  | APU GENERATOR SWITCH                               | 0..1       | R/W        | SIMCONNECT VAR   |                                                                             |
-|                  | A32NX_OVHD_ELEC_APU_GEN_{NUM}_PB_HAS_FAULT         | 0..1       | R          | CUSTOM LVAR      |                                                                             |
-|                  |                                                    |            |            |                  |                                                                             |
-| BUS TIE          | A32NX_OVHD_ELEC_BUS_TIE_PB_IS_AUTO                 | 0..1       | R/W        | CUSTOM LVAR      |                                                                             |
-|                  | A32NX_OVHD_ELEC_BUS_TIE_PB_HAS_FAULT               | 0..1       | R          | CUSTOM LVAR      |                                                                             |
-|                  |                                                    |            |            |                  |                                                                             |
-| AC ESS FEED      | A32NX_OVHD_ELEC_AC_ESS_FEED_PB_IS_NORMAL           | 0..1       | R/W        | CUSTOM LVAR      |                                                                             |
-|                  | A32NX_OVHD_ELEC_AC_ESS_FEED_PB_HAS_FAULT           | 0..1       | R          | CUSTOM LVAR      |                                                                             |
-| AC ESS FEED LOCK | A32NX_OVHD_ELEC_AC_ESS<br/>_FEED_PB_IS_NORMAL_LOCK | 0..1       | R          | CUSTOM LVAR      |                                                                             |
-|                  |                                                    |            |            |                  |                                                                             |
-| DRIVE {NUM}      | A32NX_OVHD_ELEC_IDG_{NUM}_PB_IS_RELEASED           | 0 -> 1     | R/W        | CUSTOM LVAR      | Cannot be undone - flight restart required                                  |
-|                  | A32NX_OVHD_ELEC_IDG_{NUM}_PB_HAS_FAULT             | 0..1       | R          | CUSTOM LVAR      |                                                                             |
-|                  |                                                    |            |            |                  |                                                                             |
-| GALY & CAB       | A32NX_OVHD_ELEC_GALY_AND_CAB_PB_IS_AUTO            | 0..1       | R/W        | CUSTOM LVAR      | Current connected with PAX SYS                                              |
-|                  | A32NX_OVHD_ELEC_GALY_AND_CAB_PB_HAS_FAULT          | 0..1       | R          | CUSTOM LVAR      |                                                                             |
-|                  |                                                    |            |            |                  |                                                                             |
-| COMMERCIAL       | A32NX_OVHD_ELEC_COMMERCIAL_PB_IS_AUTO              | 0..1       | R/W        | CUSTOM LVAR      | Currently 1+2 and ELMU are connected                                        |
-|                  | A32NX_OVHD_ELEC_COMMERCIAL_PB_HAS_FAULT            | 0..1       | R          | CUSTOM LVAR      | Currently 1+2 and ELMU are connected                                        |
-|                  |                                                    |            |            |                  |                                                                             |
+| Function         | API Usage                                          | Values   | Read/Write | Type             | Remark                                     |
+|:-----------------|:---------------------------------------------------|:---------|:-----------|:-----------------|:-------------------------------------------|
+| BAT {NUM}        | A32NX_OVHD_ELEC_BAT_{NUM}_PB_IS_AUTO               | 0..1     | R/W        | CUSTOM LVAR      |                                            |
+|                  | A32NX_OVHD_ELEC_BAT_{NUM}_PB_HAS_FAULT             | 0..1     | R/W        | CUSTOM LVAR      |                                            |
+| BAT ESS+APU      | A32NX_OVHD_ELEC_BAT_{ESS\|APU}_PB_IS_AUTO          | 0..1     | R/W        | CUSTOM LVAR      |                                            |
+|                  | A32NX_OVHD_ELEC_BAT_{ESS\|APU}_PB_HAS_FAULT        | 0..1     | R/W        | CUSTOM LVAR      |                                            |
+|                  |                                                    |          |            |                  |                                            |
+| EXT PWR          | A32NX_OVHD_ELEC_EXT_PWR_{NUM]_PB_IS_ON             | 0..1     | R/W        | CUSTOM LVAR      |                                            |
+|                  | A32NX_EXT_PWR_AVAIL:{NUM}                          | 0&#124;1 | R          | MSFS VAR         |                                            |
+|                  |                                                    |          |            |                  |                                            |
+| GEN {NUM}        | TOGGLE_ALTERNATOR:{NUM}                            | -        | -          | SIMCONNECT EVENT |                                            |
+|                  | GENERAL ENG MASTER ALTERNATOR:{NUM}                | 0..1     | R/W        | SIMCONNECT VAR   |                                            |
+|                  | A32NX_OVHD_ELEC_ENG_GEN_{NUM}_PB_HAS_FAULT         | 0..1     | R          | CUSTOM LVAR      |                                            |
+|                  |                                                    |          |            |                  |                                            |
+| APU GEN          | APU_GENERATOR_SWITCH_TOGGLE                        | 1..2     | -          | SIMCONNECT EVENT |                                            |
+|                  | APU_GENERATOR_SWITCH_SET                           | 0..1     | -          | SIMCONNECT EVENT |                                            |
+|                  | APU GENERATOR SWITCH                               | 0..1     | R/W        | SIMCONNECT VAR   |                                            |
+|                  | A32NX_OVHD_ELEC_APU_GEN_{NUM}_PB_HAS_FAULT         | 0..1     | R          | CUSTOM LVAR      |                                            |
+|                  |                                                    |          |            |                  |                                            |
+| BUS TIE          | A32NX_OVHD_ELEC_BUS_TIE_PB_IS_AUTO                 | 0..1     | R/W        | CUSTOM LVAR      |                                            |
+|                  | A32NX_OVHD_ELEC_BUS_TIE_PB_HAS_FAULT               | 0..1     | R          | CUSTOM LVAR      |                                            |
+|                  |                                                    |          |            |                  |                                            |
+| AC ESS FEED      | A32NX_OVHD_ELEC_AC_ESS_FEED_PB_IS_NORMAL           | 0..1     | R/W        | CUSTOM LVAR      |                                            |
+|                  | A32NX_OVHD_ELEC_AC_ESS_FEED_PB_HAS_FAULT           | 0..1     | R          | CUSTOM LVAR      |                                            |
+| AC ESS FEED LOCK | A32NX_OVHD_ELEC_AC_ESS<br/>_FEED_PB_IS_NORMAL_LOCK | 0..1     | R          | CUSTOM LVAR      |                                            |
+|                  |                                                    |          |            |                  |                                            |
+| DRIVE {NUM}      | A32NX_OVHD_ELEC_IDG_{NUM}_PB_IS_RELEASED           | 0 -> 1   | R/W        | CUSTOM LVAR      | Cannot be undone - flight restart required |
+|                  | A32NX_OVHD_ELEC_IDG_{NUM}_PB_HAS_FAULT             | 0..1     | R          | CUSTOM LVAR      |                                            |
+|                  |                                                    |          |            |                  |                                            |
+| GALY & CAB       | A32NX_OVHD_ELEC_GALY_AND_CAB_PB_IS_AUTO            | 0..1     | R/W        | CUSTOM LVAR      | Current connected with PAX SYS             |
+|                  | A32NX_OVHD_ELEC_GALY_AND_CAB_PB_HAS_FAULT          | 0..1     | R          | CUSTOM LVAR      |                                            |
+|                  |                                                    |          |            |                  |                                            |
+| COMMERCIAL       | A32NX_OVHD_ELEC_COMMERCIAL_PB_IS_AUTO              | 0..1     | R/W        | CUSTOM LVAR      | Currently 1+2 and ELMU are connected       |
+|                  | A32NX_OVHD_ELEC_COMMERCIAL_PB_HAS_FAULT            | 0..1     | R          | CUSTOM LVAR      | Currently 1+2 and ELMU are connected       |
+|                  |                                                    |          |            |                  |                                            |
 
 ### ENG START Panel
 
