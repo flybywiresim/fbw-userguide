@@ -38,9 +38,8 @@ Flight Deck:  [ELEC Panel](../../../pilots-corner/a32nx/a32nx-briefing/flight-de
 | BAT 1 Display | A32NX_ELEC_BAT_1_POTENTIAL                | 0.0..99.9 | R          | Custom LVAR      |                                            |
 | BAT 2 Display | A32NX_ELEC_BAT_2_POTENTIAL                | 0.0..99.9 | R          | Custom LVAR      |                                            |
 |               |                                           |           |            |                  |                                            |
-| EXT PWR       | TOGGLE_EXTERNAL_POWER                     | -         | -          | MSFS EVENT       |                                            |
-|               | EXTERNAL POWER AVAILABLE                  | 0&#124;1  | R          | MSFS VAR         |                                            |
-|               | EXTERNAL POWER ON                         | 0&#124;1  | R          | MSFS VAR         |                                            |
+| EXT PWR       | A32NX_OVHD_ELEC_EXT_PWR_PB_IS_ON          | 0..1      | R/W        | Custom LVAR      |                                            |
+|               | A32NX_EXT_PWR_AVAIL:1                     | 0&#124;1  | R          | Custom LVAR      |                                            |
 |               |                                           |           |            |                  |                                            |
 | GEN 1         | TOGGLE_ALTERNATOR:1                       | -         | -          | SIMCONNECT EVENT |                                            |
 |               | GENERAL ENG MASTER ALTERNATOR:1           | 0&#124;1  | R/W        | SIMCONNECT VAR   |                                            |
