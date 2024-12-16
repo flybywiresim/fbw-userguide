@@ -13,9 +13,11 @@ description: The A380 Flight Deck Gravity Gear Panel description.
 
 ![img_1.png](../../../assets/a380x-briefing/flight-deck/main/gravity-gear.png){loading=lazy width=50%}
 
+!!! note "API Documentation: [Gravity Gear Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#landing-gear-gravity-panel)"
+
 ## Description
 
-
+The Gravity Gear Panel is used to control the gravity extension of the landing gear (L/G) on the A380.
 
 ## Usage
 

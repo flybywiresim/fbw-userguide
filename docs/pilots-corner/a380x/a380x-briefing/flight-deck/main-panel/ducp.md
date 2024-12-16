@@ -14,6 +14,8 @@ description: The A380 Flight Deck Display Unit Control Panel
 
 ![img.png](../../../assets/a380x-briefing/flight-deck/main/efis-reconfig.png){loading=lazy width=50%}
 
+!!! note "API Documentation: [EFIS Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#display-unit-control-panel)"
+
 ## Description
 
 The Display Unit Control Panel (DU CP) is located on the main instrument panel on each side for the Captain and the 

@@ -13,7 +13,7 @@ description: The A380 Flight Deck Oxygen Panel description.
 
 ![Oxygen Panel](../../../assets/a380x-briefing/flight-deck/ovhd/oxygen-panel.png "Oxygen Panel"){loading=lazy}
 
-[//]: # (TODO API Doc Link)
+!!! note "API Documentation: [OXYGEN Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#oxygen-panel)"
 
 ## Usage
 

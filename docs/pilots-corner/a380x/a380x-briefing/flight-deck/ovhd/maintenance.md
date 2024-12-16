@@ -81,12 +81,12 @@ Displays the voltage of the selected battery.
 #### FADEC GND PWR pb
 
 - AUTO: 
-  - The aircraft electrical network or the FADEC alternator automatically supplies the FADEC.
+    - The aircraft electrical network or the FADEC alternator automatically supplies the FADEC.
 - ON:
-  - On ground, the aircraft electrical network supplies the FADEC for 10 min, provided that:
-      - The ENG FIRE pb-sw is not pressed
-      - The FADEC is not self-powered.
-      - The FADEC is self-powered when N2 is above 12.5 %.
+    - On ground, the aircraft electrical network supplies the FADEC for 10 min, provided that:
+        - The ENG FIRE pb-sw is not pressed
+        - The FADEC is not self-powered.
+        - The FADEC is self-powered when N2 is above 12.5 %.
 
 ### MAINT
 

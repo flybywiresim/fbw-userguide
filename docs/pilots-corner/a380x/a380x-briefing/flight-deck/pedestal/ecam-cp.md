@@ -13,6 +13,8 @@ description: The A380 Flight Deck ECAM Control Panel description.
 
 ![img_4.png](../../../assets/a380x-briefing/flight-deck/pedestal/ecp.png)
 
+!!! note "API Documentation: [ECP API Documentation](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#ecam-control-panel)"
+
 ## Description
 
 The flight crew uses the ECAM Control Panel (ECP) to interface with the ECAM system. There is one

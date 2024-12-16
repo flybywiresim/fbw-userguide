@@ -13,8 +13,6 @@ description: The A380 Flight Deck Pressurization Panel description.
 ![Pressurization Panel](../../../assets/a380x-briefing/flight-deck/ovhd/press-panel.png "Pressurization Panel"){loading=lazy}
 ![Ditching Button](../../../assets/a380x-briefing/flight-deck/ovhd/ditching-panel.png "Ditching Button"){loading=lazy width=20% align=right}
 
-[//]: # (TODO API Doc Link)
-
 ## Description
 
 The cabin pressurization system controls the pressurization of the cabin to allow crew and passengers

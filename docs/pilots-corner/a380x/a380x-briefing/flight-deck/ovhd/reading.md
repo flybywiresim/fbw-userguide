@@ -12,7 +12,7 @@ description: The A380 Flight Deck Reading Lights Panels description.
 ---
 ![Reading Lights Panel](../../../assets/a380x-briefing/flight-deck/ovhd/reading-panel.png "Reading Lights Panel"){loading=lazy width=20%}
 
-[//]: # (TODO API Doc Link)
+!!! note "API Documentation: [Reading Lights Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#reading-lights-panel)"
 
 ## Description
 

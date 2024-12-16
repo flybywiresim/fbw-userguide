@@ -9,9 +9,11 @@ description: The A380 Flight Deck Cockpit Lighting Panel description.
 
 ---
 
-## Overview
-
 ![Cockpit Lighting](../../../assets/a380x-briefing/flight-deck/pedestal/cockpit-lt-panel.png)
+
+!!! note "API Documentation: [Cockpit Lighting Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#cockpit-lighting-panel)"
+
+## Description
 
 The Cockpit Lighting Panel has knobs to control various cockpit lights.
 The knob settings range from "OFF" to "BRT" (Bright), allowing pilots to set the lighting levels to their

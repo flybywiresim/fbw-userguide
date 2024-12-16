@@ -51,15 +51,15 @@ The FlyByWire A32NX also requires specific variables to control its advanced fea
 
 Flight-Deck Documentation: [Flight-Deck API](a32nx-flightdeck-api.md)
 
-Developer Documentation: [A32NX API Documentation](lvars-events.md)
+Developer Documentation: [A32NX API Documentation](a32nx-systems-api)
 
 The most common software solutions are:
 
-- [SPAD.neXt](https://www.spadnext.com/home.html){target=new}
+- [Axis and Ohs](https://www.axisandohs.com/){target=new}
 - [FSUIPC](http://www.fsuipc.com/){target=new}
-- [Axis and Ohs](https://axisandohs.weebly.com/){target=new}
+- [Mobiflight](https://www.mobiflight.com/en/index.html){target=new}
+- [SPAD.neXt](https://www.spadnext.com/home.html){target=new}
 
-For SPAD.neXt we have some example configurations for common hardware controllers: [Common hardware with SPAD](hardware.md)
 
 
 

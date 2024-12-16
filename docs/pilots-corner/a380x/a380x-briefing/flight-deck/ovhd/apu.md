@@ -13,10 +13,7 @@ description: The A380 Flight Deck Auxiliary Power Unit (APU) description.
 
 ![APU Panel](../../../assets/a380x-briefing/flight-deck/ovhd/apu-panel.png "APU Panel"){loading=lazy width=20%}
 
-[//]: # (TODO)
-<!-- TODO
-!!! note "API Documentation: [APU Panel API](../../../../../aircraft/a32nx/a32nx-api/a32nx-flightdeck-api.md#apu-panel)"
--->
+!!! note "API Documentation: [APU Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#apu-panel)"
 
 ## Description
 

@@ -13,6 +13,8 @@ description: The A380 Flight Deck Speed Brake Panel description.
 
 ![img_5.png](../../../assets/a380x-briefing/flight-deck/pedestal/speed-brake.png){loading=lazy width=70%}
 
+!!! note "API Documentation: [SPEED BRAKE Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#speed-brake-panel)"
+
 ## Description
 
 - The speed brake surfaces can be controlled with the SPEED BRAKE lever.
@@ -22,7 +24,6 @@ description: The A380 Flight Deck Speed Brake Panel description.
   achieve this.
 - When the lever is armed (or reverse thrust is selected), all spoiler's surfaces will automatically extend at landing, 
   or in case of a rejected takeoff.
-
 
 
 ---

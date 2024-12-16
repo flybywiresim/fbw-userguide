@@ -13,7 +13,7 @@ description: The A380 Flight Deck Air Data Inertial Reference System (ADIRS) Pan
 
 ![ADIRS Panel](../../../assets/a380x-briefing/flight-deck/ovhd/adirs-panel.png "ADIRS Panel"){loading=lazy width=50%}
 
-[//]: # (TODO API Doc Link)
+!!! note "API Documentation: [ADIRS Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#adirs-panel)"
 
 ## Description
 

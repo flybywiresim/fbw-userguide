@@ -13,6 +13,8 @@ description: The A380 Flight Deck Flaps Lever Panel description.
 
 ![img_7.png](../../../assets/a380x-briefing/flight-deck/pedestal/flaps.png){loading=lazy width=50%}
 
+!!! note "API Documentation: [FLAPS Lever Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#flaps-panel)"
+
 ## Description
 
 The FLAPS lever controls the operation of the slats and flaps.

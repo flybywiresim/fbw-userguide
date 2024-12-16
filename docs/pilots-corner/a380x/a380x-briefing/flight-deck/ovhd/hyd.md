@@ -14,7 +14,7 @@ description: The A380 Flight Deck Hydraulic Panel description.
 ![Hydraulic Panel](../../../assets/a380x-briefing/flight-deck/ovhd/hyd-panel.png "Hydraulic Panel"){loading=lazy}
 ![img.png](../../../assets/a380x-briefing/flight-deck/ovhd/hyd-ground-panel.png)
 
-[//]: # (TODO API Doc Link)
+!!! note "API Documentation: [HYD Panel API](../../../../../aircraft/a380x/a380x-api/a380x-flight-deck-api.md#hydraulics-panel)"
 
 ## Description
 
