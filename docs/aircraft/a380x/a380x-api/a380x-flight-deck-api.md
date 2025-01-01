@@ -18,7 +18,7 @@ Find the developer documentation of Custom Events and Custom LVars of the A380X:
 [//]: # (- [Custom Events]&#40;https://github.com/flybywiresim/aircraft/blob/master/fbw-a380x/docs/a380-events.md&#41;{target=new})
 
 
-## "How to read the tables"
+## How to read the tables
 
 - **Function**: The name of the switch or button on the panel.
 - **API Usage**: The name of the API variable or event.
@@ -32,7 +32,7 @@ To shorten the length of the table, we use the following placeholders for the AP
 - `{SIDE}`: Replace with `L` for left, `R` for right (and sometimes `C` for Center).
 - `{NUM}`: Replace with `1` for the first, `2` for the second, `3` for the third, `4` for the fourth.
 
-### "API Var and Event Types"
+### API Var and Event Types
 
 | Type                 | Description                                                                                                           |
 |----------------------|-----------------------------------------------------------------------------------------------------------------------|
